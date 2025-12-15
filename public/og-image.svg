@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Calculator icon -->
+  <g transform="translate(100, 165)">
+    <rect width="200" height="300" rx="20" fill="white"/>
+    <rect x="20" y="20" width="160" height="60" rx="10" fill="#1e40af"/>
+    <rect x="20" y="100" width="35" height="35" rx="6" fill="#e5e7eb"/>
+    <rect x="65" y="100" width="35" height="35" rx="6" fill="#e5e7eb"/>
+    <rect x="110" y="100" width="35" height="35" rx="6" fill="#e5e7eb"/>
+    <rect x="155" y="100" width="35" height="35" rx="6" fill="#3b82f6"/>
+    <rect x="20" y="145" width="35" height="35" rx="6" fill="#e5e7eb"/>
+    <rect x="65" y="145" width="35" height="35" rx="6" fill="#e5e7eb"/>
+    <rect x="110" y="145" width="35" height="35" rx="6" fill="#e5e7eb"/>
+    <rect x="155" y="145" width="35" height="35" rx="6" fill="#3b82f6"/>
+    <rect x="20" y="190" width="35" height="35" rx="6" fill="#e5e7eb"/>
+    <rect x="65" y="190" width="35" height="35" rx="6" fill="#e5e7eb"/>
+    <rect x="110" y="190" width="35" height="35" rx="6" fill="#e5e7eb"/>
+    <rect x="155" y="190" width="35" height="80" rx="6" fill="#10b981"/>
+    <rect x="20" y="235" width="80" height="35" rx="6" fill="#e5e7eb"/>
+    <rect x="110" y="235" width="35" height="35" rx="6" fill="#e5e7eb"/>
+  </g>
+
+  <!-- Globe -->
+  <circle cx="250" cy="200" r="70" fill="none" stroke="white" stroke-width="4" opacity="0.8"/>
+  <ellipse cx="250" cy="200" rx="70" ry="25" fill="none" stroke="white" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="250" cy="200" rx="25" ry="70" fill="none" stroke="white" stroke-width="2" opacity="0.6"/>
+
+  <!-- Text -->
+  <text x="380" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" fill="white">World Calculator</text>
+  <text x="380" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="white" opacity="0.9">Free online calculators for finance, health, math &amp; more</text>
+
+  <!-- URL -->
+  <text x="380" y="520" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="white" opacity="0.7">worldcalculator.com</text>
+</svg>

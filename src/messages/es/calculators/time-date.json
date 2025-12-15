@@ -1,0 +1,6 @@
+{
+  "_category": {
+    "description": "Traducciones de calculadoras de tiempo y fecha",
+    "calculators": ["age", "date-difference", "countdown", "time-zone", "work-hours"]
+  }
+}

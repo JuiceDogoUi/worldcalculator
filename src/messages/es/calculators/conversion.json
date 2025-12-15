@@ -1,0 +1,6 @@
+{
+  "_category": {
+    "description": "Traducciones de calculadoras de conversión",
+    "calculators": ["length", "weight", "temperature", "currency", "volume"]
+  }
+}

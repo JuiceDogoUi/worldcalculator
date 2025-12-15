@@ -1,0 +1,55 @@
+{
+  "site": {
+    "name": "World Calculator",
+    "h1": "Calcolatori Online Gratuiti per Matematica, Finanza, Salute e Altro",
+    "description": "Calcolatori online gratuiti per tutti",
+    "tagline": "Calcola qualsiasi cosa, in qualsiasi momento, ovunque"
+  },
+  "actions": {
+    "calculate": "Calcola",
+    "reset": "Ripristina",
+    "copy": "Copia",
+    "share": "Condividi",
+    "learnMore": "Scopri di più",
+    "backToHome": "Torna alla Home"
+  },
+  "categories": {
+    "finance": "Finanza",
+    "health": "Salute e Fitness",
+    "math": "Matematica",
+    "conversion": "Conversione",
+    "timeDate": "Data e Ora",
+    "construction": "Costruzione"
+  },
+  "categoryH1": {
+    "finance": "Calcolatori Finanziari - Prestiti, Mutui e Strumenti di Investimento",
+    "health": "Calcolatori di Salute e Fitness - BMI, Calorie e Metriche Corporee",
+    "math": "Calcolatori Matematici - Percentuale, GPA e Calcoli Quotidiani",
+    "conversion": "Convertitori di Unità - Valuta, Temperatura e Distanza",
+    "timeDate": "Calcolatori di Data e Ora - Età, Durata e Strumenti per Date",
+    "construction": "Calcolatori di Costruzione - Metratura Quadrata, Materiali e Stime"
+  },
+  "footer": {
+    "description": "Calcolatori online gratuiti per tutte le tue esigenze",
+    "categoriesTitle": "Categorie",
+    "linksTitle": "Collegamenti",
+    "about": "Chi siamo",
+    "privacy": "Informativa sulla Privacy",
+    "terms": "Termini di Servizio",
+    "contact": "Contatto",
+    "copyright": "Tutti i diritti riservati"
+  },
+  "calculator": {
+    "home": "Home",
+    "relatedCalculators": "Calcolatori Correlati",
+    "howToUse": "Come Usare",
+    "examples": "Esempi",
+    "faq": "Domande Frequenti",
+    "comingSoon": "Prossimamente",
+    "comingSoonDescription": "I calcolatori di questa categoria saranno aggiunti presto.",
+    "exploreCategory": "Esplora i calcolatori di questa categoria",
+    "browseCategory": "Visualizza tutti i calcolatori di questa categoria",
+    "allCalculators": "Tutti i Calcolatori",
+    "browseAllCategories": "Sfoglia tutte le categorie di calcolatori"
+  }
+}

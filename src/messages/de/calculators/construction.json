@@ -1,0 +1,6 @@
+{
+  "_category": {
+    "description": "Construction calculator translations",
+    "calculators": ["square-footage", "paint", "concrete", "flooring", "roofing"]
+  }
+}

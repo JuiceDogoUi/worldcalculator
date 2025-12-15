@@ -1,0 +1,55 @@
+{
+  "site": {
+    "name": "World Calculator",
+    "h1": "Kostenlose Online-Rechner für Mathematik, Finanzen, Gesundheit und Mehr",
+    "description": "Kostenlose Online-Rechner für alle",
+    "tagline": "Berechnen Sie alles, jederzeit, überall"
+  },
+  "actions": {
+    "calculate": "Berechnen",
+    "reset": "Zurücksetzen",
+    "copy": "Kopieren",
+    "share": "Teilen",
+    "learnMore": "Mehr erfahren",
+    "backToHome": "Zurück zur Startseite"
+  },
+  "categories": {
+    "finance": "Finanzen",
+    "health": "Gesundheit & Fitness",
+    "math": "Mathematik",
+    "conversion": "Umrechnung",
+    "timeDate": "Datum & Uhrzeit",
+    "construction": "Bauwesen"
+  },
+  "categoryH1": {
+    "finance": "Finanzrechner - Kredit-, Hypotheken- und Anlagetools",
+    "health": "Gesundheits- und Fitnessrechner - BMI, Kalorien und Körpermetriken",
+    "math": "Mathematikrechner - Prozent, GPA und Alltagsberechnungen",
+    "conversion": "Einheitenumrechner - Währung, Temperatur und Entfernung",
+    "timeDate": "Datums- und Uhrzeitrechner - Alter, Dauer und Datumswerkzeuge",
+    "construction": "Baurechner - Quadratmeterzahl, Materialien und Schätzungen"
+  },
+  "footer": {
+    "description": "Kostenlose Online-Rechner für alle Ihre Bedürfnisse",
+    "categoriesTitle": "Kategorien",
+    "linksTitle": "Links",
+    "about": "Über uns",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "contact": "Kontakt",
+    "copyright": "Alle Rechte vorbehalten"
+  },
+  "calculator": {
+    "home": "Startseite",
+    "relatedCalculators": "Verwandte Rechner",
+    "howToUse": "Anleitung",
+    "examples": "Beispiele",
+    "faq": "Häufig gestellte Fragen",
+    "comingSoon": "Demnächst Verfügbar",
+    "comingSoonDescription": "Rechner für diese Kategorie werden bald hinzugefügt.",
+    "exploreCategory": "Entdecken Sie die Rechner dieser Kategorie",
+    "browseCategory": "Alle Rechner dieser Kategorie anzeigen",
+    "allCalculators": "Alle Rechner",
+    "browseAllCategories": "Alle Rechnerkategorien durchsuchen"
+  }
+}

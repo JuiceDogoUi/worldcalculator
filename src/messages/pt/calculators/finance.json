@@ -1,0 +1,6 @@
+{
+  "_category": {
+    "description": "Finance calculator translations",
+    "calculators": ["loan", "mortgage", "savings", "investment", "compound-interest"]
+  }
+}

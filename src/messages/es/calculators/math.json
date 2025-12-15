@@ -1,0 +1,51 @@
+{
+  "percentage": {
+    "title": "Calculadora de Porcentajes",
+    "description": "Calcula porcentajes de forma rápida y sencilla. Encuentra qué porcentaje es un número de otro, calcula aumentos/disminuciones porcentuales y más.",
+    "meta": {
+      "title": "Calculadora de Porcentajes - Calculadora de Porcentajes Gratis",
+      "description": "Calculadora de porcentajes online gratis. Calcula qué porcentaje es un número de otro, encuentra aumentos o disminuciones porcentuales y resuelve problemas de porcentajes al instante."
+    },
+    "modes": {
+      "whatIsXPercentOfY": "¿Cuánto es el X% de Y?",
+      "xIsWhatPercentOfY": "¿X es qué % de Y?",
+      "percentageChange": "Cambio Porcentual"
+    },
+    "inputs": {
+      "percentage": "Porcentaje",
+      "number": "Número",
+      "fromValue": "Valor Inicial",
+      "toValue": "Valor Final"
+    },
+    "results": {
+      "result": "Resultado",
+      "percentageIs": "{value} es el {percent}% de {total}",
+      "percentageOf": "El {percent}% de {number} es {result}",
+      "percentageChange": "El cambio de {from} a {to} es {percent}%",
+      "increase": "Aumento",
+      "decrease": "Disminución"
+    },
+    "examples": {
+      "title": "Ejemplos",
+      "example1": "¿Cuánto es el 15% de 200? Respuesta: 30",
+      "example2": "¿25 es qué porcentaje de 50? Respuesta: 50%",
+      "example3": "¿Cambio de 80 a 100? Respuesta: 25% de aumento"
+    },
+    "howToUse": {
+      "title": "Cómo Usar",
+      "step1": "Selecciona el modo de cálculo que necesitas",
+      "step2": "Ingresa los valores en los campos",
+      "step3": "El resultado se calcula automáticamente",
+      "step4": "Copia el resultado o intenta otro cálculo"
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "q1": "¿Cómo calculo un porcentaje de un número?",
+      "a1": "Para encontrar X% de Y, multiplica Y por X y divide entre 100. Por ejemplo, 20% de 150 = (150 × 20) ÷ 100 = 30.",
+      "q2": "¿Cómo encuentro qué porcentaje es un número de otro?",
+      "a2": "Divide el primer número entre el segundo y multiplica por 100. Por ejemplo, ¿25 es qué % de 50? (25 ÷ 50) × 100 = 50%.",
+      "q3": "¿Cómo calculo el aumento o disminución porcentual?",
+      "a3": "Resta el valor antiguo del nuevo, divide entre el valor antiguo y multiplica por 100. Un resultado positivo es aumento, negativo es disminución."
+    }
+  }
+}

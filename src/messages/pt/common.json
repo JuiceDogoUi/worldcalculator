@@ -1,0 +1,55 @@
+{
+  "site": {
+    "name": "World Calculator",
+    "h1": "Calculadoras Online Gratuitas para Matemática, Finanças, Saúde e Mais",
+    "description": "Calculadoras online gratuitas para todos",
+    "tagline": "Calcule qualquer coisa, a qualquer hora, em qualquer lugar"
+  },
+  "actions": {
+    "calculate": "Calcular",
+    "reset": "Reiniciar",
+    "copy": "Copiar",
+    "share": "Compartilhar",
+    "learnMore": "Saiba mais",
+    "backToHome": "Voltar ao Início"
+  },
+  "categories": {
+    "finance": "Finanças",
+    "health": "Saúde e Fitness",
+    "math": "Matemática",
+    "conversion": "Conversão",
+    "timeDate": "Data e Hora",
+    "construction": "Construção"
+  },
+  "categoryH1": {
+    "finance": "Calculadoras Financeiras - Empréstimos, Hipotecas e Ferramentas de Investimento",
+    "health": "Calculadoras de Saúde e Fitness - IMC, Calorias e Métricas Corporais",
+    "math": "Calculadoras Matemáticas - Porcentagem, GPA e Cálculos Cotidianos",
+    "conversion": "Conversores de Unidades - Moeda, Temperatura e Distância",
+    "timeDate": "Calculadoras de Data e Hora - Idade, Duração e Ferramentas de Data",
+    "construction": "Calculadoras de Construção - Metragem Quadrada, Materiais e Estimativas"
+  },
+  "footer": {
+    "description": "Calculadoras online gratuitas para todas as suas necessidades",
+    "categoriesTitle": "Categorias",
+    "linksTitle": "Links",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "contact": "Contato",
+    "copyright": "Todos os direitos reservados"
+  },
+  "calculator": {
+    "home": "Início",
+    "relatedCalculators": "Calculadoras Relacionadas",
+    "howToUse": "Como Usar",
+    "examples": "Exemplos",
+    "faq": "Perguntas Frequentes",
+    "comingSoon": "Em Breve",
+    "comingSoonDescription": "As calculadoras desta categoria serão adicionadas em breve.",
+    "exploreCategory": "Explore as calculadoras desta categoria",
+    "browseCategory": "Ver todas as calculadoras desta categoria",
+    "allCalculators": "Todas as Calculadoras",
+    "browseAllCategories": "Ver todas as categorias de calculadoras"
+  }
+}

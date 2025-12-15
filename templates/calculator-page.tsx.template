@@ -1,0 +1,75 @@
+/**
+ * Calculator Page Template
+ *
+ * Copy this file to: src/app/[locale]/calculators/[category]/[slug]/page.tsx
+ * when you're ready to start adding calculators
+ *
+ * Instructions:
+ * 1. Uncomment and adapt the generateStaticParams function
+ * 2. Import the specific calculator components you need
+ * 3. Update the metadata and translations
+ */
+
+import { notFound } from 'next/navigation'
+import { getTranslations } from 'next-intl/server'
+import { CalculatorLayout } from '@/components/calculator/CalculatorLayout'
+import { getCategoryBySlug } from '@/config/categories'
+// import { calculators } from '@/config/calculators'
+
+interface CalculatorPageProps {
+  params: Promise<{
+    locale: string
+    category: string
+    slug: string
+  }>
+}
+
+export const dynamicParams = false
+
+export default async function CalculatorPage({ params }: CalculatorPageProps) {
+  const { category: categorySlug, slug } = await params
+
+  // Validate category exists
+  const category = getCategoryBySlug(categorySlug)
+  if (!category) {
+    notFound()
+  }
+
+  const t = await getTranslations()
+
+  // TODO: Look up calculator by slug in calculators config
+  // const calculator = calculators.find(c => c.slug === slug && c.category === categorySlug)
+  // if (!calculator) {
+  //   notFound()
+  // }
+
+  // TODO: Import and render the specific calculator component
+  // Example:
+  // import { BMICalculator } from '@/components/calculators/BMICalculator'
+  // <BMICalculator />
+
+  return (
+    <CalculatorLayout
+      title={`${slug} Calculator`}
+      description="Calculator description from config"
+      categorySlug={categorySlug}
+      categoryName={t(`categories.${category.translationKey}`)}
+    >
+      <div className="space-y-4">
+        <p>Calculator component for {slug} goes here</p>
+      </div>
+    </CalculatorLayout>
+  )
+}
+
+/**
+ * Generate static params for all calculators
+ * Uncomment and adapt when adding calculators
+ */
+export function generateStaticParams() {
+  // return calculators.map((calc) => ({
+  //   category: calc.category,
+  //   slug: calc.slug,
+  // }))
+  return []
+}

@@ -1,0 +1,6 @@
+{
+  "_category": {
+    "description": "Health & Fitness calculator translations",
+    "calculators": ["bmi", "calorie", "body-fat", "ideal-weight", "bmr"]
+  }
+}

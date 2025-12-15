@@ -1,0 +1,55 @@
+{
+  "site": {
+    "name": "World Calculator",
+    "h1": "Free Online Calculators for Math, Finance, Health & More",
+    "description": "Free online calculators for everyone",
+    "tagline": "Calculate anything, anytime, anywhere"
+  },
+  "actions": {
+    "calculate": "Calculate",
+    "reset": "Reset",
+    "copy": "Copy",
+    "share": "Share",
+    "learnMore": "Learn More",
+    "backToHome": "Back to Home"
+  },
+  "categories": {
+    "finance": "Finance",
+    "health": "Health & Fitness",
+    "math": "Math",
+    "conversion": "Conversion",
+    "timeDate": "Time & Date",
+    "construction": "Construction"
+  },
+  "categoryH1": {
+    "finance": "Finance Calculators - Loan, Mortgage & Investment Tools",
+    "health": "Health & Fitness Calculators - BMI, Calorie & Body Metrics",
+    "math": "Math Calculators - Percentage, GPA & Everyday Calculations",
+    "conversion": "Unit Converters - Currency, Temperature & Distance",
+    "timeDate": "Time & Date Calculators - Age, Duration & Date Tools",
+    "construction": "Construction Calculators - Square Footage, Materials & Estimates"
+  },
+  "footer": {
+    "description": "Free online calculators for all your needs",
+    "categoriesTitle": "Categories",
+    "linksTitle": "Links",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "copyright": "All rights reserved"
+  },
+  "calculator": {
+    "home": "Home",
+    "relatedCalculators": "Related Calculators",
+    "howToUse": "How to Use",
+    "examples": "Examples",
+    "faq": "Frequently Asked Questions",
+    "comingSoon": "Coming Soon",
+    "comingSoonDescription": "Calculators for this category will be added soon.",
+    "exploreCategory": "Explore calculators in this category",
+    "browseCategory": "Browse all calculators in this category",
+    "allCalculators": "All Calculators",
+    "browseAllCategories": "Browse all calculator categories"
+  }
+}
