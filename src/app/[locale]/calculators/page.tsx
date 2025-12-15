@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { Link } from '@/i18n/routing'
 import { categories } from '@/config/categories'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
@@ -13,6 +13,9 @@ import {
 import type { Metadata } from 'next'
 import { locales } from '@/i18n/locales'
 
+export const dynamic = 'force-static'
+export const dynamicParams = false
+
 const iconMap = {
   DollarSign,
   Heart,
@@ -22,14 +25,16 @@ const iconMap = {
   Hammer,
 }
 
+interface CalculatorsPageProps {
+  params: Promise<{ locale: string }>
+}
+
 /**
  * Generate metadata for calculators listing page
  */
 export async function generateMetadata({
   params,
-}: {
-  params: Promise<{ locale: string }>
-}): Promise<Metadata> {
+}: CalculatorsPageProps): Promise<Metadata> {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'site' })
 
@@ -65,9 +70,14 @@ export async function generateMetadata({
  * Calculators index page
  * Displays all calculator categories
  */
-export default async function CalculatorsPage() {
-  const tSite = await getTranslations('site')
-  const tCategories = await getTranslations('categories')
+export default async function CalculatorsPage({ params }: CalculatorsPageProps) {
+  const { locale } = await params
+
+  // Enable static rendering
+  setRequestLocale(locale)
+
+  const tSite = await getTranslations({ locale, namespace: 'site' })
+  const tCategories = await getTranslations({ locale, namespace: 'categories' })
 
   return (
     <div className="container py-8">
@@ -107,4 +117,11 @@ export default async function CalculatorsPage() {
       </div>
     </div>
   )
+}
+
+/**
+ * Generate static params for all locales
+ */
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }))
 }

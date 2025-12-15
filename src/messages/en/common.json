@@ -5,6 +5,23 @@
     "description": "Free online calculators for everyone",
     "tagline": "Calculate anything, anytime, anywhere"
   },
+  "home": {
+    "heroTitle": "Calculate Anything",
+    "heroSubtitle": "Free, fast, and accurate calculators for finance, health, math, and more. No sign-up required.",
+    "searchPlaceholder": "Search calculators...",
+    "categoriesTitle": "Explore Categories",
+    "categoriesSubtitle": "Find the right calculator for your needs",
+    "categoryDescriptions": {
+      "finance": "Loans, mortgages, investments, savings, and more",
+      "health": "BMI, calories, body fat, fitness tracking",
+      "math": "Percentages, fractions, averages, GPA",
+      "conversion": "Units, currency, temperature, distance",
+      "timeDate": "Age calculator, date difference, countdown",
+      "construction": "Square footage, materials, paint estimates"
+    },
+    "viewAll": "View All",
+    "calculatorsCount": "{count} calculators"
+  },
   "actions": {
     "calculate": "Calculate",
     "reset": "Reset",

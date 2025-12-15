@@ -1,10 +1,13 @@
 import { notFound } from 'next/navigation'
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { categories, getCategoryBySlug } from '@/config/categories'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import type { Metadata } from 'next'
 import { locales } from '@/i18n/locales'
+
+export const dynamic = 'force-static'
+export const dynamicParams = false
 
 interface CategoryPageProps {
   params: Promise<{
@@ -73,7 +76,10 @@ export async function generateMetadata({
  * Category page - displays all calculators in a category
  */
 export default async function CategoryPage({ params }: CategoryPageProps) {
-  const { category: categorySlug } = await params
+  const { locale, category: categorySlug } = await params
+
+  // Enable static rendering
+  setRequestLocale(locale)
 
   // Validate category exists
   const category = getCategoryBySlug(categorySlug)
@@ -81,9 +87,9 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     notFound()
   }
 
-  const tCategory = await getTranslations('categories')
-  const tH1 = await getTranslations('categoryH1')
-  const tCalculator = await getTranslations('calculator')
+  const tCategory = await getTranslations({ locale, namespace: 'categories' })
+  const tH1 = await getTranslations({ locale, namespace: 'categoryH1' })
+  const tCalculator = await getTranslations({ locale, namespace: 'calculator' })
 
   // Get the translation key
   const key = category.translationKey as
@@ -138,10 +144,14 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 }
 
 /**
- * Generate static params for all categories
+ * Generate static params for all locale + category combinations
  */
 export function generateStaticParams() {
-  return categories.map((category) => ({
-    category: category.slug,
-  }))
+  const params: { locale: string; category: string }[] = []
+  for (const locale of locales) {
+    for (const category of categories) {
+      params.push({ locale, category: category.slug })
+    }
+  }
+  return params
 }

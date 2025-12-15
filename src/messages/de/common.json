@@ -5,6 +5,23 @@
     "description": "Kostenlose Online-Rechner für alle",
     "tagline": "Berechnen Sie alles, jederzeit, überall"
   },
+  "home": {
+    "heroTitle": "Berechnen Sie Alles",
+    "heroSubtitle": "Kostenlose, schnelle und genaue Rechner für Finanzen, Gesundheit, Mathematik und mehr. Keine Anmeldung erforderlich.",
+    "searchPlaceholder": "Rechner suchen...",
+    "categoriesTitle": "Kategorien Erkunden",
+    "categoriesSubtitle": "Finden Sie den richtigen Rechner für Ihre Bedürfnisse",
+    "categoryDescriptions": {
+      "finance": "Kredite, Hypotheken, Investitionen, Ersparnisse und mehr",
+      "health": "BMI, Kalorien, Körperfett, Fitness-Tracking",
+      "math": "Prozente, Brüche, Durchschnitte, GPA",
+      "conversion": "Einheiten, Währung, Temperatur, Entfernung",
+      "timeDate": "Altersrechner, Datumsdifferenz, Countdown",
+      "construction": "Quadratmeter, Materialien, Farbschätzungen"
+    },
+    "viewAll": "Alle Anzeigen",
+    "calculatorsCount": "{count} Rechner"
+  },
   "actions": {
     "calculate": "Berechnen",
     "reset": "Zurücksetzen",

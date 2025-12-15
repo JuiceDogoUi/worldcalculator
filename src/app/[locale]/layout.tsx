@@ -1,5 +1,5 @@
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages, getTranslations } from 'next-intl/server'
+import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { locales, localeConfigs } from '@/i18n/locales'
 import { Header } from '@/components/layout/Header'
@@ -55,6 +55,9 @@ export default async function LocaleLayout({
     notFound()
   }
 
+  // Enable static rendering
+  setRequestLocale(locale)
+
   // Get messages for the locale
   const messages = await getMessages()
   const config = localeConfigs[locale as keyof typeof localeConfigs]
@@ -72,27 +75,25 @@ export default async function LocaleLayout({
   const websiteSchema = generateWebSiteSchema(structuredDataConfig)
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <body>
-        {/* Structured data for SEO */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
-        />
+    <>
+      {/* Structured data for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
 
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <div className="min-h-screen flex flex-col" dir={config?.direction}>
-            <Header />
-            <Navigation />
-            <main className="flex-grow">{children}</main>
-            <Footer />
-          </div>
-        </NextIntlClientProvider>
-      </body>
-    </html>
+      <NextIntlClientProvider locale={locale} messages={messages}>
+        <div className="min-h-screen flex flex-col" dir={config?.direction} lang={locale}>
+          <Header />
+          <Navigation />
+          <main className="flex-grow">{children}</main>
+          <Footer />
+        </div>
+      </NextIntlClientProvider>
+    </>
   )
 }

@@ -5,6 +5,23 @@
     "description": "Calculadoras online gratuitas para todos",
     "tagline": "Calcule qualquer coisa, a qualquer hora, em qualquer lugar"
   },
+  "home": {
+    "heroTitle": "Calcule Qualquer Coisa",
+    "heroSubtitle": "Calculadoras gratuitas, rápidas e precisas para finanças, saúde, matemática e mais. Sem cadastro.",
+    "searchPlaceholder": "Pesquisar calculadoras...",
+    "categoriesTitle": "Explorar Categorias",
+    "categoriesSubtitle": "Encontre a calculadora certa para suas necessidades",
+    "categoryDescriptions": {
+      "finance": "Empréstimos, hipotecas, investimentos, poupança e mais",
+      "health": "IMC, calorias, gordura corporal, acompanhamento fitness",
+      "math": "Porcentagens, frações, médias, GPA",
+      "conversion": "Unidades, moeda, temperatura, distância",
+      "timeDate": "Calculadora de idade, diferença de datas, contagem regressiva",
+      "construction": "Metros quadrados, materiais, estimativas de pintura"
+    },
+    "viewAll": "Ver Tudo",
+    "calculatorsCount": "{count} calculadoras"
+  },
   "actions": {
     "calculate": "Calcular",
     "reset": "Reiniciar",

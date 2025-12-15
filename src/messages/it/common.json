@@ -5,6 +5,23 @@
     "description": "Calcolatori online gratuiti per tutti",
     "tagline": "Calcola qualsiasi cosa, in qualsiasi momento, ovunque"
   },
+  "home": {
+    "heroTitle": "Calcola Qualsiasi Cosa",
+    "heroSubtitle": "Calcolatori gratuiti, veloci e precisi per finanza, salute, matematica e altro. Nessuna registrazione richiesta.",
+    "searchPlaceholder": "Cerca calcolatori...",
+    "categoriesTitle": "Esplora le Categorie",
+    "categoriesSubtitle": "Trova il calcolatore giusto per le tue esigenze",
+    "categoryDescriptions": {
+      "finance": "Prestiti, mutui, investimenti, risparmi e altro",
+      "health": "BMI, calorie, grasso corporeo, monitoraggio fitness",
+      "math": "Percentuali, frazioni, medie, GPA",
+      "conversion": "Unità, valuta, temperatura, distanza",
+      "timeDate": "Calcolatore età, differenza date, conto alla rovescia",
+      "construction": "Metri quadrati, materiali, stime vernice"
+    },
+    "viewAll": "Vedi Tutto",
+    "calculatorsCount": "{count} calcolatori"
+  },
   "actions": {
     "calculate": "Calcola",
     "reset": "Ripristina",

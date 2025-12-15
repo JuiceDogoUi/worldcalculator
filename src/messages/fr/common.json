@@ -5,6 +5,23 @@
     "description": "Calculateurs en ligne gratuits pour tous",
     "tagline": "Calculer n'importe quoi, n'importe quand, n'importe où"
   },
+  "home": {
+    "heroTitle": "Calculez Tout",
+    "heroSubtitle": "Calculateurs gratuits, rapides et précis pour la finance, la santé, les mathématiques et plus. Sans inscription.",
+    "searchPlaceholder": "Rechercher des calculateurs...",
+    "categoriesTitle": "Explorer les Catégories",
+    "categoriesSubtitle": "Trouvez le calculateur adapté à vos besoins",
+    "categoryDescriptions": {
+      "finance": "Prêts, hypothèques, investissements, épargne et plus",
+      "health": "IMC, calories, masse grasse, suivi fitness",
+      "math": "Pourcentages, fractions, moyennes, GPA",
+      "conversion": "Unités, devise, température, distance",
+      "timeDate": "Calculateur d'âge, différence de dates, compte à rebours",
+      "construction": "Superficie, matériaux, estimations de peinture"
+    },
+    "viewAll": "Voir Tout",
+    "calculatorsCount": "{count} calculateurs"
+  },
   "actions": {
     "calculate": "Calculer",
     "reset": "Réinitialiser",
