@@ -46,6 +46,64 @@
     "timeDate": "Calcolatori di Data e Ora - Età, Durata e Strumenti per Date",
     "construction": "Calcolatori di Costruzione - Metratura Quadrata, Materiali e Stime"
   },
+  "categorySeoDescription": {
+    "finance": "Calcola rate di prestito, tassi ipotecari, rendimenti degli investimenti e obiettivi di risparmio. Calcolatori finanziari gratuiti per decisioni più intelligenti.",
+    "health": "Monitora le tue metriche di salute con calcolatori di BMI, calorie, grasso corporeo e fitness. Strumenti gratuiti per supportare il tuo benessere.",
+    "math": "Risolvi percentuali, frazioni, medie e calcoli GPA istantaneamente. Calcolatori matematici gratuiti per studenti e professionisti.",
+    "conversion": "Converti unità, valute, temperature e distanze rapidamente. Convertitori precisi per l'uso quotidiano.",
+    "timeDate": "Calcola età, differenze di date, fusi orari e conto alla rovescia. Strumenti gratuiti di data e ora per la pianificazione.",
+    "construction": "Stima metratura quadrata, materiali, vernice e costi di progetto. Calcolatori di costruzione gratuiti per professionisti e hobbisti."
+  },
+  "categoryCalculatorCount": "{count, plural, =0 {Nessun calcolatore ancora} =1 {1 calcolatore} other {# calcolatori}}",
+  "categoryPage": {
+    "whatYouCanCalculate": "Cosa Puoi Calcolare",
+    "exploreOtherCategories": "Esplora Altre Categorie",
+    "availableTools": "Strumenti Disponibili"
+  },
+  "categoryFeatures": {
+    "finance": [
+      "Rate di prestito e piani di ammortamento",
+      "Accessibilità del mutuo e pagamenti mensili",
+      "Rendimenti degli investimenti e interesse composto",
+      "Obiettivi di risparmio e pianificazione pensionistica",
+      "Strategie di rimborso debiti e rifinanziamento"
+    ],
+    "health": [
+      "Indice di Massa Corporea (BMI) e peso ideale",
+      "Fabbisogno calorico giornaliero e macro",
+      "Calcoli della percentuale di grasso corporeo",
+      "Zone di frequenza cardiaca per l'esercizio",
+      "Calcoli di gravidanza e data del parto"
+    ],
+    "math": [
+      "Calcoli di percentuali e sconti",
+      "Operazioni e conversioni di frazioni",
+      "Calcoli di media, mediana e moda",
+      "Calcoli di GPA e voti",
+      "Risoluzione di rapporti e proporzioni"
+    ],
+    "conversion": [
+      "Unità di lunghezza, peso e volume",
+      "Temperatura tra Celsius e Fahrenheit",
+      "Tassi di cambio valuta",
+      "Conversioni di fusi orari",
+      "Unità di archiviazione (byte, KB, MB, GB)"
+    ],
+    "timeDate": [
+      "Calcolo dell'età dalla data di nascita",
+      "Giorni tra due date",
+      "Aggiungere o sottrarre giorni da una data",
+      "Giorni lavorativi e orari di lavoro",
+      "Conto alla rovescia per eventi e scadenze"
+    ],
+    "construction": [
+      "Calcoli di metratura e area",
+      "Stime di copertura della vernice",
+      "Requisiti di pavimentazione e piastrelle",
+      "Quantità di calcestruzzo e materiali",
+      "Misurazioni di tetto e rivestimento"
+    ]
+  },
   "footer": {
     "description": "Calcolatori online gratuiti per tutte le tue esigenze",
     "categoriesTitle": "Categorie",
@@ -67,6 +125,7 @@
     "exploreCategory": "Esplora i calcolatori di questa categoria",
     "browseCategory": "Visualizza tutti i calcolatori di questa categoria",
     "allCalculators": "Tutti i Calcolatori",
-    "browseAllCategories": "Sfoglia tutte le categorie di calcolatori"
+    "browseAllCategories": "Sfoglia tutte le categorie di calcolatori",
+    "lastUpdated": "Ultimo aggiornamento"
   }
 }

@@ -10,12 +10,26 @@ import { Calculator } from '@/types/calculator'
  */
 
 export const calculators: Calculator[] = [
-  // Mock calculator for testing routing
+  // Finance Calculators
+  {
+    id: 'loan-calculator',
+    slug: 'loan',
+    category: 'finance',
+    translationKey: 'calculators.finance.loan',
+    icon: 'Banknote',
+    featured: true,
+    difficulty: 'easy',
+    estimatedTime: 120,
+    relatedCalculators: ['mortgage', 'compound-interest', 'savings'],
+    lastModified: '2025-12-16',
+  },
+
+  // Math Calculators
   {
     id: 'percentage-calculator',
     slug: 'percentage',
     category: 'math',
-    translationKey: 'calculators.percentage',
+    translationKey: 'calculators.math.percentage',
     icon: 'Percent',
     featured: true,
     difficulty: 'easy',

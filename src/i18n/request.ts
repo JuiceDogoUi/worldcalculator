@@ -2,46 +2,52 @@ import { getRequestConfig } from 'next-intl/server'
 import { routing } from './routing'
 
 /**
- * Calculator category files to load
- * These are loaded dynamically and merged under the 'calculators' namespace
+ * Calculator categories with their calculator slugs
+ * Structure: { category: [calculatorSlugs] }
  */
-const CALCULATOR_CATEGORIES = [
-  'math',
-  'finance',
-  'health',
-  'conversion',
-  'time-date',
-  'construction',
-] as const
+const CALCULATOR_REGISTRY: Record<string, string[]> = {
+  finance: ['loan'],
+  math: [],
+  health: [],
+  conversion: [],
+  'time-date': [],
+  construction: [],
+}
 
 /**
  * Load and merge all translation messages for a locale
- * Combines common.json with category-specific calculator translations
+ * Combines common.json with calculator-level translations
+ * Structure: calculators.{category}.{calculatorSlug}
  */
 async function loadMessages(locale: string) {
   // Load base common translations
   const common = (await import(`../messages/${locale}/common.json`)).default
 
-  // Load calculator category translations
-  const calculatorMessages: Record<string, unknown> = {}
+  // Load calculator translations at calculator level
+  const calculatorMessages: Record<string, Record<string, unknown>> = {}
 
-  for (const category of CALCULATOR_CATEGORIES) {
-    try {
-      const categoryMessages = (
-        await import(`../messages/${locale}/calculators/${category}.json`)
-      ).default
+  for (const [category, calculators] of Object.entries(CALCULATOR_REGISTRY)) {
+    // Convert category to camelCase for namespace key (e.g., 'time-date' -> 'timeDate')
+    const categoryKey = category.replace(/-([a-z])/g, (_, letter) =>
+      letter.toUpperCase()
+    )
 
-      // Filter out internal metadata keys (starting with _)
-      Object.entries(categoryMessages).forEach(([key, value]) => {
-        if (!key.startsWith('_')) {
-          calculatorMessages[key] = value
-        }
-      })
-    } catch {
-      // Category file doesn't exist yet, skip
-      console.warn(
-        `Translation file not found: ${locale}/calculators/${category}.json`
-      )
+    // Initialize category namespace
+    calculatorMessages[categoryKey] = {}
+
+    // Load each calculator's translations
+    for (const calculator of calculators) {
+      try {
+        const calcMessages = (
+          await import(
+            `../messages/${locale}/calculators/${category}/${calculator}.json`
+          )
+        ).default
+
+        calculatorMessages[categoryKey][calculator] = calcMessages
+      } catch {
+        // Calculator translation file doesn't exist yet, skip silently
+      }
     }
   }
 

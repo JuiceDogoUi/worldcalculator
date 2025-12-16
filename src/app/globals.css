@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 210 40% 98%;
     --foreground: 0 0% 3.9%;
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
@@ -29,6 +29,9 @@
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
+    /* Semantic chart colors for calculator visualizations */
+    --chart-interest: 24 95% 53%;
+    --chart-fees: 271 81% 56%;
   }
 
   .dark {
@@ -56,6 +59,9 @@
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+    /* Semantic chart colors - adjusted for dark mode visibility */
+    --chart-interest: 30 90% 55%;
+    --chart-fees: 280 70% 65%;
   }
 }
 

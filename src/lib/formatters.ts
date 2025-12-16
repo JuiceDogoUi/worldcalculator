@@ -4,6 +4,38 @@
  */
 
 /**
+ * Locale to currency mapping
+ * Maps language codes to their primary currency (assuming language = country)
+ */
+const LOCALE_CURRENCY_MAP: Record<string, string> = {
+  en: 'USD', // English → United States Dollar
+  es: 'EUR', // Spanish → Euro (Spain)
+  fr: 'EUR', // French → Euro (France)
+  de: 'EUR', // German → Euro (Germany)
+  pt: 'EUR', // Portuguese → Euro (Portugal)
+  it: 'EUR', // Italian → Euro (Italy)
+}
+
+/**
+ * Get the default currency for a given locale
+ *
+ * @param locale - BCP 47 language tag or language code (e.g., 'en', 'en-US', 'de')
+ * @returns ISO 4217 currency code (default: 'USD' if locale not found)
+ *
+ * @example
+ * ```ts
+ * getCurrencyForLocale('en') // 'USD'
+ * getCurrencyForLocale('de') // 'EUR'
+ * getCurrencyForLocale('es-ES') // 'EUR'
+ * ```
+ */
+export function getCurrencyForLocale(locale: string): string {
+  // Extract language code from full locale (e.g., 'en-US' → 'en')
+  const languageCode = locale.split('-')[0].toLowerCase()
+  return LOCALE_CURRENCY_MAP[languageCode] || 'USD'
+}
+
+/**
  * Format a number as currency with locale-specific symbols
  *
  * @param amount - The numeric amount to format

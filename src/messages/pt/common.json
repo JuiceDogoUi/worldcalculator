@@ -46,6 +46,64 @@
     "timeDate": "Calculadoras de Data e Hora - Idade, Duração e Ferramentas de Data",
     "construction": "Calculadoras de Construção - Metragem Quadrada, Materiais e Estimativas"
   },
+  "categorySeoDescription": {
+    "finance": "Calcule pagamentos de empréstimos, taxas de hipoteca, retornos de investimentos e metas de poupança. Calculadoras financeiras gratuitas para decisões mais inteligentes.",
+    "health": "Acompanhe suas métricas de saúde com calculadoras de IMC, calorias, gordura corporal e fitness. Ferramentas gratuitas para apoiar seu bem-estar.",
+    "math": "Resolva porcentagens, frações, médias e cálculos de GPA instantaneamente. Calculadoras matemáticas gratuitas para estudantes e profissionais.",
+    "conversion": "Converta unidades, moedas, temperaturas e distâncias rapidamente. Conversores precisos para uso diário.",
+    "timeDate": "Calcule idade, diferenças de datas, fusos horários e contagens regressivas. Ferramentas gratuitas de data e hora para planejamento.",
+    "construction": "Estime metragem quadrada, materiais, tinta e custos de projetos. Calculadoras de construção gratuitas para empreiteiros e entusiastas."
+  },
+  "categoryCalculatorCount": "{count, plural, =0 {Nenhuma calculadora ainda} =1 {1 calculadora} other {# calculadoras}}",
+  "categoryPage": {
+    "whatYouCanCalculate": "O Que Você Pode Calcular",
+    "exploreOtherCategories": "Explorar Outras Categorias",
+    "availableTools": "Ferramentas Disponíveis"
+  },
+  "categoryFeatures": {
+    "finance": [
+      "Pagamentos de empréstimos e tabelas de amortização",
+      "Acessibilidade de hipoteca e pagamentos mensais",
+      "Retornos de investimento e juros compostos",
+      "Metas de poupança e planejamento de aposentadoria",
+      "Estratégias de pagamento de dívidas e refinanciamento"
+    ],
+    "health": [
+      "Índice de Massa Corporal (IMC) e peso ideal",
+      "Necessidades calóricas diárias e macros",
+      "Cálculos de percentual de gordura corporal",
+      "Zonas de frequência cardíaca para exercícios",
+      "Cálculos de gravidez e data do parto"
+    ],
+    "math": [
+      "Cálculos de porcentagem e descontos",
+      "Operações e conversões de frações",
+      "Cálculos de média, mediana e moda",
+      "Cálculos de GPA e notas",
+      "Resolução de razões e proporções"
+    ],
+    "conversion": [
+      "Unidades de comprimento, peso e volume",
+      "Temperatura entre Celsius e Fahrenheit",
+      "Taxas de câmbio de moedas",
+      "Conversões de fusos horários",
+      "Unidades de armazenamento (bytes, KB, MB, GB)"
+    ],
+    "timeDate": [
+      "Cálculo de idade a partir da data de nascimento",
+      "Dias entre duas datas",
+      "Adicionar ou subtrair dias de uma data",
+      "Dias úteis e horário comercial",
+      "Contagem regressiva para eventos e prazos"
+    ],
+    "construction": [
+      "Cálculos de metragem quadrada e área",
+      "Estimativas de cobertura de tinta",
+      "Requisitos de piso e azulejos",
+      "Quantidades de concreto e materiais",
+      "Medições de telhado e revestimento"
+    ]
+  },
   "footer": {
     "description": "Calculadoras online gratuitas para todas as suas necessidades",
     "categoriesTitle": "Categorias",
@@ -67,6 +125,7 @@
     "exploreCategory": "Explore as calculadoras desta categoria",
     "browseCategory": "Ver todas as calculadoras desta categoria",
     "allCalculators": "Todas as Calculadoras",
-    "browseAllCategories": "Ver todas as categorias de calculadoras"
+    "browseAllCategories": "Ver todas as categorias de calculadoras",
+    "lastUpdated": "Última atualização"
   }
 }

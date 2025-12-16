@@ -40,7 +40,7 @@ export function LanguageSwitcher() {
 
   return (
     <Select value={locale} onValueChange={handleLocaleChange}>
-      <SelectTrigger className="w-[140px]">
+      <SelectTrigger className="w-auto sm:w-[140px]">
         <SelectValue>
           <span className="flex items-center gap-2">
             <span>{currentLocale?.flag}</span>

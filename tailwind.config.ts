@@ -9,6 +9,19 @@ const config: Config = {
     './src/features/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+  	container: {
+  		center: true,
+  		padding: {
+  			DEFAULT: '1rem',
+  			sm: '2rem',
+  			lg: '4rem',
+  			xl: '5rem',
+  			'2xl': '6rem',
+  		},
+  		screens: {
+  			'2xl': '1200px',
+  		},
+  	},
   	extend: {
   		colors: {
   			border: 'hsl(var(--border))',
@@ -49,7 +62,9 @@ const config: Config = {
   				'2': 'hsl(var(--chart-2))',
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
-  				'5': 'hsl(var(--chart-5))'
+  				'5': 'hsl(var(--chart-5))',
+  				interest: 'hsl(var(--chart-interest))',
+  				fees: 'hsl(var(--chart-fees))'
   			}
   		},
   		borderRadius: {

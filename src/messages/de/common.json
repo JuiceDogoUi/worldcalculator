@@ -46,6 +46,64 @@
     "timeDate": "Datums- und Uhrzeitrechner - Alter, Dauer und Datumswerkzeuge",
     "construction": "Baurechner - Quadratmeterzahl, Materialien und Schätzungen"
   },
+  "categorySeoDescription": {
+    "finance": "Berechnen Sie Kreditraten, Hypothekenzinsen, Anlagerenditen und Sparziele. Kostenlose Finanzrechner für klügere Geldentscheidungen.",
+    "health": "Verfolgen Sie Ihre Gesundheitswerte mit BMI-, Kalorien-, Körperfett- und Fitnessrechnern. Kostenlose Tools für Ihr Wohlbefinden.",
+    "math": "Lösen Sie Prozent-, Bruch-, Durchschnitts- und GPA-Berechnungen sofort. Kostenlose Mathematikrechner für Schüler und Profis.",
+    "conversion": "Konvertieren Sie Einheiten, Währungen, Temperaturen und Entfernungen schnell. Präzise Umrechner für den Alltag.",
+    "timeDate": "Berechnen Sie Alter, Datumsunterschiede, Zeitzonen und Countdowns. Kostenlose Datums- und Uhrzeittools für die Planung.",
+    "construction": "Schätzen Sie Quadratmeterzahl, Materialien, Farbe und Projektkosten. Kostenlose Baurechner für Handwerker und Heimwerker."
+  },
+  "categoryCalculatorCount": "{count, plural, =0 {Noch keine Rechner} =1 {1 Rechner} other {# Rechner}}",
+  "categoryPage": {
+    "whatYouCanCalculate": "Was Sie Berechnen Können",
+    "exploreOtherCategories": "Andere Kategorien Erkunden",
+    "availableTools": "Verfügbare Tools"
+  },
+  "categoryFeatures": {
+    "finance": [
+      "Kreditraten und Tilgungspläne",
+      "Hypothekenerschwinglichkeit und monatliche Zahlungen",
+      "Anlagerenditen und Zinseszins",
+      "Sparziele und Altersvorsorge",
+      "Schuldenabbaustrategien und Umfinanzierung"
+    ],
+    "health": [
+      "Body-Mass-Index (BMI) und Idealgewicht",
+      "Täglicher Kalorienbedarf und Makros",
+      "Körperfettanteil-Berechnungen",
+      "Herzfrequenzzonen für Training",
+      "Schwangerschafts- und Geburtsterminberechnungen"
+    ],
+    "math": [
+      "Prozentrechnung und Rabatte",
+      "Bruchoperationen und Umrechnungen",
+      "Durchschnitts-, Mittelwert- und Medianberechnungen",
+      "GPA- und Notenberechnungen",
+      "Verhältnis- und Proportionslösung"
+    ],
+    "conversion": [
+      "Längen-, Gewichts- und Volumeneinheiten",
+      "Temperatur zwischen Celsius und Fahrenheit",
+      "Währungswechselkurse",
+      "Zeitzonenumrechnungen",
+      "Datenspeichereinheiten (Bytes, KB, MB, GB)"
+    ],
+    "timeDate": [
+      "Altersberechnung ab Geburtsdatum",
+      "Tage zwischen zwei Daten",
+      "Tage zu einem Datum addieren oder subtrahieren",
+      "Arbeitstage und Geschäftszeiten",
+      "Countdown für Ereignisse und Fristen"
+    ],
+    "construction": [
+      "Quadratmeter- und Flächenberechnungen",
+      "Farbabdeckungsschätzungen",
+      "Bodenbelag- und Fliesenanforderungen",
+      "Beton- und Materialmengen",
+      "Dach- und Verkleidungsmessungen"
+    ]
+  },
   "footer": {
     "description": "Kostenlose Online-Rechner für alle Ihre Bedürfnisse",
     "categoriesTitle": "Kategorien",
@@ -67,6 +125,7 @@
     "exploreCategory": "Entdecken Sie die Rechner dieser Kategorie",
     "browseCategory": "Alle Rechner dieser Kategorie anzeigen",
     "allCalculators": "Alle Rechner",
-    "browseAllCategories": "Alle Rechnerkategorien durchsuchen"
+    "browseAllCategories": "Alle Rechnerkategorien durchsuchen",
+    "lastUpdated": "Zuletzt aktualisiert"
   }
 }

@@ -16,6 +16,8 @@ export interface Calculator {
   difficulty: 'easy' | 'medium' | 'advanced'
   estimatedTime: number // in seconds
   relatedCalculators: string[]
+  /** ISO date string for last content update (YYYY-MM-DD) */
+  lastModified?: string
 }
 
 export interface CalculatorInput {

@@ -46,6 +46,64 @@
     "timeDate": "Time & Date Calculators - Age, Duration & Date Tools",
     "construction": "Construction Calculators - Square Footage, Materials & Estimates"
   },
+  "categorySeoDescription": {
+    "finance": "Calculate loan payments, mortgage rates, investment returns, and savings goals. Free financial calculators to help you make smarter money decisions.",
+    "health": "Track your health metrics with BMI, calorie, body fat, and fitness calculators. Free tools to support your wellness journey.",
+    "math": "Solve percentages, fractions, averages, and GPA calculations instantly. Free math calculators for students and professionals.",
+    "conversion": "Convert units, currencies, temperatures, and distances quickly. Accurate conversion calculators for everyday use.",
+    "timeDate": "Calculate age, date differences, time zones, and countdowns. Free time and date tools for planning and scheduling.",
+    "construction": "Estimate square footage, materials, paint, and project costs. Free construction calculators for contractors and DIYers."
+  },
+  "categoryCalculatorCount": "{count, plural, =0 {No calculators yet} =1 {1 calculator} other {# calculators}}",
+  "categoryPage": {
+    "whatYouCanCalculate": "What You Can Calculate",
+    "exploreOtherCategories": "Explore Other Categories",
+    "availableTools": "Available Tools"
+  },
+  "categoryFeatures": {
+    "finance": [
+      "Loan payments and amortization schedules",
+      "Mortgage affordability and monthly payments",
+      "Investment returns and compound interest",
+      "Savings goals and retirement planning",
+      "Debt payoff strategies and refinancing options"
+    ],
+    "health": [
+      "Body Mass Index (BMI) and ideal weight",
+      "Daily calorie needs and macros",
+      "Body fat percentage calculations",
+      "Heart rate zones for exercise",
+      "Pregnancy and due date calculations"
+    ],
+    "math": [
+      "Percentage calculations and discounts",
+      "Fraction operations and conversions",
+      "Average, mean, and median calculations",
+      "GPA and grade calculations",
+      "Ratio and proportion solving"
+    ],
+    "conversion": [
+      "Length, weight, and volume units",
+      "Temperature between Celsius and Fahrenheit",
+      "Currency exchange rates",
+      "Time zone conversions",
+      "Data storage units (bytes, KB, MB, GB)"
+    ],
+    "timeDate": [
+      "Age calculation from birthdate",
+      "Days between two dates",
+      "Add or subtract days from a date",
+      "Work days and business hours",
+      "Countdown to events and deadlines"
+    ],
+    "construction": [
+      "Square footage and area calculations",
+      "Paint coverage estimates",
+      "Flooring and tile requirements",
+      "Concrete and material quantities",
+      "Roofing and siding measurements"
+    ]
+  },
   "footer": {
     "description": "Free online calculators for all your needs",
     "categoriesTitle": "Categories",
@@ -67,6 +125,7 @@
     "exploreCategory": "Explore calculators in this category",
     "browseCategory": "Browse all calculators in this category",
     "allCalculators": "All Calculators",
-    "browseAllCategories": "Browse all calculator categories"
+    "browseAllCategories": "Browse all calculator categories",
+    "lastUpdated": "Last updated"
   }
 }

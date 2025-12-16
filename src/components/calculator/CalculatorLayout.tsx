@@ -1,6 +1,7 @@
 import { ReactNode } from 'react'
 import { getTranslations } from 'next-intl/server'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Clock } from 'lucide-react'
+import { Card, CardContent } from '@/components/ui/card'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 
 interface CalculatorLayoutProps {
@@ -25,9 +26,24 @@ interface CalculatorLayoutProps {
   categoryName: string
 
   /**
+   * Last updated date
+   */
+  lastUpdated?: string
+
+  /**
+   * Widget component (sources, likes, share)
+   */
+  widget?: ReactNode
+
+  /**
    * Main calculator interface
    */
   children: ReactNode
+
+  /**
+   * SEO content section (below calculator)
+   */
+  seoContent?: ReactNode
 
   /**
    * Optional related calculators section
@@ -38,14 +54,17 @@ interface CalculatorLayoutProps {
 /**
  * CalculatorLayout component
  * Provides consistent layout for all calculator pages
- * with breadcrumbs, title, description, and content area
+ * Structure: breadcrumb > last updated > title > widget > calculator > SEO content
  */
 export async function CalculatorLayout({
   title,
   description,
   categorySlug,
   categoryName,
+  lastUpdated,
+  widget,
   children,
+  seoContent,
   relatedCalculators,
 }: CalculatorLayoutProps) {
   const t = await getTranslations('calculator')
@@ -64,43 +83,56 @@ export async function CalculatorLayout({
             label: title,
           },
         ]}
-        className="mb-4"
+        className="mb-6"
       />
 
       {/* Title Section */}
-      <div className="mb-6 space-y-2">
+      <div className="mb-8">
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
           {title}
         </h1>
-        <p className="text-lg text-muted-foreground">{description}</p>
-      </div>
-
-      {/* Calculator Content */}
-      <div className="grid gap-6 lg:grid-cols-3">
-        {/* Main Calculator Card */}
-        <div className="lg:col-span-2">
-          <Card>
-            <CardHeader>
-              <CardTitle>{title}</CardTitle>
-            </CardHeader>
-            <CardContent>{children}</CardContent>
-          </Card>
-        </div>
-
-        {/* Sidebar - Related Calculators or Info */}
-        {relatedCalculators && (
-          <div className="space-y-4">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-lg">
-                  {t('relatedCalculators')}
-                </CardTitle>
-              </CardHeader>
-              <CardContent>{relatedCalculators}</CardContent>
-            </Card>
+        {description && (
+          <p className="mt-2 text-muted-foreground text-lg">
+            {description}
+          </p>
+        )}
+        {/* Last Updated */}
+        {lastUpdated && (
+          <div className="flex items-center gap-2 text-sm text-muted-foreground mt-6">
+            <Clock className="h-4 w-4" aria-hidden="true" />
+            <span>{t('lastUpdated')}: {lastUpdated}</span>
           </div>
         )}
       </div>
+
+      {/* Main Calculator Block - Full Width */}
+      <Card className="mb-6">
+        <CardContent className="pt-0 px-6 pb-6">
+          {children}
+        </CardContent>
+      </Card>
+
+      {/* Widget Section (sources, likes, share) - Below calculator */}
+      {widget && (
+        <div className="mb-8 border-b pb-4">
+          {widget}
+        </div>
+      )}
+
+      {/* SEO Content Section */}
+      {seoContent && (
+        <div className="prose prose-slate dark:prose-invert max-w-none mb-8">
+          {seoContent}
+        </div>
+      )}
+
+      {/* Related Calculators */}
+      {relatedCalculators && (
+        <div className="border-t pt-8">
+          <h2 className="text-2xl font-bold mb-4">{t('relatedCalculators')}</h2>
+          {relatedCalculators}
+        </div>
+      )}
     </div>
   )
 }

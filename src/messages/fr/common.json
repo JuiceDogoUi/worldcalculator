@@ -46,6 +46,64 @@
     "timeDate": "Calculateurs de Date et Heure - Âge, Durée et Outils de Date",
     "construction": "Calculateurs de Construction - Superficie, Matériaux et Estimations"
   },
+  "categorySeoDescription": {
+    "finance": "Calculez vos mensualités de prêt, taux hypothécaires, rendements d'investissement et objectifs d'épargne. Calculateurs financiers gratuits pour des décisions plus avisées.",
+    "health": "Suivez vos métriques de santé avec des calculateurs d'IMC, calories, masse grasse et fitness. Outils gratuits pour accompagner votre bien-être.",
+    "math": "Résolvez pourcentages, fractions, moyennes et calculs de GPA instantanément. Calculateurs mathématiques gratuits pour étudiants et professionnels.",
+    "conversion": "Convertissez unités, devises, températures et distances rapidement. Convertisseurs précis pour un usage quotidien.",
+    "timeDate": "Calculez l'âge, les différences de dates, les fuseaux horaires et les comptes à rebours. Outils gratuits de date et heure pour la planification.",
+    "construction": "Estimez la superficie, les matériaux, la peinture et les coûts de projet. Calculateurs de construction gratuits pour professionnels et bricoleurs."
+  },
+  "categoryCalculatorCount": "{count, plural, =0 {Aucun calculateur} =1 {1 calculateur} other {# calculateurs}}",
+  "categoryPage": {
+    "whatYouCanCalculate": "Ce Que Vous Pouvez Calculer",
+    "exploreOtherCategories": "Explorer D'autres Catégories",
+    "availableTools": "Outils Disponibles"
+  },
+  "categoryFeatures": {
+    "finance": [
+      "Mensualités de prêt et tableaux d'amortissement",
+      "Accessibilité hypothécaire et paiements mensuels",
+      "Rendements d'investissement et intérêts composés",
+      "Objectifs d'épargne et planification de retraite",
+      "Stratégies de remboursement et refinancement"
+    ],
+    "health": [
+      "Indice de Masse Corporelle (IMC) et poids idéal",
+      "Besoins caloriques quotidiens et macros",
+      "Calculs de pourcentage de masse grasse",
+      "Zones de fréquence cardiaque pour l'exercice",
+      "Calculs de grossesse et date d'accouchement"
+    ],
+    "math": [
+      "Calculs de pourcentages et remises",
+      "Opérations et conversions de fractions",
+      "Calculs de moyenne, médiane et mode",
+      "Calculs de GPA et notes",
+      "Résolution de ratios et proportions"
+    ],
+    "conversion": [
+      "Unités de longueur, poids et volume",
+      "Température entre Celsius et Fahrenheit",
+      "Taux de change des devises",
+      "Conversions de fuseaux horaires",
+      "Unités de stockage (octets, Ko, Mo, Go)"
+    ],
+    "timeDate": [
+      "Calcul d'âge depuis la date de naissance",
+      "Jours entre deux dates",
+      "Ajouter ou soustraire des jours à une date",
+      "Jours ouvrables et heures de travail",
+      "Compte à rebours pour événements et échéances"
+    ],
+    "construction": [
+      "Calculs de superficie et d'aire",
+      "Estimations de couverture de peinture",
+      "Besoins en revêtement de sol et carrelage",
+      "Quantités de béton et matériaux",
+      "Mesures de toiture et bardage"
+    ]
+  },
   "footer": {
     "description": "Calculateurs en ligne gratuits pour tous vos besoins",
     "categoriesTitle": "Catégories",
@@ -67,6 +125,7 @@
     "exploreCategory": "Explorez les calculateurs de cette catégorie",
     "browseCategory": "Voir tous les calculateurs de cette catégorie",
     "allCalculators": "Tous les Calculateurs",
-    "browseAllCategories": "Parcourir toutes les catégories de calculateurs"
+    "browseAllCategories": "Parcourir toutes les catégories de calculateurs",
+    "lastUpdated": "Dernière mise à jour"
   }
 }
