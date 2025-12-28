@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from 'next'
-import Script from 'next/script'
 import './globals.css'
 
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.worldcalculator.org'
@@ -32,6 +31,9 @@ export const metadata: Metadata = {
       { url: '/apple-icon.svg', type: 'image/svg+xml' },
     ],
   },
+  other: {
+    'google-adsense-account': 'ca-pub-7899464715113939',
+  },
 }
 
 export const viewport: Viewport = {
@@ -46,16 +48,7 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning>
-      <body>
-        {/* Google AdSense - beforeInteractive loads in <head> automatically */}
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7899464715113939"
-          crossOrigin="anonymous"
-          strategy="beforeInteractive"
-        />
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   )
 }
