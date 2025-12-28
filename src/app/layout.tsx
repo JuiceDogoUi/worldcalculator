@@ -47,12 +47,12 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning>
       <body>
-        {/* Google AdSense */}
+        {/* Google AdSense - beforeInteractive loads in <head> automatically */}
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7899464715113939"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
         />
         {children}
       </body>
