@@ -1,0 +1,206 @@
+{
+  "title": "Calculadora de Crédito Habitação",
+  "description": "Calcule a sua prestação mensal de crédito habitação incluindo capital, juros, IMI, seguro de casa e condomínio. Obtenha uma discriminação completa dos custos do seu empréstimo imobiliário.",
+
+  "meta": {
+    "title": "Calculadora de Crédito Habitação - Calcule Prestações Mensais e Custo Total | World Calculator",
+    "description": "Calculadora gratuita de crédito habitação com impostos, seguros e condomínio. Calcule prestações mensais, plano de amortização e custo total da casa em segundos.",
+    "keywords": "calculadora crédito habitação, calculadora empréstimo casa, prestação mensal, Euribor, TAEG, TAN, seguro habitação, IMI, plano amortização, spread bancário"
+  },
+
+  "inputs": {
+    "homePrice": "Preço do Imóvel",
+    "downPayment": "Entrada",
+    "downPaymentType": "Tipo de Entrada",
+    "downPaymentPercentage": "Entrada (%)",
+    "downPaymentAmount": "Entrada (€)",
+    "interestRate": "Taxa de Juro (% Anual)",
+    "loanTerm": "Prazo do Empréstimo",
+    "paymentFrequency": "Frequência de Pagamento",
+    "propertyTax": "IMI Anual",
+    "homeInsurance": "Seguro Multirriscos Anual",
+    "hoaFees": "Condomínio Mensal",
+    "pmiRate": "Taxa de Seguro de Vida (%)"
+  },
+
+  "options": {
+    "monthly": "Mensal",
+    "biweekly": "Quinzenal",
+    "weekly": "Semanal",
+    "percentage": "Percentagem",
+    "amount": "Montante em Euros",
+    "years": "anos"
+  },
+
+  "outputs": {
+    "totalMonthlyPayment": "Prestação Mensal Total",
+    "loanAmount": "Montante do Empréstimo",
+    "downPayment": "Entrada",
+    "totalInterest": "Juros Totais",
+    "totalCost": "Custo Total da Habitação",
+    "payoffDate": "Data de Liquidação",
+    "paymentBreakdown": "Discriminação da Prestação Mensal",
+    "principalInterest": "Capital e Juros",
+    "propertyTax": "IMI",
+    "homeInsurance": "Seguro Multirriscos",
+    "pmi": "Seguro de Vida",
+    "hoaFees": "Condomínio",
+    "pmiRequired": "Seguro obrigatório (Entrada < 20%)",
+    "pmiNotRequired": "Seguro opcional (Entrada ≥ 20%)",
+    "pmiRemovalInfo": "Seguro removível após {period} prestações"
+  },
+
+  "actions": {
+    "calculate": "Calcular",
+    "reset": "Limpar",
+    "showSchedule": "Mostrar Plano de Amortização",
+    "hideSchedule": "Ocultar Plano de Amortização",
+    "advancedOptions": "Opções Avançadas",
+    "showMore": "Mostrar Mais",
+    "showLess": "Mostrar Menos"
+  },
+
+  "amortization": {
+    "title": "Plano de Amortização",
+    "period": "Período",
+    "payment": "Prestação",
+    "principal": "Capital",
+    "interest": "Juros",
+    "balance": "Saldo",
+    "pmi": "Seguro",
+    "page": "Página",
+    "of": "de"
+  },
+
+  "faqs": [
+    {
+      "question": "Que percentagem de entrada é recomendada para crédito habitação?",
+      "answer": "Em Portugal, os bancos normalmente exigem uma entrada mínima de 10% a 20% do valor do imóvel. Desde 2018, o Banco de Portugal recomenda que os bancos financiem no máximo 90% do menor valor entre o preço de compra e o valor de avaliação. Uma entrada de 20% ou superior permite: 1) Obter melhores taxas de juro (spread mais baixo); 2) Reduzir a prestação mensal; 3) Pagar menos juros no total; 4) Ter mais opções de financiamento; 5) Evitar seguros adicionais. Além da entrada, precisa ter poupanças para as despesas de escritura, IMT e Imposto de Selo (cerca de 6-8% do valor para imóvel usado)."
+    },
+    {
+      "question": "Como é calculada a prestação mensal do crédito habitação?",
+      "answer": "A prestação mensal do seu crédito habitação inclui várias componentes: 1) Capital e Juros - calculados pelo método de prestações constantes (sistema francês), baseados no montante financiado, taxa de juro (indexante + spread) e prazo; 2) Seguro de Vida - obrigatório pela maioria dos bancos, protege o empréstimo em caso de morte ou invalidez; 3) Seguro Multirriscos - obrigatório, protege o imóvel contra incêndio, inundação, etc. Adicionalmente, mas fora da prestação bancária: 4) IMI (Imposto Municipal sobre Imóveis) - varia entre 0,3% e 0,45% do VPT anualmente; 5) Condomínio - se aplicável. A TAEG inclui todos os custos do crédito."
+    },
+    {
+      "question": "O que é a Euribor e como afeta o meu crédito?",
+      "answer": "A Euribor (Euro Interbank Offered Rate) é a taxa de juro média a que os bancos europeus emprestam dinheiro entre si. Em Portugal, a maioria dos créditos habitação tem taxa variável indexada à Euribor (geralmente a 3, 6 ou 12 meses). A sua taxa de juro é: Euribor + Spread (por exemplo, Euribor 6M + 1,2%). A Euribor é revista periodicamente conforme o prazo escolhido, e a sua prestação sobe ou desce. Vantagens: aproveita descidas de juros, spread geralmente mais baixo. Desvantagens: risco de subida de juros e prestações. Alternativa: taxa fixa (juro não muda) ou taxa mista (fixa nos primeiros anos, depois variável)."
+    },
+    {
+      "question": "Taxa fixa ou variável: qual escolher?",
+      "answer": "Taxa variável (Euribor + spread): A mais comum em Portugal. Vantagens: spread mais baixo (0,8%-1,5%), beneficia de descidas da Euribor, sem penalização em amortização antecipada após 3 anos. Desvantagens: prestação varia, imprevisibilidade. Ideal se: tem margem orçamental para absorver aumentos, prevê Euribor estável ou em queda. Taxa fixa: Juro fixo durante todo o prazo ou período inicial. Vantagens: prestação constante, previsibilidade total. Desvantagens: taxa inicial mais alta (geralmente +0,5% a 1%), penalizações em amortização antecipada. Ideal se: prefere segurança, orçamento apertado, prevê subida de juros. Taxa mista: Combina fixa (5-10 anos) com variável depois - equilibra segurança inicial com flexibilidade futura."
+    },
+    {
+      "question": "Que despesas adicionais tenho ao comprar casa?",
+      "answer": "Ao comprar casa em Portugal, além da entrada, terá estas despesas: 1) IMT (Imposto Municipal sobre Transmissões): 0% a 8% conforme valor (isenção até 97.064€ para habitação própria permanente de jovens até 35 anos com rendimentos até IAS×3,5); 2) Imposto de Selo: 0,8% do valor da escritura; 3) Escritura e registo: 700-1.500€; 4) Avaliação bancária: 250-350€; 5) Comissão bancária: 0-2% do empréstimo; 6) Seguros obrigatórios (vida e multirriscos): primeiro ano ~500-800€; 7) Mediação imobiliária: geralmente paga pelo vendedor mas pode estar incluída no preço. Total: 6-10% do valor para usado, menos para novo. Jovens até 35 anos têm isenção de IMT e redução de Imposto de Selo desde 2024."
+    },
+    {
+      "question": "Posso fazer amortização antecipada do crédito habitação?",
+      "answer": "Sim, pode fazer amortização antecipada (total ou parcial) do seu crédito habitação em Portugal. Condições: 1) Crédito com taxa variável: sem comissão após 3 anos de contrato; antes de 3 anos: comissão máxima de 0,5%; 2) Crédito com taxa fixa: comissão de 2% nos primeiros 5 anos, 1,5% após 5 anos; 3) Montante mínimo: geralmente 500€ ou 1.000€ conforme banco. Benefícios: 1) Reduz juros totais significativamente; 2) Pode diminuir prestação (mantendo prazo) ou prazo (mantendo prestação); 3) Aumenta patrimônio livre. Estratégia: aproveite subsídios de férias/Natal, reembolsos de IRS ou outras poupanças para amortizar. Verifique sempre as condições específicas no seu contrato de crédito."
+    },
+    {
+      "question": "Posso deduzir os juros do crédito habitação no IRS?",
+      "answer": "Sim, mas com limitações desde as alterações fiscais de 2012. Podem deduzir juros no IRS: 1) Contratos anteriores a 31/12/2011: dedução de 30% dos juros e amortizações de capital, limite de 296€ (agregado até 70.000€ rendimento) ou 0€ (agregado acima de 153.300€); 2) Contratos celebrados desde 01/01/2012: SEM direito a dedução, salvo se para habitação própria permanente de jovem até 35 anos (condições específicas desde 2024). Outras deduções relacionadas: 1) Seguros (vida e multirriscos): dedutíveis no IRS; 2) Obras de eficiência energética: dedução de 15% até 1.000€ (transitório). Recomenda-se consultar um contabilista certificado para otimizar a sua situação fiscal específica conforme o ano de contratação e perfil."
+    },
+    {
+      "question": "O que acontece se não conseguir pagar as prestações?",
+      "answer": "Se tiver dificuldades em pagar o crédito habitação, aja imediatamente: 1) Contacte o banco de imediato para negociar soluções (não espere pelo incumprimento); 2) Após 3-6 meses de não pagamento: banco pode resolver o contrato e exigir pagamento total; 3) Processo de execução: banco inicia procedimento judicial para recuperar o crédito; 4) Penhora e venda: imóvel pode ser vendido em leilão (geralmente abaixo do valor de mercado). Soluções disponíveis: 1) PARI (Procedimento Extrajudicial de Regularização de Situações de Incumprimento): mediação com o banco para reestruturar dívida; 2) Carência de capital (pagar apenas juros temporariamente); 3) Alargamento do prazo para reduzir prestação; 4) Venda voluntária antes da execução; 5) PERSI: regime especial para devedores em situação económica difícil. Procure o Gabinete de Apoio ao Sobreendividado do Banco de Portugal."
+    }
+  ],
+
+  "howTo": {
+    "title": "Como Usar a Calculadora de Crédito Habitação",
+    "steps": [
+      {
+        "name": "Introduza o Preço do Imóvel e a Entrada",
+        "text": "Comece por inserir o preço total de compra do imóvel que pretende adquirir. De seguida, escolha se quer introduzir a sua entrada como montante em euros ou como percentagem. Recomenda-se uma entrada mínima de 10-20% para obter melhores condições de financiamento. Pode ajustar este valor para comparar diferentes cenários de financiamento."
+      },
+      {
+        "name": "Defina a Taxa de Juro e o Prazo",
+        "text": "Insira a taxa de juro anual oferecida pelo seu banco (ou utilize como referência a Euribor + spread médio do mercado). Selecione o prazo do empréstimo - tipicamente 20, 25, 30 ou 40 anos em Portugal. Prazos mais curtos implicam prestações mensais mais elevadas mas reduzem significativamente os juros totais pagos."
+      },
+      {
+        "name": "Adicione Encargos Adicionais (Opcional)",
+        "text": "Clique em 'Opções Avançadas' para incluir o IMI anual, seguro multirriscos (obrigatório), condomínio mensal e ajustar a taxa do seguro de vida. Estes custos são essenciais para conhecer o seu encargo mensal real com a habitação. O IMI varia entre 0,3% e 0,45% do VPT (Valor Patrimonial Tributário) anualmente, conforme o município."
+      },
+      {
+        "name": "Consulte a Discriminação da Prestação Mensal",
+        "text": "A calculadora apresenta a sua prestação mensal total em destaque, juntamente com uma discriminação detalhada mostrando: capital e juros, IMI mensalizado, seguro multirriscos, seguro de vida e condomínio. Verá também o montante total financiado, os juros totais que pagará e a data estimada de liquidação do empréstimo."
+      },
+      {
+        "name": "Explore o Plano de Amortização",
+        "text": "Clique em 'Mostrar Plano de Amortização' para visualizar como o saldo do seu empréstimo diminui ao longo do tempo. O plano detalha para cada prestação a parcela de capital e juros, o saldo remanescente e como a composição do pagamento evolui. Use a paginação para aceder a diferentes anos do seu empréstimo e observe como inicialmente paga mais juros e progressivamente mais capital."
+      }
+    ]
+  },
+
+  "disclaimer": {
+    "text": "Esta calculadora fornece apenas estimativas. As condições reais de crédito, taxas e custos podem variar consoante o seu perfil de crédito, políticas da instituição financeira, localização do imóvel e condições de mercado. O IMI e os custos de seguro são estimativas que variam conforme a localização. As taxas de seguro de vida e requisitos de remoção podem diferir entre instituições. Para propostas vinculativas e condições personalizadas, consulte diretamente as instituições de crédito.",
+    "note": "Os cálculos assumem créditos a taxa fixa com amortização padrão (sistema francês de prestações constantes). Créditos a taxa variável (indexados à Euribor), créditos sem amortização de capital e outros produtos especializados podem ter estruturas de pagamento diferentes. Verifique sempre todas as taxas, comissões e condições junto do seu banco antes de tomar decisões financeiras."
+  },
+
+  "seo": {
+    "whatIsTitle": "O Que é uma Calculadora de Crédito Habitação?",
+    "whatIsContent": "Uma calculadora de crédito habitação é uma ferramenta de planeamento financeiro que calcula a sua prestação mensal de empréstimo imobiliário, incluindo capital, juros, IMI, seguro multirriscos e condomínio. Insira o preço do imóvel, entrada, taxa de juro e prazo para ver os seus custos mensais completos, juros totais e plano de amortização. Essencial para planear a compra de casa e comparar diferentes cenários de financiamento.",
+    "whenToUseTitle": "Quando Usar uma Calculadora de Crédito Habitação?",
+    "whenToUseIntro": "Use a nossa calculadora para tomar decisões informadas:",
+    "whenToUsePoint1": "Determinar que imóvel pode comprar segundo o seu orçamento",
+    "whenToUsePoint2": "Comparar diferentes montantes de entrada e o seu impacto na prestação mensal",
+    "whenToUsePoint3": "Avaliar créditos a 20, 25, 30 ou 40 anos e os custos totais de juros",
+    "whenToUsePoint4": "Compreender o custo completo de ser proprietário incluindo impostos e seguros",
+    "whenToUsePoint5": "Planear com taxa fixa versus variável indexada à Euribor",
+    "mortgageTypesTitle": "Tipos de Crédito Habitação",
+    "mortgageTypeFixed": "Taxa Fixa - A taxa de juro permanece constante durante todo o prazo do empréstimo (15, 20, 25 ou 30 anos), proporcionando prestações mensais previsíveis e proteção contra subidas de taxas",
+    "mortgageTypeVariable": "Taxa Variável - A taxa de juro muda periodicamente segundo a Euribor mais um spread fixo. Oferece taxas iniciais mais baixas mas acarreta risco de aumentos na prestação se a Euribor subir",
+    "mortgageTypeInterestOnly": "Crédito Só com Juros - Paga apenas juros durante um período inicial, depois começa a pagar capital e juros. Prestações iniciais mais baixas mas não constrói património durante a fase só de juros",
+    "mortgageTypeFHA": "Crédito Jovem (< 35 anos) - Programas especiais com condições vantajosas para menores de 35 anos, permitindo financiar até 90-95% do valor, taxas mais competitivas e isenções fiscais em alguns casos",
+    "mortgageTypeVA": "Crédito 100% - Financiamento completo do preço de compra sem entrada, disponível em casos específicos com condições especiais. Requer perfil de crédito excelente e normalmente tem taxas de juro mais altas",
+    "benefitsTitle": "Porquê Usar uma Calculadora de Crédito Habitação?",
+    "benefit1": "Orçamente com precisão compreendendo a sua prestação mensal completa incluindo todos os impostos e encargos",
+    "benefit2": "Compare diferentes cenários - entrada, prazos e taxas de juro - lado a lado",
+    "benefit3": "Veja o impacto a longo prazo das suas decisões com cálculos de juros totais",
+    "benefit4": "Entenda a diferença entre taxa fixa e variável referenciada à Euribor",
+    "benefit5": "Tome decisões de compra com confiança apoiadas por projeções financeiras precisas",
+    "howToUseTitle": "Como Usar Esta Calculadora",
+    "howToUseStep1": "Insira o preço do imóvel e a sua entrada (percentagem ou montante em euros). Uma entrada de 10-20% é recomendada para obter melhores condições",
+    "howToUseStep2": "Introduza a taxa de juro anual oferecida pelo seu banco. Para créditos variáveis, use Euribor + spread (ex: Euribor 6M + 1,2%)",
+    "howToUseStep3": "Selecione o prazo do empréstimo. Créditos a 30 anos oferecem prestações mais baixas enquanto prazos de 20 anos poupam significativamente em juros totais",
+    "howToUseStep4": "Adicione o IMI anual, seguro multirriscos obrigatório e condomínio nas opções avançadas para ver o seu custo mensal completo de habitação",
+    "howToUseStep5": "Reveja o plano de amortização para ver como cada prestação reduz o seu saldo e como muda a composição entre capital e juros",
+    "resultsTitle": "Compreender os Resultados do Seu Crédito",
+    "resultsPayment": "Prestação Mensal - A sua prestação total incluindo capital, juros, IMI mensal, seguro e condomínio. É o montante que pagará cada mês",
+    "resultsTotalCost": "Custo Total da Habitação - O montante completo que pagará durante a vida do empréstimo, incluindo o preço de compra, todos os juros, impostos, seguros e encargos",
+    "resultsTotalInterest": "Juros Totais - Os juros acumulados pagos durante todo o prazo do empréstimo. Em créditos a 30-40 anos, isto pode igualar ou exceder o montante do empréstimo original",
+    "resultsAmortization": "Plano de Amortização - Uma discriminação detalhada de cada prestação mostrando quanto vai para capital versus juros. As primeiras prestações são maioritariamente juros; as últimas são maioritariamente capital",
+    "formulaTitle": "Fórmula de Cálculo do Crédito Habitação",
+    "formulaContent": "M = P × [r(1+r)^n] / [(1+r)^n - 1]",
+    "formulaExample": "Onde M = Prestação Mensal, P = Capital (montante do empréstimo), r = Taxa de Juro Mensal (taxa anual ÷ 12), n = Número Total de Prestações (anos × 12). O IMI, seguro e condomínio adicionam-se a esta prestação base.",
+    "tipsTitle": "Conselhos de Especialistas para o Seu Crédito",
+    "tip1": "Tente dar uma entrada de 10-20% para obter melhores taxas de juro e evitar seguros adicionais, poupando centenas de euros mensalmente",
+    "tip2": "Compare ofertas de pelo menos 3-5 bancos - as taxas e comissões podem variar significativamente mesmo com o mesmo perfil de crédito",
+    "tip3": "Considere um crédito a 20 anos se puder suportar prestações mais altas - pagará 40-50% menos juros totais do que a 30 anos",
+    "tip4": "Negocie o spread do banco - uma redução de apenas 0,10% pode poupar-lhe milhares de euros durante a vida do empréstimo",
+    "tip5": "Tenha em conta as despesas de compra (6-10%) e mantenha poupanças de emergência além da entrada",
+    "tip6": "Faça amortizações antecipadas quando possível - mesmo 100€ extra por mês pode reduzir anos do empréstimo e poupar dezenas de milhares",
+    "tip7": "Reveja anualmente o IMI e o seguro multirriscos - costumam aumentar com o tempo e impactam a sua prestação total",
+    "tip8": "Se tem crédito variável, acompanhe a evolução da Euribor e considere mudar para taxa fixa se prevê subidas importantes",
+    "faqTitle": "Perguntas Frequentes sobre Crédito Habitação",
+    "faq1Question": "Que casa posso comprar?",
+    "faq1Answer": "A regra geral em Portugal é que a sua prestação mensal de crédito não deve exceder 30-35% dos seus rendimentos líquidos mensais. Por exemplo, com rendimentos líquidos de 2.000€ por mês, a sua prestação máxima deveria ser de 600-700€. Contudo, considere a sua estabilidade profissional, objetivos de poupança e estilo de vida. Use esta calculadora para testar diferentes preços de imóveis e entradas até encontrar uma prestação confortável. Lembre-se que além do crédito terá despesas de manutenção (1-2% do valor anual), consumos e possíveis obras extraordinárias do condomínio.",
+    "faq2Question": "Qual é a entrada ideal para um crédito habitação?",
+    "faq2Answer": "A entrada ideal em Portugal é de 10-20% do preço do imóvel. Os bancos portugueses normalmente exigem uma entrada mínima de 10% a 20%, financiando no máximo 90% do menor valor entre o preço de compra e o valor de avaliação (desde 2018, recomendação do Banco de Portugal). Uma entrada de 20% ou superior permite: obter melhores taxas de juro (spread mais baixo de 0,2-0,4%), reduzir a prestação mensal, pagar menos juros no total, ter mais opções de financiamento. Além da entrada, precisa ter poupanças para as despesas de escritura, IMT e Imposto de Selo (cerca de 6-8% do valor para imóvel usado, menos para novo). Jovens até 35 anos têm isenção de IMT e redução de Imposto de Selo desde 2024.",
+    "faq3Question": "Crédito a 20, 25, 30 ou 40 anos?",
+    "faq3Answer": "Isto depende das suas prioridades financeiras e capacidade de pagamento. Um crédito a 20 anos tem prestações mensais significativamente mais altas (aproximadamente 30-40% mais que a 30 anos) mas poupa enormemente em juros - frequentemente 30.000-60.000€ numa casa típica. Escolha 20 anos se: pode suportar prestações mais altas confortavelmente, quer estar livre de dívida mais cedo, está próximo da reforma ou planeia ficar no imóvel a longo prazo. Escolha 30-40 anos se: precisa de prestações mais baixas para flexibilidade financeira, está no máximo da sua capacidade de endividamento ou valoriza flexibilidade. Opção intermédia: crédito a 30 anos mas fazendo amortizações antecipadas quando puder.",
+    "faq4Question": "Como é calculada a minha prestação mensal?",
+    "faq4Answer": "A sua prestação mensal total de crédito habitação inclui várias componentes: 1) Capital e Juros - calculados pelo método de prestações constantes (sistema francês), baseados no montante financiado, taxa de juro (indexante + spread) e prazo. Esta parte é constante em créditos fixos. 2) Seguro de Vida - obrigatório pela maioria dos bancos, protege o empréstimo em caso de morte ou invalidez; 3) Seguro Multirriscos - obrigatório, protege o imóvel. Adicionalmente, mas fora da prestação bancária: 4) IMI - varia entre 0,3% e 0,45% do VPT anualmente; 5) Condomínio - se aplicável. Em créditos variáveis, a componente de juros mudará conforme evolui a Euribor. A TAEG inclui todos os custos do crédito.",
+    "faq5Question": "O que é a Euribor e como afeta o meu crédito?",
+    "faq5Answer": "A Euribor (Euro Interbank Offered Rate) é a taxa de juro média a que os bancos europeus emprestam dinheiro entre si. Em Portugal, a maioria dos créditos habitação tem taxa variável indexada à Euribor (geralmente a 3, 6 ou 12 meses). A sua taxa de juro é: Euribor + Spread (por exemplo, Euribor 6M + 1,2%). A Euribor é revista periodicamente conforme o prazo escolhido, e a sua prestação sobe ou desce. Se a Euribor estava em -0,50% e sobe para 3,50%, com um spread de 1,2% a sua taxa passaria de 0,70% para 4,70%, aumentando significativamente a prestação. Créditos a taxa fixa protegem desta variabilidade mantendo a mesma taxa durante todo o prazo.",
+    "faq6Question": "Quanto pagarei em juros totais?",
+    "faq6Answer": "Os juros totais dependem do montante financiado, taxa de juro e prazo. Num crédito de 150.000€ a 30 anos com taxa de 3,5%, pagará aproximadamente 93.000€ em juros - mais de metade do empréstimo original. A 20 anos com a mesma taxa, pagaria apenas 58.000€ em juros - uma poupança de 35.000€. Cada 0,5% de aumento na taxa custa dezenas de milhares de euros num crédito a 30 anos. A boa notícia: pode reduzir drasticamente os juros fazendo amortizações antecipadas, escolhendo um prazo mais curto ou negociando um melhor spread. Use o plano de amortização desta calculadora para ver exatamente quanto juro pagará.",
+    "faq7Question": "Posso comprar o imóvel com os meus rendimentos atuais?",
+    "faq7Answer": "Os bancos portugueses aplicam normalmente a regra dos 30-35%: a sua prestação de crédito não deve exceder 30-35% dos seus rendimentos líquidos mensais. Contudo, isto é apenas um ponto de partida. Considere: a sua estabilidade profissional (funcionário público vs. trabalhador por conta de outrem vs. trabalhador independente), almofada de poupanças (mantenha 6-12 meses de despesas de emergência), outros objetivos financeiros (reforma, filhos), prioridades de estilo de vida e conforto com endividamento. Uma abordagem conservadora é assegurar que a sua prestação total (capital + juros + IMI + seguro + condomínio) seja inferior a 30% do seu salário líquido, deixando margem para manutenção, consumos, poupanças e despesas inesperadas.",
+    "faq8Question": "Que despesas adicionais tenho ao comprar casa?",
+    "faq8Answer": "Ao comprar casa em Portugal, além da entrada, terá estas despesas: Imóvel usado: 1) IMT (Imposto Municipal sobre Transmissões): 0% a 8% conforme valor (isenção até 97.064€ para habitação própria permanente de jovens até 35 anos com rendimentos até IAS×3,5 desde 2024); 2) Imposto de Selo: 0,8% do valor da escritura (redução de 50% para jovens até 35 anos); 3) Escritura e registo: 700-1.500€; 4) Avaliação bancária: 250-350€; 5) Comissão bancária: 0-2% do empréstimo; 6) Seguros obrigatórios (vida e multirriscos): primeiro ano ~500-800€. Total: 6-10% do valor para usado, menos para novo. Jovens até 35 anos têm isenção de IMT e redução de Imposto de Selo. Planeie estas despesas além da sua entrada de 10-20%.",
+    "faq9Question": "É boa altura para comprar casa?",
+    "faq9Answer": "A melhor altura para comprar casa depende mais da sua situação pessoal que do mercado. Compre quando: tiver rendimentos estáveis e segurança profissional, tiver poupado uma entrada sólida (idealmente 10-20%) mais fundo de emergência, planear ficar na zona pelo menos 5-7 anos (para absorver despesas de compra e construir património), puder suportar confortavelmente a prestação mensal e estiver emocionalmente preparado para as responsabilidades de ser proprietário. As condições de mercado importam menos que a sua preparação pessoal. Se as taxas atuais estão altas, pode fazer transferência de crédito depois quando baixarem - mas não poderá voltar atrás e comprar aos preços de hoje se aumentarem. Concentre-se em encontrar a casa certa a uma prestação que possa suportar."
+  }
+}

@@ -23,6 +23,18 @@ export const calculators: Calculator[] = [
     relatedCalculators: ['mortgage', 'compound-interest', 'savings'],
     lastModified: '2025-12-16',
   },
+  {
+    id: 'mortgage-calculator',
+    slug: 'mortgage',
+    category: 'finance',
+    translationKey: 'calculators.finance.mortgage',
+    icon: 'Home',
+    featured: true,
+    difficulty: 'medium',
+    estimatedTime: 180,
+    relatedCalculators: ['loan', 'affordability', 'property-tax'],
+    lastModified: '2025-12-28',
+  },
 
   // Math Calculators
   {

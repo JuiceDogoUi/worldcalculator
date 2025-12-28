@@ -1,0 +1,206 @@
+{
+  "title": "Hypothekenrechner",
+  "description": "Berechnen Sie Ihre monatliche Hypothekenrate inklusive Tilgung, Zinsen, Grundsteuer, Wohngebäudeversicherung und Hausgeld. Erhalten Sie eine vollständige Übersicht Ihrer Immobilienfinanzierungskosten.",
+
+  "meta": {
+    "title": "Hypothekenrechner - Monatliche Rate & Gesamtkosten Berechnen | World Calculator",
+    "description": "Kostenloser Hypothekenrechner mit Nebenkosten, Versicherung und Hausgeld. Berechnen Sie monatliche Raten, Tilgungsplan und Gesamtkosten Ihrer Baufinanzierung in Sekunden.",
+    "keywords": "hypothekenrechner, baufinanzierung rechner, immobilienfinanzierung, tilgungsrechner, rate berechnen, annuitätendarlehen, effektivzins, nominalzins, grundsteuer rechner, nebenkosten"
+  },
+
+  "inputs": {
+    "homePrice": "Kaufpreis der Immobilie",
+    "downPayment": "Eigenkapital",
+    "downPaymentType": "Art des Eigenkapitals",
+    "downPaymentPercentage": "Eigenkapital (%)",
+    "downPaymentAmount": "Eigenkapital (€)",
+    "interestRate": "Zinssatz (% p.a.)",
+    "loanTerm": "Laufzeit",
+    "paymentFrequency": "Zahlungsrhythmus",
+    "propertyTax": "Jährliche Grundsteuer",
+    "homeInsurance": "Jährliche Wohngebäudeversicherung",
+    "hoaFees": "Monatliches Hausgeld",
+    "pmiRate": "Risikolebensversicherung (%)"
+  },
+
+  "options": {
+    "monthly": "Monatlich",
+    "biweekly": "Vierzehntägig",
+    "weekly": "Wöchentlich",
+    "percentage": "Prozentsatz",
+    "amount": "Euro-Betrag",
+    "years": "Jahre"
+  },
+
+  "outputs": {
+    "totalMonthlyPayment": "Monatliche Gesamtrate",
+    "loanAmount": "Darlehensbetrag",
+    "downPayment": "Eigenkapital",
+    "totalInterest": "Gesamtzinsen",
+    "totalCost": "Gesamtkosten der Immobilie",
+    "payoffDate": "Datum der Volltilgung",
+    "paymentBreakdown": "Aufschlüsselung der Monatsrate",
+    "principalInterest": "Tilgung & Zinsen",
+    "propertyTax": "Grundsteuer",
+    "homeInsurance": "Wohngebäudeversicherung",
+    "pmi": "Risikolebensversicherung",
+    "hoaFees": "Hausgeld",
+    "pmiRequired": "Versicherung erforderlich (Eigenkapital < 20%)",
+    "pmiNotRequired": "Keine zusätzliche Versicherung (Eigenkapital ≥ 20%)",
+    "pmiRemovalInfo": "Versicherung entfällt nach {period} Raten"
+  },
+
+  "actions": {
+    "calculate": "Berechnen",
+    "reset": "Zurücksetzen",
+    "showSchedule": "Tilgungsplan Anzeigen",
+    "hideSchedule": "Tilgungsplan Ausblenden",
+    "advancedOptions": "Erweiterte Optionen",
+    "showMore": "Mehr Anzeigen",
+    "showLess": "Weniger Anzeigen"
+  },
+
+  "amortization": {
+    "title": "Tilgungsplan",
+    "period": "Periode",
+    "payment": "Rate",
+    "principal": "Tilgung",
+    "interest": "Zinsen",
+    "balance": "Restschuld",
+    "pmi": "Versicherung",
+    "page": "Seite",
+    "of": "von"
+  },
+
+  "faqs": [
+    {
+      "question": "Wie viel Eigenkapital sollte ich für eine Baufinanzierung einbringen?",
+      "answer": "In Deutschland empfehlen Experten ein Eigenkapital von mindestens 20-30% des Kaufpreises. Idealerweise sollten Sie die Kaufnebenkosten (10-15% des Kaufpreises) vollständig aus Eigenkapital bezahlen können. Diese setzen sich zusammen aus: Grunderwerbsteuer (3,5-6,5% je nach Bundesland), Notarkosten (ca. 1,5%), Grundbuchkosten (ca. 0,5%) und ggf. Maklerkosten (3,57-7,14%). Ein höheres Eigenkapital bringt Ihnen: 1) Deutlich bessere Zinskonditionen; 2) Niedrigere monatliche Raten; 3) Geringere Gesamtkosten; 4) Mehr Sicherheit für Sie und die Bank. Eine Vollfinanzierung (ohne Eigenkapital) ist zwar möglich, aber deutlich teurer."
+    },
+    {
+      "question": "Wie wird meine monatliche Hypothekenrate berechnet?",
+      "answer": "Die monatliche Rate Ihrer Baufinanzierung setzt sich aus mehreren Komponenten zusammen: 1) Tilgung und Zinsen - bei einem Annuitätendarlehen (häufigste Form) zahlen Sie eine konstante Rate aus Zins- und Tilgungsanteil. Der Zinsanteil sinkt über die Zeit, während der Tilgungsanteil steigt; 2) Anfängliche Tilgung von üblicherweise 2-3% plus Sollzins ergibt die Annuität. Zusätzliche laufende Kosten (nicht in der Bankrate enthalten): 3) Grundsteuer - variiert stark nach Gemeinde und Einheitswert; 4) Wohngebäudeversicherung - Pflicht bei Finanzierung; 5) Hausgeld bei Eigentumswohnungen. Kalkulieren Sie mit max. 35-40% Ihres Nettohaushaltseinkommens für die Gesamtbelastung."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Sollzins und Effektivzins?",
+      "answer": "Der Sollzins (auch Nominalzins) ist der reine Zinssatz, den die Bank für das geliehene Geld berechnet. Der Effektivzins hingegen bildet die tatsächlichen jährlichen Kosten des Kredits ab und beinhaltet: 1) Den Sollzins; 2) Die Tilgungsverrechnung; 3) Disagio oder Agio; 4) Bearbeitungsgebühren. NICHT enthalten sind: Kontoführungsgebühren, Bereitstellungszinsen, Schätzkosten, Versicherungen. Der Effektivzins ist die wichtigere Kennzahl zum Vergleich verschiedener Angebote. Faustregel: Je höher die anfängliche Tilgung und je kürzer die Zinsbindung, desto größer die Differenz zwischen Soll- und Effektivzins. Vergleichen Sie immer den Effektivzins bei gleichen Konditionen."
+    },
+    {
+      "question": "Welche Zinsbindung sollte ich wählen: 5, 10, 15 oder 20 Jahre?",
+      "answer": "Die Wahl der Zinsbindung hängt von Ihrer Situation und Markteinschätzung ab: Kurze Zinsbindung (5-10 Jahre): Vorteile bei niedrigen Zinsen wenn Zinssenkung erwartet wird, meist günstigerer Zins, höhere Flexibilität. Nachteil: Risiko steigender Zinsen bei Anschlussfinanzierung. Lange Zinsbindung (15-20 Jahre): Maximale Planungssicherheit, Schutz vor Zinserhöhungen, meist etwas höherer Anfangszins aber Sicherheit. Empfehlung 2024: Bei aktuell moderaten Zinsen ist eine längere Zinsbindung (15-20 Jahre) ratsam für Planungssicherheit. Bei hoher anfänglicher Tilgung (3-4%) können auch 10 Jahre ausreichen. Berechnen Sie verschiedene Szenarien mit unterschiedlichen Anschlusszinsen durch."
+    },
+    {
+      "question": "Was sind die Kaufnebenkosten beim Immobilienerwerb?",
+      "answer": "Beim Immobilienkauf in Deutschland fallen neben dem Kaufpreis folgende Nebenkosten an: 1) Grunderwerbsteuer: 3,5% (Bayern, Sachsen) bis 6,5% (Brandenburg, NRW, Saarland, Schleswig-Holstein, Thüringen) des Kaufpreises; 2) Notar- und Beurkundungskosten: ca. 1,5% des Kaufpreises; 3) Grundbuchkosten: ca. 0,5% des Kaufpreises; 4) Maklerprovision (falls vorhanden): 3,57% bis 7,14% (wird seit 2020 geteilt zwischen Käufer und Verkäufer). Insgesamt sollten Sie mit 10-15% des Kaufpreises rechnen. Beispiel: Bei einem Kaufpreis von 400.000€ kommen 40.000-60.000€ Nebenkosten hinzu. Diese sollten idealerweise aus Eigenkapital finanziert werden."
+    },
+    {
+      "question": "Kann ich meine Hypothek vorzeitig ablösen?",
+      "answer": "Ja, aber mit Einschränkungen: Während der Zinsbindung dürfen Sie das Darlehen nur gegen Zahlung einer Vorfälligkeitsentschädigung ablösen. Diese kompensiert der Bank den Zinsverlust und kann erheblich sein (oft mehrere Tausend Euro). Ausnahmen: 1) Nach 10 Jahren Darlehenslaufzeit können Sie mit 6-monatiger Kündigungsfrist kostenlos kündigen (§ 489 BGB); 2) Viele Verträge erlauben kostenlose Sondertilgungen (meist 5-10% der Darlehenssumme pro Jahr); 3) Bei berechtigtem Interesse (Verkauf, Umzug) ist manchmal eine Ablösung möglich. Nach Ende der Zinsbindung können Sie jederzeit kostenlos umschulden oder tilgen. Tipp: Vereinbaren Sie von Anfang an hohe Sondertilgungsrechte."
+    },
+    {
+      "question": "Kann ich Hypothekenzinsen von der Steuer absetzen?",
+      "answer": "Für selbstgenutzte Immobilien können Sie Hypothekenzinsen in Deutschland NICHT von der Steuer absetzen. Anders bei vermieteten Immobilien: Hier sind Schuldzinsen als Werbungskosten voll absetzbar von den Mieteinnahmen. Absetzbar bei selbstgenutztem Eigentum sind: 1) Handwerkerleistungen (20% von max. 6.000€ Lohnkosten = max. 1.200€ Steuererstattung/Jahr); 2) Haushaltsnahe Dienstleistungen (20% von max. 20.000€ = max. 4.000€/Jahr); 3) Kosten für Arbeitszimmer (falls beruflich genutzt); 4) Denkmalschutz-Abschreibung (bei entsprechenden Objekten). Die frühere Eigenheimzulage wurde 2006 abgeschafft. Tipp: Bei vermieteten Objekten können Sie auch Renovierungen, Verwaltung und Abschreibung (AfA) steuerlich geltend machen."
+    },
+    {
+      "question": "Was passiert, wenn ich meine Raten nicht mehr zahlen kann?",
+      "answer": "Wenn Sie Zahlungsschwierigkeiten haben, handeln Sie sofort: 1) Kontaktieren Sie umgehend Ihre Bank und erklären Sie die Situation - Banken sind oft zu Lösungen bereit; 2) Nach 2 ausgefallenen Raten: Mahnung und Verzugszinsen; 3) Nach 3-6 Monaten: Bank kann Vertrag kündigen und Zwangsvollstreckung einleiten; 4) Zwangsversteigerung: Immobilie wird öffentlich versteigert, oft unter Marktwert. Lösungsmöglichkeiten: 1) Stundung einzelner Raten; 2) Tilgungsaussetzung (nur Zinsen zahlen); 3) Zinsbindung verlängern bei niedrigerer Rate; 4) Umschuldung zu besseren Konditionen; 5) Freier Verkauf statt Zwangsversteigerung. Wichtig: Je früher Sie reagieren, desto mehr Optionen haben Sie. Suchen Sie auch Hilfe bei Schuldnerberatungsstellen."
+    }
+  ],
+
+  "howTo": {
+    "title": "So Nutzen Sie den Hypothekenrechner",
+    "steps": [
+      {
+        "name": "Kaufpreis und Eigenkapital Eingeben",
+        "text": "Beginnen Sie mit der Eingabe des gesamten Kaufpreises der Immobilie, die Sie erwerben möchten. Wählen Sie dann, ob Sie Ihr Eigenkapital als Euro-Betrag oder als Prozentsatz eingeben möchten. Mindestens 20-30% Eigenkapital werden empfohlen, um bessere Zinskonditionen zu erhalten. Sie können den Wert anpassen, um verschiedene Finanzierungsszenarien zu vergleichen."
+      },
+      {
+        "name": "Zinssatz und Laufzeit Festlegen",
+        "text": "Geben Sie den jährlichen Zinssatz ein, den Ihnen Ihre Bank angeboten hat (oder nutzen Sie aktuelle Marktzinsen als Orientierung). Wählen Sie die Darlehenslaufzeit - typischerweise 15, 20, 25 oder 30 Jahre in Deutschland. Kürzere Laufzeiten bedeuten höhere monatliche Raten, reduzieren aber die Gesamtzinskosten erheblich."
+      },
+      {
+        "name": "Nebenkosten Hinzufügen (Optional)",
+        "text": "Klicken Sie auf 'Erweiterte Optionen', um die jährliche Grundsteuer, Wohngebäudeversicherung (bei Finanzierung Pflicht) und Hausgeld für Eigentumswohnungen einzubeziehen. Diese Kosten sind wichtig, um Ihre tatsächliche monatliche Wohnkostenbelastung zu kennen. Die Grundsteuer variiert stark je nach Gemeinde und Immobilienwert."
+      },
+      {
+        "name": "Aufschlüsselung Ihrer Monatsrate Prüfen",
+        "text": "Der Rechner zeigt Ihre monatliche Gesamtrate prominent an, zusammen mit einer detaillierten Aufschlüsselung: Tilgung und Zinsen, anteilige Grundsteuer, Wohngebäudeversicherung und Hausgeld. Sie sehen auch den gesamten Darlehensbetrag, die Gesamtzinsen über die Laufzeit und das voraussichtliche Datum der vollständigen Rückzahlung."
+      },
+      {
+        "name": "Tilgungsplan Erkunden",
+        "text": "Klicken Sie auf 'Tilgungsplan Anzeigen', um zu sehen, wie sich Ihre Restschuld im Zeitverlauf entwickelt. Der Plan zeigt für jede Rate den Tilgungs- und Zinsanteil, die verbleibende Restschuld und wie sich die Zusammensetzung der Rate verändert. Nutzen Sie die Seitennavigation, um zu verschiedenen Jahren Ihrer Finanzierung zu springen und zu beobachten, wie anfangs hauptsächlich Zinsen und später zunehmend Tilgung gezahlt wird."
+      }
+    ]
+  },
+
+  "disclaimer": {
+    "text": "Dieser Rechner liefert nur Schätzwerte. Tatsächliche Hypothekenkonditionen, Zinssätze und Kosten können je nach Bonität, Kreditgeberrichtlinien, Immobilienstandort und Marktbedingungen variieren. Grundsteuer und Versicherungskosten sind Schätzungen und variieren je nach Standort. Risikolebensversicherungssätze und Kündigungsbedingungen können je nach Kreditgeber unterschiedlich sein. Für verbindliche Angebote und personalisierte Konditionen wenden Sie sich bitte direkt an Kreditinstitute.",
+    "note": "Die Berechnungen gehen von Festzinsdarlehen mit Standardtilgung (Annuitätendarlehen) aus. Variable Zinsdarlehen, endfällige Darlehen und andere spezialisierte Produkte können unterschiedliche Zahlungsstrukturen aufweisen. Überprüfen Sie stets alle Zinssätze, Gebühren und Bedingungen bei Ihrer Bank, bevor Sie finanzielle Entscheidungen treffen."
+  },
+
+  "seo": {
+    "whatIsTitle": "Was ist ein Hypothekenrechner?",
+    "whatIsContent": "Ein Hypothekenrechner ist ein Finanzplanungstool, das Ihre monatliche Baufinanzierungsrate berechnet, einschließlich Tilgung, Zinsen, Grundsteuer, Wohngebäudeversicherung und Hausgeld. Geben Sie Kaufpreis, Eigenkapital, Zinssatz und Laufzeit ein, um Ihre vollständigen monatlichen Wohnkosten, Gesamtzinsen und den kompletten Tilgungsplan zu sehen. Unverzichtbar für die Kaufplanung und zum Vergleich verschiedener Finanzierungsszenarien.",
+    "whenToUseTitle": "Wann Sollten Sie einen Hypothekenrechner Nutzen?",
+    "whenToUseIntro": "Nutzen Sie unseren Rechner für fundierte Kaufentscheidungen:",
+    "whenToUsePoint1": "Bestimmen Sie, welche Immobilie Sie sich nach Ihrem Budget leisten können",
+    "whenToUsePoint2": "Vergleichen Sie verschiedene Eigenkapitalbeträge und deren Auswirkung auf die Monatsrate",
+    "whenToUsePoint3": "Bewerten Sie Laufzeiten von 15, 20, 25 oder 30 Jahren und die Gesamtzinskosten",
+    "whenToUsePoint4": "Verstehen Sie die vollständigen Eigentümerkosten inklusive Steuern und Versicherungen",
+    "whenToUsePoint5": "Planen Sie mit unterschiedlichen Zinsbindungsfristen und Tilgungssätzen",
+    "mortgageTypesTitle": "Arten von Baufinanzierungen",
+    "mortgageTypeFixed": "Annuitätendarlehen mit Zinsbindung - Der Zinssatz bleibt für die gewählte Zinsbindungsfrist (5, 10, 15, 20 Jahre) konstant und bietet planbare monatliche Raten sowie Schutz vor Zinserhöhungen",
+    "mortgageTypeVariable": "Variables Darlehen - Der Zinssatz passt sich regelmäßig an Marktbedingungen an. Bietet anfangs niedrigere Zinsen, birgt aber das Risiko steigender Raten",
+    "mortgageTypeInterestOnly": "Endfälliges Darlehen - Sie zahlen nur Zinsen während der Laufzeit und tilgen das Kapital am Ende in einer Summe. Niedrigere monatliche Belastung, erfordert aber parallelen Sparvertrag",
+    "mortgageTypeFHA": "KfW-Förderkredit - Staatlich geförderte Darlehen mit besonders günstigen Konditionen für energieeffizientes Bauen, Renovieren oder Erstkauf. Kann mit Bankdarlehen kombiniert werden",
+    "mortgageTypeVA": "Vollfinanzierung - 100% Finanzierung ohne Eigenkapital, nur bei ausgezeichneter Bonität. Höhere Zinsen und meist Aufschlag von 0,3-0,5% gegenüber Standardfinanzierung",
+    "benefitsTitle": "Warum einen Hypothekenrechner Nutzen?",
+    "benefit1": "Budgetieren Sie präzise durch Verständnis Ihrer vollständigen Monatsrate inklusive aller Steuern und Nebenkosten",
+    "benefit2": "Vergleichen Sie verschiedene Szenarien - Eigenkapital, Laufzeiten und Zinssätze - Seite an Seite",
+    "benefit3": "Sehen Sie die langfristigen Auswirkungen Ihrer Entscheidungen mit Gesamtzinsberechnungen",
+    "benefit4": "Verstehen Sie den Unterschied zwischen verschiedenen Zinsbindungsfristen und Tilgungssätzen",
+    "benefit5": "Treffen Sie sichere Kaufentscheidungen auf Basis präziser Finanzprognosen",
+    "howToUseTitle": "So Nutzen Sie Diesen Hypothekenrechner",
+    "howToUseStep1": "Geben Sie den Kaufpreis und Ihr Eigenkapital ein (Prozentsatz oder Euro-Betrag). 20-30% Eigenkapital werden empfohlen für bessere Zinskonditionen",
+    "howToUseStep2": "Tragen Sie den jährlichen Zinssatz ein, den Ihre Bank angeboten hat. Aktuelle Zinsen variieren nach Bonität, Darlehenssumme und Marktsituation",
+    "howToUseStep3": "Wählen Sie die Darlehenslaufzeit. 30-jährige Laufzeiten bieten niedrigere Monatsraten, während 15-20 Jahre erheblich Zinsen sparen",
+    "howToUseStep4": "Fügen Sie in den erweiterten Optionen Grundsteuer, Wohngebäudeversicherung und Hausgeld hinzu für Ihre kompletten monatlichen Wohnkosten",
+    "howToUseStep5": "Prüfen Sie den Tilgungsplan, um zu sehen, wie jede Rate Ihre Restschuld reduziert und sich die Zusammensetzung von Tilgung und Zinsen ändert",
+    "resultsTitle": "Ihre Hypothekenergebnisse Verstehen",
+    "resultsPayment": "Monatliche Rate - Ihre Gesamtrate inklusive Tilgung, Zinsen, anteiliger Grundsteuer, Versicherung und Hausgeld. Dies ist der Betrag, den Sie monatlich zahlen",
+    "resultsTotalCost": "Gesamtkosten der Immobilie - Der komplette Betrag, den Sie über die Darlehenslaufzeit zahlen werden, inklusive Kaufpreis, allen Zinsen, Steuern, Versicherungen und Nebenkosten",
+    "resultsTotalInterest": "Gesamtzinsen - Die kumulierten Zinsen über die gesamte Laufzeit. Bei 30-jährigen Hypotheken kann dies den ursprünglichen Darlehensbetrag erreichen oder überschreiten",
+    "resultsAmortization": "Tilgungsplan - Eine detaillierte Aufschlüsselung jeder Rate zeigt, wie viel auf Tilgung versus Zinsen entfällt. Frühe Raten sind hauptsächlich Zinsen; spätere Raten hauptsächlich Tilgung",
+    "formulaTitle": "Hypotheken-Berechnungsformel",
+    "formulaContent": "M = P × [r(1+r)^n] / [(1+r)^n - 1]",
+    "formulaExample": "Wobei M = Monatsrate, P = Darlehensbetrag (Kapital), r = Monatlicher Zinssatz (Jahreszins ÷ 12), n = Gesamtzahl der Raten (Jahre × 12). Grundsteuer, Versicherung und Hausgeld werden zu dieser Basisrate addiert.",
+    "tipsTitle": "Experten-Tipps für Ihre Baufinanzierung",
+    "tip1": "Streben Sie 20-30% Eigenkapital an, um die besten Zinssätze zu sichern und Aufschläge zu vermeiden - spart potenziell Tausende jährlich",
+    "tip2": "Vergleichen Sie Angebote von mindestens 3-5 Banken - Zinsen und Gebühren können erheblich variieren, selbst bei identischer Bonität",
+    "tip3": "Erwägen Sie eine 20-jährige Laufzeit wenn Sie höhere Raten tragen können - Sie zahlen 40-50% weniger Gesamtzinsen als bei 30 Jahren",
+    "tip4": "Wählen Sie eine anfängliche Tilgung von mindestens 2-3% - höhere Tilgung reduziert die Gesamtlaufzeit und Zinskosten drastisch",
+    "tip5": "Berücksichtigen Sie Kaufnebenkosten (10-15%) und behalten Sie Notreserven über Ihr Eigenkapital hinaus",
+    "tip6": "Nutzen Sie Sondertilgungsrechte - selbst 100€ extra monatlich können Jahre von Ihrem Darlehen abziehen und Zehntausende sparen",
+    "tip7": "Überprüfen Sie jährlich Grundsteuer und Versicherung - sie steigen oft im Laufe der Zeit und beeinflussen Ihre Gesamtrate",
+    "tip8": "Vereinbaren Sie kostenlose Sondertilgungsrechte (5-10% p.a.) und Tilgungssatzwechsel für maximale Flexibilität",
+    "faqTitle": "Häufige Fragen zu Hypotheken",
+    "faq1Question": "Welche Immobilie kann ich mir leisten?",
+    "faq1Answer": "Eine Faustregel besagt, dass Ihre monatliche Wohnkostenbelastung (Tilgung + Zinsen + Nebenkosten) nicht mehr als 35-40% Ihres Nettohaushaltseinkommens betragen sollte. Beispiel: Mit 4.000€ Nettoeinkommen sollten Sie maximal 1.400-1.600€ monatlich für Wohnen einplanen. Berücksichtigen Sie jedoch Ihre Jobsicherheit, Sparziele und Lebensumstände. Nutzen Sie diesen Rechner, um verschiedene Kaufpreise und Eigenkapitalbeträge zu testen, bis Sie eine komfortable Rate finden. Denken Sie an Instandhaltungskosten (1-2% des Immobilienwerts jährlich), Nebenkosten und Rücklagen zusätzlich zur Darlehensrate.",
+    "faq2Question": "Wie viel Eigenkapital ist ideal?",
+    "faq2Answer": "Das ideale Eigenkapital in Deutschland beträgt 20-30% des Kaufpreises. Idealerweise sollten Sie die Kaufnebenkosten (10-15% des Kaufpreises) vollständig aus Eigenkapital bezahlen können: Grunderwerbsteuer (3,5-6,5% je Bundesland), Notar- und Grundbuchkosten (ca. 2%), ggf. Maklerkosten (3,57-7,14%). 20-30% Eigenkapital ermöglichen: bessere Zinskonditionen (oft 0,3-0,5% niedriger), niedrigere Monatsraten, deutlich geringere Gesamtkosten, höhere Finanzierungssicherheit. Eine Vollfinanzierung (ohne Eigenkapital) ist möglich, aber erheblich teurer und nur bei ausgezeichneter Bonität verfügbar.",
+    "faq3Question": "15, 20, 25 oder 30 Jahre Laufzeit?",
+    "faq3Answer": "Dies hängt von Ihren finanziellen Prioritäten und Ihrer Zahlungsfähigkeit ab. Eine 20-jährige Hypothek hat deutlich höhere Monatsraten (ca. 30-40% mehr als 30 Jahre) spart aber enorm bei den Zinsen - oft 50.000-100.000€ bei typischen Immobilien. Wählen Sie 15-20 Jahre wenn: Sie höhere Raten bequem tragen können, schneller schuldenfrei sein wollen, sich dem Ruhestand nähern, langfristig in der Immobilie bleiben. Wählen Sie 25-30 Jahre wenn: Sie niedrigere Raten für finanzielle Flexibilität benötigen, am Limit Ihrer Finanzierungsfähigkeit sind, Flexibilität schätzen. Kompromiss: 30 Jahre mit hoher anfänglicher Tilgung (3-4%) und Sondertilgungen reduziert faktisch die Laufzeit erheblich.",
+    "faq4Question": "Wie wird meine monatliche Rate berechnet?",
+    "faq4Answer": "Ihre monatliche Gesamtrate der Baufinanzierung umfasst mehrere Komponenten: 1) Tilgung & Zinsen - bei einem Annuitätendarlehen zahlen Sie eine konstante Rate aus Zins- und Tilgungsanteil. Der Zinsanteil sinkt über die Zeit, während der Tilgungsanteil steigt. Berechnet basierend auf Darlehenssumme, Sollzins und Laufzeit. 2) Grundsteuer - variiert stark nach Gemeinde und Einheitswert, ca. 0,26-1% des Einheitswerts jährlich. 3) Wohngebäudeversicherung - Pflicht bei Finanzierung, ca. 0,1-0,3% der Gebäudeversicherungssumme jährlich. 4) Hausgeld - bei Eigentumswohnungen für Instandhaltung, Verwaltung, Rücklagen. Diese Gesamtbelastung sollte 35-40% Ihres Nettoeinkommens nicht überschreiten.",
+    "faq5Question": "Was ist der Unterschied zwischen Sollzins und Effektivzins?",
+    "faq5Answer": "Der Sollzins (auch Nominalzins) ist der reine Zinssatz für das geliehene Kapital. Der Effektivzins bildet die tatsächlichen jährlichen Gesamtkosten ab und beinhaltet: Sollzins, Tilgungsverrechnung, Disagio oder Agio, Bearbeitungsgebühren. NICHT enthalten: Kontoführungsgebühren, Bereitstellungszinsen, Schätzkosten, Versicherungen (außer wenn Kreditvoraussetzung). Der Effektivzins ist die wichtigste Kennzahl zum Angebotsvergleich. Beispiel: Angebot A mit 3,00% Sollzins und 3,45% Effektivzins vs. Angebot B mit 3,10% Sollzins und 3,35% Effektivzins - Angebot B ist günstiger. Vergleichen Sie immer Effektivzinsen bei gleichen Konditionen (Zinsbindung, Tilgung, Laufzeit).",
+    "faq6Question": "Wie viel zahle ich an Gesamtzinsen?",
+    "faq6Answer": "Die Gesamtzinsen hängen von Darlehenssumme, Zinssatz und Laufzeit ab. Bei einer Hypothek über 300.000€ auf 30 Jahre mit 3,5% Zins zahlen Sie ca. 185.000€ Zinsen - mehr als die Hälfte der Darlehenssumme. Bei 20 Jahren mit gleichem Zins nur 116.000€ Zinsen - eine Ersparnis von 69.000€. Jede 0,5% Zinserhöhung kostet Zehntausende Euro bei langen Laufzeiten. Die gute Nachricht: Sie können Zinsen drastisch reduzieren durch höhere anfängliche Tilgung (3-4% statt 2%), Sondertilgungen, kürzere Zinsbindung bei günstiger Anschlussfinanzierung. Nutzen Sie den Tilgungsplan dieses Rechners, um genau zu sehen, wie viel Zinsen Sie zahlen.",
+    "faq7Question": "Kann ich mir die Immobilie mit meinem Einkommen leisten?",
+    "faq7Answer": "Deutsche Banken nutzen üblicherweise die 35-40%-Regel: Ihre Wohnkostenbelastung sollte 35-40% des Nettohaushaltseinkommens nicht überschreiten. Dies ist aber nur ein Ausgangspunkt. Berücksichtigen Sie: Ihre Jobsicherheit (Beamter vs. Selbstständiger vs. unbefristet Angestellter), Sparpolster (halten Sie 6-12 Monate Ausgaben als Notreserve), andere finanzielle Ziele (Altersvorsorge, Kinder), Lebensprioritäten und Komfort mit Verschuldung. Ein konservativer Ansatz: Ihre Gesamtrate (Tilgung + Zins + Nebenkosten) sollte unter 35% Ihres Nettolohns liegen, mit Spielraum für Instandhaltung, Nebenkosten, Sparen und Unvorhergesehenes. Nutzen Sie diesen Rechner für verschiedene Szenarien.",
+    "faq8Question": "Welche Kaufnebenkosten muss ich einplanen?",
+    "faq8Answer": "Beim Immobilienkauf in Deutschland fallen neben dem Kaufpreis und Eigenkapital diese Nebenkosten an: 1) Grunderwerbsteuer: 3,5% (Bayern, Sachsen) bis 6,5% (Brandenburg, NRW, Saarland, Schleswig-Holstein, Thüringen) des Kaufpreises; 2) Notar- und Beurkundungskosten: ca. 1,5% des Kaufpreises; 3) Grundbuchkosten: ca. 0,5% des Kaufpreises; 4) Maklerprovision (falls vorhanden): 3,57% bis 7,14% (seit 2020 geteilt Käufer/Verkäufer). Insgesamt: 10-15% des Kaufpreises. Beispiel: Bei 400.000€ Kaufpreis entstehen 40.000-60.000€ Nebenkosten. Diese sollten idealerweise vollständig aus Eigenkapital finanziert werden. Zusätzlich einplanen: Umzugskosten, Renovierung, neue Möbel. Behalten Sie stets eine Notreserve nach dem Kauf.",
+    "faq9Question": "Ist jetzt ein guter Zeitpunkt zum Kauf?",
+    "faq9Answer": "Der beste Zeitpunkt für einen Immobilienkauf hängt mehr von Ihrer persönlichen Situation ab als vom Markt-Timing. Kaufen Sie wenn: Sie stabile Einkünfte und Jobsicherheit haben, Sie solides Eigenkapital (idealerweise 20-30%) plus Notreserve gespart haben, Sie planen mindestens 5-7 Jahre in der Region zu bleiben (um Nebenkosten zu amortisieren und Vermögen aufzubauen), Sie die Monatsrate bequem tragen können, Sie emotional bereit für Eigentümerverantwortung sind. Marktbedingungen zählen weniger als Ihre persönliche Bereitschaft. Wenn aktuelle Zinsen hoch sind, können Sie später umschulden wenn sie fallen - aber Sie können nicht zu heutigen Preisen kaufen wenn diese steigen. Fokussieren Sie sich auf die richtige Immobilie zu einer tragbaren Rate."
+  }
+}

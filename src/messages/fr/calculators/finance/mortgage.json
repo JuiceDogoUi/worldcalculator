@@ -1,0 +1,206 @@
+{
+  "title": "Calculateur de Prêt Immobilier",
+  "description": "Calculez votre mensualité de prêt immobilier incluant le capital, les intérêts, la taxe foncière, l'assurance habitation et les charges de copropriété. Obtenez une ventilation complète des coûts de votre crédit immobilier.",
+
+  "meta": {
+    "title": "Calculateur de Prêt Immobilier - Calculez Mensualités et Coût Total | World Calculator",
+    "description": "Calculateur de crédit immobilier gratuit avec taxes, assurance et charges. Calculez vos mensualités, le tableau d'amortissement et le coût total de votre propriété en quelques secondes.",
+    "keywords": "calculateur prêt immobilier, calculateur crédit immobilier, calculateur mensualité, TAEG, taux nominal, assurance emprunteur, tableau amortissement, taxe foncière, frais de notaire"
+  },
+
+  "inputs": {
+    "homePrice": "Prix du Bien",
+    "downPayment": "Apport Personnel",
+    "downPaymentType": "Type d'Apport",
+    "downPaymentPercentage": "Apport (%)",
+    "downPaymentAmount": "Apport (€)",
+    "interestRate": "Taux d'Intérêt (% Annuel)",
+    "loanTerm": "Durée du Prêt",
+    "paymentFrequency": "Fréquence de Paiement",
+    "propertyTax": "Taxe Foncière Annuelle",
+    "homeInsurance": "Assurance Habitation Annuelle",
+    "hoaFees": "Charges de Copropriété Mensuelles",
+    "pmiRate": "Taux d'Assurance Emprunteur (%)"
+  },
+
+  "options": {
+    "monthly": "Mensuelle",
+    "biweekly": "Bimensuelle",
+    "weekly": "Hebdomadaire",
+    "percentage": "Pourcentage",
+    "amount": "Montant en Euros",
+    "years": "ans"
+  },
+
+  "outputs": {
+    "totalMonthlyPayment": "Mensualité Totale",
+    "loanAmount": "Montant du Prêt",
+    "downPayment": "Apport Personnel",
+    "totalInterest": "Intérêts Totaux",
+    "totalCost": "Coût Total du Bien",
+    "payoffDate": "Date de Remboursement Final",
+    "paymentBreakdown": "Détail de la Mensualité",
+    "principalInterest": "Capital et Intérêts",
+    "propertyTax": "Taxe Foncière",
+    "homeInsurance": "Assurance Habitation",
+    "pmi": "Assurance Emprunteur",
+    "hoaFees": "Charges de Copropriété",
+    "pmiRequired": "Assurance requise (Apport < 20%)",
+    "pmiNotRequired": "Assurance optionnelle (Apport ≥ 20%)",
+    "pmiRemovalInfo": "Assurance résiliable après {period} mensualités"
+  },
+
+  "actions": {
+    "calculate": "Calculer",
+    "reset": "Réinitialiser",
+    "showSchedule": "Afficher le Tableau d'Amortissement",
+    "hideSchedule": "Masquer le Tableau d'Amortissement",
+    "advancedOptions": "Options Avancées",
+    "showMore": "Afficher Plus",
+    "showLess": "Afficher Moins"
+  },
+
+  "amortization": {
+    "title": "Tableau d'Amortissement",
+    "period": "Période",
+    "payment": "Mensualité",
+    "principal": "Capital",
+    "interest": "Intérêts",
+    "balance": "Solde",
+    "pmi": "Assurance",
+    "page": "Page",
+    "of": "sur"
+  },
+
+  "faqs": [
+    {
+      "question": "Quel apport personnel est recommandé pour un crédit immobilier ?",
+      "answer": "En France, il est fortement recommandé d'avoir un apport personnel d'au moins 10% à 20% du prix du bien. Cet apport permet généralement de couvrir les frais de notaire (7-8% pour l'ancien, 2-3% pour le neuf) et une partie du prix d'achat. Un apport de 20% ou plus vous permettra : 1) D'obtenir de meilleurs taux d'intérêt ; 2) De réduire le montant emprunté et donc les intérêts totaux ; 3) De rassurer les banques sur votre capacité d'épargne ; 4) D'éviter ou réduire l'assurance supplémentaire. Certains profils (jeunes actifs, fonctionnaires) peuvent emprunter sans apport avec de bonnes conditions."
+    },
+    {
+      "question": "Comment est calculée ma mensualité de crédit immobilier ?",
+      "answer": "La mensualité de votre crédit immobilier comprend plusieurs éléments : 1) Capital et intérêts - calculés selon un tableau d'amortissement à mensualités constantes, basés sur le montant emprunté, le taux nominal et la durée ; 2) Assurance emprunteur - obligatoire, généralement 0,20% à 0,40% du capital emprunté par an pour les moins de 35 ans ; 3) Garantie (hypothèque ou caution). Séparément, vous devrez aussi payer : 4) Taxe foncière - variable selon la commune et la valeur locative cadastrale ; 5) Charges de copropriété - pour un appartement. Le taux d'endettement ne doit pas dépasser 35% de vos revenus (depuis janvier 2022)."
+    },
+    {
+      "question": "Qu'est-ce que le TAEG et pourquoi est-il important ?",
+      "answer": "Le TAEG (Taux Annuel Effectif Global) est l'indicateur clé pour comparer les offres de prêt. Il inclut : 1) Le taux nominal (taux d'intérêt de base) ; 2) L'assurance emprunteur obligatoire ; 3) Les frais de dossier ; 4) Les frais de garantie ; 5) Tous les autres frais obligatoires. C'est le coût réel total de votre crédit exprimé en pourcentage annuel. Le taux nominal peut être attractif, mais si les frais annexes sont élevés, le TAEG sera plus élevé. Comparez toujours les TAEG entre différentes banques, pas seulement les taux nominaux."
+    },
+    {
+      "question": "Crédit immobilier à taux fixe ou variable : lequel choisir ?",
+      "answer": "Taux fixe : Le taux reste identique pendant toute la durée du prêt. Avantages : sécurité, mensualités constantes et prévisibles, idéal quand les taux sont bas. Inconvénient : taux généralement un peu plus élevé au départ. C'est le type de prêt le plus courant en France (95% des crédits). Taux variable : Le taux évolue selon un indice de référence (Euribor + marge). Avantages : taux initial plus attractif. Inconvénients : risque d'augmentation des mensualités, moins de visibilité. Recommandation 2024 : privilégiez le taux fixe pour la sécurité, surtout avec les taux actuels qui restent historiquement raisonnables."
+    },
+    {
+      "question": "Quels sont les frais annexes lors de l'achat d'un bien immobilier ?",
+      "answer": "Lors d'un achat immobilier en France, vous devrez payer en plus du prix de vente : 1) Frais de notaire : 7-8% du prix (ancien) ou 2-3% (neuf) - incluent droits d'enregistrement, émoluments du notaire, frais divers ; 2) Frais de dossier bancaire : 500-1.500€ ; 3) Frais de garantie : 1-2% (hypothèque) ou 2-3% (caution) ; 4) Assurance emprunteur : 0,20-0,50% du capital emprunté/an ; 5) Frais d'agence : 3-10% du prix (généralement payés par le vendeur mais inclus dans le prix) ; 6) Diagnostic immobilier : 300-800€. Prévoyez au total 10-12% du prix pour l'ancien, 3-5% pour le neuf."
+    },
+    {
+      "question": "Puis-je rembourser mon crédit immobilier par anticipation ?",
+      "answer": "Oui, vous pouvez rembourser votre crédit par anticipation (totalement ou partiellement) à tout moment en France. La loi encadre les pénalités : maximum 6 mois d'intérêts ou 3% du capital restant dû (le plus faible des deux). Certaines banques proposent des offres sans pénalités. Le remboursement anticipé permet : 1) De réduire la durée du prêt (en gardant la même mensualité) ; 2) De réduire les mensualités (en gardant la même durée) ; 3) De faire les deux. Vérifiez votre contrat : certains imposent un montant minimum (10% du capital initial). Stratégie : profitez des rentrées exceptionnelles (prime, héritage) pour rembourser par anticipation et économiser des milliers d'euros d'intérêts."
+    },
+    {
+      "question": "Puis-je déduire mes intérêts d'emprunt de mes impôts ?",
+      "answer": "En France, vous ne pouvez généralement pas déduire les intérêts d'emprunt de votre résidence principale de vos impôts sur le revenu. Cette déduction a existé sous forme de crédit d'impôt (Loi TEPA) mais a été supprimée en 2011. Exceptions : 1) Investissement locatif : les intérêts d'emprunt sont déductibles des revenus fonciers dans le cadre du régime réel ; 2) Prêt à taux zéro (PTZ) : aide de l'État pour primo-accédants, sans intérêts donc pas de déduction mais un avantage direct ; 3) Dispositifs Pinel, Denormandie : réductions d'impôt pour investissement locatif neuf. Consultez un conseiller fiscal pour optimiser votre situation selon votre projet."
+    },
+    {
+      "question": "Que se passe-t-il si je ne peux plus payer mes mensualités ?",
+      "answer": "Si vous rencontrez des difficultés de paiement, agissez rapidement : 1) Contactez immédiatement votre banque pour trouver une solution amiable (report d'échéances, modulation de mensualités, rééchelonnement) ; 2) Après 2-3 impayés : mise en demeure de la banque ; 3) Après 3-6 mois : déchéance du terme (totalité du prêt devient exigible) et saisine du tribunal ; 4) Procédure de saisie immobilière : le bien peut être vendu aux enchères. Solutions préventives : 1) Assurance perte d'emploi (si souscrite) ; 2) Saisine de la commission de surendettement de la Banque de France ; 3) Vente amiable du bien avant saisie ; 4) Renégociation ou rachat de crédit. Ne laissez jamais la situation s'aggraver sans réagir."
+    }
+  ],
+
+  "howTo": {
+    "title": "Comment Utiliser le Calculateur de Prêt Immobilier",
+    "steps": [
+      {
+        "name": "Entrez le Prix du Bien et l'Apport Personnel",
+        "text": "Commencez par saisir le prix total d'achat du bien que vous souhaitez acquérir. Ensuite, choisissez d'entrer votre apport personnel en montant en euros ou en pourcentage. Un apport de 10-20% minimum est recommandé pour couvrir les frais de notaire et obtenir de meilleures conditions. Vous pouvez ajuster ce montant pour comparer différents scénarios."
+      },
+      {
+        "name": "Définissez le Taux d'Intérêt et la Durée",
+        "text": "Saisissez le taux d'intérêt annuel proposé par votre banque (ou utilisez les taux du marché actuels comme référence). Choisissez la durée du prêt - typiquement 15, 20 ou 25 ans en France. Les durées plus courtes impliquent des mensualités plus élevées mais réduisent considérablement le coût total des intérêts."
+      },
+      {
+        "name": "Ajoutez les Frais Annexes (Optionnel)",
+        "text": "Cliquez sur 'Options Avancées' pour inclure la taxe foncière annuelle, l'assurance habitation, les charges de copropriété et ajuster le taux d'assurance emprunteur. Ces éléments sont essentiels pour connaître votre charge mensuelle réelle de logement. La taxe foncière varie selon la commune et la valeur locative cadastrale du bien."
+      },
+      {
+        "name": "Consultez le Détail de Votre Mensualité",
+        "text": "Le calculateur affiche votre mensualité totale de manière bien visible, accompagnée d'une ventilation détaillée montrant : capital et intérêts, taxe foncière mensualisée, assurance habitation, assurance emprunteur et charges de copropriété. Vous verrez également le montant total emprunté, les intérêts totaux que vous paierez et la date estimée de fin de remboursement."
+      },
+      {
+        "name": "Explorez le Tableau d'Amortissement",
+        "text": "Cliquez sur 'Afficher le Tableau d'Amortissement' pour visualiser l'évolution du remboursement de votre prêt dans le temps. Le tableau détaille pour chaque mensualité la part de capital et la part d'intérêts, le solde restant dû, et comment la composition du paiement évolue. Utilisez la pagination pour consulter différentes années de votre prêt et constater qu'au début vous remboursez principalement des intérêts, puis progressivement plus de capital."
+      }
+    ]
+  },
+
+  "disclaimer": {
+    "text": "Ce calculateur fournit uniquement des estimations. Les conditions réelles de prêt, les taux et les coûts peuvent varier en fonction de votre profil de crédit, des politiques de l'établissement prêteur, de la localisation du bien et des conditions de marché. La taxe foncière et les coûts d'assurance sont des estimations qui varient selon la localisation. Les taux d'assurance emprunteur et les conditions de résiliation peuvent différer selon l'établissement. Pour des devis contraignants et des conditions personnalisées, consultez directement les établissements de crédit.",
+    "note": "Les calculs supposent des prêts à taux fixe avec amortissement standard (système français de mensualités constantes). Les prêts à taux variable, les prêts in fine et autres produits spécialisés peuvent avoir des structures de paiement différentes. Vérifiez toujours tous les taux, frais et conditions avec votre banque avant de prendre des décisions financières."
+  },
+
+  "seo": {
+    "whatIsTitle": "Qu'est-ce qu'un Calculateur de Prêt Immobilier ?",
+    "whatIsContent": "Un calculateur de crédit immobilier est un outil de planification financière qui calcule votre mensualité de prêt immobilier, incluant le capital, les intérêts, la taxe foncière, l'assurance habitation et les charges de copropriété. Saisissez le prix du bien, l'apport personnel, le taux d'intérêt et la durée pour voir vos coûts mensuels complets, les intérêts totaux et le tableau d'amortissement. Indispensable pour planifier l'achat immobilier et comparer différents scénarios de financement.",
+    "whenToUseTitle": "Quand Utiliser un Calculateur de Prêt Immobilier ?",
+    "whenToUseIntro": "Utilisez notre calculateur pour prendre des décisions éclairées :",
+    "whenToUsePoint1": "Déterminer quel bien vous pouvez vous permettre selon votre budget",
+    "whenToUsePoint2": "Comparer différents montants d'apport et leur impact sur la mensualité",
+    "whenToUsePoint3": "Évaluer les prêts à 15, 20 ou 25 ans et les coûts totaux d'intérêts",
+    "whenToUsePoint4": "Comprendre le coût complet de propriété incluant taxes et assurances",
+    "whenToUsePoint5": "Planifier avec taux fixe versus taux variable selon vos prévisions",
+    "mortgageTypesTitle": "Types de Prêts Immobiliers Calculables",
+    "mortgageTypeFixed": "Prêt à Taux Fixe - Le taux d'intérêt reste identique pendant toute la durée du prêt (15, 20 ou 25 ans), offrant des mensualités prévisibles et une protection contre les hausses de taux",
+    "mortgageTypeVariable": "Prêt à Taux Variable - Le taux d'intérêt varie périodiquement selon un indice de référence (Euribor + marge). Offre des taux initiaux plus attractifs mais comporte un risque d'augmentation des mensualités",
+    "mortgageTypeInterestOnly": "Prêt In Fine - Vous ne payez que les intérêts pendant toute la durée, puis remboursez le capital en une fois à la fin. Mensualités plus faibles mais nécessite un produit d'épargne parallèle",
+    "mortgageTypeFHA": "Prêt à Taux Zero (PTZ) - Prêt sans intérêts accordé par l'État aux primo-accédants sous conditions de ressources, complétant un prêt principal. Remboursement différé selon revenus",
+    "mortgageTypeVA": "Prêt Relais - Crédit temporaire permettant d'acheter avant d'avoir vendu votre bien actuel. Vous ne payez que les intérêts jusqu'à la vente, puis remboursez le capital",
+    "benefitsTitle": "Pourquoi Utiliser un Calculateur de Prêt Immobilier ?",
+    "benefit1": "Budgétez précisément en comprenant votre mensualité complète incluant toutes les taxes et frais",
+    "benefit2": "Comparez différents scénarios - apport, durée et taux d'intérêt - côte à côte",
+    "benefit3": "Visualisez l'impact à long terme de vos décisions avec les calculs d'intérêts totaux",
+    "benefit4": "Comprenez la différence entre taux fixe et variable pour votre situation",
+    "benefit5": "Prenez des décisions d'achat en confiance avec des projections financières précises",
+    "howToUseTitle": "Comment Utiliser Ce Calculateur",
+    "howToUseStep1": "Saisissez le prix du bien et votre apport personnel (pourcentage ou montant en euros). Un apport de 10-20% minimum est recommandé pour obtenir de meilleures conditions",
+    "howToUseStep2": "Entrez le taux d'intérêt annuel proposé par votre banque. Les taux varient selon votre profil, le type de prêt et les conditions du marché",
+    "howToUseStep3": "Sélectionnez la durée du prêt. Les prêts sur 25 ans offrent des mensualités plus basses tandis que les durées de 15 ans économisent considérablement sur les intérêts totaux",
+    "howToUseStep4": "Ajoutez la taxe foncière annuelle, l'assurance habitation et les charges de copropriété dans les options avancées pour voir votre coût mensuel complet",
+    "howToUseStep5": "Consultez le tableau d'amortissement pour voir comment chaque mensualité réduit votre capital et comment évolue la répartition capital/intérêts",
+    "resultsTitle": "Comprendre les Résultats de Votre Prêt",
+    "resultsPayment": "Mensualité - Votre paiement total incluant capital, intérêts, taxe foncière mensualisée, assurance et charges. C'est le montant que vous paierez chaque mois",
+    "resultsTotalCost": "Coût Total du Bien - Le montant complet que vous paierez pendant la durée du prêt, incluant le prix d'achat, tous les intérêts, taxes, assurances et frais",
+    "resultsTotalInterest": "Intérêts Totaux - Les intérêts cumulés payés pendant toute la durée du prêt. Sur un prêt de 25 ans, cela peut égaler ou dépasser le montant du prêt initial",
+    "resultsAmortization": "Tableau d'Amortissement - Une ventilation détaillée de chaque mensualité montrant la part de capital versus intérêts. Les premiers paiements sont principalement des intérêts ; les derniers sont principalement du capital",
+    "formulaTitle": "Formule de Calcul du Prêt Immobilier",
+    "formulaContent": "M = P × [r(1+r)^n] / [(1+r)^n - 1]",
+    "formulaExample": "Où M = Mensualité, P = Capital (montant emprunté), r = Taux d'Intérêt Mensuel (taux annuel ÷ 12), n = Nombre Total de Mensualités (années × 12). La taxe foncière, l'assurance et les charges s'ajoutent à cette mensualité de base.",
+    "tipsTitle": "Conseils d'Experts pour Votre Prêt Immobilier",
+    "tip1": "Visez un apport personnel de 10-20% minimum pour obtenir les meilleurs taux d'intérêt et éviter les garanties supplémentaires",
+    "tip2": "Comparez les offres d'au moins 3-5 banques - les taux et frais peuvent varier significativement même avec le même profil",
+    "tip3": "Envisagez un prêt sur 15-20 ans si vous pouvez supporter des mensualités plus élevées - vous économiserez 40-50% sur les intérêts totaux",
+    "tip4": "Négociez tous les frais de dossier, de garantie et d'assurance emprunteur - ils peuvent représenter des milliers d'euros",
+    "tip5": "Prévoyez les frais de notaire (7-8% ancien, 2-3% neuf) et maintenez une épargne de précaution au-delà de l'apport",
+    "tip6": "Effectuez des remboursements anticipés quand possible - même 100€ supplémentaires par mois peuvent réduire la durée de plusieurs années",
+    "tip7": "Révisez annuellement votre taxe foncière et votre assurance habitation - elles augmentent souvent et impactent votre mensualité",
+    "tip8": "Profitez des dispositifs fiscaux (PTZ, Pinel, Denormandie) si vous y êtes éligible pour réduire le coût total",
+    "faqTitle": "Questions Fréquentes sur les Prêts Immobiliers",
+    "faq1Question": "Quel bien puis-je me permettre d'acheter ?",
+    "faq1Answer": "En France, les banques appliquent généralement un taux d'endettement maximum de 35% de vos revenus nets mensuels (depuis janvier 2022). Par exemple, avec 3.000€ de revenus nets mensuels, votre mensualité maximale serait de 1.050€. Cependant, considérez votre stabilité d'emploi, vos objectifs d'épargne et votre style de vie. Utilisez ce calculateur pour tester différents prix de biens et apports jusqu'à trouver une mensualité confortable. N'oubliez pas les coûts de maintenance (1-2% de la valeur annuelle), les charges et les travaux éventuels au-delà de votre mensualité de prêt.",
+    "faq2Question": "Quel est l'apport personnel idéal ?",
+    "faq2Answer": "L'apport idéal en France est de 10-20% du prix du bien, permettant généralement de couvrir les frais de notaire (7-8% pour l'ancien, 2-3% pour le neuf). Un apport de 20% ou plus vous permettra : d'obtenir de meilleurs taux d'intérêt (potentiellement 0,20-0,40% plus bas), de réduire votre mensualité, de payer moins d'intérêts au total, de rassurer les banques sur votre capacité d'épargne. Toutefois, certains profils (jeunes actifs, fonctionnaires) peuvent emprunter avec moins d'apport voire sans apport grâce à de bonnes garanties. Les primo-accédants peuvent bénéficier du PTZ complétant un apport réduit.",
+    "faq3Question": "Prêt sur 15, 20 ou 25 ans : que choisir ?",
+    "faq3Answer": "Le choix dépend de vos priorités financières et de votre capacité de paiement. Un prêt sur 15 ans implique des mensualités significativement plus élevées (environ 40-50% de plus qu'à 25 ans) mais économise énormément sur les intérêts - souvent 30.000-60.000€ sur un bien typique. Choisissez 15-20 ans si : vous pouvez confortablement supporter des mensualités plus élevées, vous voulez être propriétaire sans dette rapidement, vous approchez de la retraite. Choisissez 25 ans si : vous avez besoin de mensualités plus basses pour la flexibilité financière, vous êtes au maximum de votre capacité d'endettement, vous valorisez la flexibilité budgétaire. Solution intermédiaire : prêt sur 25 ans avec remboursements anticipés réguliers.",
+    "faq4Question": "Comment est calculée ma mensualité ?",
+    "faq4Answer": "Votre mensualité totale de prêt immobilier comprend plusieurs éléments : 1) Capital et Intérêts - calculés selon le système d'amortissement français (mensualités constantes) basé sur le montant emprunté, le taux nominal et la durée. Cette partie est constante pour les taux fixes. 2) Taxe Foncière - environ 1/12 de votre taxe annuelle, variable selon la commune et la valeur locative cadastrale. 3) Assurance Habitation - 1/12 de votre prime annuelle, obligatoire avec un prêt. 4) Assurance Emprunteur - 0,20-0,40% du capital emprunté par an pour les moins de 35 ans, obligatoire. 5) Charges de Copropriété - pour un appartement, payées séparément mais à budgétiser. Le TAEG inclut tous ces coûts obligatoires du crédit.",
+    "faq5Question": "Qu'est-ce que le TAEG et pourquoi est-il important ?",
+    "faq5Answer": "Le TAEG (Taux Annuel Effectif Global) est l'indicateur clé pour comparer les offres de prêt immobilier. Il inclut : le taux nominal (taux d'intérêt de base), l'assurance emprunteur obligatoire, les frais de dossier, les frais de garantie, tous les autres frais obligatoires. C'est le coût réel total de votre crédit exprimé en pourcentage annuel. Le taux nominal peut paraître attractif, mais si les frais annexes sont élevés, le TAEG sera plus élevé. Par exemple : Prêt A avec taux nominal 3,00% et TAEG 3,50% vs Prêt B avec taux nominal 3,20% et TAEG 3,40% - le Prêt B coûte moins cher globalement. Comparez toujours les TAEG entre banques, pas seulement les taux nominaux.",
+    "faq6Question": "Combien paierai-je en intérêts totaux ?",
+    "faq6Answer": "Les intérêts totaux dépendent du montant emprunté, du taux d'intérêt et de la durée. Sur un prêt de 200.000€ à 25 ans avec un taux de 3,5%, vous paierez environ 107.000€ d'intérêts - plus de la moitié du prêt initial. Sur 15 ans au même taux, vous ne paieriez que 58.000€ d'intérêts - une économie de 49.000€. Chaque augmentation de 0,5% du taux coûte des dizaines de milliers d'euros sur un prêt long. La bonne nouvelle : vous pouvez réduire drastiquement les intérêts en effectuant des remboursements anticipés, en choisissant une durée plus courte ou en négociant un meilleur taux. Utilisez le tableau d'amortissement de ce calculateur pour voir précisément vos intérêts.",
+    "faq7Question": "Puis-je me permettre ce bien avec mes revenus actuels ?",
+    "faq7Answer": "Les banques françaises appliquent la règle des 35% : votre mensualité de prêt ne doit pas dépasser 35% de vos revenus nets mensuels. Cependant, c'est un point de départ. Considérez : votre stabilité professionnelle (CDI, fonctionnaire, profession libérale), votre épargne de précaution (maintenez 3-6 mois de dépenses), vos autres objectifs financiers (retraite, enfants), vos priorités de vie et votre aisance avec l'endettement. Une approche conservatrice est de s'assurer que votre mensualité totale (capital + intérêts + taxe foncière + assurance + charges) soit inférieure à 30% de votre salaire net, laissant de la marge pour l'entretien, les travaux, l'épargne et les imprévus. Utilisez ce calculateur pour modéliser différents scénarios.",
+    "faq8Question": "Quels frais annexes dois-je prévoir ?",
+    "faq8Answer": "Lors d'un achat immobilier en France, au-delà de l'apport, prévoyez : Pour l'ancien : 1) Frais de notaire : 7-8% du prix (droits d'enregistrement, émoluments, frais divers) ; 2) Frais de dossier bancaire : 500-1.500€ ; 3) Frais de garantie : 1-2% (hypothèque) ou 2-3% (caution) ; 4) Assurance emprunteur : 0,20-0,50% du capital/an ; 5) Frais d'agence : 3-10% (généralement vendeur mais inclus dans le prix). Pour le neuf : 1) Frais de notaire : 2-3% ; 2) Mêmes frais bancaires et garantie. Total : 10-12% pour l'ancien, 3-5% pour le neuf. Ajoutez les coûts de déménagement, travaux éventuels et ameublement. Conservez toujours une épargne de précaution après l'achat.",
+    "faq9Question": "Est-ce le bon moment pour acheter ?",
+    "faq9Answer": "Le meilleur moment pour acheter dépend davantage de votre situation personnelle que du timing de marché. Achetez quand : vous avez des revenus stables et une sécurité d'emploi, vous avez épargné un apport solide (idéalement 10-20%) plus un fonds d'urgence, vous prévoyez de rester dans la région au moins 5-7 ans (pour amortir les frais et construire du patrimoine), vous pouvez confortablement assumer la mensualité, vous êtes émotionnellement prêt pour les responsabilités de propriétaire. Les conditions de marché comptent moins que votre préparation personnelle. Si les taux actuels sont élevés, vous pourrez renégocier ou faire une surroga plus tard quand ils baisseront - mais vous ne pourrez pas revenir aux prix d'aujourd'hui s'ils augmentent. Concentrez-vous sur trouver le bon bien à une mensualité que vous pouvez assumer."
+  }
+}

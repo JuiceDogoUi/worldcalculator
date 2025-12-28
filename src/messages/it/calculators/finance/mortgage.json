@@ -1,0 +1,206 @@
+{
+  "title": "Calcolatore Mutuo Casa",
+  "description": "Calcola la tua rata mensile del mutuo includendo capitale, interessi, IMU, assicurazione casa e spese condominiali. Ottieni un prospetto completo dei costi del tuo mutuo immobiliare.",
+
+  "meta": {
+    "title": "Calcolatore Mutuo Casa - Calcola Rate Mensili e Costo Totale | World Calculator",
+    "description": "Calcolatore mutuo gratuito con imposte, assicurazioni e spese condominiali. Calcola rate mensili, piano di ammortamento e costo totale della casa in pochi secondi.",
+    "keywords": "calcolatore mutuo, calcolo rata mutuo, mutuo casa, piano ammortamento, TAEG, TAN, surroga mutuo, Euribor, IRS, IMU, assicurazione mutuo"
+  },
+
+  "inputs": {
+    "homePrice": "Prezzo dell'Immobile",
+    "downPayment": "Anticipo",
+    "downPaymentType": "Tipo di Anticipo",
+    "downPaymentPercentage": "Anticipo (%)",
+    "downPaymentAmount": "Anticipo (€)",
+    "interestRate": "Tasso di Interesse (% Annuo)",
+    "loanTerm": "Durata del Mutuo",
+    "paymentFrequency": "Frequenza di Pagamento",
+    "propertyTax": "IMU Annua",
+    "homeInsurance": "Assicurazione Casa Annua",
+    "hoaFees": "Spese Condominiali Mensili",
+    "pmiRate": "Tasso Assicurazione Mutuo (%)"
+  },
+
+  "options": {
+    "monthly": "Mensile",
+    "biweekly": "Quindicinale",
+    "weekly": "Settimanale",
+    "percentage": "Percentuale",
+    "amount": "Importo in Euro",
+    "years": "anni"
+  },
+
+  "outputs": {
+    "totalMonthlyPayment": "Rata Mensile Totale",
+    "loanAmount": "Importo del Mutuo",
+    "downPayment": "Anticipo",
+    "totalInterest": "Interessi Totali",
+    "totalCost": "Costo Totale dell'Immobile",
+    "payoffDate": "Data di Estinzione",
+    "paymentBreakdown": "Dettaglio della Rata Mensile",
+    "principalInterest": "Capitale e Interessi",
+    "propertyTax": "IMU",
+    "homeInsurance": "Assicurazione Casa",
+    "pmi": "Assicurazione Mutuo",
+    "hoaFees": "Spese Condominiali",
+    "pmiRequired": "Assicurazione richiesta (Anticipo < 20%)",
+    "pmiNotRequired": "Assicurazione opzionale (Anticipo ≥ 20%)",
+    "pmiRemovalInfo": "Assicurazione rimovibile dopo {period} rate"
+  },
+
+  "actions": {
+    "calculate": "Calcola",
+    "reset": "Azzera",
+    "showSchedule": "Mostra Piano di Ammortamento",
+    "hideSchedule": "Nascondi Piano di Ammortamento",
+    "advancedOptions": "Opzioni Avanzate",
+    "showMore": "Mostra Altro",
+    "showLess": "Mostra Meno"
+  },
+
+  "amortization": {
+    "title": "Piano di Ammortamento",
+    "period": "Periodo",
+    "payment": "Rata",
+    "principal": "Capitale",
+    "interest": "Interessi",
+    "balance": "Debito Residuo",
+    "pmi": "Assicurazione",
+    "page": "Pagina",
+    "of": "di"
+  },
+
+  "faqs": [
+    {
+      "question": "Quale percentuale di anticipo è consigliata per un mutuo?",
+      "answer": "In Italia, le banche solitamente finanziano fino all'80% del valore dell'immobile (valore di perizia o prezzo di acquisto, il minore dei due), richiedendo quindi un anticipo minimo del 20%. Per i mutui prima casa under 36, grazie al Fondo di Garanzia statale, è possibile ottenere finanziamenti fino all'80-90% anche senza anticipo. Un anticipo del 20% o superiore offre: 1) Tassi di interesse più vantaggiosi (spread minore); 2) Rata mensile ridotta; 3) Minori interessi totali; 4) Maggiori possibilità di ottenere il mutuo; 5) Nessuna necessità di garanzie aggiuntive. Oltre all'anticipo, serve liquidità per le spese notarili, imposte e perizia (3-5% del valore per l'usato, meno per il nuovo)."
+    },
+    {
+      "question": "Come viene calcolata la rata mensile del mutuo?",
+      "answer": "La rata mensile del mutuo comprende diverse componenti: 1) Quota capitale e quota interessi - nel sistema di ammortamento alla francese (più diffuso in Italia), la rata è costante ma la composizione cambia: all'inizio si pagano più interessi, alla fine più capitale; 2) Assicurazione obbligatoria scoppio e incendio - richiesta dalla banca; 3) Eventuale assicurazione vita (facoltativa ma spesso richiesta per mutui superiori al 50-60%). Spese accessorie (non in rata): 4) IMU (Imposta Municipale Unica) - varia per comune, generalmente 0,4-1,06% del valore catastale annuo (ridotta o zero per prima casa); 5) Spese condominiali ordinarie e straordinarie. Il rapporto rata/reddito non dovrebbe superare il 30-35% del reddito netto familiare."
+    },
+    {
+      "question": "Mutuo a tasso fisso o variabile: quale scegliere?",
+      "answer": "Tasso fisso: Il tasso d'interesse rimane invariato per tutta la durata del mutuo. Vantaggi: certezza della rata, protezione da rialzi dei tassi, pianificazione sicura. Svantaggi: tasso iniziale leggermente più alto. Ideale se: vuoi sicurezza, prevedi rialzo tassi, budget familiare rigido. Tasso variabile: Il tasso varia in base a parametri di riferimento (Euribor per euro, IRS). Vantaggi: tasso iniziale più basso, possibilità di beneficiare di ribassi. Svantaggi: rata può aumentare, imprevedibilità. Ideale se: hai margine di reddito, prevedi tassi stabili o in calo. Tasso misto: Combina periodi fissi e variabili. Alternativa: Cap o Variabile con CAP (tetto massimo al tasso). Dal 2024, con tassi in possibile discesa, valutare attentamente: fisso per sicurezza, variabile per opportunità."
+    },
+    {
+      "question": "Che cos'è il TAEG e perché è importante?",
+      "answer": "Il TAEG (Tasso Annuo Effettivo Globale) è l'indicatore sintetico del costo totale del mutuo, espresso in percentuale annua. Include: 1) TAN (Tasso Annuo Nominale) - il tasso di interesse base; 2) Spese di istruttoria e perizia; 3) Assicurazioni obbligatorie; 4) Spese di incasso rata; 5) Oneri accessori. NON include: imposte, spese notarili, assicurazioni facoltative, penali estinzione anticipata. Il TAEG permette di confrontare diverse offerte di mutuo in modo omogeneo. Esempio: Mutuo A con TAN 3% e TAEG 3,5% vs Mutuo B con TAN 3,2% e TAEG 3,4% - il Mutuo B costa meno nel complesso. Controllate sempre il TAEG, non solo il TAN, prima di scegliere!"
+    },
+    {
+      "question": "Quali sono le spese accessorie per l'acquisto di una casa?",
+      "answer": "All'acquisto di un immobile in Italia, oltre all'anticipo, dovete sostenere queste spese: 1) Imposte: Prima casa: imposta di registro 2% (min. 1.000€), ipotecaria e catastale 50€ ciascuna; Seconda casa: registro 9%, ipotecaria e catastale 50€ ciascuna; Casa nuova: IVA 4% (prima casa) o 10% (seconda casa) + imposte fisse 200€ ciascuna; 2) Spese notarili: 1.500-3.000€ (variano in base al valore); 3) Perizia bancaria: 250-400€; 4) Istruttoria mutuo: 0-1% dell'importo; 5) Mediazione immobiliare: 2-4% (generalmente a carico acquirente). Totale: 3-5% per prima casa usata, 5-15% per seconda casa. Per prima casa under 36 anni: esenzioni fiscali significative dal 2021 al 2024 (prorogate)."
+    },
+    {
+      "question": "Posso estinguere anticipatamente il mutuo?",
+      "answer": "Sì, in Italia avete il diritto di estinguere anticipatamente il mutuo (totalmente o parzialmente) senza penali dal Decreto Bersani (2007) per i mutui erogati dopo il 02/02/2007. Condizioni: 1) Mutui post-Bersani: ZERO penali per estinzione/surroga; 2) Mutui ante-Bersani: possibili penali (verificare contratto); 3) Estinzione parziale: riduce il debito residuo, potete scegliere di ridurre la rata o la durata. Vantaggi: 1) Risparmio significativo sugli interessi; 2) Maggiore patrimonio netto; 3) Libertà di surrogare (trasferire mutuo) ad altra banca senza costi. Strategia: utilizzate liquidità extra (TFR, eredità, 13ma/14ma, risparmi) per estinzioni parziali periodiche. La surroga (portabilità) permette di trasferire il mutuo a banca con condizioni migliori senza alcun costo."
+    },
+    {
+      "question": "Posso detrarre gli interessi del mutuo dalle tasse?",
+      "answer": "Sì, in Italia potete detrarre gli interessi passivi del mutuo prima casa dall'IRPEF. Condizioni e limiti: 1) Detrazione del 19% degli interessi pagati (non del capitale); 2) Limite massimo: 4.000€ di interessi detraibili all'anno (risparmio fiscale max 760€); 3) Vale solo per mutui prima casa (abitazione principale); 4) Il mutuo deve essere stipulato per acquisto, costruzione o ristrutturazione dell'abitazione principale; 5) L'immobile deve essere adibito ad abitazione principale entro 12 mesi dall'acquisto; 6) La detrazione si applica solo fino a concorrenza dell'imposta dovuta. Non detraibili: mutui per seconda casa, quota capitale, spese accessorie. Procedura: la detrazione viene inserita automaticamente nella dichiarazione dei redditi (730 o Modello Redditi) sulla base dei dati forniti dalla banca. Conservate sempre la certificazione interessi della banca."
+    },
+    {
+      "question": "Cosa succede se non riesco a pagare le rate del mutuo?",
+      "answer": "Se avete difficoltà a pagare il mutuo, agite immediatamente: 1) Contattate subito la banca per cercare soluzioni (rinegoziazione, sospensione rate); 2) Dopo 18 rate non pagate (anche non consecutive) in 7 anni: la banca può iscriversi ipoteca e avviare esecuzione; 3) Procedura esecutiva: il tribunale può ordinare la vendita all'asta dell'immobile; 4) Vendita all'asta: spesso a prezzi inferiori al mercato (50-70% del valore). Soluzioni disponibili: 1) Fondo Gasparrini (Fondo di Solidarietà): sospensione rate fino a 18 mesi per perdita lavoro, riduzione orario, invalidità (prima casa, ISEE ≤30.000€); 2) Rinegoziazione mutuo: allungamento durata, riduzione rata; 3) Surroga a banca con condizioni migliori; 4) Piano del consumatore (sovraindebitamento): ristrutturazione debiti. Evitate assolutamente: ignorare il problema, affidarsi a società poco serie. Cercate aiuto da CAF, associazioni consumatori o avvocati specializzati."
+    }
+  ],
+
+  "howTo": {
+    "title": "Come Utilizzare il Calcolatore Mutuo",
+    "steps": [
+      {
+        "name": "Inserisci Prezzo Immobile e Anticipo",
+        "text": "Inizia inserendo il prezzo totale di acquisto dell'immobile che desideri comprare. Poi scegli se inserire il tuo anticipo come importo in euro o come percentuale. Si raccomanda un anticipo minimo del 20% per ottenere condizioni migliori, ma puoi regolare questo valore per confrontare diversi scenari di finanziamento."
+      },
+      {
+        "name": "Imposta Tasso di Interesse e Durata",
+        "text": "Inserisci il tasso di interesse annuo che ti è stato proposto dalla banca (oppure usa come riferimento i tassi di mercato attuali). Seleziona la durata del mutuo - tipicamente 15, 20, 25 o 30 anni in Italia. Durate più brevi comportano rate mensili più alte ma riducono significativamente gli interessi totali da pagare."
+      },
+      {
+        "name": "Aggiungi Spese Accessorie (Opzionale)",
+        "text": "Clicca su 'Opzioni Avanzate' per includere l'IMU annua, l'assicurazione casa (obbligatoria per il mutuo), le spese condominiali mensili e regolare il tasso assicurativo. Questi costi sono fondamentali per conoscere la tua spesa mensile reale per l'abitazione. L'IMU varia in base al comune e alla rendita catastale (ridotta o azzerata per prima casa)."
+      },
+      {
+        "name": "Rivedi il Dettaglio della Rata Mensile",
+        "text": "Il calcolatore mostra la tua rata mensile totale in evidenza, insieme a un dettaglio che include: quota capitale e interessi, IMU mensile, assicurazione casa, assicurazione mutuo e spese condominiali. Vedrai anche l'importo totale finanziato, gli interessi complessivi che pagherai e la data stimata di estinzione del mutuo."
+      },
+      {
+        "name": "Esplora il Piano di Ammortamento",
+        "text": "Clicca su 'Mostra Piano di Ammortamento' per vedere come il debito residuo del tuo mutuo diminuisce nel tempo. Il piano mostra per ogni rata la quota capitale e la quota interessi, il debito residuo e come cambia la composizione del pagamento. Usa la paginazione per saltare a diversi anni del tuo mutuo e osserva come inizialmente paghi più interessi e progressivamente più capitale."
+      }
+    ]
+  },
+
+  "disclaimer": {
+    "text": "Questo calcolatore fornisce solo stime indicative. Le condizioni reali di mutuo, i tassi e i costi possono variare in base al profilo creditizio, alle politiche dell'istituto di credito, alla localizzazione dell'immobile e alle condizioni di mercato. L'IMU e i costi assicurativi sono stime che variano in base alla localizzazione. I tassi assicurativi e i requisiti di rimozione possono differire tra istituti. Per preventivi vincolanti e condizioni personalizzate, consultate direttamente gli istituti di credito.",
+    "note": "I calcoli presuppongono mutui a tasso fisso con ammortamento standard (sistema francese a rate costanti). I mutui a tasso variabile (indicizzati a Euribor o IRS), i mutui bullet (solo interessi) e altri prodotti specializzati possono avere strutture di pagamento diverse. Verificate sempre tutti i tassi, le spese e le condizioni presso la vostra banca prima di prendere decisioni finanziarie."
+  },
+
+  "seo": {
+    "whatIsTitle": "Cos'è un Calcolatore Mutuo?",
+    "whatIsContent": "Un calcolatore mutuo è uno strumento di pianificazione finanziaria che calcola la rata mensile del mutuo casa, includendo capitale, interessi, IMU, assicurazione casa e spese condominiali. Inserisci prezzo dell'immobile, anticipo, tasso di interesse e durata per vedere i costi mensili completi, gli interessi totali e il piano di ammortamento. Essenziale per pianificare l'acquisto casa e confrontare diversi scenari di finanziamento.",
+    "whenToUseTitle": "Quando Usare un Calcolatore Mutuo?",
+    "whenToUseIntro": "Usa il nostro calcolatore per decisioni consapevoli:",
+    "whenToUsePoint1": "Determinare quale immobile puoi permetterti secondo il tuo budget",
+    "whenToUsePoint2": "Confrontare diversi importi di anticipo e il loro impatto sulla rata mensile",
+    "whenToUsePoint3": "Valutare mutui a 15, 20, 25 o 30 anni e i costi totali degli interessi",
+    "whenToUsePoint4": "Comprendere il costo completo di proprietà incluse tasse e assicurazioni",
+    "whenToUsePoint5": "Pianificare con tasso fisso versus variabile secondo le tue previsioni",
+    "mortgageTypesTitle": "Tipi di Mutuo Casa",
+    "mortgageTypeFixed": "Mutuo a Tasso Fisso - Il tasso d'interesse rimane costante per tutta la durata del mutuo (15, 20, 25 o 30 anni), offrendo rate mensili prevedibili e protezione da rialzi dei tassi",
+    "mortgageTypeVariable": "Mutuo a Tasso Variabile - Il tasso d'interesse cambia periodicamente secondo indici di riferimento (Euribor o IRS + spread). Offre tassi iniziali più bassi ma comporta rischio di aumenti della rata",
+    "mortgageTypeInterestOnly": "Mutuo Bullet (Solo Interessi) - Paghi solo interessi per tutta la durata, poi rimborsi il capitale in un'unica soluzione finale. Rate più basse ma richiede prodotto di risparmio parallelo",
+    "mortgageTypeFHA": "Mutuo Prima Casa Under 36 - Agevolazioni statali per giovani sotto 36 anni: esenzione IMU, bonus fiscale, garanzia statale CONSAP permettendo LTV fino al 80-90% con condizioni vantaggiose",
+    "mortgageTypeVA": "Mutuo 100% - Finanziamento completo senza anticipo, disponibile solo con profilo creditizio eccellente. Tassi più alti e di solito maggiorazione dello 0,3-0,5% rispetto a finanziamento standard",
+    "benefitsTitle": "Perché Usare un Calcolatore Mutuo?",
+    "benefit1": "Pianifica con precisione comprendendo la rata mensile completa incluse tutte le tasse e le spese",
+    "benefit2": "Confronta diversi scenari - anticipo, durate e tassi d'interesse - fianco a fianco",
+    "benefit3": "Visualizza l'impatto a lungo termine delle tue decisioni con calcoli degli interessi totali",
+    "benefit4": "Comprendi la differenza tra tasso fisso e variabile per la tua situazione",
+    "benefit5": "Prendi decisioni d'acquisto con fiducia supportate da proiezioni finanziarie precise",
+    "howToUseTitle": "Come Usare Questo Calcolatore",
+    "howToUseStep1": "Inserisci il prezzo dell'immobile e il tuo anticipo (percentuale o importo in euro). Un anticipo del 20% è raccomandato per ottenere le migliori condizioni ed evitare maggiorazioni",
+    "howToUseStep2": "Inserisci il tasso d'interesse annuo proposto dalla banca. I tassi attuali variano in base al profilo creditizio, tipo di mutuo e condizioni di mercato",
+    "howToUseStep3": "Seleziona la durata del mutuo. I mutui a 30 anni offrono rate più basse mentre durate di 15-20 anni fanno risparmiare significativamente sugli interessi totali",
+    "howToUseStep4": "Aggiungi IMU annua, assicurazione casa obbligatoria e spese condominiali nelle opzioni avanzate per vedere il costo mensile completo dell'abitazione",
+    "howToUseStep5": "Esamina il piano di ammortamento per vedere come ogni rata riduce il debito residuo e come cambia la composizione tra capitale e interessi",
+    "resultsTitle": "Comprendere i Risultati del Mutuo",
+    "resultsPayment": "Rata Mensile - La rata totale includendo capitale, interessi, IMU mensile, assicurazione e spese condominiali. È l'importo che pagherai ogni mese",
+    "resultsTotalCost": "Costo Totale dell'Immobile - L'importo completo che pagherai durante la vita del mutuo, includendo prezzo d'acquisto, tutti gli interessi, tasse, assicurazioni e spese",
+    "resultsTotalInterest": "Interessi Totali - Gli interessi accumulati pagati durante tutta la durata del mutuo. Su mutui a 30 anni, questo può eguagliare o superare l'importo del mutuo originale",
+    "resultsAmortization": "Piano di Ammortamento - Una ripartizione dettagliata di ogni rata mostrando quanto va a capitale versus interessi. Le prime rate sono principalmente interessi; le ultime principalmente capitale",
+    "formulaTitle": "Formula Calcolo Mutuo",
+    "formulaContent": "M = P × [r(1+r)^n] / [(1+r)^n - 1]",
+    "formulaExample": "Dove M = Rata Mensile, P = Capitale (importo del mutuo), r = Tasso d'Interesse Mensile (tasso annuo ÷ 12), n = Numero Totale di Rate (anni × 12). IMU, assicurazione e spese condominiali si aggiungono a questa rata base.",
+    "tipsTitle": "Consigli degli Esperti per il Tuo Mutuo",
+    "tip1": "Punta a un anticipo del 20% per ottenere i migliori tassi d'interesse ed evitare maggiorazioni, risparmiando potenzialmente migliaia di euro annui",
+    "tip2": "Confronta offerte di almeno 3-5 banche - tassi e spese possono variare significativamente anche con profilo creditizio identico",
+    "tip3": "Considera un mutuo a 20 anni se puoi sostenere rate più alte - pagherai il 40-50% in meno di interessi totali rispetto a 30 anni",
+    "tip4": "Negozia spread e spese - una riduzione di solo 0,10% può farti risparmiare migliaia di euro durante la vita del mutuo",
+    "tip5": "Tieni conto delle spese di acquisto (3-5% nuovo, 10-15% usato) e mantieni risparmi di emergenza oltre all'anticipo",
+    "tip6": "Effettua estinzioni parziali quando possibile - anche 100€ extra al mese possono ridurre di anni il mutuo e risparmiare decine di migliaia",
+    "tip7": "Rivedi annualmente IMU e assicurazione casa - spesso aumentano nel tempo e impattano sulla rata totale",
+    "tip8": "Sfrutta agevolazioni fiscali (bonus prima casa, detrazione interessi) se sei eligibile per ridurre il costo totale",
+    "faqTitle": "Domande Frequenti sui Mutui",
+    "faq1Question": "Quale casa posso permettermi?",
+    "faq1Answer": "La regola generale in Italia è che la rata mensile del mutuo non dovrebbe superare il 30-35% del reddito netto familiare mensile. Ad esempio, con un reddito netto di 2.500€ al mese, la rata massima dovrebbe essere 750-875€. Tuttavia, considera la stabilità lavorativa, obiettivi di risparmio e stile di vita. Usa questo calcolatore per testare diversi prezzi di immobili e anticipi fino a trovare una rata confortevole. Ricorda che oltre al mutuo avrai spese di manutenzione (1-2% del valore annuo), utenze e possibili spese straordinarie condominiali.",
+    "faq2Question": "Qual è l'anticipo ideale per un mutuo?",
+    "faq2Answer": "L'anticipo ideale in Italia è del 20% del prezzo dell'immobile. Le banche italiane solitamente finanziano fino all'80% del valore dell'immobile (valore di perizia o prezzo d'acquisto, il minore dei due), richiedendo quindi un anticipo minimo del 20%. Un anticipo del 20% o superiore ti permette di: ottenere tassi d'interesse migliori (spread più basso di 0,2-0,4%), ridurre la rata mensile, pagare meno interessi totali, avere più possibilità di ottenere il mutuo. Oltre all'anticipo, serve liquidità per le spese notarili, imposte e perizia (3-5% del valore per nuovo, 10-15% per usato). Under 36 con prima casa possono accedere a garanzia CONSAP per LTV fino al 80-90%.",
+    "faq3Question": "Mutuo a 15, 20, 25 o 30 anni?",
+    "faq3Answer": "Dipende dalle tue priorità finanziarie e capacità di pagamento. Un mutuo a 20 anni ha rate mensili significativamente più alte (circa 30-40% in più rispetto a 30 anni) ma fa risparmiare enormemente sugli interessi - spesso 40.000-80.000€ su un immobile tipico. Scegli 15-20 anni se: puoi sostenere comodamente rate più alte, vuoi essere libero dal debito prima, ti avvicini alla pensione o pianifichi di rimanere nell'immobile a lungo termine. Scegli 25-30 anni se: hai bisogno di rate più basse per flessibilità finanziaria, sei al massimo della tua capacità di indebitamento o valorizzi la flessibilità. Compromesso: mutuo a 30 anni ma effettuando estinzioni parziali quando puoi.",
+    "faq4Question": "Come si calcola la rata mensile?",
+    "faq4Answer": "La rata mensile totale del mutuo include diverse componenti: 1) Quota capitale e quota interessi - nel sistema di ammortamento alla francese (più diffuso in Italia), la rata è costante ma la composizione cambia: all'inizio si pagano più interessi, alla fine più capitale. Calcolata in base a importo finanziato, TAN (Tasso Annuo Nominale) e durata. 2) Assicurazione obbligatoria scoppio e incendio - richiesta dalla banca. 3) Eventuale assicurazione vita (facoltativa ma spesso richiesta per mutui sopra 50-60% LTV). Spese accessorie (non in rata): 4) IMU - varia per comune, generalmente 0,4-1,06% del valore catastale annuo (ridotta o zero per prima casa); 5) Spese condominiali. Il rapporto rata/reddito non dovrebbe superare il 30-35% del reddito netto familiare.",
+    "faq5Question": "Mutuo a tasso fisso o variabile?",
+    "faq5Answer": "Tasso fisso: Il tasso d'interesse rimane invariato per tutta la durata del mutuo. Vantaggi: certezza della rata, protezione da rialzi dei tassi, pianificazione sicura. Svantaggi: tasso iniziale leggermente più alto (0,5-1% rispetto a variabile). Ideale se: vuoi sicurezza, prevedi rialzo tassi, budget familiare rigido. Tasso variabile: Il tasso varia in base a parametri di riferimento (Euribor per euro, IRS). Vantaggi: tasso iniziale più basso, possibilità di beneficiare di ribassi. Svantaggi: rata può aumentare significativamente, imprevedibilità. Ideale se: hai margine di reddito, prevedi tassi stabili o in calo. Tasso misto: Combina periodi fissi e variabili. Alternativa: variabile con CAP (tetto massimo al tasso) per protezione. Valuta attentamente: nel 2024, con possibili ribassi tassi, il variabile può convenire se hai margine.",
+    "faq6Question": "Quanto pagherò in interessi totali?",
+    "faq6Answer": "Gli interessi totali dipendono dall'importo finanziato, tasso d'interesse e durata. Su un mutuo di 200.000€ a 30 anni con tasso del 3,5%, pagherai circa 123.000€ di interessi - più della metà del mutuo originale. A 20 anni con lo stesso tasso, pagheresti solo 77.000€ di interessi - un risparmio di 46.000€. Ogni 0,5% di aumento del tasso costa decine di migliaia di euro su mutui lunghi. La buona notizia: puoi ridurre drasticamente gli interessi effettuando estinzioni parziali (solitamente gratuite dal Decreto Bersani 2007), scegliendo una durata più breve o negociando un tasso migliore. Usa il piano di ammortamento di questo calcolatore per vedere esattamente quanti interessi pagherai e l'impatto delle estinzioni anticipate.",
+    "faq7Question": "Posso permettermi l'immobile con il mio reddito attuale?",
+    "faq7Answer": "Le banche italiane applicano solitamente la regola del 30-35%: la rata del mutuo non deve superare il 30-35% del reddito netto familiare mensile. Tuttavia, questo è solo un punto di partenza. Considera: la tua stabilità lavorativa (dipendente a tempo indeterminato vs. autonomo vs. atipico), riserva di risparmio (mantieni 6-12 mesi di spese di emergenza), altri obiettivi finanziari (pensione, figli), priorità di stile di vita e comfort con l'indebitamento. Un approccio conservativo è assicurarsi che la rata totale (capitale + interessi + IMU + assicurazione + condominio) sia inferiore al 30% del tuo stipendio netto, lasciando margine per manutenzione, utenze, risparmi e imprevisti. Usa questo calcolatore per modellare diversi scenari e stress-test con aumenti di tassi.",
+    "faq8Question": "Quali spese accessorie devo prevedere?",
+    "faq8Answer": "All'acquisto di un immobile in Italia, oltre all'anticipo, dovete sostenere queste spese: Prima casa: 1) Imposta di registro 2% (min. 1.000€), ipotecaria e catastale 50€ ciascuna; 2) Notaio: 1.500-3.000€; 3) Perizia bancaria: 250-400€; 4) Istruttoria mutuo: 0-1% dell'importo. Totale: 3-5% per prima casa usata. Seconda casa: 1) Registro 9%, ipotecaria e catastale 50€ ciascuna; Totale: 11-13%. Casa nuova: 1) IVA 4% (prima casa) o 10% (seconda casa) + imposte fisse 200€ ciascuna; 2) Stessi costi notarili. Totale: 6-8% prima casa nuova, 12-14% seconda casa nuova. Mediazione immobiliare: 2-4% (generalmente a carico acquirente). Under 36 prima casa: esenzioni significative (imposta registro, ipotecaria, catastale). Pianifica queste spese oltre al tuo anticipo del 20%.",
+    "faq9Question": "È un buon momento per comprare casa?",
+    "faq9Answer": "Il momento migliore per comprare casa dipende più dalla tua situazione personale che dal mercato. Compra quando: hai redditi stabili e sicurezza lavorativa, hai risparmiato un anticipo solido (idealmente 20%) più fondo di emergenza, pianifichi di restare nella zona almeno 5-7 anni (per assorbire spese di acquisto e costruire patrimonio), puoi sostenere comodamente la rata mensile e sei emotivamente pronto per le responsabilità di proprietario. Le condizioni di mercato contano meno della tua preparazione personale. Se i tassi attuali sono alti, potrai fare surroga (portabilità mutuo) dopo quando scendono - ma non potrai tornare indietro e comprare ai prezzi di oggi se aumentano. Dal Decreto Bersani 2007, la surroga è gratuita e senza penali. Concentrati sul trovare l'immobile giusto a una rata che puoi sostenere, sapendo di poter ottimizzare il mutuo in futuro."
+  }
+}

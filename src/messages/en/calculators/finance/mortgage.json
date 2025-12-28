@@ -1,0 +1,206 @@
+{
+  "title": "Mortgage Calculator",
+  "description": "Calculate your monthly mortgage payment including principal, interest, property taxes, homeowners insurance, PMI, and HOA fees. Get a complete breakdown of your home loan costs.",
+
+  "meta": {
+    "title": "Mortgage Calculator - Calculate Monthly Payments & Total Cost | World Calculator",
+    "description": "Free mortgage calculator with taxes, insurance, PMI, and HOA fees. Calculate monthly payments, amortization schedule, and total cost of homeownership in seconds.",
+    "keywords": "mortgage calculator, home loan calculator, monthly payment calculator, PITI calculator, PMI calculator, mortgage affordability, amortization schedule, property tax calculator"
+  },
+
+  "inputs": {
+    "homePrice": "Home Price",
+    "downPayment": "Down Payment",
+    "downPaymentType": "Down Payment Type",
+    "downPaymentPercentage": "Down Payment (%)",
+    "downPaymentAmount": "Down Payment ($)",
+    "interestRate": "Interest Rate (Annual %)",
+    "loanTerm": "Loan Term",
+    "paymentFrequency": "Payment Frequency",
+    "propertyTax": "Annual Property Tax",
+    "homeInsurance": "Annual Home Insurance",
+    "hoaFees": "Monthly HOA Fees",
+    "pmiRate": "PMI Rate (%)"
+  },
+
+  "options": {
+    "monthly": "Monthly",
+    "biweekly": "Bi-weekly",
+    "weekly": "Weekly",
+    "percentage": "Percentage",
+    "amount": "Dollar Amount",
+    "years": "years"
+  },
+
+  "outputs": {
+    "totalMonthlyPayment": "Total Monthly Payment",
+    "loanAmount": "Loan Amount",
+    "downPayment": "Down Payment",
+    "totalInterest": "Total Interest",
+    "totalCost": "Total Cost of Ownership",
+    "payoffDate": "Payoff Date",
+    "paymentBreakdown": "Monthly Payment Breakdown",
+    "principalInterest": "Principal & Interest",
+    "propertyTax": "Property Tax",
+    "homeInsurance": "Home Insurance",
+    "pmi": "PMI (Private Mortgage Insurance)",
+    "hoaFees": "HOA Fees",
+    "pmiRequired": "PMI Required (Down payment < 20%)",
+    "pmiNotRequired": "No PMI Required (Down payment ≥ 20%)",
+    "pmiRemovalInfo": "PMI removed after {period} payments"
+  },
+
+  "actions": {
+    "calculate": "Calculate",
+    "reset": "Reset",
+    "showSchedule": "Show Amortization Schedule",
+    "hideSchedule": "Hide Amortization Schedule",
+    "advancedOptions": "Advanced Options",
+    "showMore": "Show More",
+    "showLess": "Show Less"
+  },
+
+  "amortization": {
+    "title": "Amortization Schedule",
+    "period": "Period",
+    "payment": "Payment",
+    "principal": "Principal",
+    "interest": "Interest",
+    "balance": "Balance",
+    "pmi": "PMI",
+    "page": "Page",
+    "of": "of"
+  },
+
+  "faqs": [
+    {
+      "question": "What is PMI and when is it required?",
+      "answer": "PMI (Private Mortgage Insurance) is insurance that protects the lender if you default on your mortgage. It's typically required when your down payment is less than 20% of the home's purchase price (loan-to-value ratio above 80%). PMI usually costs between 0.3% and 1.5% of the original loan amount annually. Once your loan balance reaches 78% of the home's original value, PMI is automatically removed."
+    },
+    {
+      "question": "How is my monthly mortgage payment calculated?",
+      "answer": "Your total monthly mortgage payment includes several components: 1) Principal & Interest (P&I) - calculated using the standard amortization formula based on your loan amount, interest rate, and term; 2) Property taxes - typically 1/12 of your annual property tax; 3) Homeowners insurance - 1/12 of your annual premium; 4) PMI (if applicable) - required when down payment is less than 20%; 5) HOA fees (if applicable) - monthly fees for condos or community associations. This is often called a PITI payment."
+    },
+    {
+      "question": "What is the recommended down payment percentage?",
+      "answer": "The standard recommended down payment is 20% of the home's purchase price. Putting down 20% helps you: 1) Avoid PMI, saving you hundreds of dollars monthly; 2) Get better interest rates from lenders; 3) Build instant equity in your home; 4) Reduce your monthly payment amount; 5) Demonstrate financial stability to lenders. However, many loan programs allow down payments as low as 3-5%, making homeownership more accessible, though you'll pay PMI."
+    },
+    {
+      "question": "How long does it take to pay off a 30-year mortgage?",
+      "answer": "A 30-year mortgage takes exactly 30 years (360 monthly payments) to pay off if you make only the required minimum payments. However, you can pay it off faster by: 1) Making extra principal payments each month; 2) Making one extra payment per year; 3) Switching to bi-weekly payments (26 payments/year = 13 monthly payments); 4) Applying windfalls (bonuses, tax refunds) to principal. Even small extra payments can reduce your loan term by several years and save tens of thousands in interest."
+    },
+    {
+      "question": "Should I choose a 15-year or 30-year mortgage?",
+      "answer": "15-year mortgages have higher monthly payments but lower total interest costs. Choose 15-year if: you can afford higher payments, want to own your home faster, and save significantly on interest (often 50% or more). Choose 30-year if: you need lower monthly payments for cash flow, want flexibility to invest elsewhere, or are buying at the maximum of your budget. You can also get a 30-year mortgage and pay extra principal to pay it off early, giving you flexibility."
+    },
+    {
+      "question": "What closing costs should I expect?",
+      "answer": "Closing costs typically range from 2-5% of the home's purchase price and include: 1) Loan origination fees (0.5-1% of loan amount); 2) Appraisal fees ($300-$500); 3) Title insurance and search ($500-$1,500); 4) Attorney fees ($500-$1,500); 5) Home inspection ($300-$500); 6) Recording fees and taxes; 7) Prepaid property taxes and insurance. Some lenders offer 'no closing cost' loans where they cover these fees in exchange for a higher interest rate."
+    },
+    {
+      "question": "Can I deduct mortgage interest on my taxes?",
+      "answer": "In the United States, you can deduct mortgage interest on loans up to $750,000 (for homes purchased after December 15, 2017) if you itemize deductions. The deduction applies to: 1) Interest on your primary residence; 2) Interest on one second home; 3) Points paid to obtain the mortgage. However, with the increased standard deduction ($13,850 single, $27,700 married filing jointly for 2023), many homeowners don't itemize. Consult a tax professional for your specific situation."
+    },
+    {
+      "question": "What happens if I miss a mortgage payment?",
+      "answer": "Missing a mortgage payment has serious consequences: 1) Day 1-15: Grace period (most lenders); 2) Day 16-30: Late fee assessed (typically 4-5% of payment); 3) Day 30: Payment reported as late to credit bureaus, damaging your credit score; 4) Day 90+: Considered seriously delinquent; 5) Day 120+: Foreclosure process may begin. If you're struggling, contact your lender immediately - they often have hardship programs, forbearance options, or loan modification programs to help you avoid foreclosure."
+    }
+  ],
+
+  "howTo": {
+    "title": "How to Use the Mortgage Calculator",
+    "steps": [
+      {
+        "name": "Enter Home Price and Down Payment",
+        "text": "Start by entering the total purchase price of the home you want to buy. Then choose whether to enter your down payment as a dollar amount or percentage. The calculator recommends 20% down to avoid PMI, but you can adjust to see different scenarios."
+      },
+      {
+        "name": "Set Your Interest Rate and Loan Term",
+        "text": "Enter the annual interest rate you've been quoted by your lender (or use current market rates as a reference). Select your loan term - typically 15, 20, or 30 years. Shorter terms have higher monthly payments but lower total interest costs."
+      },
+      {
+        "name": "Add Property Costs (Optional)",
+        "text": "Click 'Advanced Options' to include property taxes, homeowners insurance, HOA fees, and adjust the PMI rate. These costs are essential for understanding your true monthly housing payment. Property taxes vary by location, typically 0.5-2.5% of home value annually."
+      },
+      {
+        "name": "Review Your Monthly Payment Breakdown",
+        "text": "The calculator displays your total monthly payment prominently, along with a detailed breakdown showing: principal & interest, property tax, insurance, PMI (if applicable), and HOA fees. If you're putting down less than 20%, you'll see a PMI notification showing when it will be removed."
+      },
+      {
+        "name": "Explore the Amortization Schedule",
+        "text": "Click 'Show Amortization Schedule' to see how your loan balance decreases over time. The schedule shows each payment's principal and interest portions, remaining balance, and when PMI will drop off. Use the pagination to jump to different years of your loan to see how the payment composition changes."
+      }
+    ]
+  },
+
+  "disclaimer": {
+    "text": "This calculator provides estimates only. Actual mortgage terms, rates, and costs may vary based on your credit profile, lender policies, property location, and market conditions. Property taxes and insurance costs are estimates and vary by location. PMI rates and removal requirements may differ by lender. For binding quotes and personalized terms, consult mortgage lenders directly.",
+    "note": "Calculations assume fixed-rate mortgages with standard amortization. Adjustable-rate mortgages (ARMs), interest-only loans, and other specialized products may have different payment structures. Always verify all rates, fees, and terms with your lender before making financial decisions."
+  },
+
+  "seo": {
+    "whatIsTitle": "What is a Mortgage Calculator?",
+    "whatIsContent": "A mortgage calculator is a financial planning tool that calculates your monthly home loan payment, including principal, interest, property taxes, insurance, PMI, and HOA fees. Enter your home price, down payment, interest rate, and loan term to see your complete monthly housing costs, total interest paid, and full amortization schedule. Essential for home buyers planning their purchase budget and comparing different loan scenarios.",
+    "whenToUseTitle": "When Should You Use a Mortgage Calculator?",
+    "whenToUseIntro": "Use our mortgage calculator to make informed home buying decisions:",
+    "whenToUsePoint1": "Determine how much house you can afford based on your budget",
+    "whenToUsePoint2": "Compare different down payment amounts and their impact on monthly payments",
+    "whenToUsePoint3": "Evaluate 15-year vs 30-year mortgage terms and total interest costs",
+    "whenToUsePoint4": "Understand the full cost of homeownership including taxes and insurance",
+    "whenToUsePoint5": "Plan for PMI removal once you reach 20% equity",
+    "mortgageTypesTitle": "Types of Mortgages You Can Calculate",
+    "mortgageTypeFixed": "Fixed-Rate Mortgage - Interest rate remains constant for the entire loan term (15, 20, or 30 years), providing predictable monthly payments and protection from rate increases",
+    "mortgageTypeVariable": "Adjustable-Rate Mortgage (ARM) - Interest rate changes periodically based on market conditions, typically starting with a lower rate than fixed mortgages but carrying the risk of payment increases",
+    "mortgageTypeInterestOnly": "Interest-Only Mortgage - Pay only interest for an initial period (5-10 years), then begin paying principal and interest. Lower initial payments but no equity building during the interest-only phase",
+    "mortgageTypeFHA": "FHA Loan - Government-backed loan allowing down payments as low as 3.5% with more lenient credit requirements, ideal for first-time buyers but requires mortgage insurance premiums",
+    "mortgageTypeVA": "VA Loan - Available to veterans and active military, offering 0% down payment, no PMI, and competitive rates. Requires VA funding fee but provides excellent terms for qualified borrowers",
+    "benefitsTitle": "Why Use a Mortgage Calculator?",
+    "benefit1": "Budget accurately by understanding your complete monthly housing payment including all taxes and fees",
+    "benefit2": "Compare different scenarios - down payment sizes, loan terms, and interest rates - side by side",
+    "benefit3": "See the long-term impact of your decisions with total interest and cost calculations",
+    "benefit4": "Identify when PMI will be removed to plan for future payment reductions",
+    "benefit5": "Make confident home buying decisions backed by accurate financial projections",
+    "howToUseTitle": "How to Use This Mortgage Calculator",
+    "howToUseStep1": "Enter the home price and your down payment amount (percentage or dollar amount). A 20% down payment avoids PMI and typically secures better interest rates",
+    "howToUseStep2": "Input the annual interest rate offered by your lender. Current mortgage rates vary based on credit score, loan type, and market conditions",
+    "howToUseStep3": "Select your loan term. 30-year mortgages offer lower monthly payments while 15-year mortgages save significantly on total interest",
+    "howToUseStep4": "Add property taxes, homeowners insurance, and HOA fees in advanced options to see your complete monthly housing cost",
+    "howToUseStep5": "Review the amortization schedule to see how each payment reduces your principal balance and when PMI will be eliminated",
+    "resultsTitle": "Understanding Your Mortgage Results",
+    "resultsPayment": "Monthly Payment - Your total PITI payment (Principal, Interest, Taxes, Insurance) plus PMI and HOA fees. This is the amount due each month to your lender and escrow account",
+    "resultsTotalCost": "Total Cost of Ownership - The complete amount you'll pay over the loan's lifetime, including the home price, all interest, property taxes, insurance, and fees",
+    "resultsTotalInterest": "Total Interest - The cumulative interest paid over the entire loan term. This can equal or exceed your original loan amount on 30-year mortgages",
+    "resultsAmortization": "Amortization Schedule - A detailed breakdown of every payment showing how much goes to principal versus interest. Early payments are mostly interest; later payments are mostly principal",
+    "formulaTitle": "Mortgage Payment Formula",
+    "formulaContent": "M = P × [r(1+r)^n] / [(1+r)^n - 1]",
+    "formulaExample": "Where M = Monthly Payment, P = Principal (loan amount), r = Monthly Interest Rate (annual rate ÷ 12), n = Total Number of Payments (years × 12). Property taxes, insurance, and PMI are added to this base payment.",
+    "tipsTitle": "Expert Tips for Your Mortgage",
+    "tip1": "Aim for a 20% down payment to avoid PMI and secure the best interest rates, potentially saving thousands annually",
+    "tip2": "Compare offers from at least 3-5 lenders - rates and fees can vary significantly, even for identical credit profiles",
+    "tip3": "Consider a 15-year mortgage if you can afford higher payments - you'll pay 50-60% less total interest than a 30-year",
+    "tip4": "Get pre-approved before house hunting to know your budget and strengthen your negotiating position with sellers",
+    "tip5": "Factor in closing costs (2-5% of purchase price) and maintain emergency savings beyond your down payment",
+    "tip6": "Make extra principal payments when possible - even $100 extra monthly can shave years off your loan and save tens of thousands",
+    "tip7": "Review your property tax and insurance costs annually - they often increase over time and impact your total payment",
+    "tip8": "Once you reach 20% equity (80% loan-to-value), request PMI removal to reduce your monthly payment",
+    "faqTitle": "Mortgage Calculator FAQs",
+    "faq1Question": "How much house can I afford?",
+    "faq1Answer": "A general rule is that your monthly housing payment (PITI + HOA) should not exceed 28% of your gross monthly income, and your total debt payments should stay below 36%. For example, with a $6,000 monthly income, target a maximum $1,680 housing payment and $2,160 total debt. However, consider your lifestyle, savings goals, and job stability. Use this calculator to test different home prices and down payments to find your comfortable payment range. Remember to account for maintenance costs (1-2% of home value annually), utilities, and furnishings beyond your mortgage payment.",
+    "faq2Question": "What's the ideal down payment percentage?",
+    "faq2Answer": "The ideal down payment is 20% of the home's purchase price. This threshold eliminates PMI (saving $100-300+ monthly), qualifies you for better interest rates (potentially 0.25-0.5% lower), demonstrates financial stability to lenders, and builds instant equity. However, many successful homeowners put down less: FHA loans require just 3.5%, conventional loans 3-5%, and VA loans 0%. If putting down less than 20%, ensure you can comfortably afford the PMI premium and higher monthly payment. Build an emergency fund of 3-6 months expenses before buying, regardless of your down payment size.",
+    "faq3Question": "Should I choose a 15-year or 30-year mortgage?",
+    "faq3Answer": "This depends on your financial priorities and cash flow. A 15-year mortgage has significantly higher monthly payments (roughly 50% more) but saves enormously on interest - often $100,000-200,000+ on a typical home. Choose 15-year if: you can comfortably afford higher payments, want to be mortgage-free faster, are close to retirement, or plan to stay in the home long-term. Choose 30-year if: you need lower payments for cash flow flexibility, want to invest the difference in higher-return opportunities, are stretching your budget, or value financial flexibility. A middle ground: take a 30-year mortgage but make extra principal payments when you can, maintaining payment flexibility during tight months.",
+    "faq4Question": "How is my monthly payment calculated?",
+    "faq4Answer": "Your total monthly mortgage payment includes several components: 1) Principal & Interest (P&I) - calculated using the standard amortization formula based on your loan amount, interest rate, and term. This portion is constant on fixed-rate mortgages. 2) Property Taxes - typically 1/12 of your annual property tax bill, escrowed by your lender. Varies by location (0.5-2.5% of home value annually). 3) Homeowners Insurance - 1/12 of your annual premium, also escrowed. Required by all lenders. 4) PMI - if down payment is less than 20%, typically 0.3-1.5% of original loan amount annually. 5) HOA Fees - if applicable, paid separately or escrowed. This complete payment is often called PITI (Principal, Interest, Taxes, Insurance).",
+    "faq5Question": "What is PMI and how long do I pay it?",
+    "faq5Answer": "PMI (Private Mortgage Insurance) protects the lender if you default on your loan. It's required when your down payment is less than 20% (loan-to-value ratio above 80%). PMI costs 0.3-1.5% of your original loan amount annually ($50-300+ monthly on a $300,000 loan). You pay PMI until your loan balance reaches 78% of the home's original value, at which point it's automatically removed. You can request removal at 80% LTV. To eliminate PMI faster: make extra principal payments, request a new appraisal if your home has appreciated significantly, or refinance once you have 20% equity. FHA loans have mortgage insurance for the life of the loan (unless you put down 10%+, then 11 years), while VA loans have no PMI at all.",
+    "faq6Question": "How much will I pay in total interest?",
+    "faq6Answer": "Total interest depends on your loan amount, interest rate, and term length. On a 30-year $300,000 mortgage at 6.5% interest, you'll pay approximately $384,000 in interest - more than the original loan amount. On a 15-year term at the same rate, you'd pay only $158,000 in interest - a $226,000 savings. Every 1% increase in interest rate costs tens of thousands over a 30-year loan. The good news: you can dramatically reduce interest by making extra principal payments, refinancing to a lower rate when possible, or choosing a shorter loan term. Use this calculator's amortization schedule to see exactly how much interest you'll pay and how extra payments impact the total.",
+    "faq7Question": "Can I afford the home with my current income?",
+    "faq7Answer": "Lenders typically use the 28/36 rule: your housing payment should be ≤28% of gross income, and total debt payments ≤36%. However, this is just a starting point. Consider: your job stability, savings cushion (maintain 3-6 months emergency fund), other financial goals (retirement, children's education), lifestyle priorities, and comfort with debt. A conservative approach is to ensure your mortgage payment (PITI + HOA) is less than 25% of your take-home pay, leaving room for maintenance, utilities, savings, and unexpected expenses. If you're stretching to the maximum lender approval, you may be house-poor with little financial flexibility. Use this calculator to model different scenarios and stress-test with higher property taxes or insurance costs.",
+    "faq8Question": "What closing costs should I expect?",
+    "faq8Answer": "Closing costs typically range from 2-5% of the home's purchase price ($6,000-15,000 on a $300,000 home). They include: 1) Loan origination fees (0.5-1% of loan amount), 2) Appraisal ($400-600), 3) Title insurance and search ($1,000-2,000), 4) Attorney fees ($500-1,500), 5) Home inspection ($300-500), 6) Credit report and underwriting fees ($300-500), 7) Recording fees and transfer taxes (varies by location), 8) Prepaid property taxes and insurance (2-6 months). Some lenders offer 'no closing cost' loans where they cover these fees in exchange for a slightly higher interest rate (typically 0.25% higher). This can make sense if you plan to refinance within 5-7 years. Always request a Loan Estimate within 3 days of applying to see your specific closing costs.",
+    "faq9Question": "Is now a good time to buy a home?",
+    "faq9Answer": "The best time to buy a home depends on your personal circumstances more than market timing. Buy when: you have stable income and job security, you've saved a solid down payment (ideally 20%) plus emergency fund, you plan to stay in the area for 5+ years (to absorb closing costs and build equity), you can comfortably afford the monthly payment, and you're emotionally ready for homeownership responsibilities. Market conditions matter less than your personal readiness. If current interest rates are high, you can refinance later when rates drop - but you can't go back and buy at today's home prices if they increase. As the saying goes: 'Marry the house, date the rate.' Focus on finding the right home at a payment you can afford, knowing you can refinance if rates improve. Use this calculator to model different rate scenarios."
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "title": "Calculadora de Hipoteca",
+  "description": "Calcula tu cuota mensual de hipoteca incluyendo capital, intereses, impuestos sobre la propiedad, seguro del hogar y gastos comunitarios. Obtén un desglose completo de los costes de tu préstamo hipotecario.",
+
+  "meta": {
+    "title": "Calculadora de Hipoteca - Calcula Cuotas Mensuales y Coste Total | World Calculator",
+    "description": "Calculadora de hipoteca gratuita con impuestos, seguro y gastos comunitarios. Calcula cuotas mensuales, tabla de amortización y coste total de tu vivienda en segundos.",
+    "keywords": "calculadora hipoteca, calculadora préstamo hipotecario, calculadora cuota mensual, calculadora amortización, Euribor, TAE, TIN, gastos de hipoteca, impuestos propiedad"
+  },
+
+  "inputs": {
+    "homePrice": "Precio de la Vivienda",
+    "downPayment": "Entrada",
+    "downPaymentType": "Tipo de Entrada",
+    "downPaymentPercentage": "Entrada (%)",
+    "downPaymentAmount": "Entrada (€)",
+    "interestRate": "Tipo de Interés (% Anual)",
+    "loanTerm": "Plazo del Préstamo",
+    "paymentFrequency": "Frecuencia de Pago",
+    "propertyTax": "IBI Anual",
+    "homeInsurance": "Seguro de Hogar Anual",
+    "hoaFees": "Gastos Comunitarios Mensuales",
+    "pmiRate": "Tasa de Seguro (%)"
+  },
+
+  "options": {
+    "monthly": "Mensual",
+    "biweekly": "Quincenal",
+    "weekly": "Semanal",
+    "percentage": "Porcentaje",
+    "amount": "Cantidad en Euros",
+    "years": "años"
+  },
+
+  "outputs": {
+    "totalMonthlyPayment": "Cuota Mensual Total",
+    "loanAmount": "Importe del Préstamo",
+    "downPayment": "Entrada",
+    "totalInterest": "Intereses Totales",
+    "totalCost": "Coste Total de la Vivienda",
+    "payoffDate": "Fecha de Cancelación",
+    "paymentBreakdown": "Desglose de Cuota Mensual",
+    "principalInterest": "Capital e Intereses",
+    "propertyTax": "IBI",
+    "homeInsurance": "Seguro del Hogar",
+    "pmi": "Seguro de Hipoteca",
+    "hoaFees": "Gastos Comunitarios",
+    "pmiRequired": "Seguro requerido (Entrada < 20%)",
+    "pmiNotRequired": "Sin seguro adicional (Entrada ≥ 20%)",
+    "pmiRemovalInfo": "Seguro eliminado tras {period} cuotas"
+  },
+
+  "actions": {
+    "calculate": "Calcular",
+    "reset": "Restablecer",
+    "showSchedule": "Mostrar Tabla de Amortización",
+    "hideSchedule": "Ocultar Tabla de Amortización",
+    "advancedOptions": "Opciones Avanzadas",
+    "showMore": "Mostrar Más",
+    "showLess": "Mostrar Menos"
+  },
+
+  "amortization": {
+    "title": "Tabla de Amortización",
+    "period": "Período",
+    "payment": "Cuota",
+    "principal": "Capital",
+    "interest": "Intereses",
+    "balance": "Saldo",
+    "pmi": "Seguro",
+    "page": "Página",
+    "of": "de"
+  },
+
+  "faqs": [
+    {
+      "question": "¿Qué porcentaje de entrada es recomendable para una hipoteca?",
+      "answer": "En España, lo habitual es aportar entre el 20% y el 30% del valor de la vivienda como entrada. Los bancos españoles suelen financiar hasta el 80% del valor de tasación (no del precio de compra), por lo que necesitarás cubrir el 20% restante más los gastos de escritura, notaría, registro e impuestos (aproximadamente otro 10-12%). Una entrada mayor te permitirá: 1) Conseguir mejores condiciones de tipo de interés; 2) Reducir la cuota mensual; 3) Pagar menos intereses totales; 4) Tener más opciones entre diferentes entidades bancarias."
+    },
+    {
+      "question": "¿Cómo se calcula la cuota mensual de mi hipoteca?",
+      "answer": "La cuota mensual de tu hipoteca se compone de varios elementos: 1) Capital e intereses - calculados mediante el sistema de amortización francés (cuota constante) usado en España, basándose en el importe prestado, el tipo de interés (TIN) y el plazo; 2) Seguro de hogar - obligatorio y generalmente 1/12 de la prima anual; 3) Gastos de gestoría (si procede). Adicionalmente, aunque no forman parte de la cuota bancaria, deberás pagar: 4) IBI (Impuesto sobre Bienes Inmuebles) - varía según el municipio; 5) Gastos de comunidad - si es un piso o urbanización."
+    },
+    {
+      "question": "¿Qué es el Euribor y cómo afecta a mi hipoteca?",
+      "answer": "El Euribor (Euro Interbank Offered Rate) es el tipo de interés al que los bancos europeos se prestan dinero entre sí. En España, la mayoría de hipotecas variables están referenciadas al Euribor a 12 meses. Tu tipo de interés será Euribor + diferencial (por ejemplo, Euribor + 0,99%). El Euribor se revisa periódicamente (anualmente, semestralmente, etc.) y tu cuota subirá o bajará según su evolución. Las hipotecas fijas mantienen el mismo tipo durante todo el plazo, independientemente del Euribor, ofreciendo mayor previsibilidad pero generalmente con un tipo inicial más alto."
+    },
+    {
+      "question": "¿Hipoteca fija o variable? ¿Cuál me conviene?",
+      "answer": "Hipoteca fija: El tipo de interés no cambia durante toda la vida del préstamo. Ventajas: seguridad y cuota constante predecible. Ideal si: prevés que los tipos subirán, valoras la estabilidad, o tienes un presupuesto ajustado. Hipoteca variable: El tipo se revisa periódicamente según el Euribor. Ventajas: tipo inicial más bajo, posibilidad de beneficiarte de bajadas del Euribor. Ideal si: prevés tipos estables o a la baja, tienes margen en tu presupuesto para absorber subidas. Alternativa: hipoteca mixta (fija los primeros 5-10 años, luego variable)."
+    },
+    {
+      "question": "¿Qué gastos adicionales tiene comprar una vivienda con hipoteca?",
+      "answer": "Al comprar una vivienda en España deberás afrontar, además de la entrada, los siguientes gastos: 1) Impuestos: IVA (10% vivienda nueva) o ITP (6-10% vivienda usada, varía por comunidad autónoma); 2) Notaría: 600-1.200€; 3) Registro de la Propiedad: 400-800€; 4) Gestoría: 300-600€; 5) Tasación: 250-400€; 6) Comisión de apertura del banco: 0-1% del préstamo; 7) Gastos de gestoría del banco: 200-400€. En total, suma entre el 10% y el 12% del precio de compra. Es importante tener este dinero ahorrado además de la entrada."
+    },
+    {
+      "question": "¿Puedo cancelar mi hipoteca anticipadamente?",
+      "answer": "Sí, en España tienes derecho a cancelar tu hipoteca anticipadamente (total o parcialmente) en cualquier momento. Para hipotecas variables, la comisión máxima legal es del 0,15% en los primeros 3 años y 0% después. Para hipotecas fijas, es del 2% en los primeros 10 años y 1,5% después. Muchos bancos ofrecen 1-2 amortizaciones parciales al año sin comisión. La amortización anticipada reduce: 1) La cuota mensual (manteniendo el plazo); o 2) El plazo (manteniendo la cuota); o 3) Ambos. Comprueba las condiciones exactas en tu escritura de hipoteca."
+    },
+    {
+      "question": "¿Puedo deducirme la hipoteca en la declaración de la renta?",
+      "answer": "La deducción por compra de vivienda habitual desapareció en 2013, por lo que solo pueden beneficiarse los contribuyentes que compraron su vivienda antes del 1 de enero de 2013 y ya venían aplicándola. Esta deducción permite deducir el 15% de las cantidades satisfechas en el año (máximo 9.040€ de base, es decir, hasta 1.356€ de ahorro fiscal). Si compraste después de 2013, no podrás deducirte la hipoteca en el IRPF, salvo algunas excepciones en comunidades autónomas específicas (consulta tu caso particular con un asesor fiscal)."
+    },
+    {
+      "question": "¿Qué ocurre si no puedo pagar la cuota de mi hipoteca?",
+      "answer": "Si no puedes pagar tu hipoteca, actúa inmediatamente: 1) Días 1-15: Contacta con tu banco cuanto antes; 2) Día 30: Recargo por impago y posible notificación; 3) Meses 2-3: El banco puede reclamarte judicialmente; 4) Meses 3-6: Riesgo de ejecución hipotecaria (desahucio). Opciones disponibles: 1) Carencia temporal (dejas de pagar capital, solo intereses); 2) Ampliación del plazo para reducir cuota; 3) Reunificación de deudas; 4) Venta del inmueble antes del desahucio; 5) Dación en pago (entregar la vivienda). Los bancos suelen preferir negociar antes que ejecutar, así que comunícate con ellos proactivamente."
+    }
+  ],
+
+  "howTo": {
+    "title": "Cómo Usar la Calculadora de Hipoteca",
+    "steps": [
+      {
+        "name": "Introduce el Precio de la Vivienda y la Entrada",
+        "text": "Comienza introduciendo el precio total de compra de la vivienda que deseas adquirir. Luego elige si quieres introducir tu entrada como cantidad en euros o como porcentaje. Se recomienda un mínimo del 20% de entrada para obtener mejores condiciones, aunque puedes ajustar el valor para ver diferentes escenarios."
+      },
+      {
+        "name": "Establece el Tipo de Interés y el Plazo",
+        "text": "Introduce el tipo de interés anual que te ha ofrecido tu banco (o utiliza como referencia el Euribor + diferencial actual del mercado). Selecciona el plazo del préstamo - típicamente 20, 25 o 30 años en España. Plazos más cortos tienen cuotas mensuales más altas pero reducen significativamente los intereses totales."
+      },
+      {
+        "name": "Añade Gastos de Propiedad (Opcional)",
+        "text": "Haz clic en 'Opciones Avanzadas' para incluir el IBI anual, el seguro de hogar (obligatorio), y los gastos de comunidad si corresponden. Estos costes son esenciales para conocer tu pago mensual real de vivienda. El IBI varía según el municipio y el valor catastral de la propiedad."
+      },
+      {
+        "name": "Revisa el Desglose de tu Cuota Mensual",
+        "text": "La calculadora muestra tu cuota mensual total de forma destacada, junto con un desglose detallado que incluye: capital e intereses, IBI mensualizado, seguro del hogar, y gastos comunitarios. También verás el importe total del préstamo, los intereses totales que pagarás y la fecha estimada de cancelación de la hipoteca."
+      },
+      {
+        "name": "Explora la Tabla de Amortización",
+        "text": "Haz clic en 'Mostrar Tabla de Amortización' para ver cómo disminuye el saldo de tu préstamo con el tiempo. La tabla muestra para cada cuota la parte de capital y la parte de intereses, el saldo pendiente, y cómo evoluciona la composición del pago. Utiliza la paginación para saltar a diferentes años de tu hipoteca y observar cómo al principio pagas más intereses y al final más capital."
+      }
+    ]
+  },
+
+  "disclaimer": {
+    "text": "Esta calculadora proporciona únicamente estimaciones. Los términos, tipos de interés y costes hipotecarios reales pueden variar según tu perfil crediticio, políticas de la entidad bancaria, ubicación del inmueble y condiciones del mercado. Los impuestos sobre la propiedad y seguros son estimaciones que varían según la ubicación. Las tasas de seguro y requisitos de eliminación pueden diferir según el banco. Para ofertas vinculantes y condiciones personalizadas, consulta directamente con entidades financieras.",
+    "note": "Los cálculos asumen hipotecas a tipo fijo con amortización estándar (sistema francés). Las hipotecas a tipo variable (vinculadas a Euribor), préstamos solo con intereses y otros productos especializados pueden tener estructuras de pago diferentes. Verifica siempre todos los tipos, comisiones y condiciones con tu banco antes de tomar decisiones financieras."
+  },
+
+  "seo": {
+    "whatIsTitle": "¿Qué es una Calculadora de Hipoteca?",
+    "whatIsContent": "Una calculadora de hipoteca es una herramienta de planificación financiera que calcula tu cuota mensual de préstamo hipotecario, incluyendo capital, intereses, IBI, seguro del hogar y gastos comunitarios. Introduce el precio de la vivienda, entrada, tipo de interés y plazo para ver tus costes mensuales completos, intereses totales y tabla de amortización. Esencial para planificar la compra de vivienda y comparar diferentes escenarios de financiación.",
+    "whenToUseTitle": "¿Cuándo Usar una Calculadora de Hipoteca?",
+    "whenToUseIntro": "Usa nuestra calculadora hipotecaria para tomar decisiones informadas:",
+    "whenToUsePoint1": "Determinar qué vivienda puedes permitirte según tu presupuesto",
+    "whenToUsePoint2": "Comparar diferentes cantidades de entrada y su impacto en la cuota mensual",
+    "whenToUsePoint3": "Evaluar hipotecas a 20, 25 o 30 años y los costes totales de intereses",
+    "whenToUsePoint4": "Comprender el coste completo de ser propietario incluyendo impuestos y seguros",
+    "whenToUsePoint5": "Planificar para el ahorro con tipo fijo versus variable indexado a Euribor",
+    "mortgageTypesTitle": "Tipos de Hipotecas que Puedes Calcular",
+    "mortgageTypeFixed": "Hipoteca a Tipo Fijo - El tipo de interés permanece constante durante todo el plazo del préstamo (15, 20, 25 o 30 años), proporcionando cuotas mensuales predecibles y protección contra subidas de tipos",
+    "mortgageTypeVariable": "Hipoteca a Tipo Variable - El tipo de interés cambia periódicamente según el Euribor más un diferencial fijo. Ofrece tipos iniciales más bajos pero conlleva el riesgo de aumentos en la cuota si sube el Euribor",
+    "mortgageTypeInterestOnly": "Hipoteca Solo Intereses - Pagas únicamente intereses durante un período inicial, luego comienzas a pagar capital e intereses. Cuotas iniciales más bajas pero no genera equidad durante la fase de solo intereses",
+    "mortgageTypeFHA": "Hipoteca Joven (< 35 años) - Programas especiales con condiciones ventajosas para menores de 35 años, permitiendo financiar hasta el 90-95% del valor, tipos más competitivos y exenciones fiscales en algunos casos",
+    "mortgageTypeVA": "Hipoteca 100% - Financiación completa del precio de compra sin entrada, disponible en casos específicos con condiciones especiales. Requiere perfil crediticio excelente y suele tener tipos de interés más altos",
+    "benefitsTitle": "¿Por Qué Usar una Calculadora de Hipoteca?",
+    "benefit1": "Presupuesta con precisión comprendiendo tu cuota mensual completa incluyendo todos los impuestos y gastos",
+    "benefit2": "Compara diferentes escenarios - entrada, plazos y tipos de interés - lado a lado",
+    "benefit3": "Visualiza el impacto a largo plazo de tus decisiones con cálculos de intereses totales",
+    "benefit4": "Entiende la diferencia entre tipo fijo y variable referenciado a Euribor",
+    "benefit5": "Toma decisiones de compra con confianza respaldadas por proyecciones financieras precisas",
+    "howToUseTitle": "Cómo Usar Esta Calculadora de Hipoteca",
+    "howToUseStep1": "Introduce el precio de la vivienda y tu entrada (porcentaje o cantidad en euros). Una entrada del 20-30% te dará mejores condiciones y evitará seguros adicionales",
+    "howToUseStep2": "Ingresa el tipo de interés anual ofrecido por tu banco. Para hipotecas variables, usa Euribor + diferencial (ej: Euribor 12m + 0,99%)",
+    "howToUseStep3": "Selecciona el plazo del préstamo. Las hipotecas a 30 años ofrecen cuotas más bajas mientras que plazos de 20 años ahorran significativamente en intereses totales",
+    "howToUseStep4": "Añade el IBI anual, seguro de hogar obligatorio y gastos de comunidad en opciones avanzadas para ver tu coste mensual completo de vivienda",
+    "howToUseStep5": "Revisa la tabla de amortización para ver cómo cada cuota reduce tu saldo y cómo cambia la composición entre capital e intereses",
+    "resultsTitle": "Comprendiendo los Resultados de tu Hipoteca",
+    "resultsPayment": "Cuota Mensual - Tu cuota total incluyendo capital, intereses, IBI mensualizado, seguro y gastos de comunidad. Es el importe que pagarás cada mes",
+    "resultsTotalCost": "Coste Total de la Vivienda - La cantidad completa que pagarás durante la vida del préstamo, incluyendo el precio de compra, todos los intereses, impuestos, seguros y gastos",
+    "resultsTotalInterest": "Intereses Totales - Los intereses acumulados pagados durante todo el plazo del préstamo. En hipotecas a 30 años, esto puede igualar o superar el importe del préstamo original",
+    "resultsAmortization": "Tabla de Amortización - Un desglose detallado de cada cuota mostrando cuánto va a capital versus intereses. Las primeras cuotas son principalmente intereses; las últimas son principalmente capital",
+    "formulaTitle": "Fórmula de Cálculo de Hipoteca",
+    "formulaContent": "M = P × [r(1+r)^n] / [(1+r)^n - 1]",
+    "formulaExample": "Donde M = Cuota Mensual, P = Capital (importe del préstamo), r = Tipo de Interés Mensual (tipo anual ÷ 12), n = Número Total de Cuotas (años × 12). El IBI, seguro y gastos de comunidad se añaden a esta cuota base.",
+    "tipsTitle": "Consejos Expertos para tu Hipoteca",
+    "tip1": "Intenta aportar entre el 20-30% de entrada para obtener mejores tipos de interés y evitar seguros adicionales, ahorrando cientos de euros al mes",
+    "tip2": "Compara ofertas de al menos 3-5 bancos - los tipos y comisiones pueden variar significativamente incluso con el mismo perfil crediticio",
+    "tip3": "Considera una hipoteca a 20 años si puedes permitirte cuotas más altas - pagarás 40-50% menos intereses totales que a 30 años",
+    "tip4": "Negocia el diferencial del banco - una reducción de solo 0,10% puede ahorrarte miles de euros durante la vida del préstamo",
+    "tip5": "Ten en cuenta los gastos de compra (10-12% en vivienda usada) y mantén ahorros de emergencia además de la entrada",
+    "tip6": "Realiza amortizaciones anticipadas cuando sea posible - incluso 100€ extra al mes puede reducir años del préstamo y ahorrar decenas de miles",
+    "tip7": "Revisa anualmente el IBI y el seguro del hogar - suelen aumentar con el tiempo e impactan en tu cuota total",
+    "tip8": "Si tienes hipoteca variable, sigue la evolución del Euribor y considera cambiar a tipo fijo si prevés subidas importantes",
+    "faqTitle": "Preguntas Frecuentes sobre Hipotecas",
+    "faq1Question": "¿Qué vivienda puedo permitirme?",
+    "faq1Answer": "La regla general en España es que tu cuota mensual de hipoteca no debe superar el 30-35% de tus ingresos netos mensuales. Por ejemplo, con unos ingresos netos de 2.500€ al mes, tu cuota máxima debería ser de 750-875€. Sin embargo, considera tu estabilidad laboral, objetivos de ahorro y estilo de vida. Usa esta calculadora para probar diferentes precios de vivienda y entradas hasta encontrar una cuota cómoda. Recuerda que además de la hipoteca tendrás gastos de mantenimiento (1-2% del valor anual), suministros y posibles derramas de la comunidad.",
+    "faq2Question": "¿Cuál es la entrada ideal para una hipoteca?",
+    "faq2Answer": "La entrada ideal en España es del 20-30% del precio de la vivienda. Los bancos españoles suelen financiar hasta el 80% del valor de tasación (no del precio de compra), por lo que necesitarás al menos el 20% de entrada más los gastos de compra (notaría, registro, impuestos) que suponen otro 10-12% para vivienda usada o 2-3% para obra nueva. Una entrada del 30% te permitirá: eliminar seguros adicionales, conseguir mejores tipos de interés (potencialmente 0,20-0,40% más bajo), demostrar solvencia al banco y construir patrimonio desde el principio. Menores de 35 años pueden acceder a financiación del 90-95% con condiciones especiales.",
+    "faq3Question": "¿Hipoteca a 20, 25 o 30 años?",
+    "faq3Answer": "Esto depende de tus prioridades financieras y capacidad de pago. Una hipoteca a 20 años tiene cuotas mensuales significativamente más altas (aproximadamente 30-40% más que a 30 años) pero ahorra enormemente en intereses - a menudo 40.000-80.000€ en una vivienda típica. Elige 20 años si: puedes permitirte cuotas más altas cómodamente, quieres estar libre de hipoteca antes, estás cerca de la jubilación o planeas quedarte en la vivienda largo plazo. Elige 30 años si: necesitas cuotas más bajas para flexibilidad financiera, estás al máximo de tu capacidad de endeudamiento o valoras la flexibilidad. Opción intermedia: hipoteca a 30 años pero realizando amortizaciones anticipadas cuando puedas.",
+    "faq4Question": "¿Cómo se calcula mi cuota mensual?",
+    "faq4Answer": "Tu cuota mensual total de hipoteca incluye varios componentes: 1) Capital e Intereses - calculados mediante el sistema de amortización francés (cuota constante) basándose en el importe prestado, tipo de interés (TIN o Euribor + diferencial) y plazo. Esta parte es constante en hipotecas fijas. 2) IBI - normalmente 1/12 de tu recibo anual de IBI, varía según el municipio (0,4-1,1% del valor catastral). 3) Seguro de Hogar - 1/12 de tu prima anual, obligatorio si hay hipoteca. Requerido por todos los bancos. 4) Gastos de Comunidad - si es piso o urbanización, se pagan aparte pero debes incluirlos en tu presupuesto mensual. En hipotecas variables, el componente de intereses cambiará según evolucione el Euribor.",
+    "faq5Question": "¿Qué es el Euribor y cómo afecta mi hipoteca?",
+    "faq5Answer": "El Euribor (Euro Interbank Offered Rate) es el tipo de interés al que los bancos europeos se prestan dinero entre sí. En España, la mayoría de hipotecas variables están referenciadas al Euribor a 12 meses. Tu tipo de interés será Euribor + diferencial (por ejemplo, Euribor + 0,99%). El Euribor se revisa periódicamente (anualmente es lo más común) y tu cuota subirá o bajará según su evolución. Si el Euribor estaba en -0,50% y sube a 3,50%, con un diferencial de 0,99% tu tipo pasaría de 0,49% a 4,49%, aumentando significativamente tu cuota. Las hipotecas fijas te protegen de esta variabilidad manteniendo el mismo tipo durante todo el plazo.",
+    "faq6Question": "¿Cuánto pagaré en intereses totales?",
+    "faq6Answer": "Los intereses totales dependen del importe prestado, tipo de interés y plazo. En una hipoteca de 200.000€ a 30 años con un tipo del 3,5%, pagarás aproximadamente 123.000€ en intereses - más de la mitad del préstamo original. A 20 años con el mismo tipo, pagarías solo 77.000€ en intereses - un ahorro de 46.000€. Cada 0,5% de aumento en el tipo de interés cuesta decenas de miles de euros en una hipoteca a 30 años. La buena noticia: puedes reducir drásticamente los intereses realizando amortizaciones anticipadas, eligiendo un plazo más corto o negociando un mejor diferencial. Usa la tabla de amortización de esta calculadora para ver exactamente cuánto interés pagarás.",
+    "faq7Question": "¿Puedo permitirme la vivienda con mis ingresos actuales?",
+    "faq7Answer": "Los bancos españoles aplican la regla del 30-35%: tu cuota de hipoteca no debe superar el 30-35% de tus ingresos netos mensuales. Sin embargo, esto es solo un punto de partida. Considera: tu estabilidad laboral (funcionario vs autónomo vs indefinido), colchón de ahorros (mantén 6-12 meses de gastos de emergencia), otros objetivos financieros (jubilación, hijos), prioridades de estilo de vida y comodidad con la deuda. Un enfoque conservador es asegurar que tu cuota total (capital + intereses + IBI + seguro + comunidad) sea menos del 30% de tu sueldo neto, dejando margen para mantenimiento, suministros, ahorros y gastos inesperados. Si estás al límite de la aprobación bancaria, tendrás poca flexibilidad financiera.",
+    "faq8Question": "¿Qué gastos de compra debo esperar?",
+    "faq8Answer": "Al comprar una vivienda en España, además de la entrada, deberás pagar estos gastos: Vivienda usada: 1) ITP (Impuesto de Transmisiones Patrimoniales): 6-10% según comunidad autónoma, 2) Notaría: 600-1.200€, 3) Registro de la Propiedad: 400-800€, 4) Gestoría: 300-600€, 5) Tasación: 250-400€, 6) Comisión de apertura bancaria: 0-1% del préstamo. Total: 10-12% del precio. Vivienda nueva: 1) IVA: 10%, 2) AJD (Actos Jurídicos Documentados): 0,5-1,5%, más los mismos gastos de notaría, registro, etc. Total: 12-14%. Menores de 35 años tienen bonificaciones fiscales en algunas comunidades. Planifica estos gastos además de tu entrada del 20%.",
+    "faq9Question": "¿Es buen momento para comprar vivienda?",
+    "faq9Answer": "El mejor momento para comprar vivienda depende más de tu situación personal que del mercado. Compra cuando: tengas ingresos estables y seguridad laboral, hayas ahorrado una entrada sólida (idealmente 20-30%) más fondo de emergencia, planees quedarte en la zona al menos 5-7 años (para absorber gastos de compra y construir patrimonio), puedas permitirte cómodamente la cuota mensual y estés emocionalmente preparado para las responsabilidades de ser propietario. Las condiciones del mercado importan menos que tu preparación personal. Si los tipos actuales son altos, puedes subrogar o renegociar después cuando bajen - pero no podrás volver atrás y comprar a los precios de hoy si aumentan. Céntrate en encontrar la vivienda adecuada a una cuota que puedas permitirte."
+  }
+}
