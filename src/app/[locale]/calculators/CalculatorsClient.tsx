@@ -36,6 +36,7 @@ interface CalculatorsClientProps {
     calculators: string
   }
   categoryTranslations: Record<string, string>
+  calculatorNames: Record<string, string>
 }
 
 export function CalculatorsClient({
@@ -43,6 +44,7 @@ export function CalculatorsClient({
   siteDescription,
   translations,
   categoryTranslations,
+  calculatorNames,
 }: CalculatorsClientProps) {
   const searchParams = useSearchParams()
   const searchQuery = searchParams.get('q') || ''
@@ -53,14 +55,18 @@ export function CalculatorsClient({
 
     const query = searchQuery.toLowerCase().trim()
     return calculators.filter((calc) => {
+      const calcName = calculatorNames[calc.slug]?.toLowerCase() || ''
+      const categoryName = categoryTranslations[calc.category]?.toLowerCase() || ''
+
       return (
         calc.slug.toLowerCase().includes(query) ||
         calc.category.toLowerCase().includes(query) ||
-        calc.translationKey.toLowerCase().includes(query) ||
+        calcName.includes(query) ||
+        categoryName.includes(query) ||
         calc.slug.replace(/-/g, ' ').toLowerCase().includes(query)
       )
     })
-  }, [searchQuery])
+  }, [searchQuery, calculatorNames, categoryTranslations])
 
   return (
     <div className="container py-8">
@@ -95,7 +101,7 @@ export function CalculatorsClient({
                         <Icon className="h-6 w-6 text-primary" />
                       </div>
                       <CardTitle className="text-xl">
-                        {calculator.slug.charAt(0).toUpperCase() + calculator.slug.slice(1).replace(/-/g, ' ')}
+                        {calculatorNames[calculator.slug] || calculator.slug.charAt(0).toUpperCase() + calculator.slug.slice(1).replace(/-/g, ' ')}
                       </CardTitle>
                     </div>
                   </CardHeader>

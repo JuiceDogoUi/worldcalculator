@@ -60,6 +60,16 @@ export default async function CalculatorsPage({ params }: CalculatorsPageProps) 
   const tSite = await getTranslations({ locale, namespace: 'site' })
   const tCategories = await getTranslations({ locale, namespace: 'categories' })
 
+  // Get calculator translations
+  const calculatorNames: Record<string, string> = {}
+  const tFinanceLoan = await getTranslations({ locale, namespace: 'calculators.finance.loan' })
+  const tFinanceMortgage = await getTranslations({ locale, namespace: 'calculators.finance.mortgage' })
+  const tMathPercentage = await getTranslations({ locale, namespace: 'calculators.math.percentage' })
+
+  calculatorNames['loan'] = tFinanceLoan('title')
+  calculatorNames['mortgage'] = tFinanceMortgage('title')
+  calculatorNames['percentage'] = tMathPercentage('title')
+
   return (
     <CalculatorsClient
       locale={locale}
@@ -80,6 +90,7 @@ export default async function CalculatorsPage({ params }: CalculatorsPageProps) 
           ])
         )
       )}
+      calculatorNames={calculatorNames}
     />
   )
 }
