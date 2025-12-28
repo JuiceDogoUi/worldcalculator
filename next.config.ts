@@ -38,7 +38,7 @@ const config: NextConfig = {
   // Environment variables
   env: {
     NEXT_PUBLIC_BASE_URL:
-      process.env.NEXT_PUBLIC_BASE_URL || 'https://worldcalculator.com',
+      process.env.NEXT_PUBLIC_BASE_URL || 'https://www.worldcalculator.org',
   },
 }
 
