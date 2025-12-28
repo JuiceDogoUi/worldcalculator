@@ -1,11 +1,7 @@
 import type { Metadata } from 'next'
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
+import { unstable_setRequestLocale } from 'next-intl/server'
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { locale: string }
-}): Promise<Metadata> {
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'Privacy Policy | World Calculator',
     description:
@@ -17,11 +13,12 @@ export async function generateMetadata({
   }
 }
 
-export default function PrivacyPage({
-  params: { locale },
+export default async function PrivacyPage({
+  params,
 }: {
-  params: { locale: string }
+  params: Promise<{ locale: string }>
 }) {
+  const { locale } = await params
   unstable_setRequestLocale(locale)
 
   return (
@@ -37,9 +34,9 @@ export default function PrivacyPage({
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
           <p>
-            World Calculator ("we," "our," or "us") is committed to protecting your privacy and personal data.
+            World Calculator (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy and personal data.
             This privacy policy explains how we collect, use, and protect your information when you use our
-            free online calculator platform at worldcalculator.org (the "Service").
+            free online calculator platform at worldcalculator.org (the &quot;Service&quot;).
           </p>
           <p>
             We comply with the General Data Protection Regulation (GDPR) (EU) 2016/679 and other applicable
@@ -250,7 +247,7 @@ export default function PrivacyPage({
               <strong>Right to Rectification:</strong> Request correction of inaccurate or incomplete data
             </li>
             <li>
-              <strong>Right to Erasure ("Right to be Forgotten"):</strong> Request deletion of your personal data
+              <strong>Right to Erasure (&quot;Right to be Forgotten&quot;):</strong> Request deletion of your personal data
             </li>
             <li>
               <strong>Right to Restriction:</strong> Request limitation of processing your data
@@ -317,7 +314,7 @@ export default function PrivacyPage({
 
         {/* Children's Privacy */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">13. Children's Privacy</h2>
+          <h2 className="text-2xl font-semibold mb-4">13. Children&apos;s Privacy</h2>
           <p>
             Our Service is not directed to children under the age of 16. We do not knowingly collect personal
             data from children under 16. If you believe we have collected data from a child under 16, please
@@ -331,7 +328,7 @@ export default function PrivacyPage({
           <p>
             We may update this privacy policy from time to time to reflect changes in our practices or for
             legal, operational, or regulatory reasons. We will notify you of any material changes by posting
-            the updated policy on this page with a new "Last updated" date.
+            the updated policy on this page with a new &quot;Last updated&quot; date.
           </p>
           <p className="mt-4">
             We encourage you to review this privacy policy periodically to stay informed about how we protect
