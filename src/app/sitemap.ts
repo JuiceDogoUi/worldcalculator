@@ -1,9 +1,9 @@
 import { MetadataRoute } from 'next'
 import { locales } from '@/i18n/locales'
 import { categories } from '@/config/categories'
-// import { calculators } from '@/config/calculators'
+import { calculators } from '@/config/calculators'
 
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://worldcalculator.com'
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://worldcalculator.com'
 
 export const dynamic = 'force-static'
 
@@ -56,23 +56,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       })
     })
 
-    // TODO: Add individual calculator pages when calculators are implemented
-    // calculators.forEach((calculator) => {
-    //   sitemap.push({
-    //     url: `${baseUrl}/${locale}/calculators/${calculator.category}/${calculator.slug}`,
-    //     lastModified: new Date(),
-    //     changeFrequency: 'monthly',
-    //     priority: 0.7,
-    //     alternates: {
-    //       languages: Object.fromEntries(
-    //         locales.map((loc) => [
-    //           loc,
-    //           `${baseUrl}/${loc}/calculators/${calculator.category}/${calculator.slug}`,
-    //         ])
-    //       ),
-    //     },
-    //   })
-    // })
+    // Add individual calculator pages
+    calculators.forEach((calculator) => {
+      sitemap.push({
+        url: `${baseUrl}/${locale}/calculators/${calculator.category}/${calculator.slug}`,
+        lastModified: calculator.lastModified ? new Date(calculator.lastModified) : new Date(),
+        changeFrequency: 'monthly',
+        priority: calculator.featured ? 0.8 : 0.7,
+        alternates: {
+          languages: Object.fromEntries(
+            locales.map((loc) => [
+              loc,
+              `${baseUrl}/${loc}/calculators/${calculator.category}/${calculator.slug}`,
+            ])
+          ),
+        },
+      })
+    })
   })
 
   return sitemap
