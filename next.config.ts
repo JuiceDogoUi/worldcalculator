@@ -9,13 +9,13 @@ const withBundleAnalyzer = bundleAnalyzer({
 })
 
 const config: NextConfig = {
-  // Static export for optimal performance and SEO
+  // Static site generation
   output: 'export',
 
   // Trailing slashes for consistent URLs
   trailingSlash: true,
 
-  // Image optimization (disabled for static export)
+  // Image optimization configuration
   images: {
     unoptimized: true,
     formats: ['image/webp'],

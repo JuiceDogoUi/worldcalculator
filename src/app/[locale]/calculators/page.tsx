@@ -1,29 +1,10 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server'
-import { Link } from '@/i18n/routing'
-import { categories } from '@/config/categories'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import {
-  DollarSign,
-  Heart,
-  Calculator as CalculatorIcon,
-  ArrowLeftRight,
-  Clock,
-  Hammer,
-} from 'lucide-react'
+import { CalculatorsClient } from './CalculatorsClient'
 import type { Metadata } from 'next'
 import { locales } from '@/i18n/locales'
 
 export const dynamic = 'force-static'
 export const dynamicParams = false
-
-const iconMap = {
-  DollarSign,
-  Heart,
-  Calculator: CalculatorIcon,
-  ArrowLeftRight,
-  Clock,
-  Hammer,
-}
 
 interface CalculatorsPageProps {
   params: Promise<{ locale: string }>
@@ -68,7 +49,7 @@ export async function generateMetadata({
 
 /**
  * Calculators index page
- * Displays all calculator categories
+ * Displays all calculator categories with client-side search
  */
 export default async function CalculatorsPage({ params }: CalculatorsPageProps) {
   const { locale } = await params
@@ -80,42 +61,26 @@ export default async function CalculatorsPage({ params }: CalculatorsPageProps) 
   const tCategories = await getTranslations({ locale, namespace: 'categories' })
 
   return (
-    <div className="container py-8">
-      <div className="mb-8 space-y-2">
-        <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
-          {tSite('name')}
-        </h1>
-        <p className="text-lg text-muted-foreground">{tSite('description')}</p>
-      </div>
-
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-        {categories.map((category) => {
-          const Icon = iconMap[category.icon as keyof typeof iconMap]
-
-          return (
-            <Link key={category.id} href={`/calculators/${category.slug}`}>
-              <Card className="h-full transition-all hover:border-primary hover:shadow-md">
-                <CardHeader>
-                  <div className="flex items-center gap-3">
-                    <div className="rounded-lg bg-primary/10 p-2">
-                      <Icon className="h-6 w-6 text-primary" />
-                    </div>
-                    <CardTitle className="text-xl">
-                      {tCategories(category.translationKey)}
-                    </CardTitle>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-sm text-muted-foreground">
-                    Explore calculators in this category
-                  </p>
-                </CardContent>
-              </Card>
-            </Link>
-          )
-        })}
-      </div>
-    </div>
+    <CalculatorsClient
+      locale={locale}
+      siteName={tSite('name')}
+      siteDescription={tSite('description')}
+      translations={{
+        noResults: 'No calculators found for',
+        browseAll: 'Browse all categories',
+        searchResults: 'Search Results',
+        found: 'Found',
+        calculators: 'calculators',
+      }}
+      categoryTranslations={Object.fromEntries(
+        await Promise.all(
+          ['finance', 'health', 'math', 'conversion', 'timeDate', 'construction'].map(async (key) => [
+            key,
+            tCategories(key as 'finance' | 'health' | 'math' | 'conversion' | 'timeDate' | 'construction'),
+          ])
+        )
+      )}
+    />
   )
 }
 

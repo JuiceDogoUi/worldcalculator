@@ -7,7 +7,7 @@ import { routing } from './routing'
  */
 const CALCULATOR_REGISTRY: Record<string, string[]> = {
   finance: ['loan'],
-  math: [],
+  math: ['percentage'],
   health: [],
   conversion: [],
   'time-date': [],

@@ -8,7 +8,7 @@
   "home": {
     "heroTitle": "Calculate Anything",
     "heroSubtitle": "Free, fast, and accurate calculators for finance, health, math, and more. No sign-up required.",
-    "searchPlaceholder": "Search calculators...",
+    "searchPlaceholder": "Search calculators... (e.g., loan, percentage, BMI)",
     "categoriesTitle": "Explore Categories",
     "categoriesSubtitle": "Find the right calculator for your needs",
     "categoryDescriptions": {
