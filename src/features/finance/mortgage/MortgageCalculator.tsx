@@ -623,7 +623,7 @@ export function MortgageCalculator({
               </div>
               {result && (
                 <div className="mt-3 text-sm opacity-80">
-                  {loanTermYears} {t.years} • {new Date(new Date().setMonth(new Date().getMonth() + inputs.loanTerm)).toLocaleDateString(locale, {
+                  {loanTermYears} {t.years} • {new Date(new Date().setMonth(new Date().getMonth() + loanTermYears * 12)).toLocaleDateString(locale, {
                     year: 'numeric',
                     month: 'short'
                   })}
