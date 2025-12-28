@@ -66,7 +66,7 @@ export default async function LocaleLayout({
   const t = await getTranslations({ locale, namespace: 'site' })
 
   // Generate structured data for SEO
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://worldcalculator.com'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.worldcalculator.org'
   const structuredDataConfig = {
     siteName: t('name'),
     siteUrl,

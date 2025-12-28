@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: 'World Calculator',
   description: 'Free online calculators for finance, health, math, conversion, time & date, and construction',
-  url: process.env.NEXT_PUBLIC_BASE_URL || 'https://worldcalculator.com',
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.worldcalculator.org',
   ogImage: '/images/og/default.jpg',
   links: {
     twitter: 'https://twitter.com/worldcalculator',
@@ -9,6 +9,6 @@ export const siteConfig = {
   },
   creator: {
     name: 'World Calculator Team',
-    url: 'https://worldcalculator.com',
+    url: 'https://www.worldcalculator.org',
   },
 }

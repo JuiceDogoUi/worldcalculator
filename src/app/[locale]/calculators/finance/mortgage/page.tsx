@@ -35,7 +35,7 @@ export async function generateMetadata({
     namespace: 'calculators.finance.mortgage',
   })
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || 'https://worldcalculator.com'
+    process.env.NEXT_PUBLIC_SITE_URL || 'https://www.worldcalculator.org'
 
   return {
     title: t('meta.title'),
@@ -72,7 +72,7 @@ export default async function MortgageCalculatorPage({
   const tCategories = await getTranslations({ locale, namespace: 'categories' })
 
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || 'https://worldcalculator.com'
+    process.env.NEXT_PUBLIC_SITE_URL || 'https://www.worldcalculator.org'
   const calculatorUrl = `${siteUrl}/${locale}/calculators/finance/mortgage`
 
   // Get currency based on locale

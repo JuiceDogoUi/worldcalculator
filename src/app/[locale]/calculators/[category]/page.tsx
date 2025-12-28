@@ -162,7 +162,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   const otherCategories = categories.filter((c) => c.slug !== categorySlug)
 
   // Generate JSON-LD structured data
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://worldcalculator.com'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.worldcalculator.org'
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',

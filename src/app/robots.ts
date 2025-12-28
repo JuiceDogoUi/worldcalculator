@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next'
 
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://worldcalculator.com'
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.worldcalculator.org'
 
 export const dynamic = 'force-static'
 

@@ -20,7 +20,7 @@ interface BreadcrumbsProps {
  * ```tsx
  * <Breadcrumbs
  *   homeLabel="Home"
- *   siteUrl="https://worldcalculator.com"
+ *   siteUrl="https://www.worldcalculator.org"
  *   items={[
  *     { label: 'Finance', href: '/calculators/finance' },
  *     { label: 'Loan Calculator' }
@@ -35,7 +35,7 @@ export function Breadcrumbs({
   className = '',
 }: BreadcrumbsProps) {
   // Build structured data for SEO with absolute URLs
-  const baseUrl = siteUrl || process.env.NEXT_PUBLIC_BASE_URL || 'https://worldcalculator.com'
+  const baseUrl = siteUrl || process.env.NEXT_PUBLIC_BASE_URL || 'https://www.worldcalculator.org'
 
   const structuredData = {
     '@context': 'https://schema.org',

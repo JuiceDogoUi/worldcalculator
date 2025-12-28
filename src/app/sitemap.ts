@@ -3,7 +3,7 @@ import { locales } from '@/i18n/locales'
 import { categories } from '@/config/categories'
 import { calculators } from '@/config/calculators'
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://worldcalculator.com'
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.worldcalculator.org'
 
 export const dynamic = 'force-static'
 

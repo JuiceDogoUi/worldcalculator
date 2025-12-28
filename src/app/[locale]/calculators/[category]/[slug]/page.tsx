@@ -81,7 +81,7 @@ export async function generateMetadata({
   const title = meta?.title || calcTranslations?.title || `${slug.charAt(0).toUpperCase() + slug.slice(1)} Calculator`
   const description = meta?.description || calcTranslations?.description || `Free online ${slug} calculator. Calculate ${slug} quickly and easily.`
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://worldcalculator.com'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.worldcalculator.org'
 
   return {
     title,
@@ -155,7 +155,7 @@ export default async function CalculatorPage({
   const calculatorDescription = calcTranslations?.description || `Calculate ${slug} quickly and easily with our free online calculator.`
 
   // Generate structured data for calculator with proper translations
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://worldcalculator.com'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.worldcalculator.org'
   const metaTitle = calcTranslations?.meta?.title || calculatorTitle
   const metaDescription = calcTranslations?.meta?.description || calculatorDescription
 

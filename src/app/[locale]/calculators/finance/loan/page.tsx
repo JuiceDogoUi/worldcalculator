@@ -31,7 +31,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'calculators.finance.loan' })
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://worldcalculator.com'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.worldcalculator.org'
 
   return {
     title: t('meta.title'),
@@ -61,7 +61,7 @@ export default async function LoanCalculatorPage({
   const t = await getTranslations({ locale, namespace: 'calculators.finance.loan' })
   const tCategories = await getTranslations({ locale, namespace: 'categories' })
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://worldcalculator.com'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.worldcalculator.org'
   const calculatorUrl = `${siteUrl}/${locale}/calculators/finance/loan`
 
   // Get currency based on locale (language = country assumption)
