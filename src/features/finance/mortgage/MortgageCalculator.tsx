@@ -135,11 +135,6 @@ function formatCurrency(value: number, locale: string, currency: string): string
   }).format(value)
 }
 
-// Format percentage
-function formatPercentage(value: number): string {
-  return `${value.toFixed(2)}%`
-}
-
 export function MortgageCalculator({
   locale = 'en-US',
   currency = 'USD',
