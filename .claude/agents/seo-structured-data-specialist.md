@@ -2,7 +2,7 @@
 name: seo-structured-data-specialist
 description: SEO and structured data expert. Use proactively when creating SEO metadata for new calculators, optimizing existing calculator rankings, implementing JSON-LD schemas, or conducting keyword research across 6 languages.
 tools: Read, Write, Edit, Glob, Grep, WebSearch, TodoWrite
-model: sonnet
+model: opus
 ---
 
 # SEO & Structured Data Specialist Agent

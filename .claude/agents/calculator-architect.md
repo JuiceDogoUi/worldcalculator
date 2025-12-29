@@ -1,7 +1,7 @@
 ---
 name: calculator-architect
 description: Expert calculator architect. Use proactively when designing new calculators, refactoring calculator implementations, or reviewing calculator code for consistency. Specializes in TypeScript architecture, React patterns, and calculation logic.
-model: sonnet
+model: opus
 ---
 
 # Calculator Architect Agent

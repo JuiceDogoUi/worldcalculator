@@ -1,49 +1,117 @@
 {
-  "title": "Percentage Calculator",
-  "description": "Calculate percentages quickly and easily. Find what percent one number is of another, calculate percentage increase/decrease, and more.",
+  "title": "Prozentrechner",
+  "description": "Berechnen Sie Prozente schnell und einfach. Finden Sie heraus, wie viel Prozent eine Zahl von einer anderen ist, berechnen Sie prozentuale Zunahme/Abnahme, Prozentänderung und Prozentdifferenz zwischen zwei Werten.",
   "meta": {
-    "title": "Percentage Calculator - Free Online Percent Calculator",
-    "description": "Free online percentage calculator. Calculate what percent one number is of another, find percentage increase or decrease, and solve percentage problems instantly."
+    "title": "Prozentrechner - Kostenloser Online Prozent Rechner",
+    "description": "Kostenloser Online-Prozentrechner. Berechnen Sie, wie viel Prozent eine Zahl von einer anderen ist, prozentuale Zunahme oder Abnahme, Prozentänderung und lösen Sie Prozentaufgaben sofort.",
+    "keywords": "prozentrechner, prozent rechner, prozentuale änderung, prozentdifferenz, wie viel prozent ist, prozent berechnen, online prozentrechner, prozentuale zunahme, prozentuale abnahme"
   },
   "modes": {
-    "whatIsXPercentOfY": "What is X% of Y?",
-    "xIsWhatPercentOfY": "X is what % of Y?",
-    "percentageChange": "Percentage Change"
+    "whatIsPercentOf": {
+      "label": "X% von Y",
+      "description": "Berechnen Sie, wie viel ein bestimmter Prozentsatz einer Zahl ist. Zum Beispiel: Was sind 25% von 200?"
+    },
+    "isWhatPercentOf": {
+      "label": "X ist wie viel % von Y",
+      "description": "Finden Sie heraus, wie viel Prozent eine Zahl von einer anderen ist. Zum Beispiel: 50 ist wie viel Prozent von 200?"
+    },
+    "isPercentOfWhat": {
+      "label": "X ist Y% von was",
+      "description": "Finden Sie die ursprüngliche Zahl, wenn Sie das Ergebnis und den Prozentsatz kennen. Zum Beispiel: 50 ist 25% von was?"
+    },
+    "percentChange": {
+      "label": "% Änderung",
+      "description": "Berechnen Sie die prozentuale Änderung von einem Wert zum anderen. Zeigt an, ob es eine Zunahme oder Abnahme ist."
+    },
+    "percentDifference": {
+      "label": "% Differenz",
+      "description": "Berechnen Sie die prozentuale Differenz zwischen zwei Werten, wobei ihr Durchschnitt als Bezugspunkt verwendet wird."
+    }
   },
   "inputs": {
-    "percentage": "Percentage",
-    "number": "Number",
-    "fromValue": "From Value",
-    "toValue": "To Value"
+    "percentValue": "Prozentsatz (%)",
+    "baseValue": "Zahl (Grundwert)",
+    "partValue": "Teilwert",
+    "wholeValue": "Gesamtwert",
+    "resultValue": "Ergebniswert",
+    "percentOfWhole": "Prozentsatz (%)",
+    "initialValue": "Ausgangswert (von)",
+    "finalValue": "Endwert (zu)",
+    "value1": "Erster Wert",
+    "value2": "Zweiter Wert"
   },
-  "results": {
-    "result": "Result",
-    "percentageIs": "{value} is {percent}% of {total}",
-    "percentageOf": "{percent}% of {number} is {result}",
-    "percentageChange": "The change from {from} to {to} is {percent}%",
-    "increase": "Increase",
-    "decrease": "Decrease"
+  "result": "Ergebnis",
+  "formula": "Formel",
+  "explanation": "Erklärung",
+  "absoluteDifference": "Absolute Differenz",
+  "increase": "Zunahme",
+  "decrease": "Abnahme",
+  "noChange": "Keine Änderung",
+  "reset": "Zurücksetzen",
+  "disclaimer": {
+    "text": "Dieser Rechner liefert mathematische Berechnungen zu Bildungs- und Informationszwecken. Überprüfen Sie wichtige Berechnungen immer.",
+    "note": "Ergebnisse werden zur Anzeige gerundet, Berechnungen verwenden jedoch volle Genauigkeit."
   },
-  "examples": {
-    "title": "Examples",
-    "example1": "What is 15% of 200? Answer: 30",
-    "example2": "25 is what percent of 50? Answer: 50%",
-    "example3": "Change from 80 to 100? Answer: 25% increase"
-  },
-  "howToUse": {
-    "title": "How to Use",
-    "step1": "Select the calculation mode you need",
-    "step2": "Enter your values in the input fields",
-    "step3": "The result calculates automatically",
-    "step4": "Copy the result or try another calculation"
-  },
-  "faq": {
-    "title": "Frequently Asked Questions",
-    "q1": "How do I calculate a percentage of a number?",
-    "a1": "To find X% of Y, multiply Y by X and divide by 100. For example, 20% of 150 = (150 × 20) ÷ 100 = 30.",
-    "q2": "How do I find what percent one number is of another?",
-    "a2": "Divide the first number by the second and multiply by 100. For example, 25 is what % of 50? (25 ÷ 50) × 100 = 50%.",
-    "q3": "How do I calculate percentage increase or decrease?",
-    "a3": "Subtract the old value from the new value, divide by the old value, and multiply by 100. A positive result is an increase, negative is a decrease."
+  "seo": {
+    "whatIsTitle": "Was ist ein Prozentrechner?",
+    "whatIsContent": "Ein Prozentrechner ist ein mathematisches Werkzeug, das Ihnen hilft, verschiedene prozentbezogene Aufgaben schnell und genau zu lösen. Prozente werden im Alltag häufig verwendet – von der Berechnung von Rabatten und Trinkgeldern bis hin zum Verständnis von Finanzwachstum, Testergebnissen und statistischen Daten. Unser Rechner unterstützt fünf verschiedene Berechnungsmodi, um jede Prozentaufgabe zu bewältigen, die Ihnen begegnen könnte.",
+    "modesTitle": "Berechnungsmodi",
+    "modesIntro": "Unser Prozentrechner bietet fünf leistungsstarke Berechnungsmodi:",
+    "mode1": "Was sind X% von Y? – Finden Sie einen Prozentsatz jeder Zahl (z.B. 20% von 150 = 30)",
+    "mode2": "X ist wie viel % von Y? – Bestimmen Sie, wie viel Prozent eine Zahl von einer anderen ist (z.B. 30 ist 20% von 150)",
+    "mode3": "X ist Y% von was? – Finden Sie die ursprüngliche Zahl aus einem Prozentergebnis (z.B. 30 ist 20% von 150)",
+    "mode4": "Prozentuale Änderung – Berechnen Sie Zunahme oder Abnahme zwischen zwei Werten (z.B. 100 zu 125 = 25% Zunahme)",
+    "mode5": "Prozentuale Differenz – Finden Sie die relative Differenz zwischen zwei Werten unter Verwendung ihres Durchschnitts als Basis",
+    "benefitsTitle": "Warum unseren Prozentrechner verwenden?",
+    "benefit1": "Sofortige Ergebnisse – Erhalten Sie sofort genaue Antworten ohne manuelle Berechnungen",
+    "benefit2": "Mehrere Modi – Lösen Sie jede Art von Prozentaufgabe mit einem Werkzeug",
+    "benefit3": "Schritt-für-Schritt-Formeln – Sehen Sie die genaue verwendete Berechnungsmethode",
+    "benefit4": "Fehlervermeidung – Vermeiden Sie häufige Fehler bei Prozentberechnungen",
+    "benefit5": "Kostenlos und unbegrenzt – Nutzen Sie den Rechner so oft Sie möchten, kostenlos",
+    "howToUseTitle": "So verwenden Sie den Prozentrechner",
+    "howToUseStep1": "Wählen Sie den Berechnungsmodus, der zu Ihrer Aufgabe passt",
+    "howToUseStep2": "Geben Sie Ihre bekannten Werte in die Eingabefelder ein",
+    "howToUseStep3": "Sehen Sie das sofort angezeigte Ergebnis",
+    "howToUseStep4": "Überprüfen Sie die Formel und Erklärung zum Verständnis",
+    "howToUseStep5": "Verwenden Sie die Zurücksetzen-Schaltfläche für eine neue Berechnung",
+    "formulasTitle": "Prozentformeln",
+    "formula1Name": "Was sind X% von Y?",
+    "formula1": "(X ÷ 100) × Y = Ergebnis",
+    "formula1Example": "Beispiel: Was sind 25% von 200? (25 ÷ 100) × 200 = 50",
+    "formula2Name": "X ist wie viel % von Y?",
+    "formula2": "(X ÷ Y) × 100 = Prozentsatz",
+    "formula2Example": "Beispiel: 50 ist wie viel % von 200? (50 ÷ 200) × 100 = 25%",
+    "formula3Name": "X ist Y% von was?",
+    "formula3": "X ÷ (Y ÷ 100) = Ursprüngliche Zahl",
+    "formula3Example": "Beispiel: 50 ist 25% von was? 50 ÷ (25 ÷ 100) = 200",
+    "formula4Name": "Prozentuale Änderung",
+    "formula4": "((Neu - Alt) ÷ |Alt|) × 100 = % Änderung",
+    "formula4Example": "Beispiel: Von 100 zu 125: ((125 - 100) ÷ 100) × 100 = 25% Zunahme",
+    "formula5Name": "Prozentuale Differenz",
+    "formula5": "|X - Y| ÷ ((|X| + |Y|) ÷ 2) × 100 = % Differenz",
+    "formula5Example": "Beispiel: Zwischen 100 und 120: 20 ÷ 110 × 100 = 18,18%",
+    "tipsTitle": "Tipps für Prozentberechnungen",
+    "tip1": "Denken Sie daran, dass 'von' in der Mathematik normalerweise Multiplikation bedeutet",
+    "tip2": "Prozentuale Änderung kann negativ (Abnahme) oder positiv (Zunahme) sein",
+    "tip3": "Prozentuale Differenz ist immer positiv, da sie die absolute Differenz misst",
+    "tip4": "Um eine Dezimalzahl in einen Prozentsatz umzuwandeln, multiplizieren Sie mit 100",
+    "tip5": "Um einen Prozentsatz in eine Dezimalzahl umzuwandeln, dividieren Sie durch 100",
+    "faqTitle": "Häufig gestellte Fragen",
+    "faq1Question": "Wie berechne ich einen Prozentsatz einer Zahl?",
+    "faq1Answer": "Um X% von Y zu finden, multiplizieren Sie Y mit X und dividieren durch 100. Zum Beispiel: 20% von 150 = (150 × 20) ÷ 100 = 30. Dies ist wie das Finden eines Bruchteils der ganzen Zahl.",
+    "faq2Question": "Was ist der Unterschied zwischen prozentualer Änderung und prozentualer Differenz?",
+    "faq2Answer": "Prozentuale Änderung misst die relative Veränderung von einem bestimmten Wert zu einem anderen (hat eine Richtung: Zunahme oder Abnahme). Prozentuale Differenz misst, wie unterschiedlich zwei Werte im Vergleich zu ihrem Durchschnitt sind (keine Richtung, immer positiv).",
+    "faq3Question": "Wie berechne ich eine prozentuale Zunahme?",
+    "faq3Answer": "Subtrahieren Sie den ursprünglichen Wert vom neuen Wert, dividieren Sie durch den ursprünglichen Wert und multiplizieren Sie mit 100. Wenn das Ergebnis positiv ist, handelt es sich um eine Zunahme. Formel: ((Neu - Alt) ÷ Alt) × 100.",
+    "faq4Question": "Wie berechne ich eine prozentuale Abnahme?",
+    "faq4Answer": "Verwenden Sie dieselbe Formel wie für die prozentuale Zunahme. Wenn das Ergebnis negativ ist, handelt es sich um eine Abnahme. Der Absolutwert gibt Ihnen den Prozentsatz der Abnahme an. Zum Beispiel ist der Wechsel von 100 zu 80 eine Abnahme um 20%.",
+    "faq5Question": "Können Prozentsätze größer als 100% sein?",
+    "faq5Answer": "Ja! Ein Prozentsatz größer als 100% bedeutet, dass das Ergebnis größer ist als der ursprüngliche Bezugswert. Zum Beispiel sind 200% von 50 gleich 100, was das Doppelte der ursprünglichen Zahl ist.",
+    "faq6Question": "Was bedeutet 'Prozent'?",
+    "faq6Answer": "Das Wort 'Prozent' kommt vom lateinischen 'per centum' und bedeutet 'von hundert'. Ein Prozentsatz ist einfach eine Zahl, die als Bruchteil von 100 ausgedrückt wird. Also bedeutet 25%, 25 von 100, oder 25/100 = 0,25.",
+    "faq7Question": "Wie wandle ich zwischen Brüchen, Dezimalzahlen und Prozentsätzen um?",
+    "faq7Answer": "Um einen Bruch in einen Prozentsatz umzuwandeln: dividieren und mit 100 multiplizieren (1/4 = 0,25 × 100 = 25%). Um eine Dezimalzahl in einen Prozentsatz umzuwandeln: mit 100 multiplizieren (0,75 × 100 = 75%). Um einen Prozentsatz in eine Dezimalzahl umzuwandeln: durch 100 dividieren (60% ÷ 100 = 0,6).",
+    "faq8Question": "Warum wird die prozentuale Differenz mit dem Durchschnitt berechnet?",
+    "faq8Answer": "Die prozentuale Differenz verwendet den Durchschnitt zweier Werte als Bezugspunkt, da keiner der Werte als 'Ausgangspunkt' betrachtet wird. Dadurch ist sie symmetrisch – die prozentuale Differenz zwischen A und B ist dieselbe wie zwischen B und A."
   }
 }

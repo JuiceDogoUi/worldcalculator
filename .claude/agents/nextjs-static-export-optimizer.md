@@ -2,7 +2,7 @@
 name: nextjs-static-export-optimizer
 description: Next.js build and performance expert. Use proactively when build times are slow, bundle sizes are large, build errors occur, or when optimizing Core Web Vitals and static export configuration.
 tools: Read, Edit, Write, Glob, Grep, Bash, mcp__ide__getDiagnostics
-model: sonnet
+model: opus
 ---
 
 # Next.js Static Export Optimizer Agent

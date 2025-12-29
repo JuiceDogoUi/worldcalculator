@@ -1,49 +1,117 @@
 {
-  "title": "Percentage Calculator",
-  "description": "Calculate percentages quickly and easily. Find what percent one number is of another, calculate percentage increase/decrease, and more.",
+  "title": "Calculatrice de Pourcentage",
+  "description": "Calculez des pourcentages rapidement et facilement. Trouvez quel pourcentage représente un nombre par rapport à un autre, calculez l'augmentation ou la diminution en pourcentage, la variation en pourcentage et la différence en pourcentage entre deux valeurs.",
   "meta": {
-    "title": "Percentage Calculator - Free Online Percent Calculator",
-    "description": "Free online percentage calculator. Calculate what percent one number is of another, find percentage increase or decrease, and solve percentage problems instantly."
+    "title": "Calculatrice de Pourcentage - Calculateur de Pourcentage Gratuit en Ligne",
+    "description": "Calculatrice de pourcentage gratuite en ligne. Calculez quel pourcentage représente un nombre par rapport à un autre, trouvez l'augmentation ou la diminution en pourcentage, la variation en pourcentage et résolvez instantanément les problèmes de pourcentages.",
+    "keywords": "calculatrice pourcentage, calculateur pourcentage, variation pourcentage, différence pourcentage, calcul pourcentage, calculer pourcentage, pourcentage en ligne"
   },
   "modes": {
-    "whatIsXPercentOfY": "What is X% of Y?",
-    "xIsWhatPercentOfY": "X is what % of Y?",
-    "percentageChange": "Percentage Change"
+    "whatIsPercentOf": {
+      "label": "X% de Y",
+      "description": "Calculez combien représente un certain pourcentage d'un nombre. Par exemple, combien font 25% de 200 ?"
+    },
+    "isWhatPercentOf": {
+      "label": "X représente quel % de Y",
+      "description": "Trouvez quel pourcentage représente un nombre par rapport à un autre. Par exemple, 50 représente quel pourcentage de 200 ?"
+    },
+    "isPercentOfWhat": {
+      "label": "X est Y% de quoi",
+      "description": "Trouvez le nombre d'origine lorsque vous connaissez le résultat et le pourcentage. Par exemple, 50 représente 25% de quel nombre ?"
+    },
+    "percentChange": {
+      "label": "Variation en %",
+      "description": "Calculez la variation en pourcentage d'une valeur à une autre. Indique s'il s'agit d'une augmentation ou d'une diminution."
+    },
+    "percentDifference": {
+      "label": "Différence en %",
+      "description": "Calculez la différence en pourcentage entre deux valeurs, en utilisant leur moyenne comme point de référence."
+    }
   },
   "inputs": {
-    "percentage": "Percentage",
-    "number": "Number",
-    "fromValue": "From Value",
-    "toValue": "To Value"
+    "percentValue": "Pourcentage (%)",
+    "baseValue": "Nombre (valeur de base)",
+    "partValue": "Valeur partielle",
+    "wholeValue": "Valeur totale (total)",
+    "resultValue": "Valeur résultante",
+    "percentOfWhole": "Pourcentage (%)",
+    "initialValue": "Valeur initiale (de)",
+    "finalValue": "Valeur finale (à)",
+    "value1": "Première valeur",
+    "value2": "Deuxième valeur"
   },
-  "results": {
-    "result": "Result",
-    "percentageIs": "{value} is {percent}% of {total}",
-    "percentageOf": "{percent}% of {number} is {result}",
-    "percentageChange": "The change from {from} to {to} is {percent}%",
-    "increase": "Increase",
-    "decrease": "Decrease"
+  "result": "Résultat",
+  "formula": "Formule",
+  "explanation": "Explication",
+  "absoluteDifference": "Différence Absolue",
+  "increase": "Augmentation",
+  "decrease": "Diminution",
+  "noChange": "Aucun Changement",
+  "reset": "Réinitialiser",
+  "disclaimer": {
+    "text": "Cette calculatrice fournit des calculs mathématiques à des fins éducatives et informatives. Vérifiez toujours les calculs importants.",
+    "note": "Les résultats sont arrondis pour l'affichage mais les calculs utilisent la précision complète."
   },
-  "examples": {
-    "title": "Examples",
-    "example1": "What is 15% of 200? Answer: 30",
-    "example2": "25 is what percent of 50? Answer: 50%",
-    "example3": "Change from 80 to 100? Answer: 25% increase"
-  },
-  "howToUse": {
-    "title": "How to Use",
-    "step1": "Select the calculation mode you need",
-    "step2": "Enter your values in the input fields",
-    "step3": "The result calculates automatically",
-    "step4": "Copy the result or try another calculation"
-  },
-  "faq": {
-    "title": "Frequently Asked Questions",
-    "q1": "How do I calculate a percentage of a number?",
-    "a1": "To find X% of Y, multiply Y by X and divide by 100. For example, 20% of 150 = (150 × 20) ÷ 100 = 30.",
-    "q2": "How do I find what percent one number is of another?",
-    "a2": "Divide the first number by the second and multiply by 100. For example, 25 is what % of 50? (25 ÷ 50) × 100 = 50%.",
-    "q3": "How do I calculate percentage increase or decrease?",
-    "a3": "Subtract the old value from the new value, divide by the old value, and multiply by 100. A positive result is an increase, negative is a decrease."
+  "seo": {
+    "whatIsTitle": "Qu'est-ce qu'une Calculatrice de Pourcentage ?",
+    "whatIsContent": "Une calculatrice de pourcentage est un outil mathématique qui vous aide à résoudre rapidement et avec précision divers problèmes liés aux pourcentages. Les pourcentages sont largement utilisés dans la vie quotidienne : du calcul des remises et des pourboires à la compréhension de la croissance financière, des notes d'examen et des données statistiques. Notre calculatrice propose cinq modes de calcul différents pour gérer tous les problèmes de pourcentage que vous pourriez rencontrer.",
+    "modesTitle": "Modes de Calcul",
+    "modesIntro": "Notre calculatrice de pourcentage offre cinq modes de calcul puissants :",
+    "mode1": "Combien font X% de Y ? – Trouvez le pourcentage de n'importe quel nombre (ex : 20% de 150 = 30)",
+    "mode2": "X représente quel % de Y ? – Déterminez quel pourcentage représente un nombre par rapport à un autre (ex : 30 représente 20% de 150)",
+    "mode3": "X est Y% de quoi ? – Trouvez le nombre d'origine à partir d'un résultat en pourcentage (ex : 30 représente 20% de 150)",
+    "mode4": "Variation en Pourcentage – Calculez l'augmentation ou la diminution entre deux valeurs (ex : de 100 à 125 = 25% d'augmentation)",
+    "mode5": "Différence en Pourcentage – Trouvez la différence relative entre deux valeurs en utilisant leur moyenne comme base",
+    "benefitsTitle": "Pourquoi Utiliser Notre Calculatrice de Pourcentage ?",
+    "benefit1": "Résultats instantanés – Obtenez des réponses précises immédiatement sans calculs manuels",
+    "benefit2": "Modes multiples – Résolvez n'importe quel type de problème de pourcentage avec un seul outil",
+    "benefit3": "Formules détaillées – Visualisez la méthode de calcul exacte utilisée",
+    "benefit4": "Prévention des erreurs – Évitez les erreurs courantes dans les calculs de pourcentages",
+    "benefit5": "Gratuit et illimité – Utilisez autant de fois que nécessaire sans frais",
+    "howToUseTitle": "Comment Utiliser la Calculatrice de Pourcentage",
+    "howToUseStep1": "Sélectionnez le mode de calcul qui correspond à votre problème",
+    "howToUseStep2": "Saisissez vos valeurs connues dans les champs de saisie",
+    "howToUseStep3": "Consultez le résultat affiché instantanément",
+    "howToUseStep4": "Vérifiez la formule et l'explication pour mieux comprendre",
+    "howToUseStep5": "Utilisez le bouton Réinitialiser pour commencer un nouveau calcul",
+    "formulasTitle": "Formules de Pourcentage",
+    "formula1Name": "Combien font X% de Y ?",
+    "formula1": "(X ÷ 100) × Y = Résultat",
+    "formula1Example": "Exemple : Combien font 25% de 200 ? (25 ÷ 100) × 200 = 50",
+    "formula2Name": "X représente quel % de Y ?",
+    "formula2": "(X ÷ Y) × 100 = Pourcentage",
+    "formula2Example": "Exemple : 50 représente quel % de 200 ? (50 ÷ 200) × 100 = 25%",
+    "formula3Name": "X est Y% de quoi ?",
+    "formula3": "X ÷ (Y ÷ 100) = Nombre d'origine",
+    "formula3Example": "Exemple : 50 représente 25% de quel nombre ? 50 ÷ (25 ÷ 100) = 200",
+    "formula4Name": "Variation en Pourcentage",
+    "formula4": "((Nouveau - Ancien) ÷ |Ancien|) × 100 = Variation en %",
+    "formula4Example": "Exemple : De 100 à 125 : ((125 - 100) ÷ 100) × 100 = 25% d'augmentation",
+    "formula5Name": "Différence en Pourcentage",
+    "formula5": "|X - Y| ÷ ((|X| + |Y|) ÷ 2) × 100 = Différence en %",
+    "formula5Example": "Exemple : Entre 100 et 120 : 20 ÷ 110 × 100 = 18,18%",
+    "tipsTitle": "Conseils pour les Calculs de Pourcentage",
+    "tip1": "Rappelez-vous que 'de' en mathématiques signifie généralement multiplication",
+    "tip2": "La variation en pourcentage peut être négative (diminution) ou positive (augmentation)",
+    "tip3": "La différence en pourcentage est toujours positive car elle mesure la différence absolue",
+    "tip4": "Pour convertir un décimal en pourcentage, multipliez par 100",
+    "tip5": "Pour convertir un pourcentage en décimal, divisez par 100",
+    "faqTitle": "Questions Fréquemment Posées",
+    "faq1Question": "Comment calculer un pourcentage d'un nombre ?",
+    "faq1Answer": "Pour trouver X% de Y, multipliez Y par X et divisez par 100. Par exemple, 20% de 150 = (150 × 20) ÷ 100 = 30. C'est comme trouver une fraction du nombre total.",
+    "faq2Question": "Quelle est la différence entre la variation en pourcentage et la différence en pourcentage ?",
+    "faq2Answer": "La variation en pourcentage mesure le changement relatif d'une valeur spécifique à une autre (avec direction : augmentation ou diminution). La différence en pourcentage mesure à quel point deux valeurs sont différentes par rapport à leur moyenne (sans direction, toujours positive).",
+    "faq3Question": "Comment calculer une augmentation en pourcentage ?",
+    "faq3Answer": "Soustrayez la valeur d'origine de la nouvelle valeur, divisez par la valeur d'origine et multipliez par 100. Si le résultat est positif, c'est une augmentation. Formule : ((Nouveau - Ancien) ÷ Ancien) × 100.",
+    "faq4Question": "Comment calculer une diminution en pourcentage ?",
+    "faq4Answer": "Utilisez la même formule que pour l'augmentation en pourcentage. Si le résultat est négatif, c'est une diminution. La valeur absolue vous indique le pourcentage de diminution. Par exemple, passer de 100 à 80 représente une diminution de 20%.",
+    "faq5Question": "Les pourcentages peuvent-ils être supérieurs à 100% ?",
+    "faq5Answer": "Oui ! Un pourcentage supérieur à 100% signifie que le résultat est plus grand que la valeur de référence d'origine. Par exemple, 200% de 50 équivaut à 100, ce qui est le double du nombre d'origine.",
+    "faq6Question": "Que signifie « pour cent » ?",
+    "faq6Answer": "Le mot « pour cent » vient du latin « per centum » qui signifie « par cent ». Un pourcentage est simplement un nombre exprimé comme une fraction de 100. Ainsi, 25% signifie 25 sur 100, soit 25/100 = 0,25.",
+    "faq7Question": "Comment convertir entre fractions, décimaux et pourcentages ?",
+    "faq7Answer": "Pour convertir une fraction en pourcentage : divisez et multipliez par 100 (1/4 = 0,25 × 100 = 25%). Pour convertir un décimal en pourcentage : multipliez par 100 (0,75 × 100 = 75%). Pour convertir un pourcentage en décimal : divisez par 100 (60% ÷ 100 = 0,6).",
+    "faq8Question": "Pourquoi la différence en pourcentage est-elle calculée avec la moyenne ?",
+    "faq8Answer": "La différence en pourcentage utilise la moyenne des deux valeurs comme point de référence car aucune valeur n'est considérée comme le point de « départ ». Cela la rend symétrique : la différence en pourcentage entre A et B est la même qu'entre B et A."
   }
 }
