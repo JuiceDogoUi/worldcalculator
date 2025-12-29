@@ -1,0 +1,104 @@
+{
+  "title": "Calculadora de Objetivos de Poupança",
+  "description": "Planeie a sua estratégia de poupança para alcançar os seus objetivos financeiros. Calcule quanto poupar regularmente, quanto tempo levará, ou qual será o seu saldo final com juros compostos.",
+  "meta": {
+    "title": "Calculadora de Objetivos de Poupança - Planeador Gratuito",
+    "description": "Calculadora gratuita de objetivos de poupança. Calcule depósitos necessários, tempo até ao objetivo ou saldo final. Planeie a sua poupança com juros compostos para alcançar as suas metas.",
+    "keywords": "calculadora objetivos poupança, planeador poupança, calculadora metas financeiras, quanto poupar, meta poupança, calculadora financeira, poupança reforma"
+  },
+  "inputs": {
+    "savingsGoal": "Objetivo de Poupança",
+    "currentSavings": "Poupança Atual",
+    "annualRate": "Taxa de Juro Anual (%)",
+    "timeframe": "Período de Tempo (Anos)",
+    "depositAmount": "Valor do Depósito",
+    "depositFrequency": "Frequência de Depósito"
+  },
+  "modes": {
+    "label": "O que deseja calcular?",
+    "requiredDeposit": "Valor de Depósito Necessário",
+    "timeToGoal": "Tempo Necessário para Alcançar o Objetivo",
+    "finalBalance": "Saldo Final Após o Período"
+  },
+  "frequency": {
+    "weekly": "Semanal",
+    "biweekly": "Quinzenal (a cada 2 semanas)",
+    "monthly": "Mensal",
+    "quarterly": "Trimestral (a cada 3 meses)",
+    "annually": "Anual"
+  },
+  "results": {
+    "requiredDeposit": "Depósito {frequency} Necessário",
+    "timeToGoal": "Tempo para Alcançar o Objetivo",
+    "finalBalance": "Saldo Final",
+    "totalDeposits": "Total de Depósitos",
+    "totalInterest": "Juros Ganhos",
+    "currentSavings": "Poupança Atual",
+    "savingsGoal": "Objetivo de Poupança",
+    "years": "anos",
+    "months": "meses"
+  },
+  "actions": {
+    "reset": "Reiniciar",
+    "calculate": "Calcular",
+    "showBreakdown": "Mostrar detalhamento anual",
+    "hideBreakdown": "Ocultar detalhamento",
+    "fixErrors": "Por favor, corrija os erros acima para ver os resultados"
+  },
+  "table": {
+    "year": "Ano",
+    "startingBalance": "Saldo Inicial",
+    "deposits": "Depósitos",
+    "interestEarned": "Juros Ganhos",
+    "endingBalance": "Saldo Final"
+  },
+  "disclaimer": {
+    "text": "Esta calculadora fornece estimativas para fins educativos. Os resultados reais podem variar com base nas condições do mercado, taxas e impostos.",
+    "note": "Consulte um consultor financeiro para aconselhamento personalizado sobre poupança e investimento."
+  },
+  "seo": {
+    "whatIsTitle": "O Que é uma Calculadora de Objetivos de Poupança?",
+    "whatIsContent": "Uma calculadora de objetivos de poupança ajuda-o a planear como alcançar as suas metas financeiras, mostrando-lhe exatamente quanto poupar, quanto tempo levará, ou o que acumulará ao longo do tempo. Seja para poupar para a entrada de uma casa, fundo de emergência, férias ou reforma, esta ferramenta ajuda-o a criar um plano de poupança realista com cálculos de juros compostos.",
+    "howItWorksTitle": "Como Usar Esta Calculadora de Objetivos de Poupança",
+    "howItWorksIntro": "Siga estes passos para planear a sua estratégia de poupança:",
+    "howItWorksStep1": "Escolha o que deseja calcular: depósito necessário, tempo até ao objetivo ou saldo final",
+    "howItWorksStep2": "Introduza o seu objetivo de poupança e qualquer poupança atual que já tenha",
+    "howItWorksStep3": "Defina a taxa de juro anual esperada (conta poupança, investimento, etc.)",
+    "howItWorksStep4": "Selecione a sua frequência de depósito (semanal, mensal, etc.)",
+    "howItWorksStep5": "Introduza o valor conhecido (valor do depósito ou período de tempo) e calcule",
+    "howItWorksStepName1": "Escolher o Modo de Cálculo",
+    "howItWorksStepName2": "Introduzir Objetivo e Poupança Atual",
+    "howItWorksStepName3": "Definir a Taxa de Juro",
+    "howItWorksStepName4": "Selecionar Frequência de Depósito",
+    "howItWorksStepName5": "Calcular o Seu Plano",
+    "benefitsTitle": "Benefícios de Planear os Seus Objetivos de Poupança",
+    "benefit1": "Crie cronogramas realistas para compras importantes e objetivos de vida",
+    "benefit2": "Compreenda exatamente quanto precisa de poupar cada mês",
+    "benefit3": "Veja como os juros compostos aceleram o seu progresso",
+    "benefit4": "Compare diferentes estratégias e prazos de poupança",
+    "benefit5": "Mantenha-se motivado acompanhando o progresso em relação a metas específicas",
+    "tipsTitle": "Dicas para Alcançar os Seus Objetivos de Poupança",
+    "tip1": "Defina objetivos específicos e mensuráveis com valores e datas claros",
+    "tip2": "Automatize os seus depósitos de poupança para garantir consistência",
+    "tip3": "Comece com qualquer valor que possa - a consistência importa mais do que o tamanho",
+    "tip4": "Use contas de poupança de alto rendimento ou investimentos para maximizar juros",
+    "tip5": "Reveja e ajuste o seu plano trimestralmente conforme os seus rendimentos ou despesas mudam",
+    "faqTitle": "Perguntas Frequentes",
+    "faq1Question": "Quanto devo poupar cada mês?",
+    "faq1Answer": "Isto depende do seu objetivo, prazo e poupança atual. Os especialistas financeiros normalmente recomendam poupar 20% dos seus rendimentos, mas o valor correto varia conforme a pessoa. Use o modo 'Depósito Necessário' para calcular exatamente quanto precisa de poupar com base no seu objetivo e prazo específicos.",
+    "faq2Question": "Qual é uma taxa de juro realista para poupanças?",
+    "faq2Answer": "As contas de poupança de alto rendimento atualmente oferecem 2-4% TAEG, as contas tradicionais oferecem 0,1-1%, e as contas de investimento historicamente têm uma média de 7-10% anual (com maior risco). Escolha uma taxa conservadora para objetivos a curto prazo e pode usar taxas mais altas para objetivos de investimento a longo prazo.",
+    "faq3Question": "Devo poupar semanalmente, quinzenalmente ou mensalmente?",
+    "faq3Answer": "A melhor frequência corresponde ao seu calendário de rendimentos. Se é pago quinzenalmente, poupe quinzenalmente. Depósitos mais frequentes significam que os juros começam a compor mais cedo, mas a diferença é mínima. O fator mais importante é a consistência - escolha o que consegue manter.",
+    "faq4Question": "Como contabilizo a minha poupança atual?",
+    "faq4Answer": "Introduza a sua poupança atual no campo 'Poupança Atual'. A calculadora incluirá juros compostos sobre este valor mais os seus depósitos regulares. Mesmo pequenas poupanças existentes podem reduzir significativamente quanto precisa de depositar regularmente.",
+    "faq5Question": "O que fazer se não puder pagar o valor de depósito necessário?",
+    "faq5Answer": "Tem três opções: prolongar o seu prazo (use o modo 'Tempo até ao Objetivo' com um depósito menor), aumentar a sua taxa de retorno esperada (considere contas de investimento em vez de poupança), ou ajustar o seu valor objetivo. Pequenos aumentos no prazo podem reduzir dramaticamente os depósitos necessários.",
+    "faq6Question": "Como é que a frequência de depósito afeta o meu objetivo?",
+    "faq6Answer": "Depósitos mais frequentes (semanais vs. mensais) aceleram ligeiramente o alcance do objetivo porque o dinheiro começa a ganhar juros mais cedo. No entanto, a diferença é normalmente pequena - algumas semanas a meses. Escolha a frequência que corresponda aos seus rendimentos e seja mais fácil de manter.",
+    "faq7Question": "Devo incluir a inflação nos meus cálculos?",
+    "faq7Answer": "Para objetivos a longo prazo (5+ anos), sim. Se precisa de 50.000€ em 10 anos, a inflação pode significar que realmente precisa de 60.000€+ em euros futuros. Ou aumente o seu valor objetivo em 2-3% por ano, ou reduza a sua taxa de juro esperada pela taxa de inflação para obter retornos 'reais'.",
+    "faq8Question": "Posso usar isto para poupança de reforma?",
+    "faq8Answer": "Sim! Introduza o seu objetivo de reforma como a meta, poupanças atuais para a reforma, taxa de retorno esperada (6-8% para carteiras diversificadas), e anos até à reforma. A calculadora mostra as contribuições mensais necessárias. Lembre-se de incluir as contribuições do empregador e ajustar para inflação em prazos longos."
+  }
+}

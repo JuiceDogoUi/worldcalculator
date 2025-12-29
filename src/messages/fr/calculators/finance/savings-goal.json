@@ -1,0 +1,104 @@
+{
+  "title": "Calculateur d'Objectifs d'Épargne",
+  "description": "Planifiez votre stratégie d'épargne pour atteindre vos objectifs financiers. Calculez combien épargner régulièrement, combien de temps cela prendra, ou quel sera votre solde final avec les intérêts composés.",
+  "meta": {
+    "title": "Calculateur d'Objectifs d'Épargne - Planificateur Gratuit",
+    "description": "Calculateur gratuit d'objectifs d'épargne. Calculez les dépôts requis, le temps jusqu'à l'objectif ou le solde final. Planifiez votre épargne avec intérêts composés pour atteindre vos objectifs.",
+    "keywords": "calculateur objectifs épargne, planificateur épargne, calculateur objectifs financiers, combien épargner, objectif épargne, calculateur financier, épargne retraite"
+  },
+  "inputs": {
+    "savingsGoal": "Objectif d'Épargne",
+    "currentSavings": "Épargne Actuelle",
+    "annualRate": "Taux d'Intérêt Annuel (%)",
+    "timeframe": "Période (Années)",
+    "depositAmount": "Montant du Dépôt",
+    "depositFrequency": "Fréquence de Dépôt"
+  },
+  "modes": {
+    "label": "Que voulez-vous calculer ?",
+    "requiredDeposit": "Montant de Dépôt Requis",
+    "timeToGoal": "Temps Nécessaire pour Atteindre l'Objectif",
+    "finalBalance": "Solde Final Après la Période"
+  },
+  "frequency": {
+    "weekly": "Hebdomadaire",
+    "biweekly": "Bimensuel (toutes les 2 semaines)",
+    "monthly": "Mensuel",
+    "quarterly": "Trimestriel (tous les 3 mois)",
+    "annually": "Annuel"
+  },
+  "results": {
+    "requiredDeposit": "Dépôt {frequency} Requis",
+    "timeToGoal": "Temps pour Atteindre l'Objectif",
+    "finalBalance": "Solde Final",
+    "totalDeposits": "Total des Dépôts",
+    "totalInterest": "Intérêts Gagnés",
+    "currentSavings": "Épargne Actuelle",
+    "savingsGoal": "Objectif d'Épargne",
+    "years": "ans",
+    "months": "mois"
+  },
+  "actions": {
+    "reset": "Réinitialiser",
+    "calculate": "Calculer",
+    "showBreakdown": "Afficher le détail annuel",
+    "hideBreakdown": "Masquer le détail",
+    "fixErrors": "Veuillez corriger les erreurs ci-dessus pour voir les résultats"
+  },
+  "table": {
+    "year": "Année",
+    "startingBalance": "Solde Initial",
+    "deposits": "Dépôts",
+    "interestEarned": "Intérêts Gagnés",
+    "endingBalance": "Solde Final"
+  },
+  "disclaimer": {
+    "text": "Ce calculateur fournit des estimations à des fins éducatives. Les résultats réels peuvent varier en fonction des conditions du marché, des frais et des impôts.",
+    "note": "Consultez un conseiller financier pour des recommandations personnalisées sur l'épargne et l'investissement."
+  },
+  "seo": {
+    "whatIsTitle": "Qu'est-ce qu'un Calculateur d'Objectifs d'Épargne ?",
+    "whatIsContent": "Un calculateur d'objectifs d'épargne vous aide à planifier comment atteindre vos cibles financières en vous montrant exactement combien épargner, combien de temps cela prendra, ou ce que vous accumulerez au fil du temps. Que vous épargniez pour un acompte immobilier, un fonds d'urgence, des vacances ou la retraite, cet outil vous aide à créer un plan d'épargne réaliste avec des calculs d'intérêts composés.",
+    "howItWorksTitle": "Comment Utiliser ce Calculateur d'Objectifs d'Épargne",
+    "howItWorksIntro": "Suivez ces étapes pour planifier votre stratégie d'épargne :",
+    "howItWorksStep1": "Choisissez ce que vous voulez calculer : dépôt requis, temps jusqu'à l'objectif ou solde final",
+    "howItWorksStep2": "Entrez votre objectif d'épargne et toute épargne actuelle que vous avez déjà",
+    "howItWorksStep3": "Définissez le taux d'intérêt annuel attendu (compte d'épargne, investissement, etc.)",
+    "howItWorksStep4": "Sélectionnez votre fréquence de dépôt (hebdomadaire, mensuel, etc.)",
+    "howItWorksStep5": "Entrez la valeur connue (montant du dépôt ou période) et calculez",
+    "howItWorksStepName1": "Choisir le Mode de Calcul",
+    "howItWorksStepName2": "Entrer l'Objectif et l'Épargne Actuelle",
+    "howItWorksStepName3": "Définir le Taux d'Intérêt",
+    "howItWorksStepName4": "Sélectionner la Fréquence de Dépôt",
+    "howItWorksStepName5": "Calculer Votre Plan",
+    "benefitsTitle": "Avantages de Planifier Vos Objectifs d'Épargne",
+    "benefit1": "Créez des échéanciers réalistes pour les achats importants et les objectifs de vie",
+    "benefit2": "Comprenez exactement combien vous devez épargner chaque mois",
+    "benefit3": "Voyez comment les intérêts composés accélèrent votre progression",
+    "benefit4": "Comparez différentes stratégies et échéances d'épargne",
+    "benefit5": "Restez motivé en suivant la progression vers des cibles spécifiques",
+    "tipsTitle": "Conseils pour Atteindre Vos Objectifs d'Épargne",
+    "tip1": "Définissez des objectifs spécifiques et mesurables avec des montants et dates clairs",
+    "tip2": "Automatisez vos dépôts d'épargne pour assurer la régularité",
+    "tip3": "Commencez avec n'importe quel montant possible - la régularité compte plus que la taille",
+    "tip4": "Utilisez des comptes d'épargne à haut rendement ou des investissements pour maximiser les intérêts",
+    "tip5": "Révisez et ajustez votre plan trimestriellement selon l'évolution de vos revenus ou dépenses",
+    "faqTitle": "Questions Fréquentes",
+    "faq1Question": "Combien devrais-je épargner chaque mois ?",
+    "faq1Answer": "Cela dépend de votre objectif, échéancier et épargne actuelle. Les experts financiers recommandent généralement d'épargner 20% de vos revenus, mais le montant correct varie selon la personne. Utilisez le mode 'Dépôt Requis' pour calculer exactement combien vous devez épargner selon votre objectif et échéancier spécifiques.",
+    "faq2Question": "Quel est un taux d'intérêt réaliste pour l'épargne ?",
+    "faq2Answer": "Les comptes d'épargne à haut rendement offrent actuellement 2-4% de TAEG, les comptes traditionnels offrent 0.1-1%, et les comptes d'investissement affichent historiquement une moyenne de 7-10% annuel (avec plus de risque). Choisissez un taux conservateur pour les objectifs à court terme et vous pouvez utiliser des taux plus élevés pour les objectifs d'investissement à long terme.",
+    "faq3Question": "Devrais-je épargner hebdomadairement, bimensuellement ou mensuellement ?",
+    "faq3Answer": "La meilleure fréquence correspond à votre calendrier de revenus. Si vous êtes payé bimensuellement, épargnez bimensuellement. Des dépôts plus fréquents signifient que les intérêts commencent à se composer plus tôt, mais la différence est minime. Le facteur le plus important est la régularité - choisissez ce que vous pouvez maintenir.",
+    "faq4Question": "Comment comptabiliser mon épargne actuelle ?",
+    "faq4Answer": "Entrez votre épargne actuelle dans le champ 'Épargne Actuelle'. Le calculateur prendra en compte les intérêts composés sur ce montant plus vos dépôts réguliers. Même de petites épargnes existantes peuvent réduire significativement combien vous devez déposer régulièrement.",
+    "faq5Question": "Que faire si je ne peux pas me permettre le montant de dépôt requis ?",
+    "faq5Answer": "Vous avez trois options : prolonger votre échéancier (utilisez le mode 'Temps jusqu'à l'Objectif' avec un dépôt inférieur), augmenter votre taux de rendement attendu (envisagez des comptes d'investissement plutôt que d'épargne), ou ajuster votre montant objectif. De petites augmentations de l'échéancier peuvent réduire considérablement les dépôts requis.",
+    "faq6Question": "Comment la fréquence de dépôt affecte-t-elle mon objectif ?",
+    "faq6Answer": "Des dépôts plus fréquents (hebdomadaires vs. mensuels) accélèrent légèrement l'atteinte de l'objectif car l'argent commence à gagner des intérêts plus tôt. Cependant, la différence est généralement faible - quelques semaines à mois. Choisissez la fréquence qui correspond à vos revenus et est la plus facile à maintenir.",
+    "faq7Question": "Devrais-je inclure l'inflation dans mes calculs ?",
+    "faq7Answer": "Pour les objectifs à long terme (5+ ans), oui. Si vous avez besoin de 50 000€ dans 10 ans, l'inflation pourrait signifier que vous aurez réellement besoin de 60 000€+ en euros futurs. Soit augmentez votre montant objectif de 2-3% par an, soit réduisez votre taux d'intérêt attendu par le taux d'inflation pour obtenir des rendements 'réels'.",
+    "faq8Question": "Puis-je utiliser ceci pour l'épargne retraite ?",
+    "faq8Answer": "Oui ! Entrez votre objectif de retraite comme cible, l'épargne retraite actuelle, le taux de rendement attendu (6-8% pour les portefeuilles diversifiés), et les années jusqu'à la retraite. Le calculateur affiche les contributions mensuelles requises. N'oubliez pas de prendre en compte les cotisations de l'employeur et d'ajuster pour l'inflation sur les longues périodes."
+  }
+}

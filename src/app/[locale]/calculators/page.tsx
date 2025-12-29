@@ -65,11 +65,13 @@ export default async function CalculatorsPage({ params }: CalculatorsPageProps) 
   const tFinanceLoan = await getTranslations({ locale, namespace: 'calculators.finance.loan' })
   const tFinanceMortgage = await getTranslations({ locale, namespace: 'calculators.finance.mortgage' })
   const tFinanceCompoundInterest = await getTranslations({ locale, namespace: 'calculators.finance.compound-interest' })
+  const tFinanceSavingsGoal = await getTranslations({ locale, namespace: 'calculators.finance.savings-goal' })
   const tMathPercentage = await getTranslations({ locale, namespace: 'calculators.math.percentage' })
 
   calculatorNames['loan'] = tFinanceLoan('title')
   calculatorNames['mortgage'] = tFinanceMortgage('title')
   calculatorNames['compound-interest'] = tFinanceCompoundInterest('title')
+  calculatorNames['savings-goal'] = tFinanceSavingsGoal('title')
   calculatorNames['percentage'] = tMathPercentage('title')
 
   return (

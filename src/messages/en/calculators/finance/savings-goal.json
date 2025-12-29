@@ -1,0 +1,104 @@
+{
+  "title": "Savings Goal Calculator",
+  "description": "Plan your savings strategy to reach your financial goals. Calculate how much to save regularly, how long it will take, or what your final balance will be with compound interest.",
+  "meta": {
+    "title": "Savings Goal Calculator - Free Goal Planning Tool",
+    "description": "Free savings goal calculator. Calculate required deposits, time to goal, or final balance. Plan your savings strategy with compound interest to reach your financial targets.",
+    "keywords": "savings goal calculator, savings planner, goal planning calculator, how much to save, savings target, financial goal calculator, retirement savings"
+  },
+  "inputs": {
+    "savingsGoal": "Savings Goal",
+    "currentSavings": "Current Savings",
+    "annualRate": "Annual Interest Rate (%)",
+    "timeframe": "Time Period (Years)",
+    "depositAmount": "Deposit Amount",
+    "depositFrequency": "Deposit Frequency"
+  },
+  "modes": {
+    "label": "What do you want to calculate?",
+    "requiredDeposit": "Required Deposit Amount",
+    "timeToGoal": "Time Needed to Reach Goal",
+    "finalBalance": "Final Balance After Time Period"
+  },
+  "frequency": {
+    "weekly": "Weekly",
+    "biweekly": "Bi-weekly (every 2 weeks)",
+    "monthly": "Monthly",
+    "quarterly": "Quarterly (every 3 months)",
+    "annually": "Annually"
+  },
+  "results": {
+    "requiredDeposit": "Required {frequency} Deposit",
+    "timeToGoal": "Time to Reach Goal",
+    "finalBalance": "Final Balance",
+    "totalDeposits": "Total Deposits",
+    "totalInterest": "Interest Earned",
+    "currentSavings": "Current Savings",
+    "savingsGoal": "Savings Goal",
+    "years": "years",
+    "months": "months"
+  },
+  "actions": {
+    "reset": "Reset",
+    "calculate": "Calculate",
+    "showBreakdown": "Show Year-by-Year Breakdown",
+    "hideBreakdown": "Hide Breakdown",
+    "fixErrors": "Please fix the errors above to see results"
+  },
+  "table": {
+    "year": "Year",
+    "startingBalance": "Starting Balance",
+    "deposits": "Deposits",
+    "interestEarned": "Interest Earned",
+    "endingBalance": "Ending Balance"
+  },
+  "disclaimer": {
+    "text": "This calculator provides estimates for educational purposes. Actual results may vary based on market conditions, fees, and taxes.",
+    "note": "Consult a financial advisor for personalized savings and investment advice."
+  },
+  "seo": {
+    "whatIsTitle": "What is a Savings Goal Calculator?",
+    "whatIsContent": "A savings goal calculator helps you plan how to reach your financial targets by showing you exactly how much to save, how long it will take, or what you'll accumulate over time. Whether you're saving for a house down payment, emergency fund, vacation, or retirement, this tool helps you create a realistic savings plan with compound interest calculations.",
+    "howItWorksTitle": "How to Use This Savings Goal Calculator",
+    "howItWorksIntro": "Follow these steps to plan your savings strategy:",
+    "howItWorksStep1": "Choose what you want to calculate: required deposit, time to goal, or final balance",
+    "howItWorksStep2": "Enter your savings goal amount and any current savings you already have",
+    "howItWorksStep3": "Set the expected annual interest rate (savings account, investment, etc.)",
+    "howItWorksStep4": "Select your deposit frequency (weekly, monthly, etc.)",
+    "howItWorksStep5": "Enter the known value (deposit amount or time period) and calculate",
+    "howItWorksStepName1": "Choose Calculation Mode",
+    "howItWorksStepName2": "Enter Goal and Current Savings",
+    "howItWorksStepName3": "Set Interest Rate",
+    "howItWorksStepName4": "Select Deposit Frequency",
+    "howItWorksStepName5": "Calculate Your Plan",
+    "benefitsTitle": "Benefits of Planning Your Savings Goals",
+    "benefit1": "Create realistic timelines for major purchases and life goals",
+    "benefit2": "Understand exactly how much you need to save each month",
+    "benefit3": "See how compound interest accelerates your progress",
+    "benefit4": "Compare different saving strategies and timeframes",
+    "benefit5": "Stay motivated by tracking progress toward specific targets",
+    "tipsTitle": "Tips for Reaching Your Savings Goals",
+    "tip1": "Set specific, measurable goals with clear target amounts and dates",
+    "tip2": "Automate your savings deposits to ensure consistency",
+    "tip3": "Start with any amount you can afford - consistency matters more than size",
+    "tip4": "Use high-yield savings accounts or investments to maximize interest",
+    "tip5": "Review and adjust your plan quarterly as your income or expenses change",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Question": "How much should I save each month?",
+    "faq1Answer": "This depends on your goal, timeline, and current savings. Financial experts typically recommend saving 20% of your income, but the right amount varies by person. Use the 'Required Deposit' mode to calculate exactly how much you need to save based on your specific goal and timeframe.",
+    "faq2Question": "What's a realistic interest rate for savings?",
+    "faq2Answer": "High-yield savings accounts currently offer 4-5% APY, traditional savings accounts offer 0.5-1%, and investment accounts historically average 7-10% annually (with higher risk). Choose a conservative rate for short-term goals and can use higher rates for long-term investment goals.",
+    "faq3Question": "Should I save weekly, biweekly, or monthly?",
+    "faq3Answer": "The best frequency matches your income schedule. If you're paid biweekly, save biweekly. More frequent deposits mean interest starts compounding sooner, but the difference is minimal. The most important factor is consistency - choose what you can stick with.",
+    "faq4Question": "How do I account for current savings?",
+    "faq4Answer": "Enter your current savings in the 'Current Savings' field. The calculator will factor in compound interest on this amount plus your regular deposits. Even small existing savings can significantly reduce how much you need to deposit regularly.",
+    "faq5Question": "What if I can't afford the required deposit amount?",
+    "faq5Answer": "You have three options: extend your timeline (use 'Time to Goal' mode with a lower deposit), increase your expected return rate (consider investment accounts instead of savings), or adjust your goal amount. Small increases in timeframe can dramatically reduce required deposits.",
+    "faq6Question": "How does deposit frequency affect my goal?",
+    "faq6Answer": "More frequent deposits (weekly vs. monthly) slightly accelerate goal achievement because money starts earning interest sooner. However, the difference is usually small - a few weeks to months. Choose the frequency that matches your income and is easiest to maintain.",
+    "faq7Question": "Should I include inflation in my calculations?",
+    "faq7Answer": "For long-term goals (5+ years), yes. If you need $50,000 in 10 years, inflation might mean you actually need $60,000+ in future dollars. Either increase your goal amount by 2-3% per year, or reduce your expected interest rate by the inflation rate to get 'real' returns.",
+    "faq8Question": "Can I use this for retirement savings?",
+    "faq8Answer": "Yes! Enter your retirement target as the goal, current retirement savings, expected return rate (6-8% for diversified portfolios), and years until retirement. The calculator shows required monthly contributions. Remember to factor in employer matches and adjust for inflation on long timeframes."
+  }
+}

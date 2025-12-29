@@ -1,0 +1,104 @@
+{
+  "title": "Calculadora de Objetivos de Ahorro",
+  "description": "Planifica tu estrategia de ahorro para alcanzar tus metas financieras. Calcula cuánto ahorrar regularmente, cuánto tiempo te llevará, o cuál será tu saldo final con interés compuesto.",
+  "meta": {
+    "title": "Calculadora de Objetivos de Ahorro - Planificador Gratuito",
+    "description": "Calculadora gratuita de objetivos de ahorro. Calcula depósitos requeridos, tiempo hasta el objetivo o saldo final. Planifica tu ahorro con interés compuesto para alcanzar tus metas.",
+    "keywords": "calculadora objetivos ahorro, planificador ahorro, calculadora metas financieras, cuanto ahorrar, meta ahorro, calculadora financiera, ahorro jubilación"
+  },
+  "inputs": {
+    "savingsGoal": "Objetivo de Ahorro",
+    "currentSavings": "Ahorro Actual",
+    "annualRate": "Tasa de Interés Anual (%)",
+    "timeframe": "Período de Tiempo (Años)",
+    "depositAmount": "Cantidad del Depósito",
+    "depositFrequency": "Frecuencia de Depósito"
+  },
+  "modes": {
+    "label": "¿Qué quieres calcular?",
+    "requiredDeposit": "Cantidad de Depósito Necesaria",
+    "timeToGoal": "Tiempo Necesario para Alcanzar el Objetivo",
+    "finalBalance": "Saldo Final Después del Período"
+  },
+  "frequency": {
+    "weekly": "Semanal",
+    "biweekly": "Quincenal (cada 2 semanas)",
+    "monthly": "Mensual",
+    "quarterly": "Trimestral (cada 3 meses)",
+    "annually": "Anual"
+  },
+  "results": {
+    "requiredDeposit": "Depósito {frequency} Requerido",
+    "timeToGoal": "Tiempo para Alcanzar el Objetivo",
+    "finalBalance": "Saldo Final",
+    "totalDeposits": "Total Depositado",
+    "totalInterest": "Intereses Ganados",
+    "currentSavings": "Ahorro Actual",
+    "savingsGoal": "Objetivo de Ahorro",
+    "years": "años",
+    "months": "meses"
+  },
+  "actions": {
+    "reset": "Reiniciar",
+    "calculate": "Calcular",
+    "showBreakdown": "Mostrar desglose anual",
+    "hideBreakdown": "Ocultar desglose",
+    "fixErrors": "Por favor, corrija los errores anteriores para ver los resultados"
+  },
+  "table": {
+    "year": "Año",
+    "startingBalance": "Saldo Inicial",
+    "deposits": "Depósitos",
+    "interestEarned": "Intereses Ganados",
+    "endingBalance": "Saldo Final"
+  },
+  "disclaimer": {
+    "text": "Esta calculadora proporciona estimaciones con fines educativos. Los resultados reales pueden variar según las condiciones del mercado, comisiones e impuestos.",
+    "note": "Consulta a un asesor financiero para obtener recomendaciones personalizadas sobre ahorro e inversión."
+  },
+  "seo": {
+    "whatIsTitle": "¿Qué es una Calculadora de Objetivos de Ahorro?",
+    "whatIsContent": "Una calculadora de objetivos de ahorro te ayuda a planificar cómo alcanzar tus metas financieras mostrándote exactamente cuánto ahorrar, cuánto tiempo te llevará, o qué acumularás con el tiempo. Ya sea que estés ahorrando para la entrada de una vivienda, fondo de emergencia, vacaciones o jubilación, esta herramienta te ayuda a crear un plan de ahorro realista con cálculos de interés compuesto.",
+    "howItWorksTitle": "Cómo Usar Esta Calculadora de Objetivos de Ahorro",
+    "howItWorksIntro": "Sigue estos pasos para planificar tu estrategia de ahorro:",
+    "howItWorksStep1": "Elige qué quieres calcular: depósito requerido, tiempo hasta el objetivo o saldo final",
+    "howItWorksStep2": "Introduce tu objetivo de ahorro y cualquier ahorro actual que ya tengas",
+    "howItWorksStep3": "Establece la tasa de interés anual esperada (cuenta de ahorro, inversión, etc.)",
+    "howItWorksStep4": "Selecciona tu frecuencia de depósito (semanal, mensual, etc.)",
+    "howItWorksStep5": "Introduce el valor conocido (cantidad del depósito o período de tiempo) y calcula",
+    "howItWorksStepName1": "Elige el Modo de Cálculo",
+    "howItWorksStepName2": "Introduce Objetivo y Ahorro Actual",
+    "howItWorksStepName3": "Establece la Tasa de Interés",
+    "howItWorksStepName4": "Selecciona Frecuencia de Depósito",
+    "howItWorksStepName5": "Calcula Tu Plan",
+    "benefitsTitle": "Beneficios de Planificar Tus Objetivos de Ahorro",
+    "benefit1": "Crea cronogramas realistas para compras importantes y metas vitales",
+    "benefit2": "Comprende exactamente cuánto necesitas ahorrar cada mes",
+    "benefit3": "Observa cómo el interés compuesto acelera tu progreso",
+    "benefit4": "Compara diferentes estrategias y plazos de ahorro",
+    "benefit5": "Mantén la motivación siguiendo el progreso hacia objetivos específicos",
+    "tipsTitle": "Consejos para Alcanzar Tus Objetivos de Ahorro",
+    "tip1": "Establece objetivos específicos y medibles con cantidades y fechas claras",
+    "tip2": "Automatiza tus depósitos de ahorro para garantizar la constancia",
+    "tip3": "Comienza con cualquier cantidad que puedas - la constancia importa más que el tamaño",
+    "tip4": "Usa cuentas de ahorro de alto rendimiento o inversiones para maximizar intereses",
+    "tip5": "Revisa y ajusta tu plan trimestralmente según cambien tus ingresos o gastos",
+    "faqTitle": "Preguntas Frecuentes",
+    "faq1Question": "¿Cuánto debería ahorrar cada mes?",
+    "faq1Answer": "Esto depende de tu objetivo, plazo y ahorro actual. Los expertos financieros suelen recomendar ahorrar el 20% de tus ingresos, pero la cantidad correcta varía según la persona. Usa el modo 'Depósito Requerido' para calcular exactamente cuánto necesitas ahorrar según tu objetivo y plazo específicos.",
+    "faq2Question": "¿Qué tasa de interés es realista para ahorros?",
+    "faq2Answer": "Las cuentas de ahorro de alto rendimiento actualmente ofrecen 2-4% TAE, las cuentas tradicionales ofrecen 0.1-1%, y las cuentas de inversión históricamente promedian 7-10% anual (con mayor riesgo). Elige una tasa conservadora para objetivos a corto plazo y puedes usar tasas más altas para objetivos de inversión a largo plazo.",
+    "faq3Question": "¿Debería ahorrar semanalmente, quincenalmente o mensualmente?",
+    "faq3Answer": "La mejor frecuencia coincide con tu calendario de ingresos. Si te pagan quincenalmente, ahorra quincenalmente. Los depósitos más frecuentes significan que el interés comienza a acumularse antes, pero la diferencia es mínima. El factor más importante es la constancia - elige lo que puedas mantener.",
+    "faq4Question": "¿Cómo contabilizo mi ahorro actual?",
+    "faq4Answer": "Introduce tu ahorro actual en el campo 'Ahorro Actual'. La calculadora incluirá el interés compuesto sobre esta cantidad más tus depósitos regulares. Incluso pequeños ahorros existentes pueden reducir significativamente cuánto necesitas depositar regularmente.",
+    "faq5Question": "¿Qué hago si no puedo permitirme la cantidad de depósito requerida?",
+    "faq5Answer": "Tienes tres opciones: ampliar tu plazo (usa el modo 'Tiempo hasta el Objetivo' con un depósito menor), aumentar tu tasa de retorno esperada (considera cuentas de inversión en lugar de ahorro), o ajustar tu cantidad objetivo. Pequeños aumentos en el plazo pueden reducir dramáticamente los depósitos requeridos.",
+    "faq6Question": "¿Cómo afecta la frecuencia de depósito a mi objetivo?",
+    "faq6Answer": "Los depósitos más frecuentes (semanales vs. mensuales) aceleran ligeramente el logro del objetivo porque el dinero comienza a ganar intereses antes. Sin embargo, la diferencia suele ser pequeña - unas pocas semanas a meses. Elige la frecuencia que coincida con tus ingresos y sea más fácil de mantener.",
+    "faq7Question": "¿Debería incluir la inflación en mis cálculos?",
+    "faq7Answer": "Para objetivos a largo plazo (5+ años), sí. Si necesitas 50.000€ en 10 años, la inflación podría significar que realmente necesitas 60.000€+ en euros futuros. O aumenta tu cantidad objetivo un 2-3% por año, o reduce tu tasa de interés esperada por la tasa de inflación para obtener retornos 'reales'.",
+    "faq8Question": "¿Puedo usar esto para ahorros de jubilación?",
+    "faq8Answer": "¡Sí! Introduce tu objetivo de jubilación como la meta, ahorros actuales para la jubilación, tasa de retorno esperada (6-8% para carteras diversificadas), y años hasta la jubilación. La calculadora muestra las contribuciones mensuales requeridas. Recuerda incluir las aportaciones del empleador y ajustar por inflación en plazos largos."
+  }
+}

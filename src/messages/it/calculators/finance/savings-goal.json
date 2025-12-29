@@ -1,0 +1,104 @@
+{
+  "title": "Calcolatore Obiettivi di Risparmio",
+  "description": "Pianifica la tua strategia di risparmio per raggiungere i tuoi obiettivi finanziari. Calcola quanto risparmiare regolarmente, quanto tempo ci vorrà, o quale sarà il tuo saldo finale con interesse composto.",
+  "meta": {
+    "title": "Calcolatore Obiettivi di Risparmio - Pianificatore Gratuito",
+    "description": "Calcolatore gratuito obiettivi di risparmio. Calcola depositi richiesti, tempo per l'obiettivo o saldo finale. Pianifica il tuo risparmio con interesse composto per raggiungere i tuoi obiettivi.",
+    "keywords": "calcolatore obiettivi risparmio, pianificatore risparmio, calcolatore obiettivi finanziari, quanto risparmiare, obiettivo risparmio, calcolatore finanziario, risparmio pensione"
+  },
+  "inputs": {
+    "savingsGoal": "Obiettivo di Risparmio",
+    "currentSavings": "Risparmio Attuale",
+    "annualRate": "Tasso di Interesse Annuo (%)",
+    "timeframe": "Periodo di Tempo (Anni)",
+    "depositAmount": "Importo del Deposito",
+    "depositFrequency": "Frequenza di Deposito"
+  },
+  "modes": {
+    "label": "Cosa vuoi calcolare?",
+    "requiredDeposit": "Importo di Deposito Richiesto",
+    "timeToGoal": "Tempo Necessario per Raggiungere l'Obiettivo",
+    "finalBalance": "Saldo Finale Dopo il Periodo"
+  },
+  "frequency": {
+    "weekly": "Settimanale",
+    "biweekly": "Bisettimanale (ogni 2 settimane)",
+    "monthly": "Mensile",
+    "quarterly": "Trimestrale (ogni 3 mesi)",
+    "annually": "Annuale"
+  },
+  "results": {
+    "requiredDeposit": "Deposito {frequency} Richiesto",
+    "timeToGoal": "Tempo per Raggiungere l'Obiettivo",
+    "finalBalance": "Saldo Finale",
+    "totalDeposits": "Totale Depositi",
+    "totalInterest": "Interessi Guadagnati",
+    "currentSavings": "Risparmio Attuale",
+    "savingsGoal": "Obiettivo di Risparmio",
+    "years": "anni",
+    "months": "mesi"
+  },
+  "actions": {
+    "reset": "Reimposta",
+    "calculate": "Calcola",
+    "showBreakdown": "Mostra dettaglio annuale",
+    "hideBreakdown": "Nascondi dettaglio",
+    "fixErrors": "Per favore, correggi gli errori sopra per vedere i risultati"
+  },
+  "table": {
+    "year": "Anno",
+    "startingBalance": "Saldo Iniziale",
+    "deposits": "Depositi",
+    "interestEarned": "Interessi Guadagnati",
+    "endingBalance": "Saldo Finale"
+  },
+  "disclaimer": {
+    "text": "Questo calcolatore fornisce stime a scopo educativo. I risultati effettivi possono variare in base alle condizioni di mercato, commissioni e tasse.",
+    "note": "Consulta un consulente finanziario per consigli personalizzati su risparmio e investimenti."
+  },
+  "seo": {
+    "whatIsTitle": "Cos'è un Calcolatore di Obiettivi di Risparmio?",
+    "whatIsContent": "Un calcolatore di obiettivi di risparmio ti aiuta a pianificare come raggiungere i tuoi traguardi finanziari mostrandoti esattamente quanto risparmiare, quanto tempo ci vorrà, o cosa accumulerai nel tempo. Che tu stia risparmiando per l'acconto di una casa, fondo di emergenza, vacanze o pensione, questo strumento ti aiuta a creare un piano di risparmio realistico con calcoli di interesse composto.",
+    "howItWorksTitle": "Come Usare Questo Calcolatore di Obiettivi di Risparmio",
+    "howItWorksIntro": "Segui questi passaggi per pianificare la tua strategia di risparmio:",
+    "howItWorksStep1": "Scegli cosa vuoi calcolare: deposito richiesto, tempo per l'obiettivo o saldo finale",
+    "howItWorksStep2": "Inserisci il tuo obiettivo di risparmio e qualsiasi risparmio attuale che hai già",
+    "howItWorksStep3": "Imposta il tasso di interesse annuo atteso (conto risparmio, investimento, ecc.)",
+    "howItWorksStep4": "Seleziona la tua frequenza di deposito (settimanale, mensile, ecc.)",
+    "howItWorksStep5": "Inserisci il valore noto (importo del deposito o periodo di tempo) e calcola",
+    "howItWorksStepName1": "Scegliere la Modalità di Calcolo",
+    "howItWorksStepName2": "Inserire Obiettivo e Risparmio Attuale",
+    "howItWorksStepName3": "Impostare il Tasso di Interesse",
+    "howItWorksStepName4": "Selezionare Frequenza di Deposito",
+    "howItWorksStepName5": "Calcolare il Tuo Piano",
+    "benefitsTitle": "Vantaggi della Pianificazione degli Obiettivi di Risparmio",
+    "benefit1": "Crea cronologie realistiche per acquisti importanti e obiettivi di vita",
+    "benefit2": "Comprendi esattamente quanto devi risparmiare ogni mese",
+    "benefit3": "Vedi come l'interesse composto accelera i tuoi progressi",
+    "benefit4": "Confronta diverse strategie e tempistiche di risparmio",
+    "benefit5": "Rimani motivato monitorando i progressi verso obiettivi specifici",
+    "tipsTitle": "Consigli per Raggiungere i Tuoi Obiettivi di Risparmio",
+    "tip1": "Stabilisci obiettivi specifici e misurabili con importi e date chiare",
+    "tip2": "Automatizza i tuoi depositi di risparmio per garantire coerenza",
+    "tip3": "Inizia con qualsiasi importo tu possa permetterti - la coerenza conta più della dimensione",
+    "tip4": "Usa conti di risparmio ad alto rendimento o investimenti per massimizzare gli interessi",
+    "tip5": "Rivedi e aggiusta il tuo piano trimestralmente man mano che il tuo reddito o le spese cambiano",
+    "faqTitle": "Domande Frequenti",
+    "faq1Question": "Quanto dovrei risparmiare ogni mese?",
+    "faq1Answer": "Questo dipende dal tuo obiettivo, tempistica e risparmio attuale. Gli esperti finanziari tipicamente raccomandano di risparmiare il 20% del tuo reddito, ma l'importo giusto varia per persona. Usa la modalità 'Deposito Richiesto' per calcolare esattamente quanto devi risparmiare in base al tuo obiettivo e tempistica specifici.",
+    "faq2Question": "Qual è un tasso di interesse realistico per i risparmi?",
+    "faq2Answer": "I conti di risparmio ad alto rendimento attualmente offrono 2-4% TAEG, i conti tradizionali offrono 0,1-1%, e i conti di investimento storicamente hanno una media del 7-10% annuo (con rischio più alto). Scegli un tasso conservativo per obiettivi a breve termine e puoi usare tassi più alti per obiettivi di investimento a lungo termine.",
+    "faq3Question": "Dovrei risparmiare settimanalmente, bisettimanalmente o mensilmente?",
+    "faq3Answer": "La frequenza migliore corrisponde al tuo calendario di reddito. Se sei pagato bisettimanalmente, risparmia bisettimanalmente. Depositi più frequenti significano che gli interessi iniziano a maturare prima, ma la differenza è minima. Il fattore più importante è la coerenza - scegli ciò che puoi mantenere.",
+    "faq4Question": "Come contabilizzo il mio risparmio attuale?",
+    "faq4Answer": "Inserisci il tuo risparmio attuale nel campo 'Risparmio Attuale'. Il calcolatore terrà conto dell'interesse composto su questo importo più i tuoi depositi regolari. Anche piccoli risparmi esistenti possono ridurre significativamente quanto devi depositare regolarmente.",
+    "faq5Question": "Cosa fare se non posso permettermi l'importo di deposito richiesto?",
+    "faq5Answer": "Hai tre opzioni: estendere la tua tempistica (usa la modalità 'Tempo per l'Obiettivo' con un deposito inferiore), aumentare il tuo tasso di rendimento atteso (considera conti di investimento invece di risparmio), o aggiustare il tuo importo obiettivo. Piccoli aumenti nella tempistica possono ridurre drasticamente i depositi richiesti.",
+    "faq6Question": "Come influisce la frequenza di deposito sul mio obiettivo?",
+    "faq6Answer": "Depositi più frequenti (settimanali vs. mensili) accelerano leggermente il raggiungimento dell'obiettivo perché il denaro inizia a guadagnare interessi prima. Tuttavia, la differenza è solitamente piccola - alcune settimane a mesi. Scegli la frequenza che corrisponde al tuo reddito ed è più facile da mantenere.",
+    "faq7Question": "Dovrei includere l'inflazione nei miei calcoli?",
+    "faq7Answer": "Per obiettivi a lungo termine (5+ anni), sì. Se hai bisogno di 50.000€ in 10 anni, l'inflazione potrebbe significare che hai effettivamente bisogno di 60.000€+ in euro futuri. O aumenta il tuo importo obiettivo del 2-3% all'anno, o riduci il tuo tasso di interesse atteso del tasso di inflazione per ottenere rendimenti 'reali'.",
+    "faq8Question": "Posso usare questo per i risparmi pensionistici?",
+    "faq8Answer": "Sì! Inserisci il tuo obiettivo pensionistico come traguardo, risparmi pensionistici attuali, tasso di rendimento atteso (6-8% per portafogli diversificati), e anni fino alla pensione. Il calcolatore mostra i contributi mensili richiesti. Ricorda di includere i contributi del datore di lavoro e aggiustare per l'inflazione su tempistiche lunghe."
+  }
+}

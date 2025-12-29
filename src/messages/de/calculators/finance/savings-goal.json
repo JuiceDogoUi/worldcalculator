@@ -1,0 +1,104 @@
+{
+  "title": "Sparziel-Rechner",
+  "description": "Planen Sie Ihre Sparstrategie, um Ihre finanziellen Ziele zu erreichen. Berechnen Sie, wie viel Sie regelmäßig sparen müssen, wie lange es dauert oder wie hoch Ihr Endsaldo mit Zinseszins sein wird.",
+  "meta": {
+    "title": "Sparziel-Rechner - Kostenloser Sparplaner",
+    "description": "Kostenloser Sparziel-Rechner. Berechnen Sie erforderliche Einzahlungen, Zeit bis zum Ziel oder Endsaldo. Planen Sie Ihr Sparen mit Zinseszins, um Ihre finanziellen Ziele zu erreichen.",
+    "keywords": "sparziel rechner, sparplaner, finanzielle ziele rechner, wie viel sparen, sparziel, finanzrechner, altersvorsorge sparen"
+  },
+  "inputs": {
+    "savingsGoal": "Sparziel",
+    "currentSavings": "Aktuelles Erspartes",
+    "annualRate": "Jährlicher Zinssatz (%)",
+    "timeframe": "Zeitraum (Jahre)",
+    "depositAmount": "Einzahlungsbetrag",
+    "depositFrequency": "Einzahlungshäufigkeit"
+  },
+  "modes": {
+    "label": "Was möchten Sie berechnen?",
+    "requiredDeposit": "Erforderlicher Einzahlungsbetrag",
+    "timeToGoal": "Benötigte Zeit bis zum Ziel",
+    "finalBalance": "Endsaldo nach Zeitraum"
+  },
+  "frequency": {
+    "weekly": "Wöchentlich",
+    "biweekly": "Zweiwöchentlich (alle 2 Wochen)",
+    "monthly": "Monatlich",
+    "quarterly": "Vierteljährlich (alle 3 Monate)",
+    "annually": "Jährlich"
+  },
+  "results": {
+    "requiredDeposit": "Erforderliche {frequency} Einzahlung",
+    "timeToGoal": "Zeit bis zum Ziel",
+    "finalBalance": "Endsaldo",
+    "totalDeposits": "Gesamte Einzahlungen",
+    "totalInterest": "Verdiente Zinsen",
+    "currentSavings": "Aktuelles Erspartes",
+    "savingsGoal": "Sparziel",
+    "years": "Jahre",
+    "months": "Monate"
+  },
+  "actions": {
+    "reset": "Zurücksetzen",
+    "calculate": "Berechnen",
+    "showBreakdown": "Jährliche Aufschlüsselung anzeigen",
+    "hideBreakdown": "Aufschlüsselung ausblenden",
+    "fixErrors": "Bitte korrigieren Sie die obigen Fehler, um die Ergebnisse zu sehen"
+  },
+  "table": {
+    "year": "Jahr",
+    "startingBalance": "Anfangssaldo",
+    "deposits": "Einzahlungen",
+    "interestEarned": "Verdiente Zinsen",
+    "endingBalance": "Endsaldo"
+  },
+  "disclaimer": {
+    "text": "Dieser Rechner liefert Schätzungen zu Bildungszwecken. Tatsächliche Ergebnisse können je nach Marktbedingungen, Gebühren und Steuern variieren.",
+    "note": "Konsultieren Sie einen Finanzberater für personalisierte Spar- und Anlageberatung."
+  },
+  "seo": {
+    "whatIsTitle": "Was ist ein Sparziel-Rechner?",
+    "whatIsContent": "Ein Sparziel-Rechner hilft Ihnen zu planen, wie Sie Ihre finanziellen Ziele erreichen, indem er Ihnen genau zeigt, wie viel Sie sparen müssen, wie lange es dauert oder was Sie im Laufe der Zeit ansammeln werden. Ob Sie für eine Immobilienanzahlung, einen Notfallfonds, Urlaub oder den Ruhestand sparen – dieses Tool hilft Ihnen, einen realistischen Sparplan mit Zinseszinsberechnungen zu erstellen.",
+    "howItWorksTitle": "So Verwenden Sie Diesen Sparziel-Rechner",
+    "howItWorksIntro": "Folgen Sie diesen Schritten, um Ihre Sparstrategie zu planen:",
+    "howItWorksStep1": "Wählen Sie, was Sie berechnen möchten: erforderliche Einzahlung, Zeit bis zum Ziel oder Endsaldo",
+    "howItWorksStep2": "Geben Sie Ihr Sparziel und bereits vorhandenes Erspartes ein",
+    "howItWorksStep3": "Legen Sie den erwarteten jährlichen Zinssatz fest (Sparkonto, Anlage usw.)",
+    "howItWorksStep4": "Wählen Sie Ihre Einzahlungshäufigkeit (wöchentlich, monatlich usw.)",
+    "howItWorksStep5": "Geben Sie den bekannten Wert ein (Einzahlungsbetrag oder Zeitraum) und berechnen Sie",
+    "howItWorksStepName1": "Berechnungsmodus Wählen",
+    "howItWorksStepName2": "Ziel und Aktuelles Erspartes Eingeben",
+    "howItWorksStepName3": "Zinssatz Festlegen",
+    "howItWorksStepName4": "Einzahlungshäufigkeit Wählen",
+    "howItWorksStepName5": "Ihren Plan Berechnen",
+    "benefitsTitle": "Vorteile der Planung Ihrer Sparziele",
+    "benefit1": "Erstellen Sie realistische Zeitpläne für größere Anschaffungen und Lebensziele",
+    "benefit2": "Verstehen Sie genau, wie viel Sie jeden Monat sparen müssen",
+    "benefit3": "Sehen Sie, wie Zinseszins Ihren Fortschritt beschleunigt",
+    "benefit4": "Vergleichen Sie verschiedene Sparstrategien und Zeiträume",
+    "benefit5": "Bleiben Sie motiviert, indem Sie den Fortschritt zu spezifischen Zielen verfolgen",
+    "tipsTitle": "Tipps zum Erreichen Ihrer Sparziele",
+    "tip1": "Setzen Sie spezifische, messbare Ziele mit klaren Zielbeträgen und Terminen",
+    "tip2": "Automatisieren Sie Ihre Spareinzahlungen, um Beständigkeit zu gewährleisten",
+    "tip3": "Beginnen Sie mit jedem Betrag, den Sie sich leisten können - Beständigkeit zählt mehr als Größe",
+    "tip4": "Nutzen Sie hochverzinsliche Sparkonten oder Anlagen, um Zinsen zu maximieren",
+    "tip5": "Überprüfen und passen Sie Ihren Plan vierteljährlich an, wenn sich Ihr Einkommen oder Ihre Ausgaben ändern",
+    "faqTitle": "Häufig Gestellte Fragen",
+    "faq1Question": "Wie viel sollte ich jeden Monat sparen?",
+    "faq1Answer": "Dies hängt von Ihrem Ziel, Zeitplan und aktuellem Erspartem ab. Finanzexperten empfehlen in der Regel, 20% Ihres Einkommens zu sparen, aber der richtige Betrag variiert je nach Person. Verwenden Sie den Modus 'Erforderliche Einzahlung', um genau zu berechnen, wie viel Sie basierend auf Ihrem spezifischen Ziel und Zeitrahmen sparen müssen.",
+    "faq2Question": "Was ist ein realistischer Zinssatz für Ersparnisse?",
+    "faq2Answer": "Hochverzinsliche Sparkonten bieten derzeit 2-4% effektiven Jahreszins, traditionelle Sparkonten bieten 0,1-1%, und Anlagekonten erzielen historisch durchschnittlich 7-10% jährlich (mit höherem Risiko). Wählen Sie einen konservativen Satz für kurzfristige Ziele und können höhere Sätze für langfristige Anlageziele verwenden.",
+    "faq3Question": "Sollte ich wöchentlich, zweiwöchentlich oder monatlich sparen?",
+    "faq3Answer": "Die beste Häufigkeit passt zu Ihrem Einkommensplan. Wenn Sie zweiwöchentlich bezahlt werden, sparen Sie zweiwöchentlich. Häufigere Einzahlungen bedeuten, dass Zinsen früher anfangen zu wirken, aber der Unterschied ist minimal. Der wichtigste Faktor ist Beständigkeit - wählen Sie, was Sie durchhalten können.",
+    "faq4Question": "Wie berücksichtige ich mein aktuelles Erspartes?",
+    "faq4Answer": "Geben Sie Ihr aktuelles Erspartes im Feld 'Aktuelles Erspartes' ein. Der Rechner berücksichtigt Zinseszins auf diesen Betrag plus Ihre regelmäßigen Einzahlungen. Selbst kleine bestehende Ersparnisse können erheblich reduzieren, wie viel Sie regelmäßig einzahlen müssen.",
+    "faq5Question": "Was kann ich tun, wenn ich mir den erforderlichen Einzahlungsbetrag nicht leisten kann?",
+    "faq5Answer": "Sie haben drei Optionen: verlängern Sie Ihren Zeitrahmen (verwenden Sie den Modus 'Zeit bis zum Ziel' mit einer niedrigeren Einzahlung), erhöhen Sie Ihre erwartete Rendite (erwägen Sie Anlagekonten statt Sparen), oder passen Sie Ihren Zielbetrag an. Kleine Erhöhungen des Zeitrahmens können die erforderlichen Einzahlungen dramatisch reduzieren.",
+    "faq6Question": "Wie wirkt sich die Einzahlungshäufigkeit auf mein Ziel aus?",
+    "faq6Answer": "Häufigere Einzahlungen (wöchentlich vs. monatlich) beschleunigen das Erreichen des Ziels leicht, da Geld früher Zinsen verdient. Der Unterschied ist jedoch normalerweise gering - einige Wochen bis Monate. Wählen Sie die Häufigkeit, die zu Ihrem Einkommen passt und am einfachsten beizubehalten ist.",
+    "faq7Question": "Sollte ich Inflation in meine Berechnungen einbeziehen?",
+    "faq7Answer": "Für langfristige Ziele (5+ Jahre), ja. Wenn Sie in 10 Jahren 50.000€ benötigen, könnte Inflation bedeuten, dass Sie tatsächlich 60.000€+ in zukünftigen Euro benötigen. Entweder erhöhen Sie Ihren Zielbetrag um 2-3% pro Jahr, oder reduzieren Sie Ihren erwarteten Zinssatz um die Inflationsrate, um 'reale' Renditen zu erhalten.",
+    "faq8Question": "Kann ich dies für Altersvorsorge-Ersparnisse verwenden?",
+    "faq8Answer": "Ja! Geben Sie Ihr Rentenziel als Ziel ein, aktuelles Altersvorsorge-Erspartes, erwartete Rendite (6-8% für diversifizierte Portfolios) und Jahre bis zur Rente. Der Rechner zeigt die erforderlichen monatlichen Beiträge. Denken Sie daran, Arbeitgeberbeiträge einzubeziehen und für Inflation bei langen Zeiträumen anzupassen."
+  }
+}
