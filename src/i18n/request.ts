@@ -6,7 +6,7 @@ import { routing } from './routing'
  * Structure: { category: [calculatorSlugs] }
  */
 const CALCULATOR_REGISTRY: Record<string, string[]> = {
-  finance: ['loan', 'mortgage'],
+  finance: ['loan', 'mortgage', 'compound-interest'],
   math: ['percentage'],
   health: [],
   conversion: [],

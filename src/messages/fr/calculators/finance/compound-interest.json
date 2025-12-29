@@ -1,0 +1,120 @@
+{
+  "title": "Calculateur d'Intérêts Composés",
+  "description": "Calculez la croissance de votre épargne et de vos investissements au fil du temps avec les intérêts composés. Découvrez la puissance de la capitalisation avec des versements réguliers et différentes fréquences de composition.",
+  "meta": {
+    "title": "Calculateur d'Intérêts Composés - Simulateur de Croissance d'Investissement Gratuit",
+    "description": "Calculateur d'intérêts composés gratuit. Calculez la croissance de vos investissements, visualisez comment votre épargne se capitalise avec des versements réguliers et suivez votre enrichissement.",
+    "keywords": "calculateur intérêts composés, calculateur investissement, simulateur épargne, formule intérêts composés, calculateur TEG, calculateur rendement, croissance investissement"
+  },
+  "inputs": {
+    "principal": "Capital Initial",
+    "annualRate": "Taux d'Intérêt Annuel (%)",
+    "years": "Période (Années)",
+    "compoundingFrequency": "Fréquence de Capitalisation",
+    "contributionAmount": "Montant des Versements",
+    "contributionFrequency": "Fréquence des Versements"
+  },
+  "compounding": {
+    "annually": "Annuelle (1x/an)",
+    "semiannually": "Semestrielle (2x/an)",
+    "quarterly": "Trimestrielle (4x/an)",
+    "monthly": "Mensuelle (12x/an)",
+    "daily": "Quotidienne (365x/an)"
+  },
+  "contributions": {
+    "none": "Aucun versement",
+    "monthly": "Mensuel",
+    "quarterly": "Trimestriel",
+    "annually": "Annuel"
+  },
+  "results": {
+    "finalBalance": "Solde Final",
+    "totalContributions": "Total Investi",
+    "totalInterest": "Intérêts Gagnés",
+    "effectiveRate": "Taux Effectif Global (TEG)",
+    "interestOnPrincipal": "Intérêts sur Capital Initial",
+    "principal": "Capital Initial"
+  },
+  "actions": {
+    "reset": "Réinitialiser",
+    "showBreakdown": "Afficher le Détail Année par Année",
+    "hideBreakdown": "Masquer le Détail"
+  },
+  "table": {
+    "year": "Année",
+    "startingBalance": "Solde Initial",
+    "contributions": "Versements",
+    "interestEarned": "Intérêts Gagnés",
+    "endingBalance": "Solde Final"
+  },
+  "advanced": {
+    "regularContributions": "Versements Réguliers"
+  },
+  "disclaimer": {
+    "text": "Ce calculateur fournit des estimations à titre éducatif. Les rendements réels peuvent varier selon les conditions de marché, les frais et la fiscalité.",
+    "note": "Les performances passées ne garantissent pas les résultats futurs. Consultez un conseiller financier pour un conseil personnalisé."
+  },
+  "seo": {
+    "whatIsTitle": "Qu'est-ce que l'Intérêt Composé ?",
+    "whatIsContent": "L'intérêt composé est l'intérêt calculé sur le capital initial et sur tous les intérêts accumulés précédemment. Contrairement à l'intérêt simple, calculé uniquement sur le capital, l'intérêt composé croît de manière exponentielle. Ce concept puissant est souvent appelé la 'huitième merveille du monde' car il peut multiplier considérablement votre patrimoine sur de longues périodes.",
+    "howItWorksTitle": "Comment Utiliser ce Calculateur",
+    "howItWorksIntro": "Suivez ces étapes simples pour calculer vos intérêts composés :",
+    "howItWorksStep1": "Saisissez le montant de votre investissement initial (capital)",
+    "howItWorksStep2": "Indiquez le taux d'intérêt annuel que vous espérez obtenir",
+    "howItWorksStep3": "Choisissez la durée de votre placement (période)",
+    "howItWorksStep4": "Sélectionnez la fréquence de capitalisation (mensuelle est la plus courante)",
+    "howItWorksStep5": "Ajoutez optionnellement des versements réguliers pour accélérer la croissance",
+    "howItWorksStepName1": "Saisir le Capital Initial",
+    "howItWorksStepName2": "Définir le Taux d'Intérêt",
+    "howItWorksStepName3": "Choisir la Période",
+    "howItWorksStepName4": "Sélectionner la Fréquence de Capitalisation",
+    "howItWorksStepName5": "Ajouter des Versements Réguliers",
+    "formulaTitle": "Formules des Intérêts Composés",
+    "formulaBasic": "Intérêt Composé de Base",
+    "formulaBasicDesc": "Cette formule calcule la valeur future d'un investissement avec intérêts composés, où les intérêts sont ajoutés au capital à intervalles réguliers.",
+    "formulaWithContributions": "Avec Versements Réguliers",
+    "formulaWithContributionsDesc": "Cette formule étendue inclut les versements périodiques réguliers (comme les dépôts mensuels), qui accélèrent considérablement l'enrichissement.",
+    "variablesTitle": "Variables de la Formule",
+    "variableA": "Montant final (valeur future)",
+    "variableP": "Capital (investissement initial)",
+    "variableR": "Taux d'intérêt annuel (en décimal)",
+    "variableN": "Périodes de capitalisation par an",
+    "variableT": "Durée en années",
+    "variablePMT": "Montant du versement régulier",
+    "compoundingTitle": "Fréquence de Capitalisation Expliquée",
+    "compoundingIntro": "Plus la fréquence de capitalisation est élevée, plus vous gagnez. Voici comment les différentes fréquences se comparent :",
+    "compoundingDaily": "Intérêts calculés chaque jour. Offre les meilleurs rendements, mais la différence avec la capitalisation mensuelle est minime.",
+    "compoundingMonthly": "Intérêts calculés 12 fois par an. La plus courante pour les comptes d'épargne et les investissements.",
+    "compoundingQuarterly": "Intérêts calculés 4 fois par an. Courante pour les obligations et certains produits d'épargne.",
+    "compoundingAnnually": "Intérêts calculés une fois par an. La plus simple mais offre le rendement le plus faible comparé aux fréquences plus élevées.",
+    "benefitsTitle": "Avantages de Comprendre les Intérêts Composés",
+    "benefit1": "Planifiez votre retraite avec des projections précises",
+    "benefit2": "Comparez les options d'investissement avec différentes fréquences de capitalisation",
+    "benefit3": "Comprenez comment les versements réguliers accélèrent l'enrichissement",
+    "benefit4": "Prenez des décisions éclairées sur les comptes d'épargne et les investissements",
+    "benefit5": "Visualisez la puissance de commencer à investir tôt",
+    "tipsTitle": "Conseils pour Maximiser les Intérêts Composés",
+    "tip1": "Commencez à investir le plus tôt possible - le temps est votre meilleur allié",
+    "tip2": "Effectuez des versements réguliers, même de petits montants s'accumulent considérablement",
+    "tip3": "Choisissez des comptes avec des fréquences de capitalisation élevées quand c'est possible",
+    "tip4": "Réinvestissez les dividendes et les intérêts pour maintenir la croissance composée",
+    "tip5": "Soyez patient - les intérêts composés fonctionnent mieux sur de longues périodes",
+    "faqTitle": "Questions Fréquentes",
+    "faq1Question": "Quelle est la différence entre intérêt simple et intérêt composé ?",
+    "faq1Answer": "L'intérêt simple est calculé uniquement sur le capital initial, tandis que l'intérêt composé est calculé sur le capital et les intérêts accumulés. Par exemple, 1 000 € à 10 % d'intérêt simple rapporte 100 € par an. Avec l'intérêt composé, la deuxième année génère des intérêts sur 1 100 €, pas seulement sur 1 000 €.",
+    "faq2Question": "Quelle fréquence de capitalisation choisir pour de meilleurs résultats ?",
+    "faq2Answer": "Une capitalisation plus fréquente génère des rendements plus élevés. La capitalisation quotidienne offre les meilleurs résultats, suivie de la mensuelle, trimestrielle et annuelle. Cependant, la différence entre quotidienne et mensuelle est généralement faible (moins de 0,5 % par an sur la plupart des taux).",
+    "faq3Question": "Qu'est-ce que le TEG et en quoi diffère-t-il du taux nominal ?",
+    "faq3Answer": "Le TEG (Taux Effectif Global) inclut l'effet de la capitalisation, montrant votre rendement annuel réel. Le taux nominal est le taux d'intérêt simple sans capitalisation. Le TEG est toujours égal ou supérieur au taux nominal pour le même taux de base.",
+    "faq4Question": "Comment fonctionne la règle de 72 ?",
+    "faq4Answer": "La règle de 72 est une méthode rapide pour estimer combien de temps il faut pour doubler votre argent. Divisez 72 par votre taux d'intérêt pour obtenir le nombre d'années approximatif. Par exemple, à 8 % d'intérêt, votre argent double en environ 72 ÷ 8 = 9 ans.",
+    "faq5Question": "Pourquoi les versements réguliers sont-ils si importants ?",
+    "faq5Answer": "Les versements réguliers créent un effet boule de neige. Chaque versement commence immédiatement à générer des intérêts composés, et avec le temps, les versements cumulés et leurs intérêts peuvent dépasser la croissance du capital initial seul.",
+    "faq6Question": "Quel taux de rendement réaliste espérer ?",
+    "faq6Answer": "Les rendements historiques des marchés boursiers sont en moyenne de 7 à 10 % par an (avant inflation). Les comptes d'épargne offrent généralement 0,5 à 5 % selon les conditions économiques. Les obligations se situent généralement entre ces fourchettes. Tenez toujours compte des frais et de la fiscalité dans vos projections.",
+    "faq7Question": "Dois-je tenir compte de l'inflation ?",
+    "faq7Answer": "Oui, l'inflation réduit le pouvoir d'achat au fil du temps. Un rendement de 7 % avec 3 % d'inflation donne un rendement 'réel' d'environ 4 %. Pour une planification à long terme, utilisez des rendements ajustés à l'inflation (réels) pour des projections plus précises.",
+    "faq8Question": "Comment utiliser ce calculateur pour planifier ma retraite ?",
+    "faq8Answer": "Saisissez votre épargne actuelle comme capital, votre taux de rendement annuel attendu, le nombre d'années jusqu'à la retraite et vos versements mensuels prévus. Le résultat montre votre épargne-retraite projetée. Ajustez les variables pour voir comment différents scénarios affectent votre objectif."
+  }
+}

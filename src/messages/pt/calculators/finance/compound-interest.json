@@ -1,0 +1,120 @@
+{
+  "title": "Calculadora de Juros Compostos",
+  "description": "Calcule como as suas poupanças e investimentos crescem ao longo do tempo com juros compostos. Veja o poder da capitalização com contribuições regulares e diferentes frequências de capitalização.",
+  "meta": {
+    "title": "Calculadora de Juros Compostos - Calculadora Grátis de Crescimento de Investimentos",
+    "description": "Calculadora de juros compostos grátis. Calcule o crescimento do investimento, veja como as suas poupanças capitalizam ao longo do tempo com contribuições regulares e visualize a construção da sua riqueza.",
+    "keywords": "calculadora de juros compostos, calculadora de investimentos, calculadora de poupança, fórmula de juros compostos, calculadora de juros, TAEG, crescimento de investimentos, capitalização"
+  },
+  "inputs": {
+    "principal": "Investimento Inicial",
+    "annualRate": "Taxa de Juro Anual (%)",
+    "years": "Período de Tempo (Anos)",
+    "compoundingFrequency": "Frequência de Capitalização",
+    "contributionAmount": "Valor da Contribuição",
+    "contributionFrequency": "Frequência de Contribuição"
+  },
+  "compounding": {
+    "annually": "Anualmente (1x/ano)",
+    "semiannually": "Semestralmente (2x/ano)",
+    "quarterly": "Trimestralmente (4x/ano)",
+    "monthly": "Mensalmente (12x/ano)",
+    "daily": "Diariamente (365x/ano)"
+  },
+  "contributions": {
+    "none": "Sem contribuições",
+    "monthly": "Mensalmente",
+    "quarterly": "Trimestralmente",
+    "annually": "Anualmente"
+  },
+  "results": {
+    "finalBalance": "Saldo Final",
+    "totalContributions": "Total Investido",
+    "totalInterest": "Juros Ganhos",
+    "effectiveRate": "Taxa Anual Efetiva (TAEG)",
+    "interestOnPrincipal": "Juros sobre o Capital Inicial",
+    "principal": "Investimento Inicial"
+  },
+  "actions": {
+    "reset": "Limpar",
+    "showBreakdown": "Mostrar Detalhamento Ano a Ano",
+    "hideBreakdown": "Ocultar Detalhamento"
+  },
+  "table": {
+    "year": "Ano",
+    "startingBalance": "Saldo Inicial",
+    "contributions": "Contribuições",
+    "interestEarned": "Juros Ganhos",
+    "endingBalance": "Saldo Final"
+  },
+  "advanced": {
+    "regularContributions": "Contribuições Regulares"
+  },
+  "disclaimer": {
+    "text": "Esta calculadora fornece estimativas para fins educacionais. Os retornos de investimento reais podem variar com base nas condições de mercado, comissões e impostos.",
+    "note": "O desempenho passado não garante resultados futuros. Consulte um consultor financeiro para aconselhamento personalizado."
+  },
+  "seo": {
+    "whatIsTitle": "O que são Juros Compostos?",
+    "whatIsContent": "Juros compostos são juros calculados sobre o capital inicial e sobre todos os juros acumulados anteriormente. Ao contrário dos juros simples, que são calculados apenas sobre o capital, os juros compostos crescem exponencialmente ao longo do tempo. Este conceito poderoso é frequentemente chamado de 'oitava maravilha do mundo' porque pode multiplicar significativamente a sua riqueza ao longo de longos períodos.",
+    "howItWorksTitle": "Como Usar Esta Calculadora",
+    "howItWorksIntro": "Siga estes passos simples para calcular os seus juros compostos:",
+    "howItWorksStep1": "Insira o valor do seu investimento inicial (capital)",
+    "howItWorksStep2": "Defina a taxa de juro anual que espera obter",
+    "howItWorksStep3": "Escolha durante quanto tempo planeia investir (período de tempo)",
+    "howItWorksStep4": "Selecione com que frequência os juros capitalizam (mensal é o mais comum)",
+    "howItWorksStep5": "Opcionalmente, adicione contribuições regulares para ver um crescimento acelerado",
+    "howItWorksStepName1": "Inserir Investimento Inicial",
+    "howItWorksStepName2": "Definir Taxa de Juro",
+    "howItWorksStepName3": "Escolher Período de Tempo",
+    "howItWorksStepName4": "Selecionar Frequência de Capitalização",
+    "howItWorksStepName5": "Adicionar Contribuições Regulares",
+    "formulaTitle": "Fórmulas de Juros Compostos",
+    "formulaBasic": "Juros Compostos Básicos",
+    "formulaBasicDesc": "Esta fórmula calcula o valor futuro de um investimento com juros compostos, onde os juros são adicionados ao capital em intervalos regulares.",
+    "formulaWithContributions": "Com Contribuições Regulares",
+    "formulaWithContributionsDesc": "Esta fórmula estendida inclui contribuições periódicas regulares (como depósitos mensais), que aceleram significativamente a construção de riqueza.",
+    "variablesTitle": "Variáveis da Fórmula",
+    "variableA": "Valor final (valor futuro)",
+    "variableP": "Capital (investimento inicial)",
+    "variableR": "Taxa de juro anual (em decimal)",
+    "variableN": "Períodos de capitalização por ano",
+    "variableT": "Tempo em anos",
+    "variablePMT": "Valor da contribuição regular",
+    "compoundingTitle": "Frequência de Capitalização Explicada",
+    "compoundingIntro": "Quanto mais frequentemente os juros capitalizam, mais ganha. Veja como as diferentes frequências se comparam:",
+    "compoundingDaily": "Juros calculados todos os dias. Oferece os retornos mais elevados, mas a diferença em relação à mensal é mínima.",
+    "compoundingMonthly": "Juros calculados 12 vezes por ano. Mais comum para contas poupança e investimentos.",
+    "compoundingQuarterly": "Juros calculados 4 vezes por ano. Comum para obrigações e alguns produtos de poupança.",
+    "compoundingAnnually": "Juros calculados uma vez por ano. Mais simples, mas rende menos em comparação com capitalizações mais frequentes.",
+    "benefitsTitle": "Benefícios de Compreender os Juros Compostos",
+    "benefit1": "Planear as suas poupanças para a reforma com projeções precisas",
+    "benefit2": "Comparar opções de investimento com diferentes frequências de capitalização",
+    "benefit3": "Compreender como as contribuições regulares aceleram a construção de riqueza",
+    "benefit4": "Tomar decisões informadas sobre contas poupança e investimentos",
+    "benefit5": "Visualizar o poder de começar a investir cedo",
+    "tipsTitle": "Dicas para Maximizar os Juros Compostos",
+    "tip1": "Comece a investir o mais cedo possível - o tempo é o seu maior aliado",
+    "tip2": "Faça contribuições regulares, mesmo pequenos valores acumulam significativamente",
+    "tip3": "Escolha contas com frequências de capitalização mais elevadas quando possível",
+    "tip4": "Reinvista dividendos e juros para manter o crescimento composto",
+    "tip5": "Seja paciente - os juros compostos funcionam melhor ao longo de longos períodos",
+    "faqTitle": "Perguntas Frequentes",
+    "faq1Question": "Qual é a diferença entre juros simples e juros compostos?",
+    "faq1Answer": "Os juros simples são calculados apenas sobre o capital original, enquanto os juros compostos são calculados sobre o capital e os juros acumulados. Por exemplo, 1.000€ a 10% de juros simples rende 100€ por ano. Com juros compostos, o segundo ano rende juros sobre 1.100€, não apenas sobre 1.000€.",
+    "faq2Question": "Com que frequência devem capitalizar os juros para melhores resultados?",
+    "faq2Answer": "Capitalizações mais frequentes geram retornos mais elevados. A capitalização diária dá os melhores resultados, seguida da mensal, trimestral e anual. No entanto, a diferença entre capitalização diária e mensal é tipicamente pequena (menos de 0,5% por ano na maioria das taxas).",
+    "faq3Question": "O que é TAEG e como difere de TAN?",
+    "faq3Answer": "TAEG (Taxa Anual Efetiva Global) inclui o efeito da capitalização, mostrando o seu retorno anual real. TAN (Taxa Anual Nominal) é a taxa de juro simples sem capitalização. A TAEG é sempre igual ou superior à TAN para a mesma taxa nominal.",
+    "faq4Question": "Como funciona a Regra de 72?",
+    "faq4Answer": "A Regra de 72 é uma forma rápida de estimar quanto tempo leva para duplicar o seu dinheiro. Divida 72 pela sua taxa de juro para obter os anos aproximados. Por exemplo, com juros de 8%, o seu dinheiro duplica em aproximadamente 72 ÷ 8 = 9 anos.",
+    "faq5Question": "Porque é que as contribuições regulares são tão importantes?",
+    "faq5Answer": "As contribuições regulares criam um efeito bola de neve. Cada contribuição começa a gerar juros compostos imediatamente e, ao longo do tempo, as contribuições acumuladas e os seus juros podem exceder o crescimento apenas do capital inicial.",
+    "faq6Question": "Qual é uma taxa de retorno realista a esperar?",
+    "faq6Answer": "Os retornos históricos do mercado de ações têm uma média de 7-10% anualmente (antes da inflação). As contas poupança oferecem tipicamente 0,5-5% dependendo das condições económicas. As obrigações geralmente situam-se entre estes intervalos. Considere sempre comissões e impostos ao projetar retornos.",
+    "faq7Question": "Devo considerar a inflação?",
+    "faq7Answer": "Sim, a inflação reduz o poder de compra ao longo do tempo. Um retorno de 7% com 3% de inflação dá um retorno 'real' de cerca de 4%. Para planeamento a longo prazo, considere usar retornos ajustados à inflação (reais) para projeções mais precisas.",
+    "faq8Question": "Como posso usar esta calculadora para planear a reforma?",
+    "faq8Answer": "Insira as suas poupanças atuais como capital, a sua taxa de retorno anual esperada, anos até à reforma e as suas contribuições mensais planeadas. O resultado mostra as suas poupanças de reforma projetadas. Ajuste as variáveis para ver como diferentes cenários afetam o resultado."
+  }
+}

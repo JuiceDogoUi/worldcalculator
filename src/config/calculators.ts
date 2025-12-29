@@ -20,7 +20,7 @@ export const calculators: Calculator[] = [
     featured: true,
     difficulty: 'easy',
     estimatedTime: 120,
-    relatedCalculators: ['mortgage', 'compound-interest', 'savings'],
+    relatedCalculators: ['mortgage', 'compound-interest'],
     lastModified: '2025-12-16',
   },
   {
@@ -35,6 +35,18 @@ export const calculators: Calculator[] = [
     relatedCalculators: ['loan', 'affordability', 'property-tax'],
     lastModified: '2025-12-28',
   },
+  {
+    id: 'compound-interest-calculator',
+    slug: 'compound-interest',
+    category: 'finance',
+    translationKey: 'calculators.finance.compound-interest',
+    icon: 'TrendingUp',
+    featured: true,
+    difficulty: 'easy',
+    estimatedTime: 120,
+    relatedCalculators: ['loan', 'mortgage'],
+    lastModified: '2025-12-29',
+  },
 
   // Math Calculators
   {
@@ -46,7 +58,8 @@ export const calculators: Calculator[] = [
     featured: true,
     difficulty: 'easy',
     estimatedTime: 60,
-    relatedCalculators: [],
+    relatedCalculators: ['loan', 'mortgage'],
+    lastModified: '2025-12-29',
   },
 
   // More calculators will be added here

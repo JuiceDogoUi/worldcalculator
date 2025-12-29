@@ -1,0 +1,120 @@
+{
+  "title": "Compound Interest Calculator",
+  "description": "Calculate how your savings and investments grow over time with compound interest. See the power of compounding with regular contributions and different compounding frequencies.",
+  "meta": {
+    "title": "Compound Interest Calculator - Free Investment Growth Calculator",
+    "description": "Free compound interest calculator. Calculate investment growth, see how your savings compound over time with regular contributions, and visualize your wealth building journey.",
+    "keywords": "compound interest calculator, investment calculator, savings calculator, compound interest formula, interest calculator, APY calculator, investment growth"
+  },
+  "inputs": {
+    "principal": "Initial Investment",
+    "annualRate": "Annual Interest Rate (%)",
+    "years": "Time Period (Years)",
+    "compoundingFrequency": "Compounding Frequency",
+    "contributionAmount": "Contribution Amount",
+    "contributionFrequency": "Contribution Frequency"
+  },
+  "compounding": {
+    "annually": "Annually (1x/year)",
+    "semiannually": "Semi-annually (2x/year)",
+    "quarterly": "Quarterly (4x/year)",
+    "monthly": "Monthly (12x/year)",
+    "daily": "Daily (365x/year)"
+  },
+  "contributions": {
+    "none": "No contributions",
+    "monthly": "Monthly",
+    "quarterly": "Quarterly",
+    "annually": "Annually"
+  },
+  "results": {
+    "finalBalance": "Final Balance",
+    "totalContributions": "Total Invested",
+    "totalInterest": "Interest Earned",
+    "effectiveRate": "Effective Annual Rate (APY)",
+    "interestOnPrincipal": "Interest on Principal",
+    "principal": "Initial Investment"
+  },
+  "actions": {
+    "reset": "Reset",
+    "showBreakdown": "Show Year-by-Year Breakdown",
+    "hideBreakdown": "Hide Breakdown"
+  },
+  "table": {
+    "year": "Year",
+    "startingBalance": "Starting Balance",
+    "contributions": "Contributions",
+    "interestEarned": "Interest Earned",
+    "endingBalance": "Ending Balance"
+  },
+  "advanced": {
+    "regularContributions": "Regular Contributions"
+  },
+  "disclaimer": {
+    "text": "This calculator provides estimates for educational purposes. Actual investment returns may vary based on market conditions, fees, and taxes.",
+    "note": "Past performance does not guarantee future results. Consult a financial advisor for personalized advice."
+  },
+  "seo": {
+    "whatIsTitle": "What is Compound Interest?",
+    "whatIsContent": "Compound interest is interest calculated on the initial principal and all previously accumulated interest. Unlike simple interest, which is calculated only on the principal, compound interest grows exponentially over time. This powerful concept is often called the 'eighth wonder of the world' because it can significantly multiply your wealth over long periods.",
+    "howItWorksTitle": "How to Use This Calculator",
+    "howItWorksIntro": "Follow these simple steps to calculate your compound interest:",
+    "howItWorksStep1": "Enter your initial investment amount (principal)",
+    "howItWorksStep2": "Set the annual interest rate you expect to earn",
+    "howItWorksStep3": "Choose how long you plan to invest (time period)",
+    "howItWorksStep4": "Select how often interest compounds (monthly is most common)",
+    "howItWorksStep5": "Optionally add regular contributions to see accelerated growth",
+    "howItWorksStepName1": "Enter Initial Investment",
+    "howItWorksStepName2": "Set Interest Rate",
+    "howItWorksStepName3": "Choose Time Period",
+    "howItWorksStepName4": "Select Compounding Frequency",
+    "howItWorksStepName5": "Add Regular Contributions",
+    "formulaTitle": "Compound Interest Formulas",
+    "formulaBasic": "Basic Compound Interest",
+    "formulaBasicDesc": "This formula calculates the future value of an investment with compound interest, where interest is added to the principal at regular intervals.",
+    "formulaWithContributions": "With Regular Contributions",
+    "formulaWithContributionsDesc": "This extended formula includes regular periodic contributions (like monthly deposits), which significantly accelerates wealth building.",
+    "variablesTitle": "Formula Variables",
+    "variableA": "Final amount (future value)",
+    "variableP": "Principal (initial investment)",
+    "variableR": "Annual interest rate (as decimal)",
+    "variableN": "Compounding periods per year",
+    "variableT": "Time in years",
+    "variablePMT": "Regular contribution amount",
+    "compoundingTitle": "Compounding Frequency Explained",
+    "compoundingIntro": "The more frequently interest compounds, the more you earn. Here's how different frequencies compare:",
+    "compoundingDaily": "Interest calculated every day. Offers the highest returns but the difference from monthly is minimal.",
+    "compoundingMonthly": "Interest calculated 12 times per year. Most common for savings accounts and investments.",
+    "compoundingQuarterly": "Interest calculated 4 times per year. Common for bonds and some savings products.",
+    "compoundingAnnually": "Interest calculated once per year. Simplest but yields the least compared to more frequent compounding.",
+    "benefitsTitle": "Benefits of Understanding Compound Interest",
+    "benefit1": "Plan your retirement savings with accurate projections",
+    "benefit2": "Compare investment options with different compounding frequencies",
+    "benefit3": "Understand how regular contributions accelerate wealth building",
+    "benefit4": "Make informed decisions about savings accounts and investments",
+    "benefit5": "Visualize the power of starting to invest early",
+    "tipsTitle": "Tips for Maximizing Compound Interest",
+    "tip1": "Start investing as early as possible - time is your greatest ally",
+    "tip2": "Make regular contributions, even small amounts add up significantly",
+    "tip3": "Choose accounts with higher compounding frequencies when possible",
+    "tip4": "Reinvest dividends and interest to maintain compound growth",
+    "tip5": "Be patient - compound interest works best over long time periods",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Question": "What is the difference between simple and compound interest?",
+    "faq1Answer": "Simple interest is calculated only on the original principal, while compound interest is calculated on both the principal and accumulated interest. For example, $1,000 at 10% simple interest earns $100 per year. With compound interest, the second year earns interest on $1,100, not just $1,000.",
+    "faq2Question": "How often should interest compound for best results?",
+    "faq2Answer": "More frequent compounding yields higher returns. Daily compounding gives the best results, followed by monthly, quarterly, and annually. However, the difference between daily and monthly compounding is typically small (less than 0.5% per year on most rates).",
+    "faq3Question": "What is APY and how is it different from APR?",
+    "faq3Answer": "APY (Annual Percentage Yield) includes the effect of compounding, showing your actual yearly return. APR (Annual Percentage Rate) is the simple interest rate without compounding. APY is always equal to or higher than APR for the same nominal rate.",
+    "faq4Question": "How does the Rule of 72 work?",
+    "faq4Answer": "The Rule of 72 is a quick way to estimate how long it takes to double your money. Divide 72 by your interest rate to get the approximate years. For example, at 8% interest, your money doubles in roughly 72 ÷ 8 = 9 years.",
+    "faq5Question": "Why do regular contributions matter so much?",
+    "faq5Answer": "Regular contributions create a snowball effect. Each contribution starts earning compound interest immediately, and over time, the accumulated contributions and their interest can exceed the growth from the initial principal alone.",
+    "faq6Question": "What is a realistic rate of return to expect?",
+    "faq6Answer": "Historical stock market returns average 7-10% annually (before inflation). Savings accounts typically offer 0.5-5% depending on economic conditions. Bonds usually fall between these ranges. Always consider fees and taxes when projecting returns.",
+    "faq7Question": "Should I factor in inflation?",
+    "faq7Answer": "Yes, inflation reduces purchasing power over time. A 7% return with 3% inflation gives a 'real' return of about 4%. For long-term planning, consider using inflation-adjusted (real) returns for more accurate projections.",
+    "faq8Question": "How can I use this calculator for retirement planning?",
+    "faq8Answer": "Enter your current savings as principal, your expected annual return rate, years until retirement, and your planned monthly contributions. The result shows your projected retirement savings. Adjust the variables to see how different scenarios affect your outcome."
+  }
+}

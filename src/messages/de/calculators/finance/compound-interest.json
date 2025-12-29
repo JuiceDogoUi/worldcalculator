@@ -1,0 +1,120 @@
+{
+  "title": "Zinseszinsrechner",
+  "description": "Berechnen Sie, wie Ihre Ersparnisse und Investitionen mit Zinseszins im Laufe der Zeit wachsen. Erleben Sie die Kraft des Zinseszinseffekts mit regelmäßigen Einzahlungen und verschiedenen Zinsperioden.",
+  "meta": {
+    "title": "Zinseszinsrechner - Kostenloser Rechner für Vermögensaufbau",
+    "description": "Kostenloser Zinseszinsrechner. Berechnen Sie Ihr Kapitalwachstum, sehen Sie wie Ihre Ersparnisse mit regelmäßigen Einzahlungen wachsen und visualisieren Sie Ihren Vermögensaufbau.",
+    "keywords": "Zinseszinsrechner, Zinseszins berechnen, Sparrechner, Investitionsrechner, Kapitalwachstum, Effektivzins, Vermögensaufbau, Zinsrechner"
+  },
+  "inputs": {
+    "principal": "Anfangskapital",
+    "annualRate": "Jährlicher Zinssatz (%)",
+    "years": "Laufzeit (Jahre)",
+    "compoundingFrequency": "Zinsperiode",
+    "contributionAmount": "Einzahlungsbetrag",
+    "contributionFrequency": "Einzahlungsrhythmus"
+  },
+  "compounding": {
+    "annually": "Jährlich (1x/Jahr)",
+    "semiannually": "Halbjährlich (2x/Jahr)",
+    "quarterly": "Vierteljährlich (4x/Jahr)",
+    "monthly": "Monatlich (12x/Jahr)",
+    "daily": "Täglich (365x/Jahr)"
+  },
+  "contributions": {
+    "none": "Keine Einzahlungen",
+    "monthly": "Monatlich",
+    "quarterly": "Vierteljährlich",
+    "annually": "Jährlich"
+  },
+  "results": {
+    "finalBalance": "Endkapital",
+    "totalContributions": "Gesamteinzahlungen",
+    "totalInterest": "Erwirtschaftete Zinsen",
+    "effectiveRate": "Effektiver Jahreszins (Effektivzins)",
+    "interestOnPrincipal": "Zinsen auf Anfangskapital",
+    "principal": "Anfangskapital"
+  },
+  "actions": {
+    "reset": "Zurücksetzen",
+    "showBreakdown": "Jahresübersicht anzeigen",
+    "hideBreakdown": "Übersicht ausblenden"
+  },
+  "table": {
+    "year": "Jahr",
+    "startingBalance": "Anfangssaldo",
+    "contributions": "Einzahlungen",
+    "interestEarned": "Erwirtschaftete Zinsen",
+    "endingBalance": "Endsaldo"
+  },
+  "advanced": {
+    "regularContributions": "Regelmäßige Einzahlungen"
+  },
+  "disclaimer": {
+    "text": "Dieser Rechner liefert Schätzungen zu Bildungszwecken. Tatsächliche Anlagerenditen können aufgrund von Marktbedingungen, Gebühren und Steuern abweichen.",
+    "note": "Vergangene Wertentwicklungen sind keine Garantie für zukünftige Ergebnisse. Konsultieren Sie einen Finanzberater für individuelle Beratung."
+  },
+  "seo": {
+    "whatIsTitle": "Was ist Zinseszins?",
+    "whatIsContent": "Zinseszins bezeichnet die Verzinsung von Kapital, bei der die erwirtschafteten Zinsen dem ursprünglichen Kapital zugeschlagen und in den Folgeperioden mitverzinst werden. Im Gegensatz zu einfachen Zinsen, die nur auf das Anfangskapital berechnet werden, wächst das Vermögen beim Zinseszins exponentiell. Dieser mächtige Effekt wird oft als 'achtes Weltwunder' bezeichnet, da er Ihr Vermögen über lange Zeiträume erheblich vervielfachen kann.",
+    "howItWorksTitle": "So verwenden Sie diesen Rechner",
+    "howItWorksIntro": "Folgen Sie diesen einfachen Schritten, um Ihren Zinseszins zu berechnen:",
+    "howItWorksStep1": "Geben Sie Ihr Anfangskapital ein (Einmalanlage)",
+    "howItWorksStep2": "Legen Sie den erwarteten jährlichen Zinssatz fest",
+    "howItWorksStep3": "Wählen Sie den Anlagezeitraum in Jahren",
+    "howItWorksStep4": "Bestimmen Sie die Zinsperiode (monatlich ist am häufigsten)",
+    "howItWorksStep5": "Fügen Sie optional regelmäßige Einzahlungen hinzu, um das Wachstum zu beschleunigen",
+    "howItWorksStepName1": "Anfangskapital eingeben",
+    "howItWorksStepName2": "Zinssatz festlegen",
+    "howItWorksStepName3": "Anlagezeitraum wählen",
+    "howItWorksStepName4": "Zinsperiode bestimmen",
+    "howItWorksStepName5": "Regelmäßige Einzahlungen hinzufügen",
+    "formulaTitle": "Zinseszins-Formeln",
+    "formulaBasic": "Grundlegende Zinseszinsformel",
+    "formulaBasicDesc": "Diese Formel berechnet den zukünftigen Wert einer Investition mit Zinseszins, wobei die Zinsen in regelmäßigen Abständen dem Kapital zugeschlagen werden.",
+    "formulaWithContributions": "Mit regelmäßigen Einzahlungen",
+    "formulaWithContributionsDesc": "Diese erweiterte Formel berücksichtigt regelmäßige periodische Einzahlungen (wie monatliche Sparraten), die den Vermögensaufbau erheblich beschleunigen.",
+    "variablesTitle": "Formel-Variablen",
+    "variableA": "Endkapital (Zukunftswert)",
+    "variableP": "Anfangskapital (Einmalanlage)",
+    "variableR": "Jährlicher Zinssatz (als Dezimalzahl)",
+    "variableN": "Anzahl der Zinsperioden pro Jahr",
+    "variableT": "Laufzeit in Jahren",
+    "variablePMT": "Regelmäßiger Einzahlungsbetrag",
+    "compoundingTitle": "Zinsperioden erklärt",
+    "compoundingIntro": "Je häufiger die Zinsen gutgeschrieben werden, desto höher ist Ihr Ertrag. Hier ein Vergleich der verschiedenen Perioden:",
+    "compoundingDaily": "Zinsen werden täglich berechnet. Bietet die höchsten Erträge, der Unterschied zur monatlichen Verzinsung ist jedoch minimal.",
+    "compoundingMonthly": "Zinsen werden 12 Mal pro Jahr berechnet. Am häufigsten bei Sparkonten und Investitionen.",
+    "compoundingQuarterly": "Zinsen werden 4 Mal pro Jahr berechnet. Üblich bei Anleihen und einigen Sparprodukten.",
+    "compoundingAnnually": "Zinsen werden einmal pro Jahr berechnet. Am einfachsten, aber geringster Ertrag im Vergleich zu häufigeren Zinsperioden.",
+    "benefitsTitle": "Vorteile des Zinseszins-Verständnisses",
+    "benefit1": "Planen Sie Ihre Altersvorsorge mit präzisen Prognosen",
+    "benefit2": "Vergleichen Sie Anlageoptionen mit verschiedenen Zinsperioden",
+    "benefit3": "Verstehen Sie, wie regelmäßige Einzahlungen den Vermögensaufbau beschleunigen",
+    "benefit4": "Treffen Sie fundierte Entscheidungen über Sparkonten und Investitionen",
+    "benefit5": "Visualisieren Sie die Kraft des frühen Investitionsbeginns",
+    "tipsTitle": "Tipps zur Maximierung des Zinseszinseffekts",
+    "tip1": "Beginnen Sie so früh wie möglich zu investieren - Zeit ist Ihr größter Verbündeter",
+    "tip2": "Leisten Sie regelmäßige Einzahlungen, auch kleine Beträge summieren sich erheblich",
+    "tip3": "Wählen Sie wenn möglich Konten mit häufigeren Zinsperioden",
+    "tip4": "Reinvestieren Sie Dividenden und Zinsen, um das exponentielle Wachstum aufrechtzuerhalten",
+    "tip5": "Haben Sie Geduld - Zinseszins entfaltet seine volle Wirkung über lange Zeiträume",
+    "faqTitle": "Häufig gestellte Fragen",
+    "faq1Question": "Was ist der Unterschied zwischen einfachen Zinsen und Zinseszins?",
+    "faq1Answer": "Einfache Zinsen werden nur auf das ursprüngliche Kapital berechnet, während beim Zinseszins sowohl das Kapital als auch die bereits erwirtschafteten Zinsen verzinst werden. Beispiel: 1.000 € mit 10% einfachen Zinsen erwirtschaften jährlich 100 €. Beim Zinseszins werden im zweiten Jahr Zinsen auf 1.100 € berechnet, nicht nur auf die ursprünglichen 1.000 €.",
+    "faq2Question": "Welche Zinsperiode liefert die besten Ergebnisse?",
+    "faq2Answer": "Häufigere Zinsgutschriften führen zu höheren Erträgen. Tägliche Verzinsung liefert die besten Ergebnisse, gefolgt von monatlicher, vierteljährlicher und jährlicher Verzinsung. Der Unterschied zwischen täglicher und monatlicher Verzinsung ist jedoch typischerweise gering (weniger als 0,5% pro Jahr bei den meisten Zinssätzen).",
+    "faq3Question": "Was ist der Effektivzins und wie unterscheidet er sich vom Nominalzins?",
+    "faq3Answer": "Der Effektivzins (auch effektiver Jahreszins) berücksichtigt den Zinseszinseffekt und zeigt Ihre tatsächliche jährliche Rendite. Der Nominalzins ist der einfache Zinssatz ohne Berücksichtigung von Zinseszinsen. Der Effektivzins ist bei gleichem Nominalzins immer gleich hoch oder höher.",
+    "faq4Question": "Wie funktioniert die 72er-Regel?",
+    "faq4Answer": "Die 72er-Regel ist eine schnelle Methode, um abzuschätzen, wie lange es dauert, bis sich Ihr Geld verdoppelt. Teilen Sie 72 durch Ihren Zinssatz, um die ungefähre Anzahl der Jahre zu erhalten. Bei 8% Zinsen verdoppelt sich Ihr Geld beispielsweise in etwa 72 ÷ 8 = 9 Jahren.",
+    "faq5Question": "Warum sind regelmäßige Einzahlungen so wichtig?",
+    "faq5Answer": "Regelmäßige Einzahlungen erzeugen einen Schneeballeffekt. Jede Einzahlung beginnt sofort, Zinseszinsen zu erwirtschaften, und im Laufe der Zeit können die akkumulierten Einzahlungen samt ihrer Zinsen das Wachstum durch das Anfangskapital allein übertreffen.",
+    "faq6Question": "Welche Rendite kann ich realistischerweise erwarten?",
+    "faq6Answer": "Historische Aktienmarktrenditen liegen durchschnittlich bei 7-10% jährlich (vor Inflation). Sparkonten bieten typischerweise 0,5-5% je nach wirtschaftlichen Bedingungen. Anleihen liegen meist zwischen diesen Bereichen. Berücksichtigen Sie immer Gebühren und Steuern bei Renditeprognosen.",
+    "faq7Question": "Sollte ich die Inflation berücksichtigen?",
+    "faq7Answer": "Ja, Inflation verringert die Kaufkraft im Laufe der Zeit. Eine Rendite von 7% bei 3% Inflation ergibt eine 'reale' Rendite von etwa 4%. Für langfristige Planungen sollten Sie inflationsbereinigte (reale) Renditen verwenden, um genauere Prognosen zu erhalten.",
+    "faq8Question": "Wie kann ich diesen Rechner für die Altersvorsorge nutzen?",
+    "faq8Answer": "Geben Sie Ihre aktuellen Ersparnisse als Anfangskapital ein, Ihre erwartete jährliche Rendite, die Jahre bis zur Rente und Ihre geplanten monatlichen Einzahlungen. Das Ergebnis zeigt Ihr prognostiziertes Altersvorsorgevermögen. Passen Sie die Variablen an, um zu sehen, wie verschiedene Szenarien Ihr Ergebnis beeinflussen."
+  }
+}

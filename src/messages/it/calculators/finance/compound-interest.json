@@ -1,0 +1,120 @@
+{
+  "title": "Calcolatore di Interesse Composto",
+  "description": "Calcola come crescono i tuoi risparmi e investimenti nel tempo con l'interesse composto. Scopri la potenza della capitalizzazione con contributi regolari e diverse frequenze di maturazione.",
+  "meta": {
+    "title": "Calcolatore Interesse Composto - Calcolo Crescita Investimenti Gratis",
+    "description": "Calcolatore di interesse composto gratuito. Calcola la crescita degli investimenti, scopri come i tuoi risparmi si capitalizzano nel tempo con contributi regolari e visualizza il tuo percorso di accumulazione patrimoniale.",
+    "keywords": "calcolatore interesse composto, calcolatore investimenti, calcolatore risparmi, formula interesse composto, calcolatore interessi, calcolo TAEG, crescita investimenti, capitalizzazione interessi"
+  },
+  "inputs": {
+    "principal": "Investimento Iniziale",
+    "annualRate": "Tasso d'Interesse Annuo (%)",
+    "years": "Periodo (Anni)",
+    "compoundingFrequency": "Frequenza di Capitalizzazione",
+    "contributionAmount": "Importo Contributo",
+    "contributionFrequency": "Frequenza Contributo"
+  },
+  "compounding": {
+    "annually": "Annuale (1 volta/anno)",
+    "semiannually": "Semestrale (2 volte/anno)",
+    "quarterly": "Trimestrale (4 volte/anno)",
+    "monthly": "Mensile (12 volte/anno)",
+    "daily": "Giornaliera (365 volte/anno)"
+  },
+  "contributions": {
+    "none": "Nessun contributo",
+    "monthly": "Mensile",
+    "quarterly": "Trimestrale",
+    "annually": "Annuale"
+  },
+  "results": {
+    "finalBalance": "Saldo Finale",
+    "totalContributions": "Totale Investito",
+    "totalInterest": "Interessi Maturati",
+    "effectiveRate": "Tasso Annuo Effettivo (TAEG)",
+    "interestOnPrincipal": "Interessi sul Capitale Iniziale",
+    "principal": "Investimento Iniziale"
+  },
+  "actions": {
+    "reset": "Ripristina",
+    "showBreakdown": "Mostra Dettaglio Anno per Anno",
+    "hideBreakdown": "Nascondi Dettaglio"
+  },
+  "table": {
+    "year": "Anno",
+    "startingBalance": "Saldo Iniziale",
+    "contributions": "Contributi",
+    "interestEarned": "Interessi Maturati",
+    "endingBalance": "Saldo Finale"
+  },
+  "advanced": {
+    "regularContributions": "Contributi Regolari"
+  },
+  "disclaimer": {
+    "text": "Questo calcolatore fornisce stime a scopo educativo. I rendimenti effettivi degli investimenti possono variare in base alle condizioni di mercato, commissioni e tasse.",
+    "note": "Le performance passate non garantiscono risultati futuri. Consulta un consulente finanziario per consigli personalizzati."
+  },
+  "seo": {
+    "whatIsTitle": "Cos'è l'Interesse Composto?",
+    "whatIsContent": "L'interesse composto è l'interesse calcolato sul capitale iniziale e su tutti gli interessi precedentemente maturati. A differenza dell'interesse semplice, che viene calcolato solo sul capitale, l'interesse composto cresce in modo esponenziale nel tempo. Questo potente concetto è spesso chiamato 'l'ottava meraviglia del mondo' perché può moltiplicare significativamente il tuo patrimonio in lunghi periodi.",
+    "howItWorksTitle": "Come Utilizzare Questo Calcolatore",
+    "howItWorksIntro": "Segui questi semplici passaggi per calcolare l'interesse composto:",
+    "howItWorksStep1": "Inserisci l'importo del tuo investimento iniziale (capitale)",
+    "howItWorksStep2": "Imposta il tasso di interesse annuo che prevedi di ottenere",
+    "howItWorksStep3": "Scegli per quanto tempo prevedi di investire (periodo)",
+    "howItWorksStep4": "Seleziona con quale frequenza gli interessi si capitalizzano (mensile è la più comune)",
+    "howItWorksStep5": "Aggiungi opzionalmente contributi regolari per vedere una crescita accelerata",
+    "howItWorksStepName1": "Inserire Investimento Iniziale",
+    "howItWorksStepName2": "Impostare Tasso d'Interesse",
+    "howItWorksStepName3": "Scegliere il Periodo",
+    "howItWorksStepName4": "Selezionare Frequenza di Capitalizzazione",
+    "howItWorksStepName5": "Aggiungere Contributi Regolari",
+    "formulaTitle": "Formule dell'Interesse Composto",
+    "formulaBasic": "Interesse Composto Base",
+    "formulaBasicDesc": "Questa formula calcola il valore futuro di un investimento con interesse composto, dove gli interessi vengono aggiunti al capitale a intervalli regolari.",
+    "formulaWithContributions": "Con Contributi Regolari",
+    "formulaWithContributionsDesc": "Questa formula estesa include contributi periodici regolari (come depositi mensili), che accelerano significativamente l'accumulo patrimoniale.",
+    "variablesTitle": "Variabili della Formula",
+    "variableA": "Importo finale (valore futuro)",
+    "variableP": "Capitale (investimento iniziale)",
+    "variableR": "Tasso di interesse annuo (in decimale)",
+    "variableN": "Periodi di capitalizzazione per anno",
+    "variableT": "Tempo in anni",
+    "variablePMT": "Importo del contributo regolare",
+    "compoundingTitle": "Frequenza di Capitalizzazione Spiegata",
+    "compoundingIntro": "Più frequentemente gli interessi si capitalizzano, più guadagni. Ecco come si confrontano le diverse frequenze:",
+    "compoundingDaily": "Interessi calcolati ogni giorno. Offre i rendimenti più alti ma la differenza dalla capitalizzazione mensile è minima.",
+    "compoundingMonthly": "Interessi calcolati 12 volte all'anno. La più comune per conti di risparmio e investimenti.",
+    "compoundingQuarterly": "Interessi calcolati 4 volte all'anno. Comune per obbligazioni e alcuni prodotti di risparmio.",
+    "compoundingAnnually": "Interessi calcolati una volta all'anno. La più semplice ma rende meno rispetto a capitalizzazioni più frequenti.",
+    "benefitsTitle": "Vantaggi di Comprendere l'Interesse Composto",
+    "benefit1": "Pianifica i tuoi risparmi pensionistici con proiezioni accurate",
+    "benefit2": "Confronta opzioni di investimento con diverse frequenze di capitalizzazione",
+    "benefit3": "Comprendi come i contributi regolari accelerano l'accumulo patrimoniale",
+    "benefit4": "Prendi decisioni informate su conti di risparmio e investimenti",
+    "benefit5": "Visualizza il potere di iniziare a investire presto",
+    "tipsTitle": "Consigli per Massimizzare l'Interesse Composto",
+    "tip1": "Inizia a investire il prima possibile - il tempo è il tuo più grande alleato",
+    "tip2": "Effettua contributi regolari, anche piccoli importi sommano in modo significativo",
+    "tip3": "Scegli conti con frequenze di capitalizzazione più alte quando possibile",
+    "tip4": "Reinvesti dividendi e interessi per mantenere la crescita composta",
+    "tip5": "Sii paziente - l'interesse composto funziona meglio su lunghi periodi",
+    "faqTitle": "Domande Frequenti",
+    "faq1Question": "Qual è la differenza tra interesse semplice e composto?",
+    "faq1Answer": "L'interesse semplice viene calcolato solo sul capitale originale, mentre l'interesse composto viene calcolato sia sul capitale che sugli interessi accumulati. Ad esempio, 1.000€ al 10% di interesse semplice guadagnano 100€ all'anno. Con l'interesse composto, il secondo anno si guadagnano interessi su 1.100€, non solo su 1.000€.",
+    "faq2Question": "Con quale frequenza dovrebbero capitalizzarsi gli interessi per ottenere i migliori risultati?",
+    "faq2Answer": "Una capitalizzazione più frequente produce rendimenti più alti. La capitalizzazione giornaliera dà i migliori risultati, seguita da mensile, trimestrale e annuale. Tuttavia, la differenza tra capitalizzazione giornaliera e mensile è tipicamente piccola (meno dello 0,5% annuo sulla maggior parte dei tassi).",
+    "faq3Question": "Cos'è il TAEG e come si differenzia dal TAN?",
+    "faq3Answer": "Il TAEG (Tasso Annuo Effettivo Globale) include l'effetto della capitalizzazione, mostrando il tuo rendimento annuo effettivo. Il TAN (Tasso Annuo Nominale) è il tasso di interesse semplice senza capitalizzazione. Il TAEG è sempre uguale o superiore al TAN per lo stesso tasso nominale.",
+    "faq4Question": "Come funziona la Regola del 72?",
+    "faq4Answer": "La Regola del 72 è un modo rapido per stimare quanto tempo ci vuole per raddoppiare il tuo denaro. Dividi 72 per il tuo tasso di interesse per ottenere gli anni approssimativi. Ad esempio, con un interesse dell'8%, il tuo denaro raddoppia in circa 72 ÷ 8 = 9 anni.",
+    "faq5Question": "Perché i contributi regolari sono così importanti?",
+    "faq5Answer": "I contributi regolari creano un effetto valanga. Ogni contributo inizia immediatamente a maturare interessi composti e, nel tempo, i contributi accumulati e i loro interessi possono superare la crescita derivante dal solo capitale iniziale.",
+    "faq6Question": "Qual è un tasso di rendimento realistico da aspettarsi?",
+    "faq6Answer": "I rendimenti storici del mercato azionario sono in media del 7-10% annuo (prima dell'inflazione). I conti di risparmio offrono tipicamente 0,5-5% a seconda delle condizioni economiche. Le obbligazioni di solito si collocano tra questi intervalli. Considera sempre commissioni e tasse quando progetti i rendimenti.",
+    "faq7Question": "Dovrei considerare l'inflazione?",
+    "faq7Answer": "Sì, l'inflazione riduce il potere d'acquisto nel tempo. Un rendimento del 7% con un'inflazione del 3% dà un rendimento 'reale' di circa il 4%. Per la pianificazione a lungo termine, considera l'utilizzo di rendimenti corretti per l'inflazione (reali) per proiezioni più accurate.",
+    "faq8Question": "Come posso utilizzare questo calcolatore per la pianificazione pensionistica?",
+    "faq8Answer": "Inserisci i tuoi risparmi attuali come capitale, il tasso di rendimento annuo previsto, gli anni mancanti alla pensione e i tuoi contributi mensili pianificati. Il risultato mostra i tuoi risparmi pensionistici proiettati. Regola le variabili per vedere come diversi scenari influenzano il risultato."
+  }
+}
