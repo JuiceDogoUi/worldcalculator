@@ -32,3 +32,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude agent guidelines (local only)
+.claude/agents/*.md
+CALCULATOR_ROADMAP.md
