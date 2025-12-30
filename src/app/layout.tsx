@@ -47,10 +47,10 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning>
       <head>
-        {/* Adsterra Popunder - must be in head per Adsterra guidelines */}
+        {/* Adsterra Popunder */}
         <Script
           src="https://pl28366435.effectivegatecpm.com/0c/ca/2c/0cca2c89902512bd6feb2be1959b1e92.js"
-          strategy="beforeInteractive"
+          strategy="afterInteractive"
         />
       </head>
       <body>
