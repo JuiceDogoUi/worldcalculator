@@ -26,6 +26,8 @@ const AD_CONFIG = {
  * Sticky Vertical Banner Component for Adsterra banners
  * Left: 160x600, Right: 160x300
  * Only visible on xl screens (1280px+)
+ *
+ * Uses sequential loading with delay to prevent atOptions conflicts
  */
 export function StickyBanner({ position, className }: StickyBannerProps) {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -39,25 +41,29 @@ export function StickyBanner({ position, className }: StickyBannerProps) {
 
     setIsLoaded(true)
 
-    // Create a wrapper script that isolates atOptions in an IIFE
-    // This prevents race conditions when multiple banners load simultaneously
-    const wrapperScript = document.createElement('script')
-    wrapperScript.textContent = `
-      (function() {
-        window.atOptions = {
-          key: '${config.key}',
-          format: 'iframe',
-          height: ${config.height},
-          width: ${config.width},
-          params: {}
-        };
-        var script = document.createElement('script');
-        script.src = 'https://www.highperformanceformat.com/${config.key}/invoke.js';
-        script.async = true;
-        document.getElementById('adsterra-banner-${position}').appendChild(script);
-      })();
-    `
-    containerRef.current.appendChild(wrapperScript)
+    // Delay right banner to ensure left loads first without conflict
+    // Left loads immediately, right waits 500ms for left's invoke.js to execute
+    const delay = position === 'right' ? 500 : 0
+
+    const timeoutId = setTimeout(() => {
+      if (!containerRef.current) return
+
+      // Set atOptions
+      ;(window as unknown as Record<string, unknown>).atOptions = {
+        key: config.key,
+        format: 'iframe',
+        height: config.height,
+        width: config.width,
+        params: {},
+      }
+
+      // Load the invoke script synchronously (no async) to ensure it reads atOptions immediately
+      const script = document.createElement('script')
+      script.src = `https://www.highperformanceformat.com/${config.key}/invoke.js`
+      containerRef.current.appendChild(script)
+    }, delay)
+
+    return () => clearTimeout(timeoutId)
   }, [isLoaded, config, position])
 
   return (
