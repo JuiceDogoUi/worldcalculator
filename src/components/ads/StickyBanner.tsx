@@ -39,21 +39,26 @@ export function StickyBanner({ position, className }: StickyBannerProps) {
 
     setIsLoaded(true)
 
-    // Set atOptions on window before loading script
-    ;(window as unknown as Record<string, unknown>).atOptions = {
-      key: config.key,
-      format: 'iframe',
-      height: config.height,
-      width: config.width,
-      params: {},
-    }
-
-    // Create and append the script
-    const script = document.createElement('script')
-    script.src = `https://www.highperformanceformat.com/${config.key}/invoke.js`
-    script.async = true
-    containerRef.current.appendChild(script)
-  }, [isLoaded, config])
+    // Create a wrapper script that isolates atOptions in an IIFE
+    // This prevents race conditions when multiple banners load simultaneously
+    const wrapperScript = document.createElement('script')
+    wrapperScript.textContent = `
+      (function() {
+        window.atOptions = {
+          key: '${config.key}',
+          format: 'iframe',
+          height: ${config.height},
+          width: ${config.width},
+          params: {}
+        };
+        var script = document.createElement('script');
+        script.src = 'https://www.highperformanceformat.com/${config.key}/invoke.js';
+        script.async = true;
+        document.getElementById('adsterra-banner-${position}').appendChild(script);
+      })();
+    `
+    containerRef.current.appendChild(wrapperScript)
+  }, [isLoaded, config, position])
 
   return (
     <div
