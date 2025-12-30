@@ -37,7 +37,7 @@ export function NativeBanner({ className }: NativeBannerProps) {
       const invokeScript = document.createElement('script')
       invokeScript.async = true
       invokeScript.setAttribute('data-cfasync', 'false')
-      invokeScript.src = `//pl28366707.effectivegatecpm.com/${NATIVE_BANNER_ID}/invoke.js`
+      invokeScript.src = `https://bouncingbuzz.com/${NATIVE_BANNER_ID}/invoke.js`
       container.appendChild(invokeScript)
     }, 100)
 
