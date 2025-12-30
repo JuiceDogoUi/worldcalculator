@@ -11,7 +11,6 @@ import {
 } from '@/lib/structuredData'
 import { Analytics } from '@vercel/analytics/next'
 import { SpeedInsights } from '@vercel/speed-insights/next'
-import { AdsterraAd } from '@/components/ads/AdsterraAd'
 import type { Metadata } from 'next'
 
 export const dynamic = 'force-static'
@@ -98,7 +97,6 @@ export default async function LocaleLayout({
         </div>
         <Analytics />
         <SpeedInsights />
-        <AdsterraAd />
       </NextIntlClientProvider>
     </>
   )

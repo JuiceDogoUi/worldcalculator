@@ -1,6 +1,5 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
 import { cn } from '@/lib/utils'
 
 interface StickyBannerProps {
@@ -27,44 +26,26 @@ const AD_CONFIG = {
  * Left: 160x600, Right: 160x300
  * Only visible on xl screens (1280px+)
  *
- * Uses sequential loading with delay to prevent atOptions conflicts
+ * Uses inline script injection matching Adsterra's exact pattern
  */
 export function StickyBanner({ position, className }: StickyBannerProps) {
-  const containerRef = useRef<HTMLDivElement>(null)
-  const [isLoaded, setIsLoaded] = useState(false)
-
   const config = AD_CONFIG[position]
 
-  useEffect(() => {
-    if (isLoaded || !containerRef.current) return
-    if (containerRef.current.querySelector('script')) return
-
-    setIsLoaded(true)
-
-    // Delay right banner to ensure left loads first without conflict
-    // Left loads immediately, right waits 500ms for left's invoke.js to execute
-    const delay = position === 'right' ? 500 : 0
-
-    const timeoutId = setTimeout(() => {
-      if (!containerRef.current) return
-
-      // Set atOptions
-      ;(window as unknown as Record<string, unknown>).atOptions = {
-        key: config.key,
-        format: 'iframe',
-        height: config.height,
-        width: config.width,
-        params: {},
-      }
-
-      // Load the invoke script synchronously (no async) to ensure it reads atOptions immediately
-      const script = document.createElement('script')
-      script.src = `https://www.highperformanceformat.com/${config.key}/invoke.js`
-      containerRef.current.appendChild(script)
-    }, delay)
-
-    return () => clearTimeout(timeoutId)
-  }, [isLoaded, config, position])
+  // Generate the exact HTML pattern Adsterra expects:
+  // <script>atOptions = {...};</script>
+  // <script src="invoke.js"></script>
+  const adHtml = `
+    <script type="text/javascript">
+      atOptions = {
+        'key' : '${config.key}',
+        'format' : 'iframe',
+        'height' : ${config.height},
+        'width' : ${config.width},
+        'params' : {}
+      };
+    </script>
+    <script type="text/javascript" src="https://www.highperformanceformat.com/${config.key}/invoke.js"></script>
+  `
 
   return (
     <div
@@ -77,10 +58,10 @@ export function StickyBanner({ position, className }: StickyBannerProps) {
       )}
     >
       <div
-        ref={containerRef}
         id={`adsterra-banner-${position}`}
         className="overflow-hidden"
         style={{ width: config.width, height: config.height }}
+        dangerouslySetInnerHTML={{ __html: adHtml }}
       />
     </div>
   )

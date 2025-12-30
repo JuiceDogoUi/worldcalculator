@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next'
+import Script from 'next/script'
 import './globals.css'
 
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.worldcalculator.org'
@@ -45,6 +46,13 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning>
+      <head>
+        {/* Adsterra Popunder - must be in head per Adsterra guidelines */}
+        <Script
+          src="https://pl28366435.effectivegatecpm.com/0c/ca/2c/0cca2c89902512bd6feb2be1959b1e92.js"
+          strategy="beforeInteractive"
+        />
+      </head>
       <body>
         {children}
       </body>
