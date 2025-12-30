@@ -37,34 +37,43 @@ export function StickyBanner({ position, className }: StickyBannerProps) {
     const container = containerRef.current
     if (!container) return
 
-    // Clear any existing content
-    container.innerHTML = ''
+    // Delay: left loads at 0ms, right loads at 1000ms
+    // This ensures left's invoke.js executes before right overwrites atOptions
+    const delay = position === 'left' ? 0 : 1000
 
-    // Create atOptions script
-    const optionsScript = document.createElement('script')
-    optionsScript.type = 'text/javascript'
-    optionsScript.textContent = `
-      atOptions = {
-        'key' : '${config.key}',
-        'format' : 'iframe',
-        'height' : ${config.height},
-        'width' : ${config.width},
-        'params' : {}
-      };
-    `
-    container.appendChild(optionsScript)
+    const timeoutId = setTimeout(() => {
+      if (!container) return
 
-    // Create invoke script
-    const invokeScript = document.createElement('script')
-    invokeScript.type = 'text/javascript'
-    invokeScript.src = `https://www.highperformanceformat.com/${config.key}/invoke.js`
-    container.appendChild(invokeScript)
+      // Clear any existing content
+      container.innerHTML = ''
+
+      // Create atOptions script
+      const optionsScript = document.createElement('script')
+      optionsScript.type = 'text/javascript'
+      optionsScript.textContent = `
+        atOptions = {
+          'key' : '${config.key}',
+          'format' : 'iframe',
+          'height' : ${config.height},
+          'width' : ${config.width},
+          'params' : {}
+        };
+      `
+      container.appendChild(optionsScript)
+
+      // Create invoke script
+      const invokeScript = document.createElement('script')
+      invokeScript.type = 'text/javascript'
+      invokeScript.src = `https://www.highperformanceformat.com/${config.key}/invoke.js`
+      container.appendChild(invokeScript)
+    }, delay)
 
     // Cleanup on unmount
     return () => {
+      clearTimeout(timeoutId)
       container.innerHTML = ''
     }
-  }, [config.key, config.height, config.width])
+  }, [config.key, config.height, config.width, position])
 
   return (
     <div
