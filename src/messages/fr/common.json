@@ -107,11 +107,8 @@
   "footer": {
     "description": "Calculateurs en ligne gratuits pour tous vos besoins",
     "categoriesTitle": "Catégories",
-    "linksTitle": "Liens",
-    "about": "À propos",
+    "legalTitle": "Mentions légales",
     "privacy": "Politique de Confidentialité",
-    "terms": "Conditions d'utilisation",
-    "contact": "Contact",
     "copyright": "Tous droits réservés"
   },
   "calculator": {

@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from 'next'
-import Script from 'next/script'
 import './globals.css'
 
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.worldcalculator.org'
@@ -47,34 +46,6 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning>
       <body>
-        {/* Ezoic Privacy Scripts - Load First */}
-        <Script
-          src="https://cmp.gatekeeperconsent.com/min.js"
-          strategy="beforeInteractive"
-          data-cfasync="false"
-        />
-        <Script
-          src="https://the.gatekeeperconsent.com/cmp.min.js"
-          strategy="beforeInteractive"
-          data-cfasync="false"
-        />
-
-        {/* Ezoic Main Script */}
-        <Script
-          src="https://www.ezojs.com/ezoic/sa.min.js"
-          strategy="beforeInteractive"
-        />
-        <Script
-          id="ezoic-init"
-          strategy="beforeInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.ezstandalone = window.ezstandalone || {};
-              ezstandalone.cmd = ezstandalone.cmd || [];
-            `,
-          }}
-        />
-
         {children}
       </body>
     </html>

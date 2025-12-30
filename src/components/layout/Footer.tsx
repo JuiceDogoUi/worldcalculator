@@ -46,32 +46,9 @@ export async function Footer() {
             </ul>
           </div>
 
-          {/* Links Section */}
-          <div className="space-y-3">
-            <h3 className="text-sm font-semibold">{tFooter('linksTitle')}</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <Link
-                  href="/about"
-                  className="text-muted-foreground transition-colors hover:text-foreground"
-                >
-                  {tFooter('about')}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                  className="text-muted-foreground transition-colors hover:text-foreground"
-                >
-                  {tFooter('contact')}
-                </Link>
-              </li>
-            </ul>
-          </div>
-
           {/* Legal Section */}
           <div className="space-y-3">
-            <h3 className="text-sm font-semibold">{tFooter('linksTitle')}</h3>
+            <h3 className="text-sm font-semibold">{tFooter('legalTitle')}</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
@@ -79,14 +56,6 @@ export async function Footer() {
                   className="text-muted-foreground transition-colors hover:text-foreground"
                 >
                   {tFooter('privacy')}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/terms"
-                  className="text-muted-foreground transition-colors hover:text-foreground"
-                >
-                  {tFooter('terms')}
                 </Link>
               </li>
             </ul>

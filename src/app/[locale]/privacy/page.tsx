@@ -27,7 +27,7 @@ export default async function PrivacyPage({
 
       <div className="prose prose-slate max-w-none">
         <p className="text-sm text-muted-foreground mb-8">
-          Last updated: December 29, 2025
+          Last updated: December 30, 2025
         </p>
 
         {/* Introduction */}
@@ -88,8 +88,8 @@ export default async function PrivacyPage({
 
           <h3 className="text-xl font-semibold mt-6 mb-3">4.2 Cookie Data</h3>
           <p>
-            We use cookies and similar tracking technologies to improve your experience and deliver
-            advertising. See Section 7 for detailed information about cookies.
+            We use cookies and similar tracking technologies to improve your experience.
+            See Section 7 for detailed information about cookies.
           </p>
         </section>
 
@@ -100,7 +100,6 @@ export default async function PrivacyPage({
           <ul className="list-disc pl-6 space-y-2">
             <li><strong>Service Provision:</strong> To deliver our free calculator tools and ensure they function correctly</li>
             <li><strong>Analytics:</strong> To understand how visitors use our Service and improve user experience</li>
-            <li><strong>Advertising:</strong> To display relevant advertisements and measure ad performance</li>
             <li><strong>Security:</strong> To detect and prevent fraud, abuse, and security incidents</li>
             <li><strong>Legal Compliance:</strong> To comply with applicable laws and regulations</li>
           </ul>
@@ -116,7 +115,7 @@ export default async function PrivacyPage({
               perform analytics, and ensure security
             </li>
             <li>
-              <strong>Consent (Article 6(1)(a)):</strong> For non-essential cookies and personalized advertising
+              <strong>Consent (Article 6(1)(a)):</strong> For non-essential cookies
               (you can withdraw consent at any time)
             </li>
             <li>
@@ -129,7 +128,7 @@ export default async function PrivacyPage({
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">7. Cookies and Tracking Technologies</h2>
           <p>
-            We use cookies to enhance your experience and deliver advertising. Cookies are small text files
+            We use cookies to enhance your experience. Cookies are small text files
             stored on your device that help us recognize you and remember your preferences.
           </p>
 
@@ -159,25 +158,12 @@ export default async function PrivacyPage({
                 <li>Geographic and demographic insights (anonymized)</li>
               </ul>
             </div>
-
-            <div className="border-l-4 border-purple-500 pl-4">
-              <h4 className="font-semibold">Advertising Cookies</h4>
-              <p className="text-sm text-muted-foreground">
-                Used to deliver relevant advertisements and measure campaign effectiveness.
-              </p>
-              <ul className="list-disc pl-6 mt-2 text-sm">
-                <li>Ezoic ad platform cookies</li>
-                <li>Interest-based advertising</li>
-                <li>Ad performance measurement</li>
-                <li>Frequency capping</li>
-              </ul>
-            </div>
           </div>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">7.2 Managing Cookies</h3>
           <p>
             You can control and delete cookies through your browser settings. However, disabling cookies
-            may affect the functionality of our Service and the relevance of advertisements displayed.
+            may affect the functionality of our Service.
           </p>
         </section>
 
@@ -187,22 +173,6 @@ export default async function PrivacyPage({
           <p>We share data with the following third-party service providers:</p>
 
           <div className="space-y-4 mt-4">
-            <div className="bg-muted p-4 rounded-lg">
-              <h4 className="font-semibold">Ezoic Inc.</h4>
-              <p className="text-sm">
-                <strong>Purpose:</strong> Advertising platform
-              </p>
-              <p className="text-sm">
-                <strong>Data shared:</strong> Technical data, cookie data, ad interaction data
-              </p>
-              <p className="text-sm">
-                <strong>Privacy policy:</strong>{' '}
-                <a href="https://www.ezoic.com/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-                  ezoic.com/privacy-policy
-                </a>
-              </p>
-            </div>
-
             <div className="bg-muted p-4 rounded-lg">
               <h4 className="font-semibold">Vercel Inc.</h4>
               <p className="text-sm">
@@ -280,7 +250,7 @@ export default async function PrivacyPage({
           <h2 className="text-2xl font-semibold mb-4">11. International Data Transfers</h2>
           <p>
             Our Service is hosted within the European Union. However, some of our third-party service
-            providers (such as Ezoic and Vercel) may process data outside the EU/EEA.
+            providers (such as Vercel) may process data outside the EU/EEA.
           </p>
           <p>
             When data is transferred outside the EU/EEA, we ensure appropriate safeguards are in place,
@@ -289,7 +259,6 @@ export default async function PrivacyPage({
           <ul className="list-disc pl-6 space-y-2">
             <li>Standard Contractual Clauses approved by the European Commission</li>
             <li>Adequacy decisions by the European Commission</li>
-            <li>Privacy Shield framework (where applicable)</li>
           </ul>
         </section>
 
