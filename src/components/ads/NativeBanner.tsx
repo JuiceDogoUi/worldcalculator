@@ -12,41 +12,38 @@ interface NativeBannerProps {
  * Native Banner Component for Adsterra
  * Blends with content, placed below calculator widget
  *
- * Uses useEffect to inject scripts - works on both initial load and client navigation
+ * The container div must exist in DOM BEFORE the script loads
  */
 export function NativeBanner({ className }: NativeBannerProps) {
-  const containerRef = useRef<HTMLDivElement>(null)
+  const scriptContainerRef = useRef<HTMLDivElement>(null)
   const pathname = usePathname()
 
   useEffect(() => {
-    const container = containerRef.current
-    if (!container) return
+    const scriptContainer = scriptContainerRef.current
+    if (!scriptContainer) return
 
-    // Clear any existing content
-    container.innerHTML = ''
+    // Clear any existing scripts
+    scriptContainer.innerHTML = ''
 
-    // Create the container div that Adsterra will populate
-    const adContainer = document.createElement('div')
-    adContainer.id = 'container-b0b83e0ee95fbb7315903c71b5201f66'
-    container.appendChild(adContainer)
-
-    // Create invoke script
+    // Create invoke script - it will find the container div by ID
     const invokeScript = document.createElement('script')
     invokeScript.async = true
     invokeScript.setAttribute('data-cfasync', 'false')
     invokeScript.src = 'https://pl28366707.effectivegatecpm.com/b0b83e0ee95fbb7315903c71b5201f66/invoke.js'
-    container.appendChild(invokeScript)
+    scriptContainer.appendChild(invokeScript)
 
     // Cleanup on unmount
     return () => {
-      container.innerHTML = ''
+      scriptContainer.innerHTML = ''
     }
-  }, [pathname]) // Re-run when pathname changes
+  }, [pathname])
 
   return (
-    <div
-      ref={containerRef}
-      className={cn('w-full', className)}
-    />
+    <div className={cn('w-full', className)}>
+      {/* Container div must exist BEFORE script loads */}
+      <div id="container-b0b83e0ee95fbb7315903c71b5201f66" />
+      {/* Script injection container */}
+      <div ref={scriptContainerRef} />
+    </div>
   )
 }
