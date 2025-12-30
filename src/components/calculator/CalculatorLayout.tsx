@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server'
 import { Clock } from 'lucide-react'
 import { Card, CardContent } from '@/components/ui/card'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
+import { StickyBanner } from '@/components/ads/StickyBanner'
 
 interface CalculatorLayoutProps {
   /**
@@ -70,7 +71,12 @@ export async function CalculatorLayout({
   const t = await getTranslations('calculator')
 
   return (
-    <div className="container py-6 md:py-8">
+    <>
+      {/* Sticky Side Banners - Only visible on xl screens (1280px+) */}
+      <StickyBanner position="left" />
+      <StickyBanner position="right" />
+
+      <div className="container py-6 md:py-8">
       {/* Breadcrumbs with structured data */}
       <Breadcrumbs
         homeLabel={t('home')}
@@ -133,6 +139,7 @@ export async function CalculatorLayout({
           {relatedCalculators}
         </div>
       )}
-    </div>
+      </div>
+    </>
   )
 }
