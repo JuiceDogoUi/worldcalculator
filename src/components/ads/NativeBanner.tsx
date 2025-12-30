@@ -1,5 +1,6 @@
 'use client'
 
+import { useEffect, useRef } from 'react'
 import { cn } from '@/lib/utils'
 
 interface NativeBannerProps {
@@ -10,21 +11,40 @@ interface NativeBannerProps {
  * Native Banner Component for Adsterra
  * Blends with content, placed below calculator widget
  *
- * Uses exact Adsterra pattern: script followed by container div
+ * Uses useEffect to inject scripts - works on both initial load and client navigation
  */
 export function NativeBanner({ className }: NativeBannerProps) {
-  // Exact HTML pattern from Adsterra:
-  // <script async="async" data-cfasync="false" src="...invoke.js"></script>
-  // <div id="container-..."></div>
-  const adHtml = `
-    <script async="async" data-cfasync="false" src="https://pl28366707.effectivegatecpm.com/b0b83e0ee95fbb7315903c71b5201f66/invoke.js"></script>
-    <div id="container-b0b83e0ee95fbb7315903c71b5201f66"></div>
-  `
+  const containerRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const container = containerRef.current
+    if (!container) return
+
+    // Clear any existing content
+    container.innerHTML = ''
+
+    // Create the container div that Adsterra will populate
+    const adContainer = document.createElement('div')
+    adContainer.id = 'container-b0b83e0ee95fbb7315903c71b5201f66'
+    container.appendChild(adContainer)
+
+    // Create invoke script
+    const invokeScript = document.createElement('script')
+    invokeScript.async = true
+    invokeScript.setAttribute('data-cfasync', 'false')
+    invokeScript.src = 'https://pl28366707.effectivegatecpm.com/b0b83e0ee95fbb7315903c71b5201f66/invoke.js'
+    container.appendChild(invokeScript)
+
+    // Cleanup on unmount
+    return () => {
+      container.innerHTML = ''
+    }
+  }, [])
 
   return (
     <div
+      ref={containerRef}
       className={cn('w-full', className)}
-      dangerouslySetInnerHTML={{ __html: adHtml }}
     />
   )
 }

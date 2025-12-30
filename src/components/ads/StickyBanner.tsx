@@ -1,5 +1,6 @@
 'use client'
 
+import { useEffect, useRef } from 'react'
 import { cn } from '@/lib/utils'
 
 interface StickyBannerProps {
@@ -26,16 +27,23 @@ const AD_CONFIG = {
  * Left: 160x600, Right: 160x300
  * Only visible on xl screens (1280px+)
  *
- * Uses inline script injection matching Adsterra's exact pattern
+ * Uses useEffect to inject scripts - works on both initial load and client navigation
  */
 export function StickyBanner({ position, className }: StickyBannerProps) {
+  const containerRef = useRef<HTMLDivElement>(null)
   const config = AD_CONFIG[position]
 
-  // Generate the exact HTML pattern Adsterra expects:
-  // <script>atOptions = {...};</script>
-  // <script src="invoke.js"></script>
-  const adHtml = `
-    <script type="text/javascript">
+  useEffect(() => {
+    const container = containerRef.current
+    if (!container) return
+
+    // Clear any existing content
+    container.innerHTML = ''
+
+    // Create atOptions script
+    const optionsScript = document.createElement('script')
+    optionsScript.type = 'text/javascript'
+    optionsScript.textContent = `
       atOptions = {
         'key' : '${config.key}',
         'format' : 'iframe',
@@ -43,9 +51,20 @@ export function StickyBanner({ position, className }: StickyBannerProps) {
         'width' : ${config.width},
         'params' : {}
       };
-    </script>
-    <script type="text/javascript" src="https://www.highperformanceformat.com/${config.key}/invoke.js"></script>
-  `
+    `
+    container.appendChild(optionsScript)
+
+    // Create invoke script
+    const invokeScript = document.createElement('script')
+    invokeScript.type = 'text/javascript'
+    invokeScript.src = `https://www.highperformanceformat.com/${config.key}/invoke.js`
+    container.appendChild(invokeScript)
+
+    // Cleanup on unmount
+    return () => {
+      container.innerHTML = ''
+    }
+  }, [config.key, config.height, config.width])
 
   return (
     <div
@@ -58,10 +77,10 @@ export function StickyBanner({ position, className }: StickyBannerProps) {
       )}
     >
       <div
+        ref={containerRef}
         id={`adsterra-banner-${position}`}
         className="overflow-hidden"
         style={{ width: config.width, height: config.height }}
-        dangerouslySetInnerHTML={{ __html: adHtml }}
       />
     </div>
   )
