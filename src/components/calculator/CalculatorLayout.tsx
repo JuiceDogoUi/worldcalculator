@@ -5,6 +5,7 @@ import { Card, CardContent } from '@/components/ui/card'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { StickyBanner } from '@/components/ads/StickyBanner'
 import { NativeBanner } from '@/components/ads/NativeBanner'
+import { MobileBanner } from '@/components/ads/MobileBanner'
 
 interface CalculatorLayoutProps {
   /**
@@ -78,8 +79,11 @@ export async function CalculatorLayout({
       <StickyBanner position="right" />
 
       <div className="container py-6 md:py-8">
-      {/* Native Banner - Above breadcrumb */}
-      <NativeBanner className="mb-6" />
+      {/* Mobile Banner - Top (320x50) - Only on mobile */}
+      <MobileBanner position="top" className="mb-6" />
+
+      {/* Native Banner - Above breadcrumb - Only on desktop */}
+      <NativeBanner className="mb-6 hidden md:block" />
 
       {/* Breadcrumbs with structured data */}
       <Breadcrumbs
@@ -129,6 +133,8 @@ export async function CalculatorLayout({
         </div>
       )}
 
+      {/* Mobile Banner - Bottom (300x250) - Only on mobile, below widget */}
+      <MobileBanner position="bottom" className="mb-8" />
 
       {/* SEO Content Section */}
       {seoContent && (
