@@ -87,6 +87,57 @@ export function formatPercentage(
 }
 
 /**
+ * Format a number as a signed percentage (with + for positive values)
+ * Useful for ROI, gains/losses, and other financial metrics
+ *
+ * @param value - The percentage value (e.g., 25 for 25%, -10 for -10%)
+ * @param precision - Number of decimal places (default: 2)
+ * @param locale - BCP 47 language tag (default: 'en-US')
+ * @returns Formatted signed percentage string (e.g., "+25.00%", "-10.00%")
+ *
+ * @example
+ * ```ts
+ * formatSignedPercentage(25, 2, 'en-US') // "+25.00%"
+ * formatSignedPercentage(-10, 2, 'en-US') // "-10.00%"
+ * formatSignedPercentage(0, 2, 'en-US') // "0.00%"
+ * ```
+ */
+export function formatSignedPercentage(
+  value: number,
+  precision: number = 2,
+  locale: string = 'en-US'
+): string {
+  return new Intl.NumberFormat(locale, {
+    style: 'percent',
+    minimumFractionDigits: precision,
+    maximumFractionDigits: precision,
+    signDisplay: 'exceptZero',
+  }).format(value / 100)
+}
+
+/**
+ * Get currency symbol for a given locale and currency
+ *
+ * @param locale - BCP 47 language tag (default: 'en-US')
+ * @param currency - ISO 4217 currency code (default: 'USD')
+ * @returns Currency symbol (e.g., "$", "€", "£")
+ *
+ * @example
+ * ```ts
+ * getCurrencySymbol('en-US', 'USD') // "$"
+ * getCurrencySymbol('de-DE', 'EUR') // "€"
+ * ```
+ */
+export function getCurrencySymbol(locale: string, currency: string): string {
+  const parts = new Intl.NumberFormat(locale, {
+    style: 'currency',
+    currency,
+  }).formatToParts(0)
+
+  return parts.find(part => part.type === 'currency')?.value || currency
+}
+
+/**
  * Format a number with locale-specific thousands separators and decimals
  *
  * @param value - The numeric value to format

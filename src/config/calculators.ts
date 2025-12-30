@@ -59,6 +59,18 @@ export const calculators: Calculator[] = [
     relatedCalculators: ['compound-interest', 'loan', 'mortgage'],
     lastModified: '2025-12-29',
   },
+  {
+    id: 'roi-calculator',
+    slug: 'roi',
+    category: 'finance',
+    translationKey: 'calculators.finance.roi',
+    icon: 'TrendingUp',
+    featured: true,
+    difficulty: 'easy',
+    estimatedTime: 90,
+    relatedCalculators: ['compound-interest', 'savings-goal', 'loan'],
+    lastModified: '2025-12-30',
+  },
 
   // Math Calculators
   {
