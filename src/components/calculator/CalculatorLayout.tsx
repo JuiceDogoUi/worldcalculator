@@ -4,6 +4,7 @@ import { Clock } from 'lucide-react'
 import { Card, CardContent } from '@/components/ui/card'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { StickyBanner } from '@/components/ads/StickyBanner'
+import { NativeBanner } from '@/components/ads/NativeBanner'
 
 interface CalculatorLayoutProps {
   /**
@@ -124,6 +125,9 @@ export async function CalculatorLayout({
           {widget}
         </div>
       )}
+
+      {/* Native Banner - Below widget */}
+      <NativeBanner className="mb-8" />
 
       {/* SEO Content Section */}
       {seoContent && (

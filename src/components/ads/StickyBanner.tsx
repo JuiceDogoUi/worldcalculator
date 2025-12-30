@@ -8,49 +8,59 @@ interface StickyBannerProps {
   className?: string
 }
 
+// Ad configurations for each position
+const AD_CONFIG = {
+  left: {
+    key: 'ff36d6e872b075b342f94cd3829aa347',
+    height: 600,
+    width: 160,
+  },
+  right: {
+    key: '9f3e0ac2372b6fc6ad5cb300bd510d6d',
+    height: 300,
+    width: 160,
+  },
+} as const
+
 /**
- * Sticky Vertical Banner Component for Adsterra 160x600 banner
- * Only visible on xl screens (1280px+) to avoid cluttering mobile/tablet
+ * Sticky Vertical Banner Component for Adsterra banners
+ * Left: 160x600, Right: 160x300
+ * Only visible on xl screens (1280px+)
  */
 export function StickyBanner({ position, className }: StickyBannerProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const [isLoaded, setIsLoaded] = useState(false)
 
-  useEffect(() => {
-    // Only load once
-    if (isLoaded || !containerRef.current) return
+  const config = AD_CONFIG[position]
 
-    // Check if script already exists in this container
+  useEffect(() => {
+    if (isLoaded || !containerRef.current) return
     if (containerRef.current.querySelector('script')) return
 
     setIsLoaded(true)
 
     // Set atOptions on window before loading script
     ;(window as unknown as Record<string, unknown>).atOptions = {
-      key: 'ff36d6e872b075b342f94cd3829aa347',
+      key: config.key,
       format: 'iframe',
-      height: 600,
-      width: 160,
+      height: config.height,
+      width: config.width,
       params: {},
     }
 
     // Create and append the script
     const script = document.createElement('script')
-    script.src = 'https://www.highperformanceformat.com/ff36d6e872b075b342f94cd3829aa347/invoke.js'
+    script.src = `https://www.highperformanceformat.com/${config.key}/invoke.js`
     script.async = true
     containerRef.current.appendChild(script)
-  }, [isLoaded])
+  }, [isLoaded, config])
 
   return (
     <div
       className={cn(
-        // Hidden on mobile/tablet, visible on xl screens (1280px+)
         'hidden xl:block',
-        // Fixed positioning on viewport edge
         'fixed top-1/2 -translate-y-1/2',
-        // Z-index below modals but above content
         'z-40',
-        // Position based on side
         position === 'left' ? 'left-2' : 'right-2',
         className
       )}
@@ -58,7 +68,8 @@ export function StickyBanner({ position, className }: StickyBannerProps) {
       <div
         ref={containerRef}
         id={`adsterra-banner-${position}`}
-        className="w-[160px] h-[600px] overflow-hidden"
+        className="overflow-hidden"
+        style={{ width: config.width, height: config.height }}
       />
     </div>
   )
