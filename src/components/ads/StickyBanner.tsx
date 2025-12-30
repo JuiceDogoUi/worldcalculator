@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
+import { usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils'
 
 interface StickyBannerProps {
@@ -31,6 +32,7 @@ const AD_CONFIG = {
  */
 export function StickyBanner({ position, className }: StickyBannerProps) {
   const containerRef = useRef<HTMLDivElement>(null)
+  const pathname = usePathname()
   const config = AD_CONFIG[position]
 
   useEffect(() => {
@@ -73,7 +75,7 @@ export function StickyBanner({ position, className }: StickyBannerProps) {
       clearTimeout(timeoutId)
       container.innerHTML = ''
     }
-  }, [config.key, config.height, config.width, position])
+  }, [config.key, config.height, config.width, position, pathname]) // Re-run when pathname changes
 
   return (
     <div

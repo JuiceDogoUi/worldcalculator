@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
+import { usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils'
 
 interface NativeBannerProps {
@@ -15,6 +16,7 @@ interface NativeBannerProps {
  */
 export function NativeBanner({ className }: NativeBannerProps) {
   const containerRef = useRef<HTMLDivElement>(null)
+  const pathname = usePathname()
 
   useEffect(() => {
     const container = containerRef.current
@@ -39,7 +41,7 @@ export function NativeBanner({ className }: NativeBannerProps) {
     return () => {
       container.innerHTML = ''
     }
-  }, [])
+  }, [pathname]) // Re-run when pathname changes
 
   return (
     <div
