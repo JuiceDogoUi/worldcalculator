@@ -78,6 +78,9 @@ export async function CalculatorLayout({
       <StickyBanner position="right" />
 
       <div className="container py-6 md:py-8">
+      {/* Native Banner - Above breadcrumb */}
+      <NativeBanner className="mb-6" />
+
       {/* Breadcrumbs with structured data */}
       <Breadcrumbs
         homeLabel={t('home')}
@@ -126,8 +129,6 @@ export async function CalculatorLayout({
         </div>
       )}
 
-      {/* Native Banner - Below widget */}
-      <NativeBanner className="mb-8" />
 
       {/* SEO Content Section */}
       {seoContent && (
