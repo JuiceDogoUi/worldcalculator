@@ -3,9 +3,9 @@ import { unstable_setRequestLocale } from 'next-intl/server'
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: 'Privacy Policy | World Calculator',
+    title: 'Privacy Policy & Terms of Service | World Calculator',
     description:
-      'Privacy policy and data protection information for World Calculator users. Learn how we handle your data in compliance with GDPR and EU regulations.',
+      'Privacy policy, terms of service, and data protection information for World Calculator users. Learn how we handle your data in compliance with GDPR and EU regulations.',
     robots: {
       index: true,
       follow: true,
@@ -23,7 +23,7 @@ export default async function PrivacyPage({
 
   return (
     <div className="container mx-auto px-4 py-12 max-w-4xl">
-      <h1 className="text-4xl font-bold mb-8">Privacy Policy</h1>
+      <h1 className="text-4xl font-bold mb-8">Privacy Policy & Terms of Service</h1>
 
       <div className="prose prose-slate max-w-none">
         <p className="text-sm text-muted-foreground mb-8">
@@ -158,6 +158,18 @@ export default async function PrivacyPage({
                 <li>Geographic and demographic insights (anonymized)</li>
               </ul>
             </div>
+
+            <div className="border-l-4 border-yellow-500 pl-4">
+              <h4 className="font-semibold">Advertising Cookies</h4>
+              <p className="text-sm text-muted-foreground">
+                Used to deliver relevant advertisements and measure ad performance.
+              </p>
+              <ul className="list-disc pl-6 mt-2 text-sm">
+                <li>Google AdSense: Ad personalization and delivery</li>
+                <li>Interest-based advertising</li>
+                <li>Ad frequency capping and measurement</li>
+              </ul>
+            </div>
           </div>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">7.2 Managing Cookies</h3>
@@ -185,6 +197,28 @@ export default async function PrivacyPage({
                 <strong>Privacy policy:</strong>{' '}
                 <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
                   vercel.com/legal/privacy-policy
+                </a>
+              </p>
+            </div>
+
+            <div className="bg-muted p-4 rounded-lg">
+              <h4 className="font-semibold">Google AdSense</h4>
+              <p className="text-sm">
+                <strong>Purpose:</strong> Advertising
+              </p>
+              <p className="text-sm">
+                <strong>Data shared:</strong> Cookies, device identifiers, browsing behavior for personalized ads
+              </p>
+              <p className="text-sm">
+                <strong>Privacy policy:</strong>{' '}
+                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                  policies.google.com/privacy
+                </a>
+              </p>
+              <p className="text-sm mt-2">
+                Google uses cookies to serve ads based on your prior visits. You can opt out of personalized advertising at{' '}
+                <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                  google.com/settings/ads
                 </a>
               </p>
             </div>
@@ -318,6 +352,115 @@ export default async function PrivacyPage({
             <p>Ahtri tn 12, 15551 Tallinn, Estonia</p>
             <p>Email: <a href="mailto:legal@invoo.es" className="text-primary hover:underline">legal@invoo.es</a></p>
           </div>
+        </section>
+
+        {/* Terms of Service Divider */}
+        <div className="border-t-4 border-primary my-12 pt-8">
+          <h1 className="text-4xl font-bold mb-8">Terms of Service</h1>
+        </div>
+
+        {/* Terms Introduction */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4">1. Acceptance of Terms</h2>
+          <p>
+            By accessing and using World Calculator (&quot;the Service&quot;), you accept and agree to be bound
+            by these Terms of Service. If you do not agree to these terms, please do not use our Service.
+          </p>
+        </section>
+
+        {/* Service Description */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4">2. Description of Service</h2>
+          <p>
+            World Calculator provides free online calculator tools for finance, health, math, and other
+            purposes. The Service is provided &quot;as is&quot; and is intended for informational and educational
+            purposes only.
+          </p>
+        </section>
+
+        {/* Use of Service */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4">3. Acceptable Use</h2>
+          <p>You agree to use the Service only for lawful purposes and in accordance with these Terms. You agree not to:</p>
+          <ul className="list-disc pl-6 space-y-2 mt-4">
+            <li>Use the Service in any way that violates applicable laws or regulations</li>
+            <li>Attempt to interfere with or disrupt the Service or its servers</li>
+            <li>Use automated systems or software to extract data from the Service</li>
+            <li>Impersonate or attempt to impersonate World Calculator or its representatives</li>
+          </ul>
+        </section>
+
+        {/* Disclaimer */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4">4. Disclaimer of Warranties</h2>
+          <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 p-4 rounded-lg">
+            <p className="font-semibold text-yellow-900 dark:text-yellow-100 mb-2">
+              Important Notice
+            </p>
+            <p className="text-yellow-800 dark:text-yellow-200">
+              The calculations provided by World Calculator are for informational purposes only and should
+              not be considered as professional financial, medical, legal, or other advice. Always consult
+              with qualified professionals for important decisions.
+            </p>
+          </div>
+          <p className="mt-4">
+            We make no warranties or representations about the accuracy, reliability, or completeness of the
+            calculations. While we strive for accuracy, errors may occur. Use the results at your own discretion.
+          </p>
+        </section>
+
+        {/* Limitation of Liability */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4">5. Limitation of Liability</h2>
+          <p>
+            To the fullest extent permitted by law, World Calculator and its operators shall not be liable
+            for any indirect, incidental, special, consequential, or punitive damages, including but not
+            limited to loss of profits, data, or other intangible losses, resulting from:
+          </p>
+          <ul className="list-disc pl-6 space-y-2 mt-4">
+            <li>Your use or inability to use the Service</li>
+            <li>Any errors or inaccuracies in the calculations</li>
+            <li>Unauthorized access to or alteration of your data</li>
+            <li>Any third-party conduct on the Service</li>
+          </ul>
+        </section>
+
+        {/* Intellectual Property */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4">6. Intellectual Property</h2>
+          <p>
+            The Service and its original content, features, and functionality are owned by World Calculator
+            and are protected by international copyright, trademark, and other intellectual property laws.
+          </p>
+        </section>
+
+        {/* Modifications */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4">7. Modifications to Terms</h2>
+          <p>
+            We reserve the right to modify these Terms at any time. We will notify users of any material
+            changes by updating the &quot;Last updated&quot; date at the top of this page. Your continued use of
+            the Service after any changes constitutes acceptance of the new Terms.
+          </p>
+        </section>
+
+        {/* Governing Law */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4">8. Governing Law</h2>
+          <p>
+            These Terms shall be governed by and construed in accordance with the laws of Estonia, without
+            regard to its conflict of law provisions. Any disputes arising from these Terms or the Service
+            shall be subject to the exclusive jurisdiction of the courts of Estonia.
+          </p>
+        </section>
+
+        {/* Contact for Terms */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4">9. Contact Information</h2>
+          <p>
+            If you have any questions about these Terms of Service, please contact us at{' '}
+            <a href="mailto:legal@invoo.es" className="text-primary hover:underline">legal@invoo.es</a>.
+          </p>
         </section>
       </div>
     </div>

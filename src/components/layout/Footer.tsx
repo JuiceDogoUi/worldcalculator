@@ -46,6 +46,29 @@ export async function Footer() {
             </ul>
           </div>
 
+          {/* Company Section */}
+          <div className="space-y-3">
+            <h3 className="text-sm font-semibold">{tFooter('companyTitle')}</h3>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link
+                  href="/about"
+                  className="text-muted-foreground transition-colors hover:text-foreground"
+                >
+                  {tFooter('about')}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="text-muted-foreground transition-colors hover:text-foreground"
+                >
+                  {tFooter('contact')}
+                </Link>
+              </li>
+            </ul>
+          </div>
+
           {/* Legal Section */}
           <div className="space-y-3">
             <h3 className="text-sm font-semibold">{tFooter('legalTitle')}</h3>

@@ -118,8 +118,11 @@
   "footer": {
     "description": "Free online calculators for all your needs",
     "categoriesTitle": "Categories",
+    "companyTitle": "Company",
+    "about": "About Us",
+    "contact": "Contact Us",
     "legalTitle": "Legal",
-    "privacy": "Privacy Policy",
+    "privacy": "Privacy & Terms",
     "copyright": "All rights reserved"
   },
   "calculator": {

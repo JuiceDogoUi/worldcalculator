@@ -118,8 +118,11 @@
   "footer": {
     "description": "Kostenlose Online-Rechner für alle Ihre Bedürfnisse",
     "categoriesTitle": "Kategorien",
+    "companyTitle": "Unternehmen",
+    "about": "Über Uns",
+    "contact": "Kontakt",
     "legalTitle": "Rechtliches",
-    "privacy": "Datenschutzrichtlinie",
+    "privacy": "Datenschutz & AGB",
     "copyright": "Alle Rechte vorbehalten"
   },
   "calculator": {

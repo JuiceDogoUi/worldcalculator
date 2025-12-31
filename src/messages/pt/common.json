@@ -118,8 +118,11 @@
   "footer": {
     "description": "Calculadoras online gratuitas para todas as suas necessidades",
     "categoriesTitle": "Categorias",
+    "companyTitle": "Empresa",
+    "about": "Sobre Nós",
+    "contact": "Contato",
     "legalTitle": "Legal",
-    "privacy": "Política de Privacidade",
+    "privacy": "Privacidade e Termos",
     "copyright": "Todos os direitos reservados"
   },
   "calculator": {
