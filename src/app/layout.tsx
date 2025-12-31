@@ -46,14 +46,12 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning>
-      <head>
-        {/* Adsterra Popunder */}
+      <body>
         <Script
-          src="https://bouncingbuzz.com/0c/ca/2c/0cca2c89902512bd6feb2be1959b1e92.js"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7899464715113939"
+          crossOrigin="anonymous"
           strategy="afterInteractive"
         />
-      </head>
-      <body>
         {children}
       </body>
     </html>
