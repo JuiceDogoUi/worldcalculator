@@ -5,6 +5,8 @@ import { locales, localeConfigs } from '@/i18n/locales'
 import { Header } from '@/components/layout/Header'
 import { Navigation } from '@/components/layout/Navigation'
 import { Footer } from '@/components/layout/Footer'
+import { CookieConsent } from '@/components/CookieConsent'
+import { AdSense } from '@/components/AdSense'
 import {
   generateOrganizationSchema,
   generateWebSiteSchema,
@@ -89,12 +91,14 @@ export default async function LocaleLayout({
       />
 
       <NextIntlClientProvider locale={locale} messages={messages}>
+        <AdSense />
         <div className="min-h-screen flex flex-col" dir={config?.direction} lang={locale}>
           <Header />
           <Navigation />
           <main className="flex-grow">{children}</main>
           <Footer />
         </div>
+        <CookieConsent locale={locale} />
         <Analytics />
         <SpeedInsights />
       </NextIntlClientProvider>

@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from 'next'
-import Script from 'next/script'
 import './globals.css'
 
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.worldcalculator.org'
@@ -46,12 +45,26 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning>
-      <body>
-        <Script
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7899464715113939"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
+      <head>
+        {/* Set AdSense personalization based on cookie consent - must run before AdSense loads */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var consent = localStorage.getItem('cookie-consent');
+                  window.adsbygoogle = window.adsbygoogle || [];
+                  window.adsbygoogle.requestNonPersonalizedAds = (consent === 'accepted') ? 0 : 1;
+                } catch(e) {
+                  window.adsbygoogle = window.adsbygoogle || [];
+                  window.adsbygoogle.requestNonPersonalizedAds = 1;
+                }
+              })();
+            `,
+          }}
         />
+      </head>
+      <body>
         {children}
       </body>
     </html>

@@ -1,0 +1,298 @@
+{
+  "about": {
+    "meta": {
+      "title": "Sobre Nós | World Calculator",
+      "description": "A World Calculator é criada por programadores e matemáticos apaixonados por tornar os cálculos rápidos, precisos e acessíveis a todos."
+    },
+    "title": "Sobre a World Calculator",
+    "mission": {
+      "title": "A Nossa Missão",
+      "content": "Acreditamos que todos merecem acesso a calculadoras rápidas, precisas e fáceis de usar. Quer esteja a planear uma hipoteca, a acompanhar os seus objetivos de fitness ou a resolver um problema matemático, nós temos a solução."
+    },
+    "whoWeAre": {
+      "title": "Quem Somos",
+      "content1": "A World Calculator é desenvolvida por uma pequena equipa de engenheiros de software e matemáticos que partilham uma paixão simples: tornar os cálculos mais rápidos e acessíveis para todos.",
+      "content2": "Dedicámos inúmeras horas a aperfeiçoar fórmulas, otimizar o desempenho e desenhar interfaces que simplesmente funcionam. Sem necessidade de registo, sem recolha de dados dos seus cálculos. Apenas ferramentas puras e fiáveis."
+    },
+    "different": {
+      "title": "O Que Nos Torna Diferentes",
+      "free": {
+        "title": "100% Grátis",
+        "description": "Todas as calculadoras são completamente gratuitas para usar, para sempre. Sem planos premium ou funcionalidades ocultas."
+      },
+      "privacy": {
+        "title": "Privacidade em Primeiro",
+        "description": "Os seus cálculos permanecem no seu navegador. Nunca vemos, armazenamos ou vendemos os seus dados."
+      },
+      "precision": {
+        "title": "A Precisão Importa",
+        "description": "Criada por matemáticos obcecados pela precisão. Cada fórmula é verificada e testada."
+      },
+      "everywhere": {
+        "title": "Funciona em Todo o Lado",
+        "description": "Disponível em 6 idiomas com formatação específica por região. Use em qualquer dispositivo."
+      }
+    },
+    "future": {
+      "title": "O Que Vem a Seguir: Cálculos com IA",
+      "content": "Estamos a trabalhar na próxima evolução da World Calculator: ferramentas aprimoradas com IA que entendem as suas perguntas em linguagem natural e o guiam para a resposta certa.",
+      "comingSoon": "Brevemente"
+    },
+    "cta": {
+      "text": "Tem perguntas, sugestões ou apenas quer dizer olá?",
+      "button": "Entre em Contacto"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contacto | World Calculator",
+      "description": "Entre em contacto com a equipa da World Calculator. As suas perguntas, comentários e sugestões são bem-vindos."
+    },
+    "title": "Contacto",
+    "intro": "Adoraríamos ouvir de si! Quer tenha uma pergunta, tenha encontrado um erro ou queira sugerir uma nova calculadora, estamos aqui para ajudar.",
+    "email": {
+      "title": "Envie-nos um E-mail",
+      "description": "A forma mais rápida de nos contactar é por e-mail. Normalmente respondemos em 24-48 horas.",
+      "button": "Entre em Contacto"
+    },
+    "help": {
+      "title": "Como Podemos Ajudar?",
+      "questions": {
+        "title": "Perguntas Gerais",
+        "description": "Perguntas sobre como usar as nossas calculadoras ou interpretar resultados."
+      },
+      "bugs": {
+        "title": "Relatórios de Erros",
+        "description": "Encontrou algo que não funciona corretamente? Informe-nos e iremos corrigi-lo."
+      },
+      "features": {
+        "title": "Pedidos de Funcionalidades",
+        "description": "Tem uma ideia para uma nova calculadora? Estamos sempre a procurar expandir."
+      }
+    },
+    "thanks": "Lemos todas as mensagens e fazemos o nosso melhor para responder rapidamente.\nObrigado por usar a World Calculator!"
+  },
+  "privacy": {
+    "meta": {
+      "title": "Política de Privacidade e Termos de Serviço | World Calculator",
+      "description": "Política de privacidade, termos de serviço e informação de proteção de dados para utilizadores da World Calculator. Saiba como tratamos os seus dados em conformidade com o RGPD e regulamentos da UE."
+    },
+    "lastUpdated": "Última atualização: 31 de dezembro de 2025",
+    "privacyTitle": "Política de Privacidade e Termos de Serviço",
+    "introduction": {
+      "title": "1. Introdução",
+      "content1": "A World Calculator (\"nós\", \"nosso\" ou \"nos\") está comprometida em proteger a sua privacidade e dados pessoais. Esta política de privacidade explica como recolhemos, usamos e protegemos a sua informação quando usa a nossa plataforma gratuita de calculadoras online em worldcalculator.org (o \"Serviço\").",
+      "content2": "Cumprimos com o Regulamento Geral sobre a Proteção de Dados (RGPD) (UE) 2016/679 e outras leis aplicáveis de proteção de dados."
+    },
+    "dataController": {
+      "title": "2. Responsável pelo Tratamento de Dados",
+      "intro": "O responsável pelo tratamento dos seus dados pessoais é:",
+      "company": "Roques OÜ",
+      "address1": "Ahtri tn 12",
+      "address2": "15551 Tallinn, Estónia",
+      "email": "E-mail: legal@invoo.es"
+    },
+    "calculatorPrivacy": {
+      "title": "3. Privacidade de Dados das Calculadoras",
+      "highlight": "Não armazenamos, recolhemos nem vendemos os dados que introduz nas nossas calculadoras.",
+      "content": "Todas as entradas e resultados das calculadoras são processados inteiramente no seu navegador. Os seus cálculos nunca saem do seu dispositivo e não são transmitidos aos nossos servidores. Não temos acesso aos números, quantias ou qualquer outra informação que introduza nas nossas calculadoras."
+    },
+    "dataCollect": {
+      "title": "4. Dados Que Recolhemos",
+      "intro": "Recolhemos as seguintes categorias de informação:",
+      "technical": {
+        "title": "4.1 Dados Técnicos",
+        "items": [
+          "Endereço IP",
+          "Tipo e versão do navegador",
+          "Tipo de dispositivo e sistema operativo",
+          "Páginas visitadas e tempo nas páginas",
+          "Fonte de referência",
+          "Localização geográfica geral (nível país/cidade)"
+        ]
+      },
+      "cookie": {
+        "title": "4.2 Dados de Cookies",
+        "content": "Usamos cookies e tecnologias de rastreamento semelhantes para melhorar a sua experiência. Consulte a Secção 7 para informação detalhada sobre cookies."
+      }
+    },
+    "purpose": {
+      "title": "5. Finalidade do Processamento",
+      "intro": "Processamos os seus dados para as seguintes finalidades:",
+      "provision": "Prestação do Serviço: Para fornecer as nossas ferramentas de calculadora gratuitas e garantir o seu correto funcionamento",
+      "analytics": "Análise: Para entender como os visitantes usam o nosso Serviço e melhorar a experiência do utilizador",
+      "security": "Segurança: Para detetar e prevenir fraude, abuso e incidentes de segurança",
+      "legal": "Cumprimento Legal: Para cumprir com as leis e regulamentos aplicáveis"
+    },
+    "legalBasis": {
+      "title": "6. Base Legal para o Processamento",
+      "intro": "Sob o RGPD, processamos os seus dados pessoais com base em:",
+      "legitimate": "Interesse Legítimo (Artigo 6.º(1)(f)): Para operar e melhorar o nosso Serviço, realizar análises e garantir a segurança",
+      "consent": "Consentimento (Artigo 6.º(1)(a)): Para cookies não essenciais (pode retirar o consentimento a qualquer momento)",
+      "obligation": "Obrigação Legal (Artigo 6.º(1)(c)): Para cumprir com as leis aplicáveis"
+    },
+    "cookies": {
+      "title": "7. Cookies e Tecnologias de Rastreamento",
+      "intro": "Usamos cookies para melhorar a sua experiência. Os cookies são pequenos ficheiros de texto armazenados no seu dispositivo que nos ajudam a reconhecê-lo e lembrar as suas preferências.",
+      "types": {
+        "title": "7.1 Tipos de Cookies Que Usamos",
+        "essential": {
+          "title": "Cookies Essenciais (Necessários)",
+          "description": "Estes cookies são necessários para o funcionamento do website e não podem ser desativados.",
+          "items": [
+            "Gestão de sessão",
+            "Segurança e prevenção de fraude",
+            "Preferências de consentimento de privacidade"
+          ]
+        },
+        "analytics": {
+          "title": "Cookies de Análise",
+          "description": "Ajudam-nos a entender como os visitantes interagem com o nosso website.",
+          "items": [
+            "Vercel Analytics: Monitorização de desempenho",
+            "Visualizações de página e padrões de navegação",
+            "Informação geográfica e demográfica (anonimizada)"
+          ]
+        },
+        "advertising": {
+          "title": "Cookies Publicitários",
+          "description": "Utilizados para apresentar anúncios relevantes e medir o desempenho dos anúncios.",
+          "items": [
+            "Google AdSense: Personalização e entrega de anúncios",
+            "Publicidade baseada em interesses",
+            "Limitação de frequência e medição de anúncios"
+          ]
+        }
+      },
+      "consent": {
+        "title": "7.2 Consentimento de Cookies",
+        "intro": "Quando visita o nosso website pela primeira vez, verá um banner de consentimento de cookies na parte inferior da página. Pode escolher aceitar ou recusar a publicidade personalizada.",
+        "accept": "Se aceitar: Verá anúncios personalizados baseados nos seus interesses e comportamento de navegação, o que ajuda a manter o nosso serviço gratuito.",
+        "decline": "Se recusar: Verá anúncios não personalizados (genéricos) que não se baseiam no seu histórico de navegação. Ainda pode usar todas as nossas calculadoras sem limitações.",
+        "preference": "A sua preferência é armazenada no seu navegador. Para alterar a sua preferência, clique em \"Configurações de Cookies\" no rodapé."
+      },
+      "management": {
+        "title": "7.3 Gerir Cookies no Seu Navegador",
+        "content": "Também pode controlar e eliminar cookies através das definições do seu navegador. No entanto, desativar cookies pode afetar a funcionalidade do nosso Serviço."
+      }
+    },
+    "thirdParty": {
+      "title": "8. Serviços de Terceiros",
+      "intro": "Partilhamos dados com os seguintes fornecedores de serviços de terceiros:",
+      "vercel": {
+        "name": "Vercel Inc.",
+        "purpose": "Finalidade: Alojamento e análise",
+        "data": "Dados partilhados: Dados técnicos, visualizações de página, métricas de desempenho",
+        "privacy": "Política de privacidade: vercel.com/legal/privacy-policy"
+      },
+      "adsense": {
+        "name": "Google AdSense",
+        "purpose": "Finalidade: Publicidade",
+        "data": "Dados partilhados: Cookies, identificadores de dispositivo, comportamento de navegação para anúncios personalizados",
+        "privacy": "Política de privacidade: policies.google.com/privacy",
+        "optOut": "A Google usa cookies para apresentar anúncios baseados nas suas visitas anteriores. Pode optar por não receber publicidade personalizada em google.com/settings/ads"
+      }
+    },
+    "retention": {
+      "title": "9. Retenção de Dados",
+      "intro": "Retemos os seus dados durante os seguintes períodos:",
+      "analytics": "Dados de análise: Até 24 meses",
+      "logs": "Registos do servidor: Até 90 dias",
+      "cookies": "Dados de cookies: Varia conforme o tipo de cookie (consulte as definições de cookies para detalhes)",
+      "calculator": "Os dados de entrada das calculadoras não são retidos pois nunca saem do seu navegador."
+    },
+    "rights": {
+      "title": "10. Os Seus Direitos Sob o RGPD",
+      "intro": "Tem os seguintes direitos relativamente aos seus dados pessoais:",
+      "access": "Direito de Acesso: Solicitar uma cópia dos dados pessoais que temos sobre si",
+      "rectification": "Direito de Retificação: Solicitar a correção de dados incorretos ou incompletos",
+      "erasure": "Direito ao Apagamento (\"Direito a Ser Esquecido\"): Solicitar a eliminação dos seus dados pessoais",
+      "restriction": "Direito de Limitação: Solicitar a limitação do processamento dos seus dados",
+      "portability": "Direito à Portabilidade de Dados: Receber os seus dados num formato estruturado e legível por máquina",
+      "object": "Direito de Oposição: Opor-se ao processamento baseado em interesses legítimos",
+      "withdraw": "Direito de Retirar o Consentimento: Retirar o seu consentimento para o processamento baseado em cookies a qualquer momento",
+      "exercise": "Para exercer qualquer um destes direitos, contacte-nos em legal@invoo.es. Responderemos no prazo de um mês.",
+      "complaint": "Se não estiver satisfeito com a nossa resposta, tem o direito de apresentar uma reclamação junto da sua autoridade local de proteção de dados."
+    },
+    "transfers": {
+      "title": "11. Transferências Internacionais de Dados",
+      "intro": "O nosso Serviço está alojado dentro da União Europeia. No entanto, alguns dos nossos fornecedores de serviços de terceiros (como a Vercel) podem processar dados fora da UE/EEE.",
+      "safeguards": "Quando os dados são transferidos para fora da UE/EEE, garantimos que existem salvaguardas apropriadas, incluindo:",
+      "clauses": "Cláusulas Contratuais Tipo aprovadas pela Comissão Europeia",
+      "adequacy": "Decisões de adequação da Comissão Europeia"
+    },
+    "security": {
+      "title": "12. Segurança de Dados",
+      "intro": "Implementamos medidas técnicas e organizacionais apropriadas para proteger os seus dados pessoais contra acesso não autorizado, alteração, divulgação ou destruição, incluindo:",
+      "https": "Encriptação HTTPS para toda a transmissão de dados",
+      "hosting": "Infraestrutura de alojamento segura com atualizações de segurança regulares",
+      "access": "Controlos de acesso e mecanismos de autenticação",
+      "audits": "Auditorias e monitorização de segurança regulares",
+      "disclaimer": "No entanto, nenhum método de transmissão pela Internet é 100% seguro. Embora nos esforcemos para proteger os seus dados, não podemos garantir segurança absoluta."
+    },
+    "children": {
+      "title": "13. Privacidade de Menores",
+      "content": "O nosso Serviço não se destina a menores de 16 anos. Não recolhemos conscientemente dados pessoais de menores de 16 anos. Se acredita que recolhemos dados de um menor de 16 anos, contacte-nos imediatamente."
+    },
+    "changes": {
+      "title": "14. Alterações a Esta Política de Privacidade",
+      "content1": "Podemos atualizar esta política de privacidade periodicamente para refletir mudanças nas nossas práticas ou por razões legais, operacionais ou regulamentares. Notificá-lo-emos de quaisquer alterações materiais publicando a política atualizada nesta página com uma nova data de \"Última atualização\".",
+      "content2": "Encorajamo-lo a rever esta política de privacidade periodicamente para se manter informado sobre como protegemos os seus dados."
+    },
+    "privacyContact": {
+      "title": "15. Contacte-nos",
+      "intro": "Se tiver alguma pergunta, preocupação ou pedido relativamente a esta política de privacidade ou às nossas práticas de dados, contacte-nos:",
+      "officer": "Encarregado de Proteção de Dados",
+      "company": "Roques OÜ",
+      "address": "Ahtri tn 12, 15551 Tallinn, Estónia",
+      "email": "E-mail: legal@invoo.es"
+    },
+    "termsTitle": "Termos de Serviço",
+    "acceptance": {
+      "title": "1. Aceitação dos Termos",
+      "content": "Ao aceder e usar a World Calculator (\"o Serviço\"), aceita e concorda em ficar vinculado a estes Termos de Serviço. Se não concordar com estes termos, por favor não use o nosso Serviço."
+    },
+    "description": {
+      "title": "2. Descrição do Serviço",
+      "content": "A World Calculator fornece ferramentas de calculadora online gratuitas para finanças, saúde, matemática e outros fins. O Serviço é fornecido \"como está\" e destina-se apenas a fins informativos e educacionais."
+    },
+    "acceptable": {
+      "title": "3. Uso Aceitável",
+      "intro": "Concorda em usar o Serviço apenas para fins legais e de acordo com estes Termos. Concorda em não:",
+      "violate": "Usar o Serviço de qualquer forma que viole leis ou regulamentos aplicáveis",
+      "interfere": "Tentar interferir ou interromper o Serviço ou os seus servidores",
+      "extract": "Usar sistemas automatizados ou software para extrair dados do Serviço",
+      "impersonate": "Fazer-se passar ou tentar fazer-se passar pela World Calculator ou pelos seus representantes"
+    },
+    "disclaimer": {
+      "title": "4. Renúncia de Garantias",
+      "notice": "Aviso Importante",
+      "highlight": "Os cálculos fornecidos pela World Calculator são apenas para fins informativos e não devem ser considerados como aconselhamento profissional financeiro, médico, jurídico ou outro. Consulte sempre profissionais qualificados para decisões importantes.",
+      "accuracy": "Não fazemos garantias ou representações sobre a precisão, fiabilidade ou completude dos cálculos. Embora nos esforcemos pela precisão, podem ocorrer erros. Use os resultados a seu próprio critério."
+    },
+    "liability": {
+      "title": "5. Limitação de Responsabilidade",
+      "intro": "Na máxima medida permitida por lei, a World Calculator e os seus operadores não serão responsáveis por quaisquer danos indiretos, incidentais, especiais, consequenciais ou punitivos, incluindo mas não limitado a perda de lucros, dados ou outras perdas intangíveis, resultantes de:",
+      "use": "O seu uso ou incapacidade de usar o Serviço",
+      "errors": "Quaisquer erros ou imprecisões nos cálculos",
+      "access": "Acesso não autorizado ou alteração dos seus dados",
+      "conduct": "Qualquer conduta de terceiros no Serviço"
+    },
+    "intellectual": {
+      "title": "6. Propriedade Intelectual",
+      "content": "O Serviço e o seu conteúdo, funcionalidades e características originais são propriedade da World Calculator e estão protegidos por leis internacionais de direitos de autor, marcas registadas e outras leis de propriedade intelectual."
+    },
+    "modifications": {
+      "title": "7. Modificações aos Termos",
+      "content": "Reservamo-nos o direito de modificar estes Termos a qualquer momento. Notificaremos os utilizadores de quaisquer alterações materiais atualizando a data de \"Última atualização\" no topo desta página. O seu uso continuado do Serviço após quaisquer alterações constitui aceitação dos novos Termos."
+    },
+    "governing": {
+      "title": "8. Lei Aplicável",
+      "content": "Estes Termos serão regidos e interpretados de acordo com as leis da Estónia, sem considerar as suas disposições sobre conflitos de leis. Quaisquer disputas decorrentes destes Termos ou do Serviço estarão sujeitas à jurisdição exclusiva dos tribunais da Estónia."
+    },
+    "termsContact": {
+      "title": "9. Informação de Contacto",
+      "content": "Se tiver alguma pergunta sobre estes Termos de Serviço, contacte-nos em legal@invoo.es."
+    }
+  }
+}

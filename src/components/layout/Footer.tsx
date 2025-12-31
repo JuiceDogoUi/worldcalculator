@@ -2,6 +2,7 @@ import { getTranslations } from 'next-intl/server'
 import { Link } from '@/i18n/routing'
 import { categories } from '@/config/categories'
 import { Calculator } from 'lucide-react'
+import { CookieSettingsButton } from '@/components/CookieSettingsButton'
 
 export async function Footer() {
   const tSite = await getTranslations('site')
@@ -80,6 +81,9 @@ export async function Footer() {
                 >
                   {tFooter('privacy')}
                 </Link>
+              </li>
+              <li>
+                <CookieSettingsButton />
               </li>
             </ul>
           </div>

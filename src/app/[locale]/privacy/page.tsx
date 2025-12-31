@@ -1,11 +1,25 @@
 import type { Metadata } from 'next'
-import { unstable_setRequestLocale } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
+import { locales } from '@/i18n/locales'
 
-export async function generateMetadata(): Promise<Metadata> {
+export const dynamic = 'force-static'
+export const dynamicParams = false
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }))
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  const t = await getTranslations({ locale, namespace: 'privacy' })
+
   return {
-    title: 'Privacy Policy & Terms of Service | World Calculator',
-    description:
-      'Privacy policy, terms of service, and data protection information for World Calculator users. Learn how we handle your data in compliance with GDPR and EU regulations.',
+    title: t('meta.title'),
+    description: t('meta.description'),
     robots: {
       index: true,
       follow: true,
@@ -19,204 +33,169 @@ export default async function PrivacyPage({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
-  unstable_setRequestLocale(locale)
+  setRequestLocale(locale)
+
+  const t = await getTranslations({ locale, namespace: 'privacy' })
 
   return (
     <div className="container mx-auto px-4 py-12 max-w-4xl">
-      <h1 className="text-4xl font-bold mb-8">Privacy Policy & Terms of Service</h1>
+      <h1 className="text-4xl font-bold mb-8">{t('privacyTitle')}</h1>
 
       <div className="prose prose-slate max-w-none">
         <p className="text-sm text-muted-foreground mb-8">
-          Last updated: December 30, 2025
+          {t('lastUpdated')}
         </p>
 
         {/* Introduction */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
-          <p>
-            World Calculator (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy and personal data.
-            This privacy policy explains how we collect, use, and protect your information when you use our
-            free online calculator platform at worldcalculator.org (the &quot;Service&quot;).
-          </p>
-          <p>
-            We comply with the General Data Protection Regulation (GDPR) (EU) 2016/679 and other applicable
-            data protection laws.
-          </p>
+          <h2 className="text-2xl font-semibold mb-4">{t('introduction.title')}</h2>
+          <p>{t('introduction.content1')}</p>
+          <p>{t('introduction.content2')}</p>
         </section>
 
         {/* Data Controller */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">2. Data Controller</h2>
-          <p>The data controller responsible for your personal data is:</p>
+          <h2 className="text-2xl font-semibold mb-4">{t('dataController.title')}</h2>
+          <p>{t('dataController.intro')}</p>
           <div className="bg-muted p-4 rounded-lg my-4">
-            <p><strong>Roques OÜ</strong></p>
-            <p>Ahtri tn 12</p>
-            <p>15551 Tallinn, Estonia</p>
-            <p>Email: <a href="mailto:legal@invoo.es" className="text-primary hover:underline">legal@invoo.es</a></p>
+            <p><strong>{t('dataController.company')}</strong></p>
+            <p>{t('dataController.address1')}</p>
+            <p>{t('dataController.address2')}</p>
+            <p><a href="mailto:legal@invoo.es" className="text-primary hover:underline">{t('dataController.email')}</a></p>
           </div>
         </section>
 
-        {/* Important Notice */}
+        {/* Calculator Privacy */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">3. Calculator Data Privacy</h2>
+          <h2 className="text-2xl font-semibold mb-4">{t('calculatorPrivacy.title')}</h2>
           <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 p-4 rounded-lg">
             <p className="font-semibold text-blue-900 dark:text-blue-100">
-              We do not store, collect, or sell the data you enter into our calculators.
+              {t('calculatorPrivacy.highlight')}
             </p>
             <p className="mt-2 text-blue-800 dark:text-blue-200">
-              All calculator inputs and results are processed entirely in your browser. Your calculations
-              never leave your device and are not transmitted to our servers. We have no access to the
-              numbers, amounts, or any other information you enter into our calculators.
+              {t('calculatorPrivacy.content')}
             </p>
           </div>
         </section>
 
         {/* Data We Collect */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">4. Data We Collect</h2>
-          <p>We collect the following categories of information:</p>
+          <h2 className="text-2xl font-semibold mb-4">{t('dataCollect.title')}</h2>
+          <p>{t('dataCollect.intro')}</p>
 
-          <h3 className="text-xl font-semibold mt-6 mb-3">4.1 Technical Data</h3>
+          <h3 className="text-xl font-semibold mt-6 mb-3">{t('dataCollect.technical.title')}</h3>
           <ul className="list-disc pl-6 space-y-2">
-            <li>IP address</li>
-            <li>Browser type and version</li>
-            <li>Device type and operating system</li>
-            <li>Pages visited and time spent on pages</li>
-            <li>Referral source</li>
-            <li>General geographic location (country/city level)</li>
+            {(t.raw('dataCollect.technical.items') as string[]).map((item, i) => (
+              <li key={i}>{item}</li>
+            ))}
           </ul>
 
-          <h3 className="text-xl font-semibold mt-6 mb-3">4.2 Cookie Data</h3>
-          <p>
-            We use cookies and similar tracking technologies to improve your experience.
-            See Section 7 for detailed information about cookies.
-          </p>
+          <h3 className="text-xl font-semibold mt-6 mb-3">{t('dataCollect.cookie.title')}</h3>
+          <p>{t('dataCollect.cookie.content')}</p>
         </section>
 
-        {/* Purpose of Processing */}
+        {/* Purpose */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">5. Purpose of Processing</h2>
-          <p>We process your data for the following purposes:</p>
+          <h2 className="text-2xl font-semibold mb-4">{t('purpose.title')}</h2>
+          <p>{t('purpose.intro')}</p>
           <ul className="list-disc pl-6 space-y-2">
-            <li><strong>Service Provision:</strong> To deliver our free calculator tools and ensure they function correctly</li>
-            <li><strong>Analytics:</strong> To understand how visitors use our Service and improve user experience</li>
-            <li><strong>Security:</strong> To detect and prevent fraud, abuse, and security incidents</li>
-            <li><strong>Legal Compliance:</strong> To comply with applicable laws and regulations</li>
+            <li><strong>{t('purpose.provision').split(':')[0]}:</strong>{t('purpose.provision').split(':').slice(1).join(':')}</li>
+            <li><strong>{t('purpose.analytics').split(':')[0]}:</strong>{t('purpose.analytics').split(':').slice(1).join(':')}</li>
+            <li><strong>{t('purpose.security').split(':')[0]}:</strong>{t('purpose.security').split(':').slice(1).join(':')}</li>
+            <li><strong>{t('purpose.legal').split(':')[0]}:</strong>{t('purpose.legal').split(':').slice(1).join(':')}</li>
           </ul>
         </section>
 
         {/* Legal Basis */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">6. Legal Basis for Processing</h2>
-          <p>Under GDPR, we process your personal data based on:</p>
+          <h2 className="text-2xl font-semibold mb-4">{t('legalBasis.title')}</h2>
+          <p>{t('legalBasis.intro')}</p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>
-              <strong>Legitimate Interest (Article 6(1)(f)):</strong> To operate and improve our Service,
-              perform analytics, and ensure security
-            </li>
-            <li>
-              <strong>Consent (Article 6(1)(a)):</strong> For non-essential cookies
-              (you can withdraw consent at any time)
-            </li>
-            <li>
-              <strong>Legal Obligation (Article 6(1)(c)):</strong> To comply with applicable laws
-            </li>
+            <li><strong>{t('legalBasis.legitimate').split(':')[0]}:</strong>{t('legalBasis.legitimate').split(':').slice(1).join(':')}</li>
+            <li><strong>{t('legalBasis.consent').split(':')[0]}:</strong>{t('legalBasis.consent').split(':').slice(1).join(':')}</li>
+            <li><strong>{t('legalBasis.obligation').split(':')[0]}:</strong>{t('legalBasis.obligation').split(':').slice(1).join(':')}</li>
           </ul>
         </section>
 
         {/* Cookies */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">7. Cookies and Tracking Technologies</h2>
-          <p>
-            We use cookies to enhance your experience. Cookies are small text files
-            stored on your device that help us recognize you and remember your preferences.
-          </p>
+          <h2 className="text-2xl font-semibold mb-4">{t('cookies.title')}</h2>
+          <p>{t('cookies.intro')}</p>
 
-          <h3 className="text-xl font-semibold mt-6 mb-3">7.1 Types of Cookies We Use</h3>
+          <h3 className="text-xl font-semibold mt-6 mb-3">{t('cookies.types.title')}</h3>
 
           <div className="space-y-4">
             <div className="border-l-4 border-green-500 pl-4">
-              <h4 className="font-semibold">Essential Cookies (Required)</h4>
-              <p className="text-sm text-muted-foreground">
-                These cookies are necessary for the website to function and cannot be disabled.
-              </p>
+              <h4 className="font-semibold">{t('cookies.types.essential.title')}</h4>
+              <p className="text-sm text-muted-foreground">{t('cookies.types.essential.description')}</p>
               <ul className="list-disc pl-6 mt-2 text-sm">
-                <li>Session management</li>
-                <li>Security and fraud prevention</li>
-                <li>Privacy consent preferences</li>
+                {(t.raw('cookies.types.essential.items') as string[]).map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
               </ul>
             </div>
 
             <div className="border-l-4 border-blue-500 pl-4">
-              <h4 className="font-semibold">Analytics Cookies</h4>
-              <p className="text-sm text-muted-foreground">
-                Help us understand how visitors interact with our website.
-              </p>
+              <h4 className="font-semibold">{t('cookies.types.analytics.title')}</h4>
+              <p className="text-sm text-muted-foreground">{t('cookies.types.analytics.description')}</p>
               <ul className="list-disc pl-6 mt-2 text-sm">
-                <li>Vercel Analytics: Performance monitoring</li>
-                <li>Page views and navigation patterns</li>
-                <li>Geographic and demographic insights (anonymized)</li>
+                {(t.raw('cookies.types.analytics.items') as string[]).map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
               </ul>
             </div>
 
             <div className="border-l-4 border-yellow-500 pl-4">
-              <h4 className="font-semibold">Advertising Cookies</h4>
-              <p className="text-sm text-muted-foreground">
-                Used to deliver relevant advertisements and measure ad performance.
-              </p>
+              <h4 className="font-semibold">{t('cookies.types.advertising.title')}</h4>
+              <p className="text-sm text-muted-foreground">{t('cookies.types.advertising.description')}</p>
               <ul className="list-disc pl-6 mt-2 text-sm">
-                <li>Google AdSense: Ad personalization and delivery</li>
-                <li>Interest-based advertising</li>
-                <li>Ad frequency capping and measurement</li>
+                {(t.raw('cookies.types.advertising.items') as string[]).map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
               </ul>
             </div>
           </div>
 
-          <h3 className="text-xl font-semibold mt-6 mb-3">7.2 Managing Cookies</h3>
-          <p>
-            You can control and delete cookies through your browser settings. However, disabling cookies
-            may affect the functionality of our Service.
-          </p>
+          <h3 className="text-xl font-semibold mt-6 mb-3">{t('cookies.consent.title')}</h3>
+          <p>{t('cookies.consent.intro')}</p>
+          <ul className="list-disc pl-6 mt-4 space-y-2">
+            <li><strong>{t('cookies.consent.accept').split(':')[0]}:</strong>{t('cookies.consent.accept').split(':').slice(1).join(':')}</li>
+            <li><strong>{t('cookies.consent.decline').split(':')[0]}:</strong>{t('cookies.consent.decline').split(':').slice(1).join(':')}</li>
+          </ul>
+          <p className="mt-4">{t('cookies.consent.preference')}</p>
+
+          <h3 className="text-xl font-semibold mt-6 mb-3">{t('cookies.management.title')}</h3>
+          <p>{t('cookies.management.content')}</p>
         </section>
 
-        {/* Third-Party Services */}
+        {/* Third Party */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">8. Third-Party Services</h2>
-          <p>We share data with the following third-party service providers:</p>
+          <h2 className="text-2xl font-semibold mb-4">{t('thirdParty.title')}</h2>
+          <p>{t('thirdParty.intro')}</p>
 
           <div className="space-y-4 mt-4">
             <div className="bg-muted p-4 rounded-lg">
-              <h4 className="font-semibold">Vercel Inc.</h4>
+              <h4 className="font-semibold">{t('thirdParty.vercel.name')}</h4>
+              <p className="text-sm">{t('thirdParty.vercel.purpose')}</p>
+              <p className="text-sm">{t('thirdParty.vercel.data')}</p>
               <p className="text-sm">
-                <strong>Purpose:</strong> Hosting and analytics
-              </p>
-              <p className="text-sm">
-                <strong>Data shared:</strong> Technical data, page views, performance metrics
-              </p>
-              <p className="text-sm">
-                <strong>Privacy policy:</strong>{' '}
                 <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-                  vercel.com/legal/privacy-policy
+                  {t('thirdParty.vercel.privacy')}
                 </a>
               </p>
             </div>
 
             <div className="bg-muted p-4 rounded-lg">
-              <h4 className="font-semibold">Google AdSense</h4>
+              <h4 className="font-semibold">{t('thirdParty.adsense.name')}</h4>
+              <p className="text-sm">{t('thirdParty.adsense.purpose')}</p>
+              <p className="text-sm">{t('thirdParty.adsense.data')}</p>
               <p className="text-sm">
-                <strong>Purpose:</strong> Advertising
-              </p>
-              <p className="text-sm">
-                <strong>Data shared:</strong> Cookies, device identifiers, browsing behavior for personalized ads
-              </p>
-              <p className="text-sm">
-                <strong>Privacy policy:</strong>{' '}
                 <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-                  policies.google.com/privacy
+                  {t('thirdParty.adsense.privacy')}
                 </a>
               </p>
               <p className="text-sm mt-2">
-                Google uses cookies to serve ads based on your prior visits. You can opt out of personalized advertising at{' '}
+                {t('thirdParty.adsense.optOut').split('google.com/settings/ads')[0]}
                 <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
                   google.com/settings/ads
                 </a>
@@ -225,242 +204,161 @@ export default async function PrivacyPage({
           </div>
         </section>
 
-        {/* Data Retention */}
+        {/* Retention */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">9. Data Retention</h2>
-          <p>We retain your data for the following periods:</p>
+          <h2 className="text-2xl font-semibold mb-4">{t('retention.title')}</h2>
+          <p>{t('retention.intro')}</p>
           <ul className="list-disc pl-6 space-y-2">
-            <li><strong>Analytics data:</strong> Up to 24 months</li>
-            <li><strong>Server logs:</strong> Up to 90 days</li>
-            <li><strong>Cookie data:</strong> Varies by cookie type (see cookie settings for specifics)</li>
+            <li><strong>{t('retention.analytics').split(':')[0]}:</strong>{t('retention.analytics').split(':').slice(1).join(':')}</li>
+            <li><strong>{t('retention.logs').split(':')[0]}:</strong>{t('retention.logs').split(':').slice(1).join(':')}</li>
+            <li><strong>{t('retention.cookies').split(':')[0]}:</strong>{t('retention.cookies').split(':').slice(1).join(':')}</li>
           </ul>
-          <p className="mt-4">
-            Calculator input data is <strong>not retained</strong> as it never leaves your browser.
-          </p>
+          <p className="mt-4">{t('retention.calculator')}</p>
         </section>
 
-        {/* Your Rights */}
+        {/* Rights */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">10. Your Rights Under GDPR</h2>
-          <p>You have the following rights regarding your personal data:</p>
+          <h2 className="text-2xl font-semibold mb-4">{t('rights.title')}</h2>
+          <p>{t('rights.intro')}</p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>
-              <strong>Right to Access:</strong> Request a copy of the personal data we hold about you
-            </li>
-            <li>
-              <strong>Right to Rectification:</strong> Request correction of inaccurate or incomplete data
-            </li>
-            <li>
-              <strong>Right to Erasure (&quot;Right to be Forgotten&quot;):</strong> Request deletion of your personal data
-            </li>
-            <li>
-              <strong>Right to Restriction:</strong> Request limitation of processing your data
-            </li>
-            <li>
-              <strong>Right to Data Portability:</strong> Receive your data in a structured, machine-readable format
-            </li>
-            <li>
-              <strong>Right to Object:</strong> Object to processing based on legitimate interests
-            </li>
-            <li>
-              <strong>Right to Withdraw Consent:</strong> Withdraw your consent for cookie-based processing at any time
-            </li>
+            <li><strong>{t('rights.access').split(':')[0]}:</strong>{t('rights.access').split(':').slice(1).join(':')}</li>
+            <li><strong>{t('rights.rectification').split(':')[0]}:</strong>{t('rights.rectification').split(':').slice(1).join(':')}</li>
+            <li><strong>{t('rights.erasure').split(':')[0]}:</strong>{t('rights.erasure').split(':').slice(1).join(':')}</li>
+            <li><strong>{t('rights.restriction').split(':')[0]}:</strong>{t('rights.restriction').split(':').slice(1).join(':')}</li>
+            <li><strong>{t('rights.portability').split(':')[0]}:</strong>{t('rights.portability').split(':').slice(1).join(':')}</li>
+            <li><strong>{t('rights.object').split(':')[0]}:</strong>{t('rights.object').split(':').slice(1).join(':')}</li>
+            <li><strong>{t('rights.withdraw').split(':')[0]}:</strong>{t('rights.withdraw').split(':').slice(1).join(':')}</li>
           </ul>
-
-          <p className="mt-4">
-            To exercise any of these rights, please contact us at{' '}
-            <a href="mailto:legal@invoo.es" className="text-primary hover:underline">legal@invoo.es</a>.
-            We will respond within one month.
-          </p>
-
-          <p className="mt-4">
-            If you are not satisfied with our response, you have the right to lodge a complaint with your
-            local data protection authority.
-          </p>
+          <p className="mt-4">{t('rights.exercise')}</p>
+          <p className="mt-4">{t('rights.complaint')}</p>
         </section>
 
-        {/* International Data Transfers */}
+        {/* Transfers */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">11. International Data Transfers</h2>
-          <p>
-            Our Service is hosted within the European Union. However, some of our third-party service
-            providers (such as Vercel) may process data outside the EU/EEA.
-          </p>
-          <p>
-            When data is transferred outside the EU/EEA, we ensure appropriate safeguards are in place,
-            including:
-          </p>
+          <h2 className="text-2xl font-semibold mb-4">{t('transfers.title')}</h2>
+          <p>{t('transfers.intro')}</p>
+          <p>{t('transfers.safeguards')}</p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Standard Contractual Clauses approved by the European Commission</li>
-            <li>Adequacy decisions by the European Commission</li>
+            <li>{t('transfers.clauses')}</li>
+            <li>{t('transfers.adequacy')}</li>
           </ul>
         </section>
 
-        {/* Data Security */}
+        {/* Security */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">12. Data Security</h2>
-          <p>
-            We implement appropriate technical and organizational measures to protect your personal data against
-            unauthorized access, alteration, disclosure, or destruction, including:
-          </p>
+          <h2 className="text-2xl font-semibold mb-4">{t('security.title')}</h2>
+          <p>{t('security.intro')}</p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>HTTPS encryption for all data transmission</li>
-            <li>Secure hosting infrastructure with regular security updates</li>
-            <li>Access controls and authentication mechanisms</li>
-            <li>Regular security audits and monitoring</li>
+            <li>{t('security.https')}</li>
+            <li>{t('security.hosting')}</li>
+            <li>{t('security.access')}</li>
+            <li>{t('security.audits')}</li>
           </ul>
-          <p className="mt-4">
-            However, no method of transmission over the internet is 100% secure. While we strive to protect
-            your data, we cannot guarantee absolute security.
-          </p>
+          <p className="mt-4">{t('security.disclaimer')}</p>
         </section>
 
-        {/* Children's Privacy */}
+        {/* Children */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">13. Children&apos;s Privacy</h2>
-          <p>
-            Our Service is not directed to children under the age of 16. We do not knowingly collect personal
-            data from children under 16. If you believe we have collected data from a child under 16, please
-            contact us immediately.
-          </p>
+          <h2 className="text-2xl font-semibold mb-4">{t('children.title')}</h2>
+          <p>{t('children.content')}</p>
         </section>
 
-        {/* Changes to Policy */}
+        {/* Changes */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">14. Changes to This Privacy Policy</h2>
-          <p>
-            We may update this privacy policy from time to time to reflect changes in our practices or for
-            legal, operational, or regulatory reasons. We will notify you of any material changes by posting
-            the updated policy on this page with a new &quot;Last updated&quot; date.
-          </p>
-          <p className="mt-4">
-            We encourage you to review this privacy policy periodically to stay informed about how we protect
-            your data.
-          </p>
+          <h2 className="text-2xl font-semibold mb-4">{t('changes.title')}</h2>
+          <p>{t('changes.content1')}</p>
+          <p className="mt-4">{t('changes.content2')}</p>
         </section>
 
-        {/* Contact */}
+        {/* Privacy Contact */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">15. Contact Us</h2>
-          <p>
-            If you have any questions, concerns, or requests regarding this privacy policy or our data
-            practices, please contact us:
-          </p>
+          <h2 className="text-2xl font-semibold mb-4">{t('privacyContact.title')}</h2>
+          <p>{t('privacyContact.intro')}</p>
           <div className="bg-muted p-4 rounded-lg my-4">
-            <p><strong>Data Protection Officer</strong></p>
-            <p>Roques OÜ</p>
-            <p>Ahtri tn 12, 15551 Tallinn, Estonia</p>
-            <p>Email: <a href="mailto:legal@invoo.es" className="text-primary hover:underline">legal@invoo.es</a></p>
+            <p><strong>{t('privacyContact.officer')}</strong></p>
+            <p>{t('privacyContact.company')}</p>
+            <p>{t('privacyContact.address')}</p>
+            <p><a href="mailto:legal@invoo.es" className="text-primary hover:underline">{t('privacyContact.email')}</a></p>
           </div>
         </section>
 
         {/* Terms of Service Divider */}
         <div className="border-t-4 border-primary my-12 pt-8">
-          <h1 className="text-4xl font-bold mb-8">Terms of Service</h1>
+          <h1 className="text-4xl font-bold mb-8">{t('termsTitle')}</h1>
         </div>
 
-        {/* Terms Introduction */}
+        {/* Acceptance */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">1. Acceptance of Terms</h2>
-          <p>
-            By accessing and using World Calculator (&quot;the Service&quot;), you accept and agree to be bound
-            by these Terms of Service. If you do not agree to these terms, please do not use our Service.
-          </p>
+          <h2 className="text-2xl font-semibold mb-4">{t('acceptance.title')}</h2>
+          <p>{t('acceptance.content')}</p>
         </section>
 
-        {/* Service Description */}
+        {/* Description */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">2. Description of Service</h2>
-          <p>
-            World Calculator provides free online calculator tools for finance, health, math, and other
-            purposes. The Service is provided &quot;as is&quot; and is intended for informational and educational
-            purposes only.
-          </p>
+          <h2 className="text-2xl font-semibold mb-4">{t('description.title')}</h2>
+          <p>{t('description.content')}</p>
         </section>
 
-        {/* Use of Service */}
+        {/* Acceptable Use */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">3. Acceptable Use</h2>
-          <p>You agree to use the Service only for lawful purposes and in accordance with these Terms. You agree not to:</p>
+          <h2 className="text-2xl font-semibold mb-4">{t('acceptable.title')}</h2>
+          <p>{t('acceptable.intro')}</p>
           <ul className="list-disc pl-6 space-y-2 mt-4">
-            <li>Use the Service in any way that violates applicable laws or regulations</li>
-            <li>Attempt to interfere with or disrupt the Service or its servers</li>
-            <li>Use automated systems or software to extract data from the Service</li>
-            <li>Impersonate or attempt to impersonate World Calculator or its representatives</li>
+            <li>{t('acceptable.violate')}</li>
+            <li>{t('acceptable.interfere')}</li>
+            <li>{t('acceptable.extract')}</li>
+            <li>{t('acceptable.impersonate')}</li>
           </ul>
         </section>
 
         {/* Disclaimer */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">4. Disclaimer of Warranties</h2>
+          <h2 className="text-2xl font-semibold mb-4">{t('disclaimer.title')}</h2>
           <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 p-4 rounded-lg">
             <p className="font-semibold text-yellow-900 dark:text-yellow-100 mb-2">
-              Important Notice
+              {t('disclaimer.notice')}
             </p>
             <p className="text-yellow-800 dark:text-yellow-200">
-              The calculations provided by World Calculator are for informational purposes only and should
-              not be considered as professional financial, medical, legal, or other advice. Always consult
-              with qualified professionals for important decisions.
+              {t('disclaimer.highlight')}
             </p>
           </div>
-          <p className="mt-4">
-            We make no warranties or representations about the accuracy, reliability, or completeness of the
-            calculations. While we strive for accuracy, errors may occur. Use the results at your own discretion.
-          </p>
+          <p className="mt-4">{t('disclaimer.accuracy')}</p>
         </section>
 
-        {/* Limitation of Liability */}
+        {/* Liability */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">5. Limitation of Liability</h2>
-          <p>
-            To the fullest extent permitted by law, World Calculator and its operators shall not be liable
-            for any indirect, incidental, special, consequential, or punitive damages, including but not
-            limited to loss of profits, data, or other intangible losses, resulting from:
-          </p>
+          <h2 className="text-2xl font-semibold mb-4">{t('liability.title')}</h2>
+          <p>{t('liability.intro')}</p>
           <ul className="list-disc pl-6 space-y-2 mt-4">
-            <li>Your use or inability to use the Service</li>
-            <li>Any errors or inaccuracies in the calculations</li>
-            <li>Unauthorized access to or alteration of your data</li>
-            <li>Any third-party conduct on the Service</li>
+            <li>{t('liability.use')}</li>
+            <li>{t('liability.errors')}</li>
+            <li>{t('liability.access')}</li>
+            <li>{t('liability.conduct')}</li>
           </ul>
         </section>
 
         {/* Intellectual Property */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">6. Intellectual Property</h2>
-          <p>
-            The Service and its original content, features, and functionality are owned by World Calculator
-            and are protected by international copyright, trademark, and other intellectual property laws.
-          </p>
+          <h2 className="text-2xl font-semibold mb-4">{t('intellectual.title')}</h2>
+          <p>{t('intellectual.content')}</p>
         </section>
 
         {/* Modifications */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">7. Modifications to Terms</h2>
-          <p>
-            We reserve the right to modify these Terms at any time. We will notify users of any material
-            changes by updating the &quot;Last updated&quot; date at the top of this page. Your continued use of
-            the Service after any changes constitutes acceptance of the new Terms.
-          </p>
+          <h2 className="text-2xl font-semibold mb-4">{t('modifications.title')}</h2>
+          <p>{t('modifications.content')}</p>
         </section>
 
         {/* Governing Law */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">8. Governing Law</h2>
-          <p>
-            These Terms shall be governed by and construed in accordance with the laws of Estonia, without
-            regard to its conflict of law provisions. Any disputes arising from these Terms or the Service
-            shall be subject to the exclusive jurisdiction of the courts of Estonia.
-          </p>
+          <h2 className="text-2xl font-semibold mb-4">{t('governing.title')}</h2>
+          <p>{t('governing.content')}</p>
         </section>
 
-        {/* Contact for Terms */}
+        {/* Terms Contact */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">9. Contact Information</h2>
-          <p>
-            If you have any questions about these Terms of Service, please contact us at{' '}
-            <a href="mailto:legal@invoo.es" className="text-primary hover:underline">legal@invoo.es</a>.
-          </p>
+          <h2 className="text-2xl font-semibold mb-4">{t('termsContact.title')}</h2>
+          <p>{t('termsContact.content')}</p>
         </section>
       </div>
     </div>

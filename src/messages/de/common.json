@@ -138,5 +138,12 @@
     "allCalculators": "Alle Rechner",
     "browseAllCategories": "Alle Rechnerkategorien durchsuchen",
     "lastUpdated": "Zuletzt aktualisiert"
+  },
+  "cookies": {
+    "message": "Wir verwenden Cookies für Werbung und Analysen.",
+    "learnMore": "Mehr erfahren",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "settings": "Cookie-Einstellungen"
   }
 }

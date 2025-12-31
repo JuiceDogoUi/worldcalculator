@@ -1,0 +1,298 @@
+{
+  "about": {
+    "meta": {
+      "title": "À Propos de Nous | World Calculator",
+      "description": "World Calculator est créé par des développeurs et des mathématiciens passionnés par la rapidité, la précision et l'accessibilité des calculs pour tous."
+    },
+    "title": "À Propos de World Calculator",
+    "mission": {
+      "title": "Notre Mission",
+      "content": "Nous croyons que chacun mérite d'avoir accès à des calculatrices rapides, précises et faciles à utiliser. Que vous planifiez un prêt immobilier, suiviez vos objectifs de fitness ou résolviez un problème mathématique, nous sommes là pour vous."
+    },
+    "whoWeAre": {
+      "title": "Qui Sommes-Nous",
+      "content1": "World Calculator est créé par une petite équipe d'ingénieurs logiciels et de mathématiciens qui partagent une passion simple : rendre les calculs plus rapides et plus accessibles pour tous.",
+      "content2": "Nous avons passé d'innombrables heures à perfectionner les formules, optimiser les performances et concevoir des interfaces qui fonctionnent tout simplement. Aucune inscription requise, aucune collecte de données sur vos calculs. Juste des outils purs et fiables."
+    },
+    "different": {
+      "title": "Ce Qui Nous Rend Différents",
+      "free": {
+        "title": "100% Gratuit",
+        "description": "Toutes les calculatrices sont entièrement gratuites, pour toujours. Pas de niveaux premium ni de fonctionnalités cachées."
+      },
+      "privacy": {
+        "title": "Confidentialité d'Abord",
+        "description": "Vos calculs restent dans votre navigateur. Nous ne voyons, ne stockons ni ne vendons jamais vos données."
+      },
+      "precision": {
+        "title": "La Précision Compte",
+        "description": "Créé par des mathématiciens obsédés par la précision. Chaque formule est vérifiée et testée."
+      },
+      "everywhere": {
+        "title": "Fonctionne Partout",
+        "description": "Disponible en 6 langues avec formatage spécifique à chaque région. Utilisez-le sur n'importe quel appareil."
+      }
+    },
+    "future": {
+      "title": "La Suite : Calculs Alimentés par l'IA",
+      "content": "Nous travaillons sur la prochaine évolution de World Calculator : des outils améliorés par l'IA qui comprennent vos questions en langage naturel et vous guident vers la bonne réponse.",
+      "comingSoon": "Bientôt disponible"
+    },
+    "cta": {
+      "text": "Vous avez des questions, des suggestions ou voulez simplement dire bonjour ?",
+      "button": "Contactez-nous"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contactez-nous | World Calculator",
+      "description": "Contactez l'équipe de World Calculator. Nous accueillons vos questions, commentaires et suggestions."
+    },
+    "title": "Contactez-nous",
+    "intro": "Nous serions ravis d'avoir de vos nouvelles ! Que vous ayez une question, trouvé un bug ou souhaitiez suggérer une nouvelle calculatrice, nous sommes là pour vous aider.",
+    "email": {
+      "title": "Envoyez-nous un Email",
+      "description": "Le moyen le plus rapide de nous joindre est par email. Nous répondons généralement sous 24 à 48 heures.",
+      "button": "Contactez-nous"
+    },
+    "help": {
+      "title": "Comment Pouvons-nous Vous Aider ?",
+      "questions": {
+        "title": "Questions Générales",
+        "description": "Questions sur l'utilisation de nos calculatrices ou l'interprétation des résultats."
+      },
+      "bugs": {
+        "title": "Signalement de Bugs",
+        "description": "Vous avez trouvé quelque chose qui ne fonctionne pas ? Faites-le nous savoir et nous le réparerons."
+      },
+      "features": {
+        "title": "Demandes de Fonctionnalités",
+        "description": "Vous avez une idée pour une nouvelle calculatrice ? Nous cherchons toujours à nous développer."
+      }
+    },
+    "thanks": "Nous lisons chaque message et faisons de notre mieux pour répondre rapidement.\nMerci d'utiliser World Calculator !"
+  },
+  "privacy": {
+    "meta": {
+      "title": "Politique de Confidentialité et Conditions d'Utilisation | World Calculator",
+      "description": "Politique de confidentialité, conditions d'utilisation et informations sur la protection des données pour les utilisateurs de World Calculator. Découvrez comment nous traitons vos données conformément au RGPD et aux réglementations de l'UE."
+    },
+    "lastUpdated": "Dernière mise à jour : 31 décembre 2025",
+    "privacyTitle": "Politique de Confidentialité et Conditions d'Utilisation",
+    "introduction": {
+      "title": "1. Introduction",
+      "content1": "World Calculator (\"nous\", \"notre\" ou \"nos\") s'engage à protéger votre vie privée et vos données personnelles. Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations lorsque vous utilisez notre plateforme gratuite de calculatrices en ligne sur worldcalculator.org (le \"Service\").",
+      "content2": "Nous nous conformons au Règlement Général sur la Protection des Données (RGPD) (UE) 2016/679 et aux autres lois applicables en matière de protection des données."
+    },
+    "dataController": {
+      "title": "2. Responsable du Traitement des Données",
+      "intro": "Le responsable du traitement de vos données personnelles est :",
+      "company": "Roques OÜ",
+      "address1": "Ahtri tn 12",
+      "address2": "15551 Tallinn, Estonie",
+      "email": "Email : legal@invoo.es"
+    },
+    "calculatorPrivacy": {
+      "title": "3. Confidentialité des Données de Calculatrice",
+      "highlight": "Nous ne stockons, ne collectons ni ne vendons les données que vous saisissez dans nos calculatrices.",
+      "content": "Toutes les entrées et résultats des calculatrices sont traités entièrement dans votre navigateur. Vos calculs ne quittent jamais votre appareil et ne sont pas transmis à nos serveurs. Nous n'avons pas accès aux nombres, montants ou toute autre information que vous saisissez dans nos calculatrices."
+    },
+    "dataCollect": {
+      "title": "4. Données Que Nous Collectons",
+      "intro": "Nous collectons les catégories d'informations suivantes :",
+      "technical": {
+        "title": "4.1 Données Techniques",
+        "items": [
+          "Adresse IP",
+          "Type et version du navigateur",
+          "Type d'appareil et système d'exploitation",
+          "Pages visitées et temps passé sur les pages",
+          "Source de référence",
+          "Localisation géographique générale (niveau pays/ville)"
+        ]
+      },
+      "cookie": {
+        "title": "4.2 Données de Cookies",
+        "content": "Nous utilisons des cookies et des technologies de suivi similaires pour améliorer votre expérience. Voir la Section 7 pour des informations détaillées sur les cookies."
+      }
+    },
+    "purpose": {
+      "title": "5. Objectif du Traitement",
+      "intro": "Nous traitons vos données aux fins suivantes :",
+      "provision": "Fourniture du Service : Pour fournir nos outils de calculatrice gratuits et garantir leur bon fonctionnement",
+      "analytics": "Analyse : Pour comprendre comment les visiteurs utilisent notre Service et améliorer l'expérience utilisateur",
+      "security": "Sécurité : Pour détecter et prévenir la fraude, les abus et les incidents de sécurité",
+      "legal": "Conformité Légale : Pour se conformer aux lois et réglementations applicables"
+    },
+    "legalBasis": {
+      "title": "6. Base Légale du Traitement",
+      "intro": "En vertu du RGPD, nous traitons vos données personnelles sur la base de :",
+      "legitimate": "Intérêt Légitime (Article 6(1)(f)) : Pour exploiter et améliorer notre Service, effectuer des analyses et assurer la sécurité",
+      "consent": "Consentement (Article 6(1)(a)) : Pour les cookies non essentiels (vous pouvez retirer votre consentement à tout moment)",
+      "obligation": "Obligation Légale (Article 6(1)(c)) : Pour se conformer aux lois applicables"
+    },
+    "cookies": {
+      "title": "7. Cookies et Technologies de Suivi",
+      "intro": "Nous utilisons des cookies pour améliorer votre expérience. Les cookies sont de petits fichiers texte stockés sur votre appareil qui nous aident à vous reconnaître et à mémoriser vos préférences.",
+      "types": {
+        "title": "7.1 Types de Cookies Que Nous Utilisons",
+        "essential": {
+          "title": "Cookies Essentiels (Requis)",
+          "description": "Ces cookies sont nécessaires au fonctionnement du site web et ne peuvent pas être désactivés.",
+          "items": [
+            "Gestion des sessions",
+            "Sécurité et prévention de la fraude",
+            "Préférences de consentement à la confidentialité"
+          ]
+        },
+        "analytics": {
+          "title": "Cookies d'Analyse",
+          "description": "Nous aident à comprendre comment les visiteurs interagissent avec notre site web.",
+          "items": [
+            "Vercel Analytics : Surveillance des performances",
+            "Vues de pages et modèles de navigation",
+            "Informations géographiques et démographiques (anonymisées)"
+          ]
+        },
+        "advertising": {
+          "title": "Cookies Publicitaires",
+          "description": "Utilisés pour diffuser des publicités pertinentes et mesurer les performances des annonces.",
+          "items": [
+            "Google AdSense : Personnalisation et diffusion des annonces",
+            "Publicité basée sur les intérêts",
+            "Limitation de fréquence et mesure des annonces"
+          ]
+        }
+      },
+      "consent": {
+        "title": "7.2 Consentement aux Cookies",
+        "intro": "Lorsque vous visitez notre site web pour la première fois, vous verrez une bannière de consentement aux cookies en bas de la page. Vous pouvez choisir d'accepter ou de refuser la publicité personnalisée.",
+        "accept": "Si vous acceptez : Vous verrez des publicités personnalisées basées sur vos intérêts et votre comportement de navigation, ce qui aide à soutenir notre service gratuit.",
+        "decline": "Si vous refusez : Vous verrez des publicités non personnalisées (génériques) qui ne sont pas basées sur votre historique de navigation. Vous pouvez toujours utiliser toutes nos calculatrices sans aucune limitation.",
+        "preference": "Votre préférence est stockée dans votre navigateur. Pour modifier votre préférence, cliquez sur \"Paramètres des Cookies\" dans le pied de page."
+      },
+      "management": {
+        "title": "7.3 Gérer les Cookies dans Votre Navigateur",
+        "content": "Vous pouvez également contrôler et supprimer les cookies via les paramètres de votre navigateur. Cependant, la désactivation des cookies peut affecter la fonctionnalité de notre Service."
+      }
+    },
+    "thirdParty": {
+      "title": "8. Services Tiers",
+      "intro": "Nous partageons des données avec les fournisseurs de services tiers suivants :",
+      "vercel": {
+        "name": "Vercel Inc.",
+        "purpose": "Objectif : Hébergement et analyse",
+        "data": "Données partagées : Données techniques, vues de pages, métriques de performance",
+        "privacy": "Politique de confidentialité : vercel.com/legal/privacy-policy"
+      },
+      "adsense": {
+        "name": "Google AdSense",
+        "purpose": "Objectif : Publicité",
+        "data": "Données partagées : Cookies, identifiants d'appareils, comportement de navigation pour des annonces personnalisées",
+        "privacy": "Politique de confidentialité : policies.google.com/privacy",
+        "optOut": "Google utilise des cookies pour diffuser des annonces basées sur vos visites précédentes. Vous pouvez refuser la publicité personnalisée sur google.com/settings/ads"
+      }
+    },
+    "retention": {
+      "title": "9. Conservation des Données",
+      "intro": "Nous conservons vos données pendant les périodes suivantes :",
+      "analytics": "Données d'analyse : Jusqu'à 24 mois",
+      "logs": "Journaux du serveur : Jusqu'à 90 jours",
+      "cookies": "Données de cookies : Varie selon le type de cookie (voir les paramètres des cookies pour les détails)",
+      "calculator": "Les données d'entrée de la calculatrice ne sont pas conservées car elles ne quittent jamais votre navigateur."
+    },
+    "rights": {
+      "title": "10. Vos Droits en Vertu du RGPD",
+      "intro": "Vous disposez des droits suivants concernant vos données personnelles :",
+      "access": "Droit d'Accès : Demander une copie des données personnelles que nous détenons à votre sujet",
+      "rectification": "Droit de Rectification : Demander la correction de données inexactes ou incomplètes",
+      "erasure": "Droit à l'Effacement (\"Droit à l'Oubli\") : Demander la suppression de vos données personnelles",
+      "restriction": "Droit à la Limitation : Demander la limitation du traitement de vos données",
+      "portability": "Droit à la Portabilité des Données : Recevoir vos données dans un format structuré et lisible par machine",
+      "object": "Droit d'Opposition : S'opposer au traitement basé sur des intérêts légitimes",
+      "withdraw": "Droit de Retirer le Consentement : Retirer votre consentement au traitement basé sur les cookies à tout moment",
+      "exercise": "Pour exercer l'un de ces droits, veuillez nous contacter à legal@invoo.es. Nous répondrons dans un délai d'un mois.",
+      "complaint": "Si vous n'êtes pas satisfait de notre réponse, vous avez le droit de déposer une plainte auprès de votre autorité locale de protection des données."
+    },
+    "transfers": {
+      "title": "11. Transferts Internationaux de Données",
+      "intro": "Notre Service est hébergé au sein de l'Union européenne. Cependant, certains de nos fournisseurs de services tiers (comme Vercel) peuvent traiter des données en dehors de l'UE/EEE.",
+      "safeguards": "Lorsque des données sont transférées en dehors de l'UE/EEE, nous veillons à ce que des garanties appropriées soient en place, notamment :",
+      "clauses": "Clauses Contractuelles Types approuvées par la Commission européenne",
+      "adequacy": "Décisions d'adéquation de la Commission européenne"
+    },
+    "security": {
+      "title": "12. Sécurité des Données",
+      "intro": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données personnelles contre tout accès, altération, divulgation ou destruction non autorisés, notamment :",
+      "https": "Chiffrement HTTPS pour toute transmission de données",
+      "hosting": "Infrastructure d'hébergement sécurisée avec mises à jour de sécurité régulières",
+      "access": "Contrôles d'accès et mécanismes d'authentification",
+      "audits": "Audits et surveillance de sécurité réguliers",
+      "disclaimer": "Cependant, aucune méthode de transmission sur Internet n'est sécurisée à 100%. Bien que nous nous efforcions de protéger vos données, nous ne pouvons garantir une sécurité absolue."
+    },
+    "children": {
+      "title": "13. Confidentialité des Enfants",
+      "content": "Notre Service n'est pas destiné aux enfants de moins de 16 ans. Nous ne collectons pas sciemment de données personnelles auprès d'enfants de moins de 16 ans. Si vous pensez que nous avons collecté des données auprès d'un enfant de moins de 16 ans, veuillez nous contacter immédiatement."
+    },
+    "changes": {
+      "title": "14. Modifications de Cette Politique de Confidentialité",
+      "content1": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre pour refléter des changements dans nos pratiques ou pour des raisons légales, opérationnelles ou réglementaires. Nous vous informerons de tout changement important en publiant la politique mise à jour sur cette page avec une nouvelle date de \"Dernière mise à jour\".",
+      "content2": "Nous vous encourageons à consulter périodiquement cette politique de confidentialité pour rester informé de la manière dont nous protégeons vos données."
+    },
+    "privacyContact": {
+      "title": "15. Nous Contacter",
+      "intro": "Si vous avez des questions, des préoccupations ou des demandes concernant cette politique de confidentialité ou nos pratiques en matière de données, veuillez nous contacter :",
+      "officer": "Délégué à la Protection des Données",
+      "company": "Roques OÜ",
+      "address": "Ahtri tn 12, 15551 Tallinn, Estonie",
+      "email": "Email : legal@invoo.es"
+    },
+    "termsTitle": "Conditions d'Utilisation",
+    "acceptance": {
+      "title": "1. Acceptation des Conditions",
+      "content": "En accédant et en utilisant World Calculator (\"le Service\"), vous acceptez et vous vous engagez à respecter ces Conditions d'Utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser notre Service."
+    },
+    "description": {
+      "title": "2. Description du Service",
+      "content": "World Calculator fournit des outils de calculatrice en ligne gratuits pour les finances, la santé, les mathématiques et d'autres objectifs. Le Service est fourni \"tel quel\" et est destiné à des fins informatives et éducatives uniquement."
+    },
+    "acceptable": {
+      "title": "3. Utilisation Acceptable",
+      "intro": "Vous acceptez d'utiliser le Service uniquement à des fins légales et conformément à ces Conditions. Vous acceptez de ne pas :",
+      "violate": "Utiliser le Service d'une manière qui viole les lois ou réglementations applicables",
+      "interfere": "Tenter d'interférer avec ou de perturber le Service ou ses serveurs",
+      "extract": "Utiliser des systèmes automatisés ou des logiciels pour extraire des données du Service",
+      "impersonate": "Usurper l'identité ou tenter d'usurper l'identité de World Calculator ou de ses représentants"
+    },
+    "disclaimer": {
+      "title": "4. Exclusion de Garanties",
+      "notice": "Avis Important",
+      "highlight": "Les calculs fournis par World Calculator sont à titre informatif uniquement et ne doivent pas être considérés comme des conseils professionnels financiers, médicaux, juridiques ou autres. Consultez toujours des professionnels qualifiés pour les décisions importantes.",
+      "accuracy": "Nous ne faisons aucune garantie ou représentation quant à l'exactitude, la fiabilité ou l'exhaustivité des calculs. Bien que nous nous efforcions d'être précis, des erreurs peuvent survenir. Utilisez les résultats à votre propre discrétion."
+    },
+    "liability": {
+      "title": "5. Limitation de Responsabilité",
+      "intro": "Dans toute la mesure permise par la loi, World Calculator et ses opérateurs ne seront pas responsables des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs, y compris, mais sans s'y limiter, la perte de profits, de données ou d'autres pertes intangibles, résultant de :",
+      "use": "Votre utilisation ou votre incapacité à utiliser le Service",
+      "errors": "Toute erreur ou inexactitude dans les calculs",
+      "access": "Accès non autorisé ou altération de vos données",
+      "conduct": "Toute conduite de tiers sur le Service"
+    },
+    "intellectual": {
+      "title": "6. Propriété Intellectuelle",
+      "content": "Le Service et son contenu, ses fonctionnalités et ses fonctionnalités originales sont la propriété de World Calculator et sont protégés par les lois internationales sur les droits d'auteur, les marques de commerce et autres lois sur la propriété intellectuelle."
+    },
+    "modifications": {
+      "title": "7. Modifications des Conditions",
+      "content": "Nous nous réservons le droit de modifier ces Conditions à tout moment. Nous informerons les utilisateurs de tout changement important en mettant à jour la date de \"Dernière mise à jour\" en haut de cette page. Votre utilisation continue du Service après tout changement constitue une acceptation des nouvelles Conditions."
+    },
+    "governing": {
+      "title": "8. Droit Applicable",
+      "content": "Ces Conditions seront régies et interprétées conformément aux lois de l'Estonie, sans égard à ses dispositions relatives aux conflits de lois. Tout litige découlant de ces Conditions ou du Service sera soumis à la juridiction exclusive des tribunaux d'Estonie."
+    },
+    "termsContact": {
+      "title": "9. Informations de Contact",
+      "content": "Si vous avez des questions sur ces Conditions d'Utilisation, veuillez nous contacter à legal@invoo.es."
+    }
+  }
+}

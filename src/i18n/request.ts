@@ -24,6 +24,14 @@ async function loadMessages(locale: string) {
   // Load base common translations
   const common = (await import(`../messages/${locale}/common.json`)).default
 
+  // Load pages translations (about, contact, privacy)
+  let pages = {}
+  try {
+    pages = (await import(`../messages/${locale}/pages.json`)).default
+  } catch {
+    // Pages translation file doesn't exist yet
+  }
+
   // Load calculator translations at calculator level
   const calculatorMessages: Record<string, Record<string, unknown>> = {}
 
@@ -52,9 +60,10 @@ async function loadMessages(locale: string) {
     }
   }
 
-  // Merge common with calculator-specific translations
+  // Merge common with pages and calculator-specific translations
   return {
     ...common,
+    ...pages,
     calculators: calculatorMessages,
   }
 }

@@ -8,6 +8,7 @@
  *
  * Checks:
  * - common.json (shared UI translations)
+ * - pages.json (About, Contact, Privacy page translations)
  * - calculators/*.json (category-specific calculator translations)
  */
 
@@ -145,6 +146,11 @@ function validateTranslations(): boolean {
   const commonResult = validateFile('common.json', true)
   hasErrors = hasErrors || commonResult.hasErrors
   hasWarnings = hasWarnings || commonResult.hasWarnings
+
+  // Validate pages.json (required)
+  const pagesResult = validateFile('pages.json', true)
+  hasErrors = hasErrors || pagesResult.hasErrors
+  hasWarnings = hasWarnings || pagesResult.hasWarnings
 
   // Validate calculator category files
   console.log('📁 Calculator category translations:\n')

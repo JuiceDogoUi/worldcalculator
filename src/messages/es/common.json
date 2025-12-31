@@ -138,5 +138,12 @@
     "allCalculators": "Todas las Calculadoras",
     "browseAllCategories": "Ver todas las categorías de calculadoras",
     "lastUpdated": "Última actualización"
+  },
+  "cookies": {
+    "message": "Usamos cookies para anuncios y análisis.",
+    "learnMore": "Más información",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "settings": "Configuración de Cookies"
   }
 }
