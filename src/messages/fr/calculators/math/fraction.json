@@ -1,0 +1,121 @@
+{
+  "title": "Calculatrice de Fractions",
+  "description": "Additionnez, soustrayez, multipliez et divisez des fractions avec solutions étape par étape. Convertissez des fractions en décimales, pourcentages et nombres mixtes. Simplifiez les fractions à leur forme irréductible instantanément.",
+  "meta": {
+    "title": "Calculatrice de Fractions - Additionner, Soustraire, Multiplier et Diviser",
+    "description": "Calculatrice de fractions en ligne gratuite. Additionnez, soustrayez, multipliez, divisez des fractions avec solutions étape par étape. Convertissez fractions en décimales et pourcentages. Simplifiez instantanément.",
+    "keywords": "calculatrice de fractions, additionner fractions, soustraire fractions, multiplier fractions, diviser fractions, simplifier fractions, nombres mixtes, fraction en décimal, convertisseur de fractions"
+  },
+  "modes": {
+    "add": {
+      "label": "Additionner",
+      "description": "Additionnez deux fractions ensemble. La calculatrice trouve le dénominateur commun et affiche chaque étape du calcul."
+    },
+    "subtract": {
+      "label": "Soustraire",
+      "description": "Soustrayez une fraction d'une autre. Fonctionne avec les fractions propres, impropres et les nombres mixtes."
+    },
+    "multiply": {
+      "label": "Multiplier",
+      "description": "Multipliez deux fractions. Il suffit de multiplier les numérateurs ensemble et les dénominateurs ensemble, puis simplifier."
+    },
+    "divide": {
+      "label": "Diviser",
+      "description": "Divisez une fraction par une autre. La calculatrice inverse la deuxième fraction et multiplie."
+    },
+    "simplify": {
+      "label": "Simplifier",
+      "description": "Réduisez une fraction à sa forme irréductible en trouvant le plus grand commun diviseur (PGCD) du numérateur et du dénominateur."
+    },
+    "convert": {
+      "label": "Convertir",
+      "description": "Convertissez une fraction en décimal, pourcentage, nombre mixte ou fraction impropre."
+    }
+  },
+  "inputs": {
+    "fraction1": "Première Fraction",
+    "fraction2": "Deuxième Fraction",
+    "numerator": "Numérateur",
+    "denominator": "Dénominateur",
+    "wholeNumber": "Entier",
+    "convertTo": "Convertir en"
+  },
+  "conversionFormats": {
+    "decimal": "Décimal",
+    "percentage": "Pourcentage",
+    "mixed": "Nombre Mixte",
+    "improper": "Fraction Impropre"
+  },
+  "result": "Résultat",
+  "decimalValue": "Décimal",
+  "percentageValue": "Pourcentage",
+  "steps": "Solution Étape par Étape",
+  "formula": "Formule Utilisée",
+  "explanation": "Explication",
+  "reset": "Réinitialiser",
+  "conversionResults": "Toutes les Conversions",
+  "disclaimer": {
+    "text": "Cette calculatrice fournit des calculs mathématiques à des fins éducatives et informatives. Vérifiez toujours les calculs importants.",
+    "note": "Les résultats sont automatiquement simplifiés à leur forme irréductible. Les valeurs décimales peuvent être arrondies pour l'affichage."
+  },
+  "seo": {
+    "whatIsTitle": "Qu'est-ce qu'une Calculatrice de Fractions ?",
+    "whatIsContent": "Une calculatrice de fractions est un outil mathématique qui vous aide à effectuer des opérations arithmétiques avec des fractions rapidement et avec précision. Les fractions sont utilisées dans la vie quotidienne, de la cuisine et de la construction aux finances et aux sciences. Notre calculatrice prend en charge toutes les opérations de base (addition, soustraction, multiplication, division), la simplification à la forme irréductible et la conversion entre différents formats. Chaque calcul inclut des solutions étape par étape pour vous aider à comprendre le processus.",
+    "operationsTitle": "Opérations Disponibles",
+    "operationsIntro": "Notre calculatrice de fractions propose six opérations puissantes :",
+    "operation1": "Addition – Additionnez des fractions avec différents dénominateurs en utilisant le PPCM (Plus Petit Commun Multiple)",
+    "operation2": "Soustraction – Soustrayez des fractions avec solutions étape par étape",
+    "operation3": "Multiplication – Multipliez les numérateurs et dénominateurs directement",
+    "operation4": "Division – Inversez et multipliez (multipliez par l'inverse)",
+    "operation5": "Simplification – Réduisez les fractions à leur forme irréductible en utilisant le PGCD",
+    "operation6": "Conversion – Convertissez entre décimales, pourcentages, nombres mixtes et fractions impropres",
+    "benefitsTitle": "Pourquoi Utiliser Notre Calculatrice de Fractions ?",
+    "benefit1": "Solutions étape par étape – Comprenez comment chaque réponse est calculée",
+    "benefit2": "Formats multiples – Travaillez avec des fractions propres, impropres et des nombres mixtes",
+    "benefit3": "Simplification automatique – Les résultats sont toujours réduits à leur forme irréductible",
+    "benefit4": "Conversions instantanées – Voyez les équivalents décimaux et pourcentages immédiatement",
+    "benefit5": "Gratuit et illimité – Calculez autant de fractions que nécessaire sans frais",
+    "howToUseTitle": "Comment Utiliser la Calculatrice de Fractions",
+    "howToUseStep1": "Sélectionnez l'opération que vous souhaitez effectuer (additionner, soustraire, multiplier, diviser, simplifier ou convertir)",
+    "howToUseStep2": "Entrez le numérateur et le dénominateur de la première fraction. Ajoutez éventuellement un nombre entier pour les nombres mixtes.",
+    "howToUseStep3": "Pour les opérations nécessitant deux fractions, entrez la deuxième fraction",
+    "howToUseStep4": "Visualisez le résultat avec ses équivalents décimaux et pourcentages",
+    "howToUseStep5": "Consultez la solution étape par étape pour comprendre le processus de calcul",
+    "formulasTitle": "Formules des Fractions",
+    "formula1Name": "Addition de Fractions",
+    "formula1": "a/b + c/d = (ad + bc) / bd",
+    "formula1Example": "Exemple : 1/2 + 1/4 = (1×4 + 1×2) / (2×4) = 6/8 = 3/4",
+    "formula2Name": "Soustraction de Fractions",
+    "formula2": "a/b - c/d = (ad - bc) / bd",
+    "formula2Example": "Exemple : 3/4 - 1/2 = (3×2 - 1×4) / (4×2) = 2/8 = 1/4",
+    "formula3Name": "Multiplication de Fractions",
+    "formula3": "a/b × c/d = (a × c) / (b × d)",
+    "formula3Example": "Exemple : 2/3 × 3/4 = (2×3) / (3×4) = 6/12 = 1/2",
+    "formula4Name": "Division de Fractions",
+    "formula4": "a/b ÷ c/d = a/b × d/c = (a × d) / (b × c)",
+    "formula4Example": "Exemple : 1/2 ÷ 1/4 = 1/2 × 4/1 = 4/2 = 2",
+    "tipsTitle": "Conseils pour Travailler avec les Fractions",
+    "tip1": "Simplifiez toujours votre réponse finale en divisant le numérateur et le dénominateur par leur PGCD",
+    "tip2": "Lors de l'addition ou de la soustraction, trouvez d'abord le PPCM (Plus Petit Commun Multiple)",
+    "tip3": "Pour diviser des fractions, inversez la deuxième fraction et multipliez",
+    "tip4": "Les nombres mixtes peuvent être convertis en fractions impropres : (entier × dénominateur + numérateur) / dénominateur",
+    "tip5": "Une fraction égale sa valeur décimale lorsque vous divisez le numérateur par le dénominateur",
+    "faqTitle": "Questions Fréquentes",
+    "faq1Question": "Comment additionner des fractions avec des dénominateurs différents ?",
+    "faq1Answer": "Pour additionner des fractions avec des dénominateurs différents, trouvez d'abord le Plus Petit Commun Multiple (PPCM). Convertissez chaque fraction en une fraction équivalente avec le PPCM, puis additionnez les numérateurs en gardant le dénominateur. Par exemple, 1/2 + 1/3 : le PPCM est 6, donc 3/6 + 2/6 = 5/6.",
+    "faq2Question": "Qu'est-ce qu'un nombre mixte ?",
+    "faq2Answer": "Un nombre mixte combine un nombre entier avec une fraction propre. Par exemple, 2 3/4 signifie 2 unités entières plus 3/4. Pour calculer avec des nombres mixtes, convertissez-les d'abord en fractions impropres : 2 3/4 = (2×4 + 3)/4 = 11/4.",
+    "faq3Question": "Comment simplifier une fraction ?",
+    "faq3Answer": "Pour simplifier une fraction, trouvez le Plus Grand Commun Diviseur (PGCD) du numérateur et du dénominateur, puis divisez les deux par ce nombre. Par exemple, pour simplifier 12/18 : le PGCD de 12 et 18 est 6, donc 12/18 = 2/3.",
+    "faq4Question": "Qu'est-ce qu'une fraction impropre ?",
+    "faq4Answer": "Une fraction impropre a un numérateur supérieur ou égal à son dénominateur, comme 7/4 ou 5/5. Celles-ci peuvent être converties en nombres mixtes : 7/4 = 1 3/4. Malgré le nom, les fractions impropres sont parfaitement valides et souvent plus faciles à utiliser dans les calculs.",
+    "faq5Question": "Comment convertir une fraction en décimal ?",
+    "faq5Answer": "Divisez le numérateur par le dénominateur. Par exemple, 3/4 = 3 ÷ 4 = 0,75. Certaines fractions créent des décimales périodiques, comme 1/3 = 0,333... (périodique).",
+    "faq6Question": "Comment convertir une fraction en pourcentage ?",
+    "faq6Answer": "Convertissez la fraction en décimal (divisez le numérateur par le dénominateur), puis multipliez par 100. Par exemple, 3/4 = 0,75 = 75%. Alternativement, multipliez la fraction par 100 : (3/4) × 100 = 75%.",
+    "faq7Question": "Pourquoi dois-je inverser la deuxième fraction lors de la division ?",
+    "faq7Answer": "Diviser par une fraction revient à multiplier par son inverse. L'inverse de a/b est b/a. Donc a/b ÷ c/d = a/b × d/c. Cette règle rend la division simple une fois que vous la comprenez.",
+    "faq8Question": "Qu'est-ce que le PPCM et comment le trouver ?",
+    "faq8Answer": "PPCM signifie Plus Petit Commun Multiple : le plus petit nombre dans lequel les deux dénominateurs se divisent exactement. Trouvez-le en listant les multiples de chaque dénominateur jusqu'à trouver un commun, ou calculez le PPCM directement. Pour 1/3 et 1/4, le PPCM est 12."
+  }
+}

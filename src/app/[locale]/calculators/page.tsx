@@ -88,9 +88,9 @@ export default async function CalculatorsPage({ params }: CalculatorsPageProps) 
       }}
       categoryTranslations={Object.fromEntries(
         await Promise.all(
-          ['finance', 'health', 'math', 'conversion', 'timeDate', 'construction'].map(async (key) => [
+          ['finance', 'health', 'math', 'conversion', 'timeDate', 'construction', 'statistics'].map(async (key) => [
             key,
-            tCategories(key as 'finance' | 'health' | 'math' | 'conversion' | 'timeDate' | 'construction'),
+            tCategories(key as 'finance' | 'health' | 'math' | 'conversion' | 'timeDate' | 'construction' | 'statistics'),
           ])
         )
       )}

@@ -17,7 +17,8 @@
       "math": "Percentages, fractions, averages, GPA",
       "conversion": "Units, currency, temperature, distance",
       "timeDate": "Age calculator, date difference, countdown",
-      "construction": "Square footage, materials, paint estimates"
+      "construction": "Square footage, materials, paint estimates",
+      "statistics": "Standard deviation, variance, mean, data analysis"
     },
     "viewAll": "View All",
     "calculatorsCount": "{count} calculators"
@@ -36,7 +37,8 @@
     "math": "Math",
     "conversion": "Conversion",
     "timeDate": "Time & Date",
-    "construction": "Construction"
+    "construction": "Construction",
+    "statistics": "Statistics"
   },
   "categoryH1": {
     "finance": "Finance Calculators - Loan, Mortgage & Investment Tools",
@@ -44,7 +46,8 @@
     "math": "Math Calculators - Percentage, GPA & Everyday Calculations",
     "conversion": "Unit Converters - Currency, Temperature & Distance",
     "timeDate": "Time & Date Calculators - Age, Duration & Date Tools",
-    "construction": "Construction Calculators - Square Footage, Materials & Estimates"
+    "construction": "Construction Calculators - Square Footage, Materials & Estimates",
+    "statistics": "Statistics Calculators - Standard Deviation, Variance & Data Analysis"
   },
   "categorySeoDescription": {
     "finance": "Calculate loan payments, mortgage rates, investment returns, and savings goals. Free financial calculators to help you make smarter money decisions.",
@@ -52,7 +55,8 @@
     "math": "Solve percentages, fractions, averages, and GPA calculations instantly. Free math calculators for students and professionals.",
     "conversion": "Convert units, currencies, temperatures, and distances quickly. Accurate conversion calculators for everyday use.",
     "timeDate": "Calculate age, date differences, time zones, and countdowns. Free time and date tools for planning and scheduling.",
-    "construction": "Estimate square footage, materials, paint, and project costs. Free construction calculators for contractors and DIYers."
+    "construction": "Estimate square footage, materials, paint, and project costs. Free construction calculators for contractors and DIYers.",
+    "statistics": "Calculate standard deviation, variance, mean, and analyze data sets. Free statistical calculators for students, researchers, and analysts."
   },
   "categoryCalculatorCount": "{count, plural, =0 {No calculators yet} =1 {1 calculator} other {# calculators}}",
   "categoryPage": {
@@ -102,6 +106,13 @@
       "Flooring and tile requirements",
       "Concrete and material quantities",
       "Roofing and siding measurements"
+    ],
+    "statistics": [
+      "Standard deviation and variance calculations",
+      "Mean, median, and mode analysis",
+      "Population vs sample statistics",
+      "Data set analysis and summaries",
+      "Statistical measures of spread"
     ]
   },
   "footer": {

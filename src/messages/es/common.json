@@ -17,7 +17,8 @@
       "math": "Porcentajes, fracciones, promedios, GPA",
       "conversion": "Unidades, moneda, temperatura, distancia",
       "timeDate": "Calculadora de edad, diferencia de fechas, cuenta regresiva",
-      "construction": "Metros cuadrados, materiales, estimaciones de pintura"
+      "construction": "Metros cuadrados, materiales, estimaciones de pintura",
+      "statistics": "Desviación estándar, varianza, media, análisis de datos"
     },
     "viewAll": "Ver Todo",
     "calculatorsCount": "{count} calculadoras"
@@ -36,7 +37,8 @@
     "math": "Matemáticas",
     "conversion": "Conversión",
     "timeDate": "Fecha y Hora",
-    "construction": "Construcción"
+    "construction": "Construcción",
+    "statistics": "Estadística"
   },
   "categoryH1": {
     "finance": "Calculadoras Financieras - Préstamos, Hipotecas e Inversiones",
@@ -44,7 +46,8 @@
     "math": "Calculadoras Matemáticas - Porcentajes, GPA y Cálculos Cotidianos",
     "conversion": "Conversores de Unidades - Moneda, Temperatura y Distancia",
     "timeDate": "Calculadoras de Fecha y Hora - Edad, Duración y Herramientas de Fecha",
-    "construction": "Calculadoras de Construcción - Metraje Cuadrado, Materiales y Estimaciones"
+    "construction": "Calculadoras de Construcción - Metraje Cuadrado, Materiales y Estimaciones",
+    "statistics": "Calculadoras Estadísticas - Desviación Estándar, Varianza y Análisis de Datos"
   },
   "categorySeoDescription": {
     "finance": "Calcula pagos de préstamos, tasas hipotecarias, rendimientos de inversiones y metas de ahorro. Calculadoras financieras gratuitas para tomar decisiones más inteligentes.",
@@ -52,7 +55,8 @@
     "math": "Resuelve porcentajes, fracciones, promedios y cálculos de GPA al instante. Calculadoras matemáticas gratuitas para estudiantes y profesionales.",
     "conversion": "Convierte unidades, monedas, temperaturas y distancias rápidamente. Conversores precisos para uso cotidiano.",
     "timeDate": "Calcula edad, diferencias de fechas, zonas horarias y cuentas regresivas. Herramientas gratuitas de fecha y hora para planificación.",
-    "construction": "Estima metraje cuadrado, materiales, pintura y costos de proyectos. Calculadoras de construcción gratuitas para contratistas y aficionados."
+    "construction": "Estima metraje cuadrado, materiales, pintura y costos de proyectos. Calculadoras de construcción gratuitas para contratistas y aficionados.",
+    "statistics": "Calcula desviación estándar, varianza, media y analiza conjuntos de datos. Calculadoras estadísticas gratuitas para estudiantes, investigadores y analistas."
   },
   "categoryCalculatorCount": "{count, plural, =0 {Sin calculadoras aún} =1 {1 calculadora} other {# calculadoras}}",
   "categoryPage": {
@@ -102,6 +106,13 @@
       "Requisitos de pisos y azulejos",
       "Cantidades de concreto y materiales",
       "Mediciones de techos y revestimientos"
+    ],
+    "statistics": [
+      "Cálculos de desviación estándar y varianza",
+      "Análisis de media, mediana y moda",
+      "Estadística poblacional vs muestral",
+      "Análisis y resúmenes de conjuntos de datos",
+      "Medidas estadísticas de dispersión"
     ]
   },
   "footer": {

@@ -17,7 +17,8 @@
       "math": "Percentuali, frazioni, medie, GPA",
       "conversion": "Unità, valuta, temperatura, distanza",
       "timeDate": "Calcolatore età, differenza date, conto alla rovescia",
-      "construction": "Metri quadrati, materiali, stime vernice"
+      "construction": "Metri quadrati, materiali, stime vernice",
+      "statistics": "Deviazione standard, varianza, media, analisi dei dati"
     },
     "viewAll": "Vedi Tutto",
     "calculatorsCount": "{count} calcolatori"
@@ -36,7 +37,8 @@
     "math": "Matematica",
     "conversion": "Conversione",
     "timeDate": "Data e Ora",
-    "construction": "Costruzione"
+    "construction": "Costruzione",
+    "statistics": "Statistica"
   },
   "categoryH1": {
     "finance": "Calcolatori Finanziari - Prestiti, Mutui e Strumenti di Investimento",
@@ -44,7 +46,8 @@
     "math": "Calcolatori Matematici - Percentuale, GPA e Calcoli Quotidiani",
     "conversion": "Convertitori di Unità - Valuta, Temperatura e Distanza",
     "timeDate": "Calcolatori di Data e Ora - Età, Durata e Strumenti per Date",
-    "construction": "Calcolatori di Costruzione - Metratura Quadrata, Materiali e Stime"
+    "construction": "Calcolatori di Costruzione - Metratura Quadrata, Materiali e Stime",
+    "statistics": "Calcolatori Statistici - Deviazione Standard, Varianza e Analisi dei Dati"
   },
   "categorySeoDescription": {
     "finance": "Calcola rate di prestito, tassi ipotecari, rendimenti degli investimenti e obiettivi di risparmio. Calcolatori finanziari gratuiti per decisioni più intelligenti.",
@@ -52,7 +55,8 @@
     "math": "Risolvi percentuali, frazioni, medie e calcoli GPA istantaneamente. Calcolatori matematici gratuiti per studenti e professionisti.",
     "conversion": "Converti unità, valute, temperature e distanze rapidamente. Convertitori precisi per l'uso quotidiano.",
     "timeDate": "Calcola età, differenze di date, fusi orari e conto alla rovescia. Strumenti gratuiti di data e ora per la pianificazione.",
-    "construction": "Stima metratura quadrata, materiali, vernice e costi di progetto. Calcolatori di costruzione gratuiti per professionisti e hobbisti."
+    "construction": "Stima metratura quadrata, materiali, vernice e costi di progetto. Calcolatori di costruzione gratuiti per professionisti e hobbisti.",
+    "statistics": "Calcola deviazione standard, varianza, media e analizza insiemi di dati. Calcolatori statistici gratuiti per studenti, ricercatori e analisti."
   },
   "categoryCalculatorCount": "{count, plural, =0 {Nessun calcolatore ancora} =1 {1 calcolatore} other {# calcolatori}}",
   "categoryPage": {
@@ -102,6 +106,13 @@
       "Requisiti di pavimentazione e piastrelle",
       "Quantità di calcestruzzo e materiali",
       "Misurazioni di tetto e rivestimento"
+    ],
+    "statistics": [
+      "Calcoli di deviazione standard e varianza",
+      "Analisi di media, mediana e moda",
+      "Statistica della popolazione vs campione",
+      "Analisi e riepiloghi di insiemi di dati",
+      "Misure statistiche di dispersione"
     ]
   },
   "footer": {

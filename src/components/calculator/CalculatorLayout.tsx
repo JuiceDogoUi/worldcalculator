@@ -3,9 +3,6 @@ import { getTranslations } from 'next-intl/server'
 import { Clock } from 'lucide-react'
 import { Card, CardContent } from '@/components/ui/card'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
-import { StickyBanner } from '@/components/ads/StickyBanner'
-import { NativeBanner } from '@/components/ads/NativeBanner'
-import { MobileBanner } from '@/components/ads/MobileBanner'
 
 interface CalculatorLayoutProps {
   /**
@@ -73,18 +70,7 @@ export async function CalculatorLayout({
   const t = await getTranslations('calculator')
 
   return (
-    <>
-      {/* Sticky Side Banners - Only visible on xl screens (1280px+) */}
-      <StickyBanner position="left" />
-      <StickyBanner position="right" />
-
-      <div className="container py-6 md:py-8">
-      {/* Mobile Banner - Top (320x50) - Only on mobile */}
-      <MobileBanner position="top" className="mb-6" />
-
-      {/* Native Banner - Above breadcrumb - Only on desktop */}
-      <NativeBanner className="mb-6 hidden md:block" />
-
+    <div className="container py-6 md:py-8">
       {/* Breadcrumbs with structured data */}
       <Breadcrumbs
         homeLabel={t('home')}
@@ -133,9 +119,6 @@ export async function CalculatorLayout({
         </div>
       )}
 
-      {/* Mobile Banner - Bottom (300x250) - Only on mobile, below widget */}
-      <MobileBanner position="bottom" className="mb-8" />
-
       {/* SEO Content Section */}
       {seoContent && (
         <div className="prose prose-slate dark:prose-invert max-w-none mb-8">
@@ -150,7 +133,6 @@ export async function CalculatorLayout({
           {relatedCalculators}
         </div>
       )}
-      </div>
-    </>
+    </div>
   )
 }

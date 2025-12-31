@@ -13,6 +13,7 @@ import {
   ArrowLeftRight,
   Clock,
   Hammer,
+  BarChart3,
 } from 'lucide-react'
 
 const iconMap = {
@@ -22,6 +23,7 @@ const iconMap = {
   ArrowLeftRight,
   Clock,
   Hammer,
+  BarChart3,
 }
 
 interface CalculatorsClientProps {

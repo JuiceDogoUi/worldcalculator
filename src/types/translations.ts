@@ -14,6 +14,7 @@ export type CategoryTranslationKey =
   | 'conversion'
   | 'timeDate'
   | 'construction'
+  | 'statistics'
 
 /**
  * Calculator translation keys
@@ -34,6 +35,7 @@ export function isCategoryTranslationKey(
     'conversion',
     'timeDate',
     'construction',
+    'statistics',
   ].includes(key)
 }
 

@@ -1,0 +1,121 @@
+{
+  "title": "Calculadora de Frações",
+  "description": "Some, subtraia, multiplique e divida frações com soluções passo a passo. Converta frações em decimais, percentagens e números mistos. Simplifique frações para a forma irredutível instantaneamente.",
+  "meta": {
+    "title": "Calculadora de Frações - Somar, Subtrair, Multiplicar e Dividir Frações",
+    "description": "Calculadora de frações online grátis. Some, subtraia, multiplique, divida frações com soluções passo a passo. Converta frações em decimais e percentagens. Simplifique instantaneamente.",
+    "keywords": "calculadora de frações, somar frações, subtrair frações, multiplicar frações, dividir frações, simplificar frações, números mistos, fração para decimal, conversor de frações"
+  },
+  "modes": {
+    "add": {
+      "label": "Somar",
+      "description": "Some duas frações. A calculadora encontra o denominador comum e mostra cada passo do cálculo."
+    },
+    "subtract": {
+      "label": "Subtrair",
+      "description": "Subtraia uma fração de outra. Funciona com frações próprias, impróprias e números mistos."
+    },
+    "multiply": {
+      "label": "Multiplicar",
+      "description": "Multiplique duas frações. Simplesmente multiplique os numeradores e os denominadores, depois simplifique."
+    },
+    "divide": {
+      "label": "Dividir",
+      "description": "Divida uma fração por outra. A calculadora inverte a segunda fração e multiplica."
+    },
+    "simplify": {
+      "label": "Simplificar",
+      "description": "Reduza uma fração à sua forma irredutível encontrando o máximo divisor comum (MDC) do numerador e denominador."
+    },
+    "convert": {
+      "label": "Converter",
+      "description": "Converta uma fração em decimal, percentagem, número misto ou fração imprópria."
+    }
+  },
+  "inputs": {
+    "fraction1": "Primeira Fração",
+    "fraction2": "Segunda Fração",
+    "numerator": "Numerador",
+    "denominator": "Denominador",
+    "wholeNumber": "Inteiro",
+    "convertTo": "Converter para"
+  },
+  "conversionFormats": {
+    "decimal": "Decimal",
+    "percentage": "Percentagem",
+    "mixed": "Número Misto",
+    "improper": "Fração Imprópria"
+  },
+  "result": "Resultado",
+  "decimalValue": "Decimal",
+  "percentageValue": "Percentagem",
+  "steps": "Solução Passo a Passo",
+  "formula": "Fórmula Utilizada",
+  "explanation": "Explicação",
+  "reset": "Reiniciar",
+  "conversionResults": "Todas as Conversões",
+  "disclaimer": {
+    "text": "Esta calculadora fornece cálculos matemáticos para fins educacionais e informativos. Verifique sempre os cálculos importantes.",
+    "note": "Os resultados são automaticamente simplificados para a forma irredutível. Os valores decimais podem ser arredondados para exibição."
+  },
+  "seo": {
+    "whatIsTitle": "O Que é uma Calculadora de Frações?",
+    "whatIsContent": "Uma calculadora de frações é uma ferramenta matemática que ajuda a realizar operações aritméticas com frações de forma rápida e precisa. As frações são utilizadas no dia a dia, desde a culinária e construção até às finanças e ciência. A nossa calculadora suporta todas as operações básicas (adição, subtração, multiplicação, divisão), simplificação para a forma irredutível e conversão entre diferentes formatos. Cada cálculo inclui soluções passo a passo para ajudá-lo a compreender o processo.",
+    "operationsTitle": "Operações Disponíveis",
+    "operationsIntro": "A nossa calculadora de frações oferece seis operações poderosas:",
+    "operation1": "Adição – Some frações com diferentes denominadores usando o MMC (Mínimo Múltiplo Comum)",
+    "operation2": "Subtração – Subtraia frações com soluções passo a passo",
+    "operation3": "Multiplicação – Multiplique numeradores e denominadores diretamente",
+    "operation4": "Divisão – Inverta e multiplique (multiplique pelo inverso)",
+    "operation5": "Simplificação – Reduza frações à forma irredutível usando o MDC",
+    "operation6": "Conversão – Converta entre decimais, percentagens, números mistos e frações impróprias",
+    "benefitsTitle": "Por Que Usar a Nossa Calculadora de Frações?",
+    "benefit1": "Soluções passo a passo – Compreenda como cada resposta é calculada",
+    "benefit2": "Múltiplos formatos – Trabalhe com frações próprias, impróprias e números mistos",
+    "benefit3": "Simplificação automática – Os resultados são sempre reduzidos à forma irredutível",
+    "benefit4": "Conversões instantâneas – Veja os equivalentes decimais e percentuais imediatamente",
+    "benefit5": "Gratuito e ilimitado – Calcule quantas frações precisar sem qualquer custo",
+    "howToUseTitle": "Como Usar a Calculadora de Frações",
+    "howToUseStep1": "Selecione a operação que deseja realizar (somar, subtrair, multiplicar, dividir, simplificar ou converter)",
+    "howToUseStep2": "Introduza o numerador e o denominador da primeira fração. Opcionalmente adicione um número inteiro para números mistos.",
+    "howToUseStep3": "Para operações que requerem duas frações, introduza a segunda fração",
+    "howToUseStep4": "Visualize o resultado juntamente com os equivalentes decimais e percentuais",
+    "howToUseStep5": "Reveja a solução passo a passo para compreender o processo de cálculo",
+    "formulasTitle": "Fórmulas de Frações",
+    "formula1Name": "Adição de Frações",
+    "formula1": "a/b + c/d = (ad + bc) / bd",
+    "formula1Example": "Exemplo: 1/2 + 1/4 = (1×4 + 1×2) / (2×4) = 6/8 = 3/4",
+    "formula2Name": "Subtração de Frações",
+    "formula2": "a/b - c/d = (ad - bc) / bd",
+    "formula2Example": "Exemplo: 3/4 - 1/2 = (3×2 - 1×4) / (4×2) = 2/8 = 1/4",
+    "formula3Name": "Multiplicação de Frações",
+    "formula3": "a/b × c/d = (a × c) / (b × d)",
+    "formula3Example": "Exemplo: 2/3 × 3/4 = (2×3) / (3×4) = 6/12 = 1/2",
+    "formula4Name": "Divisão de Frações",
+    "formula4": "a/b ÷ c/d = a/b × d/c = (a × d) / (b × c)",
+    "formula4Example": "Exemplo: 1/2 ÷ 1/4 = 1/2 × 4/1 = 4/2 = 2",
+    "tipsTitle": "Dicas para Trabalhar com Frações",
+    "tip1": "Simplifique sempre a sua resposta final dividindo o numerador e denominador pelo MDC",
+    "tip2": "Ao somar ou subtrair, encontre primeiro o MMC (Mínimo Múltiplo Comum)",
+    "tip3": "Para dividir frações, inverta a segunda fração e multiplique",
+    "tip4": "Números mistos podem ser convertidos em frações impróprias: (inteiro × denominador + numerador) / denominador",
+    "tip5": "Uma fração é igual ao seu decimal quando divide o numerador pelo denominador",
+    "faqTitle": "Perguntas Frequentes",
+    "faq1Question": "Como somo frações com diferentes denominadores?",
+    "faq1Answer": "Para somar frações com diferentes denominadores, primeiro encontre o Mínimo Múltiplo Comum (MMC). Converta cada fração numa fração equivalente com o MMC, depois some os numeradores mantendo o denominador. Por exemplo, 1/2 + 1/3: o MMC é 6, então 3/6 + 2/6 = 5/6.",
+    "faq2Question": "O que é um número misto?",
+    "faq2Answer": "Um número misto combina um número inteiro com uma fração própria. Por exemplo, 2 3/4 significa 2 unidades inteiras mais 3/4. Para calcular com números mistos, converta-os primeiro em frações impróprias: 2 3/4 = (2×4 + 3)/4 = 11/4.",
+    "faq3Question": "Como simplifico uma fração?",
+    "faq3Answer": "Para simplificar uma fração, encontre o Máximo Divisor Comum (MDC) do numerador e denominador, depois divida ambos por este número. Por exemplo, para simplificar 12/18: o MDC de 12 e 18 é 6, então 12/18 = 2/3.",
+    "faq4Question": "O que é uma fração imprópria?",
+    "faq4Answer": "Uma fração imprópria tem um numerador maior ou igual ao seu denominador, como 7/4 ou 5/5. Estas podem ser convertidas em números mistos: 7/4 = 1 3/4. Apesar do nome, as frações impróprias são perfeitamente válidas e muitas vezes mais fáceis de usar em cálculos.",
+    "faq5Question": "Como converto uma fração em decimal?",
+    "faq5Answer": "Divida o numerador pelo denominador. Por exemplo, 3/4 = 3 ÷ 4 = 0,75. Algumas frações criam decimais periódicos, como 1/3 = 0,333... (periódico).",
+    "faq6Question": "Como converto uma fração em percentagem?",
+    "faq6Answer": "Converta a fração em decimal (divida o numerador pelo denominador), depois multiplique por 100. Por exemplo, 3/4 = 0,75 = 75%. Alternativamente, multiplique a fração por 100: (3/4) × 100 = 75%.",
+    "faq7Question": "Por que devo inverter a segunda fração ao dividir?",
+    "faq7Answer": "Dividir por uma fração é o mesmo que multiplicar pelo seu inverso. O inverso de a/b é b/a. Então a/b ÷ c/d = a/b × d/c. Esta regra torna a divisão simples assim que a compreender.",
+    "faq8Question": "O que é o MMC e como o encontro?",
+    "faq8Answer": "MMC significa Mínimo Múltiplo Comum – o menor número pelo qual ambos os denominadores dividem exatamente. Encontre-o listando os múltiplos de cada denominador até encontrar um comum, ou calcule o MMC diretamente. Para 1/3 e 1/4, o MMC é 12."
+  }
+}

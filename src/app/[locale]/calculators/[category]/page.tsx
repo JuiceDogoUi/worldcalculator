@@ -5,7 +5,7 @@ import { categories, getCategoryBySlug } from '@/config/categories'
 import { getCalculatorsByCategory } from '@/config/calculators'
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
-import { ChevronRight, Banknote, Percent, Heart, Clock, Ruler, ArrowLeftRight, CheckCircle2 } from 'lucide-react'
+import { ChevronRight, Banknote, Percent, Heart, Clock, Ruler, ArrowLeftRight, CheckCircle2, BarChart3 } from 'lucide-react'
 import type { Metadata } from 'next'
 import { locales } from '@/i18n/locales'
 
@@ -17,6 +17,7 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Clock,
   Ruler,
   ArrowLeftRight,
+  BarChart3,
 }
 
 // Map category slugs to icons for related categories
@@ -27,6 +28,7 @@ const categoryIconMap: Record<string, React.ComponentType<{ className?: string }
   conversion: ArrowLeftRight,
   'time-date': Clock,
   construction: Ruler,
+  statistics: BarChart3,
 }
 
 export const dynamic = 'force-static'
@@ -66,6 +68,7 @@ export async function generateMetadata({
     | 'conversion'
     | 'timeDate'
     | 'construction'
+    | 'statistics'
 
   const title = tH1(key)
   const description = tSeoDesc(key)
@@ -127,6 +130,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     | 'conversion'
     | 'timeDate'
     | 'construction'
+    | 'statistics'
 
   // Fetch calculators for this category from registry
   const categoryCalculators = getCalculatorsByCategory(categorySlug)

@@ -17,7 +17,8 @@
       "math": "Prozente, Brüche, Durchschnitte, GPA",
       "conversion": "Einheiten, Währung, Temperatur, Entfernung",
       "timeDate": "Altersrechner, Datumsdifferenz, Countdown",
-      "construction": "Quadratmeter, Materialien, Farbschätzungen"
+      "construction": "Quadratmeter, Materialien, Farbschätzungen",
+      "statistics": "Standardabweichung, Varianz, Mittelwert, Datenanalyse"
     },
     "viewAll": "Alle Anzeigen",
     "calculatorsCount": "{count} Rechner"
@@ -36,7 +37,8 @@
     "math": "Mathematik",
     "conversion": "Umrechnung",
     "timeDate": "Datum & Uhrzeit",
-    "construction": "Bauwesen"
+    "construction": "Bauwesen",
+    "statistics": "Statistik"
   },
   "categoryH1": {
     "finance": "Finanzrechner - Kredit-, Hypotheken- und Anlagetools",
@@ -44,7 +46,8 @@
     "math": "Mathematikrechner - Prozent, GPA und Alltagsberechnungen",
     "conversion": "Einheitenumrechner - Währung, Temperatur und Entfernung",
     "timeDate": "Datums- und Uhrzeitrechner - Alter, Dauer und Datumswerkzeuge",
-    "construction": "Baurechner - Quadratmeterzahl, Materialien und Schätzungen"
+    "construction": "Baurechner - Quadratmeterzahl, Materialien und Schätzungen",
+    "statistics": "Statistikrechner - Standardabweichung, Varianz und Datenanalyse"
   },
   "categorySeoDescription": {
     "finance": "Berechnen Sie Kreditraten, Hypothekenzinsen, Anlagerenditen und Sparziele. Kostenlose Finanzrechner für klügere Geldentscheidungen.",
@@ -52,7 +55,8 @@
     "math": "Lösen Sie Prozent-, Bruch-, Durchschnitts- und GPA-Berechnungen sofort. Kostenlose Mathematikrechner für Schüler und Profis.",
     "conversion": "Konvertieren Sie Einheiten, Währungen, Temperaturen und Entfernungen schnell. Präzise Umrechner für den Alltag.",
     "timeDate": "Berechnen Sie Alter, Datumsunterschiede, Zeitzonen und Countdowns. Kostenlose Datums- und Uhrzeittools für die Planung.",
-    "construction": "Schätzen Sie Quadratmeterzahl, Materialien, Farbe und Projektkosten. Kostenlose Baurechner für Handwerker und Heimwerker."
+    "construction": "Schätzen Sie Quadratmeterzahl, Materialien, Farbe und Projektkosten. Kostenlose Baurechner für Handwerker und Heimwerker.",
+    "statistics": "Berechnen Sie Standardabweichung, Varianz, Mittelwert und analysieren Sie Datensätze. Kostenlose Statistikrechner für Schüler, Forscher und Analysten."
   },
   "categoryCalculatorCount": "{count, plural, =0 {Noch keine Rechner} =1 {1 Rechner} other {# Rechner}}",
   "categoryPage": {
@@ -102,6 +106,13 @@
       "Bodenbelag- und Fliesenanforderungen",
       "Beton- und Materialmengen",
       "Dach- und Verkleidungsmessungen"
+    ],
+    "statistics": [
+      "Standardabweichung- und Varianzberechnungen",
+      "Mittelwert-, Median- und Modalwertanalyse",
+      "Grundgesamtheits- vs. Stichprobenstatistik",
+      "Datensatzanalyse und Zusammenfassungen",
+      "Statistische Streuungsmaße"
     ]
   },
   "footer": {

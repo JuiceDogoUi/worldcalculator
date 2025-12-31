@@ -17,7 +17,8 @@
       "math": "Pourcentages, fractions, moyennes, GPA",
       "conversion": "Unités, devise, température, distance",
       "timeDate": "Calculateur d'âge, différence de dates, compte à rebours",
-      "construction": "Superficie, matériaux, estimations de peinture"
+      "construction": "Superficie, matériaux, estimations de peinture",
+      "statistics": "Écart-type, variance, moyenne, analyse de données"
     },
     "viewAll": "Voir Tout",
     "calculatorsCount": "{count} calculateurs"
@@ -36,7 +37,8 @@
     "math": "Mathématiques",
     "conversion": "Conversion",
     "timeDate": "Date et Heure",
-    "construction": "Construction"
+    "construction": "Construction",
+    "statistics": "Statistiques"
   },
   "categoryH1": {
     "finance": "Calculateurs Financiers - Prêt, Hypothèque et Outils d'Investissement",
@@ -44,7 +46,8 @@
     "math": "Calculateurs Mathématiques - Pourcentage, GPA et Calculs Quotidiens",
     "conversion": "Convertisseurs d'Unités - Devise, Température et Distance",
     "timeDate": "Calculateurs de Date et Heure - Âge, Durée et Outils de Date",
-    "construction": "Calculateurs de Construction - Superficie, Matériaux et Estimations"
+    "construction": "Calculateurs de Construction - Superficie, Matériaux et Estimations",
+    "statistics": "Calculateurs Statistiques - Écart-type, Variance et Analyse de Données"
   },
   "categorySeoDescription": {
     "finance": "Calculez vos mensualités de prêt, taux hypothécaires, rendements d'investissement et objectifs d'épargne. Calculateurs financiers gratuits pour des décisions plus avisées.",
@@ -52,7 +55,8 @@
     "math": "Résolvez pourcentages, fractions, moyennes et calculs de GPA instantanément. Calculateurs mathématiques gratuits pour étudiants et professionnels.",
     "conversion": "Convertissez unités, devises, températures et distances rapidement. Convertisseurs précis pour un usage quotidien.",
     "timeDate": "Calculez l'âge, les différences de dates, les fuseaux horaires et les comptes à rebours. Outils gratuits de date et heure pour la planification.",
-    "construction": "Estimez la superficie, les matériaux, la peinture et les coûts de projet. Calculateurs de construction gratuits pour professionnels et bricoleurs."
+    "construction": "Estimez la superficie, les matériaux, la peinture et les coûts de projet. Calculateurs de construction gratuits pour professionnels et bricoleurs.",
+    "statistics": "Calculez l'écart-type, la variance, la moyenne et analysez des ensembles de données. Calculateurs statistiques gratuits pour étudiants, chercheurs et analystes."
   },
   "categoryCalculatorCount": "{count, plural, =0 {Aucun calculateur} =1 {1 calculateur} other {# calculateurs}}",
   "categoryPage": {
@@ -102,6 +106,13 @@
       "Besoins en revêtement de sol et carrelage",
       "Quantités de béton et matériaux",
       "Mesures de toiture et bardage"
+    ],
+    "statistics": [
+      "Calculs d'écart-type et de variance",
+      "Analyse de moyenne, médiane et mode",
+      "Statistiques de population vs échantillon",
+      "Analyse et résumés d'ensembles de données",
+      "Mesures statistiques de dispersion"
     ]
   },
   "footer": {

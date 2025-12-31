@@ -8,6 +8,7 @@ import {
   ArrowLeftRight,
   Clock,
   Hammer,
+  BarChart3,
 } from 'lucide-react'
 
 // Icon mapping for categories
@@ -18,6 +19,7 @@ const iconMap = {
   ArrowLeftRight,
   Clock,
   Hammer,
+  BarChart3,
 }
 
 /**

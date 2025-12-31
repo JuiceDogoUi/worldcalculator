@@ -1,0 +1,121 @@
+{
+  "title": "Bruchrechner",
+  "description": "Addieren, subtrahieren, multiplizieren und dividieren Sie Brüche mit Schritt-für-Schritt-Lösungen. Wandeln Sie Brüche in Dezimalzahlen, Prozentsätze und gemischte Zahlen um. Kürzen Sie Brüche sofort auf die kleinste Form.",
+  "meta": {
+    "title": "Bruchrechner - Brüche Addieren, Subtrahieren, Multiplizieren & Dividieren",
+    "description": "Kostenloser Online-Bruchrechner. Addieren, subtrahieren, multiplizieren, dividieren Sie Brüche mit Schritt-für-Schritt-Lösungen. Wandeln Sie Brüche in Dezimalzahlen und Prozentsätze um. Sofort vereinfachen.",
+    "keywords": "bruchrechner, brüche addieren, brüche subtrahieren, brüche multiplizieren, brüche dividieren, brüche kürzen, gemischte zahlen, bruch in dezimalzahl, bruch umrechner"
+  },
+  "modes": {
+    "add": {
+      "label": "Addieren",
+      "description": "Addieren Sie zwei Brüche. Der Rechner findet den gemeinsamen Nenner und zeigt jeden Rechenschritt."
+    },
+    "subtract": {
+      "label": "Subtrahieren",
+      "description": "Subtrahieren Sie einen Bruch von einem anderen. Funktioniert mit echten Brüchen, unechten Brüchen und gemischten Zahlen."
+    },
+    "multiply": {
+      "label": "Multiplizieren",
+      "description": "Multiplizieren Sie zwei Brüche. Multiplizieren Sie einfach die Zähler und Nenner, dann kürzen Sie."
+    },
+    "divide": {
+      "label": "Dividieren",
+      "description": "Dividieren Sie einen Bruch durch einen anderen. Der Rechner kehrt den zweiten Bruch um und multipliziert."
+    },
+    "simplify": {
+      "label": "Kürzen",
+      "description": "Reduzieren Sie einen Bruch auf die kleinste Form, indem Sie den größten gemeinsamen Teiler (ggT) von Zähler und Nenner finden."
+    },
+    "convert": {
+      "label": "Umwandeln",
+      "description": "Wandeln Sie einen Bruch in Dezimalzahl, Prozentsatz, gemischte Zahl oder unechten Bruch um."
+    }
+  },
+  "inputs": {
+    "fraction1": "Erster Bruch",
+    "fraction2": "Zweiter Bruch",
+    "numerator": "Zähler",
+    "denominator": "Nenner",
+    "wholeNumber": "Ganze Zahl",
+    "convertTo": "Umwandeln in"
+  },
+  "conversionFormats": {
+    "decimal": "Dezimalzahl",
+    "percentage": "Prozentsatz",
+    "mixed": "Gemischte Zahl",
+    "improper": "Unechter Bruch"
+  },
+  "result": "Ergebnis",
+  "decimalValue": "Dezimal",
+  "percentageValue": "Prozent",
+  "steps": "Schritt-für-Schritt-Lösung",
+  "formula": "Verwendete Formel",
+  "explanation": "Erklärung",
+  "reset": "Zurücksetzen",
+  "conversionResults": "Alle Umrechnungen",
+  "disclaimer": {
+    "text": "Dieser Rechner liefert mathematische Berechnungen zu Bildungs- und Informationszwecken. Überprüfen Sie wichtige Berechnungen immer.",
+    "note": "Ergebnisse werden automatisch auf die kleinste Form gekürzt. Dezimalwerte können zur Anzeige gerundet werden."
+  },
+  "seo": {
+    "whatIsTitle": "Was ist ein Bruchrechner?",
+    "whatIsContent": "Ein Bruchrechner ist ein mathematisches Werkzeug, das Ihnen hilft, arithmetische Operationen mit Brüchen schnell und präzise durchzuführen. Brüche werden im Alltag verwendet – vom Kochen und Bauen bis hin zu Finanzen und Wissenschaft. Unser Rechner unterstützt alle grundlegenden Operationen (Addition, Subtraktion, Multiplikation, Division), Kürzung auf die kleinste Form und Umwandlung zwischen verschiedenen Formaten. Jede Berechnung enthält Schritt-für-Schritt-Lösungen, um Ihnen den Prozess zu erklären.",
+    "operationsTitle": "Unterstützte Operationen",
+    "operationsIntro": "Unser Bruchrechner bietet sechs leistungsstarke Operationen:",
+    "operation1": "Addition – Addieren Sie Brüche mit verschiedenen Nennern unter Verwendung des kgV (kleinstes gemeinsames Vielfaches)",
+    "operation2": "Subtraktion – Subtrahieren Sie Brüche mit Schritt-für-Schritt-Lösungen",
+    "operation3": "Multiplikation – Multiplizieren Sie Zähler und Nenner direkt",
+    "operation4": "Division – Umkehren und multiplizieren (mit dem Kehrwert multiplizieren)",
+    "operation5": "Kürzung – Reduzieren Sie Brüche auf die kleinste Form mit dem ggT",
+    "operation6": "Umwandlung – Umwandlung zwischen Dezimalzahlen, Prozentsätzen, gemischten Zahlen und unechten Brüchen",
+    "benefitsTitle": "Warum Unseren Bruchrechner Verwenden?",
+    "benefit1": "Schritt-für-Schritt-Lösungen – Verstehen Sie, wie jede Antwort berechnet wird",
+    "benefit2": "Mehrere Formate – Arbeiten Sie mit echten Brüchen, unechten Brüchen und gemischten Zahlen",
+    "benefit3": "Automatische Kürzung – Ergebnisse werden immer auf die kleinste Form reduziert",
+    "benefit4": "Sofortige Umrechnungen – Sehen Sie sofort Dezimal- und Prozent-Äquivalente",
+    "benefit5": "Kostenlos und unbegrenzt – Berechnen Sie so viele Brüche wie nötig, ohne Kosten",
+    "howToUseTitle": "So Verwenden Sie den Bruchrechner",
+    "howToUseStep1": "Wählen Sie die gewünschte Operation (addieren, subtrahieren, multiplizieren, dividieren, kürzen oder umwandeln)",
+    "howToUseStep2": "Geben Sie Zähler und Nenner für den ersten Bruch ein. Fügen Sie optional eine ganze Zahl für gemischte Zahlen hinzu.",
+    "howToUseStep3": "Für Operationen, die zwei Brüche erfordern, geben Sie den zweiten Bruch ein",
+    "howToUseStep4": "Sehen Sie sich das Ergebnis zusammen mit Dezimal- und Prozent-Äquivalenten an",
+    "howToUseStep5": "Prüfen Sie die Schritt-für-Schritt-Lösung, um den Berechnungsprozess zu verstehen",
+    "formulasTitle": "Bruchformeln",
+    "formula1Name": "Addition von Brüchen",
+    "formula1": "a/b + c/d = (ad + bc) / bd",
+    "formula1Example": "Beispiel: 1/2 + 1/4 = (1×4 + 1×2) / (2×4) = 6/8 = 3/4",
+    "formula2Name": "Subtraktion von Brüchen",
+    "formula2": "a/b - c/d = (ad - bc) / bd",
+    "formula2Example": "Beispiel: 3/4 - 1/2 = (3×2 - 1×4) / (4×2) = 2/8 = 1/4",
+    "formula3Name": "Multiplikation von Brüchen",
+    "formula3": "a/b × c/d = (a × c) / (b × d)",
+    "formula3Example": "Beispiel: 2/3 × 3/4 = (2×3) / (3×4) = 6/12 = 1/2",
+    "formula4Name": "Division von Brüchen",
+    "formula4": "a/b ÷ c/d = a/b × d/c = (a × d) / (b × c)",
+    "formula4Example": "Beispiel: 1/2 ÷ 1/4 = 1/2 × 4/1 = 4/2 = 2",
+    "tipsTitle": "Tipps für das Arbeiten mit Brüchen",
+    "tip1": "Kürzen Sie Ihr Endergebnis immer, indem Sie sowohl Zähler als auch Nenner durch ihren ggT teilen",
+    "tip2": "Beim Addieren oder Subtrahieren finden Sie zuerst das kgV (kleinstes gemeinsames Vielfaches)",
+    "tip3": "Um Brüche zu dividieren, kehren Sie den zweiten Bruch um und multiplizieren",
+    "tip4": "Gemischte Zahlen können in unechte Brüche umgewandelt werden: (ganze Zahl × Nenner + Zähler) / Nenner",
+    "tip5": "Ein Bruch entspricht seiner Dezimalzahl, wenn Sie den Zähler durch den Nenner teilen",
+    "faqTitle": "Häufig Gestellte Fragen",
+    "faq1Question": "Wie addiere ich Brüche mit unterschiedlichen Nennern?",
+    "faq1Answer": "Um Brüche mit unterschiedlichen Nennern zu addieren, finden Sie zuerst das kleinste gemeinsame Vielfache (kgV). Wandeln Sie jeden Bruch in einen äquivalenten Bruch mit dem kgV um, addieren Sie dann die Zähler, während Sie den Nenner beibehalten. Zum Beispiel 1/2 + 1/3: kgV ist 6, also 3/6 + 2/6 = 5/6.",
+    "faq2Question": "Was ist eine gemischte Zahl?",
+    "faq2Answer": "Eine gemischte Zahl kombiniert eine ganze Zahl mit einem echten Bruch. Zum Beispiel bedeutet 2 3/4 zwei ganze Einheiten plus 3/4. Um mit gemischten Zahlen zu rechnen, wandeln Sie sie zuerst in unechte Brüche um: 2 3/4 = (2×4 + 3)/4 = 11/4.",
+    "faq3Question": "Wie kürze ich einen Bruch?",
+    "faq3Answer": "Um einen Bruch zu kürzen, finden Sie den größten gemeinsamen Teiler (ggT) von Zähler und Nenner und teilen Sie beide durch diese Zahl. Zum Beispiel, um 12/18 zu kürzen: ggT von 12 und 18 ist 6, also 12/18 = 2/3.",
+    "faq4Question": "Was ist ein unechter Bruch?",
+    "faq4Answer": "Ein unechter Bruch hat einen Zähler, der größer oder gleich seinem Nenner ist, wie 7/4 oder 5/5. Diese können in gemischte Zahlen umgewandelt werden: 7/4 = 1 3/4. Trotz des Namens sind unechte Brüche völlig gültig und oft einfacher in Berechnungen zu verwenden.",
+    "faq5Question": "Wie wandle ich einen Bruch in eine Dezimalzahl um?",
+    "faq5Answer": "Teilen Sie den Zähler durch den Nenner. Zum Beispiel 3/4 = 3 ÷ 4 = 0,75. Einige Brüche erzeugen periodische Dezimalzahlen, wie 1/3 = 0,333... (periodisch).",
+    "faq6Question": "Wie wandle ich einen Bruch in einen Prozentsatz um?",
+    "faq6Answer": "Wandeln Sie den Bruch in eine Dezimalzahl um (teilen Sie Zähler durch Nenner), dann multiplizieren Sie mit 100. Zum Beispiel 3/4 = 0,75 = 75%. Alternativ multiplizieren Sie den Bruch mit 100: (3/4) × 100 = 75%.",
+    "faq7Question": "Warum muss ich den zweiten Bruch beim Dividieren umkehren?",
+    "faq7Answer": "Durch einen Bruch zu dividieren ist dasselbe wie mit seinem Kehrwert zu multiplizieren. Der Kehrwert von a/b ist b/a. Also a/b ÷ c/d = a/b × d/c. Diese Regel macht die Division einfach, sobald Sie sie verstehen.",
+    "faq8Question": "Was ist das kgV und wie finde ich es?",
+    "faq8Answer": "kgV steht für kleinstes gemeinsames Vielfaches – die kleinste Zahl, durch die beide Nenner gleichmäßig teilbar sind. Finden Sie es, indem Sie Vielfache jedes Nenners auflisten, bis Sie ein gemeinsames finden, oder berechnen Sie das kgV direkt. Für 1/3 und 1/4 ist das kgV 12."
+  }
+}

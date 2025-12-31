@@ -5,6 +5,7 @@ export type CalculatorCategory =
   | 'conversion'
   | 'time-date'
   | 'construction'
+  | 'statistics'
 
 export interface Calculator {
   id: string

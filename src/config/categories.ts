@@ -59,6 +59,14 @@ export const categories: Category[] = [
     color: 'amber',
     priority: 6, // Medium-High - square footage, materials (commercial potential)
   },
+  {
+    id: 'statistics',
+    slug: 'statistics',
+    translationKey: 'statistics',
+    icon: 'BarChart3',
+    color: 'cyan',
+    priority: 7, // High - standard deviation, mean, variance (educational, research)
+  },
 ]
 
 // Helper functions
