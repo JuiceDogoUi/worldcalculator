@@ -123,6 +123,18 @@ export const calculators: Calculator[] = [
     relatedCalculators: ['fraction', 'percentage', 'standard-deviation'],
     lastModified: '2025-12-31',
   },
+  {
+    id: 'scientific-calculator',
+    slug: 'scientific',
+    category: 'math',
+    translationKey: 'calculators.math.scientific',
+    icon: 'Calculator',
+    featured: true,
+    difficulty: 'medium',
+    estimatedTime: 300,
+    relatedCalculators: ['percentage', 'fraction', 'gcd'],
+    lastModified: '2026-01-03',
+  },
 
   // More calculators will be added here
 ]
