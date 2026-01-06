@@ -5,8 +5,6 @@ import {
   PiggyBank,
   ChevronDown,
   TrendingUp,
-  Calendar,
-  Target,
   AlertTriangle,
   CheckCircle,
 } from 'lucide-react'
