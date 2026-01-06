@@ -356,18 +356,80 @@ For simple calculators with straightforward formulas:
 ## Development Patterns
 
 ### Calculator Implementation Checklist
+
+**CRITICAL: Follow ALL steps in order. Missing any registration step will cause build failures.**
+
+#### Phase 1: Research & Design
 - [ ] Research competitors (market-researcher)
 - [ ] Validate formula (validation-expert or market-researcher)
 - [ ] Design types and logic (calculator-architect)
-- [ ] Implement validation (validation-expert)
-- [ ] Create component (calculator-architect)
-- [ ] Register calculator (calculator-architect)
-- [ ] Add translations (i18n-translation-specialist) - all 6 languages
-- [ ] Create SEO metadata (seo-structured-data-specialist) - all 6 languages
-- [ ] Write content (content-localization-writer) - FAQs, HowTo, description
-- [ ] Build and validate (nextjs-static-export-optimizer)
-- [ ] Test in all languages
-- [ ] Deploy
+
+#### Phase 2: Implementation
+- [ ] Create feature folder: `src/features/{category}/{calculator-slug}/`
+- [ ] Implement `types.ts` - TypeScript interfaces
+- [ ] Implement `calculations.ts` - Pure calculation functions
+- [ ] Implement `{Name}Calculator.tsx` - React component
+- [ ] Implement `{Name}SEOContent.tsx` - SEO content component
+- [ ] Create `index.ts` - Barrel exports
+
+#### Phase 3: Registration (ALL THREE ARE REQUIRED!)
+- [ ] **Register in `src/config/calculators.ts`** - Add calculator metadata
+- [ ] **Register in `src/i18n/request.ts`** - Add slug to `CALCULATOR_REGISTRY[category]` array
+- [ ] Create page: `src/app/[locale]/calculators/{category}/{slug}/page.tsx`
+
+#### Phase 4: Translations (ALL 6 LANGUAGES)
+- [ ] Create `src/messages/en/calculators/{category}/{slug}.json`
+- [ ] Create `src/messages/es/calculators/{category}/{slug}.json`
+- [ ] Create `src/messages/fr/calculators/{category}/{slug}.json`
+- [ ] Create `src/messages/de/calculators/{category}/{slug}.json`
+- [ ] Create `src/messages/pt/calculators/{category}/{slug}.json`
+- [ ] Create `src/messages/it/calculators/{category}/{slug}.json`
+
+#### Phase 5: Validation
+- [ ] Run `npm run validate:translations` - Check translation structure
+- [ ] Run `npm run build` - Verify no errors
+- [ ] Test calculator in dev server for all 6 locales
+- [ ] Review agent validation reports
+
+---
+
+### Common Issues When Adding Calculators
+
+**IMPORTANT: These issues occur frequently. Always verify these steps!**
+
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| `MISSING_MESSAGE` error | Calculator not in `CALCULATOR_REGISTRY` | Add slug to `src/i18n/request.ts` |
+| Translation keys missing | Translation file structure mismatch | Compare with English file, ensure all keys exist |
+| Page 404 | Missing page.tsx | Create `src/app/[locale]/calculators/{category}/{slug}/page.tsx` |
+| Build fails | Missing calculator in registry | Add to `src/config/calculators.ts` |
+| Duplicate translation keys | Extra keys in non-EN files | Remove keys not in English version |
+| Meta description too long | SEO issue | Keep under 160 characters |
+
+### Registration Files Quick Reference
+
+When adding a new calculator, you MUST update these files:
+
+```typescript
+// 1. src/config/calculators.ts - Add calculator metadata
+{
+  id: '{slug}-calculator',
+  slug: '{slug}',
+  category: '{category}',
+  translationKey: 'calculators.{category}.{slug}',
+  icon: 'IconName',
+  featured: true,
+  difficulty: 'easy',
+  estimatedTime: 60,
+  relatedCalculators: ['other', 'calculators'],
+  lastModified: '2026-01-06',
+}
+
+// 2. src/i18n/request.ts - Add to CALCULATOR_REGISTRY
+const CALCULATOR_REGISTRY: Record<string, string[]> = {
+  {category}: ['existing', 'calculators', '{slug}'],  // <-- ADD HERE
+}
+```
 
 ### Quality Standards
 - **TypeScript**: Strict mode, 100% type coverage

@@ -1,0 +1,114 @@
+{
+  "title": "Square Root Calculator",
+  "description": "Calculate square roots, nth roots, and perfect squares with step-by-step solutions. Simplify radicals, view prime factorization, and see exact and approximate values instantly.",
+  "meta": {
+    "title": "Square Root Calculator [2025] - Free with Steps",
+    "description": "Calculate square roots and nth roots instantly. Free calculator with step-by-step solutions, radical simplification, and prime factorization. Try it now!",
+    "keywords": "square root calculator, nth root calculator, radical calculator, simplify radicals, perfect square, cube root, prime factorization, root simplification"
+  },
+  "modes": {
+    "squareRoot": {
+      "label": "Square Root",
+      "description": "Calculate the square root (√x) of any positive number. Shows both positive and negative roots, simplified form, and checks if it's a perfect square."
+    },
+    "nthRoot": {
+      "label": "Nth Root",
+      "description": "Calculate any nth root (ⁿ√x) such as cube root, fourth root, etc. Supports custom root indices for advanced calculations."
+    },
+    "square": {
+      "label": "Square",
+      "description": "Calculate the square (x²) of any number. Shows the result of multiplying a number by itself."
+    }
+  },
+  "inputs": {
+    "number": "Number",
+    "numberPlaceholder": "Enter a number",
+    "rootIndex": "Root Index (n)",
+    "rootIndexPlaceholder": "Enter root index (e.g., 3 for cube root)"
+  },
+  "results": {
+    "title": "Result",
+    "positiveRoot": "Positive Root",
+    "negativeRoot": "Negative Root",
+    "exactValue": "Exact Value",
+    "approximateValue": "Approximate Value",
+    "simplifiedForm": "Simplified Form",
+    "isPerfectSquare": "Is Perfect Square/Root?",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "steps": "Step-by-Step Solution",
+  "formula": "Formula Used",
+  "explanation": "Explanation",
+  "primeFactorization": "Prime Factorization",
+  "reset": "Reset",
+  "errors": {
+    "negativeSquareRoot": "Cannot calculate square root of negative numbers",
+    "negativeEvenRoot": "Cannot calculate even root of negative numbers",
+    "invalidNumber": "Please enter a valid number",
+    "invalidRootIndex": "Root index must be a positive integer greater than 0"
+  },
+  "disclaimer": {
+    "text": "This calculator provides accurate mathematical calculations for educational and practical purposes.",
+    "note": "Results include both exact values (for perfect squares/roots) and decimal approximations. Radical simplifications are shown when applicable."
+  },
+  "seo": {
+    "whatIsTitle": "What is a Square Root?",
+    "whatIsContent": "A square root of a number is a value that, when multiplied by itself, gives the original number. For example, the square root of 16 is 4 because 4 × 4 = 16. Every positive number has two square roots: one positive and one negative (±4 for 16). The square root symbol (√) is called a radical. Square roots are fundamental in mathematics, appearing in geometry, algebra, physics, engineering, and many real-world applications.",
+    "howItWorksTitle": "Features of This Calculator",
+    "howItWorksIntro": "Our square root calculator offers comprehensive functionality:",
+    "feature1": "Square Root (√x): Calculate the square root of any positive number with exact or approximate results",
+    "feature2": "Nth Root (ⁿ√x): Calculate cube roots, fourth roots, or any custom root index",
+    "feature3": "Square (x²): Calculate the square of any number instantly",
+    "feature4": "Simplified Radicals: Automatically simplify radical expressions (e.g., √12 = 2√3)",
+    "feature5": "Prime Factorization: View the prime factorization to understand radical simplification",
+    "benefitsTitle": "Why Use This Calculator?",
+    "benefit1": "Step-by-step solutions help you understand the calculation process",
+    "benefit2": "Perfect square detection identifies when roots are exact integers",
+    "benefit3": "Automatic radical simplification shows simplified forms",
+    "benefit4": "Prime factorization visualization for learning number theory",
+    "benefit5": "Support for square roots, nth roots, and squaring operations",
+    "howToUseTitle": "How to Use the Square Root Calculator",
+    "howToUseStep1": "Select your operation mode: Square Root (√x), Nth Root (ⁿ√x), or Square (x²)",
+    "howToUseStep2": "Enter the number you want to calculate with",
+    "howToUseStep3": "For nth roots, specify the root index (e.g., 3 for cube root, 4 for fourth root)",
+    "howToUseStep4": "View the result with both exact and approximate values",
+    "howToUseStep5": "Review the step-by-step solution and prime factorization to understand the calculation",
+    "formulasTitle": "Square Root Formulas",
+    "formula1Name": "Square Root Definition",
+    "formula1": "If √a = b, then b² = a",
+    "formula1Example": "Example: √16 = 4 because 4² = 16",
+    "formula2Name": "Nth Root Definition",
+    "formula2": "If ⁿ√a = b, then bⁿ = a",
+    "formula2Example": "Example: ³√27 = 3 because 3³ = 27",
+    "formula3Name": "Radical Simplification",
+    "formula3": "√(a × b) = √a × √b",
+    "formula3Example": "Example: √12 = √(4 × 3) = √4 × √3 = 2√3",
+    "formula4Name": "Perfect Square",
+    "formula4": "√(n²) = n",
+    "formula4Example": "Example: √25 = √(5²) = 5",
+    "tipsTitle": "Tips for Working with Square Roots",
+    "tip1": "Perfect squares (1, 4, 9, 16, 25, 36, ...) have exact integer square roots",
+    "tip2": "To simplify a radical, factor out perfect squares from under the radical sign",
+    "tip3": "Every positive number has two square roots: positive and negative (±)",
+    "tip4": "The square root of a negative number is not a real number (it's imaginary)",
+    "tip5": "Cube roots and odd-index roots can be calculated for negative numbers",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Question": "What is the difference between a square root and a square?",
+    "faq1Answer": "A square (x²) multiplies a number by itself: 4² = 16. A square root (√x) is the inverse operation that finds what number was squared: √16 = 4. They are opposite operations that undo each other.",
+    "faq2Question": "Why are there two square roots (positive and negative)?",
+    "faq2Answer": "Both positive and negative values produce the same square: 4² = 16 and (-4)² = 16. Therefore, 16 has two square roots: +4 and -4, written as ±4. The principal (main) square root is the positive one.",
+    "faq3Question": "How do I simplify a square root?",
+    "faq3Answer": "Factor the number under the radical into prime factors, then extract perfect squares. For example, √12 = √(4 × 3) = √4 × √3 = 2√3. Our calculator does this automatically and shows the prime factorization.",
+    "faq4Question": "What is a perfect square?",
+    "faq4Answer": "A perfect square is a number that is the square of an integer: 1, 4, 9, 16, 25, 36, 49, etc. These numbers have exact integer square roots. For example, √16 = 4 exactly (no decimal).",
+    "faq5Question": "Can I take the square root of a negative number?",
+    "faq5Answer": "No, not in the real number system. Square roots of negative numbers involve imaginary numbers (using 'i' where i² = -1). However, odd-index roots (cube root, fifth root, etc.) can be calculated for negative numbers.",
+    "faq6Question": "What is an nth root?",
+    "faq6Answer": "An nth root is a generalization of square roots. The nth root of a number is a value that, when raised to the power of n, gives the original number. For example, the cube root (n=3) of 27 is 3 because 3³ = 27.",
+    "faq7Question": "How accurate are the decimal approximations?",
+    "faq7Answer": "Our calculator provides decimal approximations to 8 significant figures, which is sufficient for most practical applications. For perfect squares and roots, exact integer values are shown.",
+    "faq8Question": "What is prime factorization and why is it useful?",
+    "faq8Answer": "Prime factorization breaks a number into its prime number components. For example, 12 = 2² × 3. This is useful for simplifying radicals because perfect squares (like 2² = 4) can be extracted from under the radical sign."
+  }
+}

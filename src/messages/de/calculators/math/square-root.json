@@ -1,0 +1,114 @@
+{
+  "title": "Quadratwurzel-Rechner",
+  "description": "Berechnen Sie Quadratwurzeln, n-te Wurzeln und Quadratzahlen mit Schritt-für-Schritt-Lösungen. Vereinfachen Sie Wurzeln, prüfen Sie auf vollständige Quadrate und sehen Sie die Primfaktorzerlegung mit unserem kostenlosen Online-Rechner.",
+  "meta": {
+    "title": "Quadratwurzel-Rechner - Wurzeln Berechnen & Vereinfachen",
+    "description": "Kostenloser Quadratwurzel-Rechner. Berechnen Sie √x, ⁿ√x und x² mit Schritt-für-Schritt-Lösungen und Wurzelvereinfachung.",
+    "keywords": "quadratwurzel rechner, wurzel berechnen, n-te wurzel, quadrat rechner, wurzel vereinfachen, vollständiges quadrat, primfaktorzerlegung, wurzelrechner online"
+  },
+  "modes": {
+    "squareRoot": {
+      "label": "Quadratwurzel",
+      "description": "Berechnen Sie die Quadratwurzel einer Zahl. Die Quadratwurzel von x ist die Zahl, die mit sich selbst multipliziert x ergibt."
+    },
+    "nthRoot": {
+      "label": "n-te Wurzel",
+      "description": "Berechnen Sie beliebige n-te Wurzeln (Kubikwurzel, vierte Wurzel usw.). Die n-te Wurzel von x ist die Zahl, die n-mal mit sich selbst multipliziert x ergibt."
+    },
+    "square": {
+      "label": "Quadrat",
+      "description": "Berechnen Sie das Quadrat einer Zahl. Das Quadrat von x ist x mit sich selbst multipliziert (x²)."
+    }
+  },
+  "inputs": {
+    "number": "Zahl",
+    "numberPlaceholder": "Zahl eingeben",
+    "rootIndex": "Wurzelindex (n)",
+    "rootIndexPlaceholder": "z.B. 3 für Kubikwurzel"
+  },
+  "results": {
+    "title": "Ergebnis",
+    "positiveRoot": "Positive Wurzel",
+    "negativeRoot": "Negative Wurzel",
+    "exactValue": "Exakter Wert",
+    "approximateValue": "Näherungswert",
+    "simplifiedForm": "Vereinfachte Form",
+    "isPerfectSquare": "Vollständiges Quadrat?",
+    "yes": "Ja",
+    "no": "Nein"
+  },
+  "steps": "Schritt-für-Schritt-Lösung",
+  "formula": "Verwendete Formel",
+  "explanation": "Erklärung",
+  "primeFactorization": "Primfaktorzerlegung",
+  "reset": "Zurücksetzen",
+  "errors": {
+    "negativeSquareRoot": "Die Quadratwurzel einer negativen Zahl ist nicht definiert (im Bereich der reellen Zahlen)",
+    "negativeEvenRoot": "Gerade Wurzeln negativer Zahlen sind nicht definiert (im Bereich der reellen Zahlen)",
+    "invalidNumber": "Bitte geben Sie eine gültige Zahl ein",
+    "invalidRootIndex": "Der Wurzelindex muss eine positive ganze Zahl sein"
+  },
+  "disclaimer": {
+    "text": "Dieser Rechner liefert mathematische Berechnungen zu Bildungs- und Informationszwecken. Überprüfen Sie wichtige Berechnungen immer.",
+    "note": "Ergebnisse werden auf bis zu 8 Dezimalstellen gerundet. Vereinfachungen verwenden Primfaktorzerlegung für optimale Genauigkeit."
+  },
+  "seo": {
+    "whatIsTitle": "Was ist ein Quadratwurzel-Rechner?",
+    "whatIsContent": "Ein Quadratwurzel-Rechner ist ein mathematisches Werkzeug, das Ihnen hilft, die Quadratwurzel, n-te Wurzeln oder das Quadrat von Zahlen zu berechnen. Die Quadratwurzel einer Zahl x ist der Wert, der mit sich selbst multipliziert x ergibt. Zum Beispiel ist die Quadratwurzel von 16 gleich 4, weil 4 × 4 = 16. Unser Rechner bietet nicht nur das Endergebnis, sondern auch Schritt-für-Schritt-Lösungen, vereinfachte radikale Formen und Primfaktorzerlegung, damit Sie den Prozess vollständig verstehen können. Ideal für Schüler, Studenten, Lehrer und alle, die mit Wurzeln arbeiten.",
+    "howItWorksTitle": "Wie funktioniert der Quadratwurzel-Rechner?",
+    "howItWorksIntro": "Unser Quadratwurzel-Rechner bietet drei leistungsstarke Berechnungsmodi:",
+    "feature1": "Quadratwurzel-Modus – Berechnet √x und zeigt sowohl positive als auch negative Wurzeln",
+    "feature2": "n-te Wurzel-Modus – Berechnet beliebige Wurzeln (Kubikwurzel, vierte Wurzel usw.)",
+    "feature3": "Quadrat-Modus – Berechnet x² für schnelle Quadrierungen",
+    "feature4": "Automatische Vereinfachung – Reduziert Wurzeln auf die einfachste radikale Form",
+    "feature5": "Primfaktorzerlegung – Zeigt die Primfaktoren für besseres Verständnis",
+    "benefitsTitle": "Warum Unseren Quadratwurzel-Rechner Verwenden?",
+    "benefit1": "Schritt-für-Schritt-Lösungen – Verstehen Sie jeden Rechenschritt im Detail",
+    "benefit2": "Mehrere Modi – Quadratwurzeln, n-te Wurzeln und Quadrate in einem Rechner",
+    "benefit3": "Automatische Vereinfachung – Ergebnisse werden auf die einfachste radikale Form reduziert",
+    "benefit4": "Erkennung vollständiger Quadrate – Sofortige Identifizierung perfekter Wurzeln",
+    "benefit5": "Kostenlos und unbegrenzt – Berechnen Sie so viele Wurzeln wie nötig, ohne Kosten",
+    "howToUseTitle": "So Verwenden Sie den Quadratwurzel-Rechner",
+    "howToUseStep1": "Wählen Sie den Berechnungsmodus: Quadratwurzel (√x), n-te Wurzel (ⁿ√x) oder Quadrat (x²)",
+    "howToUseStep2": "Geben Sie die Zahl ein, für die Sie die Wurzel berechnen oder quadrieren möchten",
+    "howToUseStep3": "Für n-te Wurzeln geben Sie den Wurzelindex ein (z.B. 3 für Kubikwurzel, 4 für vierte Wurzel)",
+    "howToUseStep4": "Sehen Sie sich das Ergebnis mit positiver und negativer Wurzel sowie der vereinfachten Form an",
+    "howToUseStep5": "Prüfen Sie die Schritt-für-Schritt-Lösung und Primfaktorzerlegung für vollständiges Verständnis",
+    "formulasTitle": "Wurzel- und Quadrat-Formeln",
+    "formula1Name": "Quadratwurzel",
+    "formula1": "√x = y, wobei y × y = x",
+    "formula1Example": "Beispiel: √16 = 4, weil 4 × 4 = 16. Positive Wurzel: +4, Negative Wurzel: -4",
+    "formula2Name": "n-te Wurzel",
+    "formula2": "ⁿ√x = y, wobei yⁿ = x",
+    "formula2Example": "Beispiel: ³√27 = 3, weil 3 × 3 × 3 = 27. Dies ist die Kubikwurzel von 27.",
+    "formula3Name": "Quadrat",
+    "formula3": "x² = x × x",
+    "formula3Example": "Beispiel: 5² = 5 × 5 = 25. Das Quadrat von 5 ist 25.",
+    "formula4Name": "Vereinfachung von Wurzeln",
+    "formula4": "√(a × b) = √a × √b",
+    "formula4Example": "Beispiel: √50 = √(25 × 2) = √25 × √2 = 5√2",
+    "tipsTitle": "Tipps für das Arbeiten mit Wurzeln",
+    "tip1": "Vollständige Quadrate sind Zahlen wie 1, 4, 9, 16, 25, 36, 49, 64, 81, 100 usw., deren Quadratwurzeln ganze Zahlen sind",
+    "tip2": "Um Wurzeln zu vereinfachen, zerlegen Sie die Zahl in Primfaktoren und ziehen Sie Paare heraus",
+    "tip3": "Die Quadratwurzel hat immer zwei Werte: eine positive (+) und eine negative (-) Wurzel",
+    "tip4": "Bei geraden Wurzelindizes (2., 4., 6. usw.) können negative Zahlen im Bereich der reellen Zahlen keine Wurzeln haben",
+    "tip5": "Ungerade Wurzeln (3., 5., 7. usw.) können für negative Zahlen berechnet werden: ³√(-8) = -2",
+    "faqTitle": "Häufig Gestellte Fragen",
+    "faq1Question": "Was ist der Unterschied zwischen positiver und negativer Quadratwurzel?",
+    "faq1Answer": "Jede positive Zahl hat zwei Quadratwurzeln: eine positive (Hauptwurzel) und eine negative. Zum Beispiel hat 16 die Quadratwurzeln +4 und -4, weil sowohl 4×4 als auch (-4)×(-4) gleich 16 sind. Wenn wir das Symbol √ verwenden, bedeutet es standardmäßig die positive Wurzel. Um beide Wurzeln einzubeziehen, schreibt man ±√x.",
+    "faq2Question": "Wie vereinfache ich eine Quadratwurzel?",
+    "faq2Answer": "Um eine Quadratwurzel zu vereinfachen, zerlegen Sie die Zahl in ihre Primfaktoren und suchen Sie nach Paaren. Jedes Paar kann aus dem Wurzelzeichen herausgezogen werden. Zum Beispiel: √72 = √(2×2×2×3×3) = √(2²×2×3²) = 2×3×√2 = 6√2. Die vereinfachte Form ist 6√2.",
+    "faq3Question": "Was ist ein vollständiges Quadrat?",
+    "faq3Answer": "Ein vollständiges Quadrat (oder perfektes Quadrat) ist eine Zahl, die das Quadrat einer ganzen Zahl ist. Beispiele: 1 (1²), 4 (2²), 9 (3²), 16 (4²), 25 (5²), 36 (6²), 49 (7²), 64 (8²), 81 (9²), 100 (10²). Die Quadratwurzel eines vollständigen Quadrats ist immer eine ganze Zahl ohne Rest.",
+    "faq4Question": "Kann ich die Wurzel einer negativen Zahl ziehen?",
+    "faq4Answer": "Bei Quadratwurzeln (gerade Wurzeln) sind negative Zahlen im Bereich der reellen Zahlen nicht definiert, weil keine reelle Zahl mit sich selbst multipliziert ein negatives Ergebnis ergibt. Jedoch können ungerade Wurzeln wie die Kubikwurzel für negative Zahlen berechnet werden: ³√(-8) = -2, weil (-2)×(-2)×(-2) = -8. Für erweiterte Mathematik gibt es komplexe Zahlen für gerade Wurzeln negativer Zahlen.",
+    "faq5Question": "Was ist eine Kubikwurzel?",
+    "faq5Answer": "Die Kubikwurzel (dritte Wurzel) einer Zahl x ist die Zahl, die dreimal mit sich selbst multipliziert x ergibt. Sie wird als ³√x geschrieben. Zum Beispiel: ³√27 = 3, weil 3×3×3 = 27. ³√64 = 4, weil 4×4×4 = 64. Im Gegensatz zur Quadratwurzel hat die Kubikwurzel nur einen Wert und funktioniert auch mit negativen Zahlen.",
+    "faq6Question": "Wie berechne ich n-te Wurzeln?",
+    "faq6Answer": "Eine n-te Wurzel ist durch den Index n definiert: ⁿ√x bedeutet die Zahl, die n-mal mit sich selbst multipliziert x ergibt. Zum Beispiel: ⁴√16 = 2 (vierte Wurzel), weil 2×2×2×2 = 16. ⁵√32 = 2 (fünfte Wurzel), weil 2×2×2×2×2 = 32. Geben Sie einfach Ihre Zahl und den gewünschten Wurzelindex in unseren Rechner ein.",
+    "faq7Question": "Warum zeigt der Rechner sowohl exakte als auch ungefähre Werte?",
+    "faq7Answer": "Viele Quadratwurzeln sind irrationale Zahlen mit unendlich vielen nicht-periodischen Dezimalstellen. Zum Beispiel ist √2 ≈ 1,41421356... und geht unendlich weiter. Der Rechner zeigt den exakten Wert in vereinfachter radikaler Form (wie 5√2) und einen Näherungswert mit 8 Dezimalstellen für praktische Anwendungen. Vollständige Quadrate haben exakte ganzzahlige Werte.",
+    "faq8Question": "Wie hilft die Primfaktorzerlegung beim Vereinfachen von Wurzeln?",
+    "faq8Answer": "Die Primfaktorzerlegung zerlegt eine Zahl in ihre Primzahlbausteine. Dies macht es einfach, Paare für die Vereinfachung zu finden. Zum Beispiel: 72 = 2×2×2×3×3. Um √72 zu vereinfachen, identifizieren wir Paare: (2×2) und (3×3). Jedes Paar wird zu einer Zahl außerhalb des Wurzelzeichens: 2×3×√2 = 6√2. Diese Methode funktioniert für jede Wurzel und garantiert die einfachste Form."
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "title": "Calcolatrice di Radice Quadrata",
+  "description": "Calcola radici quadrate, radici ennesime e quadrati con soluzioni passo dopo passo. Semplifica i radicali, trova le scomposizioni in fattori primi e identifica i quadrati perfetti. Mostra valori esatti e approssimati.",
+  "meta": {
+    "title": "Calcolatrice di Radice Quadrata - Calcola √x, ⁿ√x e x² con Passaggi",
+    "description": "Calcolatrice di radice quadrata gratuita. Calcola √x, ⁿ√x e x² con soluzioni passo dopo passo e semplificazione dei radicali.",
+    "keywords": "calcolatrice radice quadrata, calcolatrice radice ennesima, radice cubica, semplificazione radicali, quadrati perfetti, scomposizione in fattori primi, calcolatrice sqrt, calcolatrice radici, calcolatrice radicali"
+  },
+  "modes": {
+    "squareRoot": {
+      "label": "Radice Quadrata (√x)",
+      "description": "Calcola la radice quadrata di un numero. Mostra sia le radici positive che negative, la forma radicale semplificata e identifica i quadrati perfetti."
+    },
+    "nthRoot": {
+      "label": "Radice Ennesima (ⁿ√x)",
+      "description": "Calcola qualsiasi radice (radice cubica, radice quarta, ecc.). Specifica l'indice di radice n e il numero x per trovare ⁿ√x."
+    },
+    "square": {
+      "label": "Quadrato (x²)",
+      "description": "Calcola il quadrato di un numero. Semplicemente moltiplica il numero per se stesso per ottenere x × x = x²."
+    }
+  },
+  "inputs": {
+    "number": "Numero (x)",
+    "numberPlaceholder": "Inserisci un numero",
+    "rootIndex": "Indice di Radice (n)",
+    "rootIndexPlaceholder": "Inserisci l'indice di radice (es. 3 per radice cubica)"
+  },
+  "results": {
+    "title": "Risultati",
+    "positiveRoot": "Radice Positiva",
+    "negativeRoot": "Radice Negativa",
+    "exactValue": "Valore Esatto",
+    "approximateValue": "Valore Approssimato",
+    "simplifiedForm": "Forma Radicale Semplificata",
+    "isPerfectSquare": "Quadrato Perfetto?",
+    "yes": "Sì",
+    "no": "No"
+  },
+  "steps": "Soluzione Passo dopo Passo",
+  "formula": "Formula Utilizzata",
+  "explanation": "Spiegazione",
+  "reset": "Ripristina",
+  "primeFactorization": "Scomposizione in Fattori Primi",
+  "errors": {
+    "negativeSquareRoot": "Impossibile calcolare la radice quadrata di un numero negativo nei numeri reali",
+    "negativeEvenRoot": "Impossibile calcolare una radice pari di un numero negativo nei numeri reali",
+    "invalidNumber": "Inserisci un numero valido",
+    "invalidRootIndex": "L'indice di radice deve essere un numero intero positivo maggiore di 1"
+  },
+  "disclaimer": {
+    "text": "Questa calcolatrice fornisce calcoli matematici per scopi educativi e informativi. Verifica sempre i calcoli importanti.",
+    "note": "I risultati includono sia forme radicali esatte che approssimazioni decimali. Le scomposizioni in fattori primi sono mostrate quando disponibili."
+  },
+  "seo": {
+    "whatIsTitle": "Cos'è una Calcolatrice di Radice Quadrata?",
+    "whatIsContent": "Una calcolatrice di radice quadrata è uno strumento matematico che trova il valore che, moltiplicato per se stesso, dà il numero originale. Per esempio, la radice quadrata di 16 è 4 perché 4 × 4 = 16. La nostra calcolatrice va oltre i calcoli di base semplificando i radicali, mostrando le scomposizioni in fattori primi, identificando i quadrati perfetti e calcolando qualsiasi radice ennesima. Che tu debba trovare √25, ³√27 o semplificare √52, questa calcolatrice fornisce risposte esatte e approssimate con spiegazioni dettagliate.",
+    "howItWorksTitle": "Come Funziona",
+    "howItWorksIntro": "La nostra calcolatrice di radice quadrata offre tre potenti modalità:",
+    "feature1": "Radice Quadrata (√x) – Trova la radice quadrata di qualsiasi numero positivo con forma radicale esatta e approssimazione decimale",
+    "feature2": "Radice Ennesima (ⁿ√x) – Calcola qualsiasi radice incluse radici cubiche (³√x), radici quarte (⁴√x) e oltre",
+    "feature3": "Quadrato (x²) – Calcola il quadrato di qualsiasi numero, sia positivo che negativo",
+    "feature4": "Semplificazione Radicali – Semplifica automaticamente le radici quadrate nella loro forma più semplice (es. √52 = 2√13)",
+    "feature5": "Scomposizione in Fattori Primi – Visualizza i fattori primi del numero per comprendere il processo di semplificazione",
+    "benefitsTitle": "Perché Usare la Nostra Calcolatrice di Radice Quadrata?",
+    "benefit1": "Modalità multiple – Calcola radici quadrate, radici ennesime e quadrati tutto in un unico strumento",
+    "benefit2": "Radicali semplificati – Riduce automaticamente le radici quadrate alla forma più semplice con spiegazione passo dopo passo",
+    "benefit3": "Esatto e approssimato – Mostra sia la forma radicale esatta che l'approssimazione decimale",
+    "benefit4": "Scomposizione in fattori primi – Visualizza i fattori primi per aiutare a comprendere la semplificazione radicale",
+    "benefit5": "Rilevamento quadrati perfetti – Identifica istantaneamente se un numero è un quadrato perfetto",
+    "howToUseTitle": "Come Usare la Calcolatrice di Radice Quadrata",
+    "howToUseStep1": "Seleziona la modalità di calcolo: Radice Quadrata (√x), Radice Ennesima (ⁿ√x) o Quadrato (x²)",
+    "howToUseStep2": "Inserisci il numero che vuoi calcolare. Per radici quadrate e radici ennesime, usa numeri positivi",
+    "howToUseStep3": "Se usi la modalità Radice Ennesima, inserisci l'indice di radice (es. 3 per radice cubica, 4 per radice quarta)",
+    "howToUseStep4": "Visualizza i risultati inclusi valore esatto, decimale approssimato e forma radicale semplificata",
+    "howToUseStep5": "Esamina la soluzione passo dopo passo, la scomposizione in fattori primi e lo stato di quadrato perfetto",
+    "formulasTitle": "Formule delle Radici Quadrate",
+    "formula1Name": "Radice Quadrata",
+    "formula1": "√x = y significa y² = x",
+    "formula1Example": "Esempio: √16 = 4 perché 4² = 16. Inoltre, √16 = -4 perché (-4)² = 16",
+    "formula2Name": "Radice Ennesima",
+    "formula2": "ⁿ√x = y significa yⁿ = x",
+    "formula2Example": "Esempio: ³√27 = 3 perché 3³ = 27. ⁴√16 = 2 perché 2⁴ = 16",
+    "formula3Name": "Quadrato",
+    "formula3": "x² = x × x",
+    "formula3Example": "Esempio: 5² = 5 × 5 = 25. (-3)² = (-3) × (-3) = 9",
+    "formula4Name": "Radicale Semplificato",
+    "formula4": "√(a²b) = a√b",
+    "formula4Example": "Esempio: √52 = √(4×13) = √(2²×13) = 2√13",
+    "tipsTitle": "Consigli per Lavorare con le Radici Quadrate",
+    "tip1": "Ogni numero positivo ha due radici quadrate: una positiva e una negativa. √16 = ±4",
+    "tip2": "I quadrati perfetti (1, 4, 9, 16, 25...) hanno radici quadrate esatte come numeri interi",
+    "tip3": "Per semplificare i radicali, trova i fattori quadrati perfetti. √72 = √(36×2) = 6√2",
+    "tip4": "Le radici cubiche di numeri negativi esistono nei numeri reali: ³√(-8) = -2",
+    "tip5": "Il quadrato di qualsiasi numero è sempre positivo o zero: (-5)² = 25, 5² = 25",
+    "faqTitle": "Domande Frequenti",
+    "faq1Question": "Cos'è una radice quadrata?",
+    "faq1Answer": "Una radice quadrata di un numero x è un valore che, moltiplicato per se stesso, è uguale a x. Per esempio, la radice quadrata di 25 è 5 perché 5 × 5 = 25. Ogni numero positivo ha due radici quadrate: una radice positiva (radice principale) e una radice negativa. Il simbolo √ rappresenta la radice quadrata principale (positiva).",
+    "faq2Question": "Come si calcola la radice quadrata senza calcolatrice?",
+    "faq2Answer": "Per i quadrati perfetti, memorizza i valori comuni (√1=1, √4=2, √9=3, √16=4, ecc.). Per altri numeri, usa la stima: trova i quadrati perfetti su entrambi i lati (es. √50 è tra √49=7 e √64=8, più vicino a 7). Per maggiore precisione, usa il metodo della divisione lunga o il metodo di approssimazione di Newton. Esercitati con la scomposizione in fattori primi per semplificare i radicali.",
+    "faq3Question": "Cosa sono i quadrati perfetti?",
+    "faq3Answer": "I quadrati perfetti sono numeri che sono il quadrato di un numero intero. I primi quadrati perfetti sono: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, ecc. Questi numeri hanno radici quadrate esatte come numeri interi (√4=2, √9=3, √16=4). Riconoscere i quadrati perfetti aiuta a semplificare rapidamente le espressioni radicali.",
+    "faq4Question": "Come si semplificano le radici quadrate?",
+    "faq4Answer": "Per semplificare una radice quadrata, trova la scomposizione in fattori primi del numero ed estrai i quadrati perfetti. Per esempio, √52 = √(4×13) = √4 × √13 = 2√13. Cerca coppie di fattori primi—ogni coppia può essere estratta come singolo fattore. √72 = √(2×2×2×3×3) = √(4×9×2) = 2×3×√2 = 6√2.",
+    "faq5Question": "Si può calcolare la radice quadrata di numeri negativi?",
+    "faq5Answer": "Nei numeri reali, non si può calcolare la radice quadrata di numeri negativi perché nessun numero reale moltiplicato per se stesso dà un risultato negativo. Tuttavia, nei numeri complessi, √(-1) = i (l'unità immaginaria). Per esempio, √(-16) = 4i. Questa calcolatrice funziona solo con numeri reali, quindi input negativi per radici quadrate mostreranno un errore.",
+    "faq6Question": "Cos'è una radice ennesima?",
+    "faq6Answer": "Una radice ennesima di un numero x è un valore che, elevato alla potenza n, è uguale a x. Esempi comuni includono radice cubica (³√x dove n=3) e radice quarta (⁴√x dove n=4). Per esempio, ³√27 = 3 perché 3³ = 27, e ⁴√16 = 2 perché 2⁴ = 16. A differenza delle radici quadrate, le radici dispari (cubica, quinta, ecc.) di numeri negativi esistono nei numeri reali.",
+    "faq7Question": "Come vengono usate le radici quadrate nella vita reale?",
+    "faq7Answer": "Le radici quadrate appaiono frequentemente nelle applicazioni quotidiane: calcolo delle distanze (teorema di Pitagora), determinazione della deviazione standard nelle statistiche, trovare le dimensioni dall'area (se area = 144 m², lato = √144 = 12 m), calcolo della resistenza elettrica, determinazione dei livelli di intensità sonora e nella finanza per i calcoli di volatilità. Ingegneri, architetti, scienziati e analisti finanziari usano regolarmente le radici quadrate.",
+    "faq8Question": "Qual è la differenza tra √ e ²√?",
+    "faq8Answer": "I simboli √ e ²√ significano la stessa cosa—entrambi rappresentano la radice quadrata. Il simbolo radicale √ senza un numero è inteso come radice quadrata (indice 2). La notazione ²√x mostra esplicitamente l'indice 2, ma è ridondante poiché la radice quadrata è quella predefinita. Per altre radici, devi specificare: ³√ per radice cubica, ⁴√ per radice quarta, ⁿ√ per radice ennesima."
+  }
+}
