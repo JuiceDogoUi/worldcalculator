@@ -71,6 +71,18 @@ export const calculators: Calculator[] = [
     relatedCalculators: ['compound-interest', 'savings-goal', 'loan'],
     lastModified: '2025-12-30',
   },
+  {
+    id: 'retirement-calculator',
+    slug: 'retirement',
+    category: 'finance',
+    translationKey: 'calculators.finance.retirement',
+    icon: 'PiggyBank',
+    featured: true,
+    difficulty: 'medium',
+    estimatedTime: 180,
+    relatedCalculators: ['savings-goal', 'compound-interest', 'roi'],
+    lastModified: '2026-01-06',
+  },
 
   // Math Calculators
   {

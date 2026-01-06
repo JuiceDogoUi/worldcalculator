@@ -43,7 +43,11 @@ export default async function PrivacyPage({
 
       <div className="prose prose-slate max-w-none">
         <p className="text-sm text-muted-foreground mb-8">
+<<<<<<< HEAD
           {t('lastUpdated')}
+=======
+          Last updated: January 6, 2026
+>>>>>>> 8c0f2f4 (Add retirement calculator and restore Google AdSense)
         </p>
 
         {/* Introduction */}
@@ -149,9 +153,16 @@ export default async function PrivacyPage({
               <h4 className="font-semibold">{t('cookies.types.advertising.title')}</h4>
               <p className="text-sm text-muted-foreground">{t('cookies.types.advertising.description')}</p>
               <ul className="list-disc pl-6 mt-2 text-sm">
+<<<<<<< HEAD
                 {(t.raw('cookies.types.advertising.items') as string[]).map((item, i) => (
                   <li key={i}>{item}</li>
                 ))}
+=======
+                <li>Google AdSense cookies</li>
+                <li>Interest-based advertising</li>
+                <li>Ad performance measurement</li>
+                <li>Frequency capping</li>
+>>>>>>> 8c0f2f4 (Add retirement calculator and restore Google AdSense)
               </ul>
             </div>
           </div>
@@ -175,12 +186,26 @@ export default async function PrivacyPage({
 
           <div className="space-y-4 mt-4">
             <div className="bg-muted p-4 rounded-lg">
+<<<<<<< HEAD
               <h4 className="font-semibold">{t('thirdParty.vercel.name')}</h4>
               <p className="text-sm">{t('thirdParty.vercel.purpose')}</p>
               <p className="text-sm">{t('thirdParty.vercel.data')}</p>
               <p className="text-sm">
                 <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
                   {t('thirdParty.vercel.privacy')}
+=======
+              <h4 className="font-semibold">Google LLC (AdSense)</h4>
+              <p className="text-sm">
+                <strong>Purpose:</strong> Advertising platform
+              </p>
+              <p className="text-sm">
+                <strong>Data shared:</strong> Technical data, cookie data, ad interaction data
+              </p>
+              <p className="text-sm">
+                <strong>Privacy policy:</strong>{' '}
+                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                  policies.google.com/privacy
+>>>>>>> 8c0f2f4 (Add retirement calculator and restore Google AdSense)
                 </a>
               </p>
             </div>
@@ -235,9 +260,21 @@ export default async function PrivacyPage({
 
         {/* Transfers */}
         <section className="mb-8">
+<<<<<<< HEAD
           <h2 className="text-2xl font-semibold mb-4">{t('transfers.title')}</h2>
           <p>{t('transfers.intro')}</p>
           <p>{t('transfers.safeguards')}</p>
+=======
+          <h2 className="text-2xl font-semibold mb-4">11. International Data Transfers</h2>
+          <p>
+            Our Service is hosted within the European Union. However, some of our third-party service
+            providers (such as Google and Vercel) may process data outside the EU/EEA.
+          </p>
+          <p>
+            When data is transferred outside the EU/EEA, we ensure appropriate safeguards are in place,
+            including:
+          </p>
+>>>>>>> 8c0f2f4 (Add retirement calculator and restore Google AdSense)
           <ul className="list-disc pl-6 space-y-2">
             <li>{t('transfers.clauses')}</li>
             <li>{t('transfers.adequacy')}</li>
