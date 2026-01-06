@@ -1,9 +1,10 @@
 # World Calculator - Strategic Roadmap 2026
 
-## Mission: 36 Calculators (6 per Category)
+## Mission: 42 Calculators (6 per Category)
 
 **Created:** January 6, 2026
-**Goal:** 6 calculators in each of 6 categories = 36 total calculators
+**Last Updated:** January 6, 2026
+**Goal:** 6 calculators in each of 7 categories = 42 total calculators
 
 ---
 
@@ -11,26 +12,36 @@
 
 | Category | Current | Target | Gap | Priority |
 |----------|---------|--------|-----|----------|
-| Finance | 4 | 6 | **2** | P1 - Complete First |
-| Math | 1 | 6 | **5** | P1 - High Volume |
+| Finance | 6 | 6 | **0** | ✅ COMPLETE |
+| Math | 5 | 6 | **1** | P1 - High Volume |
+| Statistics | 1 | 6 | **5** | P1 - Educational |
 | Health & Fitness | 0 | 6 | **6** | P2 - Universal Appeal |
 | Conversion | 0 | 6 | **6** | P2 - High Search |
 | Time & Date | 0 | 6 | **6** | P3 - Quick Wins |
 | Construction | 0 | 6 | **6** | P3 - Niche Value |
-| **TOTAL** | **5** | **36** | **31** | |
+| **TOTAL** | **12** | **42** | **30** | |
 
 ---
 
 ## Current Inventory
 
-### Finance (4/6)
-1. Loan Calculator
-2. Mortgage Calculator
-3. Compound Interest Calculator
-4. Savings Goal Calculator
+### Finance (6/6) ✅ COMPLETE
+1. ✅ Loan Calculator
+2. ✅ Mortgage Calculator
+3. ✅ Compound Interest Calculator
+4. ✅ Savings Goal Calculator
+5. ✅ ROI Calculator
+6. ✅ Retirement Calculator
 
-### Math (1/6)
-1. Percentage Calculator
+### Math (5/6)
+1. ✅ Percentage Calculator
+2. ✅ Fraction Calculator
+3. ✅ GCD/LCM Calculator
+4. ✅ Scientific Calculator
+5. ✅ Square Root Calculator
+
+### Statistics (1/6)
+1. ✅ Standard Deviation Calculator
 
 ### Health & Fitness (0/6)
 *No calculators implemented*
@@ -48,70 +59,33 @@
 
 ## Calculator Additions by Category
 
-### 1. FINANCE (Need 2 More)
+### 1. FINANCE ✅ COMPLETE
+
+All 6 finance calculators have been implemented:
 
 | # | Calculator | Complexity | SEO Potential | Status |
 |---|------------|------------|---------------|--------|
-| F5 | **Retirement Calculator** | Medium | ★★★★★ | Pending |
-| F6 | **Investment/ROI Calculator** | Easy | ★★★★★ | Pending |
-
-#### F5. Retirement Calculator
-**Keywords:** "retirement calculator", "retirement savings calculator", "how much to retire"
-
-**Features:**
-- Current age and retirement age
-- Current savings and monthly contribution
-- Expected rate of return
-- Social Security estimation (optional)
-- Inflation adjustment
-- Gap analysis (savings vs needed)
-- Timeline visualization
-
-**Formula Sources:** IRS Publication 590, Social Security Administration
+| F1 | Loan Calculator | Easy | ★★★★★ | ✅ Complete |
+| F2 | Mortgage Calculator | Medium | ★★★★★ | ✅ Complete |
+| F3 | Compound Interest Calculator | Easy | ★★★★★ | ✅ Complete |
+| F4 | Savings Goal Calculator | Easy | ★★★★ | ✅ Complete |
+| F5 | ROI Calculator | Easy | ★★★★★ | ✅ Complete |
+| F6 | Retirement Calculator | Medium | ★★★★★ | ✅ Complete |
 
 ---
 
-#### F6. Investment/ROI Calculator
-**Keywords:** "ROI calculator", "return on investment", "investment return calculator"
-
-**Features:**
-- Initial investment amount
-- Final value or gain amount
-- Investment period (for annualized ROI)
-- ROI percentage result
-- Dollar return result
-- Break-even analysis
-
-**Formula:** `ROI = ((Final Value - Initial Value) / Initial Value) × 100`
-
----
-
-### 2. MATH (Need 5 More)
+### 2. MATH (Need 1 More)
 
 | # | Calculator | Complexity | SEO Potential | Status |
 |---|------------|------------|---------------|--------|
-| M2 | **Fraction Calculator** | Medium | ★★★★★ | Pending |
-| M3 | **Square Root Calculator** | Simple | ★★★★ | Pending |
-| M4 | **Standard Deviation Calculator** | Medium | ★★★★ | Pending |
-| M5 | **GCF/LCM Calculator** | Medium | ★★★★ | Pending |
+| M1 | Percentage Calculator | Easy | ★★★★★ | ✅ Complete |
+| M2 | Fraction Calculator | Medium | ★★★★★ | ✅ Complete |
+| M3 | GCD/LCM Calculator | Medium | ★★★★ | ✅ Complete |
+| M4 | Scientific Calculator | Medium | ★★★★★ | ✅ Complete |
+| M5 | Square Root Calculator | Simple | ★★★★ | ✅ Complete |
 | M6 | **Ratio Calculator** | Simple | ★★★★ | Pending |
 
-> **Note:** Percentage Change functionality is already included in the existing Percentage Calculator (percent-change mode).
-
-#### M2. Fraction Calculator
-**Keywords:** "fraction calculator", "add fractions", "simplify fractions"
-
-**Features:**
-- Four operations: Add, Subtract, Multiply, Divide
-- Mixed numbers and improper fractions
-- Auto-simplification
-- Step-by-step solution
-- Visual fraction display
-- Convert between formats
-
----
-
-#### M3. Square Root Calculator
+#### M5. Square Root Calculator ✅ COMPLETE
 **Keywords:** "square root calculator", "sqrt calculator", "root calculator"
 
 **Features:**
@@ -120,33 +94,6 @@
 - Perfect square detection
 - Simplified radical form
 - Decimal approximation
-
----
-
-#### M4. Standard Deviation Calculator
-**Keywords:** "standard deviation calculator", "variance calculator", "statistics calculator"
-
-**Features:**
-- Input: comma/space separated numbers
-- Population standard deviation (σ)
-- Sample standard deviation (s)
-- Variance (σ² and s²)
-- Mean, Median, Mode
-- Range, Min, Max, Count
-- Step-by-step calculation
-
----
-
-#### M5. GCF/LCM Calculator
-**Keywords:** "GCF calculator", "LCM calculator", "greatest common factor"
-
-**Features:**
-- Input: 2-6 integers
-- Calculate GCF (Greatest Common Factor)
-- Calculate LCM (Least Common Multiple)
-- Prime factorization display
-- Euclidean algorithm steps
-- Educational explanation
 
 ---
 
@@ -164,7 +111,84 @@
 
 ---
 
-### 3. HEALTH & FITNESS (Need 6)
+### 3. STATISTICS (Need 5 More)
+
+| # | Calculator | Complexity | SEO Potential | Status |
+|---|------------|------------|---------------|--------|
+| S1 | Standard Deviation Calculator | Medium | ★★★★ | ✅ Complete |
+| S2 | **Mean/Median/Mode Calculator** | Simple | ★★★★ | Pending |
+| S3 | **Probability Calculator** | Medium | ★★★★ | Pending |
+| S4 | **Z-Score Calculator** | Medium | ★★★★ | Pending |
+| S5 | **Correlation Calculator** | Medium | ★★★ | Pending |
+| S6 | **Sample Size Calculator** | Medium | ★★★★ | Pending |
+
+#### S2. Mean/Median/Mode Calculator
+**Keywords:** "mean calculator", "median calculator", "mode calculator", "average calculator"
+
+**Features:**
+- Input: comma/space separated numbers
+- Calculate mean (arithmetic average)
+- Calculate median (middle value)
+- Calculate mode (most frequent)
+- Weighted mean option
+- Step-by-step explanation
+- Data set visualization
+
+---
+
+#### S3. Probability Calculator
+**Keywords:** "probability calculator", "odds calculator", "chance calculator"
+
+**Features:**
+- Single event probability
+- Multiple event probability (AND/OR)
+- Conditional probability
+- Complement probability
+- Permutations and combinations
+- Coin flip / dice roll simulations
+
+---
+
+#### S4. Z-Score Calculator
+**Keywords:** "z-score calculator", "standard score", "normal distribution"
+
+**Features:**
+- Calculate z-score from raw score
+- Calculate raw score from z-score
+- P-value lookup
+- Normal distribution visualization
+- Percentile ranking
+- Two-tailed/one-tailed tests
+
+---
+
+#### S5. Correlation Calculator
+**Keywords:** "correlation calculator", "Pearson correlation", "r-value calculator"
+
+**Features:**
+- Input two data sets (X, Y)
+- Pearson correlation coefficient (r)
+- Coefficient of determination (r²)
+- Scatter plot visualization
+- Regression line equation
+- Interpretation guide
+
+---
+
+#### S6. Sample Size Calculator
+**Keywords:** "sample size calculator", "survey sample size", "margin of error"
+
+**Features:**
+- Population size input
+- Confidence level selection (90%, 95%, 99%)
+- Margin of error input
+- Required sample size result
+- Finite population correction
+- Research study planning context
+
+---
+
+### 4. HEALTH & FITNESS (Need 6)
 
 | # | Calculator | Complexity | SEO Potential | Status |
 |---|------------|------------|---------------|--------|
@@ -264,7 +288,7 @@
 
 ---
 
-### 4. CONVERSION (Need 6)
+### 5. CONVERSION (Need 6)
 
 | # | Calculator | Complexity | SEO Potential | Status |
 |---|------------|------------|---------------|--------|
@@ -352,7 +376,7 @@
 
 ---
 
-### 5. TIME & DATE (Need 6)
+### 6. TIME & DATE (Need 6)
 
 | # | Calculator | Complexity | SEO Potential | Status |
 |---|------------|------------|---------------|--------|
@@ -443,7 +467,7 @@
 
 ---
 
-### 6. CONSTRUCTION (Need 6)
+### 7. CONSTRUCTION (Need 6)
 
 | # | Calculator | Complexity | SEO Potential | Status |
 |---|------------|------------|---------------|--------|
@@ -541,23 +565,19 @@
 
 ## Implementation Phases
 
-### Phase 1: Quick Wins (High SEO, Low Complexity)
-**Estimated:** 8 calculators
+### Phase 1: Complete Math & Start Statistics (7 calculators)
 
 | Sprint | Calculators | Category |
 |--------|-------------|----------|
-| 1.1 | Fraction, Square Root | Math |
-| 1.2 | GCF/LCM, Ratio | Math |
-| 1.3 | Standard Deviation | Math |
-| 1.4 | Temperature Converter | Conversion |
-| 1.5 | Length Converter, Weight Converter | Conversion |
+| 1.1 | Square Root, Ratio | Math |
+| 1.2 | Mean/Median/Mode, Probability | Statistics |
+| 1.3 | Z-Score, Correlation, Sample Size | Statistics |
 
-**Outcome:** Math complete (6/6), Conversion started (3/6)
+**Outcome:** Math complete (6/6), Statistics complete (6/6)
 
 ---
 
-### Phase 2: Universal Appeal (Health & Fitness)
-**Estimated:** 6 calculators
+### Phase 2: Health & Fitness (6 calculators)
 
 | Sprint | Calculators | Category |
 |--------|-------------|----------|
@@ -570,30 +590,38 @@
 
 ---
 
-### Phase 3: Time & Completion
-**Estimated:** 9 calculators
+### Phase 3: Conversion (6 calculators)
 
 | Sprint | Calculators | Category |
 |--------|-------------|----------|
-| 3.1 | Age Calculator, Birthday Calculator | Time & Date |
-| 3.2 | Date Calculator, Time Duration | Time & Date |
-| 3.3 | Business Days, Week Number | Time & Date |
-| 3.4 | Volume Converter, Area Converter, Speed Converter | Conversion |
-| 3.5 | Investment/ROI, Retirement Calculator | Finance |
+| 3.1 | Temperature Converter | Conversion |
+| 3.2 | Length Converter, Weight Converter | Conversion |
+| 3.3 | Volume Converter, Area Converter, Speed Converter | Conversion |
 
-**Outcome:** Time & Date complete (6/6), Conversion complete (6/6), Finance complete (6/6)
+**Outcome:** Conversion complete (6/6)
 
 ---
 
-### Phase 4: Construction Category
-**Estimated:** 6 calculators
+### Phase 4: Time & Date (6 calculators)
 
 | Sprint | Calculators | Category |
 |--------|-------------|----------|
-| 4.1 | Square Footage Calculator | Construction |
-| 4.2 | Concrete Calculator | Construction |
-| 4.3 | Paint Calculator, Flooring Calculator | Construction |
-| 4.4 | Drywall Calculator, Gravel Calculator | Construction |
+| 4.1 | Age Calculator, Birthday Calculator | Time & Date |
+| 4.2 | Date Calculator, Time Duration | Time & Date |
+| 4.3 | Business Days, Week Number | Time & Date |
+
+**Outcome:** Time & Date complete (6/6)
+
+---
+
+### Phase 5: Construction (6 calculators)
+
+| Sprint | Calculators | Category |
+|--------|-------------|----------|
+| 5.1 | Square Footage Calculator | Construction |
+| 5.2 | Concrete Calculator | Construction |
+| 5.3 | Paint Calculator, Flooring Calculator | Construction |
+| 5.4 | Drywall Calculator, Gravel Calculator | Construction |
 
 **Outcome:** Construction complete (6/6), **ALL CATEGORIES COMPLETE**
 
@@ -619,6 +647,7 @@
 - **Finance:** Federal Reserve, CFPB, IRS publications
 - **Health:** WHO, CDC, validated medical formulas
 - **Math:** Standard mathematical definitions, NIST
+- **Statistics:** Standard statistical formulas, academic sources
 - **Conversion:** SI units, NIST standards
 - **Time/Date:** ISO 8601
 - **Construction:** ACI, industry standards
@@ -629,7 +658,7 @@
 
 | Metric | Target (6 months) |
 |--------|-------------------|
-| Total calculators | 36 |
+| Total calculators | 42 |
 | Monthly organic visits | 50,000+ |
 | Google Page 1 rankings | 20+ keywords |
 | Average time on page | > 2 minutes |
@@ -658,11 +687,10 @@
 
 ## Archive Note
 
-This roadmap supersedes the previous roadmap (created December 2024) which targeted 5 calculators per category. The new goal of 6 calculators per category provides:
-- Complete category coverage
-- Better competitive positioning
-- More comprehensive user experience
-- Stronger SEO footprint
+**Revision History:**
+- **January 6, 2026 (v2):** Updated to 7 categories (added Statistics as separate from Math). Finance category marked complete (6/6). Revised totals from 36 to 42 calculators. Updated current inventory to reflect actual implementation state (11 calculators complete).
+- **January 6, 2026 (v1):** Original roadmap targeting 36 calculators (6 categories × 6 each).
+- **December 2024:** Previous roadmap targeting 5 calculators per category.
 
 ---
 

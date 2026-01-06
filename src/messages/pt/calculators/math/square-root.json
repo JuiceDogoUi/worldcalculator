@@ -1,0 +1,114 @@
+{
+  "title": "Calculadora de Raiz Quadrada",
+  "description": "Calcule raízes quadradas, raízes n-ésimas e quadrados com soluções passo a passo. Simplifique radicais, encontre fatorações em primos e identifique quadrados perfeitos. Mostra valores exatos e aproximados.",
+  "meta": {
+    "title": "Calculadora de Raiz Quadrada - Calcule √x, ⁿ√x e x² com Passos",
+    "description": "Calculadora de raiz quadrada gratuita. Calcule √x, ⁿ√x e x² com soluções passo a passo e simplificação de radicais.",
+    "keywords": "calculadora de raiz quadrada, calculadora de raiz enésima, raiz cúbica, simplificação de radicais, quadrados perfeitos, fatoração em primos, calculadora sqrt, calculadora de raízes, calculadora de radicais"
+  },
+  "modes": {
+    "squareRoot": {
+      "label": "Raiz Quadrada (√x)",
+      "description": "Calcule a raiz quadrada de um número. Mostra as raízes positiva e negativa, forma radical simplificada e identifica quadrados perfeitos."
+    },
+    "nthRoot": {
+      "label": "Raiz Enésima (ⁿ√x)",
+      "description": "Calcule qualquer raiz (raiz cúbica, raiz quarta, etc.). Especifique o índice da raiz n e o número x para encontrar ⁿ√x."
+    },
+    "square": {
+      "label": "Quadrado (x²)",
+      "description": "Calcule o quadrado de um número. Simplesmente multiplique o número por si mesmo para obter x × x = x²."
+    }
+  },
+  "inputs": {
+    "number": "Número (x)",
+    "numberPlaceholder": "Introduza um número",
+    "rootIndex": "Índice da Raiz (n)",
+    "rootIndexPlaceholder": "Introduza o índice (ex: 3 para raiz cúbica)"
+  },
+  "results": {
+    "title": "Resultados",
+    "positiveRoot": "Raiz Positiva",
+    "negativeRoot": "Raiz Negativa",
+    "exactValue": "Valor Exato",
+    "approximateValue": "Valor Aproximado",
+    "simplifiedForm": "Forma Radical Simplificada",
+    "isPerfectSquare": "Quadrado Perfeito?",
+    "yes": "Sim",
+    "no": "Não"
+  },
+  "steps": "Solução Passo a Passo",
+  "formula": "Fórmula Utilizada",
+  "explanation": "Explicação",
+  "primeFactorization": "Fatoração em Primos",
+  "reset": "Reiniciar",
+  "errors": {
+    "negativeSquareRoot": "Não é possível calcular a raiz quadrada de um número negativo em números reais",
+    "negativeEvenRoot": "Não é possível calcular uma raiz par de um número negativo em números reais",
+    "invalidNumber": "Por favor introduza um número válido",
+    "invalidRootIndex": "O índice da raiz deve ser um número inteiro positivo maior que 1"
+  },
+  "disclaimer": {
+    "text": "Esta calculadora fornece cálculos matemáticos para fins educacionais e informativos. Verifique sempre os cálculos importantes.",
+    "note": "Os resultados incluem formas radicais exatas e aproximações decimais. As fatorações em primos são apresentadas quando disponíveis."
+  },
+  "seo": {
+    "whatIsTitle": "O que é uma Calculadora de Raiz Quadrada?",
+    "whatIsContent": "Uma calculadora de raiz quadrada é uma ferramenta matemática que encontra o valor que, quando multiplicado por si mesmo, resulta no número original. Por exemplo, a raiz quadrada de 16 é 4 porque 4 × 4 = 16. A nossa calculadora vai além dos cálculos básicos ao simplificar radicais, mostrar fatorações em primos, identificar quadrados perfeitos e calcular qualquer raiz n-ésima. Seja para encontrar √25, ³√27 ou simplificar √52, esta calculadora fornece respostas exatas e aproximadas com explicações detalhadas.",
+    "howItWorksTitle": "Como Funciona",
+    "howItWorksIntro": "A nossa calculadora de raiz quadrada oferece três modos potentes:",
+    "feature1": "Raiz Quadrada (√x) – Encontre a raiz quadrada de qualquer número positivo com forma radical exata e aproximação decimal",
+    "feature2": "Raiz Enésima (ⁿ√x) – Calcule qualquer raiz incluindo raízes cúbicas (³√x), raízes quartas (⁴√x) e outras",
+    "feature3": "Quadrado (x²) – Calcule o quadrado de qualquer número, positivo ou negativo",
+    "feature4": "Simplificação de Radicais – Simplifica automaticamente raízes quadradas para a forma mais simples (ex: √52 = 2√13)",
+    "feature5": "Fatoração em Primos – Veja os fatores primos do número para compreender o processo de simplificação",
+    "benefitsTitle": "Por Que Usar a Nossa Calculadora de Raiz Quadrada?",
+    "benefit1": "Múltiplos modos – Calcule raízes quadradas, raízes n-ésimas e quadrados numa única ferramenta",
+    "benefit2": "Radicais simplificados – Reduz automaticamente raízes quadradas à forma mais simples com explicação passo a passo",
+    "benefit3": "Exato e aproximado – Mostra a forma radical exata e a aproximação decimal",
+    "benefit4": "Fatoração em primos – Apresenta os fatores primos para ajudar a compreender a simplificação de radicais",
+    "benefit5": "Deteção de quadrados perfeitos – Identifica instantaneamente se um número é um quadrado perfeito",
+    "howToUseTitle": "Como Usar a Calculadora de Raiz Quadrada",
+    "howToUseStep1": "Selecione o modo de cálculo: Raiz Quadrada (√x), Raiz Enésima (ⁿ√x) ou Quadrado (x²)",
+    "howToUseStep2": "Introduza o número que deseja calcular. Para raízes quadradas e raízes n-ésimas, use números positivos",
+    "howToUseStep3": "Se usar o modo Raiz Enésima, introduza o índice da raiz (ex: 3 para raiz cúbica, 4 para raiz quarta)",
+    "howToUseStep4": "Visualize os resultados incluindo valor exato, decimal aproximado e forma radical simplificada",
+    "howToUseStep5": "Reveja a solução passo a passo, fatoração em primos e estado de quadrado perfeito",
+    "formulasTitle": "Fórmulas de Raiz Quadrada",
+    "formula1Name": "Raiz Quadrada",
+    "formula1": "√x = y significa y² = x",
+    "formula1Example": "Exemplo: √16 = 4 porque 4² = 16. Também, √16 = -4 porque (-4)² = 16",
+    "formula2Name": "Raiz Enésima",
+    "formula2": "ⁿ√x = y significa yⁿ = x",
+    "formula2Example": "Exemplo: ³√27 = 3 porque 3³ = 27. ⁴√16 = 2 porque 2⁴ = 16",
+    "formula3Name": "Quadrado",
+    "formula3": "x² = x × x",
+    "formula3Example": "Exemplo: 5² = 5 × 5 = 25. (-3)² = (-3) × (-3) = 9",
+    "formula4Name": "Radical Simplificado",
+    "formula4": "√(a²b) = a√b",
+    "formula4Example": "Exemplo: √52 = √(4×13) = √(2²×13) = 2√13",
+    "tipsTitle": "Dicas para Trabalhar com Raízes Quadradas",
+    "tip1": "Cada número positivo tem duas raízes quadradas: uma positiva e uma negativa. √16 = ±4",
+    "tip2": "Quadrados perfeitos (1, 4, 9, 16, 25...) têm raízes quadradas exatas em números inteiros",
+    "tip3": "Para simplificar radicais, encontre fatores de quadrados perfeitos. √72 = √(36×2) = 6√2",
+    "tip4": "Raízes cúbicas de números negativos existem em números reais: ³√(-8) = -2",
+    "tip5": "O quadrado de qualquer número é sempre positivo ou zero: (-5)² = 25, 5² = 25",
+    "faqTitle": "Perguntas Frequentes",
+    "faq1Question": "O que é uma raiz quadrada?",
+    "faq1Answer": "Uma raiz quadrada de um número x é um valor que, quando multiplicado por si mesmo, é igual a x. Por exemplo, a raiz quadrada de 25 é 5 porque 5 × 5 = 25. Todo número positivo tem duas raízes quadradas: uma raiz positiva (raiz principal) e uma raiz negativa. O símbolo √ representa a raiz quadrada principal (positiva).",
+    "faq2Question": "Como calcular raiz quadrada sem calculadora?",
+    "faq2Answer": "Para quadrados perfeitos, memorize valores comuns (√1=1, √4=2, √9=3, √16=4, etc.). Para outros números, use estimativa: encontre quadrados perfeitos de cada lado (ex: √50 está entre √49=7 e √64=8, mais próximo de 7). Para maior precisão, use o método da divisão longa ou o método de aproximação de Newton. Pratique com fatoração em primos para simplificar radicais.",
+    "faq3Question": "O que são quadrados perfeitos?",
+    "faq3Answer": "Quadrados perfeitos são números que são o quadrado de um número inteiro. Os primeiros quadrados perfeitos são: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, etc. Estes números têm raízes quadradas exatas em números inteiros (√4=2, √9=3, √16=4). Reconhecer quadrados perfeitos ajuda a simplificar expressões radicais rapidamente.",
+    "faq4Question": "Como simplificar raízes quadradas?",
+    "faq4Answer": "Para simplificar uma raiz quadrada, encontre a fatoração em primos do número e extraia quadrados perfeitos. Por exemplo, √52 = √(4×13) = √4 × √13 = 2√13. Procure pares de fatores primos—cada par pode ser retirado como um único fator. √72 = √(2×2×2×3×3) = √(4×9×2) = 2×3×√2 = 6√2.",
+    "faq5Question": "É possível calcular a raiz quadrada de números negativos?",
+    "faq5Answer": "Em números reais, não é possível calcular a raiz quadrada de números negativos porque nenhum número real multiplicado por si mesmo resulta num valor negativo. No entanto, em números complexos, √(-1) = i (a unidade imaginária). Por exemplo, √(-16) = 4i. Esta calculadora trabalha apenas com números reais, portanto valores negativos para raízes quadradas apresentarão um erro.",
+    "faq6Question": "O que é uma raiz enésima?",
+    "faq6Answer": "Uma raiz enésima de um número x é um valor que, quando elevado à potência n, é igual a x. Exemplos comuns incluem raiz cúbica (³√x onde n=3) e raiz quarta (⁴√x onde n=4). Por exemplo, ³√27 = 3 porque 3³ = 27, e ⁴√16 = 2 porque 2⁴ = 16. Ao contrário das raízes quadradas, raízes ímpares (cúbica, quinta, etc.) de números negativos existem em números reais.",
+    "faq7Question": "Como as raízes quadradas são usadas na vida real?",
+    "faq7Answer": "Raízes quadradas aparecem frequentemente em aplicações quotidianas: calcular distâncias (teorema de Pitágoras), determinar desvio padrão em estatística, encontrar dimensões a partir da área (se área = 144 m², lado = √144 = 12 m), calcular resistência elétrica, determinar níveis de intensidade sonora e em finanças para cálculos de volatilidade. Engenheiros, arquitetos, cientistas e analistas financeiros usam raízes quadradas regularmente.",
+    "faq8Question": "Qual é a diferença entre √ e ²√?",
+    "faq8Answer": "Os símbolos √ e ²√ significam a mesma coisa—ambos representam a raiz quadrada. O símbolo radical √ sem número é entendido como raiz quadrada (índice 2). A notação ²√x mostra explicitamente o índice 2, mas é redundante já que raiz quadrada é o padrão. Para outras raízes, deve especificar: ³√ para raiz cúbica, ⁴√ para raiz quarta, ⁿ√ para raiz enésima."
+  }
+}

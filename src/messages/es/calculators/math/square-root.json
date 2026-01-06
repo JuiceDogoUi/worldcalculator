@@ -1,0 +1,114 @@
+{
+  "title": "Calculadora de Raíz Cuadrada",
+  "description": "Calcula raíces cuadradas, raíces enésimas y cuadrados perfectos con soluciones paso a paso. Simplifica radicales, visualiza la factorización prima y obtén valores exactos y aproximados al instante.",
+  "meta": {
+    "title": "Calculadora de Raíz Cuadrada [2025] - Gratis con Pasos",
+    "description": "Calcula raíces cuadradas y raíces enésimas al instante. Calculadora gratuita con soluciones paso a paso, simplificación de radicales y factorización prima. ¡Pruébala ahora!",
+    "keywords": "calculadora de raíz cuadrada, calculadora de raíces, simplificar radicales, cuadrado perfecto, raíz cúbica, factorización prima, simplificación de raíces"
+  },
+  "modes": {
+    "squareRoot": {
+      "label": "Raíz Cuadrada",
+      "description": "Calcula la raíz cuadrada (√x) de cualquier número positivo. Muestra las raíces positiva y negativa, la forma simplificada y verifica si es un cuadrado perfecto."
+    },
+    "nthRoot": {
+      "label": "Raíz Enésima",
+      "description": "Calcula cualquier raíz enésima (ⁿ√x) como raíz cúbica, cuarta raíz, etc. Admite índices de raíz personalizados para cálculos avanzados."
+    },
+    "square": {
+      "label": "Cuadrado",
+      "description": "Calcula el cuadrado (x²) de cualquier número. Muestra el resultado de multiplicar un número por sí mismo."
+    }
+  },
+  "inputs": {
+    "number": "Número",
+    "numberPlaceholder": "Ingresa un número",
+    "rootIndex": "Índice de Raíz (n)",
+    "rootIndexPlaceholder": "Ingresa el índice (ej. 3 para raíz cúbica)"
+  },
+  "results": {
+    "title": "Resultado",
+    "positiveRoot": "Raíz Positiva",
+    "negativeRoot": "Raíz Negativa",
+    "exactValue": "Valor Exacto",
+    "approximateValue": "Valor Aproximado",
+    "simplifiedForm": "Forma Simplificada",
+    "isPerfectSquare": "¿Es Cuadrado/Raíz Perfecta?",
+    "yes": "Sí",
+    "no": "No"
+  },
+  "steps": "Solución Paso a Paso",
+  "formula": "Fórmula Utilizada",
+  "explanation": "Explicación",
+  "primeFactorization": "Factorización Prima",
+  "reset": "Restablecer",
+  "errors": {
+    "negativeSquareRoot": "No se puede calcular la raíz cuadrada de números negativos",
+    "negativeEvenRoot": "No se puede calcular raíces pares de números negativos",
+    "invalidNumber": "Por favor ingresa un número válido",
+    "invalidRootIndex": "El índice de raíz debe ser un entero positivo mayor que 0"
+  },
+  "disclaimer": {
+    "text": "Esta calculadora proporciona cálculos matemáticos precisos con fines educativos y prácticos.",
+    "note": "Los resultados incluyen valores exactos (para cuadrados/raíces perfectas) y aproximaciones decimales. Las simplificaciones de radicales se muestran cuando corresponde."
+  },
+  "seo": {
+    "whatIsTitle": "¿Qué es una Raíz Cuadrada?",
+    "whatIsContent": "Una raíz cuadrada de un número es un valor que, al multiplicarse por sí mismo, da como resultado el número original. Por ejemplo, la raíz cuadrada de 16 es 4 porque 4 × 4 = 16. Cada número positivo tiene dos raíces cuadradas: una positiva y una negativa (±4 para 16). El símbolo de raíz cuadrada (√) se llama radical. Las raíces cuadradas son fundamentales en matemáticas y aparecen en geometría, álgebra, física, ingeniería y muchas aplicaciones del mundo real.",
+    "howItWorksTitle": "Características de Esta Calculadora",
+    "howItWorksIntro": "Nuestra calculadora de raíces cuadradas ofrece funcionalidad completa:",
+    "feature1": "Raíz Cuadrada (√x): Calcula la raíz cuadrada de cualquier número positivo con resultados exactos o aproximados",
+    "feature2": "Raíz Enésima (ⁿ√x): Calcula raíces cúbicas, cuartas raíces o cualquier índice de raíz personalizado",
+    "feature3": "Cuadrado (x²): Calcula el cuadrado de cualquier número al instante",
+    "feature4": "Radicales Simplificados: Simplifica automáticamente expresiones radicales (ej. √12 = 2√3)",
+    "feature5": "Factorización Prima: Visualiza la factorización prima para comprender la simplificación de radicales",
+    "benefitsTitle": "¿Por Qué Usar Esta Calculadora?",
+    "benefit1": "Las soluciones paso a paso te ayudan a comprender el proceso de cálculo",
+    "benefit2": "La detección de cuadrados perfectos identifica cuándo las raíces son enteros exactos",
+    "benefit3": "La simplificación automática de radicales muestra las formas simplificadas",
+    "benefit4": "Visualización de factorización prima para aprender teoría de números",
+    "benefit5": "Soporte para raíces cuadradas, raíces enésimas y operaciones de cuadrado",
+    "howToUseTitle": "Cómo Usar la Calculadora de Raíz Cuadrada",
+    "howToUseStep1": "Selecciona tu modo de operación: Raíz Cuadrada (√x), Raíz Enésima (ⁿ√x) o Cuadrado (x²)",
+    "howToUseStep2": "Ingresa el número con el que deseas calcular",
+    "howToUseStep3": "Para raíces enésimas, especifica el índice de raíz (ej. 3 para raíz cúbica, 4 para cuarta raíz)",
+    "howToUseStep4": "Visualiza el resultado con valores exactos y aproximados",
+    "howToUseStep5": "Revisa la solución paso a paso y la factorización prima para comprender el cálculo",
+    "formulasTitle": "Fórmulas de Raíz Cuadrada",
+    "formula1Name": "Definición de Raíz Cuadrada",
+    "formula1": "Si √a = b, entonces b² = a",
+    "formula1Example": "Ejemplo: √16 = 4 porque 4² = 16",
+    "formula2Name": "Definición de Raíz Enésima",
+    "formula2": "Si ⁿ√a = b, entonces bⁿ = a",
+    "formula2Example": "Ejemplo: ³√27 = 3 porque 3³ = 27",
+    "formula3Name": "Simplificación de Radicales",
+    "formula3": "√(a × b) = √a × √b",
+    "formula3Example": "Ejemplo: √12 = √(4 × 3) = √4 × √3 = 2√3",
+    "formula4Name": "Cuadrado Perfecto",
+    "formula4": "√(n²) = n",
+    "formula4Example": "Ejemplo: √25 = √(5²) = 5",
+    "tipsTitle": "Consejos para Trabajar con Raíces Cuadradas",
+    "tip1": "Los cuadrados perfectos (1, 4, 9, 16, 25, 36, ...) tienen raíces cuadradas enteras exactas",
+    "tip2": "Para simplificar un radical, extrae los cuadrados perfectos de dentro del signo radical",
+    "tip3": "Cada número positivo tiene dos raíces cuadradas: positiva y negativa (±)",
+    "tip4": "La raíz cuadrada de un número negativo no es un número real (es imaginario)",
+    "tip5": "Las raíces cúbicas y las raíces de índice impar pueden calcularse para números negativos",
+    "faqTitle": "Preguntas Frecuentes",
+    "faq1Question": "¿Cuál es la diferencia entre una raíz cuadrada y un cuadrado?",
+    "faq1Answer": "Un cuadrado (x²) multiplica un número por sí mismo: 4² = 16. Una raíz cuadrada (√x) es la operación inversa que encuentra qué número fue elevado al cuadrado: √16 = 4. Son operaciones opuestas que se anulan entre sí.",
+    "faq2Question": "¿Por qué hay dos raíces cuadradas (positiva y negativa)?",
+    "faq2Answer": "Tanto los valores positivos como negativos producen el mismo cuadrado: 4² = 16 y (-4)² = 16. Por lo tanto, 16 tiene dos raíces cuadradas: +4 y -4, que se escriben como ±4. La raíz cuadrada principal es la positiva.",
+    "faq3Question": "¿Cómo simplifico una raíz cuadrada?",
+    "faq3Answer": "Factoriza el número bajo el radical en factores primos y luego extrae los cuadrados perfectos. Por ejemplo, √12 = √(4 × 3) = √4 × √3 = 2√3. Nuestra calculadora hace esto automáticamente y muestra la factorización prima.",
+    "faq4Question": "¿Qué es un cuadrado perfecto?",
+    "faq4Answer": "Un cuadrado perfecto es un número que es el cuadrado de un entero: 1, 4, 9, 16, 25, 36, 49, etc. Estos números tienen raíces cuadradas enteras exactas. Por ejemplo, √16 = 4 exactamente (sin decimales).",
+    "faq5Question": "¿Puedo calcular la raíz cuadrada de un número negativo?",
+    "faq5Answer": "No, no en el sistema de números reales. Las raíces cuadradas de números negativos implican números imaginarios (usando 'i' donde i² = -1). Sin embargo, las raíces de índice impar (raíz cúbica, quinta raíz, etc.) sí pueden calcularse para números negativos.",
+    "faq6Question": "¿Qué es una raíz enésima?",
+    "faq6Answer": "Una raíz enésima es una generalización de las raíces cuadradas. La raíz enésima de un número es un valor que, al elevarse a la potencia n, da el número original. Por ejemplo, la raíz cúbica (n=3) de 27 es 3 porque 3³ = 27.",
+    "faq7Question": "¿Qué tan precisas son las aproximaciones decimales?",
+    "faq7Answer": "Nuestra calculadora proporciona aproximaciones decimales con 8 cifras significativas, lo cual es suficiente para la mayoría de aplicaciones prácticas. Para cuadrados y raíces perfectas se muestran valores enteros exactos.",
+    "faq8Question": "¿Qué es la factorización prima y por qué es útil?",
+    "faq8Answer": "La factorización prima descompone un número en sus componentes de números primos. Por ejemplo, 12 = 2² × 3. Esto es útil para simplificar radicales porque los cuadrados perfectos (como 2² = 4) pueden extraerse de dentro del signo radical."
+  }
+}

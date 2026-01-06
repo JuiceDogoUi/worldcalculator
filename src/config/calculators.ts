@@ -147,6 +147,18 @@ export const calculators: Calculator[] = [
     relatedCalculators: ['percentage', 'fraction', 'gcd'],
     lastModified: '2026-01-03',
   },
+  {
+    id: 'square-root-calculator',
+    slug: 'square-root',
+    category: 'math',
+    translationKey: 'calculators.math.square-root',
+    icon: 'Radical',
+    featured: true,
+    difficulty: 'easy',
+    estimatedTime: 60,
+    relatedCalculators: ['percentage', 'fraction', 'scientific'],
+    lastModified: '2026-01-06',
+  },
 
   // More calculators will be added here
 ]
