@@ -171,6 +171,18 @@ export const calculators: Calculator[] = [
     relatedCalculators: ['percentage', 'fraction', 'gcd'],
     lastModified: '2026-01-07',
   },
+  {
+    id: 'mean-median-mode-calculator',
+    slug: 'mean-median-mode',
+    category: 'statistics',
+    translationKey: 'calculators.statistics.mean-median-mode',
+    icon: 'BarChart3',
+    featured: true,
+    difficulty: 'easy',
+    estimatedTime: 60,
+    relatedCalculators: ['standard-deviation', 'percentage', 'fraction'],
+    lastModified: '2026-01-07',
+  },
 
   // More calculators will be added here
 ]
