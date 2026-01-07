@@ -159,6 +159,18 @@ export const calculators: Calculator[] = [
     relatedCalculators: ['percentage', 'fraction', 'scientific'],
     lastModified: '2026-01-06',
   },
+  {
+    id: 'ratio-calculator',
+    slug: 'ratio',
+    category: 'math',
+    translationKey: 'calculators.math.ratio',
+    icon: 'Scale',
+    featured: true,
+    difficulty: 'easy',
+    estimatedTime: 60,
+    relatedCalculators: ['percentage', 'fraction', 'gcd'],
+    lastModified: '2026-01-07',
+  },
 
   // More calculators will be added here
 ]
