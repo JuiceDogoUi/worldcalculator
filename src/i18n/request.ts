@@ -12,7 +12,7 @@ const CALCULATOR_REGISTRY: Record<string, string[]> = {
   conversion: [],
   'time-date': [],
   construction: [],
-  statistics: ['standard-deviation'],
+  statistics: ['standard-deviation', 'mean-median-mode'],
 }
 
 /**
