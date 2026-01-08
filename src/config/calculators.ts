@@ -183,6 +183,18 @@ export const calculators: Calculator[] = [
     relatedCalculators: ['standard-deviation', 'percentage', 'fraction'],
     lastModified: '2026-01-07',
   },
+  {
+    id: 'probability-calculator',
+    slug: 'probability',
+    category: 'statistics',
+    translationKey: 'calculators.statistics.probability',
+    icon: 'Dice5',
+    featured: true,
+    difficulty: 'easy',
+    estimatedTime: 60,
+    relatedCalculators: ['standard-deviation', 'mean-median-mode', 'percentage'],
+    lastModified: '2026-01-08',
+  },
 
   // More calculators will be added here
 ]
