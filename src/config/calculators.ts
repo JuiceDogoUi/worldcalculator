@@ -195,6 +195,30 @@ export const calculators: Calculator[] = [
     relatedCalculators: ['standard-deviation', 'mean-median-mode', 'percentage'],
     lastModified: '2026-01-08',
   },
+  {
+    id: 'z-score-calculator',
+    slug: 'z-score',
+    category: 'statistics',
+    translationKey: 'calculators.statistics.z-score',
+    icon: 'TrendingUp',
+    featured: true,
+    difficulty: 'easy',
+    estimatedTime: 60,
+    relatedCalculators: ['standard-deviation', 'mean-median-mode', 'probability'],
+    lastModified: '2026-01-08',
+  },
+  {
+    id: 'correlation-calculator',
+    slug: 'correlation',
+    category: 'statistics',
+    translationKey: 'calculators.statistics.correlation',
+    icon: 'TrendingUp',
+    featured: true,
+    difficulty: 'medium',
+    estimatedTime: 120,
+    relatedCalculators: ['standard-deviation', 'mean-median-mode', 'z-score'],
+    lastModified: '2026-01-08',
+  },
 
   // More calculators will be added here
 ]
