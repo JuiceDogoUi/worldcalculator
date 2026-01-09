@@ -219,6 +219,18 @@ export const calculators: Calculator[] = [
     relatedCalculators: ['standard-deviation', 'mean-median-mode', 'z-score'],
     lastModified: '2026-01-08',
   },
+  {
+    id: 'sample-size-calculator',
+    slug: 'sample-size',
+    category: 'statistics',
+    translationKey: 'calculators.statistics.sample-size',
+    icon: 'Users',
+    featured: true,
+    difficulty: 'easy',
+    estimatedTime: 60,
+    relatedCalculators: ['standard-deviation', 'probability', 'z-score'],
+    lastModified: '2026-01-09',
+  },
 
   // More calculators will be added here
 ]
