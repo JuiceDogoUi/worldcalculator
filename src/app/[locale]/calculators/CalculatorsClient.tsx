@@ -27,9 +27,6 @@ const iconMap = {
 }
 
 interface CalculatorsClientProps {
-  locale: string
-  siteName: string
-  siteDescription: string
   translations: {
     noResults: string
     browseAll: string
@@ -37,15 +34,31 @@ interface CalculatorsClientProps {
     found: string
     calculators: string
   }
+  hubTranslations: {
+    title: string
+    subtitle: string
+    introduction: string
+    browseByCategory: string
+    browseDescription: string
+    whyUseOurCalculators: string
+    whyDescription: string
+    features: {
+      accurate: { title: string; description: string }
+      free: { title: string; description: string }
+      private: { title: string; description: string }
+      multilingual: { title: string; description: string }
+    }
+  }
   categoryTranslations: Record<string, string>
+  categoryDescriptions: Record<string, string>
   calculatorNames: Record<string, string>
 }
 
 export function CalculatorsClient({
-  siteName,
-  siteDescription,
   translations,
+  hubTranslations,
   categoryTranslations,
+  categoryDescriptions,
   calculatorNames,
 }: CalculatorsClientProps) {
   const searchParams = useSearchParams()
@@ -72,17 +85,62 @@ export function CalculatorsClient({
 
   return (
     <div className="container py-8">
+      {/* Header Section */}
       <div className="mb-8 space-y-2">
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
-          {searchQuery ? `${translations.searchResults}: "${searchQuery}"` : siteName}
+          {searchQuery ? `${translations.searchResults}: "${searchQuery}"` : hubTranslations.title}
         </h1>
         <p className="text-lg text-muted-foreground">
           {searchQuery
             ? `${translations.found} ${filteredCalculators.length} ${translations.calculators}`
-            : siteDescription
+            : hubTranslations.subtitle
           }
         </p>
       </div>
+
+      {/* Introduction Section - Only show when not searching */}
+      {!searchQuery && (
+        <>
+          <div className="mb-12 prose prose-slate dark:prose-invert max-w-none">
+            <p className="text-base leading-relaxed text-muted-foreground">
+              {hubTranslations.introduction}
+            </p>
+          </div>
+
+          {/* Why Use Our Calculators Section */}
+          <div className="mb-12">
+            <h2 className="text-2xl font-bold tracking-tight mb-4">
+              {hubTranslations.whyUseOurCalculators}
+            </h2>
+            <p className="text-base leading-relaxed text-muted-foreground mb-6">
+              {hubTranslations.whyDescription}
+            </p>
+
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 mb-8">
+              {Object.entries(hubTranslations.features).map(([key, feature]) => (
+                <Card key={key}>
+                  <CardHeader>
+                    <CardTitle className="text-lg">{feature.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">{feature.description}</p>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+
+          {/* Browse by Category Section */}
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold tracking-tight mb-2">
+              {hubTranslations.browseByCategory}
+            </h2>
+            <p className="text-base text-muted-foreground mb-6">
+              {hubTranslations.browseDescription}
+            </p>
+          </div>
+        </>
+      )}
 
       {searchQuery && filteredCalculators.length > 0 ? (
         // Search results - show calculators
@@ -150,8 +208,8 @@ export function CalculatorsClient({
                     </div>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-muted-foreground">
-                      Explore calculators in this category
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      {categoryDescriptions[category.slug] || 'Explore calculators in this category'}
                     </p>
                   </CardContent>
                 </Card>

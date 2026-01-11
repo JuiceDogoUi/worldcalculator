@@ -1,10 +1,8 @@
 import { notFound } from 'next/navigation'
-import { getTranslations, getMessages } from 'next-intl/server'
+import { getMessages } from 'next-intl/server'
 import type { Metadata } from 'next'
-import { CalculatorLayout } from '@/components/calculator/CalculatorLayout'
 import { calculators, getAllCalculatorSlugs } from '@/config/calculators'
 import { locales } from '@/i18n/locales'
-import { generateCalculatorSchema } from '@/lib/structuredData'
 
 interface CalculatorMeta {
   title: string
@@ -120,6 +118,7 @@ export default async function CalculatorPage({
 }: {
   params: Promise<{ locale: string; category: string; slug: string }>
 }) {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { locale, category, slug } = await params
 
   // Find calculator in registry
@@ -135,69 +134,8 @@ export default async function CalculatorPage({
     notFound()
   }
 
-  const tCalculator = await getTranslations({ locale, namespace: 'calculator' })
-  const tCategories = await getTranslations({ locale, namespace: 'categories' })
-
-  // Get calculator-specific translations
-  const calcTranslations = await getCalculatorTranslations(locale, category, slug)
-
-  // Get category translation key
-  const categoryKey = calculator.category as
-    | 'finance'
-    | 'health'
-    | 'math'
-    | 'conversion'
-    | 'timeDate'
-    | 'construction'
-
-  // Use translated title/description or fall back to generic
-  const calculatorTitle = calcTranslations?.title || `${slug.charAt(0).toUpperCase() + slug.slice(1)} Calculator`
-  const calculatorDescription = calcTranslations?.description || `Calculate ${slug} quickly and easily with our free online calculator.`
-
-  // Generate structured data for calculator with proper translations
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.worldcalculator.org'
-  const metaTitle = calcTranslations?.meta?.title || calculatorTitle
-  const metaDescription = calcTranslations?.meta?.description || calculatorDescription
-
-  const calculatorSchema = generateCalculatorSchema(
-    {
-      name: metaTitle,
-      description: metaDescription,
-      url: `/${locale}/calculators/${calculator.category}/${slug}`,
-      applicationCategory: 'UtilityApplication',
-      offers: {
-        price: '0',
-        priceCurrency: 'USD',
-      },
-    },
-    {
-      siteName: 'World Calculator',
-      siteUrl,
-      locale,
-    }
-  )
-
-  return (
-    <>
-      {/* Structured data for calculator */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(calculatorSchema) }}
-      />
-
-      <CalculatorLayout
-        title={calculatorTitle}
-        description={calculatorDescription}
-        categorySlug={category}
-        categoryName={tCategories(categoryKey)}
-        lastUpdated={calculator.lastModified}
-      >
-        <div className="flex flex-col items-center justify-center py-12 text-center">
-          <p className="text-lg text-muted-foreground">
-            {tCalculator('comingSoon')}
-          </p>
-        </div>
-      </CalculatorLayout>
-    </>
-  )
+  // All calculators should have their own specific page.tsx file
+  // (e.g., finance/loan/page.tsx, health/bmi/page.tsx)
+  // If we reach this fallback, return 404 to avoid showing empty content
+  notFound()
 }

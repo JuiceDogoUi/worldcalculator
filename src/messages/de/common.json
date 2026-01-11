@@ -21,7 +21,69 @@
       "statistics": "Standardabweichung, Varianz, Mittelwert, Datenanalyse"
     },
     "viewAll": "Alle Anzeigen",
-    "calculatorsCount": "{count} Rechner"
+    "calculatorsCount": "{count} Rechner",
+    "whyChooseUs": {
+      "title": "Warum World Calculator wählen",
+      "subtitle": "Ihr vertrauenswürdiger Partner für präzise Berechnungen in Finanzen, Gesundheit, Mathematik und alltäglichen Bedürfnissen",
+      "features": {
+        "free": {
+          "title": "100% Kostenlos Für Immer",
+          "description": "Alle Rechner sind völlig kostenlos ohne versteckte Gebühren, Abonnements oder Premium-Funktionen. Berechnen Sie alles ohne einen Cent auszugeben."
+        },
+        "accurate": {
+          "title": "Genau und Zuverlässig",
+          "description": "Unsere Rechner verwenden branchenübliche Formeln und werden rigoros getestet, um Präzision zu gewährleisten. Von Finanzberechnungen bis zu Gesundheitswerten, vertrauen Sie unseren Ergebnissen."
+        },
+        "private": {
+          "title": "Ihre Privatsphäre Zählt",
+          "description": "Keine Registrierung erforderlich. Wir speichern weder Ihre Daten noch Ihre Berechnungen. Nutzen Sie unsere Tools mit der Gewissheit, dass Ihre Informationen privat bleiben."
+        },
+        "multilingual": {
+          "title": "In 6 Sprachen Verfügbar",
+          "description": "Zugriff auf Rechner in Englisch, Spanisch, Französisch, Deutsch, Portugiesisch und Italienisch. Wählen Sie Ihre Sprache für ein nahtloses Erlebnis."
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "So Funktioniert Es",
+      "subtitle": "Erhalten Sie präzise Ergebnisse in drei einfachen Schritten",
+      "steps": {
+        "step1": {
+          "title": "Wählen Sie Ihren Rechner",
+          "description": "Durchsuchen Sie nach Kategorien oder suchen Sie nach dem spezifischen Rechner, den Sie benötigen. Wir bieten Tools für Finanzen, Gesundheit, Mathematik, Umrechnungen und mehr."
+        },
+        "step2": {
+          "title": "Geben Sie Ihre Informationen Ein",
+          "description": "Füllen Sie die erforderlichen Felder mit Ihren Daten aus. Unsere intuitive Benutzeroberfläche führt Sie durch jede Eingabe mit hilfreichen Beschriftungen und Beispielen."
+        },
+        "step3": {
+          "title": "Erhalten Sie Sofortige Ergebnisse",
+          "description": "Klicken Sie auf Berechnen, um detaillierte Ergebnisse sofort zu sehen. Speichern, drucken oder teilen Sie Ihre Berechnungen, wann immer Sie sie benötigen."
+        }
+      }
+    },
+    "whatWeOffer": {
+      "title": "Was Wir Anbieten",
+      "description": "World Calculator bietet umfassende Online-Tools für alltägliche Berechnungen. Ob Sie Ihre Finanzen planen, Ihre Gesundheitsziele verfolgen, mathematische Probleme lösen oder Einheiten umrechnen, wir haben den richtigen Rechner für Sie. Unsere Plattform kombiniert Genauigkeit, Einfachheit und Zugänglichkeit, um Millionen von Nutzern dabei zu helfen, täglich fundierte Entscheidungen zu treffen.",
+      "features": {
+        "feature1": {
+          "title": "Finanzplanungs-Tools",
+          "description": "Berechnen Sie Kreditraten, Hypothekenzinsen, Anlagerenditen und Sparziele. Treffen Sie klügere finanzielle Entscheidungen mit unseren umfassenden Rechnern."
+        },
+        "feature2": {
+          "title": "Gesundheits- und Wellness-Metriken",
+          "description": "Verfolgen Sie BMI, Kalorienbedarf, Körperfettanteil und Fitnessziele. Überwachen Sie Ihren Gesundheitsweg mit präzisen, wissenschaftlich fundierten Berechnungen."
+        },
+        "feature3": {
+          "title": "Alltägliche Mathematik-Lösungen",
+          "description": "Lösen Sie Prozente, Brüche, Durchschnitte und mehr in Sekunden. Von Schülern bis zu Fachleuten vereinfachen unsere Mathematik-Tools komplexe Berechnungen."
+        },
+        "feature4": {
+          "title": "Einheiten-Umrechnungen",
+          "description": "Konvertieren Sie Währungen, Temperaturen, Entfernungen, Gewichte und mehr. Erhalten Sie sofort präzise Umrechnungen mit aktuellen Wechselkursen."
+        }
+      }
+    }
   },
   "actions": {
     "calculate": "Berechnen",
@@ -63,6 +125,36 @@
     "whatYouCanCalculate": "Was Sie Berechnen Können",
     "exploreOtherCategories": "Andere Kategorien Erkunden",
     "availableTools": "Verfügbare Tools"
+  },
+  "categoryGuide": {
+    "finance": {
+      "title": "Ihr Finanzplanungs-Begleiter",
+      "content": "Ob Sie Ihr erstes Eigenheim kaufen, für den Ruhestand planen oder Schulden verwalten – unsere Finanzrechner helfen Ihnen, fundierte Entscheidungen zu treffen. Das Verstehen von Kreditraten, Hypothekentragfähigkeit und Anlagerenditen ist entscheidend für den Aufbau einer sicheren finanziellen Zukunft. Nutzen Sie unsere Tools, um verschiedene Szenarien zu vergleichen, Ihr Budget zu planen und Ihre finanziellen Ziele mit Zuversicht zu erreichen. Von einfachen Zinsberechnungen bis zu komplexen Tilgungsplänen bieten wir präzise Ergebnisse, auf die Sie sich verlassen können."
+    },
+    "health": {
+      "title": "Verfolgen Sie Ihren Gesundheitsweg",
+      "content": "Die Überwachung Ihrer Gesundheitswerte ist ein wichtiger Bestandteil der Erhaltung des allgemeinen Wohlbefindens. Unsere Gesundheitsrechner helfen Ihnen, Schlüsselindikatoren wie BMI, Kalorienbedarf und Körperzusammensetzung zu verstehen. Ob Sie ein Fitnessprogramm beginnen, Ihr Gewicht verwalten oder Ihre Ernährung optimieren – diese Tools bieten wertvolle Einblicke basierend auf wissenschaftlichen Formeln. Denken Sie daran, dass Rechner zu Bildungszwecken dienen und professionelle medizinische Beratung ergänzen, nicht ersetzen sollten."
+    },
+    "math": {
+      "title": "Alltägliche Mathematik Leicht Gemacht",
+      "content": "Vom Berechnen von Rabatten beim Einkaufen bis zum Lösen komplexer mathematischer Probleme vereinfachen unsere Mathematikrechner alltägliche Berechnungen. Ob Sie Schüler sind, der an Hausaufgaben arbeitet, ein Fachmann, der Datenanalysen durchführt, oder jemand, der schnelle und genaue mathematische Lösungen benötigt – diese Tools sparen Zeit und reduzieren Fehler. Bewältigen Sie Prozentsätze, Brüche, Durchschnitte und mehr mit sofortigen, zuverlässigen Ergebnissen, die Ihnen helfen, bessere Entscheidungen zu treffen."
+    },
+    "statistics": {
+      "title": "Datenanalyse auf Knopfdruck",
+      "content": "Das Verstehen von Daten ist in der heutigen Welt entscheidend. Unsere Statistikrechner helfen Studenten, Forschern und Fachleuten, Datensätze zu analysieren, Maße der zentralen Tendenz zu berechnen und Datenverteilungen zu verstehen. Von Standardabweichung über Korrelationsanalyse, Wahrscheinlichkeitsberechnungen bis zur Bestimmung der Stichprobengröße erhalten Sie präzise statistische Einblicke ohne komplexe Software. Perfekt für akademische Forschung, Geschäftsanalysen und datengesteuerte Entscheidungsfindung."
+    },
+    "conversion": {
+      "title": "Universelle Umrechnungs-Tools",
+      "content": "In unserer globalisierten Welt ist das Umrechnen zwischen verschiedenen Einheiten eine tägliche Notwendigkeit. Unsere Umrechnungsrechner handhaben alles, vom Währungsumtausch über Temperaturumrechnung, Entfernung zu Gewicht bis hin zu Zeitzonen und Datenspeichereinheiten. Ob Sie ins Ausland reisen, internationale Rezepte befolgen oder an technischen Projekten arbeiten – erhalten Sie sofortige, präzise Umrechnungen, die die Lücke zwischen verschiedenen Messsystemen schließen."
+    },
+    "timeDate": {
+      "title": "Meistern Sie Zeitberechnungen",
+      "content": "Zeit- und Datumsberechnungen sind wesentlich für Planung, Terminierung und das Verstehen von Zeitspannen. Unsere Rechner helfen Ihnen, das Alter ab Geburtsdatum zu bestimmen, Tage zwischen wichtigen Daten zu berechnen, Zeiträume zu addieren oder zu subtrahieren und Arbeitstage für die Projektplanung zu zählen. Ob Sie Veranstaltungen organisieren, Fristen verfolgen oder einfach neugierig auf Zeitunterschiede sind – diese Tools bieten präzise Berechnungen für alle Ihre zeitlichen Bedürfnisse."
+    },
+    "construction": {
+      "title": "Bauen Sie mit Präzision",
+      "content": "Genaue Messungen und Materialschätzungen sind entscheidend für erfolgreiche Bau- und Renovierungsprojekte. Unsere Baurechner helfen Bauunternehmern, Bauherren und Heimwerkern, Quadratmeterzahl zu schätzen, Farbabdeckung zu berechnen, Bodenbelagsanforderungen zu bestimmen und Materialbedarf zu quantifizieren. Sparen Sie Zeit, reduzieren Sie Verschwendung und vermeiden Sie kostspielige Fehler, indem Sie zuverlässige Schätzungen erhalten, bevor Sie Ihr Projekt beginnen. Von kleinen Heimverbesserungen bis zu großen Bauarbeiten planen Sie mit Zuversicht."
+    }
   },
   "categoryFeatures": {
     "finance": [
@@ -131,8 +223,6 @@
     "howToUse": "Anleitung",
     "examples": "Beispiele",
     "faq": "Häufig gestellte Fragen",
-    "comingSoon": "Demnächst Verfügbar",
-    "comingSoonDescription": "Rechner für diese Kategorie werden bald hinzugefügt.",
     "exploreCategory": "Entdecken Sie die Rechner dieser Kategorie",
     "browseCategory": "Alle Rechner dieser Kategorie anzeigen",
     "allCalculators": "Alle Rechner",
@@ -145,5 +235,41 @@
     "accept": "Akzeptieren",
     "decline": "Ablehnen",
     "settings": "Cookie-Einstellungen"
+  },
+  "calculatorsHub": {
+    "title": "Alle Rechner",
+    "subtitle": "Durchsuchen Sie unsere umfassende Sammlung kostenloser Online-Rechner",
+    "introduction": "Willkommen bei der vollständigen Sammlung kostenloser Online-Rechner von World Calculator. Ob Sie Ihre Finanzen verwalten, Ihre Gesundheitsziele verfolgen, mathematische Probleme lösen oder Einheiten umrechnen – wir bieten präzise und benutzerfreundliche Tools für alle Ihre Berechnungsbedürfnisse. Unsere Plattform bietet über ein Dutzend spezialisierter Rechner in mehreren Kategorien, die alle mit Präzision und Benutzerfreundlichkeit entwickelt wurden. Alle Rechner sind völlig kostenlos, erfordern keine Registrierung und respektieren Ihre Privatsphäre, indem sie keine Ihrer Daten speichern. Verfügbar in sechs Sprachen und für Desktop- und Mobilgeräte optimiert, macht World Calculator komplexe Berechnungen einfach und für jeden zugänglich.",
+    "browseByCategory": "Nach Kategorie durchsuchen",
+    "browseDescription": "Wählen Sie unten eine Kategorie aus, um spezialisierte Rechner zu erkunden, die für Ihre spezifischen Bedürfnisse entwickelt wurden. Jede Kategorie enthält mehrere Tools mit Schritt-für-Schritt-Anleitungen und hilfreichen Beispielen.",
+    "categoryDescriptions": {
+      "finance": "Verwalten Sie Ihr Geld mit Zuversicht mit unseren umfassenden Finanzrechnern. Berechnen Sie Kreditraten, Hypothekentragfähigkeit, Anlagerenditen, Zinseszins und Sparziele. Treffen Sie fundierte Entscheidungen mit detaillierten Tilgungsplänen und Finanzprognosen.",
+      "health": "Verfolgen Sie Ihre Wellness-Reise mit unseren Gesundheits- und Fitnessrechnern. Berechnen Sie Ihren BMI, täglichen Kalorienbedarf, ideales Körpergewicht, Körperfettanteil und Fitness-Metriken. Erhalten Sie personalisierte Einblicke, um Ihre Gesundheitsziele zu erreichen.",
+      "math": "Lösen Sie alltägliche mathematische Probleme schnell und präzise. Berechnen Sie Prozentsätze, arbeiten Sie mit Brüchen, finden Sie Durchschnitte, berechnen Sie den GPA und handhaben Sie Verhältnisse. Perfekt für Studenten, Fachleute und alle, die schnelle mathematische Lösungen benötigen.",
+      "statistics": "Analysieren Sie Daten mit leistungsstarken statistischen Rechnern. Berechnen Sie Standardabweichung, Varianz, Mittelwert, Median, Modus, Korrelation, Z-Werte, Wahrscheinlichkeit und Stichprobengröße. Unverzichtbare Tools für Studenten, Forscher und Datenanalysten.",
+      "conversion": "Konvertieren Sie mühelos zwischen Einheiten mit unseren umfassenden Umrechnungstools. Handhaben Sie Länge, Gewicht, Volumen, Temperatur, Wechselkurse und Zeitzonen. Erhalten Sie präzise Umrechnungen für den täglichen und professionellen Gebrauch.",
+      "timeDate": "Berechnen Sie Zeit und Datum präzise. Finden Sie das Alter ab Geburtsdatum, berechnen Sie Tage zwischen Daten, addieren oder subtrahieren Sie Zeiträume, zählen Sie Arbeitstage und erstellen Sie Countdowns. Vereinfachen Sie zeitbezogene Berechnungen für Planung und Terminierung.",
+      "construction": "Planen Sie Ihre Projekte mit Bau- und Renovierungsrechnern. Schätzen Sie Quadratmeter, Farbabdeckung, Bodenbelagsanforderungen, Materialmengen und Projektkosten. Unverzichtbare Tools für Bauunternehmer, Bauherren und Heimwerker."
+    },
+    "whyUseOurCalculators": "Warum Unsere Rechner Verwenden",
+    "whyDescription": "Unsere Rechner sind mit Präzision, Einfachheit und Zugänglichkeit entwickelt. Jedes Tool verwendet branchenübliche Formeln und durchläuft rigorose Tests, um zuverlässige Ergebnisse zu gewährleisten. Wir legen Wert auf Ihre Privatsphäre, indem wir niemals Ihre Daten speichern, und alle Rechner sind völlig kostenlos ohne versteckte Gebühren oder Abonnements. Ob Sie Student, Fachmann sind oder einfach nur schnelle Berechnungen benötigen, World Calculator bietet die Tools, die Sie ohne Barrieren benötigen.",
+    "features": {
+      "accurate": {
+        "title": "Präzise Ergebnisse",
+        "description": "Branchenübliche Formeln und rigorose Tests gewährleisten Präzision bei jeder Berechnung"
+      },
+      "free": {
+        "title": "100% Kostenlos",
+        "description": "Keine versteckten Gebühren, Abonnements oder Premium-Funktionen - alle Rechner sind völlig kostenlos"
+      },
+      "private": {
+        "title": "Datenschutz Zuerst",
+        "description": "Keine Registrierung erforderlich und wir speichern niemals Ihre Daten oder Berechnungshistorie"
+      },
+      "multilingual": {
+        "title": "6 Sprachen",
+        "description": "Verfügbar in Englisch, Spanisch, Französisch, Deutsch, Portugiesisch und Italienisch"
+      }
+    }
   }
 }

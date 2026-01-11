@@ -32,8 +32,19 @@ export function CookieConsent({ locale }: CookieConsentProps) {
 
   const handleAccept = () => {
     localStorage.setItem(COOKIE_CONSENT_KEY, 'accepted')
-    // Reload page to apply personalized ads setting
-    window.location.reload()
+    // Update AdSense personalization setting dynamically
+    try {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const adsbygoogle = (window as any).adsbygoogle || []
+      adsbygoogle.requestNonPersonalizedAds = 0
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      ;(window as any).adsbygoogle = adsbygoogle
+    } catch {
+      // Fallback: reload if dynamic update fails
+      window.location.reload()
+      return
+    }
+    setStatus('accepted')
   }
 
   const handleReject = () => {
@@ -62,12 +73,14 @@ export function CookieConsent({ locale }: CookieConsentProps) {
             </p>
             <div className="flex gap-2 w-full sm:w-auto">
               <button
+                type="button"
                 onClick={handleReject}
                 className="flex-1 sm:flex-none px-4 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
                 {t('decline')}
               </button>
               <button
+                type="button"
                 onClick={handleAccept}
                 className="flex-1 sm:flex-none px-4 py-2 text-sm bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
               >

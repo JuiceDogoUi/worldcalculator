@@ -14,6 +14,33 @@
       "content1": "World Calculator is built by a small team of software engineers and mathematicians who share a simple passion: making calculations faster and more accessible for everyone.",
       "content2": "We've spent countless hours perfecting formulas, optimizing performance, and designing interfaces that just work. No sign-ups required, no data collection on your calculations. Just pure, reliable tools."
     },
+    "approach": {
+      "title": "Our Approach to Accuracy",
+      "content1": "Every calculator on World Calculator goes through a rigorous development process to ensure accuracy, reliability, and ease of use. We don't just implement formulas—we validate them against multiple authoritative sources and test them extensively across different scenarios.",
+      "content2": "Our commitment to precision means that whether you're calculating a mortgage payment, tracking your BMI, or converting units, you can trust the results. We cross-reference our formulas with financial institutions, medical guidelines, and mathematical standards to ensure they meet professional-grade accuracy requirements.",
+      "steps": {
+        "research": {
+          "title": "Research & Validation",
+          "description": "We analyze competitor implementations, consult authoritative sources, and validate formulas against industry standards before writing a single line of code."
+        },
+        "implement": {
+          "title": "Implementation",
+          "description": "Our engineers use TypeScript with strict type safety and comprehensive validation to ensure every input is properly handled and every edge case is considered."
+        },
+        "validate": {
+          "title": "Quality Assurance",
+          "description": "Each calculator undergoes rigorous testing including unit tests, edge case validation, and real-world scenario verification to ensure accuracy."
+        },
+        "test": {
+          "title": "Continuous Improvement",
+          "description": "We monitor user feedback, track performance metrics, and regularly update our calculators to incorporate the latest formulas and best practices."
+        }
+      }
+    },
+    "team": {
+      "title": "The Team Behind World Calculator",
+      "content": "Our team combines expertise in software engineering, mathematics, financial analysis, and user experience design. With backgrounds ranging from fintech development to academic research, we bring a diverse set of skills to ensure every calculator is both technically sound and user-friendly. We're passionate about democratizing access to powerful calculation tools that traditionally required expensive software or specialized knowledge. Based across Europe, we work remotely but stay united by our mission to make accurate calculations accessible to everyone, everywhere."
+    },
     "different": {
       "title": "What Makes Us Different",
       "free": {
@@ -33,10 +60,18 @@
         "description": "Available in 6 languages with locale-specific formatting. Use it on any device."
       }
     },
+    "company": {
+      "title": "Company Information",
+      "content": "World Calculator is operated by Roques OÜ, a technology company registered in Estonia (EU). As an EU-registered entity, we adhere to strict data protection standards under GDPR and maintain transparent business practices. Our operations are based in Tallinn, Estonia, where we combine European regulatory compliance with a commitment to innovation and user privacy. We're proud to be part of Estonia's thriving digital ecosystem, known for its advanced e-governance and technology infrastructure.",
+      "name": "Roques OÜ",
+      "location": "Tallinn, Estonia",
+      "registration": "EU-registered company",
+      "email": "legal@invoo.es"
+    },
     "future": {
       "title": "What's Next: AI-Powered Calculations",
       "content": "We're working on the next evolution of World Calculator: AI-enhanced tools that understand your questions in plain language and guide you to the right answer.",
-      "comingSoon": "Coming soon"
+      "status": "Currently in development"
     },
     "cta": {
       "text": "Have questions, suggestions, or just want to say hi?",

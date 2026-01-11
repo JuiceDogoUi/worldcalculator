@@ -35,37 +35,39 @@ export const categories: Category[] = [
     color: 'green',
     priority: 3, // Very High - percentage, fractions, GPA (universal daily use)
   },
-  {
-    id: 'conversion',
-    slug: 'conversion',
-    translationKey: 'conversion',
-    icon: 'ArrowLeftRight',
-    color: 'purple',
-    priority: 4, // High - units, currency, temperature (mobile-critical, global)
-  },
-  {
-    id: 'time-date',
-    slug: 'time-date',
-    translationKey: 'timeDate',
-    icon: 'Clock',
-    color: 'orange',
-    priority: 5, // Medium-High - age, date calculator, countdown (utility)
-  },
-  {
-    id: 'construction',
-    slug: 'construction',
-    translationKey: 'construction',
-    icon: 'Hammer',
-    color: 'amber',
-    priority: 6, // Medium-High - square footage, materials (commercial potential)
-  },
+  // TEMPORARILY HIDDEN - Empty categories (no calculators yet)
+  // Re-enable when calculators are added
+  // {
+  //   id: 'conversion',
+  //   slug: 'conversion',
+  //   translationKey: 'conversion',
+  //   icon: 'ArrowLeftRight',
+  //   color: 'purple',
+  //   priority: 4, // High - units, currency, temperature (mobile-critical, global)
+  // },
+  // {
+  //   id: 'time-date',
+  //   slug: 'time-date',
+  //   translationKey: 'timeDate',
+  //   icon: 'Clock',
+  //   color: 'orange',
+  //   priority: 5, // Medium-High - age, date calculator, countdown (utility)
+  // },
+  // {
+  //   id: 'construction',
+  //   slug: 'construction',
+  //   translationKey: 'construction',
+  //   icon: 'Hammer',
+  //   color: 'amber',
+  //   priority: 6, // Medium-High - square footage, materials (commercial potential)
+  // },
   {
     id: 'statistics',
     slug: 'statistics',
     translationKey: 'statistics',
     icon: 'BarChart3',
     color: 'cyan',
-    priority: 7, // High - standard deviation, mean, variance (educational, research)
+    priority: 4, // High - standard deviation, mean, variance (educational, research)
   },
 ]
 
