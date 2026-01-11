@@ -21,7 +21,69 @@
       "statistics": "Standard deviation, variance, mean, data analysis"
     },
     "viewAll": "View All",
-    "calculatorsCount": "{count} calculators"
+    "calculatorsCount": "{count} calculators",
+    "whyChooseUs": {
+      "title": "Why Choose World Calculator",
+      "subtitle": "Your trusted partner for accurate calculations across finance, health, math, and everyday needs",
+      "features": {
+        "free": {
+          "title": "100% Free Forever",
+          "description": "All calculators are completely free with no hidden fees, subscriptions, or premium features. Calculate anything without spending a penny."
+        },
+        "accurate": {
+          "title": "Accurate & Reliable",
+          "description": "Our calculators use industry-standard formulas and undergo rigorous testing to ensure precision. From financial calculations to health metrics, trust our results."
+        },
+        "private": {
+          "title": "Your Privacy Matters",
+          "description": "No registration required. We don't store your data or calculations. Use our tools with complete confidence that your information stays private."
+        },
+        "multilingual": {
+          "title": "Available in 6 Languages",
+          "description": "Access calculators in English, Spanish, French, German, Portuguese, and Italian. Choose your language for a seamless experience."
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "Get accurate results in three simple steps",
+      "steps": {
+        "step1": {
+          "title": "Choose Your Calculator",
+          "description": "Browse by category or search for the specific calculator you need. We offer tools for finance, health, math, conversions, and more."
+        },
+        "step2": {
+          "title": "Enter Your Information",
+          "description": "Fill in the required fields with your data. Our intuitive interface guides you through each input with helpful labels and examples."
+        },
+        "step3": {
+          "title": "Get Instant Results",
+          "description": "Click calculate to see detailed results immediately. Save, print, or share your calculations whenever you need them."
+        }
+      }
+    },
+    "whatWeOffer": {
+      "title": "What We Offer",
+      "description": "World Calculator provides comprehensive online tools for everyday calculations. Whether you're planning your finances, tracking your health goals, solving math problems, or converting units, we have the right calculator for you. Our platform combines accuracy, simplicity, and accessibility to help millions of users make informed decisions every day.",
+      "features": {
+        "feature1": {
+          "title": "Financial Planning Tools",
+          "description": "Calculate loan payments, mortgage rates, investment returns, and savings goals. Make smarter financial decisions with our comprehensive calculators."
+        },
+        "feature2": {
+          "title": "Health & Wellness Metrics",
+          "description": "Track BMI, calorie needs, body fat percentage, and fitness goals. Monitor your health journey with accurate, science-backed calculations."
+        },
+        "feature3": {
+          "title": "Everyday Math Solutions",
+          "description": "Solve percentages, fractions, averages, and more in seconds. From students to professionals, our math tools simplify complex calculations."
+        },
+        "feature4": {
+          "title": "Unit Conversions",
+          "description": "Convert currencies, temperatures, distances, weights, and more. Get precise conversions instantly with up-to-date exchange rates."
+        }
+      }
+    }
   },
   "actions": {
     "calculate": "Calculate",
@@ -63,6 +125,36 @@
     "whatYouCanCalculate": "What You Can Calculate",
     "exploreOtherCategories": "Explore Other Categories",
     "availableTools": "Available Tools"
+  },
+  "categoryGuide": {
+    "finance": {
+      "title": "Your Financial Planning Companion",
+      "content": "Whether you're buying your first home, planning for retirement, or managing debt, our finance calculators help you make informed decisions. Understanding loan payments, mortgage affordability, and investment returns is essential for building a secure financial future. Use our tools to compare different scenarios, plan your budget, and achieve your financial goals with confidence. From simple interest calculations to complex amortization schedules, we provide accurate results you can trust."
+    },
+    "health": {
+      "title": "Track Your Health Journey",
+      "content": "Monitoring your health metrics is an important part of maintaining overall wellness. Our health calculators help you understand key indicators like BMI, caloric needs, and body composition. Whether you're starting a fitness program, managing weight, or optimizing nutrition, these tools provide valuable insights based on scientific formulas. Remember that calculators are for educational purposes and should complement, not replace, professional medical advice."
+    },
+    "math": {
+      "title": "Everyday Math Made Simple",
+      "content": "From calculating discounts while shopping to solving complex mathematical problems, our math calculators simplify everyday calculations. Whether you're a student working on homework, a professional handling data analysis, or anyone who needs quick and accurate math solutions, these tools save time and reduce errors. Tackle percentages, fractions, averages, and more with instant, reliable results that help you make better decisions."
+    },
+    "statistics": {
+      "title": "Data Analysis at Your Fingertips",
+      "content": "Understanding data is crucial in today's world. Our statistics calculators help students, researchers, and professionals analyze datasets, calculate measures of central tendency, and understand data distributions. From standard deviation to correlation analysis, probability calculations to sample size determination, get accurate statistical insights without complex software. Perfect for academic research, business analytics, and data-driven decision making."
+    },
+    "conversion": {
+      "title": "Universal Conversion Tools",
+      "content": "In our globalized world, converting between different units is a daily necessity. Our conversion calculators handle everything from currency exchange to temperature conversion, distance to weight, and time zones to data storage units. Whether you're traveling abroad, following international recipes, or working on engineering projects, get instant, accurate conversions that bridge the gap between different measurement systems."
+    },
+    "timeDate": {
+      "title": "Master Time Calculations",
+      "content": "Time and date calculations are essential for planning, scheduling, and understanding durations. Our calculators help you determine age from birthdate, calculate days between important dates, add or subtract time periods, and count working days for project planning. Whether you're organizing events, tracking deadlines, or simply curious about time differences, these tools provide precise calculations for all your temporal needs."
+    },
+    "construction": {
+      "title": "Build with Precision",
+      "content": "Accurate measurements and material estimates are critical for successful construction and renovation projects. Our construction calculators help contractors, builders, and DIY enthusiasts estimate square footage, calculate paint coverage, determine flooring requirements, and quantify material needs. Save time, reduce waste, and avoid costly mistakes by getting reliable estimates before you start your project. From small home improvements to large construction jobs, plan with confidence."
+    }
   },
   "categoryFeatures": {
     "finance": [
@@ -131,8 +223,6 @@
     "howToUse": "How to Use",
     "examples": "Examples",
     "faq": "Frequently Asked Questions",
-    "comingSoon": "Coming Soon",
-    "comingSoonDescription": "Calculators for this category will be added soon.",
     "exploreCategory": "Explore calculators in this category",
     "browseCategory": "Browse all calculators in this category",
     "allCalculators": "All Calculators",
@@ -145,5 +235,41 @@
     "accept": "Accept",
     "decline": "Decline",
     "settings": "Cookie Settings"
+  },
+  "calculatorsHub": {
+    "title": "All Calculators",
+    "subtitle": "Browse our comprehensive collection of free online calculators",
+    "introduction": "Welcome to World Calculator's complete collection of free online calculators. Whether you're managing your finances, tracking your health goals, solving mathematical problems, or converting units, we provide accurate and easy-to-use tools for all your calculation needs. Our platform features over a dozen specialized calculators across multiple categories, each designed with precision and user-friendliness in mind. All calculators are completely free, require no registration, and respect your privacy by not storing any of your data. Available in six languages and optimized for both desktop and mobile devices, World Calculator makes complex calculations simple and accessible for everyone.",
+    "browseByCategory": "Browse by Category",
+    "browseDescription": "Select a category below to explore specialized calculators designed for your specific needs. Each category contains multiple tools with step-by-step guides and helpful examples.",
+    "categoryDescriptions": {
+      "finance": "Manage your money with confidence using our comprehensive financial calculators. Calculate loan payments, mortgage affordability, investment returns, compound interest, and savings goals. Make informed decisions with detailed amortization schedules and financial projections.",
+      "health": "Track your wellness journey with our health and fitness calculators. Calculate your BMI, daily calorie needs, ideal body weight, body fat percentage, and fitness metrics. Get personalized insights to help you reach your health goals.",
+      "math": "Solve everyday math problems quickly and accurately. Calculate percentages, work with fractions, find averages, compute GPA, and handle ratios. Perfect for students, professionals, and anyone who needs fast mathematical solutions.",
+      "statistics": "Analyze data with powerful statistical calculators. Calculate standard deviation, variance, mean, median, mode, correlation, z-scores, probability, and sample size. Essential tools for students, researchers, and data analysts.",
+      "conversion": "Convert between units effortlessly with our comprehensive conversion tools. Handle length, weight, volume, temperature, currency exchange rates, and time zones. Get accurate conversions for everyday and professional use.",
+      "timeDate": "Calculate time and dates with precision. Find age from birthdate, calculate days between dates, add or subtract time periods, count working days, and create countdowns. Simplify time-related calculations for planning and scheduling.",
+      "construction": "Plan your projects with construction and renovation calculators. Estimate square footage, paint coverage, flooring requirements, material quantities, and project costs. Essential tools for contractors, builders, and DIY enthusiasts."
+    },
+    "whyUseOurCalculators": "Why Use Our Calculators",
+    "whyDescription": "Our calculators are built with accuracy, simplicity, and accessibility in mind. Every tool uses industry-standard formulas and undergoes rigorous testing to ensure reliable results. We prioritize your privacy by never storing your data, and all calculators are completely free with no hidden fees or subscriptions. Whether you're a student, professional, or simply need quick calculations, World Calculator provides the tools you need without any barriers.",
+    "features": {
+      "accurate": {
+        "title": "Accurate Results",
+        "description": "Industry-standard formulas and rigorous testing ensure precision in every calculation"
+      },
+      "free": {
+        "title": "100% Free",
+        "description": "No hidden fees, subscriptions, or premium features - all calculators are completely free"
+      },
+      "private": {
+        "title": "Privacy First",
+        "description": "No registration required and we never store your data or calculation history"
+      },
+      "multilingual": {
+        "title": "6 Languages",
+        "description": "Available in English, Spanish, French, German, Portuguese, and Italian"
+      }
+    }
   }
 }

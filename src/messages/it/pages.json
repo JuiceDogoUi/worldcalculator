@@ -14,6 +14,33 @@
       "content1": "World Calculator è sviluppata da un piccolo team di ingegneri del software e matematici che condividono una semplice passione: rendere i calcoli più veloci e accessibili per tutti.",
       "content2": "Abbiamo dedicato innumerevoli ore a perfezionare formule, ottimizzare le prestazioni e progettare interfacce che funzionano semplicemente. Nessuna registrazione richiesta, nessuna raccolta di dati sui tuoi calcoli. Solo strumenti puri e affidabili."
     },
+    "approach": {
+      "title": "Il Nostro Approccio alla Precisione",
+      "content1": "Ogni calcolatrice su World Calculator passa attraverso un rigoroso processo di sviluppo per garantire precisione, affidabilità e facilità d'uso. Non ci limitiamo a implementare formule: le convalidiamo rispetto a molteplici fonti autorevoli e le testiamo estensivamente in diversi scenari.",
+      "content2": "Il nostro impegno per la precisione significa che, che tu stia calcolando un pagamento ipotecario, monitorando il tuo IMC o convertendo unità, puoi fidarti dei risultati. Verifichiamo le nostre formule con istituzioni finanziarie, linee guida mediche e standard matematici per garantire che soddisfino requisiti di precisione di livello professionale.",
+      "steps": {
+        "research": {
+          "title": "Ricerca e Validazione",
+          "description": "Analizziamo le implementazioni dei concorrenti, consultiamo fonti autorevoli e convalidiamo le formule rispetto agli standard del settore prima di scrivere una singola riga di codice."
+        },
+        "implement": {
+          "title": "Implementazione",
+          "description": "I nostri ingegneri utilizzano TypeScript con rigorosa sicurezza dei tipi e validazione completa per garantire che ogni input sia gestito correttamente e ogni caso limite sia considerato."
+        },
+        "validate": {
+          "title": "Garanzia di Qualità",
+          "description": "Ogni calcolatrice viene sottoposta a test rigorosi inclusi test unitari, validazione di casi limite e verifica di scenari del mondo reale per garantire precisione."
+        },
+        "test": {
+          "title": "Miglioramento Continuo",
+          "description": "Monitoriamo il feedback degli utenti, tracciamo le metriche di prestazione e aggiorniamo regolarmente le nostre calcolatrici per incorporare le ultime formule e best practice."
+        }
+      }
+    },
+    "team": {
+      "title": "Il Team Dietro World Calculator",
+      "content": "Il nostro team combina competenze in ingegneria del software, matematica, analisi finanziaria e design dell'esperienza utente. Con background che spaziano dallo sviluppo fintech alla ricerca accademica, portiamo un insieme diversificato di competenze per garantire che ogni calcolatrice sia tecnicamente solida e facile da usare. Siamo appassionati nel democratizzare l'accesso a potenti strumenti di calcolo che tradizionalmente richiedevano software costosi o conoscenze specializzate. Con sede in Europa, lavoriamo da remoto ma restiamo uniti dalla nostra missione di rendere calcoli precisi accessibili a tutti, ovunque."
+    },
     "different": {
       "title": "Cosa ci Rende Diversi",
       "free": {
@@ -33,10 +60,18 @@
         "description": "Disponibile in 6 lingue con formattazione specifica per località. Usala su qualsiasi dispositivo."
       }
     },
+    "company": {
+      "title": "Informazioni sull'Azienda",
+      "content": "World Calculator è gestita da Roques OÜ, un'azienda tecnologica registrata in Estonia (UE). In quanto entità registrata nell'UE, aderiamo a rigorosi standard di protezione dei dati ai sensi del GDPR e manteniamo pratiche commerciali trasparenti. Le nostre operazioni hanno sede a Tallinn, in Estonia, dove combiniamo la conformità normativa europea con un impegno per l'innovazione e la privacy degli utenti. Siamo orgogliosi di far parte del fiorente ecosistema digitale dell'Estonia, noto per la sua avanzata infrastruttura tecnologica e di e-government.",
+      "name": "Roques OÜ",
+      "location": "Tallinn, Estonia",
+      "registration": "Azienda registrata nell'UE",
+      "email": "legal@invoo.es"
+    },
     "future": {
       "title": "Cosa Arriva: Calcoli Potenziati dall'IA",
       "content": "Stiamo lavorando alla prossima evoluzione di World Calculator: strumenti potenziati dall'IA che comprendono le tue domande in linguaggio naturale e ti guidano verso la risposta giusta.",
-      "comingSoon": "In arrivo"
+      "status": "Attualmente in sviluppo"
     },
     "cta": {
       "text": "Hai domande, suggerimenti o vuoi semplicemente salutare?",

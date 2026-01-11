@@ -14,6 +14,33 @@
       "content1": "World Calculator wurde von einem kleinen Team aus Softwareentwicklern und Mathematikern entwickelt, die eine einfache Leidenschaft teilen: Berechnungen für alle schneller und zugänglicher zu machen.",
       "content2": "Wir haben unzählige Stunden damit verbracht, Formeln zu perfektionieren, die Leistung zu optimieren und Benutzeroberflächen zu entwerfen, die einfach funktionieren. Keine Registrierung erforderlich, keine Datenerfassung Ihrer Berechnungen. Nur reine, zuverlässige Werkzeuge."
     },
+    "approach": {
+      "title": "Unser Ansatz für Genauigkeit",
+      "content1": "Jeder Rechner auf World Calculator durchläuft einen rigorosen Entwicklungsprozess, um Genauigkeit, Zuverlässigkeit und Benutzerfreundlichkeit zu gewährleisten. Wir implementieren nicht einfach nur Formeln – wir validieren sie anhand mehrerer maßgeblicher Quellen und testen sie ausführlich in verschiedenen Szenarien.",
+      "content2": "Unser Engagement für Präzision bedeutet, dass Sie den Ergebnissen vertrauen können, egal ob Sie eine Hypothekenzahlung berechnen, Ihren BMI verfolgen oder Einheiten umrechnen. Wir gleichen unsere Formeln mit Finanzinstituten, medizinischen Richtlinien und mathematischen Standards ab, um sicherzustellen, dass sie professionellen Genauigkeitsanforderungen entsprechen.",
+      "steps": {
+        "research": {
+          "title": "Forschung & Validierung",
+          "description": "Wir analysieren Implementierungen von Wettbewerbern, konsultieren maßgebliche Quellen und validieren Formeln gegen Industriestandards, bevor wir eine einzige Zeile Code schreiben."
+        },
+        "implement": {
+          "title": "Implementierung",
+          "description": "Unsere Ingenieure verwenden TypeScript mit strikter Typsicherheit und umfassender Validierung, um sicherzustellen, dass jede Eingabe ordnungsgemäß behandelt wird und jeder Grenzfall berücksichtigt wird."
+        },
+        "validate": {
+          "title": "Qualitätssicherung",
+          "description": "Jeder Rechner durchläuft rigorose Tests einschließlich Unit-Tests, Grenzfall-Validierung und Verifizierung realer Szenarien, um Genauigkeit zu gewährleisten."
+        },
+        "test": {
+          "title": "Kontinuierliche Verbesserung",
+          "description": "Wir überwachen Benutzerfeedback, verfolgen Leistungsmetriken und aktualisieren regelmäßig unsere Rechner, um die neuesten Formeln und Best Practices zu integrieren."
+        }
+      }
+    },
+    "team": {
+      "title": "Das Team Hinter World Calculator",
+      "content": "Unser Team vereint Expertise in Softwareentwicklung, Mathematik, Finanzanalyse und User Experience Design. Mit Hintergründen, die von Fintech-Entwicklung bis zur akademischen Forschung reichen, bringen wir ein vielfältiges Set an Fähigkeiten ein, um sicherzustellen, dass jeder Rechner sowohl technisch fundiert als auch benutzerfreundlich ist. Wir sind leidenschaftlich daran interessiert, den Zugang zu leistungsstarken Berechnungstools zu demokratisieren, die traditionell teure Software oder spezialisiertes Wissen erforderten. In ganz Europa ansässig, arbeiten wir remote, bleiben aber durch unsere Mission vereint, präzise Berechnungen für alle und überall zugänglich zu machen."
+    },
     "different": {
       "title": "Was Uns Unterscheidet",
       "free": {
@@ -33,10 +60,18 @@
         "description": "Verfügbar in 6 Sprachen mit regionsspezifischer Formatierung. Nutzen Sie es auf jedem Gerät."
       }
     },
+    "company": {
+      "title": "Unternehmensinformationen",
+      "content": "World Calculator wird von Roques OÜ betrieben, einem in Estland (EU) registrierten Technologieunternehmen. Als in der EU registriertes Unternehmen halten wir uns an strenge Datenschutzstandards gemäß der DSGVO und pflegen transparente Geschäftspraktiken. Unser Betrieb basiert in Tallinn, Estland, wo wir europäische Regulierungskonformität mit einem Engagement für Innovation und Nutzerdatenschutz verbinden. Wir sind stolz darauf, Teil des florierenden digitalen Ökosystems Estlands zu sein, das für seine fortschrittliche E-Government- und Technologie-Infrastruktur bekannt ist.",
+      "name": "Roques OÜ",
+      "location": "Tallinn, Estland",
+      "registration": "In der EU registriertes Unternehmen",
+      "email": "legal@invoo.es"
+    },
     "future": {
       "title": "Die Zukunft: KI-gestützte Berechnungen",
       "content": "Wir arbeiten an der nächsten Entwicklungsstufe von World Calculator: KI-verbesserte Tools, die Ihre Fragen in natürlicher Sprache verstehen und Sie zur richtigen Antwort führen.",
-      "comingSoon": "Demnächst"
+      "status": "Derzeit in Entwicklung"
     },
     "cta": {
       "text": "Haben Sie Fragen, Vorschläge oder möchten Sie einfach Hallo sagen?",

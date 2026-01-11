@@ -21,7 +21,69 @@
       "statistics": "Desviación estándar, varianza, media, análisis de datos"
     },
     "viewAll": "Ver Todo",
-    "calculatorsCount": "{count} calculadoras"
+    "calculatorsCount": "{count} calculadoras",
+    "whyChooseUs": {
+      "title": "Por Qué Elegir World Calculator",
+      "subtitle": "Tu compañero de confianza para cálculos precisos en finanzas, salud, matemáticas y necesidades cotidianas",
+      "features": {
+        "free": {
+          "title": "100% Gratis Para Siempre",
+          "description": "Todas las calculadoras son completamente gratuitas sin tarifas ocultas, suscripciones ni funciones premium. Calcula lo que quieras sin gastar ni un euro."
+        },
+        "accurate": {
+          "title": "Precisas y Confiables",
+          "description": "Nuestras calculadoras utilizan fórmulas estándar de la industria y se someten a pruebas rigurosas para garantizar la precisión. Desde cálculos financieros hasta métricas de salud, confía en nuestros resultados."
+        },
+        "private": {
+          "title": "Tu Privacidad Importa",
+          "description": "No se requiere registro. No almacenamos tus datos ni cálculos. Usa nuestras herramientas con total confianza de que tu información permanece privada."
+        },
+        "multilingual": {
+          "title": "Disponible en 6 Idiomas",
+          "description": "Accede a las calculadoras en inglés, español, francés, alemán, portugués e italiano. Elige tu idioma para una experiencia fluida."
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "Cómo Funciona",
+      "subtitle": "Obtén resultados precisos en tres simples pasos",
+      "steps": {
+        "step1": {
+          "title": "Elige Tu Calculadora",
+          "description": "Navega por categorías o busca la calculadora específica que necesitas. Ofrecemos herramientas para finanzas, salud, matemáticas, conversiones y más."
+        },
+        "step2": {
+          "title": "Introduce Tus Datos",
+          "description": "Completa los campos requeridos con tu información. Nuestra interfaz intuitiva te guía en cada entrada con etiquetas útiles y ejemplos."
+        },
+        "step3": {
+          "title": "Obtén Resultados Instantáneos",
+          "description": "Haz clic en calcular para ver resultados detallados inmediatamente. Guarda, imprime o comparte tus cálculos cuando los necesites."
+        }
+      }
+    },
+    "whatWeOffer": {
+      "title": "Qué Ofrecemos",
+      "description": "World Calculator proporciona herramientas online completas para cálculos cotidianos. Ya sea que estés planificando tus finanzas, siguiendo tus objetivos de salud, resolviendo problemas matemáticos o convirtiendo unidades, tenemos la calculadora adecuada para ti. Nuestra plataforma combina precisión, sencillez y accesibilidad para ayudar a millones de usuarios a tomar decisiones informadas cada día.",
+      "features": {
+        "feature1": {
+          "title": "Herramientas de Planificación Financiera",
+          "description": "Calcula pagos de préstamos, tasas hipotecarias, rendimientos de inversiones y objetivos de ahorro. Toma decisiones financieras más inteligentes con nuestras calculadoras completas."
+        },
+        "feature2": {
+          "title": "Métricas de Salud y Bienestar",
+          "description": "Registra IMC, necesidades calóricas, porcentaje de grasa corporal y objetivos fitness. Monitorea tu camino hacia la salud con cálculos precisos respaldados por la ciencia."
+        },
+        "feature3": {
+          "title": "Soluciones Matemáticas Cotidianas",
+          "description": "Resuelve porcentajes, fracciones, promedios y más en segundos. Desde estudiantes hasta profesionales, nuestras herramientas matemáticas simplifican cálculos complejos."
+        },
+        "feature4": {
+          "title": "Conversiones de Unidades",
+          "description": "Convierte divisas, temperaturas, distancias, pesos y más. Obtén conversiones precisas al instante con tasas de cambio actualizadas."
+        }
+      }
+    }
   },
   "actions": {
     "calculate": "Calcular",
@@ -63,6 +125,36 @@
     "whatYouCanCalculate": "Qué Puedes Calcular",
     "exploreOtherCategories": "Explorar Otras Categorías",
     "availableTools": "Herramientas Disponibles"
+  },
+  "categoryGuide": {
+    "finance": {
+      "title": "Tu Compañero de Planificación Financiera",
+      "content": "Ya sea que estés comprando tu primera vivienda, planificando la jubilación o gestionando deudas, nuestras calculadoras financieras te ayudan a tomar decisiones informadas. Comprender los pagos de préstamos, la asequibilidad de hipotecas y los rendimientos de inversión es esencial para construir un futuro financiero seguro. Usa nuestras herramientas para comparar diferentes escenarios, planificar tu presupuesto y alcanzar tus objetivos financieros con confianza. Desde cálculos de interés simple hasta complejos cuadros de amortización, proporcionamos resultados precisos en los que puedes confiar."
+    },
+    "health": {
+      "title": "Sigue Tu Camino Hacia la Salud",
+      "content": "Monitorear tus métricas de salud es una parte importante del mantenimiento del bienestar general. Nuestras calculadoras de salud te ayudan a comprender indicadores clave como el IMC, las necesidades calóricas y la composición corporal. Ya sea que estés comenzando un programa de fitness, gestionando tu peso u optimizando tu nutrición, estas herramientas proporcionan información valiosa basada en fórmulas científicas. Recuerda que las calculadoras son con fines educativos y deben complementar, no reemplazar, el consejo médico profesional."
+    },
+    "math": {
+      "title": "Matemáticas Cotidianas Simplificadas",
+      "content": "Desde calcular descuentos mientras compras hasta resolver problemas matemáticos complejos, nuestras calculadoras matemáticas simplifican los cálculos cotidianos. Ya seas un estudiante trabajando en tareas, un profesional manejando análisis de datos o cualquier persona que necesite soluciones matemáticas rápidas y precisas, estas herramientas ahorran tiempo y reducen errores. Aborda porcentajes, fracciones, promedios y más con resultados instantáneos y confiables que te ayudan a tomar mejores decisiones."
+    },
+    "statistics": {
+      "title": "Análisis de Datos al Alcance de Tu Mano",
+      "content": "Comprender los datos es crucial en el mundo actual. Nuestras calculadoras estadísticas ayudan a estudiantes, investigadores y profesionales a analizar conjuntos de datos, calcular medidas de tendencia central y comprender distribuciones de datos. Desde desviación estándar hasta análisis de correlación, cálculos de probabilidad hasta determinación del tamaño de muestra, obtén información estadística precisa sin software complejo. Perfecto para investigación académica, análisis empresarial y toma de decisiones basada en datos."
+    },
+    "conversion": {
+      "title": "Herramientas de Conversión Universal",
+      "content": "En nuestro mundo globalizado, convertir entre diferentes unidades es una necesidad diaria. Nuestras calculadoras de conversión manejan todo, desde cambio de divisas hasta conversión de temperatura, distancia a peso y zonas horarias a unidades de almacenamiento de datos. Ya sea que viajes al extranjero, sigas recetas internacionales o trabajes en proyectos de ingeniería, obtén conversiones instantáneas y precisas que salvan las diferencias entre diferentes sistemas de medición."
+    },
+    "timeDate": {
+      "title": "Domina los Cálculos de Tiempo",
+      "content": "Los cálculos de fecha y hora son esenciales para planificar, programar y comprender duraciones. Nuestras calculadoras te ayudan a determinar la edad desde la fecha de nacimiento, calcular días entre fechas importantes, sumar o restar períodos de tiempo y contar días laborables para la planificación de proyectos. Ya sea que estés organizando eventos, rastreando plazos o simplemente curioso sobre diferencias de tiempo, estas herramientas proporcionan cálculos precisos para todas tus necesidades temporales."
+    },
+    "construction": {
+      "title": "Construye con Precisión",
+      "content": "Las mediciones precisas y las estimaciones de materiales son críticas para proyectos exitosos de construcción y renovación. Nuestras calculadoras de construcción ayudan a contratistas, constructores y entusiastas del bricolaje a estimar metros cuadrados, calcular cobertura de pintura, determinar requisitos de pisos y cuantificar necesidades de materiales. Ahorra tiempo, reduce desperdicios y evita errores costosos obteniendo estimaciones confiables antes de comenzar tu proyecto. Desde pequeñas mejoras del hogar hasta grandes trabajos de construcción, planifica con confianza."
+    }
   },
   "categoryFeatures": {
     "finance": [
@@ -131,8 +223,6 @@
     "howToUse": "Cómo Usar",
     "examples": "Ejemplos",
     "faq": "Preguntas Frecuentes",
-    "comingSoon": "Próximamente",
-    "comingSoonDescription": "Las calculadoras de esta categoría se agregarán pronto.",
     "exploreCategory": "Explora las calculadoras de esta categoría",
     "browseCategory": "Ver todas las calculadoras de esta categoría",
     "allCalculators": "Todas las Calculadoras",
@@ -145,5 +235,41 @@
     "accept": "Aceptar",
     "decline": "Rechazar",
     "settings": "Configuración de Cookies"
+  },
+  "calculatorsHub": {
+    "title": "Todas las Calculadoras",
+    "subtitle": "Explora nuestra completa colección de calculadoras gratuitas en línea",
+    "introduction": "Bienvenido a la colección completa de calculadoras gratuitas en línea de World Calculator. Ya sea que estés gestionando tus finanzas, siguiendo tus objetivos de salud, resolviendo problemas matemáticos o convirtiendo unidades, proporcionamos herramientas precisas y fáciles de usar para todas tus necesidades de cálculo. Nuestra plataforma cuenta con más de una docena de calculadoras especializadas en múltiples categorías, cada una diseñada con precisión y facilidad de uso en mente. Todas las calculadoras son completamente gratuitas, no requieren registro y respetan tu privacidad al no almacenar ninguno de tus datos. Disponibles en seis idiomas y optimizadas tanto para ordenadores de escritorio como para dispositivos móviles, World Calculator hace que los cálculos complejos sean simples y accesibles para todos.",
+    "browseByCategory": "Explorar por Categoría",
+    "browseDescription": "Selecciona una categoría a continuación para explorar calculadoras especializadas diseñadas para tus necesidades específicas. Cada categoría contiene múltiples herramientas con guías paso a paso y ejemplos útiles.",
+    "categoryDescriptions": {
+      "finance": "Gestiona tu dinero con confianza usando nuestras completas calculadoras financieras. Calcula pagos de préstamos, asequibilidad de hipotecas, rendimientos de inversión, interés compuesto y objetivos de ahorro. Toma decisiones informadas con tablas de amortización detalladas y proyecciones financieras.",
+      "health": "Sigue tu viaje de bienestar con nuestras calculadoras de salud y fitness. Calcula tu IMC, necesidades calóricas diarias, peso corporal ideal, porcentaje de grasa corporal y métricas de fitness. Obtén información personalizada para ayudarte a alcanzar tus objetivos de salud.",
+      "math": "Resuelve problemas matemáticos cotidianos de forma rápida y precisa. Calcula porcentajes, trabaja con fracciones, encuentra promedios, calcula GPA y maneja proporciones. Perfecto para estudiantes, profesionales y cualquiera que necesite soluciones matemáticas rápidas.",
+      "statistics": "Analiza datos con potentes calculadoras estadísticas. Calcula desviación estándar, varianza, media, mediana, moda, correlación, puntuaciones z, probabilidad y tamaño de muestra. Herramientas esenciales para estudiantes, investigadores y analistas de datos.",
+      "conversion": "Convierte entre unidades sin esfuerzo con nuestras completas herramientas de conversión. Maneja longitud, peso, volumen, temperatura, tasas de cambio de divisas y zonas horarias. Obtén conversiones precisas para uso cotidiano y profesional.",
+      "timeDate": "Calcula tiempo y fechas con precisión. Encuentra la edad desde la fecha de nacimiento, calcula días entre fechas, suma o resta períodos de tiempo, cuenta días laborables y crea cuentas regresivas. Simplifica los cálculos relacionados con el tiempo para planificación y programación.",
+      "construction": "Planifica tus proyectos con calculadoras de construcción y renovación. Estima metros cuadrados, cobertura de pintura, requisitos de suelo, cantidades de materiales y costes de proyecto. Herramientas esenciales para contratistas, constructores y entusiastas del bricolaje."
+    },
+    "whyUseOurCalculators": "Por Qué Usar Nuestras Calculadoras",
+    "whyDescription": "Nuestras calculadoras están construidas con precisión, simplicidad y accesibilidad en mente. Cada herramienta utiliza fórmulas estándar de la industria y se somete a pruebas rigurosas para garantizar resultados fiables. Priorizamos tu privacidad al nunca almacenar tus datos, y todas las calculadoras son completamente gratuitas sin tarifas ocultas ni suscripciones. Ya seas estudiante, profesional o simplemente necesites cálculos rápidos, World Calculator proporciona las herramientas que necesitas sin barreras.",
+    "features": {
+      "accurate": {
+        "title": "Resultados Precisos",
+        "description": "Fórmulas estándar de la industria y pruebas rigurosas garantizan precisión en cada cálculo"
+      },
+      "free": {
+        "title": "100% Gratis",
+        "description": "Sin tarifas ocultas, suscripciones o funciones premium - todas las calculadoras son completamente gratuitas"
+      },
+      "private": {
+        "title": "Privacidad Primero",
+        "description": "No se requiere registro y nunca almacenamos tus datos o historial de cálculos"
+      },
+      "multilingual": {
+        "title": "6 Idiomas",
+        "description": "Disponible en inglés, español, francés, alemán, portugués e italiano"
+      }
+    }
   }
 }

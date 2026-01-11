@@ -119,6 +119,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   const tCalculator = await getTranslations({ locale, namespace: 'calculator' })
   const tCategoryPage = await getTranslations({ locale, namespace: 'categoryPage' })
   const tFeatures = await getTranslations({ locale, namespace: 'categoryFeatures' })
+  const tGuide = await getTranslations({ locale, namespace: 'categoryGuide' })
   const tSite = await getTranslations({ locale, namespace: 'site' })
   const tCount = await getTranslations({ locale })
 
@@ -223,6 +224,22 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         </p>
       </div>
 
+      {/* Category Guide Section */}
+      <section className="mb-12">
+        <Card className="border-primary/20 bg-gradient-to-br from-primary/5 to-primary/10">
+          <CardHeader>
+            <CardTitle className="text-xl">
+              {tGuide(`${key}.title`)}
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p className="text-muted-foreground leading-relaxed">
+              {tGuide(`${key}.content`)}
+            </p>
+          </CardContent>
+        </Card>
+      </section>
+
       {/* Calculator Cards */}
       {calculatorTranslations.length > 0 && (
         <section className="mb-12">
@@ -258,22 +275,6 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
               )
             })}
           </div>
-        </section>
-      )}
-
-      {/* Coming Soon - only if no calculators */}
-      {calculatorTranslations.length === 0 && (
-        <section className="mb-12">
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-lg">{tCalculator('comingSoon')}</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-sm text-muted-foreground">
-                {tCalculator('comingSoonDescription')}
-              </p>
-            </CardContent>
-          </Card>
         </section>
       )}
 

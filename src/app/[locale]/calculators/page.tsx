@@ -18,9 +18,10 @@ export async function generateMetadata({
 }: CalculatorsPageProps): Promise<Metadata> {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'site' })
+  const tHub = await getTranslations({ locale, namespace: 'calculatorsHub' })
 
-  const title = `All Calculators | ${t('name')}`
-  const description = `Browse all calculator categories including finance, health, math, conversion, time & date, and construction tools.`
+  const title = `${tHub('title')} | ${t('name')}`
+  const description = tHub('subtitle')
 
   return {
     title,
@@ -57,8 +58,8 @@ export default async function CalculatorsPage({ params }: CalculatorsPageProps) 
   // Enable static rendering
   setRequestLocale(locale)
 
-  const tSite = await getTranslations({ locale, namespace: 'site' })
   const tCategories = await getTranslations({ locale, namespace: 'categories' })
+  const tHub = await getTranslations({ locale, namespace: 'calculatorsHub' })
 
   // Get calculator translations
   const calculatorNames: Record<string, string> = {}
@@ -76,15 +77,39 @@ export default async function CalculatorsPage({ params }: CalculatorsPageProps) 
 
   return (
     <CalculatorsClient
-      locale={locale}
-      siteName={tSite('name')}
-      siteDescription={tSite('description')}
       translations={{
         noResults: 'No calculators found for',
         browseAll: 'Browse all categories',
         searchResults: 'Search Results',
         found: 'Found',
         calculators: 'calculators',
+      }}
+      hubTranslations={{
+        title: tHub('title'),
+        subtitle: tHub('subtitle'),
+        introduction: tHub('introduction'),
+        browseByCategory: tHub('browseByCategory'),
+        browseDescription: tHub('browseDescription'),
+        whyUseOurCalculators: tHub('whyUseOurCalculators'),
+        whyDescription: tHub('whyDescription'),
+        features: {
+          accurate: {
+            title: tHub('features.accurate.title'),
+            description: tHub('features.accurate.description'),
+          },
+          free: {
+            title: tHub('features.free.title'),
+            description: tHub('features.free.description'),
+          },
+          private: {
+            title: tHub('features.private.title'),
+            description: tHub('features.private.description'),
+          },
+          multilingual: {
+            title: tHub('features.multilingual.title'),
+            description: tHub('features.multilingual.description'),
+          },
+        },
       }}
       categoryTranslations={Object.fromEntries(
         await Promise.all(
@@ -94,6 +119,15 @@ export default async function CalculatorsPage({ params }: CalculatorsPageProps) 
           ])
         )
       )}
+      categoryDescriptions={{
+        finance: tHub('categoryDescriptions.finance'),
+        health: tHub('categoryDescriptions.health'),
+        math: tHub('categoryDescriptions.math'),
+        statistics: tHub('categoryDescriptions.statistics'),
+        conversion: tHub('categoryDescriptions.conversion'),
+        timeDate: tHub('categoryDescriptions.timeDate'),
+        construction: tHub('categoryDescriptions.construction'),
+      }}
       calculatorNames={calculatorNames}
     />
   )
