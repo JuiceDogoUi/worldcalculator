@@ -232,6 +232,20 @@ export const calculators: Calculator[] = [
     lastModified: '2026-01-09',
   },
 
+  // Health Calculators
+  {
+    id: 'bmi-calculator',
+    slug: 'bmi',
+    category: 'health',
+    translationKey: 'calculators.health.bmi',
+    icon: 'Scale',
+    featured: true,
+    difficulty: 'easy',
+    estimatedTime: 60,
+    relatedCalculators: ['percentage'],
+    lastModified: '2026-01-11',
+  },
+
   // More calculators will be added here
 ]
 
