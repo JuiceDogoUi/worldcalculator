@@ -3,7 +3,7 @@
 ## Mission: 42 Calculators (6 per Category)
 
 **Created:** January 6, 2026
-**Last Updated:** January 6, 2026
+**Last Updated:** January 15, 2026
 **Goal:** 6 calculators in each of 7 categories = 42 total calculators
 
 ---
@@ -15,11 +15,11 @@
 | Finance | 6 | 6 | **0** | ✅ COMPLETE |
 | Math | 6 | 6 | **0** | ✅ COMPLETE |
 | Statistics | 6 | 6 | **0** | ✅ COMPLETE |
-| Health & Fitness | 2 | 6 | **4** | P1 - High Traffic |
-| Conversion | 0 | 6 | **6** | P2 - High Search |
-| Time & Date | 0 | 6 | **6** | P3 - Quick Wins |
+| Health & Fitness | 6 | 6 | **0** | ✅ COMPLETE |
+| Conversion | 0 | 6 | **6** | P1 - High Search |
+| Time & Date | 0 | 6 | **6** | P2 - Quick Wins |
 | Construction | 0 | 6 | **6** | P3 - Niche Value |
-| **TOTAL** | **20** | **42** | **22** | |
+| **TOTAL** | **24** | **42** | **18** | |
 
 ---
 
@@ -49,9 +49,13 @@
 5. ✅ Correlation Calculator
 6. ✅ Sample Size Calculator
 
-### Health & Fitness (2/6)
+### Health & Fitness (6/6) ✅ COMPLETE
 1. ✅ BMI Calculator
 2. ✅ TDEE Calculator
+3. ✅ Body Fat Calculator (Navy Method)
+4. ✅ Macro Calculator (Mifflin-St Jeor)
+5. ✅ Ideal Weight Calculator (Devine, Robinson, Miller, Hamwi)
+6. ✅ Target Heart Rate Calculator (Karvonen)
 
 ### Conversion (0/6)
 *No calculators implemented*
@@ -195,16 +199,16 @@ All 6 finance calculators have been implemented:
 
 ---
 
-### 4. HEALTH & FITNESS (Need 4 More)
+### 4. HEALTH & FITNESS ✅ COMPLETE
 
 | # | Calculator | Complexity | SEO Potential | Status |
 |---|------------|------------|---------------|--------|
 | H1 | BMI Calculator | Simple | ★★★★★ | ✅ Complete |
 | H2 | TDEE Calculator | Medium | ★★★★★ | ✅ Complete |
-| H3 | **Body Fat Calculator** | Medium | ★★★★★ | 🔄 In Progress |
-| H4 | **Macro Calculator** | Medium | ★★★★★ | 🔄 In Progress |
-| H5 | **Ideal Weight Calculator** | Simple | ★★★★ | 🔄 In Progress |
-| H6 | **Target Heart Rate Calculator** | Simple | ★★★★ | 🔄 In Progress |
+| H3 | Body Fat Calculator | Medium | ★★★★★ | ✅ Complete |
+| H4 | Macro Calculator | Medium | ★★★★★ | ✅ Complete |
+| H5 | Ideal Weight Calculator | Simple | ★★★★ | ✅ Complete |
+| H6 | Target Heart Rate Calculator | Simple | ★★★★ | ✅ Complete |
 
 #### H1. BMI Calculator ✅ COMPLETE
 **Keywords:** "BMI calculator", "body mass index", "BMI chart"
@@ -625,16 +629,16 @@ All 6 finance calculators have been implemented:
 
 ---
 
-### Phase 2: Health & Fitness (4 remaining) 🔄 IN PROGRESS
+### Phase 2: Health & Fitness ✅ COMPLETE
 
 | Sprint | Calculators | Category | Status |
 |--------|-------------|----------|--------|
 | 2.1 | BMI Calculator | Health | ✅ Done |
 | 2.2 | TDEE Calculator | Health | ✅ Done |
-| 2.3 | Body Fat Calculator, Macro Calculator | Health | 🔄 In Progress |
-| 2.4 | Ideal Weight Calculator, Target Heart Rate | Health | 🔄 Pending |
+| 2.3 | Body Fat Calculator, Macro Calculator | Health | ✅ Done |
+| 2.4 | Ideal Weight Calculator, Target Heart Rate | Health | ✅ Done |
 
-**Outcome:** Health & Fitness complete (6/6)
+**Outcome:** Health & Fitness complete (6/6) ✅
 
 ---
 
@@ -736,6 +740,7 @@ All 6 finance calculators have been implemented:
 ## Archive Note
 
 **Revision History:**
+- **January 15, 2026 (v3):** Health & Fitness category marked complete (6/6). Added Body Fat (Navy Method), Macro (Mifflin-St Jeor), Ideal Weight (multi-formula), and Target Heart Rate (Karvonen) calculators. Total now 24 calculators. 4 categories complete. Phase 2 completed.
 - **January 6, 2026 (v2):** Updated to 7 categories (added Statistics as separate from Math). Finance category marked complete (6/6). Revised totals from 36 to 42 calculators. Updated current inventory to reflect actual implementation state (11 calculators complete).
 - **January 6, 2026 (v1):** Original roadmap targeting 36 calculators (6 categories × 6 each).
 - **December 2024:** Previous roadmap targeting 5 calculators per category.
