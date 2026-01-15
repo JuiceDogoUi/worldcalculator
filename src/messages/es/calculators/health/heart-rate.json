@@ -1,0 +1,129 @@
+{
+  "title": "Calculadora de Frecuencia Cardiaca Objetivo",
+  "description": "Calcula tus zonas de frecuencia cardíaca objetivo utilizando el método Karvonen. Encuentra tu intensidad óptima de entrenamiento para quemar grasa, cardio y rendimiento maximo basado en tu edad y frecuencia cardíaca en reposo.",
+  "meta": {
+    "title": "Calculadora de Frecuencia Cardiaca Objetivo Gratis - Zonas de Entrenamiento [2026]",
+    "description": "Calcula tus zonas de frecuencia cardíaca objetivo con nuestra calculadora gratuita. Encuentra las zonas optimás para quemar grasa, cardio y rendimiento usando el método Karvonen avalado por ACSM.",
+    "keywords": "calculadora frecuencia cardíaca objetivo, calculadora zonas cardíacas, método karvonen calculadora, calculadora zonas entrenamiento, calculadora frecuencia máxima, zona quema grasa, zona cardio, reserva frecuencia cardíaca"
+  },
+  "inputs": {
+    "age": "Edad",
+    "ageYears": "Edad (años)",
+    "restingHeartRate": "Frecuencia Cardiaca en Reposo",
+    "restingHRBpm": "Frecuencia Cardiaca en Reposo (lpm)",
+    "restingHRHelp": "Mide tu frecuencia cardíaca en reposo a primera hora de la manana antes de levantarte de la cama. Cuenta tu pulso durante 60 segundos o durante 15 segundos y multiplica por 4.",
+    "trainingGoal": "Objetivo de Entrenamiento",
+    "trainingGoalOptional": "Objetivo de Entrenamiento (opcional)",
+    "goals": {
+      "none": "Selecciona un objetivo...",
+      "general-fitness": "Fitness General",
+      "fat-burn": "Quema de Grasa",
+      "cardio": "Salud Cardiovascular",
+      "performance": "Rendimiento Atletico"
+    }
+  },
+  "actions": {
+    "calculate": "Calcular Zonas Cardiacas",
+    "reset": "Reiniciar"
+  },
+  "results": {
+    "title": "Tus Zonas de Frecuencia Cardiaca",
+    "maxHeartRate": "FC Máxima",
+    "heartRateReserve": "Reserva de FC",
+    "trainingZones": "Zonas de Entrenamiento",
+    "recommendedZone": "Recomendada",
+    "intensity": "Intensidad",
+    "heartRateRange": "Rango de FC"
+  },
+  "zones": {
+    "zone1": {
+      "name": "Calentamiento",
+      "description": "Actividad muy ligera para calentamiento y recuperacion. Ideal para principiantes y días de recuperacion activa.",
+      "benefits": "Mejora la recuperacion, reduce el estres, construye base aerobica"
+    },
+    "zone2": {
+      "name": "Quema de Grasa",
+      "description": "Actividad aerobica ligera que utiliza principalmente grasa como combustible. Sostenible durante largos periodos.",
+      "benefits": "Maximiza la quema de grasa, mejora la resistencia, suave para las articulaciones"
+    },
+    "zone3": {
+      "name": "Cardio",
+      "description": "Ejercicio aerobico moderado que mejora la condicion cardiovascular y la resistencia.",
+      "benefits": "Fortalece el corazon, mejora la resistencia, aumenta la capacidad aerobica"
+    },
+    "zone4": {
+      "name": "Umbral",
+      "description": "Entrenamiento vigoroso en el umbral anaerobico. Desafiante pero sostenible por periodos cortos.",
+      "benefits": "Aumenta la velocidad, mejora el umbral de lactato, desarrolla potencia"
+    },
+    "zone5": {
+      "name": "Pico",
+      "description": "Esfuerzo maximo en rafagas cortas. Usado para entrenamiento de intervalos de alta intensidad (HIIT).",
+      "benefits": "Maximiza el rendimiento, aumenta el VO2 max, desarrolla potencia explosiva"
+    }
+  },
+  "units": {
+    "bpm": "lpm",
+    "years": "años"
+  },
+  "validation": {
+    "ageRequired": "La edad es obligatoria",
+    "ageInvalid": "Por favor, introduce una edad válida",
+    "agePositive": "La edad debe ser un número positivo",
+    "ageTooLow": "La edad debe ser al menos 10 años",
+    "ageTooHigh": "La edad debe ser 120 años o menos",
+    "restingHRRequired": "La frecuencia cardíaca en reposo es obligatoria",
+    "restingHRInvalid": "Por favor, introduce una frecuencia cardíaca válida",
+    "restingHRPositive": "La frecuencia cardíaca debe ser un número positivo",
+    "restingHRTooLow": "La frecuencia cardíaca en reposo debe ser al menos 30 lpm",
+    "restingHRTooHigh": "La frecuencia cardíaca en reposo debe ser 120 lpm o menos",
+    "restingHRExceedsMax": "La frecuencia cardíaca en reposo no puede exceder tu frecuencia cardíaca máxima"
+  },
+  "disclaimer": {
+    "text": "Esta calculadora proporciona estimaciones basadas en el método Karvonen usando la fórmula estándar 220-edad para la frecuencia cardíaca máxima. Los resultados individuales pueden variar. Para una orientacion de entrenamiento precisa, consulta a un profesional de la salud o un entrenador certificado.",
+    "note": "Las zonas de entrenamiento por frecuencia cardíaca son pautas generales. Factores como el nivel de condicion fisica, médicamentos, consumo de cafeina y condiciones de salud pueden afectar tu respuesta real de frecuencia cardíaca. Siempre escucha a tu cuerpo durante el ejercicio."
+  },
+  "seo": {
+    "whatIsTitle": "¿Qué es la Frecuencia Cardíaca Objetivo?",
+    "whatIsContent": "La frecuencia cardíaca objetivo (FCO) es el rango ideal de frecuencia cardíaca para el ejercicio que te permite entrenar a la intensidad correcta para tus objetivos de fitness. Entrenar dentro de zonas especificas de frecuencia cardíaca ayuda a optimizar tus entrenamientos, ya sea que quieras quemar grasa, mejorar la salud cardiovascular o aumentar el rendimiento atlético. Al comprender tus zonas de frecuencia cardíaca objetivo, puedes ejercitarte de manera más efectiva y segura mientras maximizas los beneficios de tu entrenamiento.",
+    "karvonenMethodTitle": "El Método Karvonen Explicado",
+    "karvonenMethodContent": "El método Karvonen es una fórmula cientificamente válidada y avalada por el Colegio Americano de Medicina Deportiva (ACSM) para calcular la frecuencia cardíaca objetivo. A diferencia de los métodos simples basados en porcentajes, tiene en cuenta tu frecuencia cardíaca en reposo, haciendolo más personalizado y preciso para individuos con diferentes niveles de condicion fisica.",
+    "karvonenMethodFormula": "FC Max = 220 - Edad\nReserva de FC (RFC) = FC Max - FC Reposo\nFC Objetivo = (RFC x Intensidad%) + FC Reposo",
+    "zonesTitle": "Entendiendo las Zonas de Entrenamiento por Frecuencia Cardiaca",
+    "howToMeasureTitle": "¿Cómo Medir tu Frecuencia Cardíaca en Reposo?",
+    "howToMeasureContent": "Tu frecuencia cardíaca en reposo es un dato clave para calculos precisos. Asi es como medirla correctamente:",
+    "howToMeasureStep1": "Mide a primera hora de la manana antes de levantarte de la cama, cuando estas más relajado",
+    "howToMeasureStep2": "Coloca dos dedos (no el pulgar) en tu muneca debajo de la base del pulgar, o en tu cuello junto a la traquea",
+    "howToMeasureStep3": "Cuenta tus latidos durante 60 segundos, o cuenta durante 15 segundos y multiplica por 4",
+    "howToMeasureStep4": "Repite durante 3-5 días y saca el promedio para obtener el resultado más preciso",
+    "howToUseTitle": "¿Cómo Usar Esta Calculadora?",
+    "howToUseStep1": "Introduce tu edad en años usando el campo de entrada o el control deslizante",
+    "howToUseStep2": "Introduce tu frecuencia cardíaca en reposo en latidos por minuto (lpm)",
+    "howToUseStep3": "Opcionalmente selecciona tu objetivo de entrenamiento para ver tu zona recomendada",
+    "howToUseStep4": "Visualiza tu frecuencia cardíaca máxima y tu reserva de frecuencia cardíaca",
+    "howToUseStep5": "Revisa las cinco zonas de entrenamiento con sus rangos de frecuencia cardíaca y beneficios",
+    "tipsTitle": "Consejos para el Entrenamiento por Frecuencia Cardiaca",
+    "tip1": "Siempre calienta en la Zona 1 durante 5-10 minutos antes de pasar a zonas de mayor intensidad",
+    "tip2": "Para perder peso, pasa la mayor parte del tiempo de entrenamiento en las Zonas 2-3 para una quema de grasa óptima",
+    "tip3": "Usa un monitor de frecuencia cardíaca o rastreador de fitness para retroalimentacion precisa en tiempo real durante el ejercicio",
+    "tip4": "Permite una recuperacion adecuada entre sesiones de alta intensidad - no entrenes en las Zonas 4-5 todos los días",
+    "tip5": "Tu frecuencia cardíaca en reposo disminuye a medida que mejora tu condicion fisica - recalcula tus zonas cada pocos meses",
+    "faqTitle": "Preguntas Frecuentes",
+    "faq1Question": "Cual es la diferencia entre frecuencia cardíaca máxima y frecuencia cardíaca objetivo?",
+    "faq1Answer": "La frecuencia cardíaca máxima (FC Max) es el número más alto de latidos que tu corazon puede alcanzar en un minuto durante el esfuerzo físico maximo. La frecuencia cardíaca objetivo (FCO) es un rango de frecuencias cardíacas que buscas mantener durante el ejercicio para lograr objetivos de fitness especificos. Tu FCO varia dependiendo de tu zona de entrenamiento y objetivos de condicion fisica.",
+    "faq2Question": "Es precisa la fórmula 220-edad?",
+    "faq2Answer": "La fórmula 220-edad es una estimacion ampliamente utilizada que funciona bien para la mayoria de los adultos. Sin embargo, la frecuencia cardíaca máxima real puede variar entre 10-15 lpm entre individuos de la misma edad. Para mediciones precisas, considera una prueba de ejercicio máximal supervisada con un proveedor de salud. El método Karvonen mejora la precisión al tambien considerar tu frecuencia cardíaca en reposo.",
+    "faq3Question": "¿Cuál zona es mejor para quemar grasa?",
+    "faq3Answer": "La Zona 2 (60-70% de intensidad) a menudo se llama la 'zona de quema de grasa' porque un mayor porcentaje de calorías quemadas provienen de la grasa a esta intensidad. Sin embargo, las zonas de mayor intensidad queman más calorías totales. Para perder peso, una combinacion de entrenamiento en Zona 2 para sesiones más largas e intervalos en Zona 3-4 puede ser más efectiva.",
+    "faq4Question": "¿Cuánto tiempo debo ejercitarme en cada zona?",
+    "faq4Answer": "Para fitness general, apunta a 20-60 minutos en las Zonas 2-3. Para quemar grasa, 30-60 minutos en la Zona 2 es ideal. El entrenamiento en Zonas 4-5 debe limitarse a intervalos de 30 segundos a 5 minutos con periodos de recuperacion. Los principiantes deben comenzar con las Zonas 1-2 y gradualmente aumentar a zonas de mayor intensidad durante semanas.",
+    "faq5Question": "¿Qué pasa si no puedo alcanzar mi frecuencia cardíaca objetivo?",
+    "faq5Answer": "Si te cuesta alcanzar zonas más altas, puede que necesites aumentar la intensidad del ejercicio (ritmo más rápido, inclinacion más pronunciada, etc.). Si eres nuevo en el ejercicio, tu sistema cardiovascular necesita tiempo para adaptarse - enfocate primero en las Zonas 2-3. Si tomás betabloqueadores u otros médicamentos para el corazon, tu respuesta de frecuencia cardíaca puede estar atenuada; consulta a tu médico para pautas de entrenamiento modificadas.",
+    "faq6Question": "¿Puedo entrenar en la Zona 5 todos los días?",
+    "faq6Answer": "No, el entrenamiento en Zona 5 crea un estres significativo en tu cuerpo y requiere 24-48 horas de recuperacion. Entrenar a intensidad máxima diariamente aumenta el riesgo de lesiones y puede llevar al sindrome de sobreentrenamiento. La mayoria de los programás de entrenamiento recomiendan trabajo en Zona 5 1-2 veces por semana, con la mayoria del entrenamiento en las Zonas 2-3.",
+    "faq7Question": "Por que mi frecuencia cardíaca es más alta de lo esperado durante el ejercicio?",
+    "faq7Answer": "Varios factores pueden elevar tu frecuencia cardíaca durante el ejercicio: deshidratacion, cafeina, estres, falta de sueno, calor, altitud o enfermedad. Ciertos médicamentos tambien pueden afectar la frecuencia cardíaca. Si tu frecuencia cardíaca es consistentemente mucho más alta de lo esperado, considera consultar a un proveedor de salud para descartar condiciones subyacentes.",
+    "faq8Question": "¿Con qué frecuencia debo recalcular mis zonas de frecuencia cardíaca?",
+    "faq8Answer": "Recalcula tus zonas cada 2-3 meses, o cuando tu nivel de condicion fisica cambie significativamente. A medida que te pones en mejor forma, tu frecuencia cardíaca en reposo tipicamente disminuye, lo que afecta tu reserva de frecuencia cardíaca y zonas de entrenamiento. El recalculo regular asegura que tu entrenamiento permanezca apropiadamente desafiante."
+  }
+}

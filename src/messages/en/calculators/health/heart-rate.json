@@ -1,0 +1,129 @@
+{
+  "title": "Target Heart Rate Calculator",
+  "description": "Calculate your target heart rate zones using the Karvonen method. Find your optimal training intensity for fat burning, cardio, and peak performance based on your age and resting heart rate.",
+  "meta": {
+    "title": "Free Target Heart Rate Calculator - Training Zone Calculator [2026]",
+    "description": "Calculate your target heart rate zones with our free calculator. Find optimal training zones for fat burn, cardio, and performance using the Karvonen method endorsed by ACSM.",
+    "keywords": "target heart rate calculator, heart rate zone calculator, karvonen method calculator, training zone calculator, max heart rate calculator, fat burning zone, cardio zone, heart rate reserve, THR calculator"
+  },
+  "inputs": {
+    "age": "Age",
+    "ageYears": "Age (years)",
+    "restingHeartRate": "Resting Heart Rate",
+    "restingHRBpm": "Resting Heart Rate (bpm)",
+    "restingHRHelp": "Measure your resting heart rate first thing in the morning before getting out of bed. Count your pulse for 60 seconds or for 15 seconds and multiply by 4.",
+    "trainingGoal": "Training Goal",
+    "trainingGoalOptional": "Training Goal (optional)",
+    "goals": {
+      "none": "Select a goal...",
+      "general-fitness": "General Fitness",
+      "fat-burn": "Fat Burning",
+      "cardio": "Cardiovascular Health",
+      "performance": "Athletic Performance"
+    }
+  },
+  "actions": {
+    "calculate": "Calculate Heart Rate Zones",
+    "reset": "Reset"
+  },
+  "results": {
+    "title": "Your Heart Rate Zones",
+    "maxHeartRate": "Max Heart Rate",
+    "heartRateReserve": "Heart Rate Reserve",
+    "trainingZones": "Training Zones",
+    "recommendedZone": "Recommended",
+    "intensity": "Intensity",
+    "heartRateRange": "Heart Rate Range"
+  },
+  "zones": {
+    "zone1": {
+      "name": "Warm-up",
+      "description": "Very light activity for warm-up and recovery. Ideal for beginners and active recovery days.",
+      "benefits": "Improves recovery, reduces stress, builds aerobic base"
+    },
+    "zone2": {
+      "name": "Fat Burn",
+      "description": "Light aerobic activity that primarily uses fat for fuel. Sustainable for long durations.",
+      "benefits": "Maximizes fat burning, improves endurance, easy on joints"
+    },
+    "zone3": {
+      "name": "Cardio",
+      "description": "Moderate aerobic exercise that improves cardiovascular fitness and endurance.",
+      "benefits": "Strengthens heart, improves stamina, enhances aerobic capacity"
+    },
+    "zone4": {
+      "name": "Threshold",
+      "description": "Vigorous training at the anaerobic threshold. Challenging but sustainable for shorter periods.",
+      "benefits": "Increases speed, improves lactate threshold, builds power"
+    },
+    "zone5": {
+      "name": "Peak",
+      "description": "Maximum effort for short bursts. Used for high-intensity interval training (HIIT).",
+      "benefits": "Maximizes performance, increases VO2 max, builds explosive power"
+    }
+  },
+  "units": {
+    "bpm": "bpm",
+    "years": "years"
+  },
+  "validation": {
+    "ageRequired": "Age is required",
+    "ageInvalid": "Please enter a valid age",
+    "agePositive": "Age must be a positive number",
+    "ageTooLow": "Age must be at least 10 years",
+    "ageTooHigh": "Age must be 120 years or less",
+    "restingHRRequired": "Resting heart rate is required",
+    "restingHRInvalid": "Please enter a valid heart rate",
+    "restingHRPositive": "Heart rate must be a positive number",
+    "restingHRTooLow": "Resting heart rate must be at least 30 bpm",
+    "restingHRTooHigh": "Resting heart rate must be 120 bpm or less",
+    "restingHRExceedsMax": "Resting heart rate cannot exceed your maximum heart rate"
+  },
+  "disclaimer": {
+    "text": "This calculator provides estimates based on the Karvonen method using the standard 220-age formula for maximum heart rate. Individual results may vary. For accurate training guidance, consult a healthcare professional or certified fitness trainer.",
+    "note": "Heart rate training zones are general guidelines. Factors such as fitness level, medications, caffeine intake, and health conditions can affect your actual heart rate response. Always listen to your body during exercise."
+  },
+  "seo": {
+    "whatIsTitle": "What is Target Heart Rate?",
+    "whatIsContent": "Target heart rate (THR) is the ideal heart rate range for exercise that allows you to train at the right intensity for your fitness goals. Training within specific heart rate zones helps optimize your workouts, whether you want to burn fat, improve cardiovascular health, or enhance athletic performance. By understanding your target heart rate zones, you can exercise more effectively and safely while maximizing the benefits of your training.",
+    "karvonenMethodTitle": "The Karvonen Method Explained",
+    "karvonenMethodContent": "The Karvonen method is a scientifically validated formula endorsed by the American College of Sports Medicine (ACSM) for calculating target heart rate. Unlike simple percentage-based methods, it accounts for your resting heart rate, making it more personalized and accurate for individuals at different fitness levels.",
+    "karvonenMethodFormula": "Max HR = 220 - Age\nHeart Rate Reserve (HRR) = Max HR - Resting HR\nTarget HR = (HRR x Intensity%) + Resting HR",
+    "zonesTitle": "Understanding Heart Rate Training Zones",
+    "howToMeasureTitle": "How to Measure Your Resting Heart Rate",
+    "howToMeasureContent": "Your resting heart rate is a key input for accurate calculations. Here's how to measure it properly:",
+    "howToMeasureStep1": "Measure first thing in the morning before getting out of bed, when you're most relaxed",
+    "howToMeasureStep2": "Place two fingers (not your thumb) on your wrist below the base of your thumb, or on your neck beside your windpipe",
+    "howToMeasureStep3": "Count your heartbeats for 60 seconds, or count for 15 seconds and multiply by 4",
+    "howToMeasureStep4": "Repeat for 3-5 days and take the average for the most accurate result",
+    "howToUseTitle": "How to Use This Calculator",
+    "howToUseStep1": "Enter your age in years using the input field or slider",
+    "howToUseStep2": "Enter your resting heart rate in beats per minute (bpm)",
+    "howToUseStep3": "Optionally select your training goal to see your recommended zone",
+    "howToUseStep4": "View your maximum heart rate and heart rate reserve",
+    "howToUseStep5": "Review all five training zones with their heart rate ranges and benefits",
+    "tipsTitle": "Tips for Heart Rate Training",
+    "tip1": "Always warm up in Zone 1 for 5-10 minutes before moving to higher intensity zones",
+    "tip2": "For weight loss, spend most of your workout time in Zones 2-3 for optimal fat burning",
+    "tip3": "Use a heart rate monitor or fitness tracker for accurate real-time feedback during exercise",
+    "tip4": "Allow adequate recovery between high-intensity sessions - don't train in Zones 4-5 every day",
+    "tip5": "Your resting heart rate decreases as your fitness improves - recalculate your zones every few months",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Question": "What is the difference between max heart rate and target heart rate?",
+    "faq1Answer": "Maximum heart rate (Max HR) is the highest number of beats your heart can achieve in one minute during maximum physical exertion. Target heart rate (THR) is a range of heart rates that you aim to maintain during exercise to achieve specific fitness goals. Your THR varies depending on your training zone and fitness objectives.",
+    "faq2Question": "Is the 220-age formula accurate?",
+    "faq2Answer": "The 220-age formula is a widely used estimate that works well for most adults. However, actual maximum heart rate can vary by 10-15 bpm between individuals of the same age. For precise measurements, consider a supervised maximal exercise test with a healthcare provider. The Karvonen method improves accuracy by also factoring in your resting heart rate.",
+    "faq3Question": "Which zone is best for burning fat?",
+    "faq3Answer": "Zone 2 (60-70% intensity) is often called the 'fat burning zone' because a higher percentage of calories burned come from fat at this intensity. However, higher intensity zones burn more total calories. For weight loss, a combination of Zone 2 training for longer sessions and Zone 3-4 intervals can be most effective.",
+    "faq4Question": "How long should I exercise in each zone?",
+    "faq4Answer": "For general fitness, aim for 20-60 minutes in Zones 2-3. For fat burning, 30-60 minutes in Zone 2 is ideal. Zone 4-5 training should be limited to intervals of 30 seconds to 5 minutes with recovery periods. Beginners should start with Zone 1-2 and gradually build up to higher intensity zones over weeks.",
+    "faq5Question": "What if I can't reach my target heart rate?",
+    "faq5Answer": "If you struggle to reach higher zones, you may need to increase exercise intensity (faster pace, steeper incline, etc.). If you're new to exercise, your cardiovascular system needs time to adapt - focus on Zone 2-3 first. If you're on beta-blockers or other heart medications, your heart rate response may be blunted; consult your doctor for modified training guidelines.",
+    "faq6Question": "Can I train in Zone 5 every day?",
+    "faq6Answer": "No, Zone 5 training creates significant stress on your body and requires 24-48 hours of recovery. Training at peak intensity daily increases injury risk and can lead to overtraining syndrome. Most training programs recommend Zone 5 work 1-2 times per week, with the majority of training in Zones 2-3.",
+    "faq7Question": "Why is my heart rate higher than expected during exercise?",
+    "faq7Answer": "Several factors can elevate your exercise heart rate: dehydration, caffeine, stress, lack of sleep, heat, altitude, or illness. Certain medications can also affect heart rate. If your heart rate is consistently much higher than expected, consider consulting a healthcare provider to rule out underlying conditions.",
+    "faq8Question": "How often should I recalculate my heart rate zones?",
+    "faq8Answer": "Recalculate your zones every 2-3 months, or whenever your fitness level significantly changes. As you become fitter, your resting heart rate typically decreases, which affects your heart rate reserve and training zones. Regular recalculation ensures your training remains appropriately challenging."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "title": "Zielherzfrequenz-Rechner",
+  "description": "Berechnen Sie Ihre Zielherzfrequenzzonen mit der Karvonen-Methode. Finden Sie Ihre optimale Trainingsintensitat fur Fettverbrennung, Cardio und Spitzenleistung basierend auf Ihrem Alter und Ihrer Ruheherzfrequenz.",
+  "meta": {
+    "title": "Kostenloser Zielherzfrequenz-Rechner - Trainingszonen-Rechner [2026]",
+    "description": "Berechnen Sie Ihre Zielherzfrequenzzonen mit unserem kostenlosen Rechner. Finden Sie optimale Trainingszonen fur Fettverbrennung, Cardio und Leistung mit der ACSM-zertifizierten Karvonen-Methode.",
+    "keywords": "zielherzfrequenz rechner, herzfrequenzzonen rechner, karvonen methode rechner, trainingszonen rechner, maximale herzfrequenz rechner, fettverbrennungszone, cardio zone, herzfrequenzreserve"
+  },
+  "inputs": {
+    "age": "Alter",
+    "ageYears": "Alter (Jahre)",
+    "restingHeartRate": "Ruheherzfrequenz",
+    "restingHRBpm": "Ruheherzfrequenz (bpm)",
+    "restingHRHelp": "Messen Sie Ihre Ruheherzfrequenz morgens direkt nach dem Aufwachen, bevor Sie aufstehen. Zahlen Sie Ihren Puls 60 Sekunden lang oder 15 Sekunden und multiplizieren Sie mit 4.",
+    "trainingGoal": "Trainingsziel",
+    "trainingGoalOptional": "Trainingsziel (optional)",
+    "goals": {
+      "none": "Ziel auswahlen...",
+      "general-fitness": "Allgemeine Fitness",
+      "fat-burn": "Fettverbrennung",
+      "cardio": "Herz-Kreislauf-Gesundheit",
+      "performance": "Sportliche Leistung"
+    }
+  },
+  "actions": {
+    "calculate": "Herzfrequenzzonen berechnen",
+    "reset": "Zurucksetzen"
+  },
+  "results": {
+    "title": "Ihre Herzfrequenzzonen",
+    "maxHeartRate": "Max. Herzfrequenz",
+    "heartRateReserve": "Herzfrequenzreserve",
+    "trainingZones": "Trainingszonen",
+    "recommendedZone": "Empfohlen",
+    "intensity": "Intensitat",
+    "heartRateRange": "Herzfrequenzbereich"
+  },
+  "zones": {
+    "zone1": {
+      "name": "Aufwarmen",
+      "description": "Sehr leichte Aktivitat zum Aufwarmen und zur Erholung. Ideal fur Anfanger und aktive Erholungstage.",
+      "benefits": "Verbessert die Erholung, reduziert Stress, baut aerobe Basis auf"
+    },
+    "zone2": {
+      "name": "Fettverbrennung",
+      "description": "Leichte aerobe Aktivitat, die hauptsachlich Fett als Brennstoff nutzt. Uber lange Zeitraume durchhaltbar.",
+      "benefits": "Maximiert Fettverbrennung, verbessert Ausdauer, schont die Gelenke"
+    },
+    "zone3": {
+      "name": "Cardio",
+      "description": "Moderates aerobes Training, das die Herz-Kreislauf-Fitness und Ausdauer verbessert.",
+      "benefits": "Starkt das Herz, verbessert die Ausdauer, erhoht die aerobe Kapazitat"
+    },
+    "zone4": {
+      "name": "Schwelle",
+      "description": "Intensives Training an der anaeroben Schwelle. Fordernd, aber fur kurzere Zeitraume durchhaltbar.",
+      "benefits": "Erhoht Geschwindigkeit, verbessert Laktatschwelle, baut Kraft auf"
+    },
+    "zone5": {
+      "name": "Spitze",
+      "description": "Maximale Anstrengung in kurzen Intervallen. Fur hochintensives Intervalltraining (HIIT) verwendet.",
+      "benefits": "Maximiert Leistung, erhoht VO2 max, baut explosive Kraft auf"
+    }
+  },
+  "units": {
+    "bpm": "bpm",
+    "years": "Jahre"
+  },
+  "validation": {
+    "ageRequired": "Alter ist erforderlich",
+    "ageInvalid": "Bitte geben Sie ein gultiges Alter ein",
+    "agePositive": "Alter muss eine positive Zahl sein",
+    "ageTooLow": "Alter muss mindestens 10 Jahre sein",
+    "ageTooHigh": "Alter muss 120 Jahre oder weniger sein",
+    "restingHRRequired": "Ruheherzfrequenz ist erforderlich",
+    "restingHRInvalid": "Bitte geben Sie eine gultige Herzfrequenz ein",
+    "restingHRPositive": "Herzfrequenz muss eine positive Zahl sein",
+    "restingHRTooLow": "Ruheherzfrequenz muss mindestens 30 bpm sein",
+    "restingHRTooHigh": "Ruheherzfrequenz muss 120 bpm oder weniger sein",
+    "restingHRExceedsMax": "Ruheherzfrequenz kann Ihre maximale Herzfrequenz nicht uberschreiten"
+  },
+  "disclaimer": {
+    "text": "Dieser Rechner liefert Schatzungen basierend auf der Karvonen-Methode mit der Standardformel 220-Alter fur die maximale Herzfrequenz. Individuelle Ergebnisse konnen variieren. Fur genaue Trainingsberatung konsultieren Sie einen Gesundheitsfachmann oder zertifizierten Fitnesstrainer.",
+    "note": "Herzfrequenz-Trainingszonen sind allgemeine Richtlinien. Faktoren wie Fitnessniveau, Medikamente, Koffeinkonsum und Gesundheitszustande konnen Ihre tatsachliche Herzfrequenzreaktion beeinflussen. Horen Sie wahrend des Trainings immer auf Ihren Korper."
+  },
+  "seo": {
+    "whatIsTitle": "Was ist die Zielherzfrequenz?",
+    "whatIsContent": "Die Zielherzfrequenz (ZHF) ist der ideale Herzfrequenzbereich fur das Training, der es Ihnen ermoglicht, mit der richtigen Intensitat fur Ihre Fitnessziele zu trainieren. Das Training innerhalb bestimmter Herzfrequenzzonen hilft, Ihre Workouts zu optimieren, egal ob Sie Fett verbrennen, die Herz-Kreislauf-Gesundheit verbessern oder die sportliche Leistung steigern mochten. Durch das Verstandnis Ihrer Zielherzfrequenzzonen konnen Sie effektiver und sicherer trainieren und gleichzeitig die Vorteile Ihres Trainings maximieren.",
+    "karvonenMethodTitle": "Die Karvonen-Methode erklart",
+    "karvonenMethodContent": "Die Karvonen-Methode ist eine wissenschaftlich validierte Formel, die vom American College of Sports Medicine (ACSM) zur Berechnung der Zielherzfrequenz empfohlen wird. Im Gegensatz zu einfachen prozentualen Methoden berucksichtigt sie Ihre Ruheherzfrequenz, was sie fur Personen mit unterschiedlichem Fitnessniveau personalisierter und genauer macht.",
+    "karvonenMethodFormula": "Max. HF = 220 - Alter\nHerzfrequenzreserve (HFR) = Max. HF - Ruhe-HF\nZiel-HF = (HFR x Intensitat%) + Ruhe-HF",
+    "zonesTitle": "Die Herzfrequenz-Trainingszonen verstehen",
+    "howToMeasureTitle": "So messen Sie Ihre Ruheherzfrequenz",
+    "howToMeasureContent": "Ihre Ruheherzfrequenz ist ein wichtiger Eingabewert fur genaue Berechnungen. So messen Sie sie richtig:",
+    "howToMeasureStep1": "Messen Sie morgens direkt nach dem Aufwachen, bevor Sie aufstehen, wenn Sie am entspanntesten sind",
+    "howToMeasureStep2": "Legen Sie zwei Finger (nicht den Daumen) auf Ihr Handgelenk unterhalb der Daumenbasis oder an Ihren Hals neben der Luftrohre",
+    "howToMeasureStep3": "Zahlen Sie Ihre Herzschlage 60 Sekunden lang, oder zahlen Sie 15 Sekunden und multiplizieren Sie mit 4",
+    "howToMeasureStep4": "Wiederholen Sie dies 3-5 Tage und nehmen Sie den Durchschnitt fur das genaueste Ergebnis",
+    "howToUseTitle": "So verwenden Sie diesen Rechner",
+    "howToUseStep1": "Geben Sie Ihr Alter in Jahren uber das Eingabefeld oder den Schieberegler ein",
+    "howToUseStep2": "Geben Sie Ihre Ruheherzfrequenz in Schlagen pro Minute (bpm) ein",
+    "howToUseStep3": "Wahlen Sie optional Ihr Trainingsziel aus, um Ihre empfohlene Zone zu sehen",
+    "howToUseStep4": "Sehen Sie Ihre maximale Herzfrequenz und Herzfrequenzreserve",
+    "howToUseStep5": "Uberprufen Sie alle funf Trainingszonen mit ihren Herzfrequenzbereichen und Vorteilen",
+    "tipsTitle": "Tipps fur das Herzfrequenztraining",
+    "tip1": "Warmen Sie sich immer 5-10 Minuten in Zone 1 auf, bevor Sie zu hoheren Intensitatszonen ubergehen",
+    "tip2": "Fur Gewichtsverlust verbringen Sie den Grossteil Ihrer Trainingszeit in den Zonen 2-3 fur optimale Fettverbrennung",
+    "tip3": "Verwenden Sie einen Herzfrequenzmesser oder Fitness-Tracker fur genaues Echtzeit-Feedback wahrend des Trainings",
+    "tip4": "Ermoglichen Sie ausreichende Erholung zwischen hochintensiven Einheiten - trainieren Sie nicht jeden Tag in den Zonen 4-5",
+    "tip5": "Ihre Ruheherzfrequenz sinkt, wenn sich Ihre Fitness verbessert - berechnen Sie Ihre Zonen alle paar Monate neu",
+    "faqTitle": "Haufig gestellte Fragen",
+    "faq1Question": "Was ist der Unterschied zwischen maximaler Herzfrequenz und Zielherzfrequenz?",
+    "faq1Answer": "Die maximale Herzfrequenz (Max. HF) ist die hochste Anzahl von Schlagen, die Ihr Herz in einer Minute bei maximaler korperlicher Anstrengung erreichen kann. Die Zielherzfrequenz (ZHF) ist ein Herzfrequenzbereich, den Sie wahrend des Trainings anstreben, um bestimmte Fitnessziele zu erreichen. Ihre ZHF variiert je nach Trainingszone und Fitnesszielen.",
+    "faq2Question": "Ist die 220-Alter-Formel genau?",
+    "faq2Answer": "Die 220-Alter-Formel ist eine weit verbreitete Schatzung, die fur die meisten Erwachsenen gut funktioniert. Die tatsachliche maximale Herzfrequenz kann jedoch um 10-15 bpm zwischen Personen gleichen Alters variieren. Fur prazise Messungen sollten Sie einen uberwachten maximalen Belastungstest mit einem Gesundheitsdienstleister in Betracht ziehen. Die Karvonen-Methode verbessert die Genauigkeit, indem sie auch Ihre Ruheherzfrequenz berucksichtigt.",
+    "faq3Question": "Welche Zone ist am besten fur die Fettverbrennung?",
+    "faq3Answer": "Zone 2 (60-70% Intensitat) wird oft als 'Fettverbrennungszone' bezeichnet, da bei dieser Intensitat ein hoherer Prozentsatz der verbrannten Kalorien aus Fett stammt. Hohere Intensitatszonen verbrennen jedoch insgesamt mehr Kalorien. Fur Gewichtsverlust kann eine Kombination aus Zone 2-Training fur langere Einheiten und Zone 3-4-Intervallen am effektivsten sein.",
+    "faq4Question": "Wie lange sollte ich in jeder Zone trainieren?",
+    "faq4Answer": "Fur allgemeine Fitness streben Sie 20-60 Minuten in den Zonen 2-3 an. Fur Fettverbrennung sind 30-60 Minuten in Zone 2 ideal. Zone 4-5-Training sollte auf Intervalle von 30 Sekunden bis 5 Minuten mit Erholungsphasen begrenzt sein. Anfanger sollten mit den Zonen 1-2 beginnen und uber Wochen allmahlich zu hoheren Intensitatszonen aufbauen.",
+    "faq5Question": "Was ist, wenn ich meine Zielherzfrequenz nicht erreichen kann?",
+    "faq5Answer": "Wenn Sie Schwierigkeiten haben, hohere Zonen zu erreichen, mussen Sie moglicherweise die Trainingsintensitat erhohen (schnelleres Tempo, steilere Steigung usw.). Wenn Sie neu im Training sind, braucht Ihr Herz-Kreislauf-System Zeit zur Anpassung - konzentrieren Sie sich zuerst auf die Zonen 2-3. Wenn Sie Betablocker oder andere Herzmedikamente einnehmen, kann Ihre Herzfrequenzreaktion gedampft sein; konsultieren Sie Ihren Arzt fur modifizierte Trainingsrichtlinien.",
+    "faq6Question": "Kann ich jeden Tag in Zone 5 trainieren?",
+    "faq6Answer": "Nein, Zone 5-Training erzeugt erheblichen Stress fur Ihren Korper und erfordert 24-48 Stunden Erholung. Tagliches Training mit maximaler Intensitat erhoht das Verletzungsrisiko und kann zum Ubertrainingssyndrom fuhren. Die meisten Trainingsprogramme empfehlen Zone 5-Arbeit 1-2 Mal pro Woche, wobei der Grossteil des Trainings in den Zonen 2-3 stattfindet.",
+    "faq7Question": "Warum ist meine Herzfrequenz wahrend des Trainings hoher als erwartet?",
+    "faq7Answer": "Mehrere Faktoren konnen Ihre Trainingsherzfrequenz erhohen: Dehydrierung, Koffein, Stress, Schlafmangel, Hitze, Hohe oder Krankheit. Bestimmte Medikamente konnen auch die Herzfrequenz beeinflussen. Wenn Ihre Herzfrequenz konstant viel hoher als erwartet ist, sollten Sie einen Gesundheitsdienstleister konsultieren, um zugrunde liegende Erkrankungen auszuschliessen.",
+    "faq8Question": "Wie oft sollte ich meine Herzfrequenzzonen neu berechnen?",
+    "faq8Answer": "Berechnen Sie Ihre Zonen alle 2-3 Monate neu, oder wenn sich Ihr Fitnessniveau deutlich andert. Wenn Sie fitter werden, sinkt Ihre Ruheherzfrequenz typischerweise, was Ihre Herzfrequenzreserve und Trainingszonen beeinflusst. Regelmassige Neuberechnung stellt sicher, dass Ihr Training angemessen fordernd bleibt."
+  }
+}

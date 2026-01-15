@@ -1,0 +1,129 @@
+{
+  "title": "Calculateur de Frequence Cardiaque Cible",
+  "description": "Calculez vos zones de frequence cardiaque cible avec la methode Karvonen. Trouvez votre intensite d'entrainement optimale pour bruler les graisses, le cardio et la performance maximale en fonction de votre age et de votre frequence cardiaque au repos.",
+  "meta": {
+    "title": "Calculateur de Frequence Cardiaque Cible Gratuit - Zones d'Entrainement [2026]",
+    "description": "Calculez vos zones de frequence cardiaque cible avec notre calculateur gratuit. Trouvez les zones optimales pour bruler les graisses, le cardio et la performance avec la methode Karvonen approuvee par l'ACSM.",
+    "keywords": "calculateur frequence cardiaque cible, calculateur zones cardiaques, methode karvonen calculateur, calculateur zones entrainement, calculateur frequence maximale, zone brule-graisse, zone cardio, reserve de frequence cardiaque"
+  },
+  "inputs": {
+    "age": "Age",
+    "ageYears": "Age (ans)",
+    "restingHeartRate": "Frequence Cardiaque au Repos",
+    "restingHRBpm": "Frequence Cardiaque au Repos (bpm)",
+    "restingHRHelp": "Mesurez votre frequence cardiaque au repos le matin au reveil avant de vous lever. Comptez votre pouls pendant 60 secondes ou pendant 15 secondes et multipliez par 4.",
+    "trainingGoal": "Objectif d'Entrainement",
+    "trainingGoalOptional": "Objectif d'Entrainement (optionnel)",
+    "goals": {
+      "none": "Selectionnez un objectif...",
+      "general-fitness": "Forme Generale",
+      "fat-burn": "Brulage de Graisses",
+      "cardio": "Sante Cardiovasculaire",
+      "performance": "Performance Athletique"
+    }
+  },
+  "actions": {
+    "calculate": "Calculer les Zones Cardiaques",
+    "reset": "Reinitialiser"
+  },
+  "results": {
+    "title": "Vos Zones de Frequence Cardiaque",
+    "maxHeartRate": "FC Maximale",
+    "heartRateReserve": "Reserve de FC",
+    "trainingZones": "Zones d'Entrainement",
+    "recommendedZone": "Recommandee",
+    "intensity": "Intensite",
+    "heartRateRange": "Plage de FC"
+  },
+  "zones": {
+    "zone1": {
+      "name": "Echauffement",
+      "description": "Activite tres legere pour l'echauffement et la recuperation. Ideale pour les debutants et les jours de recuperation active.",
+      "benefits": "Ameliore la recuperation, reduit le stress, construit la base aerobique"
+    },
+    "zone2": {
+      "name": "Brule-Graisse",
+      "description": "Activite aerobique legere qui utilise principalement les graisses comme carburant. Durable sur de longues periodes.",
+      "benefits": "Maximise la combustion des graisses, ameliore l'endurance, doux pour les articulations"
+    },
+    "zone3": {
+      "name": "Cardio",
+      "description": "Exercice aerobique modere qui ameliore la condition cardiovasculaire et l'endurance.",
+      "benefits": "Renforce le coeur, ameliore l'endurance, augmente la capacite aerobique"
+    },
+    "zone4": {
+      "name": "Seuil",
+      "description": "Entrainement vigoureux au seuil anaerobique. Exigeant mais soutenable sur de courtes periodes.",
+      "benefits": "Augmente la vitesse, ameliore le seuil lactique, developpe la puissance"
+    },
+    "zone5": {
+      "name": "Pic",
+      "description": "Effort maximal en courtes rafales. Utilise pour l'entrainement par intervalles de haute intensite (HIIT).",
+      "benefits": "Maximise la performance, augmente le VO2 max, developpe la puissance explosive"
+    }
+  },
+  "units": {
+    "bpm": "bpm",
+    "years": "ans"
+  },
+  "validation": {
+    "ageRequired": "L'age est obligatoire",
+    "ageInvalid": "Veuillez entrer un age valide",
+    "agePositive": "L'age doit etre un nombre positif",
+    "ageTooLow": "L'age doit etre d'au moins 10 ans",
+    "ageTooHigh": "L'age doit etre de 120 ans ou moins",
+    "restingHRRequired": "La frequence cardiaque au repos est obligatoire",
+    "restingHRInvalid": "Veuillez entrer une frequence cardiaque valide",
+    "restingHRPositive": "La frequence cardiaque doit etre un nombre positif",
+    "restingHRTooLow": "La frequence cardiaque au repos doit etre d'au moins 30 bpm",
+    "restingHRTooHigh": "La frequence cardiaque au repos doit etre de 120 bpm ou moins",
+    "restingHRExceedsMax": "La frequence cardiaque au repos ne peut pas depasser votre frequence cardiaque maximale"
+  },
+  "disclaimer": {
+    "text": "Ce calculateur fournit des estimations basees sur la methode Karvonen utilisant la formule standard 220-age pour la frequence cardiaque maximale. Les resultats individuels peuvent varier. Pour des conseils d'entrainement precis, consultez un professionnel de sante ou un entraineur certifie.",
+    "note": "Les zones d'entrainement par frequence cardiaque sont des lignes directrices generales. Des facteurs tels que le niveau de forme physique, les medicaments, la consommation de cafeine et les conditions de sante peuvent affecter votre reponse reelle de frequence cardiaque. Ecoutez toujours votre corps pendant l'exercice."
+  },
+  "seo": {
+    "whatIsTitle": "Qu'est-ce que la Frequence Cardiaque Cible ?",
+    "whatIsContent": "La frequence cardiaque cible (FCC) est la plage ideale de frequence cardiaque pour l'exercice qui vous permet de vous entrainer a la bonne intensite pour vos objectifs de forme physique. S'entrainer dans des zones specifiques de frequence cardiaque aide a optimiser vos seances, que vous souhaitiez bruler des graisses, ameliorer votre sante cardiovasculaire ou augmenter vos performances athletiques. En comprenant vos zones de frequence cardiaque cible, vous pouvez vous exercer plus efficacement et en toute securite tout en maximisant les benefices de votre entrainement.",
+    "karvonenMethodTitle": "La Methode Karvonen Expliquee",
+    "karvonenMethodContent": "La methode Karvonen est une formule scientifiquement validee approuvee par l'American College of Sports Medicine (ACSM) pour calculer la frequence cardiaque cible. Contrairement aux methodes simples basees sur des pourcentages, elle tient compte de votre frequence cardiaque au repos, la rendant plus personnalisee et precise pour les individus de differents niveaux de forme physique.",
+    "karvonenMethodFormula": "FC Max = 220 - Age\nReserve de FC (RFC) = FC Max - FC Repos\nFC Cible = (RFC x Intensite%) + FC Repos",
+    "zonesTitle": "Comprendre les Zones d'Entrainement par Frequence Cardiaque",
+    "howToMeasureTitle": "Comment Mesurer Votre Frequence Cardiaque au Repos",
+    "howToMeasureContent": "Votre frequence cardiaque au repos est une donnee cle pour des calculs precis. Voici comment la mesurer correctement :",
+    "howToMeasureStep1": "Mesurez le matin au reveil avant de vous lever du lit, quand vous etes le plus detendu",
+    "howToMeasureStep2": "Placez deux doigts (pas le pouce) sur votre poignet sous la base du pouce, ou sur votre cou a cote de la trachee",
+    "howToMeasureStep3": "Comptez vos battements de coeur pendant 60 secondes, ou comptez pendant 15 secondes et multipliez par 4",
+    "howToMeasureStep4": "Repetez pendant 3-5 jours et faites la moyenne pour le resultat le plus precis",
+    "howToUseTitle": "Comment Utiliser ce Calculateur",
+    "howToUseStep1": "Entrez votre age en annees en utilisant le champ de saisie ou le curseur",
+    "howToUseStep2": "Entrez votre frequence cardiaque au repos en battements par minute (bpm)",
+    "howToUseStep3": "Selectionnez eventuellement votre objectif d'entrainement pour voir votre zone recommandee",
+    "howToUseStep4": "Visualisez votre frequence cardiaque maximale et votre reserve de frequence cardiaque",
+    "howToUseStep5": "Examinez les cinq zones d'entrainement avec leurs plages de frequence cardiaque et leurs benefices",
+    "tipsTitle": "Conseils pour l'Entrainement par Frequence Cardiaque",
+    "tip1": "Echauffez-vous toujours en Zone 1 pendant 5-10 minutes avant de passer aux zones d'intensite superieure",
+    "tip2": "Pour la perte de poids, passez la majeure partie de votre temps d'entrainement dans les Zones 2-3 pour une combustion optimale des graisses",
+    "tip3": "Utilisez un moniteur de frequence cardiaque ou un tracker de fitness pour un retour precis en temps reel pendant l'exercice",
+    "tip4": "Accordez une recuperation adequate entre les seances de haute intensite - ne vous entrainez pas dans les Zones 4-5 tous les jours",
+    "tip5": "Votre frequence cardiaque au repos diminue a mesure que votre forme s'ameliore - recalculez vos zones tous les quelques mois",
+    "faqTitle": "Questions Frequemment Posees",
+    "faq1Question": "Quelle est la difference entre frequence cardiaque maximale et frequence cardiaque cible ?",
+    "faq1Answer": "La frequence cardiaque maximale (FC Max) est le nombre le plus eleve de battements que votre coeur peut atteindre en une minute pendant un effort physique maximal. La frequence cardiaque cible (FCC) est une plage de frequences cardiaques que vous visez a maintenir pendant l'exercice pour atteindre des objectifs de forme specifiques. Votre FCC varie en fonction de votre zone d'entrainement et de vos objectifs de condition physique.",
+    "faq2Question": "La formule 220-age est-elle precise ?",
+    "faq2Answer": "La formule 220-age est une estimation largement utilisee qui fonctionne bien pour la plupart des adultes. Cependant, la frequence cardiaque maximale reelle peut varier de 10-15 bpm entre des individus du meme age. Pour des mesures precises, envisagez un test d'effort maximal supervise avec un professionnel de sante. La methode Karvonen ameliore la precision en tenant egalement compte de votre frequence cardiaque au repos.",
+    "faq3Question": "Quelle zone est la meilleure pour bruler les graisses ?",
+    "faq3Answer": "La Zone 2 (60-70% d'intensite) est souvent appelee la 'zone brule-graisse' car un pourcentage plus eleve de calories brulees provient des graisses a cette intensite. Cependant, les zones d'intensite superieure brulent plus de calories totales. Pour la perte de poids, une combinaison d'entrainement en Zone 2 pour des seances plus longues et d'intervalles en Zone 3-4 peut etre plus efficace.",
+    "faq4Question": "Combien de temps dois-je m'exercer dans chaque zone ?",
+    "faq4Answer": "Pour la forme generale, visez 20-60 minutes dans les Zones 2-3. Pour bruler les graisses, 30-60 minutes en Zone 2 est ideal. L'entrainement en Zone 4-5 devrait etre limite a des intervalles de 30 secondes a 5 minutes avec des periodes de recuperation. Les debutants devraient commencer par les Zones 1-2 et progressivement monter vers des zones d'intensite superieure sur plusieurs semaines.",
+    "faq5Question": "Que faire si je ne peux pas atteindre ma frequence cardiaque cible ?",
+    "faq5Answer": "Si vous avez du mal a atteindre des zones superieures, vous devrez peut-etre augmenter l'intensite de l'exercice (rythme plus rapide, inclinaison plus raide, etc.). Si vous etes nouveau dans l'exercice, votre systeme cardiovasculaire a besoin de temps pour s'adapter - concentrez-vous d'abord sur les Zones 2-3. Si vous prenez des beta-bloquants ou d'autres medicaments cardiaques, votre reponse de frequence cardiaque peut etre attenuee ; consultez votre medecin pour des directives d'entrainement modifiees.",
+    "faq6Question": "Puis-je m'entrainer en Zone 5 tous les jours ?",
+    "faq6Answer": "Non, l'entrainement en Zone 5 cree un stress significatif sur votre corps et necessite 24-48 heures de recuperation. S'entrainer a intensite maximale quotidiennement augmente le risque de blessure et peut conduire au syndrome de surentrainement. La plupart des programmes d'entrainement recommandent un travail en Zone 5 1-2 fois par semaine, avec la majorite de l'entrainement dans les Zones 2-3.",
+    "faq7Question": "Pourquoi ma frequence cardiaque est-elle plus elevee que prevu pendant l'exercice ?",
+    "faq7Answer": "Plusieurs facteurs peuvent elever votre frequence cardiaque a l'effort : deshydratation, cafeine, stress, manque de sommeil, chaleur, altitude ou maladie. Certains medicaments peuvent aussi affecter la frequence cardiaque. Si votre frequence cardiaque est regulierement beaucoup plus elevee que prevu, envisagez de consulter un professionnel de sante pour ecarter des conditions sous-jacentes.",
+    "faq8Question": "A quelle frequence dois-je recalculer mes zones de frequence cardiaque ?",
+    "faq8Answer": "Recalculez vos zones tous les 2-3 mois, ou chaque fois que votre niveau de forme physique change significativement. A mesure que vous vous ameliorez, votre frequence cardiaque au repos diminue generalement, ce qui affecte votre reserve de frequence cardiaque et vos zones d'entrainement. Un recalcul regulier garantit que votre entrainement reste adequatement stimulant."
+  }
+}

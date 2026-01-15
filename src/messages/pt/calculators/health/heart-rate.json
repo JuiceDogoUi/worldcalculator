@@ -1,0 +1,129 @@
+{
+  "title": "Calculadora de Frequencia Cardiaca Alvo",
+  "description": "Calcule suas zonas de frequencia cardiaca alvo usando o metodo Karvonen. Encontre sua intensidade ideal de treino para queima de gordura, cardio e desempenho maximo com base na sua idade e frequencia cardiaca de repouso.",
+  "meta": {
+    "title": "Calculadora de Frequencia Cardiaca Alvo Gratis - Zonas de Treino [2026]",
+    "description": "Calcule suas zonas de frequencia cardiaca alvo com nossa calculadora gratuita. Encontre as zonas ideais para queima de gordura, cardio e desempenho usando o metodo Karvonen endossado pela ACSM.",
+    "keywords": "calculadora frequencia cardiaca alvo, calculadora zonas cardiacas, metodo karvonen calculadora, calculadora zonas treino, calculadora frequencia maxima, zona queima gordura, zona cardio, reserva frequencia cardiaca"
+  },
+  "inputs": {
+    "age": "Idade",
+    "ageYears": "Idade (anos)",
+    "restingHeartRate": "Frequencia Cardiaca de Repouso",
+    "restingHRBpm": "Frequencia Cardiaca de Repouso (bpm)",
+    "restingHRHelp": "Meca sua frequencia cardiaca de repouso logo ao acordar, antes de levantar da cama. Conte seu pulso por 60 segundos ou por 15 segundos e multiplique por 4.",
+    "trainingGoal": "Objetivo de Treino",
+    "trainingGoalOptional": "Objetivo de Treino (opcional)",
+    "goals": {
+      "none": "Selecione um objetivo...",
+      "general-fitness": "Condicionamento Geral",
+      "fat-burn": "Queima de Gordura",
+      "cardio": "Saude Cardiovascular",
+      "performance": "Desempenho Atletico"
+    }
+  },
+  "actions": {
+    "calculate": "Calcular Zonas Cardiacas",
+    "reset": "Reiniciar"
+  },
+  "results": {
+    "title": "Suas Zonas de Frequencia Cardiaca",
+    "maxHeartRate": "FC Maxima",
+    "heartRateReserve": "Reserva de FC",
+    "trainingZones": "Zonas de Treino",
+    "recommendedZone": "Recomendada",
+    "intensity": "Intensidade",
+    "heartRateRange": "Faixa de FC"
+  },
+  "zones": {
+    "zone1": {
+      "name": "Aquecimento",
+      "description": "Atividade muito leve para aquecimento e recuperacao. Ideal para iniciantes e dias de recuperacao ativa.",
+      "benefits": "Melhora a recuperacao, reduz o estresse, constroi base aerobica"
+    },
+    "zone2": {
+      "name": "Queima de Gordura",
+      "description": "Atividade aerobica leve que usa principalmente gordura como combustivel. Sustentavel por longos periodos.",
+      "benefits": "Maximiza a queima de gordura, melhora a resistencia, suave para as articulacoes"
+    },
+    "zone3": {
+      "name": "Cardio",
+      "description": "Exercicio aerobico moderado que melhora a aptidao cardiovascular e a resistencia.",
+      "benefits": "Fortalece o coracao, melhora a resistencia, aumenta a capacidade aerobica"
+    },
+    "zone4": {
+      "name": "Limiar",
+      "description": "Treino vigoroso no limiar anaerobico. Desafiador, mas sustentavel por periodos mais curtos.",
+      "benefits": "Aumenta a velocidade, melhora o limiar de lactato, desenvolve potencia"
+    },
+    "zone5": {
+      "name": "Pico",
+      "description": "Esforco maximo em rajadas curtas. Usado para treino intervalado de alta intensidade (HIIT).",
+      "benefits": "Maximiza o desempenho, aumenta o VO2 max, desenvolve potencia explosiva"
+    }
+  },
+  "units": {
+    "bpm": "bpm",
+    "years": "anos"
+  },
+  "validation": {
+    "ageRequired": "A idade e obrigatoria",
+    "ageInvalid": "Por favor, insira uma idade valida",
+    "agePositive": "A idade deve ser um numero positivo",
+    "ageTooLow": "A idade deve ser de pelo menos 10 anos",
+    "ageTooHigh": "A idade deve ser 120 anos ou menos",
+    "restingHRRequired": "A frequencia cardiaca de repouso e obrigatoria",
+    "restingHRInvalid": "Por favor, insira uma frequencia cardiaca valida",
+    "restingHRPositive": "A frequencia cardiaca deve ser um numero positivo",
+    "restingHRTooLow": "A frequencia cardiaca de repouso deve ser de pelo menos 30 bpm",
+    "restingHRTooHigh": "A frequencia cardiaca de repouso deve ser 120 bpm ou menos",
+    "restingHRExceedsMax": "A frequencia cardiaca de repouso nao pode exceder sua frequencia cardiaca maxima"
+  },
+  "disclaimer": {
+    "text": "Esta calculadora fornece estimativas baseadas no metodo Karvonen usando a formula padrao 220-idade para a frequencia cardiaca maxima. Os resultados individuais podem variar. Para orientacao de treino precisa, consulte um profissional de saude ou um treinador certificado.",
+    "note": "As zonas de treino por frequencia cardiaca sao diretrizes gerais. Fatores como nivel de condicionamento, medicamentos, consumo de cafeina e condicoes de saude podem afetar sua resposta real de frequencia cardiaca. Sempre ouca seu corpo durante o exercicio."
+  },
+  "seo": {
+    "whatIsTitle": "O que e Frequencia Cardiaca Alvo?",
+    "whatIsContent": "A frequencia cardiaca alvo (FCA) e a faixa ideal de frequencia cardiaca para exercicio que permite treinar na intensidade certa para seus objetivos de condicionamento. Treinar dentro de zonas especificas de frequencia cardiaca ajuda a otimizar seus treinos, seja para queimar gordura, melhorar a saude cardiovascular ou aumentar o desempenho atletico. Ao entender suas zonas de frequencia cardiaca alvo, voce pode se exercitar de forma mais eficaz e segura enquanto maximiza os beneficios do seu treino.",
+    "karvonenMethodTitle": "O Metodo Karvonen Explicado",
+    "karvonenMethodContent": "O metodo Karvonen e uma formula cientificamente validada endossada pelo American College of Sports Medicine (ACSM) para calcular a frequencia cardiaca alvo. Ao contrario de metodos simples baseados em porcentagens, ele considera sua frequencia cardiaca de repouso, tornando-o mais personalizado e preciso para individuos em diferentes niveis de condicionamento.",
+    "karvonenMethodFormula": "FC Max = 220 - Idade\nReserva de FC (RFC) = FC Max - FC Repouso\nFC Alvo = (RFC x Intensidade%) + FC Repouso",
+    "zonesTitle": "Entendendo as Zonas de Treino por Frequencia Cardiaca",
+    "howToMeasureTitle": "Como Medir Sua Frequencia Cardiaca de Repouso",
+    "howToMeasureContent": "Sua frequencia cardiaca de repouso e um dado essencial para calculos precisos. Veja como medi-la corretamente:",
+    "howToMeasureStep1": "Meca logo ao acordar, antes de levantar da cama, quando voce esta mais relaxado",
+    "howToMeasureStep2": "Coloque dois dedos (nao o polegar) no pulso abaixo da base do polegar, ou no pescoco ao lado da traqueia",
+    "howToMeasureStep3": "Conte seus batimentos cardiacos por 60 segundos, ou conte por 15 segundos e multiplique por 4",
+    "howToMeasureStep4": "Repita por 3-5 dias e tire a media para o resultado mais preciso",
+    "howToUseTitle": "Como Usar Esta Calculadora",
+    "howToUseStep1": "Insira sua idade em anos usando o campo de entrada ou o controle deslizante",
+    "howToUseStep2": "Insira sua frequencia cardiaca de repouso em batimentos por minuto (bpm)",
+    "howToUseStep3": "Opcionalmente selecione seu objetivo de treino para ver sua zona recomendada",
+    "howToUseStep4": "Visualize sua frequencia cardiaca maxima e sua reserva de frequencia cardiaca",
+    "howToUseStep5": "Revise as cinco zonas de treino com suas faixas de frequencia cardiaca e beneficios",
+    "tipsTitle": "Dicas para Treino por Frequencia Cardiaca",
+    "tip1": "Sempre aqueca na Zona 1 por 5-10 minutos antes de passar para zonas de maior intensidade",
+    "tip2": "Para perda de peso, passe a maior parte do tempo de treino nas Zonas 2-3 para queima de gordura ideal",
+    "tip3": "Use um monitor de frequencia cardiaca ou rastreador de fitness para feedback preciso em tempo real durante o exercicio",
+    "tip4": "Permita recuperacao adequada entre sessoes de alta intensidade - nao treine nas Zonas 4-5 todos os dias",
+    "tip5": "Sua frequencia cardiaca de repouso diminui a medida que seu condicionamento melhora - recalcule suas zonas a cada poucos meses",
+    "faqTitle": "Perguntas Frequentes",
+    "faq1Question": "Qual e a diferenca entre frequencia cardiaca maxima e frequencia cardiaca alvo?",
+    "faq1Answer": "A frequencia cardiaca maxima (FC Max) e o numero mais alto de batimentos que seu coracao pode atingir em um minuto durante o esforco fisico maximo. A frequencia cardiaca alvo (FCA) e uma faixa de frequencias cardiacas que voce busca manter durante o exercicio para atingir objetivos de condicionamento especificos. Sua FCA varia dependendo da sua zona de treino e objetivos de condicionamento.",
+    "faq2Question": "A formula 220-idade e precisa?",
+    "faq2Answer": "A formula 220-idade e uma estimativa amplamente usada que funciona bem para a maioria dos adultos. No entanto, a frequencia cardiaca maxima real pode variar de 10-15 bpm entre individuos da mesma idade. Para medicoes precisas, considere um teste de esforco maximo supervisionado com um profissional de saude. O metodo Karvonen melhora a precisao ao tambem considerar sua frequencia cardiaca de repouso.",
+    "faq3Question": "Qual zona e melhor para queimar gordura?",
+    "faq3Answer": "A Zona 2 (60-70% de intensidade) e frequentemente chamada de 'zona de queima de gordura' porque uma porcentagem maior de calorias queimadas vem da gordura nessa intensidade. No entanto, zonas de maior intensidade queimam mais calorias totais. Para perda de peso, uma combinacao de treino na Zona 2 para sessoes mais longas e intervalos na Zona 3-4 pode ser mais eficaz.",
+    "faq4Question": "Quanto tempo devo me exercitar em cada zona?",
+    "faq4Answer": "Para condicionamento geral, mire 20-60 minutos nas Zonas 2-3. Para queima de gordura, 30-60 minutos na Zona 2 e ideal. O treino nas Zonas 4-5 deve ser limitado a intervalos de 30 segundos a 5 minutos com periodos de recuperacao. Iniciantes devem comecar com as Zonas 1-2 e gradualmente progredir para zonas de maior intensidade ao longo de semanas.",
+    "faq5Question": "E se eu nao conseguir atingir minha frequencia cardiaca alvo?",
+    "faq5Answer": "Se voce tem dificuldade em atingir zonas mais altas, pode precisar aumentar a intensidade do exercicio (ritmo mais rapido, inclinacao mais acentuada, etc.). Se voce e novo no exercicio, seu sistema cardiovascular precisa de tempo para se adaptar - foque primeiro nas Zonas 2-3. Se voce toma betabloqueadores ou outros medicamentos cardiacos, sua resposta de frequencia cardiaca pode estar atenuada; consulte seu medico para orientacoes de treino modificadas.",
+    "faq6Question": "Posso treinar na Zona 5 todos os dias?",
+    "faq6Answer": "Nao, o treino na Zona 5 cria estresse significativo no seu corpo e requer 24-48 horas de recuperacao. Treinar em intensidade maxima diariamente aumenta o risco de lesoes e pode levar a sindrome de overtraining. A maioria dos programas de treino recomenda trabalho na Zona 5 1-2 vezes por semana, com a maior parte do treino nas Zonas 2-3.",
+    "faq7Question": "Por que minha frequencia cardiaca e maior do que o esperado durante o exercicio?",
+    "faq7Answer": "Varios fatores podem elevar sua frequencia cardiaca durante o exercicio: desidratacao, cafeina, estresse, falta de sono, calor, altitude ou doenca. Certos medicamentos tambem podem afetar a frequencia cardiaca. Se sua frequencia cardiaca e consistentemente muito mais alta do que o esperado, considere consultar um profissional de saude para descartar condicoes subjacentes.",
+    "faq8Question": "Com que frequencia devo recalcular minhas zonas de frequencia cardiaca?",
+    "faq8Answer": "Recalcule suas zonas a cada 2-3 meses, ou sempre que seu nivel de condicionamento mudar significativamente. A medida que voce fica mais em forma, sua frequencia cardiaca de repouso tipicamente diminui, o que afeta sua reserva de frequencia cardiaca e zonas de treino. O recalculo regular garante que seu treino permaneca adequadamente desafiador."
+  }
+}

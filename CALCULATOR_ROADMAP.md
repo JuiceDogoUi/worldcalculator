@@ -13,13 +13,13 @@
 | Category | Current | Target | Gap | Priority |
 |----------|---------|--------|-----|----------|
 | Finance | 6 | 6 | **0** | ✅ COMPLETE |
-| Math | 5 | 6 | **1** | P1 - High Volume |
-| Statistics | 1 | 6 | **5** | P1 - Educational |
-| Health & Fitness | 0 | 6 | **6** | P2 - Universal Appeal |
+| Math | 6 | 6 | **0** | ✅ COMPLETE |
+| Statistics | 6 | 6 | **0** | ✅ COMPLETE |
+| Health & Fitness | 2 | 6 | **4** | P1 - High Traffic |
 | Conversion | 0 | 6 | **6** | P2 - High Search |
 | Time & Date | 0 | 6 | **6** | P3 - Quick Wins |
 | Construction | 0 | 6 | **6** | P3 - Niche Value |
-| **TOTAL** | **12** | **42** | **30** | |
+| **TOTAL** | **20** | **42** | **22** | |
 
 ---
 
@@ -33,18 +33,25 @@
 5. ✅ ROI Calculator
 6. ✅ Retirement Calculator
 
-### Math (5/6)
+### Math (6/6) ✅ COMPLETE
 1. ✅ Percentage Calculator
 2. ✅ Fraction Calculator
 3. ✅ GCD/LCM Calculator
 4. ✅ Scientific Calculator
 5. ✅ Square Root Calculator
+6. ✅ Ratio Calculator
 
-### Statistics (1/6)
+### Statistics (6/6) ✅ COMPLETE
 1. ✅ Standard Deviation Calculator
+2. ✅ Mean/Median/Mode Calculator
+3. ✅ Probability Calculator
+4. ✅ Z-Score Calculator
+5. ✅ Correlation Calculator
+6. ✅ Sample Size Calculator
 
-### Health & Fitness (0/6)
-*No calculators implemented*
+### Health & Fitness (2/6)
+1. ✅ BMI Calculator
+2. ✅ TDEE Calculator
 
 ### Conversion (0/6)
 *No calculators implemented*
@@ -188,18 +195,18 @@ All 6 finance calculators have been implemented:
 
 ---
 
-### 4. HEALTH & FITNESS (Need 6)
+### 4. HEALTH & FITNESS (Need 4 More)
 
 | # | Calculator | Complexity | SEO Potential | Status |
 |---|------------|------------|---------------|--------|
-| H1 | **BMI Calculator** | Simple | ★★★★★ | Pending |
-| H2 | **TDEE/Calorie Calculator** | Medium | ★★★★★ | Pending |
-| H3 | **BMR Calculator** | Simple | ★★★★★ | Pending |
-| H4 | **Body Fat Calculator** | Medium | ★★★★ | Pending |
-| H5 | **Ideal Weight Calculator** | Simple | ★★★★ | Pending |
-| H6 | **Macro Calculator** | Medium | ★★★★ | Pending |
+| H1 | BMI Calculator | Simple | ★★★★★ | ✅ Complete |
+| H2 | TDEE Calculator | Medium | ★★★★★ | ✅ Complete |
+| H3 | **Body Fat Calculator** | Medium | ★★★★★ | 🔄 In Progress |
+| H4 | **Macro Calculator** | Medium | ★★★★★ | 🔄 In Progress |
+| H5 | **Ideal Weight Calculator** | Simple | ★★★★ | 🔄 In Progress |
+| H6 | **Target Heart Rate Calculator** | Simple | ★★★★ | 🔄 In Progress |
 
-#### H1. BMI Calculator
+#### H1. BMI Calculator ✅ COMPLETE
 **Keywords:** "BMI calculator", "body mass index", "BMI chart"
 **Search Volume:** Extremely High - Featured on every health site
 
@@ -216,7 +223,7 @@ All 6 finance calculators have been implemented:
 
 ---
 
-#### H2. TDEE/Calorie Calculator
+#### H2. TDEE Calculator ✅ COMPLETE
 **Keywords:** "TDEE calculator", "calorie calculator", "daily calorie needs"
 
 **Features:**
@@ -232,59 +239,100 @@ All 6 finance calculators have been implemented:
 
 ---
 
-#### H3. BMR Calculator
-**Keywords:** "BMR calculator", "basal metabolic rate", "resting metabolic rate"
-
-**Features:**
-- Personal details input
-- BMR using Mifflin-St Jeor equation
-- BMR using Harris-Benedict equation
-- Comparison of methods
-- Daily calorie baseline
-
-**Formula (Mifflin-St Jeor):**
-- Men: `BMR = 10W + 6.25H - 5A + 5`
-- Women: `BMR = 10W + 6.25H - 5A - 161`
-
----
-
-#### H4. Body Fat Calculator
+#### H3. Body Fat Calculator (Navy Method)
 **Keywords:** "body fat calculator", "body fat percentage", "Navy body fat"
+**Priority:** HIGH - Most requested, highest SEO value
 
 **Features:**
 - Measurements: waist, neck, height, (hips for women)
-- Navy method calculation
+- U.S. Navy method calculation
 - Body fat percentage result
-- Category classification
-- Lean body mass calculation
-- Comparison charts
+- Body fat mass & lean body mass
+- Category classification (essential, athletic, fitness, acceptable, obese)
+- Visual body fat chart
+- Health interpretation based on WHO/CDC guidelines
 
-**Formula:** U.S. Navy Method
+**Formulas (U.S. Navy - Hodgdon & Beckett, 1984):**
+- Men: `BF% = 86.010 × log₁₀(waist - neck) - 70.041 × log₁₀(height) + 36.76`
+- Women: `BF% = 163.205 × log₁₀(waist + hip - neck) - 97.684 × log₁₀(height) - 78.387`
+
+**Source:** Naval Health Research Center
+
+---
+
+#### H4. Macro Calculator
+**Keywords:** "macro calculator", "macronutrient calculator", "IIFYM calculator"
+**Priority:** HIGH - Perfect TDEE complement, high engagement
+
+**Features:**
+- TDEE-based calculations (integrates with existing TDEE calculator)
+- Goal selection (lose weight, maintain, gain muscle)
+- Preset ratios (balanced, low-carb, high-protein, keto)
+- Custom ratio input
+- Daily grams for protein, carbs, fats
+- Visual pie chart of macro distribution
+- Meal-by-meal breakdown
+
+**Formulas:**
+- Protein: 0.8-1.2g per lb body weight (goal-based)
+- Fat: 20-35% of calories (9 cal/gram)
+- Carbs: Remaining calories (4 cal/gram)
+
+**Diet Presets:**
+- Balanced: 40% carbs, 30% protein, 30% fat
+- Low-carb: 25% carbs, 40% protein, 35% fat
+- High-protein: 30% carbs, 40% protein, 30% fat
+- Keto: 5% carbs, 25% protein, 70% fat
 
 ---
 
 #### H5. Ideal Weight Calculator
 **Keywords:** "ideal weight calculator", "healthy weight", "ideal body weight"
+**Priority:** MEDIUM-HIGH - Simple implementation, universal appeal
 
 **Features:**
 - Height and gender input
 - Multiple formula results (Devine, Robinson, Miller, Hamwi)
 - BMI-based healthy range
 - Frame size consideration
-- Comparison chart
+- Visual comparison of different formulas
+- Weight to gain/lose to reach ideal
+
+**Formulas (Validated - Medical dosing literature):**
+- Devine: Men: 50kg + 2.3kg × (height - 60in), Women: 45.5kg + 2.3kg × (height - 60in)
+- Robinson: Men: 52kg + 1.9kg × (height - 60in), Women: 49kg + 1.7kg × (height - 60in)
+- Miller: Men: 56.2kg + 1.41kg × (height - 60in), Women: 53.1kg + 1.36kg × (height - 60in)
+- Hamwi: Men: 48kg + 2.7kg × (height - 60in), Women: 45.5kg + 2.2kg × (height - 60in)
+
+**Source:** Devine 1974, MDCalc
 
 ---
 
-#### H6. Macro Calculator
-**Keywords:** "macro calculator", "macronutrient calculator", "IIFYM calculator"
+#### H6. Target Heart Rate Calculator (Karvonen)
+**Keywords:** "target heart rate calculator", "heart rate zones", "cardio zones"
+**Priority:** MEDIUM - Easy implementation, fitness essential
 
 **Features:**
-- TDEE-based calculations
-- Goal selection (maintain, lose, gain)
-- Preset ratios (balanced, low-carb, keto, high-protein)
-- Custom ratio input
-- Daily grams for protein, carbs, fats
-- Meal planning suggestions
+- Age and resting heart rate input
+- Training goal selection (fat burn, cardio, peak)
+- Maximum heart rate calculation
+- Heart rate reserve
+- 5 training zones with color-coded visualization
+- Zone benefits explanation
+- Training recommendations
+
+**Formulas (Karvonen - ACSM endorsed):**
+- Max HR: `220 - Age`
+- Target HR: `[(Max HR - Resting HR) × Intensity %] + Resting HR`
+
+**Training Zones:**
+- Warm-up: 50-60% intensity
+- Fat burn: 60-70% intensity
+- Cardio: 70-80% intensity
+- Threshold: 80-90% intensity
+- Peak: 90-100% intensity
+
+**Source:** Karvonen 1957, ACSM, CDC
 
 ---
 
@@ -565,26 +613,26 @@ All 6 finance calculators have been implemented:
 
 ## Implementation Phases
 
-### Phase 1: Complete Math & Start Statistics (7 calculators)
+### Phase 1: Complete Math & Statistics ✅ COMPLETE
 
-| Sprint | Calculators | Category |
-|--------|-------------|----------|
-| 1.1 | Square Root, Ratio | Math |
-| 1.2 | Mean/Median/Mode, Probability | Statistics |
-| 1.3 | Z-Score, Correlation, Sample Size | Statistics |
+| Sprint | Calculators | Category | Status |
+|--------|-------------|----------|--------|
+| 1.1 | Square Root, Ratio | Math | ✅ Done |
+| 1.2 | Mean/Median/Mode, Probability | Statistics | ✅ Done |
+| 1.3 | Z-Score, Correlation, Sample Size | Statistics | ✅ Done |
 
 **Outcome:** Math complete (6/6), Statistics complete (6/6)
 
 ---
 
-### Phase 2: Health & Fitness (6 calculators)
+### Phase 2: Health & Fitness (4 remaining) 🔄 IN PROGRESS
 
-| Sprint | Calculators | Category |
-|--------|-------------|----------|
-| 2.1 | BMI Calculator | Health |
-| 2.2 | BMR Calculator, TDEE Calculator | Health |
-| 2.3 | Body Fat Calculator | Health |
-| 2.4 | Ideal Weight Calculator, Macro Calculator | Health |
+| Sprint | Calculators | Category | Status |
+|--------|-------------|----------|--------|
+| 2.1 | BMI Calculator | Health | ✅ Done |
+| 2.2 | TDEE Calculator | Health | ✅ Done |
+| 2.3 | Body Fat Calculator, Macro Calculator | Health | 🔄 In Progress |
+| 2.4 | Ideal Weight Calculator, Target Heart Rate | Health | 🔄 Pending |
 
 **Outcome:** Health & Fitness complete (6/6)
 
@@ -694,4 +742,4 @@ All 6 finance calculators have been implemented:
 
 ---
 
-*Last updated: January 6, 2026*
+*Last updated: January 15, 2026*

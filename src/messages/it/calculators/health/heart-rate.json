@@ -1,0 +1,129 @@
+{
+  "title": "Calcolatore Frequenza Cardiaca Target",
+  "description": "Calcola le tue zone di frequenza cardiaca target usando il metodo Karvonen. Trova la tua intensita di allenamento ottimale per bruciare grassi, cardio e prestazioni massime in base alla tua eta e frequenza cardiaca a riposo.",
+  "meta": {
+    "title": "Calcolatore Frequenza Cardiaca Target Gratuito - Zone di Allenamento [2026]",
+    "description": "Calcola le tue zone di frequenza cardiaca target con il nostro calcolatore gratuito. Trova le zone ottimali per bruciare grassi, cardio e prestazioni usando il metodo Karvonen approvato dall'ACSM.",
+    "keywords": "calcolatore frequenza cardiaca target, calcolatore zone cardiache, metodo karvonen calcolatore, calcolatore zone allenamento, calcolatore frequenza massima, zona brucia grassi, zona cardio, riserva frequenza cardiaca"
+  },
+  "inputs": {
+    "age": "Eta",
+    "ageYears": "Eta (anni)",
+    "restingHeartRate": "Frequenza Cardiaca a Riposo",
+    "restingHRBpm": "Frequenza Cardiaca a Riposo (bpm)",
+    "restingHRHelp": "Misura la tua frequenza cardiaca a riposo appena sveglio al mattino prima di alzarti dal letto. Conta il polso per 60 secondi o per 15 secondi e moltiplica per 4.",
+    "trainingGoal": "Obiettivo di Allenamento",
+    "trainingGoalOptional": "Obiettivo di Allenamento (opzionale)",
+    "goals": {
+      "none": "Seleziona un obiettivo...",
+      "general-fitness": "Fitness Generale",
+      "fat-burn": "Bruciare Grassi",
+      "cardio": "Salute Cardiovascolare",
+      "performance": "Prestazioni Atletiche"
+    }
+  },
+  "actions": {
+    "calculate": "Calcola Zone Cardiache",
+    "reset": "Reimposta"
+  },
+  "results": {
+    "title": "Le Tue Zone di Frequenza Cardiaca",
+    "maxHeartRate": "FC Massima",
+    "heartRateReserve": "Riserva di FC",
+    "trainingZones": "Zone di Allenamento",
+    "recommendedZone": "Raccomandata",
+    "intensity": "Intensita",
+    "heartRateRange": "Range di FC"
+  },
+  "zones": {
+    "zone1": {
+      "name": "Riscaldamento",
+      "description": "Attivita molto leggera per riscaldamento e recupero. Ideale per principianti e giorni di recupero attivo.",
+      "benefits": "Migliora il recupero, riduce lo stress, costruisce la base aerobica"
+    },
+    "zone2": {
+      "name": "Brucia Grassi",
+      "description": "Attivita aerobica leggera che utilizza principalmente i grassi come combustibile. Sostenibile per lunghi periodi.",
+      "benefits": "Massimizza la combustione dei grassi, migliora la resistenza, delicato sulle articolazioni"
+    },
+    "zone3": {
+      "name": "Cardio",
+      "description": "Esercizio aerobico moderato che migliora la forma cardiovascolare e la resistenza.",
+      "benefits": "Rafforza il cuore, migliora la resistenza, aumenta la capacita aerobica"
+    },
+    "zone4": {
+      "name": "Soglia",
+      "description": "Allenamento vigoroso alla soglia anaerobica. Impegnativo ma sostenibile per periodi piu brevi.",
+      "benefits": "Aumenta la velocita, migliora la soglia del lattato, sviluppa la potenza"
+    },
+    "zone5": {
+      "name": "Picco",
+      "description": "Sforzo massimo in brevi raffiche. Usato per l'allenamento a intervalli ad alta intensita (HIIT).",
+      "benefits": "Massimizza le prestazioni, aumenta il VO2 max, sviluppa la potenza esplosiva"
+    }
+  },
+  "units": {
+    "bpm": "bpm",
+    "years": "anni"
+  },
+  "validation": {
+    "ageRequired": "L'eta e obbligatoria",
+    "ageInvalid": "Inserisci un'eta valida",
+    "agePositive": "L'eta deve essere un numero positivo",
+    "ageTooLow": "L'eta deve essere di almeno 10 anni",
+    "ageTooHigh": "L'eta deve essere 120 anni o meno",
+    "restingHRRequired": "La frequenza cardiaca a riposo e obbligatoria",
+    "restingHRInvalid": "Inserisci una frequenza cardiaca valida",
+    "restingHRPositive": "La frequenza cardiaca deve essere un numero positivo",
+    "restingHRTooLow": "La frequenza cardiaca a riposo deve essere di almeno 30 bpm",
+    "restingHRTooHigh": "La frequenza cardiaca a riposo deve essere 120 bpm o meno",
+    "restingHRExceedsMax": "La frequenza cardiaca a riposo non puo superare la tua frequenza cardiaca massima"
+  },
+  "disclaimer": {
+    "text": "Questo calcolatore fornisce stime basate sul metodo Karvonen usando la formula standard 220-eta per la frequenza cardiaca massima. I risultati individuali possono variare. Per una guida all'allenamento precisa, consulta un professionista sanitario o un allenatore certificato.",
+    "note": "Le zone di allenamento della frequenza cardiaca sono linee guida generali. Fattori come il livello di forma fisica, farmaci, consumo di caffeina e condizioni di salute possono influenzare la tua risposta effettiva della frequenza cardiaca. Ascolta sempre il tuo corpo durante l'esercizio."
+  },
+  "seo": {
+    "whatIsTitle": "Cos'e la Frequenza Cardiaca Target?",
+    "whatIsContent": "La frequenza cardiaca target (FCT) e l'intervallo ideale di frequenza cardiaca per l'esercizio che ti permette di allenarti all'intensita giusta per i tuoi obiettivi di fitness. Allenarsi entro zone specifiche di frequenza cardiaca aiuta a ottimizzare i tuoi allenamenti, che tu voglia bruciare grassi, migliorare la salute cardiovascolare o aumentare le prestazioni atletiche. Comprendendo le tue zone di frequenza cardiaca target, puoi esercitarti in modo piu efficace e sicuro massimizzando i benefici del tuo allenamento.",
+    "karvonenMethodTitle": "Il Metodo Karvonen Spiegato",
+    "karvonenMethodContent": "Il metodo Karvonen e una formula scientificamente validata approvata dall'American College of Sports Medicine (ACSM) per calcolare la frequenza cardiaca target. A differenza dei semplici metodi basati su percentuali, tiene conto della tua frequenza cardiaca a riposo, rendendolo piu personalizzato e accurato per individui a diversi livelli di forma fisica.",
+    "karvonenMethodFormula": "FC Max = 220 - Eta\nRiserva di FC (RFC) = FC Max - FC Riposo\nFC Target = (RFC x Intensita%) + FC Riposo",
+    "zonesTitle": "Comprendere le Zone di Allenamento della Frequenza Cardiaca",
+    "howToMeasureTitle": "Come Misurare la Tua Frequenza Cardiaca a Riposo",
+    "howToMeasureContent": "La tua frequenza cardiaca a riposo e un dato chiave per calcoli accurati. Ecco come misurarla correttamente:",
+    "howToMeasureStep1": "Misura appena sveglio al mattino prima di alzarti dal letto, quando sei piu rilassato",
+    "howToMeasureStep2": "Posiziona due dita (non il pollice) sul polso sotto la base del pollice, o sul collo accanto alla trachea",
+    "howToMeasureStep3": "Conta i battiti cardiaci per 60 secondi, o conta per 15 secondi e moltiplica per 4",
+    "howToMeasureStep4": "Ripeti per 3-5 giorni e fai la media per il risultato piu accurato",
+    "howToUseTitle": "Come Usare Questo Calcolatore",
+    "howToUseStep1": "Inserisci la tua eta in anni usando il campo di input o lo slider",
+    "howToUseStep2": "Inserisci la tua frequenza cardiaca a riposo in battiti al minuto (bpm)",
+    "howToUseStep3": "Opzionalmente seleziona il tuo obiettivo di allenamento per vedere la tua zona raccomandata",
+    "howToUseStep4": "Visualizza la tua frequenza cardiaca massima e la tua riserva di frequenza cardiaca",
+    "howToUseStep5": "Esamina tutte e cinque le zone di allenamento con i loro range di frequenza cardiaca e benefici",
+    "tipsTitle": "Consigli per l'Allenamento con la Frequenza Cardiaca",
+    "tip1": "Riscaldati sempre nella Zona 1 per 5-10 minuti prima di passare a zone di intensita superiore",
+    "tip2": "Per la perdita di peso, trascorri la maggior parte del tempo di allenamento nelle Zone 2-3 per una combustione ottimale dei grassi",
+    "tip3": "Usa un cardiofrequenzimetro o un fitness tracker per un feedback accurato in tempo reale durante l'esercizio",
+    "tip4": "Consenti un adeguato recupero tra le sessioni ad alta intensita - non allenarti nelle Zone 4-5 ogni giorno",
+    "tip5": "La tua frequenza cardiaca a riposo diminuisce man mano che la tua forma fisica migliora - ricalcola le tue zone ogni pochi mesi",
+    "faqTitle": "Domande Frequenti",
+    "faq1Question": "Qual e la differenza tra frequenza cardiaca massima e frequenza cardiaca target?",
+    "faq1Answer": "La frequenza cardiaca massima (FC Max) e il numero piu alto di battiti che il tuo cuore puo raggiungere in un minuto durante lo sforzo fisico massimo. La frequenza cardiaca target (FCT) e un intervallo di frequenze cardiache che miri a mantenere durante l'esercizio per raggiungere obiettivi di fitness specifici. La tua FCT varia a seconda della zona di allenamento e degli obiettivi di forma fisica.",
+    "faq2Question": "La formula 220-eta e accurata?",
+    "faq2Answer": "La formula 220-eta e una stima ampiamente utilizzata che funziona bene per la maggior parte degli adulti. Tuttavia, la frequenza cardiaca massima effettiva puo variare di 10-15 bpm tra individui della stessa eta. Per misurazioni precise, considera un test da sforzo massimale supervisionato con un professionista sanitario. Il metodo Karvonen migliora l'accuratezza considerando anche la tua frequenza cardiaca a riposo.",
+    "faq3Question": "Quale zona e migliore per bruciare grassi?",
+    "faq3Answer": "La Zona 2 (60-70% di intensita) e spesso chiamata 'zona brucia grassi' perche una percentuale maggiore di calorie bruciate proviene dai grassi a questa intensita. Tuttavia, le zone di intensita superiore bruciano piu calorie totali. Per la perdita di peso, una combinazione di allenamento in Zona 2 per sessioni piu lunghe e intervalli in Zona 3-4 puo essere piu efficace.",
+    "faq4Question": "Quanto tempo dovrei esercitarmi in ogni zona?",
+    "faq4Answer": "Per la forma fisica generale, punta a 20-60 minuti nelle Zone 2-3. Per bruciare grassi, 30-60 minuti in Zona 2 e ideale. L'allenamento in Zona 4-5 dovrebbe essere limitato a intervalli di 30 secondi a 5 minuti con periodi di recupero. I principianti dovrebbero iniziare con le Zone 1-2 e gradualmente progredire verso zone di intensita superiore nel corso di settimane.",
+    "faq5Question": "Cosa succede se non riesco a raggiungere la mia frequenza cardiaca target?",
+    "faq5Answer": "Se fai fatica a raggiungere zone piu alte, potresti dover aumentare l'intensita dell'esercizio (ritmo piu veloce, pendenza piu ripida, ecc.). Se sei nuovo all'esercizio, il tuo sistema cardiovascolare ha bisogno di tempo per adattarsi - concentrati prima sulle Zone 2-3. Se prendi beta-bloccanti o altri farmaci cardiaci, la tua risposta della frequenza cardiaca potrebbe essere attenuata; consulta il tuo medico per linee guida di allenamento modificate.",
+    "faq6Question": "Posso allenarmi in Zona 5 ogni giorno?",
+    "faq6Answer": "No, l'allenamento in Zona 5 crea stress significativo sul tuo corpo e richiede 24-48 ore di recupero. Allenarsi a intensita massima ogni giorno aumenta il rischio di infortuni e puo portare alla sindrome da sovrallenamento. La maggior parte dei programmi di allenamento raccomanda il lavoro in Zona 5 1-2 volte a settimana, con la maggior parte dell'allenamento nelle Zone 2-3.",
+    "faq7Question": "Perche la mia frequenza cardiaca e piu alta del previsto durante l'esercizio?",
+    "faq7Answer": "Diversi fattori possono elevare la tua frequenza cardiaca durante l'esercizio: disidratazione, caffeina, stress, mancanza di sonno, calore, altitudine o malattia. Alcuni farmaci possono anche influenzare la frequenza cardiaca. Se la tua frequenza cardiaca e costantemente molto piu alta del previsto, considera di consultare un professionista sanitario per escludere condizioni sottostanti.",
+    "faq8Question": "Con che frequenza dovrei ricalcolare le mie zone di frequenza cardiaca?",
+    "faq8Answer": "Ricalcola le tue zone ogni 2-3 mesi, o ogni volta che il tuo livello di forma fisica cambia significativamente. Man mano che diventi piu in forma, la tua frequenza cardiaca a riposo tipicamente diminuisce, il che influenza la tua riserva di frequenza cardiaca e le zone di allenamento. Il ricalcolo regolare assicura che il tuo allenamento rimanga adeguatamente stimolante."
+  }
+}
