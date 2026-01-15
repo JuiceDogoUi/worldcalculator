@@ -1,0 +1,107 @@
+{
+  "title": "Volumenumrechner",
+  "description": "Rechnen Sie zwischen metrischen (Milliliter, Liter, Kubikmeter) und imperialen (Flüssigunzen, Tassen, Pints, Quarts, Gallonen) Volumeneinheiten um. Enthält sowohl US- als auch UK-imperiale Maße.",
+  "meta": {
+    "title": "Kostenloser Volumenumrechner - Liter zu Gallonen [2026]",
+    "description": "Rechnen Sie Volumeneinheiten sofort um: Liter zu Gallonen, Milliliter zu Flüssigunzen, Tassen zu mL und mehr. Unterstützt US- und UK-Maße.",
+    "keywords": "volumenumrechner, liter zu gallonen, gallonen zu liter, ml zu oz, tassen zu ml, pint umrechner, quart umrechner, metrisch zu imperial volumen, UK gallon vs US gallon, flüssigunzen umrechner"
+  },
+  "inputs": {
+    "value": "Wert",
+    "fromUnit": "Von",
+    "toUnit": "Nach"
+  },
+  "outputs": {
+    "result": "Ergebnis",
+    "allConversions": "Alle Umrechnungen"
+  },
+  "actions": {
+    "swap": "Einheiten tauschen",
+    "reset": "Zurücksetzen",
+    "copy": "Ergebnis kopieren",
+    "copied": "Kopiert!",
+    "showAllConversions": "Alle Umrechnungen anzeigen",
+    "hideAllConversions": "Alle Umrechnungen ausblenden"
+  },
+  "unitGroups": {
+    "metric": "Metrisch",
+    "usImperial": "Imperial (US)",
+    "ukImperial": "Imperial (UK)",
+    "other": "Andere"
+  },
+  "units": {
+    "milliliter": "Milliliter",
+    "liter": "Liter",
+    "cubicMeter": "Kubikmeter",
+    "teaspoonUs": "Teelöffel (US)",
+    "tablespoonUs": "Esslöffel (US)",
+    "fluidOunceUs": "Flüssigunze (US)",
+    "cupUs": "Tasse (US)",
+    "pintUs": "Pint (US)",
+    "quartUs": "Quart (US)",
+    "gallonUs": "Gallone (US)",
+    "fluidOunceUk": "Flüssigunze (UK)",
+    "pintUk": "Pint (UK)",
+    "quartUk": "Quart (UK)",
+    "gallonUk": "Gallone (UK)",
+    "cubicInch": "Kubikzoll",
+    "cubicFoot": "Kubikfuß"
+  },
+  "validation": {
+    "enterValue": "Bitte geben Sie einen Wert ein",
+    "invalidNumber": "Bitte geben Sie eine gültige Zahl ein",
+    "negativeValue": "Der Wert darf nicht negativ sein",
+    "valueTooLarge": "Der Wert ist zu groß"
+  },
+  "disclaimer": {
+    "text": "Dieser Umrechner bietet präzise Umrechnungen basierend auf Standarddefinitionen. US- und UK-imperiale Einheiten unterscheiden sich - überprüfen Sie immer, welches System für Ihre Bedürfnisse gilt. Für präzise wissenschaftliche oder kommerzielle Messungen konsultieren Sie offizielle Standards."
+  },
+  "seo": {
+    "whatIsTitle": "Was ist Volumenumrechnung?",
+    "whatIsContent": "Volumenumrechnung ist der Prozess, eine Messung von einer Einheit in eine andere zu ändern, während die gleiche Menge an Raum oder Kapazität erhalten bleibt. Dies ist unerlässlich bei der Arbeit mit Rezepten, wissenschaftlichen Experimenten, Kraftstoffmessungen oder jeder Situation, in der unterschiedliche Messsysteme verwendet werden. Unser Volumenumrechner unterstützt metrische Einheiten (Milliliter, Liter, Kubikmeter), US-imperiale Einheiten (Tassen, Pints, Quarts, Gallonen) und UK-imperiale Einheiten, die sich erheblich von ihren US-Gegenstücken unterscheiden.",
+    "usVsUkTitle": "US- vs. UK-Imperiale Maße",
+    "usVsUkContent": "Die Vereinigten Staaten und das Vereinigte Königreich verwenden unterschiedliche Definitionen für imperiale Volumenmaße. Dieser Unterschied entstand 1824, als das Vereinigte Königreich die imperiale Gallone auf der Grundlage von 10 Pfund Wasser bei 62°F standardisierte, während die USA die ältere Queen-Anne-Weingallone beibehielten. Das Verständnis dieser Unterschiede ist entscheidend, wenn man Rezepten oder Spezifikationen aus verschiedenen Ländern folgt.",
+    "usVsUkComparison1": "US-Gallone = 3,785 Liter (128 US-Flüssigunzen)",
+    "usVsUkComparison2": "UK-Gallone = 4,546 Liter (160 UK-Flüssigunzen) - 20% größer als US",
+    "usVsUkComparison3": "US-Pint = 473 mL (16 US-Flüssigunzen)",
+    "usVsUkComparison4": "UK-Pint = 568 mL (20 UK-Flüssigunzen) - 20% größer als US",
+    "commonUsesTitle": "Häufige Verwendungen der Volumenumrechnung",
+    "commonUse1": "Kochen und Backen - Rezeptmaße zwischen metrischen und imperialen Systemen umrechnen, besonders bei internationalen Rezepten",
+    "commonUse2": "Kraftstoff und Automobil - Zwischen Litern und Gallonen für Kraftstoffeffizienzberechnungen und Tankkapazität umrechnen",
+    "commonUse3": "Wissenschaft und Labor - Zwischen Millilitern und Flüssigunzen für Experimente und chemische Messungen umrechnen",
+    "commonUse4": "Getränke und Verpackung - Produktgrößen in verschiedenen Märkten verstehen (US, UK, metrische Länder)",
+    "commonUse5": "Heimwerken - Mengen an Farbe, Chemikalien oder anderen Flüssigkeiten für Projekte berechnen",
+    "howToUseTitle": "So verwenden Sie diesen Volumenumrechner",
+    "howToUseStep1": "Geben Sie den Volumenwert ein, den Sie umrechnen möchten, in das Eingabefeld",
+    "howToUseStep2": "Wählen Sie die Quelleinheit (die Einheit, von der Sie umrechnen) aus dem Dropdown-Menü",
+    "howToUseStep3": "Wählen Sie die Zieleinheit (die Einheit, zu der Sie umrechnen) aus dem Dropdown-Menü",
+    "howToUseStep4": "Das Ergebnis erscheint sofort - verwenden Sie die Tausch-Schaltfläche, um die Umrechnung umzukehren",
+    "howToUseStep5": "Klicken Sie auf 'Alle Umrechnungen anzeigen', um den Wert in allen unterstützten Einheiten auf einmal zu sehen",
+    "conversionTipsTitle": "Tipps zur Volumenumrechnung",
+    "conversionTip1": "Denken Sie daran, dass 1 Liter ungefähr 4,2 US-Tassen oder 3,5 UK-Tassen entspricht - eine nützliche Annäherung zum Kochen",
+    "conversionTip2": "Beim Umrechnen von Rezepten immer überprüfen, ob US- oder UK-Maße verwendet werden - ein UK-Pint ist 20% größer als ein US-Pint",
+    "conversionTip3": "Für grobe Umrechnungen: 1 US-Gallone sind etwa 3,8 Liter, während 1 UK-Gallone etwa 4,5 Liter sind",
+    "conversionTip4": "Metrische Umrechnungen sind einfach: 1 Liter = 1.000 Milliliter, 1 Kubikmeter = 1.000 Liter",
+    "conversionTip5": "Wenn Sie sich über US- vs. UK-Maße unsicher sind, überprüfen Sie das Ursprungsland des Rezepts oder der Spezifikation",
+    "formulaTitle": "Formel zur Volumenumrechnung",
+    "formulaContent": "Ergebnis = Eingabewert × (Quelleinheit in Litern) ÷ (Zieleinheit in Litern)",
+    "formulaExample": "Beispiel: Um 2 US-Gallonen in Liter umzurechnen: 2 × 3,78541 = 7,57082 Liter",
+    "faqTitle": "Häufig gestellte Fragen",
+    "faq1Question": "Was ist der Unterschied zwischen US- und UK-Gallonen?",
+    "faq1Answer": "Eine US-Gallone entspricht 3,785 Litern (128 US-Flüssigunzen), während eine UK-Gallone 4,546 Litern (160 UK-Flüssigunzen) entspricht. Die UK-Gallone ist ungefähr 20% größer als die US-Gallone. Dieser Unterschied betrifft alle verwandten Maße: Pints, Quarts und Flüssigunzen unterscheiden sich ebenfalls zwischen den beiden Systemen.",
+    "faq2Question": "Wie viele Tassen sind in einem Liter?",
+    "faq2Answer": "Ein Liter entspricht ungefähr 4,227 US-Tassen oder 3,52 UK-Tassen. Für praktische Kochzwecke können Sie schätzen, dass 1 Liter etwa 4 US-Tassen sind. Denken Sie daran, dass Tassengrößen international variieren - eine US-Tasse ist 236,6 mL, während eine UK-Tasse 284,1 mL ist.",
+    "faq3Question": "Warum unterscheiden sich US- und UK-Maße?",
+    "faq3Answer": "Der Unterschied geht auf 1824 zurück, als Großbritannien die imperiale Gallone auf der Grundlage von 10 Pfund Wasser bei 62°F standardisierte. Die USA behielten die ältere Queen-Anne-Weingallone bei, die bereits vor der amerikanischen Unabhängigkeit verwendet wurde. Diese unterschiedlichen historischen Standards schufen den 20%-Unterschied, den wir heute sehen.",
+    "faq4Question": "Wie rechne ich Milliliter in Flüssigunzen um?",
+    "faq4Answer": "Um Milliliter in US-Flüssigunzen umzurechnen, dividieren Sie durch 29,5735 (1 US-Flüssigunze = 29,5735 mL). Für UK-Flüssigunzen dividieren Sie durch 28,4131 (1 UK-Flüssigunze = 28,4131 mL). Zum Beispiel entsprechen 100 mL ungefähr 3,38 US-Flüssigunzen oder 3,52 UK-Flüssigunzen.",
+    "faq5Question": "Was ist das metrische Äquivalent einer Tasse?",
+    "faq5Answer": "Eine US-Tasse entspricht 236,588 Millilitern (ungefähr 237 mL oder 0,237 Liter). Eine UK-Tasse entspricht 284,131 Millilitern. Viele Länder, die das metrische System verwenden, definieren eine 'metrische Tasse' als genau 250 mL zur Vereinfachung in Rezepten.",
+    "faq6Question": "Wie viele Liter sind in einem Kubikmeter?",
+    "faq6Answer": "Ein Kubikmeter entspricht genau 1.000 Litern. Dies liegt daran, dass ein Liter ursprünglich als das Volumen eines Kubikdezimeters (10cm × 10cm × 10cm) definiert wurde, und ein Kubikmeter 1.000 Kubikdezimeter enthält.",
+    "faq7Question": "Warum sind Kochmaße in verschiedenen Ländern unterschiedlich?",
+    "faq7Answer": "Kochmaße variieren, weil verschiedene Länder ihre eigenen Systeme vor der Standardisierung entwickelten. Die USA verwenden traditionelle Einheiten, die aus der britischen Kolonialzeit geerbt wurden, während die meisten anderen Länder metrische Maße verwenden. Selbst innerhalb der 'imperialen' Systeme unterscheiden sich die USA und das Vereinigte Königreich erheblich in ihren Definitionen von Pints, Quarts und Gallonen.",
+    "faq8Question": "Wie genau ist dieser Volumenumrechner?",
+    "faq8Answer": "Unser Umrechner verwendet Standard-Umrechnungsfaktoren vom NIST (National Institute of Standards and Technology) und UK-Gesetzgebung. Die Ergebnisse sind auf mindestens 6 Dezimalstellen genau. Für die meisten praktischen Zwecke einschließlich Kochen, Kraftstoffberechnungen und alltäglichen Umrechnungen übertrifft diese Genauigkeit die typische Messgenauigkeit bei weitem."
+  }
+}

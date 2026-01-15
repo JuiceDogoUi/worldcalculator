@@ -1,0 +1,142 @@
+{
+  "title": "Conversor de Área",
+  "description": "Convierte entre unidades de área métricas e imperiales al instante. Perfecto para bienes raíces, medición de terrenos, construcción y conversiones cotidianas.",
+  "meta": {
+    "title": "Conversor de Área Gratis - Metros, Pies Cuadrados, Acres [2026]",
+    "description": "Convierte unidades de área al instante: metros cuadrados a pies cuadrados, acres a hectáreas y más. Herramienta gratuita para inmobiliaria y construcción.",
+    "keywords": "conversor de área, metros cuadrados a pies cuadrados, acres a hectáreas, calculadora de área, conversor de superficie, convertidor de hectáreas, calculadora de acres, medición de terrenos, conversor inmobiliario"
+  },
+  "inputs": {
+    "value": "Valor del Área",
+    "fromUnit": "De la Unidad",
+    "toUnit": "A la Unidad"
+  },
+  "results": {
+    "result": "Resultado",
+    "allConversions": "Todas las Conversiones",
+    "formula": "Fórmula de Conversión",
+    "conversionFactor": "Factor de conversión",
+    "realEstateContext": "Contexto Inmobiliario",
+    "landMeasurement": "Medición de Terrenos"
+  },
+  "actions": {
+    "swap": "Intercambiar unidades",
+    "reset": "Restablecer"
+  },
+  "units": {
+    "metricUnits": "Unidades Métricas",
+    "imperialUnits": "Unidades Imperiales/US",
+    "mm2": {
+      "name": "Milímetros Cuadrados",
+      "abbr": "mm²"
+    },
+    "cm2": {
+      "name": "Centímetros Cuadrados",
+      "abbr": "cm²"
+    },
+    "m2": {
+      "name": "Metros Cuadrados",
+      "abbr": "m²"
+    },
+    "km2": {
+      "name": "Kilómetros Cuadrados",
+      "abbr": "km²"
+    },
+    "hectare": {
+      "name": "Hectáreas",
+      "abbr": "ha"
+    },
+    "in2": {
+      "name": "Pulgadas Cuadradas",
+      "abbr": "in²"
+    },
+    "ft2": {
+      "name": "Pies Cuadrados",
+      "abbr": "ft²"
+    },
+    "yd2": {
+      "name": "Yardas Cuadradas",
+      "abbr": "yd²"
+    },
+    "acre": {
+      "name": "Acres",
+      "abbr": "ac"
+    },
+    "mi2": {
+      "name": "Millas Cuadradas",
+      "abbr": "mi²"
+    }
+  },
+  "validation": {
+    "valueRequired": "Por favor, ingrese un valor de área",
+    "valueNegative": "El área no puede ser negativa",
+    "valueInvalid": "Por favor, ingrese un número válido",
+    "valueMax": "El valor supera el límite máximo"
+  },
+  "disclaimer": {
+    "text": "Este conversor proporciona conversiones precisas basadas en factores de conversión estándar. Para estudios oficiales, documentos legales o aplicaciones de alta precisión, consulte a un topógrafo autorizado o utilice herramientas de medición certificadas.",
+    "note": "Los factores de conversión se basan en estándares internacionales del NIST (Instituto Nacional de Estándares y Tecnología) y BIPM (Oficina Internacional de Pesas y Medidas)."
+  },
+  "seo": {
+    "whatIsTitle": "¿Qué es un Conversor de Área?",
+    "whatIsContent": "Un conversor de área es una herramienta que transforma mediciones entre diferentes unidades de superficie. Ya sea que trabajes con metros cuadrados, pies cuadrados, acres o hectáreas, este conversor maneja todas las unidades métricas e imperiales comunes. Es esencial para profesionales inmobiliarios, topógrafos, trabajadores de construcción, arquitectos y cualquiera que trabaje con mediciones de propiedades en diferentes sistemas de medición.",
+    "whenToUseTitle": "Cuándo Usar un Conversor de Área",
+    "whenToUseIntro": "Utiliza este conversor de área siempre que necesites:",
+    "whenToUsePoint1": "Comparar tamaños de propiedades listados en diferentes unidades (ej., apartamentos en m² vs ft²)",
+    "whenToUsePoint2": "Calcular el área de terrenos para propósitos agrícolas o de desarrollo",
+    "whenToUsePoint3": "Convertir planos de construcción entre mediciones métricas e imperiales",
+    "whenToUsePoint4": "Comprender listados inmobiliarios internacionales al comprar o vender propiedades",
+    "whenToUsePoint5": "Verificar cálculos de área para proyectos de pisos, techos o paisajismo",
+    "unitTypesTitle": "Tipos de Unidades de Área",
+    "unitTypeMetric": "Unidades Métricas - Milímetros cuadrados (mm²), centímetros (cm²), metros (m²), kilómetros (km²) y hectáreas (ha). Utilizadas mundialmente, especialmente en contextos científicos.",
+    "unitTypeImperial": "Unidades Imperiales/US - Pulgadas cuadradas (in²), pies (ft²), yardas (yd²), acres y millas cuadradas (mi²). Comunes en Estados Unidos, Reino Unido y antiguas colonias británicas.",
+    "unitTypeRealEstate": "Unidades Inmobiliarias - Los pies cuadrados y metros cuadrados son los más comunes para propiedades residenciales. Las hectáreas y acres se usan para parcelas de terreno más grandes.",
+    "unitTypeLand": "Medición de Terrenos - Los acres (comunes en EE.UU./Reino Unido) y hectáreas (usadas internacionalmente) son las unidades estándar para medir terrenos agrícolas y no desarrollados.",
+    "benefitsTitle": "¿Por Qué Usar Este Conversor de Área?",
+    "benefit1": "Convierte instantáneamente entre 10 unidades de área diferentes con alta precisión",
+    "benefit2": "Ve todos los valores equivalentes de una vez - no necesitas convertir varias veces",
+    "benefit3": "Perfecto para comparaciones inmobiliarias internacionales e investigación de propiedades",
+    "benefit4": "Esencial para proyectos de construcción que usan planos de diferentes países",
+    "benefit5": "Ahorra tiempo en cálculos manuales y elimina errores de conversión",
+    "howToUseTitle": "Cómo Usar el Conversor de Área",
+    "howToUseStep1": "Ingresa el valor de área que deseas convertir en el campo de entrada",
+    "howToUseStep2": "Selecciona la unidad desde la que estás convirtiendo (ej., metros cuadrados)",
+    "howToUseStep3": "Selecciona la unidad a la que deseas convertir (ej., pies cuadrados)",
+    "howToUseStep4": "Visualiza el resultado instantáneo y la fórmula de conversión",
+    "howToUseStep5": "Consulta la sección 'Todas las Conversiones' para ver el valor en cada unidad soportada",
+    "commonConversionsTitle": "Conversiones de Área Comunes",
+    "commonConversion1": "1 metro cuadrado (m²) = 10,764 pies cuadrados (ft²)",
+    "commonConversion2": "1 acre = 4.046,86 metros cuadrados (m²) = 0,4047 hectáreas",
+    "commonConversion3": "1 hectárea (ha) = 10.000 metros cuadrados = 2,471 acres",
+    "commonConversion4": "1 pie cuadrado (ft²) = 0,0929 metros cuadrados (m²)",
+    "realEstateTitle": "Conversión de Área para Bienes Raíces",
+    "realEstateContent": "En bienes raíces, las mediciones de área son críticas para la valoración de propiedades, comparación de opciones y documentación legal. En Estados Unidos, los pies cuadrados (ft²) son la unidad estándar para propiedades residenciales, mientras que la mayoría de otros países usan metros cuadrados (m²). Para parcelas de terreno más grandes, los acres son comunes en EE.UU. y Reino Unido, mientras que las hectáreas son el estándar internacional. Al ver listados inmobiliarios internacionales, siempre verifica qué sistema de unidades se está utilizando para evitar malentendidos costosos. Un apartamento de 100 m² equivale aproximadamente a 1.076 ft², y un terreno de 1 acre equivale a unos 4.047 m² o 0,4 hectáreas.",
+    "formulaTitle": "Fórmula de Conversión de Área",
+    "formulaContent": "Valor en unidad objetivo = Valor en unidad origen × (Factor de unidad origen / Factor de unidad objetivo)",
+    "formulaExample": "Todas las conversiones usan metros cuadrados (m²) como unidad base. Por ejemplo: 100 ft² × 0,0929 m²/ft² = 9,29 m²",
+    "tipsTitle": "Consejos para Mediciones de Área Precisas",
+    "tip1": "Al comparar tamaños de propiedades internacionalmente, siempre verifica el sistema de unidades utilizado",
+    "tip2": "En bienes raíces, los pies cuadrados generalmente se refieren al espacio habitable interior, no al tamaño total del terreno",
+    "tip3": "Los terrenos agrícolas se miden usualmente en acres (EE.UU./Reino Unido) o hectáreas (internacional)",
+    "tip4": "Los códigos de construcción y regulaciones de zonificación pueden especificar límites de área en unidades específicas - convierte con cuidado",
+    "tip5": "Recuerda que las unidades de área escalan con el cuadrado de las unidades de longitud (1 m = 3,28 ft, pero 1 m² = 10,76 ft²)",
+    "tip6": "Para estimaciones de construcción, siempre añade 10-15% de material extra para tener en cuenta desperdicios y cortes",
+    "faqTitle": "Preguntas Frecuentes",
+    "faq1Question": "¿Cómo convierto pies cuadrados a metros cuadrados?",
+    "faq1Answer": "Para convertir pies cuadrados a metros cuadrados, multiplica el valor en pies cuadrados por 0,0929. Por ejemplo, 1.000 ft² × 0,0929 = 92,9 m². Por el contrario, para convertir metros cuadrados a pies cuadrados, multiplica por 10,764. Nuestro conversor realiza este cálculo instantáneamente para ti.",
+    "faq2Question": "¿Cuántos acres hay en una hectárea?",
+    "faq2Answer": "Una hectárea equivale aproximadamente a 2,471 acres. Por el contrario, un acre equivale aproximadamente a 0,4047 hectáreas. Las hectáreas son la unidad preferida para la medición de terrenos en la mayoría de países fuera de Estados Unidos y Reino Unido.",
+    "faq3Question": "¿Cuál es la diferencia entre una hectárea y un acre?",
+    "faq3Answer": "Una hectárea es más grande que un acre - una hectárea equivale a aproximadamente 2,47 acres. Las hectáreas son unidades métricas equivalentes a 10.000 metros cuadrados, mientras que los acres son unidades imperiales equivalentes a 43.560 pies cuadrados. Las hectáreas se usan internacionalmente, mientras que los acres se usan principalmente en EE.UU., Reino Unido y algunas antiguas colonias británicas.",
+    "faq4Question": "¿Cómo convierto el área de una habitación de metros cuadrados a pies cuadrados?",
+    "faq4Answer": "Multiplica la medida en metros cuadrados por 10,764 para obtener pies cuadrados. Por ejemplo, una habitación de 20 m² equivale a 215,28 ft² (20 × 10,764). Esto es útil al comparar tamaños de apartamentos entre países que usan diferentes sistemas de medición.",
+    "faq5Question": "¿Qué unidad de área se usa para medir apartamentos?",
+    "faq5Answer": "En Estados Unidos, los apartamentos se miden en pies cuadrados (ft²). En la mayoría de otros países, incluyendo Europa, Asia y Australia, los metros cuadrados (m²) son el estándar. Al buscar propiedades internacionales, asegúrate de verificar qué unidad se está usando y convierte si es necesario.",
+    "faq6Question": "¿Qué tan grande es un metro cuadrado en pies cuadrados?",
+    "faq6Answer": "Un metro cuadrado equivale aproximadamente a 10,764 pies cuadrados. Esto significa que una habitación de 1 metro por 1 metro (1 m²) equivale aproximadamente a 10,76 pies cuadrados. Comprender esta conversión es esencial al comparar tamaños de propiedades internacionalmente.",
+    "faq7Question": "¿Cuántos pies cuadrados hay en un acre?",
+    "faq7Answer": "Un acre contiene exactamente 43.560 pies cuadrados. Esto equivale aproximadamente a 4.047 metros cuadrados o alrededor de 0,405 hectáreas. Un acre es aproximadamente del tamaño de un campo de fútbol americano (sin las zonas de anotación), lo que facilita visualizar los tamaños de terreno.",
+    "faq8Question": "¿Cuál es la mejor unidad para medir áreas de terreno grandes?",
+    "faq8Answer": "Para áreas de terreno grandes, usa hectáreas (internacionalmente) o acres (EE.UU./Reino Unido). Los kilómetros cuadrados se usan para áreas muy grandes como ciudades o regiones. Como referencia: las granjas pequeñas suelen tener 10-50 hectáreas (25-125 acres), mientras que las grandes pueden tener cientos o miles de hectáreas."
+  }
+}

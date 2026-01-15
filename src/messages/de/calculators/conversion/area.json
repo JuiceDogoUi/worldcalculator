@@ -1,0 +1,142 @@
+{
+  "title": "Flächenrechner",
+  "description": "Konvertieren Sie sofort zwischen metrischen und imperialen Flächeneinheiten. Perfekt für Immobilien, Landvermessung, Bauwesen und alltägliche Umrechnungen.",
+  "meta": {
+    "title": "Kostenloser Flächenrechner - Quadratmeter, Fuß, Hektar [2026]",
+    "description": "Konvertieren Sie Flächeneinheiten sofort: Quadratmeter in Quadratfuß, Acres in Hektar und mehr. Kostenloses Tool für Immobilien und Bauwesen.",
+    "keywords": "flächenrechner, quadratmeter in quadratfuß, acres in hektar, flächenumrechner, hektar rechner, acre rechner, grundstücksvermessung, immobilien umrechner"
+  },
+  "inputs": {
+    "value": "Flächenwert",
+    "fromUnit": "Von Einheit",
+    "toUnit": "Nach Einheit"
+  },
+  "results": {
+    "result": "Ergebnis",
+    "allConversions": "Alle Umrechnungen",
+    "formula": "Umrechnungsformel",
+    "conversionFactor": "Umrechnungsfaktor",
+    "realEstateContext": "Immobilienkontext",
+    "landMeasurement": "Grundstücksvermessung"
+  },
+  "actions": {
+    "swap": "Einheiten tauschen",
+    "reset": "Zurücksetzen"
+  },
+  "units": {
+    "metricUnits": "Metrische Einheiten",
+    "imperialUnits": "Imperiale/US-Einheiten",
+    "mm2": {
+      "name": "Quadratmillimeter",
+      "abbr": "mm²"
+    },
+    "cm2": {
+      "name": "Quadratzentimeter",
+      "abbr": "cm²"
+    },
+    "m2": {
+      "name": "Quadratmeter",
+      "abbr": "m²"
+    },
+    "km2": {
+      "name": "Quadratkilometer",
+      "abbr": "km²"
+    },
+    "hectare": {
+      "name": "Hektar",
+      "abbr": "ha"
+    },
+    "in2": {
+      "name": "Quadratzoll",
+      "abbr": "in²"
+    },
+    "ft2": {
+      "name": "Quadratfuß",
+      "abbr": "ft²"
+    },
+    "yd2": {
+      "name": "Quadratyard",
+      "abbr": "yd²"
+    },
+    "acre": {
+      "name": "Acres",
+      "abbr": "ac"
+    },
+    "mi2": {
+      "name": "Quadratmeilen",
+      "abbr": "mi²"
+    }
+  },
+  "validation": {
+    "valueRequired": "Bitte geben Sie einen Flächenwert ein",
+    "valueNegative": "Die Fläche kann nicht negativ sein",
+    "valueInvalid": "Bitte geben Sie eine gültige Zahl ein",
+    "valueMax": "Der Wert überschreitet das Maximum"
+  },
+  "disclaimer": {
+    "text": "Dieser Umrechner liefert präzise Umrechnungen auf Basis standardisierter Umrechnungsfaktoren. Für offizielle Vermessungen, rechtliche Dokumente oder Anwendungen mit hoher Präzision konsultieren Sie einen zertifizierten Vermesser oder verwenden Sie zertifizierte Messinstrumente.",
+    "note": "Die Umrechnungsfaktoren basieren auf internationalen Standards des NIST (National Institute of Standards and Technology) und BIPM (Internationales Büro für Maß und Gewicht)."
+  },
+  "seo": {
+    "whatIsTitle": "Was ist ein Flächenrechner?",
+    "whatIsContent": "Ein Flächenrechner ist ein Werkzeug, das Messungen zwischen verschiedenen Flächeneinheiten umwandelt. Ob Sie mit Quadratmetern, Quadratfuß, Acres oder Hektar arbeiten, dieser Umrechner verarbeitet alle gängigen metrischen und imperialen Flächeneinheiten. Er ist unverzichtbar für Immobilienprofis, Landvermesser, Bauarbeiter, Architekten und alle, die mit Grundstücksmessungen in verschiedenen Maßsystemen arbeiten.",
+    "whenToUseTitle": "Wann man einen Flächenrechner verwendet",
+    "whenToUseIntro": "Verwenden Sie diesen Flächenrechner, wenn Sie:",
+    "whenToUsePoint1": "Immobiliengrößen vergleichen müssen, die in verschiedenen Einheiten angegeben sind (z.B. Wohnungen in m² vs ft²)",
+    "whenToUsePoint2": "Grundstücksflächen für landwirtschaftliche oder Entwicklungszwecke berechnen",
+    "whenToUsePoint3": "Baupläne zwischen metrischen und imperialen Messungen umrechnen",
+    "whenToUsePoint4": "Internationale Immobilienangebote beim Kauf oder Verkauf von Immobilien verstehen",
+    "whenToUsePoint5": "Flächenberechnungen für Bodenbeläge, Dacharbeiten oder Landschaftsprojekte überprüfen",
+    "unitTypesTitle": "Arten von Flächeneinheiten",
+    "unitTypeMetric": "Metrische Einheiten - Quadratmillimeter (mm²), Zentimeter (cm²), Meter (m²), Kilometer (km²) und Hektar (ha). Weltweit verwendet, insbesondere in wissenschaftlichen Kontexten.",
+    "unitTypeImperial": "Imperiale/US-Einheiten - Quadratzoll (in²), Fuß (ft²), Yards (yd²), Acres und Quadratmeilen (mi²). Üblich in den USA, Großbritannien und ehemaligen britischen Kolonien.",
+    "unitTypeRealEstate": "Immobilieneinheiten - Quadratfuß und Quadratmeter sind am gebräuchlichsten für Wohnimmobilien. Hektar und Acres werden für größere Grundstücke verwendet.",
+    "unitTypeLand": "Grundstücksvermessung - Acres (üblich in USA/GB) und Hektar (international verwendet) sind die Standardeinheiten für landwirtschaftliche und unbebaute Grundstücke.",
+    "benefitsTitle": "Warum diesen Flächenrechner verwenden?",
+    "benefit1": "Konvertieren Sie sofort zwischen 10 verschiedenen Flächeneinheiten mit hoher Präzision",
+    "benefit2": "Sehen Sie alle äquivalenten Werte auf einmal - keine mehrfachen Umrechnungen nötig",
+    "benefit3": "Perfekt für internationale Immobilienvergleiche und Immobilienrecherche",
+    "benefit4": "Unverzichtbar für Bauprojekte mit Plänen aus verschiedenen Ländern",
+    "benefit5": "Spart Zeit bei manuellen Berechnungen und eliminiert Umrechnungsfehler",
+    "howToUseTitle": "So verwenden Sie den Flächenrechner",
+    "howToUseStep1": "Geben Sie den Flächenwert ein, den Sie umrechnen möchten",
+    "howToUseStep2": "Wählen Sie die Einheit aus, von der Sie umrechnen (z.B. Quadratmeter)",
+    "howToUseStep3": "Wählen Sie die Einheit aus, in die Sie umrechnen möchten (z.B. Quadratfuß)",
+    "howToUseStep4": "Sehen Sie sich das sofortige Ergebnis und die Umrechnungsformel an",
+    "howToUseStep5": "Schauen Sie im Bereich 'Alle Umrechnungen', um den Wert in jeder unterstützten Einheit zu sehen",
+    "commonConversionsTitle": "Häufige Flächenumrechnungen",
+    "commonConversion1": "1 Quadratmeter (m²) = 10,764 Quadratfuß (ft²)",
+    "commonConversion2": "1 Acre = 4.046,86 Quadratmeter (m²) = 0,4047 Hektar",
+    "commonConversion3": "1 Hektar (ha) = 10.000 Quadratmeter = 2,471 Acres",
+    "commonConversion4": "1 Quadratfuß (ft²) = 0,0929 Quadratmeter (m²)",
+    "realEstateTitle": "Flächenumrechnung für Immobilien",
+    "realEstateContent": "Im Immobilienwesen sind Flächenmessungen entscheidend für Immobilienbewertungen, Vergleichskäufe und rechtliche Dokumentation. In den USA ist Quadratfuß (ft²) die Standardeinheit für Wohnimmobilien, während die meisten anderen Länder Quadratmeter (m²) verwenden. Für größere Grundstücke sind Acres in den USA und Großbritannien üblich, während Hektar der internationale Standard ist. Bei internationalen Immobilienangeboten überprüfen Sie immer, welches Einheitensystem verwendet wird, um kostspielige Missverständnisse zu vermeiden. Eine 100 m² Wohnung entspricht etwa 1.076 ft², und ein 1-Acre-Grundstück entspricht etwa 4.047 m² oder 0,4 Hektar.",
+    "formulaTitle": "Flächenumrechnungsformel",
+    "formulaContent": "Wert in Zieleinheit = Wert in Quelleinheit × (Quelleinheit-Faktor / Zieleinheit-Faktor)",
+    "formulaExample": "Alle Umrechnungen verwenden Quadratmeter (m²) als Basiseinheit. Beispiel: 100 ft² × 0,0929 m²/ft² = 9,29 m²",
+    "tipsTitle": "Tipps für genaue Flächenmessungen",
+    "tip1": "Beim internationalen Vergleich von Immobiliengrößen immer das verwendete Einheitensystem überprüfen",
+    "tip2": "Bei Immobilien bezieht sich die Quadratmeterzahl in der Regel auf die Innenwohnfläche, nicht auf die Gesamtgrundstücksgröße",
+    "tip3": "Landwirtschaftliche Flächen werden üblicherweise in Acres (USA/GB) oder Hektar (international) gemessen",
+    "tip4": "Bauvorschriften und Bebauungsvorschriften können Flächengrenzen in bestimmten Einheiten festlegen - sorgfältig umrechnen",
+    "tip5": "Bedenken Sie, dass Flächeneinheiten mit dem Quadrat der Längeneinheiten skalieren (1 m = 3,28 ft, aber 1 m² = 10,76 ft²)",
+    "tip6": "Für Baukostenschätzungen immer 10-15% zusätzliches Material für Verschnitt und Zuschnitte einplanen",
+    "faqTitle": "Häufig gestellte Fragen",
+    "faq1Question": "Wie rechne ich Quadratfuß in Quadratmeter um?",
+    "faq1Answer": "Um Quadratfuß in Quadratmeter umzurechnen, multiplizieren Sie den Quadratfuß-Wert mit 0,0929. Zum Beispiel: 1.000 ft² × 0,0929 = 92,9 m². Umgekehrt multiplizieren Sie mit 10,764, um Quadratmeter in Quadratfuß umzurechnen. Unser Umrechner führt diese Berechnung sofort für Sie durch.",
+    "faq2Question": "Wie viele Acres sind in einem Hektar?",
+    "faq2Answer": "Ein Hektar entspricht ungefähr 2,471 Acres. Umgekehrt entspricht ein Acre ungefähr 0,4047 Hektar. Hektar sind die bevorzugte Einheit für Grundstücksmessungen in den meisten Ländern außerhalb der USA und Großbritanniens.",
+    "faq3Question": "Was ist der Unterschied zwischen einem Hektar und einem Acre?",
+    "faq3Answer": "Ein Hektar ist größer als ein Acre - ein Hektar entspricht etwa 2,47 Acres. Hektar sind metrische Einheiten mit 10.000 Quadratmetern, während Acres imperiale Einheiten mit 43.560 Quadratfuß sind. Hektar werden international verwendet, während Acres hauptsächlich in den USA, Großbritannien und einigen ehemaligen britischen Kolonien verwendet werden.",
+    "faq4Question": "Wie rechne ich die Fläche eines Raumes von Quadratmetern in Quadratfuß um?",
+    "faq4Answer": "Multiplizieren Sie die Quadratmetermessung mit 10,764, um Quadratfuß zu erhalten. Zum Beispiel entspricht ein 20 m² Raum 215,28 ft² (20 × 10,764). Dies ist nützlich beim Vergleich von Wohnungsgrößen zwischen Ländern mit unterschiedlichen Maßsystemen.",
+    "faq5Question": "Welche Flächeneinheit wird für die Messung von Wohnungen verwendet?",
+    "faq5Answer": "In den USA werden Wohnungen in Quadratfuß (ft²) gemessen. In den meisten anderen Ländern, einschließlich Europa, Asien und Australien, ist der Quadratmeter (m²) der Standard. Bei der Suche nach internationalen Immobilien überprüfen Sie unbedingt, welche Einheit verwendet wird, und rechnen Sie bei Bedarf um.",
+    "faq6Question": "Wie groß ist ein Quadratmeter in Quadratfuß?",
+    "faq6Answer": "Ein Quadratmeter entspricht ungefähr 10,764 Quadratfuß. Das bedeutet, dass ein Raum von 1 Meter mal 1 Meter (1 m²) ungefähr 10,76 Quadratfuß entspricht. Das Verständnis dieser Umrechnung ist beim internationalen Vergleich von Immobiliengrößen unerlässlich.",
+    "faq7Question": "Wie viele Quadratfuß sind in einem Acre?",
+    "faq7Answer": "Ein Acre enthält genau 43.560 Quadratfuß. Dies entspricht ungefähr 4.047 Quadratmetern oder etwa 0,405 Hektar. Ein Acre hat ungefähr die Größe eines Football-Feldes (ohne Endzonen), was die Visualisierung von Grundstücksgrößen erleichtert.",
+    "faq8Question": "Welche ist die beste Einheit für die Messung großer Grundstücksflächen?",
+    "faq8Answer": "Für große Grundstücksflächen verwenden Sie Hektar (international) oder Acres (USA/GB). Quadratkilometer werden für sehr große Flächen wie Städte oder Regionen verwendet. Zur Orientierung: Kleine Bauernhöfe haben oft 10-50 Hektar (25-125 Acres), während große Bauernhöfe Hunderte oder Tausende von Hektaren haben können."
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "title": "Conversor de Comprimento",
+  "description": "Converta instantaneamente entre unidades de comprimento métricas e imperiais. Suporta milímetros, centímetros, metros, quilómetros, polegadas, pés, jardas e milhas com conversão bidirecional em tempo real.",
+  "meta": {
+    "title": "Conversor de Comprimento Grátis - Métrico para Imperial [2026]",
+    "description": "Converta unidades de comprimento instantaneamente: metros para pés, polegadas para centímetros, quilómetros para milhas e mais. Conversor de comprimento online grátis.",
+    "keywords": "conversor de comprimento, conversor de unidades, metros para pés, polegadas para centímetros, km para milhas, métrico para imperial, imperial para métrico, calculadora de conversão de comprimento, conversor de distância, conversor de medidas"
+  },
+  "inputs": {
+    "value": "Valor a Converter",
+    "fromUnit": "Da Unidade",
+    "toUnit": "Para Unidade"
+  },
+  "units": {
+    "mm": { "name": "Milímetro", "abbr": "mm" },
+    "cm": { "name": "Centímetro", "abbr": "cm" },
+    "m": { "name": "Metro", "abbr": "m" },
+    "km": { "name": "Quilómetro", "abbr": "km" },
+    "in": { "name": "Polegada", "abbr": "in" },
+    "ft": { "name": "Pé", "abbr": "ft" },
+    "yd": { "name": "Jarda", "abbr": "yd" },
+    "mi": { "name": "Milha", "abbr": "mi" }
+  },
+  "unitSystems": {
+    "metric": "Métrico",
+    "imperial": "Imperial"
+  },
+  "actions": {
+    "swap": "Trocar Unidades",
+    "reset": "Redefinir"
+  },
+  "results": {
+    "title": "Resultado",
+    "allConversions": "Todas as Conversões",
+    "commonConversions": "Referência de Conversões Comuns",
+    "conversionFactor": "Fator de Conversão"
+  },
+  "validation": {
+    "required": "Por favor, insira um valor para converter",
+    "invalidNumber": "Por favor, insira um número válido",
+    "negativeValue": "O comprimento não pode ser negativo",
+    "invalidUnit": "Por favor, selecione uma unidade válida"
+  },
+  "disclaimer": {
+    "text": "Este conversor utiliza fatores de conversão padrão baseados em normas de medição internacionais. Os resultados são precisos para a maioria dos propósitos práticos.",
+    "note": "Fatores de conversão: 1 polegada = 2,54 cm (exato), 1 pé = 0,3048 m (exato), 1 jarda = 0,9144 m (exato), 1 milha = 1,609344 km (exato). Estas são as definições oficiais adotadas internacionalmente."
+  },
+  "seo": {
+    "whatIsTitle": "O que é um Conversor de Comprimento?",
+    "whatIsContent": "Um conversor de comprimento é uma ferramenta que permite converter rápida e precisamente medidas entre diferentes unidades de comprimento. Seja para converter metros em pés para um projeto de melhoria doméstica, quilómetros em milhas para planear viagens, ou polegadas em centímetros para trabalhos manuais e costura, este conversor gere todas as conversões comuns de unidades de comprimento. Suporta tanto unidades métricas (milímetros, centímetros, metros, quilómetros) como unidades imperiais (polegadas, pés, jardas, milhas), tornando-o útil para pessoas em todo o mundo, independentemente do sistema de medição que usam habitualmente.",
+    "whenToUseTitle": "Quando Usar um Conversor de Comprimento?",
+    "whenToUseIntro": "Um conversor de comprimento é essencial em muitas situações do dia a dia:",
+    "whenToUsePoint1": "Projetos de melhoria doméstica - Converta dimensões de quartos entre pés e metros ao seguir planos de diferentes países",
+    "whenToUsePoint2": "Planeamento de viagens - Converta distâncias entre quilómetros e milhas para entender escalas de mapas e distâncias de condução",
+    "whenToUsePoint3": "Compras online - Converta dimensões de produtos para entender o tamanho real de artigos de vendedores internacionais",
+    "whenToUsePoint4": "Desportos e fitness - Converta distâncias de corrida, comprimentos de piscina ou medidas de pista entre métrico e imperial",
+    "whenToUsePoint5": "Culinária e trabalhos manuais - Converta medidas de padrões, comprimentos de tecido ou dimensões de receitas",
+    "unitSystemsTitle": "Compreender os Sistemas de Unidades",
+    "metricSystemTitle": "Sistema Métrico (Unidades SI)",
+    "metricSystemDesc": "O sistema métrico é usado pela maioria dos países do mundo. É baseado em potências de 10, tornando as conversões dentro do sistema simples. A unidade base é o metro (m), sendo milímetro (mm), centímetro (cm) e quilómetro (km) unidades derivadas comuns.",
+    "imperialSystemTitle": "Sistema Imperial",
+    "imperialSystemDesc": "O sistema imperial é usado principalmente nos Estados Unidos, Reino Unido (para algumas medições) e alguns outros países. Inclui polegadas, pés, jardas e milhas. Embora menos intuitivo para cálculos, permanece profundamente enraizado no uso quotidiano nestas regiões.",
+    "benefitsTitle": "Por que Usar Este Conversor de Comprimento?",
+    "benefit1": "Conversão instantânea em tempo real enquanto digita - não precisa clicar num botão de calcular",
+    "benefit2": "Veja todas as conversões de unidades de uma vez para comparar rapidamente diferentes medidas",
+    "benefit3": "Conversão bidirecional - troque facilmente entre unidades de origem e destino",
+    "benefit4": "Resultados de alta precisão adequados para engenharia, ciência e medições precisas",
+    "benefit5": "Tabela de referência de conversões comuns para consulta rápida de valores frequentemente necessários",
+    "howToUseTitle": "Como Usar Este Conversor",
+    "howToUseStep1": "Insira o valor numérico que deseja converter no campo de entrada",
+    "howToUseStep2": "Selecione a unidade a partir da qual está a converter usando o primeiro menu suspenso",
+    "howToUseStep3": "Selecione a unidade para a qual deseja converter usando o segundo menu suspenso",
+    "howToUseStep4": "Veja o resultado instantâneo exibido de forma proeminente, juntamente com o fator de conversão",
+    "howToUseStep5": "Opcionalmente, use o botão 'Trocar Unidades' para inverter a direção de conversão",
+    "conversionTipsTitle": "Dicas Úteis de Conversão",
+    "conversionTip1": "Lembre-se: 1 polegada equivale exatamente a 2,54 centímetros - esta é a definição oficial",
+    "conversionTip2": "Para converter quilómetros em milhas aproximadamente, multiplique por 0,6 (ou divida por 1,6)",
+    "conversionTip3": "Um metro tem aproximadamente 3 pés 3 polegadas - útil para estimativas mentais rápidas",
+    "conversionTip4": "Para trabalho de precisão, use sempre fatores de conversão exatos em vez de aproximações arredondadas",
+    "formulaTitle": "Fórmula de Conversão",
+    "formulaContent": "Resultado = Valor de Entrada x (Unidade de Origem em Metros / Unidade de Destino em Metros)",
+    "formulaExample": "Exemplo: Para converter 5 pés em metros: 5 x 0,3048 = 1,524 metros. O conversor usa metros como unidade base intermediária para todas as conversões, garantindo precisão.",
+    "faqTitle": "Perguntas Frequentes",
+    "faq1Question": "Quão precisas são estas conversões?",
+    "faq1Answer": "As nossas conversões utilizam os fatores de conversão padrão internacionais oficiais. Por exemplo, 1 polegada é definida como exatamente 2,54 centímetros, e 1 jarda é exatamente 0,9144 metros. Estas não são aproximações, mas definições exatas adotadas por acordo internacional em 1959. O conversor mantém alta precisão ao longo dos cálculos.",
+    "faq2Question": "Qual é a diferença entre unidades métricas e imperiais?",
+    "faq2Answer": "O sistema métrico (unidades SI) é baseado em potências de 10, usando metros como unidade base. É usado pela maioria dos países do mundo e é o padrão para ciência e comércio internacional. O sistema imperial usa polegadas, pés, jardas e milhas, com relações menos intuitivas entre unidades (12 polegadas = 1 pé, 3 pés = 1 jarda, 1760 jardas = 1 milha). É usado principalmente nos Estados Unidos e para alguns propósitos no Reino Unido.",
+    "faq3Question": "Como converto metros em pés?",
+    "faq3Answer": "Para converter metros em pés, multiplique o valor em metros por 3,28084. Por exemplo, 10 metros equivalem a aproximadamente 32,8 pés. O fator de conversão exato é baseado na definição de que 1 pé equivale exatamente a 0,3048 metros. O nosso conversor faz isto automaticamente - basta inserir o seu valor em metros e selecionar pés como unidade de destino.",
+    "faq4Question": "Quantos centímetros há numa polegada?",
+    "faq4Answer": "Há exatamente 2,54 centímetros numa polegada. Isto não é uma aproximação, mas a definição oficial de uma polegada, adotada por acordo internacional. Para converter polegadas em centímetros, multiplique por 2,54. Para converter centímetros em polegadas, divida por 2,54 (ou multiplique por 0,3937).",
+    "faq5Question": "Como converto quilómetros em milhas?",
+    "faq5Answer": "Para converter quilómetros em milhas, multiplique o valor em quilómetros por 0,621371. Por exemplo, 100 quilómetros equivalem a aproximadamente 62,14 milhas. Inversamente, para converter milhas em quilómetros, multiplique por 1,60934. Uma aproximação mental rápida: quilómetros multiplicados por 0,6 dão um equivalente aproximado em milhas.",
+    "faq6Question": "Qual é a relação entre pés, jardas e milhas?",
+    "faq6Answer": "No sistema imperial: 1 pé = 12 polegadas, 1 jarda = 3 pés = 36 polegadas, e 1 milha = 1.760 jardas = 5.280 pés. Estas relações são históricas e não são baseadas em potências de 10 como o sistema métrico. Uma milha foi originalmente definida como 1.000 passos romanos (mille passus), daí o seu nome.",
+    "faq7Question": "Posso usar isto para cálculos científicos?",
+    "faq7Answer": "Sim, este conversor é adequado para cálculos científicos e de engenharia. Utiliza fatores de conversão exatos conforme definido por normas internacionais. No entanto, para trabalho científico extremamente preciso, esteja ciente dos algarismos significativos nos seus valores de entrada. O conversor mantém alta precisão interna, mas pode arredondar os resultados exibidos para melhor legibilidade.",
+    "faq8Question": "Por que o mundo usa sistemas de medição diferentes?",
+    "faq8Answer": "O sistema métrico foi desenvolvido em França durante a década de 1790 e foi desde então adotado pela maioria dos países. Os Estados Unidos mantiveram em grande parte o sistema imperial dos tempos coloniais britânicos. Embora tenha havido esforços para metrificar nos EUA, as unidades imperiais permanecem comuns no uso quotidiano. O Reino Unido usa uma mistura de ambos os sistemas. O comércio internacional e a ciência usam predominantemente unidades métricas."
+  }
+}

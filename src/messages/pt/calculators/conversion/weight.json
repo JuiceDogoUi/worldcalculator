@@ -1,0 +1,124 @@
+{
+  "title": "Conversor de Peso",
+  "description": "Converta instantaneamente entre unidades de peso metricas e imperiais. Suporta miligramas, gramas, quilogramas, toneladas, oncas, libras, stones e toneladas americanas.",
+  "meta": {
+    "title": "Conversor de Peso Gratis - kg para lbs, oz para g e Mais [2026]",
+    "description": "Converta unidades de peso e massa instantaneamente. Ferramenta online gratuita para kg para lbs, oz para g, stone para kg e mais. Inclui conversoes metricas e imperiais.",
+    "keywords": "conversor de peso, kg para lbs, libras para kg, oz para gramas, stone para kg, conversor de massa, metrico para imperial, calculadora de peso, conversor quilograma, conversor libra, onca para grama, tonelada"
+  },
+  "inputs": {
+    "fromValue": "Valor a Converter",
+    "fromUnit": "De Unidade",
+    "toUnit": "Para Unidade"
+  },
+  "outputs": {
+    "result": "Valor Convertido"
+  },
+  "actions": {
+    "swap": "Trocar Unidades",
+    "reset": "Redefinir",
+    "copy": "Copiar Resultado",
+    "copied": "Copiado!"
+  },
+  "sections": {
+    "commonConversions": "Conversoes Comuns de Referencia",
+    "metricUnits": "Unidades Metricas",
+    "imperialUnits": "Unidades Imperiais"
+  },
+  "units": {
+    "mg": {
+      "name": "Miligrama",
+      "abbr": "mg"
+    },
+    "g": {
+      "name": "Grama",
+      "abbr": "g"
+    },
+    "kg": {
+      "name": "Quilograma",
+      "abbr": "kg"
+    },
+    "tonne": {
+      "name": "Tonelada Metrica",
+      "abbr": "t"
+    },
+    "oz": {
+      "name": "Onca",
+      "abbr": "oz"
+    },
+    "lb": {
+      "name": "Libra",
+      "abbr": "lb"
+    },
+    "stone": {
+      "name": "Stone",
+      "abbr": "st"
+    },
+    "ton": {
+      "name": "Tonelada Americana",
+      "abbr": "ton"
+    }
+  },
+  "validation": {
+    "required": "Por favor, insira um valor para converter",
+    "positive": "O valor deve ser um numero positivo",
+    "tooLarge": "O valor e muito grande para converter com precisao"
+  },
+  "disclaimer": {
+    "text": "Este conversor fornece conversoes precisas baseadas em padroes internacionalmente reconhecidos. Os resultados sao arredondados para legibilidade, mas mantem alta precisao para uso pratico.",
+    "note": "A tonelada metrica equivale a 1.000 kg, enquanto a tonelada curta americana equivale a 2.000 lbs (907,185 kg). A tonelada longa britanica (2.240 lbs) nao esta incluida neste conversor."
+  },
+  "seo": {
+    "whatIsTitle": "O que e um Conversor de Peso?",
+    "whatIsContent": "Um conversor de peso e uma ferramenta que transforma medicoes de peso ou massa de uma unidade para outra. Se voce precisa converter quilogramas para libras para uma receita, verificar seu peso em diferentes unidades ou converter pesos de envio para comercio internacional, esta ferramenta processa todas as conversoes comuns instantaneamente. Suporta tanto unidades metricas (SI) usadas globalmente quanto unidades imperiais comuns nos Estados Unidos e Reino Unido.",
+    "howToUseTitle": "Como Usar Este Conversor de Peso",
+    "howToUseStep1": "Digite o valor numerico que deseja converter no campo de entrada",
+    "howToUseStep2": "Selecione a unidade de origem usando o menu suspenso 'De Unidade'",
+    "howToUseStep3": "Selecione a unidade de destino usando o menu suspenso 'Para Unidade'",
+    "howToUseStep4": "O resultado da conversao aparece instantaneamente - nao e necessario clicar em calcular",
+    "howToUseStep5": "Use o botao de troca para reverter rapidamente a direcao da conversao",
+    "metricSystemTitle": "Unidades de Peso Metricas (SI)",
+    "metricSystemContent": "O sistema metrico e o padrao internacional para medicao de peso. E baseado em potencias de 10, tornando as conversoes simples. Um quilograma equivale a 1.000 gramas, e uma grama equivale a 1.000 miligramas.",
+    "metricUnit1": "Miligrama (mg) - Usado para medicoes muito pequenas como dosagens de medicamentos, tipicamente 0,001 gramas",
+    "metricUnit2": "Grama (g) - A unidade base de massa no sistema metrico, comumente usada em culinaria e rotulos nutricionais",
+    "metricUnit3": "Quilograma (kg) - A unidade padrao para peso corporal e objetos do dia a dia, equivale a 1.000 gramas",
+    "metricUnit4": "Tonelada Metrica (t) - Usada para medicoes em grande escala como carga e veiculos, equivale a 1.000 kg",
+    "imperialSystemTitle": "Unidades de Peso Imperiais",
+    "imperialSystemContent": "O sistema imperial e usado principalmente nos Estados Unidos, Reino Unido e alguns outros paises. Embora menos intuitivo para conversoes, essas unidades sao essenciais para muitas aplicacoes do dia a dia nessas regioes.",
+    "imperialUnit1": "Onca (oz) - Usada para porcoes de alimentos e itens menores, aproximadamente 28,35 gramas",
+    "imperialUnit2": "Libra (lb) - A unidade de peso imperial mais comum, equivale a 16 oncas ou aproximadamente 453,6 gramas",
+    "imperialUnit3": "Stone (st) - Usado principalmente no Reino Unido para peso corporal, equivale a 14 libras ou aproximadamente 6,35 kg",
+    "imperialUnit4": "Tonelada Curta Americana (ton) - Usada para carga pesada e veiculos, equivale a 2.000 libras ou aproximadamente 907 kg",
+    "conversionTipsTitle": "Dicas de Conversao de Peso",
+    "conversionTip1": "Lembre-se que 1 kg e aproximadamente 2,2 lbs - uma conversao mental rapida para uso diario",
+    "conversionTip2": "Para cozinhar, note que 1 onca e aproximadamente 28 gramas, entao 4 oz equivalem a cerca de 113 gramas",
+    "conversionTip3": "Peso corporal: multiplique kg por 2,2 para obter libras, ou divida libras por 2,2 para obter kg",
+    "conversionTip4": "Envio: toneladas metricas sao ligeiramente mais pesadas que toneladas curtas americanas (1 tonelada = 1,102 toneladas curtas)",
+    "conversionTip5": "Stone raramente e usado fora do Reino Unido - 1 stone = 14 lbs = aproximadamente 6,35 kg",
+    "commonUseCasesTitle": "Casos de Uso Comuns",
+    "commonUseCase1": "Saude e Fitness - Converta peso corporal entre kg e lbs para calculos de IMC, equipamentos de academia ou registros medicos de diferentes paises",
+    "commonUseCase2": "Culinaria e Confeitaria - Converta medidas de receitas entre metrico e imperial, especialmente ao usar receitas internacionais",
+    "commonUseCase3": "Envio e Logistica - Converta pesos de pacotes para envio internacional onde diferentes sistemas de peso sao usados",
+    "commonUseCase4": "Ciencia e Medicina - Converta entre unidades metricas para medicoes de laboratorio, dosagens de medicamentos e dados de pesquisa",
+    "formulaTitle": "Formula de Conversao de Peso",
+    "formulaContent": "Valor Destino = Valor Origem x (Unidade Origem em kg / Unidade Destino em kg)",
+    "formulaExample": "Exemplo: Para converter 5 kg em libras: 5 x (1 / 0,453592) = 11,02 lbs. Todas as conversoes usam quilogramas como unidade base intermediaria.",
+    "faqTitle": "Perguntas Frequentes",
+    "faq1Question": "Qual e a diferenca entre massa e peso?",
+    "faq1Answer": "Massa e a quantidade de materia em um objeto e permanece constante independentemente da localizacao. Peso e a forca da gravidade atuando sobre essa massa e varia com a atracao gravitacional. Na Terra, os termos sao frequentemente usados de forma intercambiavel, mas tecnicamente um quilograma mede massa enquanto uma libra pode medir qualquer um. Este conversor os trata como equivalentes para fins praticos.",
+    "faq2Question": "Por que existem diferentes unidades de tonelada?",
+    "faq2Answer": "A tonelada metrica equivale exatamente a 1.000 kg e e usada internacionalmente. A tonelada curta americana equivale a 2.000 libras (907,185 kg) e e usada nos Estados Unidos. A tonelada longa britanica equivale a 2.240 libras (1.016,05 kg), mas raramente e usada hoje. Este conversor inclui toneladas metricas e americanas como as conversoes mais comumente necessarias.",
+    "faq3Question": "Qual e a precisao dessas conversoes?",
+    "faq3Answer": "Nossas conversoes usam fatores de conversao internacionalmente reconhecidos com alta precisao. Por exemplo, 1 libra equivale exatamente a 0,45359237 kg por acordo internacional. Os resultados sao arredondados para exibicao, mas mantem precisao de pelo menos 6 digitos significativos, adequado para todas as aplicacoes praticas.",
+    "faq4Question": "O que e um stone e onde e usado?",
+    "faq4Answer": "O stone e uma unidade de peso igual a 14 libras (aproximadamente 6,35 kg). E usado principalmente no Reino Unido e Irlanda para medir peso corporal. Por exemplo, uma pessoa pesando 154 lbs seria descrita como 11 stone no Reino Unido. Raramente e usado para outros propositos ou em outros paises.",
+    "faq5Question": "Como converto quilogramas para libras rapidamente?",
+    "faq5Answer": "Para uma estimativa rapida, multiplique quilogramas por 2,2 para obter libras. Por exemplo, 70 kg x 2,2 = 154 lbs. Para o inverso, divida libras por 2,2 para obter quilogramas. Esta aproximacao e precisa dentro de cerca de 0,5% e e util para calculos mentais rapidos.",
+    "faq6Question": "Qual e a melhor unidade para medir peso corporal?",
+    "faq6Answer": "Quilogramas sao o padrao internacional e usados na maioria dos paises e ambientes medicos. Libras sao comuns nos Estados Unidos, enquanto stone e libras sao tradicionais no Reino Unido. Use qualquer unidade que seja padrao em seu pais ou exigida por seu provedor de saude.",
+    "faq7Question": "Por que as receitas usam diferentes unidades de peso?",
+    "faq7Answer": "As receitas refletem os sistemas de medicao de seu pais de origem. Receitas americanas tipicamente usam oncas e libras, enquanto receitas europeias e internacionais usam gramas e quilogramas. Confeiteiros profissionais frequentemente preferem medidas metricas porque sao mais precisas e mais faceis de escalar.",
+    "faq8Question": "Uma onca de peso e o mesmo que uma onca liquida?",
+    "faq8Answer": "Nao, elas medem coisas diferentes. Uma onca (oz) mede peso ou massa, enquanto uma onca liquida (fl oz) mede volume. Uma onca liquida de agua pesa aproximadamente uma onca, mas essa relacao nao se aplica a outras substancias. Este conversor trata apenas de oncas de peso."
+  }
+}

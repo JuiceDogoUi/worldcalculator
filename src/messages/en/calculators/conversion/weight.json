@@ -1,0 +1,124 @@
+{
+  "title": "Weight Converter",
+  "description": "Convert between metric and imperial weight units instantly. Supports milligrams, grams, kilograms, tonnes, ounces, pounds, stones, and US tons.",
+  "meta": {
+    "title": "Free Weight Converter - kg to lbs, oz to g & More [2026]",
+    "description": "Convert weight and mass units instantly. Free online tool for kg to lbs, oz to g, stone to kg, and more. Includes metric and imperial unit conversions.",
+    "keywords": "weight converter, kg to lbs, pounds to kg, oz to grams, stone to kg, mass converter, metric to imperial, weight calculator, kilogram converter, pound converter, ounce to gram, tonne to ton"
+  },
+  "inputs": {
+    "fromValue": "Value to Convert",
+    "fromUnit": "From Unit",
+    "toUnit": "To Unit"
+  },
+  "outputs": {
+    "result": "Converted Value"
+  },
+  "actions": {
+    "swap": "Swap Units",
+    "reset": "Reset",
+    "copy": "Copy Result",
+    "copied": "Copied!"
+  },
+  "sections": {
+    "commonConversions": "Common Conversions Reference",
+    "metricUnits": "Metric Units",
+    "imperialUnits": "Imperial Units"
+  },
+  "units": {
+    "mg": {
+      "name": "Milligram",
+      "abbr": "mg"
+    },
+    "g": {
+      "name": "Gram",
+      "abbr": "g"
+    },
+    "kg": {
+      "name": "Kilogram",
+      "abbr": "kg"
+    },
+    "tonne": {
+      "name": "Metric Ton",
+      "abbr": "t"
+    },
+    "oz": {
+      "name": "Ounce",
+      "abbr": "oz"
+    },
+    "lb": {
+      "name": "Pound",
+      "abbr": "lb"
+    },
+    "stone": {
+      "name": "Stone",
+      "abbr": "st"
+    },
+    "ton": {
+      "name": "US Ton",
+      "abbr": "ton"
+    }
+  },
+  "validation": {
+    "required": "Please enter a value to convert",
+    "positive": "Value must be a positive number",
+    "tooLarge": "Value is too large to convert accurately"
+  },
+  "disclaimer": {
+    "text": "This converter provides accurate conversions based on internationally recognized standards. Results are rounded for readability but maintain high precision for practical use.",
+    "note": "The metric ton (tonne) equals 1,000 kg, while the US short ton equals 2,000 lbs (907.185 kg). The UK long ton (2,240 lbs) is not included in this converter."
+  },
+  "seo": {
+    "whatIsTitle": "What is a Weight Converter?",
+    "whatIsContent": "A weight converter is a tool that transforms weight or mass measurements from one unit to another. Whether you need to convert kilograms to pounds for a recipe, check your weight in different units, or convert shipping weights for international commerce, this tool handles all common conversions instantly. It supports both metric (SI) units used globally and imperial units common in the United States and United Kingdom.",
+    "howToUseTitle": "How to Use This Weight Converter",
+    "howToUseStep1": "Enter the numerical value you want to convert in the input field",
+    "howToUseStep2": "Select the unit you're converting from using the 'From Unit' dropdown",
+    "howToUseStep3": "Select the unit you want to convert to using the 'To Unit' dropdown",
+    "howToUseStep4": "The conversion result appears instantly - no need to click calculate",
+    "howToUseStep5": "Use the swap button to quickly reverse the conversion direction",
+    "metricSystemTitle": "Metric (SI) Weight Units",
+    "metricSystemContent": "The metric system is the international standard for weight measurement. It's based on powers of 10, making conversions straightforward. One kilogram equals 1,000 grams, and one gram equals 1,000 milligrams.",
+    "metricUnit1": "Milligram (mg) - Used for very small measurements like medication dosages, typically 0.001 grams",
+    "metricUnit2": "Gram (g) - The base unit of mass in the metric system, commonly used in cooking and nutrition labels",
+    "metricUnit3": "Kilogram (kg) - The standard unit for body weight and everyday objects, equals 1,000 grams",
+    "metricUnit4": "Metric Ton/Tonne (t) - Used for large-scale measurements like cargo and vehicles, equals 1,000 kg",
+    "imperialSystemTitle": "Imperial Weight Units",
+    "imperialSystemContent": "The imperial system is primarily used in the United States, United Kingdom, and a few other countries. While less intuitive for conversions, these units are essential for many everyday applications in these regions.",
+    "imperialUnit1": "Ounce (oz) - Used for food portions and smaller items, approximately 28.35 grams",
+    "imperialUnit2": "Pound (lb) - The most common imperial weight unit, equals 16 ounces or about 453.6 grams",
+    "imperialUnit3": "Stone (st) - Primarily used in UK for body weight, equals 14 pounds or about 6.35 kg",
+    "imperialUnit4": "US Short Ton (ton) - Used for heavy cargo and vehicles, equals 2,000 pounds or about 907 kg",
+    "conversionTipsTitle": "Weight Conversion Tips",
+    "conversionTip1": "Remember that 1 kg is approximately 2.2 lbs - a quick mental conversion for everyday use",
+    "conversionTip2": "For cooking, note that 1 ounce is roughly 28 grams, so 4 oz equals about 113 grams",
+    "conversionTip3": "Body weight: multiply kg by 2.2 to get pounds, or divide pounds by 2.2 to get kg",
+    "conversionTip4": "Shipping: metric tons are slightly heavier than US short tons (1 tonne = 1.102 short tons)",
+    "conversionTip5": "Stone is rarely used outside the UK - 1 stone = 14 lbs = approximately 6.35 kg",
+    "commonUseCasesTitle": "Common Use Cases",
+    "commonUseCase1": "Health & Fitness - Convert body weight between kg and lbs for BMI calculations, gym equipment, or medical records from different countries",
+    "commonUseCase2": "Cooking & Baking - Convert recipe measurements between metric and imperial, especially when using international recipes",
+    "commonUseCase3": "Shipping & Logistics - Convert package weights for international shipping where different weight systems are used",
+    "commonUseCase4": "Science & Medicine - Convert between metric units for laboratory measurements, medication dosages, and research data",
+    "formulaTitle": "Weight Conversion Formula",
+    "formulaContent": "Target Value = Source Value x (Source Unit in kg / Target Unit in kg)",
+    "formulaExample": "Example: To convert 5 kg to pounds: 5 x (1 / 0.453592) = 11.02 lbs. All conversions use kilograms as the intermediate base unit.",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Question": "What's the difference between mass and weight?",
+    "faq1Answer": "Mass is the amount of matter in an object and remains constant regardless of location. Weight is the force of gravity acting on that mass and varies with gravitational pull. On Earth, the terms are often used interchangeably, but technically a kilogram measures mass while a pound can measure either. This converter treats them equivalently for practical purposes.",
+    "faq2Question": "Why are there different ton units?",
+    "faq2Answer": "The metric ton (tonne) equals exactly 1,000 kg and is used internationally. The US short ton equals 2,000 pounds (907.185 kg) and is used in the United States. The UK long ton equals 2,240 pounds (1,016.05 kg) but is rarely used today. This converter includes metric and US tons as the most commonly needed conversions.",
+    "faq3Question": "How accurate are these conversions?",
+    "faq3Answer": "Our conversions use internationally recognized conversion factors with high precision. For example, 1 pound equals exactly 0.45359237 kg by international agreement. Results are rounded for display but maintain accuracy to at least 6 significant figures, suitable for all practical applications.",
+    "faq4Question": "What is a stone and where is it used?",
+    "faq4Answer": "The stone is a unit of weight equal to 14 pounds (approximately 6.35 kg). It's primarily used in the United Kingdom and Ireland for measuring body weight. For example, a person weighing 154 lbs would be described as 11 stone in the UK. It's rarely used for other purposes or in other countries.",
+    "faq5Question": "How do I convert kilograms to pounds quickly?",
+    "faq5Answer": "For a quick estimate, multiply kilograms by 2.2 to get pounds. For example, 70 kg x 2.2 = 154 lbs. For the reverse, divide pounds by 2.2 to get kilograms. This approximation is accurate to within about 0.5% and is useful for quick mental calculations.",
+    "faq6Question": "What's the best unit for measuring body weight?",
+    "faq6Answer": "Kilograms are the international standard and used in most countries and medical settings. Pounds are common in the United States, while stone and pounds are traditional in the UK. Use whichever unit is standard in your country or required by your healthcare provider.",
+    "faq7Question": "Why do recipes use different weight units?",
+    "faq7Answer": "Recipes reflect the measurement systems of their country of origin. American recipes typically use ounces and pounds, while European and international recipes use grams and kilograms. Professional bakers often prefer metric measurements because they're more precise and easier to scale.",
+    "faq8Question": "Is an ounce of weight the same as a fluid ounce?",
+    "faq8Answer": "No, they measure different things. An ounce (oz) measures weight or mass, while a fluid ounce (fl oz) measures volume. One fluid ounce of water weighs approximately one ounce, but this relationship doesn't hold for other substances. This converter handles weight ounces only."
+  }
+}

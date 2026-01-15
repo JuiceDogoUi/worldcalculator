@@ -1,0 +1,107 @@
+{
+  "title": "Convertitore di Volume",
+  "description": "Converti tra unità metriche (millilitri, litri, metri cubi) e imperiali (once liquide, tazze, pinte, quarti, galloni). Include misure imperiali statunitensi e britanniche.",
+  "meta": {
+    "title": "Convertitore di Volume Gratuito - Litri in Galloni [2026]",
+    "description": "Converti unità di volume istantaneamente: litri in galloni, millilitri in once liquide, tazze in mL e altro. Supporta misure US e UK.",
+    "keywords": "convertitore di volume, litri in galloni, galloni in litri, ml in oz, tazze in ml, convertitore pinte, convertitore quarti, metrico in imperiale volume, gallone UK vs US, convertitore once liquide"
+  },
+  "inputs": {
+    "value": "Valore",
+    "fromUnit": "Da",
+    "toUnit": "A"
+  },
+  "outputs": {
+    "result": "Risultato",
+    "allConversions": "Tutte le Conversioni"
+  },
+  "actions": {
+    "swap": "Scambia unità",
+    "reset": "Reimposta",
+    "copy": "Copia risultato",
+    "copied": "Copiato!",
+    "showAllConversions": "Mostra tutte le conversioni",
+    "hideAllConversions": "Nascondi tutte le conversioni"
+  },
+  "unitGroups": {
+    "metric": "Metrico",
+    "usImperial": "Imperiale (US)",
+    "ukImperial": "Imperiale (UK)",
+    "other": "Altro"
+  },
+  "units": {
+    "milliliter": "Millilitro",
+    "liter": "Litro",
+    "cubicMeter": "Metro Cubo",
+    "teaspoonUs": "Cucchiaino (US)",
+    "tablespoonUs": "Cucchiaio (US)",
+    "fluidOunceUs": "Oncia Liquida (US)",
+    "cupUs": "Tazza (US)",
+    "pintUs": "Pinta (US)",
+    "quartUs": "Quarto (US)",
+    "gallonUs": "Gallone (US)",
+    "fluidOunceUk": "Oncia Liquida (UK)",
+    "pintUk": "Pinta (UK)",
+    "quartUk": "Quarto (UK)",
+    "gallonUk": "Gallone (UK)",
+    "cubicInch": "Pollice Cubo",
+    "cubicFoot": "Piede Cubo"
+  },
+  "validation": {
+    "enterValue": "Inserisci un valore",
+    "invalidNumber": "Inserisci un numero valido",
+    "negativeValue": "Il valore non può essere negativo",
+    "valueTooLarge": "Il valore è troppo grande"
+  },
+  "disclaimer": {
+    "text": "Questo convertitore fornisce conversioni accurate basate su definizioni standard. Le unità imperiali US e UK differiscono - verificare sempre quale sistema si applica alle proprie esigenze. Per misurazioni scientifiche o commerciali precise, consultare gli standard ufficiali."
+  },
+  "seo": {
+    "whatIsTitle": "Cos'è la Conversione di Volume?",
+    "whatIsContent": "La conversione di volume è il processo di cambiare una misura da un'unità a un'altra preservando la stessa quantità di spazio o capacità. Questo è essenziale quando si lavora con ricette, esperimenti scientifici, misurazioni di carburante o qualsiasi situazione in cui vengono utilizzati diversi sistemi di misurazione. Il nostro convertitore di volume supporta unità metriche (millilitri, litri, metri cubi), unità imperiali statunitensi (tazze, pinte, quarti, galloni) e unità imperiali britanniche, che differiscono significativamente dalle loro controparti americane.",
+    "usVsUkTitle": "Misure Imperiali: US vs UK",
+    "usVsUkContent": "Gli Stati Uniti e il Regno Unito utilizzano definizioni diverse per le misure di volume imperiali. Questa differenza ha avuto origine nel 1824 quando il Regno Unito ha standardizzato il gallone imperiale sulla base di 10 libbre di acqua a 62°F, mentre gli Stati Uniti hanno mantenuto il più antico gallone di vino della Regina Anna. Comprendere queste differenze è fondamentale quando si seguono ricette o specifiche di paesi diversi.",
+    "usVsUkComparison1": "Gallone US = 3,785 litri (128 once liquide US)",
+    "usVsUkComparison2": "Gallone UK = 4,546 litri (160 once liquide UK) - 20% più grande di US",
+    "usVsUkComparison3": "Pinta US = 473 mL (16 once liquide US)",
+    "usVsUkComparison4": "Pinta UK = 568 mL (20 once liquide UK) - 20% più grande di US",
+    "commonUsesTitle": "Usi Comuni della Conversione di Volume",
+    "commonUse1": "Cucina e Pasticceria - Converti le misure delle ricette tra sistemi metrici e imperiali, specialmente quando si utilizzano ricette internazionali",
+    "commonUse2": "Carburante e Automotive - Converti tra litri e galloni per calcoli di efficienza del carburante e capacità del serbatoio",
+    "commonUse3": "Scienza e Laboratorio - Converti tra millilitri e once liquide per esperimenti e misurazioni chimiche",
+    "commonUse4": "Bevande e Imballaggio - Comprendi le dimensioni dei prodotti in mercati diversi (US, UK, paesi metrici)",
+    "commonUse5": "Miglioramenti Domestici - Calcola quantità di vernice, prodotti chimici o altri liquidi per progetti",
+    "howToUseTitle": "Come Usare Questo Convertitore di Volume",
+    "howToUseStep1": "Inserisci il valore di volume che vuoi convertire nel campo di input",
+    "howToUseStep2": "Seleziona l'unità di origine (l'unità da cui stai convertendo) dal menu a discesa",
+    "howToUseStep3": "Seleziona l'unità di destinazione (l'unità a cui stai convertendo) dal menu a discesa",
+    "howToUseStep4": "Il risultato appare istantaneamente - usa il pulsante di scambio per invertire la conversione",
+    "howToUseStep5": "Clicca su 'Mostra tutte le conversioni' per vedere il valore in tutte le unità supportate contemporaneamente",
+    "conversionTipsTitle": "Suggerimenti per la Conversione di Volume",
+    "conversionTip1": "Ricorda che 1 litro equivale approssimativamente a 4,2 tazze US o 3,5 tazze UK - un'approssimazione utile per cucinare",
+    "conversionTip2": "Quando converti ricette, verifica sempre se vengono utilizzate misure US o UK - una pinta UK è il 20% più grande di una pinta US",
+    "conversionTip3": "Per conversioni approssimative: 1 gallone US è circa 3,8 litri, mentre 1 gallone UK è circa 4,5 litri",
+    "conversionTip4": "Le conversioni metriche sono semplici: 1 litro = 1.000 millilitri, 1 metro cubo = 1.000 litri",
+    "conversionTip5": "In caso di dubbi sulle misure US vs UK, verifica il paese di origine della ricetta o specifica",
+    "formulaTitle": "Formula di Conversione di Volume",
+    "formulaContent": "Risultato = Valore di Input × (Unità di Origine in Litri) ÷ (Unità di Destinazione in Litri)",
+    "formulaExample": "Esempio: Per convertire 2 galloni US in litri: 2 × 3,78541 = 7,57082 litri",
+    "faqTitle": "Domande Frequenti",
+    "faq1Question": "Qual è la differenza tra galloni US e UK?",
+    "faq1Answer": "Un gallone US equivale a 3,785 litri (128 once liquide US), mentre un gallone UK equivale a 4,546 litri (160 once liquide UK). Il gallone UK è circa il 20% più grande del gallone US. Questa differenza influisce su tutte le misure correlate: anche pinte, quarti e once liquide differiscono tra i due sistemi.",
+    "faq2Question": "Quante tazze ci sono in un litro?",
+    "faq2Answer": "Un litro equivale approssimativamente a 4,227 tazze US o 3,52 tazze UK. Per scopi pratici di cucina, puoi stimare che 1 litro corrisponda a circa 4 tazze US. Ricorda che le dimensioni delle tazze variano internazionalmente - una tazza US è 236,6 mL, mentre una tazza UK è 284,1 mL.",
+    "faq3Question": "Perché le misure US e UK differiscono?",
+    "faq3Answer": "La differenza risale al 1824 quando la Gran Bretagna standardizzò il gallone imperiale sulla base di 10 libbre di acqua a 62°F. Gli Stati Uniti mantennero il più antico gallone di vino della Regina Anna, che era già in uso prima dell'indipendenza americana. Questi diversi standard storici hanno creato la differenza del 20% che vediamo oggi.",
+    "faq4Question": "Come converto i millilitri in once liquide?",
+    "faq4Answer": "Per convertire millilitri in once liquide US, dividi per 29,5735 (1 oncia liquida US = 29,5735 mL). Per once liquide UK, dividi per 28,4131 (1 oncia liquida UK = 28,4131 mL). Ad esempio, 100 mL equivalgono approssimativamente a 3,38 once liquide US o 3,52 once liquide UK.",
+    "faq5Question": "Qual è l'equivalente metrico di una tazza?",
+    "faq5Answer": "Una tazza US equivale a 236,588 millilitri (approssimativamente 237 mL o 0,237 litri). Una tazza UK equivale a 284,131 millilitri. Molti paesi che utilizzano il sistema metrico definiscono una 'tazza metrica' come esattamente 250 mL per comodità nelle ricette.",
+    "faq6Question": "Quanti litri ci sono in un metro cubo?",
+    "faq6Answer": "Un metro cubo equivale esattamente a 1.000 litri. Questo perché un litro fu originariamente definito come il volume di un decimetro cubo (10cm × 10cm × 10cm), e un metro cubo contiene 1.000 decimetri cubi.",
+    "faq7Question": "Perché le misure di cucina sono diverse in paesi diversi?",
+    "faq7Answer": "Le misure di cucina variano perché paesi diversi hanno sviluppato i propri sistemi prima della standardizzazione. Gli Stati Uniti utilizzano unità consuetudinarie ereditate dall'epoca coloniale britannica, mentre la maggior parte degli altri paesi utilizza misure metriche. Anche all'interno dei sistemi 'imperiali', Stati Uniti e Regno Unito differiscono significativamente nelle loro definizioni di pinte, quarti e galloni.",
+    "faq8Question": "Quanto è accurato questo convertitore di volume?",
+    "faq8Answer": "Il nostro convertitore utilizza fattori di conversione standard dal NIST (National Institute of Standards and Technology) e dalla legislazione britannica. I risultati sono accurati ad almeno 6 decimali. Per la maggior parte degli scopi pratici, inclusi cucina, calcoli del carburante e conversioni quotidiane, questa precisione supera di gran lunga l'accuratezza di misurazione tipica."
+  }
+}

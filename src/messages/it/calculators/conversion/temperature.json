@@ -1,0 +1,98 @@
+{
+  "title": "Convertitore di Temperatura",
+  "description": "Converti le temperature tra Celsius, Fahrenheit e Kelvin con il nostro convertitore di temperatura gratuito. Conversione bidirezionale in tempo reale con punti di riferimento comuni.",
+  "meta": {
+    "title": "Convertitore di Temperatura Gratuito - Celsius, Fahrenheit, Kelvin [2026]",
+    "description": "Converti istantaneamente le temperature tra Celsius, Fahrenheit e Kelvin. Convertitore di temperatura online gratuito con conversione bidirezionale in tempo reale.",
+    "keywords": "convertitore di temperatura, celsius in fahrenheit, fahrenheit in celsius, convertitore kelvin, calcolatore di temperatura, celsius in kelvin, fahrenheit in kelvin, conversione di temperatura"
+  },
+  "inputs": {
+    "celsius": "Celsius",
+    "fahrenheit": "Fahrenheit",
+    "kelvin": "Kelvin"
+  },
+  "actions": {
+    "reset": "Reimposta"
+  },
+  "results": {
+    "title": "Temperature Convertite",
+    "celsius": "Celsius",
+    "fahrenheit": "Fahrenheit",
+    "kelvin": "Kelvin"
+  },
+  "units": {
+    "celsius": "\u00b0C",
+    "fahrenheit": "\u00b0F",
+    "kelvin": "K"
+  },
+  "referencePoints": {
+    "title": "Punti di Riferimento Comuni",
+    "absoluteZero": "Zero Assoluto",
+    "waterFreezing": "Punto di Congelamento dell'Acqua",
+    "roomTemperature": "Temperatura Ambiente",
+    "bodyTemperature": "Temperatura Corporea Umana",
+    "waterBoiling": "Punto di Ebollizione dell'Acqua"
+  },
+  "validation": {
+    "required": "Inserisci un valore di temperatura",
+    "invalid": "Inserisci un numero valido",
+    "belowAbsoluteZero": "La temperatura non pu\u00f2 essere inferiore allo zero assoluto"
+  },
+  "disclaimer": {
+    "text": "Questo convertitore di temperatura fornisce conversioni accurate basate sulle relazioni standard tra le scale di temperatura. I risultati sono arrotondati a 2 decimali per uso pratico.",
+    "note": "Le formule utilizzate sono le conversioni standard internazionalmente accettate tra le scale di temperatura Celsius, Fahrenheit e Kelvin."
+  },
+  "seo": {
+    "whatIsTitle": "Cos'\u00e8 la Conversione di Temperatura?",
+    "whatIsContent": "La conversione di temperatura \u00e8 il processo di cambiare un valore di temperatura da una scala di misurazione a un'altra. Le tre scale di temperatura pi\u00f9 comunemente usate sono Celsius (usata nella maggior parte dei paesi), Fahrenheit (usata principalmente negli Stati Uniti) e Kelvin (usata in contesti scientifici). Ogni scala ha il proprio punto zero e dimensione del grado, rendendo necessaria la conversione quando si lavora tra diversi sistemi o regioni.",
+    "formulasTitle": "Formule di Conversione della Temperatura",
+    "formula1Name": "Celsius in Fahrenheit",
+    "formula1Formula": "\u00b0F = (\u00b0C \u00d7 9/5) + 32",
+    "formula1Description": "Moltiplica la temperatura Celsius per 9/5 (o 1,8), poi aggiungi 32 per ottenere l'equivalente in Fahrenheit.",
+    "formula2Name": "Fahrenheit in Celsius",
+    "formula2Formula": "\u00b0C = (\u00b0F - 32) \u00d7 5/9",
+    "formula2Description": "Sottrai 32 dalla temperatura Fahrenheit, poi moltiplica per 5/9 (o dividi per 1,8) per ottenere l'equivalente in Celsius.",
+    "formula3Name": "Celsius in Kelvin",
+    "formula3Formula": "K = \u00b0C + 273,15",
+    "formula3Description": "Aggiungi 273,15 alla temperatura Celsius per ottenere l'equivalente in Kelvin. Il Kelvin usa la stessa dimensione di grado del Celsius ma inizia dallo zero assoluto.",
+    "scalesTitle": "Scale di Temperatura Spiegate",
+    "scale1Name": "Celsius (\u00b0C)",
+    "scale1Description": "La scala Celsius, nota anche come centigrada, fissa 0\u00b0 al punto di congelamento dell'acqua e 100\u00b0 al punto di ebollizione alla pressione atmosferica standard. Fu sviluppata dall'astronomo svedese Anders Celsius nel 1742.",
+    "scale1UsedIn": "La maggior parte dei paesi del mondo, ricerca scientifica, previsioni meteo al di fuori degli USA",
+    "scale2Name": "Fahrenheit (\u00b0F)",
+    "scale2Description": "La scala Fahrenheit fissa 32\u00b0 al punto di congelamento dell'acqua e 212\u00b0 al punto di ebollizione. Fu proposta dal fisico tedesco Daniel Gabriel Fahrenheit nel 1724.",
+    "scale2UsedIn": "Stati Uniti, Bahamas, Isole Cayman, Liberia, Palau e alcune nazioni caraibiche",
+    "scale3Name": "Kelvin (K)",
+    "scale3Description": "La scala Kelvin \u00e8 una scala di temperatura termodinamica assoluta che inizia dallo zero assoluto (-273,15\u00b0C), il punto in cui tutto il movimento molecolare si ferma. Non usa gradi e prende il nome da Lord Kelvin.",
+    "scale3UsedIn": "Ricerca scientifica, fisica, chimica, ingegneria e astronomia",
+    "howToUseTitle": "Come Usare Questo Convertitore di Temperatura",
+    "howToUseStep1": "Inserisci un valore di temperatura in uno qualsiasi dei tre campi (Celsius, Fahrenheit o Kelvin)",
+    "howToUseStep2": "Osserva gli altri due campi aggiornarsi automaticamente con i valori convertiti",
+    "howToUseStep3": "La scheda risultati mostra tutti e tre i valori con codifica colore basata sull'intervallo di temperatura",
+    "howToUseStep4": "Consulta la tabella dei punti di temperatura comuni per il contesto (congelamento, ebollizione, temperatura corporea, ecc.)",
+    "howToUseStep5": "Usa il pulsante Reimposta per tornare alla temperatura ambiente (20\u00b0C) come punto di partenza predefinito",
+    "tipsTitle": "Suggerimenti per la Conversione di Temperatura",
+    "tip1": "Ricorda che -40\u00b0 \u00e8 uguale sia in Celsius che in Fahrenheit - un punto di riferimento utile per calcoli mentali rapidi",
+    "tip2": "Per una conversione rapida da Celsius a Fahrenheit, raddoppia il valore Celsius e aggiungi 30 (es., 20\u00b0C \u2248 70\u00b0F)",
+    "tip3": "Il Kelvin \u00e8 sempre 273,15 in pi\u00f9 del Celsius, rendendo la conversione diretta per il lavoro scientifico",
+    "tip4": "La temperatura ambiente \u00e8 circa 20-22\u00b0C (68-72\u00b0F), un buon riferimento per l'uso quotidiano",
+    "tip5": "La temperatura corporea umana normale \u00e8 37\u00b0C (98,6\u00b0F), anche se leggere variazioni sono normali",
+    "faqTitle": "Domande Frequenti",
+    "faq1Question": "Qual \u00e8 la formula per convertire Celsius in Fahrenheit?",
+    "faq1Answer": "Per convertire Celsius in Fahrenheit, moltiplica la temperatura Celsius per 9/5 (o 1,8) e poi aggiungi 32. La formula \u00e8: \u00b0F = (\u00b0C \u00d7 9/5) + 32. Per esempio, 25\u00b0C = (25 \u00d7 1,8) + 32 = 77\u00b0F.",
+    "faq2Question": "Perch\u00e9 gli Stati Uniti usano Fahrenheit invece di Celsius?",
+    "faq2Answer": "Gli Stati Uniti adottarono la scala Fahrenheit nella loro storia iniziale quando era la scala di temperatura pi\u00f9 comune nei paesi anglofoni. Nonostante la maggior parte dei paesi sia poi passata al Celsius come parte dell'adozione del sistema metrico, gli USA hanno mantenuto Fahrenheit per l'uso quotidiano a causa dell'inerzia culturale e del costo della transizione.",
+    "faq3Question": "Cos'\u00e8 lo zero assoluto e perch\u00e9 le temperature non possono scendere sotto di esso?",
+    "faq3Answer": "Lo zero assoluto \u00e8 -273,15\u00b0C (-459,67\u00b0F o 0 K), la temperatura pi\u00f9 bassa teoricamente possibile. A questo punto, gli atomi avrebbero il minimo movimento termico. \u00c8 impossibile raggiungerlo perch\u00e9 le leggi della termodinamica impediscono la completa rimozione dell'energia termica da un sistema.",
+    "faq4Question": "Perch\u00e9 il Kelvin \u00e8 usato nella scienza invece del Celsius?",
+    "faq4Answer": "Il Kelvin \u00e8 preferito nella scienza perch\u00e9 \u00e8 una scala assoluta che inizia dallo zero assoluto, rendendola ideale per i calcoli termodinamici. Molte equazioni fisiche richiedono temperature in Kelvin per funzionare correttamente. Inoltre, il Kelvin evita i numeri negativi, semplificando molti calcoli.",
+    "faq5Question": "Qual \u00e8 la differenza tra Celsius e Centigrado?",
+    "faq5Answer": "Celsius e Centigrado si riferiscono alla stessa scala di temperatura. Il nome 'Centigrado' era usato storicamente, ma nel 1948 la 9\u00aa Conferenza Generale dei Pesi e delle Misure lo rinomino 'Celsius' in onore di Anders Celsius. Entrambi i nomi sono ancora usati in modo intercambiabile nel linguaggio quotidiano.",
+    "faq6Question": "A quale temperatura Celsius e Fahrenheit sono uguali?",
+    "faq6Answer": "Celsius e Fahrenheit sono uguali a -40 gradi. Questo \u00e8 l'unico punto in cui le due scale si intersecano. Puoi verificarlo: (-40 \u00d7 9/5) + 32 = -72 + 32 = -40\u00b0F.",
+    "faq7Question": "Qual \u00e8 la temperatura ambiente normale in diverse unit\u00e0?",
+    "faq7Answer": "La temperatura ambiente normale \u00e8 tipicamente definita come 20-22\u00b0C, che equivale a 68-72\u00b0F o 293-295 K. Tuttavia, i livelli di comfort variano da persona a persona, e contesti diversi possono usare definizioni leggermente diverse.",
+    "faq8Question": "Come posso stimare rapidamente Fahrenheit da Celsius?",
+    "faq8Answer": "Per una stima rapida, raddoppia il valore Celsius e aggiungi 30. Questo d\u00e0 un valore approssimativo in Fahrenheit che \u00e8 accurato entro pochi gradi per le temperature meteorologiche tipiche. Per esempio, 20\u00b0C \u00d7 2 + 30 = 70\u00b0F (reale: 68\u00b0F)."
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "title": "Convertitore di Lunghezza",
+  "description": "Converti istantaneamente tra unità di lunghezza metriche e imperiali. Supporta millimetri, centimetri, metri, chilometri, pollici, piedi, iarde e miglia con conversione bidirezionale in tempo reale.",
+  "meta": {
+    "title": "Convertitore di Lunghezza Gratuito - Metrico a Imperiale [2026]",
+    "description": "Converti unità di lunghezza istantaneamente: metri in piedi, pollici in centimetri, chilometri in miglia e altro. Convertitore di lunghezza online gratuito.",
+    "keywords": "convertitore di lunghezza, convertitore di unità, metri in piedi, pollici in centimetri, km in miglia, metrico a imperiale, imperiale a metrico, calcolatore di conversione lunghezza, convertitore di distanza, convertitore di misure"
+  },
+  "inputs": {
+    "value": "Valore da Convertire",
+    "fromUnit": "Da Unità",
+    "toUnit": "A Unità"
+  },
+  "units": {
+    "mm": { "name": "Millimetro", "abbr": "mm" },
+    "cm": { "name": "Centimetro", "abbr": "cm" },
+    "m": { "name": "Metro", "abbr": "m" },
+    "km": { "name": "Chilometro", "abbr": "km" },
+    "in": { "name": "Pollice", "abbr": "in" },
+    "ft": { "name": "Piede", "abbr": "ft" },
+    "yd": { "name": "Iarda", "abbr": "yd" },
+    "mi": { "name": "Miglio", "abbr": "mi" }
+  },
+  "unitSystems": {
+    "metric": "Metrico",
+    "imperial": "Imperiale"
+  },
+  "actions": {
+    "swap": "Scambia Unità",
+    "reset": "Reimposta"
+  },
+  "results": {
+    "title": "Risultato",
+    "allConversions": "Tutte le Conversioni",
+    "commonConversions": "Riferimento Conversioni Comuni",
+    "conversionFactor": "Fattore di Conversione"
+  },
+  "validation": {
+    "required": "Per favore inserisci un valore da convertire",
+    "invalidNumber": "Per favore inserisci un numero valido",
+    "negativeValue": "La lunghezza non può essere negativa",
+    "invalidUnit": "Per favore seleziona un'unità valida"
+  },
+  "disclaimer": {
+    "text": "Questo convertitore utilizza fattori di conversione standard basati su standard di misurazione internazionali. I risultati sono accurati per la maggior parte degli scopi pratici.",
+    "note": "Fattori di conversione: 1 pollice = 2,54 cm (esatto), 1 piede = 0,3048 m (esatto), 1 iarda = 0,9144 m (esatto), 1 miglio = 1,609344 km (esatto). Queste sono le definizioni ufficiali adottate internazionalmente."
+  },
+  "seo": {
+    "whatIsTitle": "Cos'è un Convertitore di Lunghezza?",
+    "whatIsContent": "Un convertitore di lunghezza è uno strumento che consente di convertire rapidamente e accuratamente misure tra diverse unità di lunghezza. Sia che tu debba convertire metri in piedi per un progetto di miglioramento domestico, chilometri in miglia per pianificare viaggi, o pollici in centimetri per lavori manuali e cucito, questo convertitore gestisce tutte le conversioni comuni di unità di lunghezza. Supporta sia unità metriche (millimetri, centimetri, metri, chilometri) che unità imperiali (pollici, piedi, iarde, miglia), rendendolo utile per persone in tutto il mondo indipendentemente dal sistema di misurazione che utilizzano abitualmente.",
+    "whenToUseTitle": "Quando Usare un Convertitore di Lunghezza?",
+    "whenToUseIntro": "Un convertitore di lunghezza è essenziale in molte situazioni quotidiane:",
+    "whenToUsePoint1": "Progetti di miglioramento domestico - Converti dimensioni delle stanze tra piedi e metri quando segui piani da diversi paesi",
+    "whenToUsePoint2": "Pianificazione di viaggi - Converti distanze tra chilometri e miglia per capire scale di mappe e distanze di guida",
+    "whenToUsePoint3": "Acquisti online - Converti dimensioni di prodotti per capire la dimensione reale di articoli da venditori internazionali",
+    "whenToUsePoint4": "Sport e fitness - Converti distanze di corsa, lunghezze di piscina o misure di pista tra metrico e imperiale",
+    "whenToUsePoint5": "Cucina e lavori manuali - Converti misure di cartamodelli, lunghezze di tessuto o dimensioni di ricette",
+    "unitSystemsTitle": "Comprensione dei Sistemi di Unità",
+    "metricSystemTitle": "Sistema Metrico (Unità SI)",
+    "metricSystemDesc": "Il sistema metrico è utilizzato dalla maggior parte dei paesi del mondo. Si basa su potenze di 10, rendendo semplici le conversioni all'interno del sistema. L'unità base è il metro (m), con millimetro (mm), centimetro (cm) e chilometro (km) come unità derivate comuni.",
+    "imperialSystemTitle": "Sistema Imperiale",
+    "imperialSystemDesc": "Il sistema imperiale è utilizzato principalmente negli Stati Uniti, nel Regno Unito (per alcune misurazioni) e in alcuni altri paesi. Include pollici, piedi, iarde e miglia. Sebbene meno intuitivo per i calcoli, rimane profondamente radicato nell'uso quotidiano in queste regioni.",
+    "benefitsTitle": "Perché Usare Questo Convertitore di Lunghezza?",
+    "benefit1": "Conversione istantanea in tempo reale mentre digiti - non è necessario fare clic su un pulsante di calcolo",
+    "benefit2": "Visualizza tutte le conversioni di unità contemporaneamente per confrontare rapidamente diverse misure",
+    "benefit3": "Conversione bidirezionale - scambia facilmente tra unità di origine e destinazione",
+    "benefit4": "Risultati ad alta precisione adatti per ingegneria, scienza e misurazioni precise",
+    "benefit5": "Tabella di riferimento delle conversioni comuni per consultazione rapida di valori frequentemente necessari",
+    "howToUseTitle": "Come Usare Questo Convertitore",
+    "howToUseStep1": "Inserisci il valore numerico che desideri convertire nel campo di input",
+    "howToUseStep2": "Seleziona l'unità da cui stai convertendo usando il primo menu a discesa",
+    "howToUseStep3": "Seleziona l'unità in cui desideri convertire usando il secondo menu a discesa",
+    "howToUseStep4": "Visualizza il risultato istantaneo mostrato in modo prominente, insieme al fattore di conversione",
+    "howToUseStep5": "Opzionalmente, usa il pulsante 'Scambia Unità' per invertire la direzione di conversione",
+    "conversionTipsTitle": "Suggerimenti Utili per la Conversione",
+    "conversionTip1": "Ricorda: 1 pollice equivale esattamente a 2,54 centimetri - questa è la definizione ufficiale",
+    "conversionTip2": "Per convertire approssimativamente chilometri in miglia, moltiplicare per 0,6 (o dividere per 1,6)",
+    "conversionTip3": "Un metro è circa 3 piedi e 3 pollici - utile per stime mentali rapide",
+    "conversionTip4": "Per lavori di precisione, usa sempre fattori di conversione esatti anziché approssimazioni arrotondate",
+    "formulaTitle": "Formula di Conversione",
+    "formulaContent": "Risultato = Valore di Input x (Unità di Origine in Metri / Unità di Destinazione in Metri)",
+    "formulaExample": "Esempio: Per convertire 5 piedi in metri: 5 x 0,3048 = 1,524 metri. Il convertitore utilizza i metri come unità base intermedia per tutte le conversioni, garantendo precisione.",
+    "faqTitle": "Domande Frequenti",
+    "faq1Question": "Quanto sono accurate queste conversioni?",
+    "faq1Answer": "Le nostre conversioni utilizzano i fattori di conversione standard internazionali ufficiali. Ad esempio, 1 pollice è definito come esattamente 2,54 centimetri, e 1 iarda è esattamente 0,9144 metri. Queste non sono approssimazioni ma definizioni esatte adottate da accordo internazionale nel 1959. Il convertitore mantiene alta precisione durante i calcoli.",
+    "faq2Question": "Qual è la differenza tra unità metriche e imperiali?",
+    "faq2Answer": "Il sistema metrico (unità SI) si basa su potenze di 10, usando metri come unità base. È utilizzato dalla maggior parte dei paesi del mondo ed è lo standard per scienza e commercio internazionale. Il sistema imperiale usa pollici, piedi, iarde e miglia, con relazioni meno intuitive tra unità (12 pollici = 1 piede, 3 piedi = 1 iarda, 1760 iarde = 1 miglio). È utilizzato principalmente negli Stati Uniti e per alcuni scopi nel Regno Unito.",
+    "faq3Question": "Come converto metri in piedi?",
+    "faq3Answer": "Per convertire metri in piedi, moltiplicare il valore in metri per 3,28084. Ad esempio, 10 metri equivalgono a circa 32,8 piedi. Il fattore di conversione esatto si basa sulla definizione che 1 piede equivale esattamente a 0,3048 metri. Il nostro convertitore gestisce questo automaticamente - basta inserire il valore in metri e selezionare piedi come unità di destinazione.",
+    "faq4Question": "Quanti centimetri ci sono in un pollice?",
+    "faq4Answer": "Ci sono esattamente 2,54 centimetri in un pollice. Questa non è un'approssimazione ma la definizione ufficiale di un pollice, adottata da accordo internazionale. Per convertire pollici in centimetri, moltiplicare per 2,54. Per convertire centimetri in pollici, dividere per 2,54 (o moltiplicare per 0,3937).",
+    "faq5Question": "Come converto chilometri in miglia?",
+    "faq5Answer": "Per convertire chilometri in miglia, moltiplicare il valore in chilometri per 0,621371. Ad esempio, 100 chilometri equivalgono a circa 62,14 miglia. Al contrario, per convertire miglia in chilometri, moltiplicare per 1,60934. Un'approssimazione mentale rapida: chilometri moltiplicati per 0,6 danno un equivalente approssimativo in miglia.",
+    "faq6Question": "Qual è la relazione tra piedi, iarde e miglia?",
+    "faq6Answer": "Nel sistema imperiale: 1 piede = 12 pollici, 1 iarda = 3 piedi = 36 pollici, e 1 miglio = 1.760 iarde = 5.280 piedi. Queste relazioni sono storiche e non basate su potenze di 10 come il sistema metrico. Un miglio fu originariamente definito come 1.000 passi romani (mille passus), da cui deriva il suo nome.",
+    "faq7Question": "Posso usarlo per calcoli scientifici?",
+    "faq7Answer": "Sì, questo convertitore è adatto per calcoli scientifici e ingegneristici. Utilizza fattori di conversione esatti come definiti da standard internazionali. Tuttavia, per lavori scientifici estremamente precisi, essere consapevoli delle cifre significative nei valori di input. Il convertitore mantiene alta precisione interna ma può arrotondare i risultati visualizzati per leggibilità.",
+    "faq8Question": "Perché il mondo usa sistemi di misurazione diversi?",
+    "faq8Answer": "Il sistema metrico fu sviluppato in Francia durante gli anni 1790 e da allora è stato adottato dalla maggior parte dei paesi. Gli Stati Uniti mantennero in gran parte il sistema imperiale dai tempi coloniali britannici. Sebbene ci siano stati sforzi per metrificare negli USA, le unità imperiali rimangono comuni nell'uso quotidiano. Il Regno Unito usa una miscela di entrambi i sistemi. Il commercio internazionale e la scienza usano prevalentemente unità metriche."
+  }
+}

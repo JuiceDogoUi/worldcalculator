@@ -1,0 +1,142 @@
+{
+  "title": "Convertisseur de Surface",
+  "description": "Convertissez instantanément entre les unités de surface métriques et impériales. Parfait pour l'immobilier, la mesure de terrains, la construction et les conversions quotidiennes.",
+  "meta": {
+    "title": "Convertisseur de Surface Gratuit - Mètres, Pieds Carrés [2026]",
+    "description": "Convertissez les unités de surface instantanément : mètres carrés en pieds carrés, acres en hectares et plus. Outil gratuit pour l'immobilier et la construction.",
+    "keywords": "convertisseur de surface, mètres carrés en pieds carrés, acres en hectares, calculateur de surface, convertisseur hectare, calculateur acre, mesure de terrain, convertisseur immobilier"
+  },
+  "inputs": {
+    "value": "Valeur de la Surface",
+    "fromUnit": "De l'Unité",
+    "toUnit": "Vers l'Unité"
+  },
+  "results": {
+    "result": "Résultat",
+    "allConversions": "Toutes les Conversions",
+    "formula": "Formule de Conversion",
+    "conversionFactor": "Facteur de conversion",
+    "realEstateContext": "Contexte Immobilier",
+    "landMeasurement": "Mesure de Terrain"
+  },
+  "actions": {
+    "swap": "Échanger les unités",
+    "reset": "Réinitialiser"
+  },
+  "units": {
+    "metricUnits": "Unités Métriques",
+    "imperialUnits": "Unités Impériales/US",
+    "mm2": {
+      "name": "Millimètres Carrés",
+      "abbr": "mm²"
+    },
+    "cm2": {
+      "name": "Centimètres Carrés",
+      "abbr": "cm²"
+    },
+    "m2": {
+      "name": "Mètres Carrés",
+      "abbr": "m²"
+    },
+    "km2": {
+      "name": "Kilomètres Carrés",
+      "abbr": "km²"
+    },
+    "hectare": {
+      "name": "Hectares",
+      "abbr": "ha"
+    },
+    "in2": {
+      "name": "Pouces Carrés",
+      "abbr": "in²"
+    },
+    "ft2": {
+      "name": "Pieds Carrés",
+      "abbr": "ft²"
+    },
+    "yd2": {
+      "name": "Yards Carrés",
+      "abbr": "yd²"
+    },
+    "acre": {
+      "name": "Acres",
+      "abbr": "ac"
+    },
+    "mi2": {
+      "name": "Miles Carrés",
+      "abbr": "mi²"
+    }
+  },
+  "validation": {
+    "valueRequired": "Veuillez saisir une valeur de surface",
+    "valueNegative": "La surface ne peut pas être négative",
+    "valueInvalid": "Veuillez saisir un nombre valide",
+    "valueMax": "La valeur dépasse la limite maximale"
+  },
+  "disclaimer": {
+    "text": "Ce convertisseur fournit des conversions précises basées sur des facteurs de conversion standard. Pour des relevés officiels, documents légaux ou applications de haute précision, consultez un géomètre agréé ou utilisez des outils de mesure certifiés.",
+    "note": "Les facteurs de conversion sont basés sur les normes internationales du NIST (Institut National des Standards et de la Technologie) et du BIPM (Bureau International des Poids et Mesures)."
+  },
+  "seo": {
+    "whatIsTitle": "Qu'est-ce qu'un Convertisseur de Surface ?",
+    "whatIsContent": "Un convertisseur de surface est un outil qui transforme les mesures entre différentes unités de surface. Que vous travailliez avec des mètres carrés, des pieds carrés, des acres ou des hectares, ce convertisseur gère toutes les unités de surface métriques et impériales courantes. Il est essentiel pour les professionnels de l'immobilier, les géomètres, les travailleurs de la construction, les architectes et toute personne travaillant avec des mesures de propriété dans différents systèmes de mesure.",
+    "whenToUseTitle": "Quand Utiliser un Convertisseur de Surface",
+    "whenToUseIntro": "Utilisez ce convertisseur de surface chaque fois que vous devez :",
+    "whenToUsePoint1": "Comparer des tailles de propriétés listées dans différentes unités (ex., appartements en m² vs ft²)",
+    "whenToUsePoint2": "Calculer la surface de terrains à des fins agricoles ou de développement",
+    "whenToUsePoint3": "Convertir des plans de construction entre mesures métriques et impériales",
+    "whenToUsePoint4": "Comprendre les annonces immobilières internationales lors de l'achat ou de la vente de biens",
+    "whenToUsePoint5": "Vérifier les calculs de surface pour les projets de revêtement de sol, de toiture ou d'aménagement paysager",
+    "unitTypesTitle": "Types d'Unités de Surface",
+    "unitTypeMetric": "Unités Métriques - Millimètres carrés (mm²), centimètres (cm²), mètres (m²), kilomètres (km²) et hectares (ha). Utilisées dans le monde entier, particulièrement dans les contextes scientifiques.",
+    "unitTypeImperial": "Unités Impériales/US - Pouces carrés (in²), pieds (ft²), yards (yd²), acres et miles carrés (mi²). Courantes aux États-Unis, au Royaume-Uni et dans les anciennes colonies britanniques.",
+    "unitTypeRealEstate": "Unités Immobilières - Les pieds carrés et mètres carrés sont les plus courants pour les propriétés résidentielles. Les hectares et acres sont utilisés pour les parcelles de terrain plus grandes.",
+    "unitTypeLand": "Mesure de Terrain - Les acres (courants aux USA/RU) et hectares (utilisés internationalement) sont les unités standard pour mesurer les terrains agricoles et non développés.",
+    "benefitsTitle": "Pourquoi Utiliser ce Convertisseur de Surface ?",
+    "benefit1": "Convertissez instantanément entre 10 unités de surface différentes avec haute précision",
+    "benefit2": "Voyez toutes les valeurs équivalentes en une seule fois - pas besoin de convertir plusieurs fois",
+    "benefit3": "Parfait pour les comparaisons immobilières internationales et la recherche immobilière",
+    "benefit4": "Essentiel pour les projets de construction utilisant des plans de différents pays",
+    "benefit5": "Économise du temps sur les calculs manuels et élimine les erreurs de conversion",
+    "howToUseTitle": "Comment Utiliser le Convertisseur de Surface",
+    "howToUseStep1": "Saisissez la valeur de surface que vous souhaitez convertir dans le champ de saisie",
+    "howToUseStep2": "Sélectionnez l'unité à partir de laquelle vous convertissez (ex., mètres carrés)",
+    "howToUseStep3": "Sélectionnez l'unité vers laquelle vous souhaitez convertir (ex., pieds carrés)",
+    "howToUseStep4": "Visualisez le résultat instantané et la formule de conversion",
+    "howToUseStep5": "Consultez la section 'Toutes les Conversions' pour voir la valeur dans chaque unité supportée",
+    "commonConversionsTitle": "Conversions de Surface Courantes",
+    "commonConversion1": "1 mètre carré (m²) = 10,764 pieds carrés (ft²)",
+    "commonConversion2": "1 acre = 4 046,86 mètres carrés (m²) = 0,4047 hectares",
+    "commonConversion3": "1 hectare (ha) = 10 000 mètres carrés = 2,471 acres",
+    "commonConversion4": "1 pied carré (ft²) = 0,0929 mètres carrés (m²)",
+    "realEstateTitle": "Conversion de Surface pour l'Immobilier",
+    "realEstateContent": "Dans l'immobilier, les mesures de surface sont essentielles pour l'évaluation des propriétés, la comparaison d'achats et la documentation légale. Aux États-Unis, le pied carré (ft²) est l'unité standard pour les propriétés résidentielles, tandis que la plupart des autres pays utilisent le mètre carré (m²). Pour les parcelles de terrain plus grandes, les acres sont courants aux USA et au Royaume-Uni, tandis que les hectares sont la norme internationale. Lors de la consultation d'annonces immobilières internationales, vérifiez toujours quel système d'unité est utilisé pour éviter des malentendus coûteux. Un appartement de 100 m² représente environ 1 076 ft², et un terrain de 1 acre équivaut à environ 4 047 m² ou 0,4 hectare.",
+    "formulaTitle": "Formule de Conversion de Surface",
+    "formulaContent": "Valeur en unité cible = Valeur en unité source × (Facteur d'unité source / Facteur d'unité cible)",
+    "formulaExample": "Toutes les conversions utilisent les mètres carrés (m²) comme unité de base. Par exemple : 100 ft² × 0,0929 m²/ft² = 9,29 m²",
+    "tipsTitle": "Conseils pour des Mesures de Surface Précises",
+    "tip1": "Lors de la comparaison de tailles de propriétés à l'international, vérifiez toujours le système d'unité utilisé",
+    "tip2": "Dans l'immobilier, la superficie en pieds carrés fait généralement référence à l'espace habitable intérieur, pas à la taille totale du terrain",
+    "tip3": "Les terrains agricoles sont généralement mesurés en acres (USA/RU) ou en hectares (international)",
+    "tip4": "Les codes du bâtiment et règlements de zonage peuvent spécifier des limites de surface dans des unités spécifiques - convertissez avec soin",
+    "tip5": "Rappelez-vous que les unités de surface évoluent avec le carré des unités de longueur (1 m = 3,28 ft, mais 1 m² = 10,76 ft²)",
+    "tip6": "Pour les estimations de construction, ajoutez toujours 10-15% de matériau supplémentaire pour tenir compte des déchets et des coupes",
+    "faqTitle": "Questions Fréquemment Posées",
+    "faq1Question": "Comment convertir des pieds carrés en mètres carrés ?",
+    "faq1Answer": "Pour convertir des pieds carrés en mètres carrés, multipliez la valeur en pieds carrés par 0,0929. Par exemple, 1 000 ft² × 0,0929 = 92,9 m². Inversement, pour convertir des mètres carrés en pieds carrés, multipliez par 10,764. Notre convertisseur effectue ce calcul instantanément pour vous.",
+    "faq2Question": "Combien y a-t-il d'acres dans un hectare ?",
+    "faq2Answer": "Un hectare équivaut à environ 2,471 acres. Inversement, un acre équivaut à environ 0,4047 hectares. Les hectares sont l'unité préférée pour la mesure de terrain dans la plupart des pays en dehors des États-Unis et du Royaume-Uni.",
+    "faq3Question": "Quelle est la différence entre un hectare et un acre ?",
+    "faq3Answer": "Un hectare est plus grand qu'un acre - un hectare équivaut à environ 2,47 acres. Les hectares sont des unités métriques équivalant à 10 000 mètres carrés, tandis que les acres sont des unités impériales équivalant à 43 560 pieds carrés. Les hectares sont utilisés internationalement, tandis que les acres sont principalement utilisés aux USA, au RU et dans certaines anciennes colonies britanniques.",
+    "faq4Question": "Comment convertir la surface d'une pièce de mètres carrés en pieds carrés ?",
+    "faq4Answer": "Multipliez la mesure en mètres carrés par 10,764 pour obtenir des pieds carrés. Par exemple, une pièce de 20 m² équivaut à 215,28 ft² (20 × 10,764). C'est utile lors de la comparaison de tailles d'appartements entre pays utilisant différents systèmes de mesure.",
+    "faq5Question": "Quelle unité de surface est utilisée pour mesurer les appartements ?",
+    "faq5Answer": "Aux États-Unis, les appartements sont mesurés en pieds carrés (ft²). Dans la plupart des autres pays, y compris l'Europe, l'Asie et l'Australie, le mètre carré (m²) est la norme. Lors de la recherche de propriétés internationales, assurez-vous de vérifier quelle unité est utilisée et convertissez si nécessaire.",
+    "faq6Question": "Quelle est la taille d'un mètre carré en pieds carrés ?",
+    "faq6Answer": "Un mètre carré équivaut à environ 10,764 pieds carrés. Cela signifie qu'une pièce de 1 mètre par 1 mètre (1 m²) équivaut à environ 10,76 pieds carrés. Comprendre cette conversion est essentiel lors de la comparaison de tailles de propriétés à l'international.",
+    "faq7Question": "Combien de pieds carrés y a-t-il dans un acre ?",
+    "faq7Answer": "Un acre contient exactement 43 560 pieds carrés. Cela équivaut à environ 4 047 mètres carrés ou environ 0,405 hectares. Un acre a à peu près la taille d'un terrain de football américain (sans les zones d'en-but), ce qui facilite la visualisation des tailles de terrain.",
+    "faq8Question": "Quelle est la meilleure unité pour mesurer de grandes surfaces de terrain ?",
+    "faq8Answer": "Pour les grandes surfaces de terrain, utilisez les hectares (internationalement) ou les acres (USA/RU). Les kilomètres carrés sont utilisés pour les très grandes surfaces comme les villes ou les régions. Pour référence : les petites fermes font souvent 10-50 hectares (25-125 acres), tandis que les grandes fermes peuvent faire des centaines ou des milliers d'hectares."
+  }
+}

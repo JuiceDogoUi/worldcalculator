@@ -1,0 +1,107 @@
+{
+  "title": "Conversor de Volumen",
+  "description": "Convierte entre unidades métricas (mililitros, litros, metros cúbicos) e imperiales (onzas líquidas, tazas, pintas, cuartos, galones). Incluye medidas imperiales de EE.UU. y Reino Unido.",
+  "meta": {
+    "title": "Conversor de Volumen Gratis - Litros a Galones, mL a oz [2026]",
+    "description": "Convierte unidades de volumen al instante: litros a galones, mililitros a onzas líquidas, tazas a mL y más. Compatible con medidas imperiales de EE.UU. y RU.",
+    "keywords": "conversor de volumen, litros a galones, galones a litros, ml a oz, tazas a ml, conversor de pintas, conversor de cuartos, métrico a imperial volumen, galón UK vs US, conversor onzas líquidas"
+  },
+  "inputs": {
+    "value": "Valor",
+    "fromUnit": "Desde",
+    "toUnit": "Hasta"
+  },
+  "outputs": {
+    "result": "Resultado",
+    "allConversions": "Todas las Conversiones"
+  },
+  "actions": {
+    "swap": "Intercambiar unidades",
+    "reset": "Restablecer",
+    "copy": "Copiar resultado",
+    "copied": "¡Copiado!",
+    "showAllConversions": "Mostrar todas las conversiones",
+    "hideAllConversions": "Ocultar todas las conversiones"
+  },
+  "unitGroups": {
+    "metric": "Métrico",
+    "usImperial": "Imperial (EE.UU.)",
+    "ukImperial": "Imperial (RU)",
+    "other": "Otros"
+  },
+  "units": {
+    "milliliter": "Mililitro",
+    "liter": "Litro",
+    "cubicMeter": "Metro Cúbico",
+    "teaspoonUs": "Cucharadita (EE.UU.)",
+    "tablespoonUs": "Cucharada (EE.UU.)",
+    "fluidOunceUs": "Onza Líquida (EE.UU.)",
+    "cupUs": "Taza (EE.UU.)",
+    "pintUs": "Pinta (EE.UU.)",
+    "quartUs": "Cuarto (EE.UU.)",
+    "gallonUs": "Galón (EE.UU.)",
+    "fluidOunceUk": "Onza Líquida (RU)",
+    "pintUk": "Pinta (RU)",
+    "quartUk": "Cuarto (RU)",
+    "gallonUk": "Galón (RU)",
+    "cubicInch": "Pulgada Cúbica",
+    "cubicFoot": "Pie Cúbico"
+  },
+  "validation": {
+    "enterValue": "Por favor ingrese un valor",
+    "invalidNumber": "Por favor ingrese un número válido",
+    "negativeValue": "El valor no puede ser negativo",
+    "valueTooLarge": "El valor es demasiado grande"
+  },
+  "disclaimer": {
+    "text": "Este conversor proporciona conversiones precisas basadas en definiciones estándar. Las unidades imperiales de EE.UU. y RU difieren - siempre verifique qué sistema aplica a sus necesidades. Para mediciones científicas o comerciales precisas, consulte los estándares oficiales."
+  },
+  "seo": {
+    "whatIsTitle": "¿Qué es la Conversión de Volumen?",
+    "whatIsContent": "La conversión de volumen es el proceso de cambiar una medida de una unidad a otra preservando la misma cantidad de espacio o capacidad. Esto es esencial al trabajar con recetas, experimentos científicos, mediciones de combustible o cualquier situación donde se usen diferentes sistemas de medición. Nuestro conversor de volumen admite unidades métricas (mililitros, litros, metros cúbicos), unidades imperiales de EE.UU. (tazas, pintas, cuartos, galones) y unidades imperiales del RU, que difieren significativamente de sus equivalentes estadounidenses.",
+    "usVsUkTitle": "Medidas Imperiales: EE.UU. vs RU",
+    "usVsUkContent": "Estados Unidos y el Reino Unido usan definiciones diferentes para las medidas de volumen imperial. Esta diferencia se originó en 1824 cuando el RU estandarizó el galón imperial basándose en 10 libras de agua a 62°F, mientras que EE.UU. mantuvo el antiguo galón de vino de la Reina Ana. Comprender estas diferencias es crucial al seguir recetas o especificaciones de diferentes países.",
+    "usVsUkComparison1": "Galón EE.UU. = 3,785 litros (128 oz líquidas EE.UU.)",
+    "usVsUkComparison2": "Galón RU = 4,546 litros (160 oz líquidas RU) - 20% más grande que EE.UU.",
+    "usVsUkComparison3": "Pinta EE.UU. = 473 mL (16 oz líquidas EE.UU.)",
+    "usVsUkComparison4": "Pinta RU = 568 mL (20 oz líquidas RU) - 20% más grande que EE.UU.",
+    "commonUsesTitle": "Usos Comunes de la Conversión de Volumen",
+    "commonUse1": "Cocina y Repostería - Convierte medidas de recetas entre sistemas métrico e imperial, especialmente al usar recetas internacionales",
+    "commonUse2": "Combustible y Automoción - Convierte entre litros y galones para cálculos de eficiencia de combustible y capacidad del tanque",
+    "commonUse3": "Ciencia y Laboratorio - Convierte entre mililitros y onzas líquidas para experimentos y mediciones químicas",
+    "commonUse4": "Bebidas y Envasado - Comprende tamaños de productos en diferentes mercados (EE.UU., RU, países métricos)",
+    "commonUse5": "Mejoras del Hogar - Calcula cantidades de pintura, químicos u otros líquidos para proyectos",
+    "howToUseTitle": "Cómo Usar Este Conversor de Volumen",
+    "howToUseStep1": "Ingrese el valor de volumen que desea convertir en el campo de entrada",
+    "howToUseStep2": "Seleccione la unidad de origen (la unidad desde la que está convirtiendo) del menú desplegable",
+    "howToUseStep3": "Seleccione la unidad de destino (la unidad a la que está convirtiendo) del menú desplegable",
+    "howToUseStep4": "El resultado aparece instantáneamente - use el botón de intercambio para invertir la conversión",
+    "howToUseStep5": "Haga clic en 'Mostrar todas las conversiones' para ver el valor en todas las unidades compatibles a la vez",
+    "conversionTipsTitle": "Consejos de Conversión de Volumen",
+    "conversionTip1": "Recuerde que 1 litro equivale aproximadamente a 4,2 tazas de EE.UU. o 3,5 tazas del RU - una aproximación útil para cocinar",
+    "conversionTip2": "Al convertir recetas, siempre verifique si se usan medidas de EE.UU. o RU - una pinta del RU es 20% más grande que una pinta de EE.UU.",
+    "conversionTip3": "Para conversiones aproximadas: 1 galón de EE.UU. es aproximadamente 3,8 litros, mientras que 1 galón del RU es aproximadamente 4,5 litros",
+    "conversionTip4": "Las conversiones métricas son sencillas: 1 litro = 1.000 mililitros, 1 metro cúbico = 1.000 litros",
+    "conversionTip5": "Cuando tenga dudas sobre medidas de EE.UU. vs RU, verifique el país de origen de la receta o especificación",
+    "formulaTitle": "Fórmula de Conversión de Volumen",
+    "formulaContent": "Resultado = Valor de Entrada × (Unidad de Origen en Litros) ÷ (Unidad de Destino en Litros)",
+    "formulaExample": "Ejemplo: Para convertir 2 galones de EE.UU. a litros: 2 × 3,78541 = 7,57082 litros",
+    "faqTitle": "Preguntas Frecuentes",
+    "faq1Question": "¿Cuál es la diferencia entre galones de EE.UU. y RU?",
+    "faq1Answer": "Un galón de EE.UU. equivale a 3,785 litros (128 onzas líquidas de EE.UU.), mientras que un galón del RU equivale a 4,546 litros (160 onzas líquidas del RU). El galón del RU es aproximadamente 20% más grande que el galón de EE.UU. Esta diferencia afecta todas las medidas relacionadas: pintas, cuartos y onzas líquidas también difieren entre los dos sistemas.",
+    "faq2Question": "¿Cuántas tazas hay en un litro?",
+    "faq2Answer": "Un litro equivale aproximadamente a 4,227 tazas de EE.UU. o 3,52 tazas del RU. Para propósitos prácticos de cocina, puede estimar que 1 litro es aproximadamente 4 tazas de EE.UU. Recuerde que los tamaños de tazas varían internacionalmente - una taza de EE.UU. es 236,6 mL, mientras que una taza del RU es 284,1 mL.",
+    "faq3Question": "¿Por qué difieren las medidas de EE.UU. y RU?",
+    "faq3Answer": "La diferencia se remonta a 1824 cuando Gran Bretaña estandarizó el galón imperial basándose en 10 libras de agua a 62°F. EE.UU. mantuvo el antiguo galón de vino de la Reina Ana, que ya estaba en uso antes de la independencia estadounidense. Estos diferentes estándares históricos crearon la diferencia del 20% que vemos hoy.",
+    "faq4Question": "¿Cómo convierto mililitros a onzas líquidas?",
+    "faq4Answer": "Para convertir mililitros a onzas líquidas de EE.UU., divida entre 29,5735 (1 oz líquida EE.UU. = 29,5735 mL). Para onzas líquidas del RU, divida entre 28,4131 (1 oz líquida RU = 28,4131 mL). Por ejemplo, 100 mL equivale aproximadamente a 3,38 oz líquidas de EE.UU. o 3,52 oz líquidas del RU.",
+    "faq5Question": "¿Cuál es el equivalente métrico de una taza?",
+    "faq5Answer": "Una taza de EE.UU. equivale a 236,588 mililitros (aproximadamente 237 mL o 0,237 litros). Una taza del RU equivale a 284,131 mililitros. Muchos países que usan el sistema métrico definen una 'taza métrica' como exactamente 250 mL por conveniencia en recetas.",
+    "faq6Question": "¿Cuántos litros hay en un metro cúbico?",
+    "faq6Answer": "Un metro cúbico equivale exactamente a 1.000 litros. Esto se debe a que un litro se definió originalmente como el volumen de un decímetro cúbico (10cm × 10cm × 10cm), y un metro cúbico contiene 1.000 decímetros cúbicos.",
+    "faq7Question": "¿Por qué las medidas de cocina son diferentes en distintos países?",
+    "faq7Answer": "Las medidas de cocina varían porque diferentes países desarrollaron sus propios sistemas antes de la estandarización. EE.UU. usa unidades tradicionales heredadas de la época colonial británica, mientras que la mayoría de los otros países usan medidas métricas. Incluso dentro de los sistemas 'imperiales', EE.UU. y el RU difieren significativamente en sus definiciones de pintas, cuartos y galones.",
+    "faq8Question": "¿Qué tan preciso es este conversor de volumen?",
+    "faq8Answer": "Nuestro conversor usa factores de conversión estándar del NIST (Instituto Nacional de Estándares y Tecnología) y legislación del RU. Los resultados son precisos hasta al menos 6 lugares decimales. Para la mayoría de los propósitos prácticos incluyendo cocina, cálculos de combustible y conversiones cotidianas, esta precisión supera con creces la precisión de medición típica."
+  }
+}

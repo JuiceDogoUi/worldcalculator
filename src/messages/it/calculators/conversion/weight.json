@@ -1,0 +1,124 @@
+{
+  "title": "Convertitore di Peso",
+  "description": "Converti istantaneamente tra unita di peso metriche e imperiali. Supporta milligrammi, grammi, chilogrammi, tonnellate, once, libbre, stones e tonnellate americane.",
+  "meta": {
+    "title": "Convertitore di Peso Gratuito - kg a lbs, oz a g e Altro [2026]",
+    "description": "Converti unita di peso e massa istantaneamente. Strumento online gratuito per kg a lbs, oz a g, stone a kg e altro. Include conversioni metriche e imperiali.",
+    "keywords": "convertitore di peso, kg a lbs, libbre a kg, oz a grammi, stone a kg, convertitore di massa, metrico a imperiale, calcolatrice di peso, convertitore chilogrammo, convertitore libbra, oncia a grammo, tonnellata"
+  },
+  "inputs": {
+    "fromValue": "Valore da Convertire",
+    "fromUnit": "Da Unita",
+    "toUnit": "A Unita"
+  },
+  "outputs": {
+    "result": "Valore Convertito"
+  },
+  "actions": {
+    "swap": "Scambia Unita",
+    "reset": "Reimposta",
+    "copy": "Copia Risultato",
+    "copied": "Copiato!"
+  },
+  "sections": {
+    "commonConversions": "Conversioni Comuni di Riferimento",
+    "metricUnits": "Unita Metriche",
+    "imperialUnits": "Unita Imperiali"
+  },
+  "units": {
+    "mg": {
+      "name": "Milligrammo",
+      "abbr": "mg"
+    },
+    "g": {
+      "name": "Grammo",
+      "abbr": "g"
+    },
+    "kg": {
+      "name": "Chilogrammo",
+      "abbr": "kg"
+    },
+    "tonne": {
+      "name": "Tonnellata Metrica",
+      "abbr": "t"
+    },
+    "oz": {
+      "name": "Oncia",
+      "abbr": "oz"
+    },
+    "lb": {
+      "name": "Libbra",
+      "abbr": "lb"
+    },
+    "stone": {
+      "name": "Stone",
+      "abbr": "st"
+    },
+    "ton": {
+      "name": "Tonnellata Americana",
+      "abbr": "ton"
+    }
+  },
+  "validation": {
+    "required": "Per favore inserisci un valore da convertire",
+    "positive": "Il valore deve essere un numero positivo",
+    "tooLarge": "Il valore e troppo grande per essere convertito con precisione"
+  },
+  "disclaimer": {
+    "text": "Questo convertitore fornisce conversioni accurate basate su standard riconosciuti internazionalmente. I risultati sono arrotondati per leggibilita ma mantengono alta precisione per uso pratico.",
+    "note": "La tonnellata metrica equivale a 1.000 kg, mentre la tonnellata corta americana equivale a 2.000 lbs (907,185 kg). La tonnellata lunga britannica (2.240 lbs) non e inclusa in questo convertitore."
+  },
+  "seo": {
+    "whatIsTitle": "Cos'e un Convertitore di Peso?",
+    "whatIsContent": "Un convertitore di peso e uno strumento che trasforma le misure di peso o massa da un'unita all'altra. Che tu debba convertire chilogrammi in libbre per una ricetta, verificare il tuo peso in diverse unita, o convertire pesi di spedizione per il commercio internazionale, questo strumento gestisce tutte le conversioni comuni istantaneamente. Supporta sia le unita metriche (SI) usate globalmente che le unita imperiali comuni negli Stati Uniti e nel Regno Unito.",
+    "howToUseTitle": "Come Usare Questo Convertitore di Peso",
+    "howToUseStep1": "Inserisci il valore numerico che vuoi convertire nel campo di input",
+    "howToUseStep2": "Seleziona l'unita di partenza usando il menu a tendina 'Da Unita'",
+    "howToUseStep3": "Seleziona l'unita di destinazione usando il menu a tendina 'A Unita'",
+    "howToUseStep4": "Il risultato della conversione appare istantaneamente - non c'e bisogno di cliccare calcola",
+    "howToUseStep5": "Usa il pulsante di scambio per invertire rapidamente la direzione della conversione",
+    "metricSystemTitle": "Unita di Peso Metriche (SI)",
+    "metricSystemContent": "Il sistema metrico e lo standard internazionale per la misurazione del peso. E basato su potenze di 10, rendendo le conversioni semplici. Un chilogrammo equivale a 1.000 grammi, e un grammo equivale a 1.000 milligrammi.",
+    "metricUnit1": "Milligrammo (mg) - Usato per misure molto piccole come i dosaggi dei farmaci, tipicamente 0,001 grammi",
+    "metricUnit2": "Grammo (g) - L'unita base di massa nel sistema metrico, comunemente usata in cucina e sulle etichette nutrizionali",
+    "metricUnit3": "Chilogrammo (kg) - L'unita standard per il peso corporeo e gli oggetti quotidiani, equivale a 1.000 grammi",
+    "metricUnit4": "Tonnellata Metrica (t) - Usata per misure su larga scala come merci e veicoli, equivale a 1.000 kg",
+    "imperialSystemTitle": "Unita di Peso Imperiali",
+    "imperialSystemContent": "Il sistema imperiale e usato principalmente negli Stati Uniti, nel Regno Unito e in alcuni altri paesi. Sebbene meno intuitivo per le conversioni, queste unita sono essenziali per molte applicazioni quotidiane in queste regioni.",
+    "imperialUnit1": "Oncia (oz) - Usata per porzioni di cibo e articoli piu piccoli, circa 28,35 grammi",
+    "imperialUnit2": "Libbra (lb) - L'unita di peso imperiale piu comune, equivale a 16 once o circa 453,6 grammi",
+    "imperialUnit3": "Stone (st) - Usato principalmente nel Regno Unito per il peso corporeo, equivale a 14 libbre o circa 6,35 kg",
+    "imperialUnit4": "Tonnellata Corta Americana (ton) - Usata per merci pesanti e veicoli, equivale a 2.000 libbre o circa 907 kg",
+    "conversionTipsTitle": "Consigli per la Conversione del Peso",
+    "conversionTip1": "Ricorda che 1 kg e approssimativamente 2,2 lbs - una conversione mentale rapida per l'uso quotidiano",
+    "conversionTip2": "Per cucinare, nota che 1 oncia e circa 28 grammi, quindi 4 oz equivalgono a circa 113 grammi",
+    "conversionTip3": "Peso corporeo: moltiplica i kg per 2,2 per ottenere le libbre, o dividi le libbre per 2,2 per ottenere i kg",
+    "conversionTip4": "Spedizione: le tonnellate metriche sono leggermente piu pesanti delle tonnellate corte americane (1 tonnellata = 1,102 tonnellate corte)",
+    "conversionTip5": "Stone e raramente usato al di fuori del Regno Unito - 1 stone = 14 lbs = circa 6,35 kg",
+    "commonUseCasesTitle": "Casi d'Uso Comuni",
+    "commonUseCase1": "Salute e Fitness - Converti il peso corporeo tra kg e lbs per calcoli BMI, attrezzature da palestra o cartelle cliniche di diversi paesi",
+    "commonUseCase2": "Cucina e Pasticceria - Converti le misure delle ricette tra metrico e imperiale, specialmente quando usi ricette internazionali",
+    "commonUseCase3": "Spedizione e Logistica - Converti i pesi dei pacchi per spedizioni internazionali dove vengono usati diversi sistemi di peso",
+    "commonUseCase4": "Scienza e Medicina - Converti tra unita metriche per misurazioni di laboratorio, dosaggi di farmaci e dati di ricerca",
+    "formulaTitle": "Formula di Conversione del Peso",
+    "formulaContent": "Valore Destinazione = Valore Origine x (Unita Origine in kg / Unita Destinazione in kg)",
+    "formulaExample": "Esempio: Per convertire 5 kg in libbre: 5 x (1 / 0,453592) = 11,02 lbs. Tutte le conversioni usano i chilogrammi come unita base intermedia.",
+    "faqTitle": "Domande Frequenti",
+    "faq1Question": "Qual e la differenza tra massa e peso?",
+    "faq1Answer": "La massa e la quantita di materia in un oggetto e rimane costante indipendentemente dalla posizione. Il peso e la forza di gravita che agisce su quella massa e varia con l'attrazione gravitazionale. Sulla Terra, i termini sono spesso usati in modo intercambiabile, ma tecnicamente un chilogrammo misura la massa mentre una libbra puo misurare entrambi. Questo convertitore li tratta come equivalenti per scopi pratici.",
+    "faq2Question": "Perche ci sono diverse unita di tonnellata?",
+    "faq2Answer": "La tonnellata metrica equivale esattamente a 1.000 kg ed e usata internazionalmente. La tonnellata corta americana equivale a 2.000 libbre (907,185 kg) ed e usata negli Stati Uniti. La tonnellata lunga britannica equivale a 2.240 libbre (1.016,05 kg) ma e raramente usata oggi. Questo convertitore include tonnellate metriche e americane come le conversioni piu comunemente necessarie.",
+    "faq3Question": "Quanto sono accurate queste conversioni?",
+    "faq3Answer": "Le nostre conversioni usano fattori di conversione riconosciuti internazionalmente con alta precisione. Per esempio, 1 libbra equivale esattamente a 0,45359237 kg per accordo internazionale. I risultati sono arrotondati per la visualizzazione ma mantengono una precisione di almeno 6 cifre significative, adatta a tutte le applicazioni pratiche.",
+    "faq4Question": "Cos'e uno stone e dove viene usato?",
+    "faq4Answer": "Lo stone e un'unita di peso pari a 14 libbre (circa 6,35 kg). E usato principalmente nel Regno Unito e in Irlanda per misurare il peso corporeo. Per esempio, una persona che pesa 154 lbs sarebbe descritta come 11 stone nel Regno Unito. E raramente usato per altri scopi o in altri paesi.",
+    "faq5Question": "Come converto rapidamente i chilogrammi in libbre?",
+    "faq5Answer": "Per una stima rapida, moltiplica i chilogrammi per 2,2 per ottenere le libbre. Per esempio, 70 kg x 2,2 = 154 lbs. Per l'inverso, dividi le libbre per 2,2 per ottenere i chilogrammi. Questa approssimazione e accurata entro circa lo 0,5% ed e utile per calcoli mentali rapidi.",
+    "faq6Question": "Qual e l'unita migliore per misurare il peso corporeo?",
+    "faq6Answer": "I chilogrammi sono lo standard internazionale e sono usati nella maggior parte dei paesi e in ambito medico. Le libbre sono comuni negli Stati Uniti, mentre stone e libbre sono tradizionali nel Regno Unito. Usa qualsiasi unita sia standard nel tuo paese o richiesta dal tuo operatore sanitario.",
+    "faq7Question": "Perche le ricette usano diverse unita di peso?",
+    "faq7Answer": "Le ricette riflettono i sistemi di misurazione del loro paese di origine. Le ricette americane tipicamente usano once e libbre, mentre le ricette europee e internazionali usano grammi e chilogrammi. I pasticcieri professionisti spesso preferiscono le misure metriche perche sono piu precise e piu facili da scalare.",
+    "faq8Question": "Un'oncia di peso e la stessa cosa di un'oncia liquida?",
+    "faq8Answer": "No, misurano cose diverse. Un'oncia (oz) misura peso o massa, mentre un'oncia liquida (fl oz) misura volume. Un'oncia liquida d'acqua pesa approssimativamente un'oncia, ma questa relazione non vale per altre sostanze. Questo convertitore gestisce solo once di peso."
+  }
+}

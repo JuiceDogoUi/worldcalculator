@@ -1,0 +1,107 @@
+{
+  "title": "Convertisseur de Volume",
+  "description": "Convertissez entre unités métriques (millilitres, litres, mètres cubes) et impériales (onces liquides, tasses, pintes, quarts, gallons). Inclut les mesures impériales américaines et britanniques.",
+  "meta": {
+    "title": "Convertisseur de Volume Gratuit - Litres en Gallons [2026]",
+    "description": "Convertissez les unités de volume instantanément : litres en gallons, millilitres en onces liquides, tasses en mL, et plus. Compatible avec mesures US et UK.",
+    "keywords": "convertisseur de volume, litres en gallons, gallons en litres, ml en oz, tasses en ml, convertisseur pintes, convertisseur quarts, métrique vers impérial volume, gallon UK vs US, convertisseur once liquide"
+  },
+  "inputs": {
+    "value": "Valeur",
+    "fromUnit": "De",
+    "toUnit": "Vers"
+  },
+  "outputs": {
+    "result": "Résultat",
+    "allConversions": "Toutes les Conversions"
+  },
+  "actions": {
+    "swap": "Inverser les unités",
+    "reset": "Réinitialiser",
+    "copy": "Copier le résultat",
+    "copied": "Copié !",
+    "showAllConversions": "Afficher toutes les conversions",
+    "hideAllConversions": "Masquer toutes les conversions"
+  },
+  "unitGroups": {
+    "metric": "Métrique",
+    "usImperial": "Impérial (US)",
+    "ukImperial": "Impérial (UK)",
+    "other": "Autres"
+  },
+  "units": {
+    "milliliter": "Millilitre",
+    "liter": "Litre",
+    "cubicMeter": "Mètre Cube",
+    "teaspoonUs": "Cuillère à café (US)",
+    "tablespoonUs": "Cuillère à soupe (US)",
+    "fluidOunceUs": "Once liquide (US)",
+    "cupUs": "Tasse (US)",
+    "pintUs": "Pinte (US)",
+    "quartUs": "Quart (US)",
+    "gallonUs": "Gallon (US)",
+    "fluidOunceUk": "Once liquide (UK)",
+    "pintUk": "Pinte (UK)",
+    "quartUk": "Quart (UK)",
+    "gallonUk": "Gallon (UK)",
+    "cubicInch": "Pouce Cube",
+    "cubicFoot": "Pied Cube"
+  },
+  "validation": {
+    "enterValue": "Veuillez entrer une valeur",
+    "invalidNumber": "Veuillez entrer un nombre valide",
+    "negativeValue": "La valeur ne peut pas être négative",
+    "valueTooLarge": "La valeur est trop grande"
+  },
+  "disclaimer": {
+    "text": "Ce convertisseur fournit des conversions précises basées sur des définitions standard. Les unités impériales US et UK diffèrent - vérifiez toujours quel système s'applique à vos besoins. Pour des mesures scientifiques ou commerciales précises, consultez les normes officielles."
+  },
+  "seo": {
+    "whatIsTitle": "Qu'est-ce que la Conversion de Volume ?",
+    "whatIsContent": "La conversion de volume est le processus de changement d'une mesure d'une unité à une autre tout en préservant la même quantité d'espace ou de capacité. Cela est essentiel lorsque vous travaillez avec des recettes, des expériences scientifiques, des mesures de carburant ou toute situation où différents systèmes de mesure sont utilisés. Notre convertisseur de volume prend en charge les unités métriques (millilitres, litres, mètres cubes), les unités impériales américaines (tasses, pintes, quarts, gallons) et les unités impériales britanniques, qui diffèrent considérablement de leurs homologues américains.",
+    "usVsUkTitle": "Mesures Impériales : US vs UK",
+    "usVsUkContent": "Les États-Unis et le Royaume-Uni utilisent des définitions différentes pour les mesures de volume impériales. Cette différence est apparue en 1824 lorsque le Royaume-Uni a normalisé le gallon impérial sur la base de 10 livres d'eau à 62°F, tandis que les États-Unis ont conservé l'ancien gallon de vin de la Reine Anne. Comprendre ces différences est crucial lorsque vous suivez des recettes ou des spécifications de différents pays.",
+    "usVsUkComparison1": "Gallon US = 3,785 litres (128 oz liquides US)",
+    "usVsUkComparison2": "Gallon UK = 4,546 litres (160 oz liquides UK) - 20% plus grand que US",
+    "usVsUkComparison3": "Pinte US = 473 mL (16 oz liquides US)",
+    "usVsUkComparison4": "Pinte UK = 568 mL (20 oz liquides UK) - 20% plus grande que US",
+    "commonUsesTitle": "Utilisations Courantes de la Conversion de Volume",
+    "commonUse1": "Cuisine et Pâtisserie - Convertissez les mesures de recettes entre systèmes métrique et impérial, surtout lors de l'utilisation de recettes internationales",
+    "commonUse2": "Carburant et Automobile - Convertissez entre litres et gallons pour les calculs d'efficacité énergétique et de capacité du réservoir",
+    "commonUse3": "Science et Laboratoire - Convertissez entre millilitres et onces liquides pour les expériences et mesures chimiques",
+    "commonUse4": "Boissons et Emballage - Comprenez les tailles de produits sur différents marchés (US, UK, pays métriques)",
+    "commonUse5": "Amélioration de l'Habitat - Calculez les quantités de peinture, produits chimiques ou autres liquides pour les projets",
+    "howToUseTitle": "Comment Utiliser ce Convertisseur de Volume",
+    "howToUseStep1": "Entrez la valeur de volume que vous souhaitez convertir dans le champ de saisie",
+    "howToUseStep2": "Sélectionnez l'unité source (l'unité à partir de laquelle vous convertissez) dans le menu déroulant",
+    "howToUseStep3": "Sélectionnez l'unité cible (l'unité vers laquelle vous convertissez) dans le menu déroulant",
+    "howToUseStep4": "Le résultat apparaît instantanément - utilisez le bouton d'inversion pour inverser la conversion",
+    "howToUseStep5": "Cliquez sur 'Afficher toutes les conversions' pour voir la valeur dans toutes les unités prises en charge à la fois",
+    "conversionTipsTitle": "Conseils de Conversion de Volume",
+    "conversionTip1": "Rappelez-vous qu'1 litre équivaut approximativement à 4,2 tasses US ou 3,5 tasses UK - une approximation utile pour cuisiner",
+    "conversionTip2": "Lors de la conversion de recettes, vérifiez toujours si des mesures US ou UK sont utilisées - une pinte UK est 20% plus grande qu'une pinte US",
+    "conversionTip3": "Pour des conversions approximatives : 1 gallon US fait environ 3,8 litres, tandis qu'1 gallon UK fait environ 4,5 litres",
+    "conversionTip4": "Les conversions métriques sont simples : 1 litre = 1 000 millilitres, 1 mètre cube = 1 000 litres",
+    "conversionTip5": "En cas de doute sur les mesures US vs UK, vérifiez le pays d'origine de la recette ou de la spécification",
+    "formulaTitle": "Formule de Conversion de Volume",
+    "formulaContent": "Résultat = Valeur d'Entrée × (Unité Source en Litres) ÷ (Unité Cible en Litres)",
+    "formulaExample": "Exemple : Pour convertir 2 gallons US en litres : 2 × 3,78541 = 7,57082 litres",
+    "faqTitle": "Questions Fréquemment Posées",
+    "faq1Question": "Quelle est la différence entre les gallons US et UK ?",
+    "faq1Answer": "Un gallon US équivaut à 3,785 litres (128 onces liquides US), tandis qu'un gallon UK équivaut à 4,546 litres (160 onces liquides UK). Le gallon UK est environ 20% plus grand que le gallon US. Cette différence affecte toutes les mesures associées : les pintes, quarts et onces liquides diffèrent également entre les deux systèmes.",
+    "faq2Question": "Combien de tasses y a-t-il dans un litre ?",
+    "faq2Answer": "Un litre équivaut approximativement à 4,227 tasses US ou 3,52 tasses UK. Pour des besoins pratiques en cuisine, vous pouvez estimer qu'1 litre fait environ 4 tasses US. Rappelez-vous que les tailles de tasses varient internationalement - une tasse US fait 236,6 mL, tandis qu'une tasse UK fait 284,1 mL.",
+    "faq3Question": "Pourquoi les mesures US et UK diffèrent-elles ?",
+    "faq3Answer": "La différence remonte à 1824 lorsque la Grande-Bretagne a normalisé le gallon impérial sur la base de 10 livres d'eau à 62°F. Les États-Unis ont conservé l'ancien gallon de vin de la Reine Anne, qui était déjà utilisé avant l'indépendance américaine. Ces différentes normes historiques ont créé la différence de 20% que nous connaissons aujourd'hui.",
+    "faq4Question": "Comment convertir les millilitres en onces liquides ?",
+    "faq4Answer": "Pour convertir les millilitres en onces liquides US, divisez par 29,5735 (1 oz liquide US = 29,5735 mL). Pour les onces liquides UK, divisez par 28,4131 (1 oz liquide UK = 28,4131 mL). Par exemple, 100 mL équivaut approximativement à 3,38 oz liquides US ou 3,52 oz liquides UK.",
+    "faq5Question": "Quel est l'équivalent métrique d'une tasse ?",
+    "faq5Answer": "Une tasse US équivaut à 236,588 millilitres (environ 237 mL ou 0,237 litre). Une tasse UK équivaut à 284,131 millilitres. De nombreux pays utilisant le système métrique définissent une 'tasse métrique' comme exactement 250 mL pour plus de commodité dans les recettes.",
+    "faq6Question": "Combien de litres y a-t-il dans un mètre cube ?",
+    "faq6Answer": "Un mètre cube équivaut exactement à 1 000 litres. Cela s'explique par le fait qu'un litre a été initialement défini comme le volume d'un décimètre cube (10cm × 10cm × 10cm), et un mètre cube contient 1 000 décimètres cubes.",
+    "faq7Question": "Pourquoi les mesures de cuisine diffèrent-elles selon les pays ?",
+    "faq7Answer": "Les mesures de cuisine varient car différents pays ont développé leurs propres systèmes avant la normalisation. Les États-Unis utilisent des unités coutumières héritées de l'époque coloniale britannique, tandis que la plupart des autres pays utilisent des mesures métriques. Même au sein des systèmes 'impériaux', les États-Unis et le Royaume-Uni diffèrent considérablement dans leurs définitions des pintes, quarts et gallons.",
+    "faq8Question": "Ce convertisseur de volume est-il précis ?",
+    "faq8Answer": "Notre convertisseur utilise des facteurs de conversion standard du NIST (National Institute of Standards and Technology) et de la législation britannique. Les résultats sont précis à au moins 6 décimales. Pour la plupart des usages pratiques, y compris la cuisine, les calculs de carburant et les conversions quotidiennes, cette précision dépasse largement la précision de mesure typique."
+  }
+}

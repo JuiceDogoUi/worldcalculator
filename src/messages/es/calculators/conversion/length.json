@@ -1,0 +1,101 @@
+{
+  "title": "Conversor de Longitud",
+  "description": "Convierte entre unidades de longitud métricas e imperiales al instante. Compatible con milímetros, centímetros, metros, kilómetros, pulgadas, pies, yardas y millas con conversión bidireccional en tiempo real.",
+  "meta": {
+    "title": "Conversor de Longitud Gratis - Métrico a Imperial [2026]",
+    "description": "Convierte unidades de longitud al instante: metros a pies, pulgadas a centímetros, kilómetros a millas y más. Conversor de longitud online gratuito.",
+    "keywords": "conversor de longitud, conversor de unidades, metros a pies, pulgadas a centímetros, km a millas, métrico a imperial, imperial a métrico, calculadora de conversión de longitud, conversor de distancia, conversor de medidas"
+  },
+  "inputs": {
+    "value": "Valor a Convertir",
+    "fromUnit": "Desde Unidad",
+    "toUnit": "A Unidad"
+  },
+  "units": {
+    "mm": { "name": "Milímetro", "abbr": "mm" },
+    "cm": { "name": "Centímetro", "abbr": "cm" },
+    "m": { "name": "Metro", "abbr": "m" },
+    "km": { "name": "Kilómetro", "abbr": "km" },
+    "in": { "name": "Pulgada", "abbr": "in" },
+    "ft": { "name": "Pie", "abbr": "ft" },
+    "yd": { "name": "Yarda", "abbr": "yd" },
+    "mi": { "name": "Milla", "abbr": "mi" }
+  },
+  "unitSystems": {
+    "metric": "Métrico",
+    "imperial": "Imperial"
+  },
+  "actions": {
+    "swap": "Intercambiar Unidades",
+    "reset": "Restablecer"
+  },
+  "results": {
+    "title": "Resultado",
+    "allConversions": "Todas las Conversiones",
+    "commonConversions": "Referencia de Conversiones Comunes",
+    "conversionFactor": "Factor de Conversión"
+  },
+  "validation": {
+    "required": "Por favor ingrese un valor para convertir",
+    "invalidNumber": "Por favor ingrese un número válido",
+    "negativeValue": "La longitud no puede ser negativa",
+    "invalidUnit": "Por favor seleccione una unidad válida"
+  },
+  "disclaimer": {
+    "text": "Este conversor utiliza factores de conversión estándar basados en estándares de medición internacionales. Los resultados son precisos para la mayoría de propósitos prácticos.",
+    "note": "Factores de conversión: 1 pulgada = 2,54 cm (exacto), 1 pie = 0,3048 m (exacto), 1 yarda = 0,9144 m (exacto), 1 milla = 1,609344 km (exacto). Estas son las definiciones oficiales adoptadas internacionalmente."
+  },
+  "seo": {
+    "whatIsTitle": "¿Qué es un Conversor de Longitud?",
+    "whatIsContent": "Un conversor de longitud es una herramienta que permite convertir rápida y precisamente medidas entre diferentes unidades de longitud. Ya sea que necesite convertir metros a pies para un proyecto de mejora del hogar, kilómetros a millas para planificar viajes, o pulgadas a centímetros para manualidades y costura, este conversor maneja todas las conversiones comunes de unidades de longitud. Soporta tanto unidades métricas (milímetros, centímetros, metros, kilómetros) como unidades imperiales (pulgadas, pies, yardas, millas), siendo útil para personas de todo el mundo independientemente del sistema de medición que utilicen habitualmente.",
+    "whenToUseTitle": "¿Cuándo Usar un Conversor de Longitud?",
+    "whenToUseIntro": "Un conversor de longitud es esencial en muchas situaciones cotidianas:",
+    "whenToUsePoint1": "Proyectos de mejora del hogar - Convierte dimensiones de habitaciones entre pies y metros al seguir planos de diferentes países",
+    "whenToUsePoint2": "Planificación de viajes - Convierte distancias entre kilómetros y millas para entender escalas de mapas y distancias de conducción",
+    "whenToUsePoint3": "Compras en línea - Convierte dimensiones de productos para entender el tamaño real de artículos de vendedores internacionales",
+    "whenToUsePoint4": "Deportes y fitness - Convierte distancias de carrera, longitudes de piscina o medidas de pista entre métrico e imperial",
+    "whenToUsePoint5": "Cocina y manualidades - Convierte medidas de patrones, longitudes de tela o dimensiones de recetas",
+    "unitSystemsTitle": "Comprensión de los Sistemas de Unidades",
+    "metricSystemTitle": "Sistema Métrico (Unidades SI)",
+    "metricSystemDesc": "El sistema métrico es utilizado por la mayoría de los países del mundo. Se basa en potencias de 10, lo que facilita las conversiones dentro del sistema. La unidad base es el metro (m), siendo milímetro (mm), centímetro (cm) y kilómetro (km) unidades derivadas comunes.",
+    "imperialSystemTitle": "Sistema Imperial",
+    "imperialSystemDesc": "El sistema imperial se usa principalmente en Estados Unidos, Reino Unido (para algunas mediciones) y algunos otros países. Incluye pulgadas, pies, yardas y millas. Aunque menos intuitivo para cálculos, permanece profundamente arraigado en el uso cotidiano en estas regiones.",
+    "benefitsTitle": "¿Por Qué Usar Este Conversor de Longitud?",
+    "benefit1": "Conversión instantánea en tiempo real mientras escribe - no necesita hacer clic en un botón de calcular",
+    "benefit2": "Vea todas las conversiones de unidades a la vez para comparar rápidamente diferentes medidas",
+    "benefit3": "Conversión bidireccional - intercambie fácilmente entre unidades de origen y destino",
+    "benefit4": "Resultados de alta precisión adecuados para ingeniería, ciencia y mediciones precisas",
+    "benefit5": "Tabla de referencia de conversiones comunes para consulta rápida de valores frecuentes",
+    "howToUseTitle": "Cómo Usar Este Conversor",
+    "howToUseStep1": "Ingrese el valor numérico que desea convertir en el campo de entrada",
+    "howToUseStep2": "Seleccione la unidad desde la cual está convirtiendo usando el primer menú desplegable",
+    "howToUseStep3": "Seleccione la unidad a la cual desea convertir usando el segundo menú desplegable",
+    "howToUseStep4": "Vea el resultado instantáneo mostrado de forma prominente, junto con el factor de conversión",
+    "howToUseStep5": "Opcionalmente, use el botón 'Intercambiar Unidades' para invertir la dirección de conversión",
+    "conversionTipsTitle": "Consejos Útiles de Conversión",
+    "conversionTip1": "Recuerde: 1 pulgada equivale exactamente a 2,54 centímetros - esta es la definición oficial",
+    "conversionTip2": "Para convertir kilómetros a millas aproximadamente, multiplique por 0,6 (o divida por 1,6)",
+    "conversionTip3": "Un metro es aproximadamente 3 pies 3 pulgadas - útil para estimaciones mentales rápidas",
+    "conversionTip4": "Para trabajo de precisión, use siempre factores de conversión exactos en lugar de aproximaciones redondeadas",
+    "formulaTitle": "Fórmula de Conversión",
+    "formulaContent": "Resultado = Valor de Entrada x (Unidad de Origen en Metros / Unidad de Destino en Metros)",
+    "formulaExample": "Ejemplo: Para convertir 5 pies a metros: 5 x 0,3048 = 1,524 metros. El conversor usa metros como unidad base intermedia para todas las conversiones, asegurando precisión.",
+    "faqTitle": "Preguntas Frecuentes",
+    "faq1Question": "¿Qué tan precisas son estas conversiones?",
+    "faq1Answer": "Nuestras conversiones utilizan los factores de conversión estándar internacionales oficiales. Por ejemplo, 1 pulgada se define como exactamente 2,54 centímetros, y 1 yarda es exactamente 0,9144 metros. Estas no son aproximaciones sino definiciones exactas adoptadas por acuerdo internacional en 1959. El conversor mantiene alta precisión a lo largo de los cálculos.",
+    "faq2Question": "¿Cuál es la diferencia entre unidades métricas e imperiales?",
+    "faq2Answer": "El sistema métrico (unidades SI) se basa en potencias de 10, usando metros como unidad base. Es utilizado por la mayoría de los países del mundo y es el estándar para ciencia y comercio internacional. El sistema imperial usa pulgadas, pies, yardas y millas, con relaciones menos intuitivas entre unidades (12 pulgadas = 1 pie, 3 pies = 1 yarda, 1760 yardas = 1 milla). Se usa principalmente en Estados Unidos y para algunos propósitos en el Reino Unido.",
+    "faq3Question": "¿Cómo convierto metros a pies?",
+    "faq3Answer": "Para convertir metros a pies, multiplique el valor en metros por 3,28084. Por ejemplo, 10 metros equivalen aproximadamente a 32,8 pies. El factor de conversión exacto se basa en la definición de que 1 pie equivale exactamente a 0,3048 metros. Nuestro conversor lo hace automáticamente - simplemente ingrese su valor en metros y seleccione pies como unidad de destino.",
+    "faq4Question": "¿Cuántos centímetros hay en una pulgada?",
+    "faq4Answer": "Hay exactamente 2,54 centímetros en una pulgada. Esta no es una aproximación sino la definición oficial de una pulgada, adoptada por acuerdo internacional. Para convertir pulgadas a centímetros, multiplique por 2,54. Para convertir centímetros a pulgadas, divida por 2,54 (o multiplique por 0,3937).",
+    "faq5Question": "¿Cómo convierto kilómetros a millas?",
+    "faq5Answer": "Para convertir kilómetros a millas, multiplique el valor en kilómetros por 0,621371. Por ejemplo, 100 kilómetros equivalen aproximadamente a 62,14 millas. A la inversa, para convertir millas a kilómetros, multiplique por 1,60934. Una aproximación mental rápida: kilómetros multiplicados por 0,6 dan un equivalente aproximado en millas.",
+    "faq6Question": "¿Cuál es la relación entre pies, yardas y millas?",
+    "faq6Answer": "En el sistema imperial: 1 pie = 12 pulgadas, 1 yarda = 3 pies = 36 pulgadas, y 1 milla = 1.760 yardas = 5.280 pies. Estas relaciones son históricas y no están basadas en potencias de 10 como el sistema métrico. Una milla fue originalmente definida como 1.000 pasos romanos (mille passus), de ahí su nombre.",
+    "faq7Question": "¿Puedo usar esto para cálculos científicos?",
+    "faq7Answer": "Sí, este conversor es adecuado para cálculos científicos y de ingeniería. Utiliza factores de conversión exactos según lo definido por estándares internacionales. Sin embargo, para trabajo científico extremadamente preciso, tenga en cuenta las cifras significativas en sus valores de entrada. El conversor mantiene alta precisión interna pero puede redondear los resultados mostrados para mayor legibilidad.",
+    "faq8Question": "¿Por qué el mundo usa diferentes sistemas de medición?",
+    "faq8Answer": "El sistema métrico se desarrolló en Francia durante la década de 1790 y desde entonces ha sido adoptado por la mayoría de los países. Estados Unidos retuvo en gran medida el sistema imperial de los tiempos coloniales británicos. Aunque ha habido esfuerzos para metrificar en EE.UU., las unidades imperiales siguen siendo comunes en el uso cotidiano. El Reino Unido usa una mezcla de ambos sistemas. El comercio internacional y la ciencia utilizan predominantemente unidades métricas."
+  }
+}

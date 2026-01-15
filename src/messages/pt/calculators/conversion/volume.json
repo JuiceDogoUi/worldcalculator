@@ -1,0 +1,107 @@
+{
+  "title": "Conversor de Volume",
+  "description": "Converta entre unidades métricas (mililitros, litros, metros cúbicos) e imperiais (onças líquidas, chávenas, pintas, quartos, galões). Inclui medidas imperiais dos EUA e do Reino Unido.",
+  "meta": {
+    "title": "Conversor de Volume Grátis - Litros para Galões [2026]",
+    "description": "Converta unidades de volume instantaneamente: litros para galões, mililitros para onças líquidas, chávenas para mL e mais. Suporta medidas US e UK.",
+    "keywords": "conversor de volume, litros para galões, galões para litros, ml para oz, chávenas para ml, conversor de pintas, conversor de quartos, métrico para imperial volume, galão UK vs US, conversor onça líquida"
+  },
+  "inputs": {
+    "value": "Valor",
+    "fromUnit": "De",
+    "toUnit": "Para"
+  },
+  "outputs": {
+    "result": "Resultado",
+    "allConversions": "Todas as Conversões"
+  },
+  "actions": {
+    "swap": "Trocar unidades",
+    "reset": "Redefinir",
+    "copy": "Copiar resultado",
+    "copied": "Copiado!",
+    "showAllConversions": "Mostrar todas as conversões",
+    "hideAllConversions": "Ocultar todas as conversões"
+  },
+  "unitGroups": {
+    "metric": "Métrico",
+    "usImperial": "Imperial (EUA)",
+    "ukImperial": "Imperial (RU)",
+    "other": "Outros"
+  },
+  "units": {
+    "milliliter": "Mililitro",
+    "liter": "Litro",
+    "cubicMeter": "Metro Cúbico",
+    "teaspoonUs": "Colher de Chá (EUA)",
+    "tablespoonUs": "Colher de Sopa (EUA)",
+    "fluidOunceUs": "Onça Líquida (EUA)",
+    "cupUs": "Chávena (EUA)",
+    "pintUs": "Pinta (EUA)",
+    "quartUs": "Quarto (EUA)",
+    "gallonUs": "Galão (EUA)",
+    "fluidOunceUk": "Onça Líquida (RU)",
+    "pintUk": "Pinta (RU)",
+    "quartUk": "Quarto (RU)",
+    "gallonUk": "Galão (RU)",
+    "cubicInch": "Polegada Cúbica",
+    "cubicFoot": "Pé Cúbico"
+  },
+  "validation": {
+    "enterValue": "Por favor insira um valor",
+    "invalidNumber": "Por favor insira um número válido",
+    "negativeValue": "O valor não pode ser negativo",
+    "valueTooLarge": "O valor é demasiado grande"
+  },
+  "disclaimer": {
+    "text": "Este conversor fornece conversões precisas baseadas em definições padrão. As unidades imperiais dos EUA e do RU diferem - verifique sempre qual sistema se aplica às suas necessidades. Para medições científicas ou comerciais precisas, consulte os padrões oficiais."
+  },
+  "seo": {
+    "whatIsTitle": "O que é Conversão de Volume?",
+    "whatIsContent": "A conversão de volume é o processo de alterar uma medida de uma unidade para outra preservando a mesma quantidade de espaço ou capacidade. Isto é essencial ao trabalhar com receitas, experiências científicas, medições de combustível ou qualquer situação onde diferentes sistemas de medição são usados. O nosso conversor de volume suporta unidades métricas (mililitros, litros, metros cúbicos), unidades imperiais dos EUA (chávenas, pintas, quartos, galões) e unidades imperiais do RU, que diferem significativamente dos seus equivalentes americanos.",
+    "usVsUkTitle": "Medidas Imperiais: EUA vs RU",
+    "usVsUkContent": "Os Estados Unidos e o Reino Unido usam definições diferentes para as medidas de volume imperial. Esta diferença originou-se em 1824 quando o RU padronizou o galão imperial com base em 10 libras de água a 62°F, enquanto os EUA mantiveram o antigo galão de vinho da Rainha Ana. Compreender estas diferenças é crucial ao seguir receitas ou especificações de diferentes países.",
+    "usVsUkComparison1": "Galão EUA = 3,785 litros (128 oz líquidas EUA)",
+    "usVsUkComparison2": "Galão RU = 4,546 litros (160 oz líquidas RU) - 20% maior que EUA",
+    "usVsUkComparison3": "Pinta EUA = 473 mL (16 oz líquidas EUA)",
+    "usVsUkComparison4": "Pinta RU = 568 mL (20 oz líquidas RU) - 20% maior que EUA",
+    "commonUsesTitle": "Utilizações Comuns da Conversão de Volume",
+    "commonUse1": "Cozinha e Pastelaria - Converta medidas de receitas entre sistemas métrico e imperial, especialmente ao usar receitas internacionais",
+    "commonUse2": "Combustível e Automóvel - Converta entre litros e galões para cálculos de eficiência de combustível e capacidade do tanque",
+    "commonUse3": "Ciência e Laboratório - Converta entre mililitros e onças líquidas para experiências e medições químicas",
+    "commonUse4": "Bebidas e Embalagem - Compreenda tamanhos de produtos em diferentes mercados (EUA, RU, países métricos)",
+    "commonUse5": "Melhorias Domésticas - Calcule quantidades de tinta, químicos ou outros líquidos para projetos",
+    "howToUseTitle": "Como Usar Este Conversor de Volume",
+    "howToUseStep1": "Insira o valor de volume que deseja converter no campo de entrada",
+    "howToUseStep2": "Selecione a unidade de origem (a unidade a partir da qual está a converter) no menu suspenso",
+    "howToUseStep3": "Selecione a unidade de destino (a unidade para a qual está a converter) no menu suspenso",
+    "howToUseStep4": "O resultado aparece instantaneamente - use o botão de troca para inverter a conversão",
+    "howToUseStep5": "Clique em 'Mostrar todas as conversões' para ver o valor em todas as unidades suportadas de uma vez",
+    "conversionTipsTitle": "Dicas de Conversão de Volume",
+    "conversionTip1": "Lembre-se que 1 litro equivale aproximadamente a 4,2 chávenas dos EUA ou 3,5 chávenas do RU - uma aproximação útil para cozinhar",
+    "conversionTip2": "Ao converter receitas, sempre verifique se são usadas medidas dos EUA ou do RU - uma pinta do RU é 20% maior que uma pinta dos EUA",
+    "conversionTip3": "Para conversões aproximadas: 1 galão dos EUA é cerca de 3,8 litros, enquanto 1 galão do RU é cerca de 4,5 litros",
+    "conversionTip4": "As conversões métricas são simples: 1 litro = 1.000 mililitros, 1 metro cúbico = 1.000 litros",
+    "conversionTip5": "Quando tiver dúvidas sobre medidas dos EUA vs RU, verifique o país de origem da receita ou especificação",
+    "formulaTitle": "Fórmula de Conversão de Volume",
+    "formulaContent": "Resultado = Valor de Entrada × (Unidade de Origem em Litros) ÷ (Unidade de Destino em Litros)",
+    "formulaExample": "Exemplo: Para converter 2 galões dos EUA em litros: 2 × 3,78541 = 7,57082 litros",
+    "faqTitle": "Perguntas Frequentes",
+    "faq1Question": "Qual é a diferença entre galões dos EUA e do RU?",
+    "faq1Answer": "Um galão dos EUA equivale a 3,785 litros (128 onças líquidas dos EUA), enquanto um galão do RU equivale a 4,546 litros (160 onças líquidas do RU). O galão do RU é aproximadamente 20% maior que o galão dos EUA. Esta diferença afeta todas as medidas relacionadas: pintas, quartos e onças líquidas também diferem entre os dois sistemas.",
+    "faq2Question": "Quantas chávenas há num litro?",
+    "faq2Answer": "Um litro equivale aproximadamente a 4,227 chávenas dos EUA ou 3,52 chávenas do RU. Para fins práticos de cozinha, pode estimar que 1 litro são cerca de 4 chávenas dos EUA. Lembre-se que os tamanhos de chávenas variam internacionalmente - uma chávena dos EUA é 236,6 mL, enquanto uma chávena do RU é 284,1 mL.",
+    "faq3Question": "Por que as medidas dos EUA e do RU diferem?",
+    "faq3Answer": "A diferença remonta a 1824 quando a Grã-Bretanha padronizou o galão imperial com base em 10 libras de água a 62°F. Os EUA mantiveram o antigo galão de vinho da Rainha Ana, que já estava em uso antes da independência americana. Estes diferentes padrões históricos criaram a diferença de 20% que vemos hoje.",
+    "faq4Question": "Como converto mililitros para onças líquidas?",
+    "faq4Answer": "Para converter mililitros para onças líquidas dos EUA, divida por 29,5735 (1 oz líquida EUA = 29,5735 mL). Para onças líquidas do RU, divida por 28,4131 (1 oz líquida RU = 28,4131 mL). Por exemplo, 100 mL equivale aproximadamente a 3,38 oz líquidas dos EUA ou 3,52 oz líquidas do RU.",
+    "faq5Question": "Qual é o equivalente métrico de uma chávena?",
+    "faq5Answer": "Uma chávena dos EUA equivale a 236,588 mililitros (aproximadamente 237 mL ou 0,237 litros). Uma chávena do RU equivale a 284,131 mililitros. Muitos países que usam o sistema métrico definem uma 'chávena métrica' como exatamente 250 mL por conveniência em receitas.",
+    "faq6Question": "Quantos litros há num metro cúbico?",
+    "faq6Answer": "Um metro cúbico equivale exatamente a 1.000 litros. Isto acontece porque um litro foi originalmente definido como o volume de um decímetro cúbico (10cm × 10cm × 10cm), e um metro cúbico contém 1.000 decímetros cúbicos.",
+    "faq7Question": "Por que as medidas de cozinha são diferentes em diferentes países?",
+    "faq7Answer": "As medidas de cozinha variam porque diferentes países desenvolveram os seus próprios sistemas antes da padronização. Os EUA usam unidades tradicionais herdadas dos tempos coloniais britânicos, enquanto a maioria dos outros países usa medidas métricas. Mesmo dentro dos sistemas 'imperiais', os EUA e o RU diferem significativamente nas suas definições de pintas, quartos e galões.",
+    "faq8Question": "Quão preciso é este conversor de volume?",
+    "faq8Answer": "O nosso conversor usa fatores de conversão padrão do NIST (National Institute of Standards and Technology) e legislação do RU. Os resultados são precisos até pelo menos 6 casas decimais. Para a maioria dos fins práticos incluindo cozinha, cálculos de combustível e conversões do dia a dia, esta precisão excede largamente a precisão de medição típica."
+  }
+}

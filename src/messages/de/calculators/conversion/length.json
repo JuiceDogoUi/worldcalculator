@@ -1,0 +1,101 @@
+{
+  "title": "Längenumrechner",
+  "description": "Konvertieren Sie sofort zwischen metrischen und imperialen Längeneinheiten. Unterstützt Millimeter, Zentimeter, Meter, Kilometer, Zoll, Fuß, Yard und Meilen mit bidirektionaler Echtzeit-Konvertierung.",
+  "meta": {
+    "title": "Kostenloser Längenumrechner - Metrisch zu Imperial [2026]",
+    "description": "Konvertieren Sie Längeneinheiten sofort: Meter in Fuß, Zoll in Zentimeter, Kilometer in Meilen und mehr. Kostenloser Online-Längenumrechner.",
+    "keywords": "Längenumrechner, Einheitenumrechner, Meter in Fuß, Zoll in Zentimeter, km in Meilen, metrisch zu imperial, imperial zu metrisch, Längenumrechnungsrechner, Entfernungsumrechner, Maßeinheitenumrechner"
+  },
+  "inputs": {
+    "value": "Umzurechnender Wert",
+    "fromUnit": "Von Einheit",
+    "toUnit": "Zu Einheit"
+  },
+  "units": {
+    "mm": { "name": "Millimeter", "abbr": "mm" },
+    "cm": { "name": "Zentimeter", "abbr": "cm" },
+    "m": { "name": "Meter", "abbr": "m" },
+    "km": { "name": "Kilometer", "abbr": "km" },
+    "in": { "name": "Zoll", "abbr": "in" },
+    "ft": { "name": "Fuß", "abbr": "ft" },
+    "yd": { "name": "Yard", "abbr": "yd" },
+    "mi": { "name": "Meile", "abbr": "mi" }
+  },
+  "unitSystems": {
+    "metric": "Metrisch",
+    "imperial": "Imperial"
+  },
+  "actions": {
+    "swap": "Einheiten Tauschen",
+    "reset": "Zurücksetzen"
+  },
+  "results": {
+    "title": "Ergebnis",
+    "allConversions": "Alle Umrechnungen",
+    "commonConversions": "Referenz für Gängige Umrechnungen",
+    "conversionFactor": "Umrechnungsfaktor"
+  },
+  "validation": {
+    "required": "Bitte geben Sie einen umzurechnenden Wert ein",
+    "invalidNumber": "Bitte geben Sie eine gültige Zahl ein",
+    "negativeValue": "Die Länge kann nicht negativ sein",
+    "invalidUnit": "Bitte wählen Sie eine gültige Einheit"
+  },
+  "disclaimer": {
+    "text": "Dieser Umrechner verwendet Standard-Umrechnungsfaktoren basierend auf internationalen Messstandards. Die Ergebnisse sind für die meisten praktischen Zwecke genau.",
+    "note": "Umrechnungsfaktoren: 1 Zoll = 2,54 cm (exakt), 1 Fuß = 0,3048 m (exakt), 1 Yard = 0,9144 m (exakt), 1 Meile = 1,609344 km (exakt). Dies sind die offiziellen, international angenommenen Definitionen."
+  },
+  "seo": {
+    "whatIsTitle": "Was ist ein Längenumrechner?",
+    "whatIsContent": "Ein Längenumrechner ist ein Werkzeug, mit dem Sie Messungen schnell und genau zwischen verschiedenen Längeneinheiten umrechnen können. Ob Sie Meter in Fuß für ein Heimwerkerprojekt umrechnen müssen, Kilometer in Meilen für die Reiseplanung oder Zoll in Zentimeter für Handwerk und Nähen, dieser Umrechner bewältigt alle gängigen Längeneinheiten-Umrechnungen. Er unterstützt sowohl metrische Einheiten (Millimeter, Zentimeter, Meter, Kilometer) als auch imperiale Einheiten (Zoll, Fuß, Yard, Meilen) und ist damit für Menschen auf der ganzen Welt nützlich, unabhängig davon, welches Messsystem sie normalerweise verwenden.",
+    "whenToUseTitle": "Wann sollten Sie einen Längenumrechner verwenden?",
+    "whenToUseIntro": "Ein Längenumrechner ist in vielen alltäglichen Situationen unverzichtbar:",
+    "whenToUsePoint1": "Heimwerkerprojekte - Konvertieren Sie Raummaße zwischen Fuß und Metern beim Befolgen von Plänen aus verschiedenen Ländern",
+    "whenToUsePoint2": "Reiseplanung - Konvertieren Sie Entfernungen zwischen Kilometern und Meilen, um Kartenmaßstäbe und Fahrstrecken zu verstehen",
+    "whenToUsePoint3": "Online-Shopping - Konvertieren Sie Produktabmessungen, um die tatsächliche Größe von Artikeln internationaler Verkäufer zu verstehen",
+    "whenToUsePoint4": "Sport und Fitness - Konvertieren Sie Laufdistanzen, Schwimmbadlängen oder Bahnmaße zwischen metrisch und imperial",
+    "whenToUsePoint5": "Kochen und Handwerk - Konvertieren Sie Schnittmustermaße, Stofflängen oder Rezeptabmessungen",
+    "unitSystemsTitle": "Verständnis der Einheitensysteme",
+    "metricSystemTitle": "Metrisches System (SI-Einheiten)",
+    "metricSystemDesc": "Das metrische System wird von den meisten Ländern weltweit verwendet. Es basiert auf Zehnerpotenzen, was Umrechnungen innerhalb des Systems unkompliziert macht. Die Basiseinheit ist der Meter (m), wobei Millimeter (mm), Zentimeter (cm) und Kilometer (km) gängige abgeleitete Einheiten sind.",
+    "imperialSystemTitle": "Imperiales System",
+    "imperialSystemDesc": "Das imperiale System wird hauptsächlich in den Vereinigten Staaten, im Vereinigten Königreich (für einige Messungen) und einigen anderen Ländern verwendet. Es umfasst Zoll, Fuß, Yard und Meilen. Obwohl es weniger intuitiv für Berechnungen ist, bleibt es in diesen Regionen tief im alltäglichen Gebrauch verwurzelt.",
+    "benefitsTitle": "Warum diesen Längenumrechner verwenden?",
+    "benefit1": "Sofortige Echtzeit-Umrechnung während der Eingabe - kein Klicken auf eine Berechnungs-Schaltfläche erforderlich",
+    "benefit2": "Sehen Sie alle Einheiten-Umrechnungen auf einmal, um verschiedene Maße schnell zu vergleichen",
+    "benefit3": "Bidirektionale Umrechnung - tauschen Sie einfach zwischen Quell- und Zieleinheiten",
+    "benefit4": "Hochpräzise Ergebnisse geeignet für Technik, Wissenschaft und präzise Messungen",
+    "benefit5": "Referenztabelle für gängige Umrechnungen zur schnellen Nachschlag häufig benötigter Werte",
+    "howToUseTitle": "Wie man diesen Umrechner verwendet",
+    "howToUseStep1": "Geben Sie den numerischen Wert ein, den Sie umrechnen möchten, in das Eingabefeld",
+    "howToUseStep2": "Wählen Sie die Einheit, von der Sie umrechnen, über das erste Dropdown-Menü",
+    "howToUseStep3": "Wählen Sie die Einheit, in die Sie umrechnen möchten, über das zweite Dropdown-Menü",
+    "howToUseStep4": "Sehen Sie das sofort angezeigte Ergebnis prominent zusammen mit dem Umrechnungsfaktor",
+    "howToUseStep5": "Optional können Sie die Schaltfläche 'Einheiten Tauschen' verwenden, um die Umrechnungsrichtung umzukehren",
+    "conversionTipsTitle": "Hilfreiche Umrechnungstipps",
+    "conversionTip1": "Merken Sie sich: 1 Zoll entspricht genau 2,54 Zentimetern - dies ist die offizielle Definition",
+    "conversionTip2": "Um Kilometer grob in Meilen umzurechnen, multiplizieren Sie mit 0,6 (oder teilen Sie durch 1,6)",
+    "conversionTip3": "Ein Meter ist ungefähr 3 Fuß 3 Zoll - nützlich für schnelle mentale Schätzungen",
+    "conversionTip4": "Für Präzisionsarbeiten verwenden Sie immer exakte Umrechnungsfaktoren statt gerundeter Näherungen",
+    "formulaTitle": "Umrechnungsformel",
+    "formulaContent": "Ergebnis = Eingabewert x (Ausgangseinheit in Metern / Zieleinheit in Metern)",
+    "formulaExample": "Beispiel: Um 5 Fuß in Meter umzurechnen: 5 x 0,3048 = 1,524 Meter. Der Umrechner verwendet Meter als Zwischenbasiseinheit für alle Umrechnungen und gewährleistet so Genauigkeit.",
+    "faqTitle": "Häufig Gestellte Fragen",
+    "faq1Question": "Wie genau sind diese Umrechnungen?",
+    "faq1Answer": "Unsere Umrechnungen verwenden die offiziellen internationalen Standard-Umrechnungsfaktoren. Zum Beispiel ist 1 Zoll als genau 2,54 Zentimeter definiert, und 1 Yard ist genau 0,9144 Meter. Dies sind keine Näherungen, sondern exakte Definitionen, die durch internationale Vereinbarung im Jahr 1959 angenommen wurden. Der Umrechner behält während der gesamten Berechnungen hohe Präzision bei.",
+    "faq2Question": "Was ist der Unterschied zwischen metrischen und imperialen Einheiten?",
+    "faq2Answer": "Das metrische System (SI-Einheiten) basiert auf Zehnerpotenzen und verwendet Meter als Basiseinheit. Es wird von den meisten Ländern weltweit verwendet und ist der Standard für Wissenschaft und internationalen Handel. Das imperiale System verwendet Zoll, Fuß, Yard und Meilen mit weniger intuitiven Beziehungen zwischen den Einheiten (12 Zoll = 1 Fuß, 3 Fuß = 1 Yard, 1760 Yard = 1 Meile). Es wird hauptsächlich in den Vereinigten Staaten und für einige Zwecke im Vereinigten Königreich verwendet.",
+    "faq3Question": "Wie rechne ich Meter in Fuß um?",
+    "faq3Answer": "Um Meter in Fuß umzurechnen, multiplizieren Sie den Meterwert mit 3,28084. Zum Beispiel entsprechen 10 Meter ungefähr 32,8 Fuß. Der exakte Umrechnungsfaktor basiert auf der Definition, dass 1 Fuß genau 0,3048 Meter entspricht. Unser Umrechner handhabt dies automatisch - geben Sie einfach Ihren Meterwert ein und wählen Sie Fuß als Zieleinheit.",
+    "faq4Question": "Wie viele Zentimeter hat ein Zoll?",
+    "faq4Answer": "Es gibt genau 2,54 Zentimeter in einem Zoll. Dies ist keine Näherung, sondern die offizielle Definition eines Zolls, die durch internationale Vereinbarung angenommen wurde. Um Zoll in Zentimeter umzurechnen, multiplizieren Sie mit 2,54. Um Zentimeter in Zoll umzurechnen, teilen Sie durch 2,54 (oder multiplizieren Sie mit 0,3937).",
+    "faq5Question": "Wie rechne ich Kilometer in Meilen um?",
+    "faq5Answer": "Um Kilometer in Meilen umzurechnen, multiplizieren Sie den Kilometerwert mit 0,621371. Zum Beispiel entsprechen 100 Kilometer ungefähr 62,14 Meilen. Umgekehrt, um Meilen in Kilometer umzurechnen, multiplizieren Sie mit 1,60934. Eine schnelle mentale Näherung: Kilometer multipliziert mit 0,6 ergibt ein grobes Meilen-Äquivalent.",
+    "faq6Question": "Was ist die Beziehung zwischen Fuß, Yard und Meilen?",
+    "faq6Answer": "Im imperialen System: 1 Fuß = 12 Zoll, 1 Yard = 3 Fuß = 36 Zoll, und 1 Meile = 1.760 Yard = 5.280 Fuß. Diese Beziehungen sind historisch und basieren nicht auf Zehnerpotenzen wie das metrische System. Eine Meile wurde ursprünglich als 1.000 römische Schritte (mille passus) definiert, was ihr ihren Namen gab.",
+    "faq7Question": "Kann ich dies für wissenschaftliche Berechnungen verwenden?",
+    "faq7Answer": "Ja, dieser Umrechner ist für wissenschaftliche und technische Berechnungen geeignet. Er verwendet exakte Umrechnungsfaktoren, wie sie durch internationale Standards definiert sind. Für extrem präzise wissenschaftliche Arbeiten sollten Sie sich jedoch der signifikanten Stellen in Ihren Eingabewerten bewusst sein. Der Umrechner behält hohe interne Präzision bei, kann aber angezeigte Ergebnisse für bessere Lesbarkeit runden.",
+    "faq8Question": "Warum verwendet die Welt unterschiedliche Messsysteme?",
+    "faq8Answer": "Das metrische System wurde in den 1790er Jahren in Frankreich entwickelt und wurde seitdem von den meisten Ländern übernommen. Die Vereinigten Staaten behielten das imperiale System weitgehend aus der britischen Kolonialzeit bei. Obwohl es Bemühungen zur Metrifizierung in den USA gab, bleiben imperiale Einheiten im alltäglichen Gebrauch üblich. Das Vereinigte Königreich verwendet eine Mischung beider Systeme. Der internationale Handel und die Wissenschaft verwenden überwiegend metrische Einheiten."
+  }
+}

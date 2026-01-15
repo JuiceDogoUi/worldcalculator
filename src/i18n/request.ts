@@ -9,7 +9,7 @@ const CALCULATOR_REGISTRY: Record<string, string[]> = {
   finance: ['loan', 'mortgage', 'compound-interest', 'savings-goal', 'roi', 'retirement'],
   math: ['percentage', 'fraction', 'gcd', 'scientific', 'square-root', 'ratio'],
   health: ['bmi', 'tdee', 'heart-rate', 'ideal-weight', 'macro', 'body-fat'],
-  conversion: [],
+  conversion: ['temperature', 'length', 'weight', 'area', 'speed', 'volume'],
   'time-date': [],
   construction: [],
   statistics: ['standard-deviation', 'mean-median-mode', 'probability', 'z-score', 'correlation', 'sample-size'],

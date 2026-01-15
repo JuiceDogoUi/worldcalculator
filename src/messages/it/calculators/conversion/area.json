@@ -1,0 +1,142 @@
+{
+  "title": "Convertitore di Area",
+  "description": "Converti istantaneamente tra unità di area metriche e imperiali. Perfetto per immobili, misurazione terreni, costruzioni e conversioni quotidiane.",
+  "meta": {
+    "title": "Convertitore di Area Gratuito - Metri, Piedi Quadrati [2026]",
+    "description": "Converti unità di area istantaneamente: metri quadrati in piedi quadrati, acri in ettari e altro. Strumento gratuito per immobili e costruzioni.",
+    "keywords": "convertitore di area, metri quadrati in piedi quadrati, acri in ettari, calcolatore di area, convertitore ettari, calcolatore acri, misurazione terreno, convertitore immobiliare"
+  },
+  "inputs": {
+    "value": "Valore dell'Area",
+    "fromUnit": "Dall'Unità",
+    "toUnit": "All'Unità"
+  },
+  "results": {
+    "result": "Risultato",
+    "allConversions": "Tutte le Conversioni",
+    "formula": "Formula di Conversione",
+    "conversionFactor": "Fattore di conversione",
+    "realEstateContext": "Contesto Immobiliare",
+    "landMeasurement": "Misurazione del Terreno"
+  },
+  "actions": {
+    "swap": "Scambia unità",
+    "reset": "Reimposta"
+  },
+  "units": {
+    "metricUnits": "Unità Metriche",
+    "imperialUnits": "Unità Imperiali/US",
+    "mm2": {
+      "name": "Millimetri Quadrati",
+      "abbr": "mm²"
+    },
+    "cm2": {
+      "name": "Centimetri Quadrati",
+      "abbr": "cm²"
+    },
+    "m2": {
+      "name": "Metri Quadrati",
+      "abbr": "m²"
+    },
+    "km2": {
+      "name": "Chilometri Quadrati",
+      "abbr": "km²"
+    },
+    "hectare": {
+      "name": "Ettari",
+      "abbr": "ha"
+    },
+    "in2": {
+      "name": "Pollici Quadrati",
+      "abbr": "in²"
+    },
+    "ft2": {
+      "name": "Piedi Quadrati",
+      "abbr": "ft²"
+    },
+    "yd2": {
+      "name": "Iarde Quadrate",
+      "abbr": "yd²"
+    },
+    "acre": {
+      "name": "Acri",
+      "abbr": "ac"
+    },
+    "mi2": {
+      "name": "Miglia Quadrate",
+      "abbr": "mi²"
+    }
+  },
+  "validation": {
+    "valueRequired": "Inserisci un valore di area",
+    "valueNegative": "L'area non può essere negativa",
+    "valueInvalid": "Inserisci un numero valido",
+    "valueMax": "Il valore supera il limite massimo"
+  },
+  "disclaimer": {
+    "text": "Questo convertitore fornisce conversioni precise basate su fattori di conversione standard. Per rilievi ufficiali, documenti legali o applicazioni ad alta precisione, consulta un geometra abilitato o utilizza strumenti di misurazione certificati.",
+    "note": "I fattori di conversione si basano su standard internazionali del NIST (Istituto Nazionale degli Standard e della Tecnologia) e BIPM (Ufficio Internazionale dei Pesi e delle Misure)."
+  },
+  "seo": {
+    "whatIsTitle": "Cos'è un Convertitore di Area?",
+    "whatIsContent": "Un convertitore di area è uno strumento che trasforma le misurazioni tra diverse unità di area. Che tu stia lavorando con metri quadrati, piedi quadrati, acri o ettari, questo convertitore gestisce tutte le unità di area metriche e imperiali comuni. È essenziale per professionisti del settore immobiliare, geometri, operai edili, architetti e chiunque lavori con misurazioni di proprietà in diversi sistemi di misurazione.",
+    "whenToUseTitle": "Quando Usare un Convertitore di Area",
+    "whenToUseIntro": "Usa questo convertitore di area ogni volta che devi:",
+    "whenToUsePoint1": "Confrontare dimensioni di proprietà elencate in diverse unità (es., appartamenti in m² vs ft²)",
+    "whenToUsePoint2": "Calcolare l'area del terreno per scopi agricoli o di sviluppo",
+    "whenToUsePoint3": "Convertire progetti di costruzione tra misurazioni metriche e imperiali",
+    "whenToUsePoint4": "Comprendere annunci immobiliari internazionali quando acquisti o vendi proprietà",
+    "whenToUsePoint5": "Verificare calcoli di area per progetti di pavimentazione, copertura o paesaggistica",
+    "unitTypesTitle": "Tipi di Unità di Area",
+    "unitTypeMetric": "Unità Metriche - Millimetri quadrati (mm²), centimetri (cm²), metri (m²), chilometri (km²) ed ettari (ha). Utilizzate in tutto il mondo, specialmente in contesti scientifici.",
+    "unitTypeImperial": "Unità Imperiali/US - Pollici quadrati (in²), piedi (ft²), iarde (yd²), acri e miglia quadrate (mi²). Comuni negli Stati Uniti, Regno Unito e nelle ex colonie britanniche.",
+    "unitTypeRealEstate": "Unità Immobiliari - Piedi quadrati e metri quadrati sono i più comuni per le proprietà residenziali. Ettari e acri sono utilizzati per lotti di terreno più grandi.",
+    "unitTypeLand": "Misurazione del Terreno - Acri (comuni in USA/Regno Unito) ed ettari (usati internazionalmente) sono le unità standard per misurare terreni agricoli e non sviluppati.",
+    "benefitsTitle": "Perché Usare Questo Convertitore di Area?",
+    "benefit1": "Converti istantaneamente tra 10 diverse unità di area con alta precisione",
+    "benefit2": "Visualizza tutti i valori equivalenti in una volta - non serve convertire più volte",
+    "benefit3": "Perfetto per confronti immobiliari internazionali e ricerca di proprietà",
+    "benefit4": "Essenziale per progetti di costruzione che utilizzano piani da paesi diversi",
+    "benefit5": "Risparmia tempo sui calcoli manuali ed elimina errori di conversione",
+    "howToUseTitle": "Come Usare il Convertitore di Area",
+    "howToUseStep1": "Inserisci il valore dell'area che desideri convertire nel campo di input",
+    "howToUseStep2": "Seleziona l'unità da cui stai convertendo (es., metri quadrati)",
+    "howToUseStep3": "Seleziona l'unità in cui desideri convertire (es., piedi quadrati)",
+    "howToUseStep4": "Visualizza il risultato istantaneo e la formula di conversione",
+    "howToUseStep5": "Controlla la sezione 'Tutte le Conversioni' per vedere il valore in ogni unità supportata",
+    "commonConversionsTitle": "Conversioni di Area Comuni",
+    "commonConversion1": "1 metro quadrato (m²) = 10,764 piedi quadrati (ft²)",
+    "commonConversion2": "1 acro = 4.046,86 metri quadrati (m²) = 0,4047 ettari",
+    "commonConversion3": "1 ettaro (ha) = 10.000 metri quadrati = 2,471 acri",
+    "commonConversion4": "1 piede quadrato (ft²) = 0,0929 metri quadrati (m²)",
+    "realEstateTitle": "Conversione di Area per Immobili",
+    "realEstateContent": "Nel settore immobiliare, le misurazioni di area sono fondamentali per la valutazione delle proprietà, il confronto degli acquisti e la documentazione legale. Negli Stati Uniti, il piede quadrato (ft²) è l'unità standard per le proprietà residenziali, mentre la maggior parte degli altri paesi utilizza metri quadrati (m²). Per lotti di terreno più grandi, gli acri sono comuni negli USA e nel Regno Unito, mentre gli ettari sono lo standard internazionale. Quando visualizzi annunci immobiliari internazionali, verifica sempre quale sistema di unità viene utilizzato per evitare costosi malintesi. Un appartamento di 100 m² equivale approssimativamente a 1.076 ft², e un lotto di 1 acro equivale a circa 4.047 m² o 0,4 ettari.",
+    "formulaTitle": "Formula di Conversione dell'Area",
+    "formulaContent": "Valore nell'unità target = Valore nell'unità sorgente × (Fattore unità sorgente / Fattore unità target)",
+    "formulaExample": "Tutte le conversioni utilizzano metri quadrati (m²) come unità base. Ad esempio: 100 ft² × 0,0929 m²/ft² = 9,29 m²",
+    "tipsTitle": "Suggerimenti per Misurazioni di Area Accurate",
+    "tip1": "Quando confronti dimensioni di proprietà a livello internazionale, verifica sempre il sistema di unità utilizzato",
+    "tip2": "Negli immobili, i piedi quadrati si riferiscono generalmente allo spazio abitativo interno, non alla dimensione totale del lotto",
+    "tip3": "I terreni agricoli sono solitamente misurati in acri (USA/Regno Unito) o ettari (internazionale)",
+    "tip4": "I codici edilizi e i regolamenti urbanistici possono specificare limiti di area in unità specifiche - converti con attenzione",
+    "tip5": "Ricorda che le unità di area scalano con il quadrato delle unità di lunghezza (1 m = 3,28 ft, ma 1 m² = 10,76 ft²)",
+    "tip6": "Per le stime di costruzione, aggiungi sempre il 10-15% di materiale extra per compensare scarti e tagli",
+    "faqTitle": "Domande Frequenti",
+    "faq1Question": "Come converto i piedi quadrati in metri quadrati?",
+    "faq1Answer": "Per convertire i piedi quadrati in metri quadrati, moltiplica il valore in piedi quadrati per 0,0929. Ad esempio, 1.000 ft² × 0,0929 = 92,9 m². Inversamente, per convertire metri quadrati in piedi quadrati, moltiplica per 10,764. Il nostro convertitore esegue questo calcolo istantaneamente per te.",
+    "faq2Question": "Quanti acri ci sono in un ettaro?",
+    "faq2Answer": "Un ettaro equivale a circa 2,471 acri. Inversamente, un acro equivale a circa 0,4047 ettari. Gli ettari sono l'unità preferita per la misurazione del terreno nella maggior parte dei paesi al di fuori degli Stati Uniti e del Regno Unito.",
+    "faq3Question": "Qual è la differenza tra un ettaro e un acro?",
+    "faq3Answer": "Un ettaro è più grande di un acro - un ettaro equivale a circa 2,47 acri. Gli ettari sono unità metriche equivalenti a 10.000 metri quadrati, mentre gli acri sono unità imperiali equivalenti a 43.560 piedi quadrati. Gli ettari sono utilizzati internazionalmente, mentre gli acri sono utilizzati principalmente negli USA, Regno Unito e in alcune ex colonie britanniche.",
+    "faq4Question": "Come converto l'area di una stanza da metri quadrati a piedi quadrati?",
+    "faq4Answer": "Moltiplica la misurazione in metri quadrati per 10,764 per ottenere piedi quadrati. Ad esempio, una stanza di 20 m² equivale a 215,28 ft² (20 × 10,764). Questo è utile quando si confrontano dimensioni di appartamenti tra paesi che utilizzano diversi sistemi di misurazione.",
+    "faq5Question": "Quale unità di area viene utilizzata per misurare gli appartamenti?",
+    "faq5Answer": "Negli Stati Uniti, gli appartamenti sono misurati in piedi quadrati (ft²). Nella maggior parte degli altri paesi, inclusi Europa, Asia e Australia, il metro quadrato (m²) è lo standard. Quando cerchi proprietà internazionali, assicurati di verificare quale unità viene utilizzata e converti se necessario.",
+    "faq6Question": "Quanto è grande un metro quadrato in piedi quadrati?",
+    "faq6Answer": "Un metro quadrato equivale a circa 10,764 piedi quadrati. Ciò significa che una stanza di 1 metro per 1 metro (1 m²) equivale a circa 10,76 piedi quadrati. Comprendere questa conversione è essenziale quando si confrontano dimensioni di proprietà a livello internazionale.",
+    "faq7Question": "Quanti piedi quadrati ci sono in un acro?",
+    "faq7Answer": "Un acro contiene esattamente 43.560 piedi quadrati. Questo equivale a circa 4.047 metri quadrati o circa 0,405 ettari. Un acro ha all'incirca le dimensioni di un campo da football americano (senza le zone finali), rendendo più facile visualizzare le dimensioni del terreno.",
+    "faq8Question": "Qual è l'unità migliore per misurare grandi aree di terreno?",
+    "faq8Answer": "Per grandi aree di terreno, usa ettari (internazionalmente) o acri (USA/Regno Unito). I chilometri quadrati sono utilizzati per aree molto grandi come città o regioni. Per riferimento: le piccole fattorie sono spesso 10-50 ettari (25-125 acri), mentre le grandi fattorie possono essere centinaia o migliaia di ettari."
+  }
+}

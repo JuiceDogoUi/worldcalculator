@@ -1,0 +1,142 @@
+{
+  "title": "Conversor de Área",
+  "description": "Converta instantaneamente entre unidades de área métricas e imperiais. Perfeito para imóveis, medição de terrenos, construção e conversões diárias.",
+  "meta": {
+    "title": "Conversor de Área Grátis - Metros, Pés Quadrados, Hectares [2026]",
+    "description": "Converta unidades de área instantaneamente: metros quadrados para pés quadrados, acres para hectares e mais. Ferramenta gratuita para imóveis e construção.",
+    "keywords": "conversor de área, metros quadrados para pés quadrados, acres para hectares, calculadora de área, conversor de hectares, calculadora de acres, medição de terreno, conversor imobiliário"
+  },
+  "inputs": {
+    "value": "Valor da Área",
+    "fromUnit": "Da Unidade",
+    "toUnit": "Para a Unidade"
+  },
+  "results": {
+    "result": "Resultado",
+    "allConversions": "Todas as Conversões",
+    "formula": "Fórmula de Conversão",
+    "conversionFactor": "Fator de conversão",
+    "realEstateContext": "Contexto Imobiliário",
+    "landMeasurement": "Medição de Terreno"
+  },
+  "actions": {
+    "swap": "Trocar unidades",
+    "reset": "Reiniciar"
+  },
+  "units": {
+    "metricUnits": "Unidades Métricas",
+    "imperialUnits": "Unidades Imperiais/US",
+    "mm2": {
+      "name": "Milímetros Quadrados",
+      "abbr": "mm²"
+    },
+    "cm2": {
+      "name": "Centímetros Quadrados",
+      "abbr": "cm²"
+    },
+    "m2": {
+      "name": "Metros Quadrados",
+      "abbr": "m²"
+    },
+    "km2": {
+      "name": "Quilómetros Quadrados",
+      "abbr": "km²"
+    },
+    "hectare": {
+      "name": "Hectares",
+      "abbr": "ha"
+    },
+    "in2": {
+      "name": "Polegadas Quadradas",
+      "abbr": "in²"
+    },
+    "ft2": {
+      "name": "Pés Quadrados",
+      "abbr": "ft²"
+    },
+    "yd2": {
+      "name": "Jardas Quadradas",
+      "abbr": "yd²"
+    },
+    "acre": {
+      "name": "Acres",
+      "abbr": "ac"
+    },
+    "mi2": {
+      "name": "Milhas Quadradas",
+      "abbr": "mi²"
+    }
+  },
+  "validation": {
+    "valueRequired": "Por favor, insira um valor de área",
+    "valueNegative": "A área não pode ser negativa",
+    "valueInvalid": "Por favor, insira um número válido",
+    "valueMax": "O valor excede o limite máximo"
+  },
+  "disclaimer": {
+    "text": "Este conversor fornece conversões precisas baseadas em fatores de conversão padrão. Para levantamentos oficiais, documentos legais ou aplicações de alta precisão, consulte um agrimensor licenciado ou utilize ferramentas de medição certificadas.",
+    "note": "Os fatores de conversão baseiam-se em padrões internacionais do NIST (Instituto Nacional de Padrões e Tecnologia) e BIPM (Bureau Internacional de Pesos e Medidas)."
+  },
+  "seo": {
+    "whatIsTitle": "O que é um Conversor de Área?",
+    "whatIsContent": "Um conversor de área é uma ferramenta que transforma medições entre diferentes unidades de área. Quer esteja a trabalhar com metros quadrados, pés quadrados, acres ou hectares, este conversor processa todas as unidades de área métricas e imperiais comuns. É essencial para profissionais imobiliários, agrimensores, trabalhadores da construção, arquitetos e qualquer pessoa que trabalhe com medições de propriedades em diferentes sistemas de medição.",
+    "whenToUseTitle": "Quando Usar um Conversor de Área",
+    "whenToUseIntro": "Use este conversor de área sempre que precisar:",
+    "whenToUsePoint1": "Comparar tamanhos de propriedades listados em diferentes unidades (ex., apartamentos em m² vs ft²)",
+    "whenToUsePoint2": "Calcular área de terreno para fins agrícolas ou de desenvolvimento",
+    "whenToUsePoint3": "Converter plantas de construção entre medições métricas e imperiais",
+    "whenToUsePoint4": "Compreender anúncios imobiliários internacionais ao comprar ou vender propriedades",
+    "whenToUsePoint5": "Verificar cálculos de área para projetos de pavimento, cobertura ou paisagismo",
+    "unitTypesTitle": "Tipos de Unidades de Área",
+    "unitTypeMetric": "Unidades Métricas - Milímetros quadrados (mm²), centímetros (cm²), metros (m²), quilómetros (km²) e hectares (ha). Usadas mundialmente, especialmente em contextos científicos.",
+    "unitTypeImperial": "Unidades Imperiais/US - Polegadas quadradas (in²), pés (ft²), jardas (yd²), acres e milhas quadradas (mi²). Comuns nos Estados Unidos, Reino Unido e antigas colónias britânicas.",
+    "unitTypeRealEstate": "Unidades Imobiliárias - Pés quadrados e metros quadrados são os mais comuns para propriedades residenciais. Hectares e acres são usados para parcelas de terreno maiores.",
+    "unitTypeLand": "Medição de Terreno - Acres (comuns nos EUA/Reino Unido) e hectares (usados internacionalmente) são as unidades padrão para medir terrenos agrícolas e não desenvolvidos.",
+    "benefitsTitle": "Por Que Usar Este Conversor de Área?",
+    "benefit1": "Converta instantaneamente entre 10 unidades de área diferentes com alta precisão",
+    "benefit2": "Veja todos os valores equivalentes de uma vez - não precisa converter múltiplas vezes",
+    "benefit3": "Perfeito para comparações imobiliárias internacionais e pesquisa de propriedades",
+    "benefit4": "Essencial para projetos de construção usando plantas de diferentes países",
+    "benefit5": "Poupa tempo em cálculos manuais e elimina erros de conversão",
+    "howToUseTitle": "Como Usar o Conversor de Área",
+    "howToUseStep1": "Insira o valor de área que deseja converter no campo de entrada",
+    "howToUseStep2": "Selecione a unidade a partir da qual está a converter (ex., metros quadrados)",
+    "howToUseStep3": "Selecione a unidade para a qual deseja converter (ex., pés quadrados)",
+    "howToUseStep4": "Visualize o resultado instantâneo e a fórmula de conversão",
+    "howToUseStep5": "Consulte a secção 'Todas as Conversões' para ver o valor em cada unidade suportada",
+    "commonConversionsTitle": "Conversões de Área Comuns",
+    "commonConversion1": "1 metro quadrado (m²) = 10,764 pés quadrados (ft²)",
+    "commonConversion2": "1 acre = 4.046,86 metros quadrados (m²) = 0,4047 hectares",
+    "commonConversion3": "1 hectare (ha) = 10.000 metros quadrados = 2,471 acres",
+    "commonConversion4": "1 pé quadrado (ft²) = 0,0929 metros quadrados (m²)",
+    "realEstateTitle": "Conversão de Área para Imóveis",
+    "realEstateContent": "No setor imobiliário, as medições de área são críticas para avaliação de propriedades, comparação de compras e documentação legal. Nos Estados Unidos, o pé quadrado (ft²) é a unidade padrão para propriedades residenciais, enquanto a maioria dos outros países usa metros quadrados (m²). Para parcelas de terreno maiores, os acres são comuns nos EUA e Reino Unido, enquanto os hectares são o padrão internacional. Ao visualizar anúncios imobiliários internacionais, sempre verifique qual sistema de unidades está a ser usado para evitar mal-entendidos dispendiosos. Um apartamento de 100 m² equivale aproximadamente a 1.076 ft², e um lote de 1 acre equivale a cerca de 4.047 m² ou 0,4 hectares.",
+    "formulaTitle": "Fórmula de Conversão de Área",
+    "formulaContent": "Valor na unidade alvo = Valor na unidade origem × (Fator da unidade origem / Fator da unidade alvo)",
+    "formulaExample": "Todas as conversões usam metros quadrados (m²) como unidade base. Por exemplo: 100 ft² × 0,0929 m²/ft² = 9,29 m²",
+    "tipsTitle": "Dicas para Medições de Área Precisas",
+    "tip1": "Ao comparar tamanhos de propriedades internacionalmente, sempre verifique o sistema de unidades usado",
+    "tip2": "Em imóveis, os pés quadrados geralmente referem-se ao espaço habitável interior, não ao tamanho total do lote",
+    "tip3": "Terrenos agrícolas são geralmente medidos em acres (EUA/Reino Unido) ou hectares (internacional)",
+    "tip4": "Códigos de construção e regulamentos de zoneamento podem especificar limites de área em unidades específicas - converta cuidadosamente",
+    "tip5": "Lembre-se de que as unidades de área escalam com o quadrado das unidades de comprimento (1 m = 3,28 ft, mas 1 m² = 10,76 ft²)",
+    "tip6": "Para estimativas de construção, sempre adicione 10-15% de material extra para compensar desperdícios e cortes",
+    "faqTitle": "Perguntas Frequentes",
+    "faq1Question": "Como converto pés quadrados para metros quadrados?",
+    "faq1Answer": "Para converter pés quadrados para metros quadrados, multiplique o valor em pés quadrados por 0,0929. Por exemplo, 1.000 ft² × 0,0929 = 92,9 m². Inversamente, para converter metros quadrados para pés quadrados, multiplique por 10,764. O nosso conversor faz este cálculo instantaneamente para si.",
+    "faq2Question": "Quantos acres há num hectare?",
+    "faq2Answer": "Um hectare equivale aproximadamente a 2,471 acres. Inversamente, um acre equivale aproximadamente a 0,4047 hectares. Os hectares são a unidade preferida para medição de terreno na maioria dos países fora dos Estados Unidos e Reino Unido.",
+    "faq3Question": "Qual é a diferença entre um hectare e um acre?",
+    "faq3Answer": "Um hectare é maior que um acre - um hectare equivale a aproximadamente 2,47 acres. Os hectares são unidades métricas equivalentes a 10.000 metros quadrados, enquanto os acres são unidades imperiais equivalentes a 43.560 pés quadrados. Os hectares são usados internacionalmente, enquanto os acres são usados principalmente nos EUA, Reino Unido e algumas antigas colónias britânicas.",
+    "faq4Question": "Como converto a área de uma sala de metros quadrados para pés quadrados?",
+    "faq4Answer": "Multiplique a medida em metros quadrados por 10,764 para obter pés quadrados. Por exemplo, uma sala de 20 m² equivale a 215,28 ft² (20 × 10,764). Isto é útil ao comparar tamanhos de apartamentos entre países que usam diferentes sistemas de medição.",
+    "faq5Question": "Que unidade de área é usada para medir apartamentos?",
+    "faq5Answer": "Nos Estados Unidos, os apartamentos são medidos em pés quadrados (ft²). Na maioria dos outros países, incluindo Europa, Ásia e Austrália, o metro quadrado (m²) é o padrão. Ao pesquisar propriedades internacionais, certifique-se de verificar qual unidade está a ser usada e converta se necessário.",
+    "faq6Question": "Qual é o tamanho de um metro quadrado em pés quadrados?",
+    "faq6Answer": "Um metro quadrado equivale aproximadamente a 10,764 pés quadrados. Isto significa que uma sala de 1 metro por 1 metro (1 m²) equivale aproximadamente a 10,76 pés quadrados. Compreender esta conversão é essencial ao comparar tamanhos de propriedades internacionalmente.",
+    "faq7Question": "Quantos pés quadrados há num acre?",
+    "faq7Answer": "Um acre contém exatamente 43.560 pés quadrados. Isto equivale aproximadamente a 4.047 metros quadrados ou cerca de 0,405 hectares. Um acre tem aproximadamente o tamanho de um campo de futebol americano (sem as zonas finais), facilitando a visualização de tamanhos de terreno.",
+    "faq8Question": "Qual é a melhor unidade para medir grandes áreas de terreno?",
+    "faq8Answer": "Para grandes áreas de terreno, use hectares (internacionalmente) ou acres (EUA/Reino Unido). Quilómetros quadrados são usados para áreas muito grandes como cidades ou regiões. Para referência: pequenas quintas têm frequentemente 10-50 hectares (25-125 acres), enquanto grandes quintas podem ter centenas ou milhares de hectares."
+  }
+}

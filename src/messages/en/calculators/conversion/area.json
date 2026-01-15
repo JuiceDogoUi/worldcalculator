@@ -1,0 +1,142 @@
+{
+  "title": "Area Converter",
+  "description": "Convert between metric and imperial area units instantly. Perfect for real estate, land measurement, construction, and everyday conversions.",
+  "meta": {
+    "title": "Free Area Converter - Square Feet, Meters, Acres, Hectares [2026]",
+    "description": "Convert area units instantly: square meters to square feet, acres to hectares, and more. Free online tool for real estate, land measurement, and construction.",
+    "keywords": "area converter, square feet to square meters, acres to hectares, area calculator, land area converter, square meter converter, hectare converter, acre calculator, property size calculator, land measurement converter"
+  },
+  "inputs": {
+    "value": "Area Value",
+    "fromUnit": "From Unit",
+    "toUnit": "To Unit"
+  },
+  "results": {
+    "result": "Result",
+    "allConversions": "All Conversions",
+    "formula": "Conversion Formula",
+    "conversionFactor": "Conversion factor",
+    "realEstateContext": "Real Estate Context",
+    "landMeasurement": "Land Measurement"
+  },
+  "actions": {
+    "swap": "Swap units",
+    "reset": "Reset"
+  },
+  "units": {
+    "metricUnits": "Metric Units",
+    "imperialUnits": "Imperial/US Units",
+    "mm2": {
+      "name": "Square Millimeters",
+      "abbr": "mm\u00B2"
+    },
+    "cm2": {
+      "name": "Square Centimeters",
+      "abbr": "cm\u00B2"
+    },
+    "m2": {
+      "name": "Square Meters",
+      "abbr": "m\u00B2"
+    },
+    "km2": {
+      "name": "Square Kilometers",
+      "abbr": "km\u00B2"
+    },
+    "hectare": {
+      "name": "Hectares",
+      "abbr": "ha"
+    },
+    "in2": {
+      "name": "Square Inches",
+      "abbr": "in\u00B2"
+    },
+    "ft2": {
+      "name": "Square Feet",
+      "abbr": "ft\u00B2"
+    },
+    "yd2": {
+      "name": "Square Yards",
+      "abbr": "yd\u00B2"
+    },
+    "acre": {
+      "name": "Acres",
+      "abbr": "ac"
+    },
+    "mi2": {
+      "name": "Square Miles",
+      "abbr": "mi\u00B2"
+    }
+  },
+  "validation": {
+    "valueRequired": "Please enter an area value",
+    "valueNegative": "Area cannot be negative",
+    "valueInvalid": "Please enter a valid number",
+    "valueMax": "Value exceeds maximum limit"
+  },
+  "disclaimer": {
+    "text": "This converter provides accurate conversions based on standard conversion factors. For official surveys, legal documents, or high-precision applications, consult a licensed surveyor or use certified measurement tools.",
+    "note": "Conversion factors are based on international standards from NIST (National Institute of Standards and Technology) and BIPM (International Bureau of Weights and Measures)."
+  },
+  "seo": {
+    "whatIsTitle": "What is an Area Converter?",
+    "whatIsContent": "An area converter is a tool that transforms measurements between different units of area. Whether you're working with square meters, square feet, acres, or hectares, this converter handles all common metric and imperial area units. It's essential for real estate professionals, land surveyors, construction workers, architects, and anyone dealing with property measurements across different measurement systems.",
+    "whenToUseTitle": "When to Use an Area Converter",
+    "whenToUseIntro": "Use this area converter whenever you need to:",
+    "whenToUsePoint1": "Compare property sizes listed in different units (e.g., apartments in m\u00B2 vs ft\u00B2)",
+    "whenToUsePoint2": "Calculate land area for agricultural or development purposes",
+    "whenToUsePoint3": "Convert construction plans between metric and imperial measurements",
+    "whenToUsePoint4": "Understand international property listings when buying or selling real estate",
+    "whenToUsePoint5": "Verify area calculations for flooring, roofing, or landscaping projects",
+    "unitTypesTitle": "Types of Area Units",
+    "unitTypeMetric": "Metric Units - Square millimeters (mm\u00B2), centimeters (cm\u00B2), meters (m\u00B2), kilometers (km\u00B2), and hectares (ha). Used worldwide, especially in scientific contexts.",
+    "unitTypeImperial": "Imperial/US Units - Square inches (in\u00B2), feet (ft\u00B2), yards (yd\u00B2), acres, and square miles (mi\u00B2). Common in the United States, UK, and former British colonies.",
+    "unitTypeRealEstate": "Real Estate Units - Square feet and square meters are most common for residential properties. Hectares and acres are used for larger land parcels.",
+    "unitTypeLand": "Land Measurement - Acres (common in US/UK) and hectares (used internationally) are the standard units for measuring agricultural and undeveloped land.",
+    "benefitsTitle": "Why Use This Area Converter?",
+    "benefit1": "Instantly convert between 10 different area units with high precision",
+    "benefit2": "See all equivalent values at once - no need to convert multiple times",
+    "benefit3": "Perfect for international real estate comparisons and property research",
+    "benefit4": "Essential for construction projects using plans from different countries",
+    "benefit5": "Saves time on manual calculations and eliminates conversion errors",
+    "howToUseTitle": "How to Use the Area Converter",
+    "howToUseStep1": "Enter the area value you want to convert in the input field",
+    "howToUseStep2": "Select the unit you're converting from (e.g., square meters)",
+    "howToUseStep3": "Select the unit you want to convert to (e.g., square feet)",
+    "howToUseStep4": "View the instant result and conversion formula",
+    "howToUseStep5": "Check the 'All Conversions' section to see the value in every supported unit",
+    "commonConversionsTitle": "Common Area Conversions",
+    "commonConversion1": "1 square meter (m\u00B2) = 10.764 square feet (ft\u00B2)",
+    "commonConversion2": "1 acre = 4,046.86 square meters (m\u00B2) = 0.4047 hectares",
+    "commonConversion3": "1 hectare (ha) = 10,000 square meters = 2.471 acres",
+    "commonConversion4": "1 square foot (ft\u00B2) = 0.0929 square meters (m\u00B2)",
+    "realEstateTitle": "Area Conversion for Real Estate",
+    "realEstateContent": "In real estate, area measurements are critical for property valuation, comparison shopping, and legal documentation. In the United States, square feet (ft\u00B2) is the standard unit for residential properties, while most other countries use square meters (m\u00B2). For larger land parcels, acres are common in the US and UK, while hectares are the international standard. When viewing international property listings, always verify which unit system is being used to avoid costly misunderstandings. A 100 m\u00B2 apartment is approximately 1,076 ft\u00B2, and a 1-acre lot equals about 4,047 m\u00B2 or 0.4 hectares.",
+    "formulaTitle": "Area Conversion Formula",
+    "formulaContent": "Value in target unit = Value in source unit \u00D7 (Source unit factor / Target unit factor)",
+    "formulaExample": "All conversions use square meters (m\u00B2) as the base unit. For example: 100 ft\u00B2 \u00D7 0.0929 m\u00B2/ft\u00B2 = 9.29 m\u00B2",
+    "tipsTitle": "Tips for Accurate Area Measurements",
+    "tip1": "When comparing property sizes internationally, always verify the unit system being used",
+    "tip2": "For real estate, square footage typically refers to interior living space, not total lot size",
+    "tip3": "Agricultural land is usually measured in acres (US/UK) or hectares (international)",
+    "tip4": "Building codes and zoning regulations may specify area limits in specific units - convert carefully",
+    "tip5": "Remember that area units scale with the square of length units (1 m = 3.28 ft, but 1 m\u00B2 = 10.76 ft\u00B2)",
+    "tip6": "For construction estimates, always add 10-15% extra material to account for waste and cuts",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Question": "How do I convert square feet to square meters?",
+    "faq1Answer": "To convert square feet to square meters, multiply the square feet value by 0.0929. For example, 1,000 ft\u00B2 \u00D7 0.0929 = 92.9 m\u00B2. Conversely, to convert square meters to square feet, multiply by 10.764. Our converter handles this calculation instantly for you.",
+    "faq2Question": "How many acres are in a hectare?",
+    "faq2Answer": "One hectare equals approximately 2.471 acres. Conversely, one acre equals approximately 0.4047 hectares. Hectares are the preferred unit for land measurement in most countries outside the United States and United Kingdom.",
+    "faq3Question": "What's the difference between a hectare and an acre?",
+    "faq3Answer": "A hectare is larger than an acre - one hectare equals about 2.47 acres. Hectares are metric units equal to 10,000 square meters, while acres are imperial units equal to 43,560 square feet. Hectares are used internationally, while acres are primarily used in the US, UK, and some former British colonies.",
+    "faq4Question": "How do I convert a room's area from square meters to square feet?",
+    "faq4Answer": "Multiply the square meter measurement by 10.764 to get square feet. For example, a 20 m\u00B2 room equals 215.28 ft\u00B2 (20 \u00D7 10.764). This is useful when comparing apartment sizes between countries using different measurement systems.",
+    "faq5Question": "What area unit is used for measuring apartments?",
+    "faq5Answer": "In the United States, apartments are measured in square feet (ft\u00B2). In most other countries, including Europe, Asia, and Australia, square meters (m\u00B2) is the standard. When searching for international properties, be sure to check which unit is being used and convert if necessary.",
+    "faq6Question": "How big is one square meter in square feet?",
+    "faq6Answer": "One square meter equals approximately 10.764 square feet. This means a room that is 1 meter by 1 meter (1 m\u00B2) is equivalent to approximately 10.76 square feet. Understanding this conversion is essential when comparing property sizes internationally.",
+    "faq7Question": "How many square feet are in an acre?",
+    "faq7Answer": "One acre contains exactly 43,560 square feet. This is equivalent to approximately 4,047 square meters or about 0.405 hectares. An acre is roughly the size of a football field (without end zones), making it easier to visualize land sizes.",
+    "faq8Question": "What's the best unit for measuring large land areas?",
+    "faq8Answer": "For large land areas, use hectares (internationally) or acres (US/UK). Square kilometers are used for very large areas like cities or regions. For reference: small farms are often 10-50 hectares (25-125 acres), while large farms can be hundreds or thousands of hectares."
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "title": "Convertisseur de Longueur",
+  "description": "Convertissez instantanément entre les unités de longueur métriques et impériales. Compatible avec les millimètres, centimètres, mètres, kilomètres, pouces, pieds, yards et miles avec conversion bidirectionnelle en temps réel.",
+  "meta": {
+    "title": "Convertisseur de Longueur Gratuit - Métrique à Impérial [2026]",
+    "description": "Convertissez les unités de longueur instantanément : mètres en pieds, pouces en centimètres, kilomètres en miles et plus. Convertisseur de longueur gratuit.",
+    "keywords": "convertisseur de longueur, convertisseur d'unités, mètres en pieds, pouces en centimètres, km en miles, métrique en impérial, impérial en métrique, calculateur de conversion de longueur, convertisseur de distance, convertisseur de mesures"
+  },
+  "inputs": {
+    "value": "Valeur à Convertir",
+    "fromUnit": "Depuis l'Unité",
+    "toUnit": "Vers l'Unité"
+  },
+  "units": {
+    "mm": { "name": "Millimètre", "abbr": "mm" },
+    "cm": { "name": "Centimètre", "abbr": "cm" },
+    "m": { "name": "Mètre", "abbr": "m" },
+    "km": { "name": "Kilomètre", "abbr": "km" },
+    "in": { "name": "Pouce", "abbr": "in" },
+    "ft": { "name": "Pied", "abbr": "ft" },
+    "yd": { "name": "Yard", "abbr": "yd" },
+    "mi": { "name": "Mile", "abbr": "mi" }
+  },
+  "unitSystems": {
+    "metric": "Métrique",
+    "imperial": "Impérial"
+  },
+  "actions": {
+    "swap": "Inverser les Unités",
+    "reset": "Réinitialiser"
+  },
+  "results": {
+    "title": "Résultat",
+    "allConversions": "Toutes les Conversions",
+    "commonConversions": "Référence des Conversions Courantes",
+    "conversionFactor": "Facteur de Conversion"
+  },
+  "validation": {
+    "required": "Veuillez entrer une valeur à convertir",
+    "invalidNumber": "Veuillez entrer un nombre valide",
+    "negativeValue": "La longueur ne peut pas être négative",
+    "invalidUnit": "Veuillez sélectionner une unité valide"
+  },
+  "disclaimer": {
+    "text": "Ce convertisseur utilise des facteurs de conversion standard basés sur les normes de mesure internationales. Les résultats sont précis pour la plupart des usages pratiques.",
+    "note": "Facteurs de conversion : 1 pouce = 2,54 cm (exact), 1 pied = 0,3048 m (exact), 1 yard = 0,9144 m (exact), 1 mile = 1,609344 km (exact). Ce sont les définitions officielles adoptées internationalement."
+  },
+  "seo": {
+    "whatIsTitle": "Qu'est-ce qu'un Convertisseur de Longueur ?",
+    "whatIsContent": "Un convertisseur de longueur est un outil qui vous permet de convertir rapidement et précisément des mesures entre différentes unités de longueur. Que vous ayez besoin de convertir des mètres en pieds pour un projet de rénovation domiciliaire, des kilomètres en miles pour planifier un voyage, ou des pouces en centimètres pour des travaux manuels et la couture, ce convertisseur gère toutes les conversions courantes d'unités de longueur. Il prend en charge les unités métriques (millimètres, centimètres, mètres, kilomètres) et les unités impériales (pouces, pieds, yards, miles), ce qui le rend utile pour les personnes du monde entier, quel que soit le système de mesure qu'elles utilisent habituellement.",
+    "whenToUseTitle": "Quand Utiliser un Convertisseur de Longueur ?",
+    "whenToUseIntro": "Un convertisseur de longueur est essentiel dans de nombreuses situations quotidiennes :",
+    "whenToUsePoint1": "Projets de rénovation domiciliaire - Convertissez les dimensions des pièces entre pieds et mètres lorsque vous suivez des plans de différents pays",
+    "whenToUsePoint2": "Planification de voyage - Convertissez les distances entre kilomètres et miles pour comprendre les échelles de carte et les distances de conduite",
+    "whenToUsePoint3": "Achats en ligne - Convertissez les dimensions des produits pour comprendre la taille réelle des articles de vendeurs internationaux",
+    "whenToUsePoint4": "Sports et fitness - Convertissez les distances de course, les longueurs de piscine ou les mesures de piste entre métrique et impérial",
+    "whenToUsePoint5": "Cuisine et travaux manuels - Convertissez les mesures de patron, les longueurs de tissu ou les dimensions de recette",
+    "unitSystemsTitle": "Comprendre les Systèmes d'Unités",
+    "metricSystemTitle": "Système Métrique (Unités SI)",
+    "metricSystemDesc": "Le système métrique est utilisé par la plupart des pays du monde. Il est basé sur les puissances de 10, ce qui facilite les conversions au sein du système. L'unité de base est le mètre (m), le millimètre (mm), le centimètre (cm) et le kilomètre (km) étant des unités dérivées courantes.",
+    "imperialSystemTitle": "Système Impérial",
+    "imperialSystemDesc": "Le système impérial est principalement utilisé aux États-Unis, au Royaume-Uni (pour certaines mesures) et dans quelques autres pays. Il comprend les pouces, les pieds, les yards et les miles. Bien que moins intuitif pour les calculs, il reste profondément ancré dans l'usage quotidien dans ces régions.",
+    "benefitsTitle": "Pourquoi Utiliser ce Convertisseur de Longueur ?",
+    "benefit1": "Conversion instantanée en temps réel pendant que vous tapez - pas besoin de cliquer sur un bouton de calcul",
+    "benefit2": "Voyez toutes les conversions d'unités en même temps pour comparer rapidement différentes mesures",
+    "benefit3": "Conversion bidirectionnelle - échangez facilement entre les unités source et cible",
+    "benefit4": "Résultats de haute précision adaptés à l'ingénierie, la science et les mesures précises",
+    "benefit5": "Tableau de référence des conversions courantes pour une consultation rapide des valeurs fréquemment nécessaires",
+    "howToUseTitle": "Comment Utiliser ce Convertisseur",
+    "howToUseStep1": "Entrez la valeur numérique que vous souhaitez convertir dans le champ de saisie",
+    "howToUseStep2": "Sélectionnez l'unité à partir de laquelle vous convertissez à l'aide du premier menu déroulant",
+    "howToUseStep3": "Sélectionnez l'unité vers laquelle vous souhaitez convertir à l'aide du deuxième menu déroulant",
+    "howToUseStep4": "Visualisez le résultat instantané affiché de manière proéminente, ainsi que le facteur de conversion",
+    "howToUseStep5": "En option, utilisez le bouton 'Inverser les Unités' pour inverser le sens de conversion",
+    "conversionTipsTitle": "Conseils de Conversion Utiles",
+    "conversionTip1": "Rappelez-vous : 1 pouce équivaut exactement à 2,54 centimètres - c'est la définition officielle",
+    "conversionTip2": "Pour convertir approximativement des kilomètres en miles, multipliez par 0,6 (ou divisez par 1,6)",
+    "conversionTip3": "Un mètre fait environ 3 pieds 3 pouces - utile pour des estimations mentales rapides",
+    "conversionTip4": "Pour un travail de précision, utilisez toujours des facteurs de conversion exacts plutôt que des approximations arrondies",
+    "formulaTitle": "Formule de Conversion",
+    "formulaContent": "Résultat = Valeur d'Entrée x (Unité Source en Mètres / Unité Cible en Mètres)",
+    "formulaExample": "Exemple : Pour convertir 5 pieds en mètres : 5 x 0,3048 = 1,524 mètres. Le convertisseur utilise les mètres comme unité de base intermédiaire pour toutes les conversions, garantissant la précision.",
+    "faqTitle": "Questions Fréquemment Posées",
+    "faq1Question": "Quelle est la précision de ces conversions ?",
+    "faq1Answer": "Nos conversions utilisent les facteurs de conversion standard internationaux officiels. Par exemple, 1 pouce est défini comme exactement 2,54 centimètres, et 1 yard fait exactement 0,9144 mètre. Ce ne sont pas des approximations mais des définitions exactes adoptées par accord international en 1959. Le convertisseur maintient une haute précision tout au long des calculs.",
+    "faq2Question": "Quelle est la différence entre les unités métriques et impériales ?",
+    "faq2Answer": "Le système métrique (unités SI) est basé sur les puissances de 10, utilisant le mètre comme unité de base. Il est utilisé par la plupart des pays du monde et est la norme pour la science et le commerce international. Le système impérial utilise les pouces, pieds, yards et miles, avec des relations moins intuitives entre les unités (12 pouces = 1 pied, 3 pieds = 1 yard, 1760 yards = 1 mile). Il est principalement utilisé aux États-Unis et à certaines fins au Royaume-Uni.",
+    "faq3Question": "Comment convertir des mètres en pieds ?",
+    "faq3Answer": "Pour convertir des mètres en pieds, multipliez la valeur en mètres par 3,28084. Par exemple, 10 mètres équivalent à environ 32,8 pieds. Le facteur de conversion exact est basé sur la définition selon laquelle 1 pied équivaut exactement à 0,3048 mètre. Notre convertisseur gère cela automatiquement - entrez simplement votre valeur en mètres et sélectionnez pieds comme unité cible.",
+    "faq4Question": "Combien de centimètres y a-t-il dans un pouce ?",
+    "faq4Answer": "Il y a exactement 2,54 centimètres dans un pouce. Ce n'est pas une approximation mais la définition officielle d'un pouce, adoptée par accord international. Pour convertir des pouces en centimètres, multipliez par 2,54. Pour convertir des centimètres en pouces, divisez par 2,54 (ou multipliez par 0,3937).",
+    "faq5Question": "Comment convertir des kilomètres en miles ?",
+    "faq5Answer": "Pour convertir des kilomètres en miles, multipliez la valeur en kilomètres par 0,621371. Par exemple, 100 kilomètres équivalent à environ 62,14 miles. Inversement, pour convertir des miles en kilomètres, multipliez par 1,60934. Une approximation mentale rapide : les kilomètres multipliés par 0,6 donnent un équivalent approximatif en miles.",
+    "faq6Question": "Quelle est la relation entre les pieds, les yards et les miles ?",
+    "faq6Answer": "Dans le système impérial : 1 pied = 12 pouces, 1 yard = 3 pieds = 36 pouces, et 1 mile = 1 760 yards = 5 280 pieds. Ces relations sont historiques et ne sont pas basées sur les puissances de 10 comme le système métrique. Un mile a été défini à l'origine comme 1 000 pas romains (mille passus), d'où son nom.",
+    "faq7Question": "Puis-je utiliser ceci pour des calculs scientifiques ?",
+    "faq7Answer": "Oui, ce convertisseur convient aux calculs scientifiques et d'ingénierie. Il utilise des facteurs de conversion exacts tels que définis par les normes internationales. Cependant, pour un travail scientifique extrêmement précis, soyez conscient des chiffres significatifs dans vos valeurs d'entrée. Le convertisseur maintient une haute précision interne mais peut arrondir les résultats affichés pour la lisibilité.",
+    "faq8Question": "Pourquoi le monde utilise-t-il différents systèmes de mesure ?",
+    "faq8Answer": "Le système métrique a été développé en France dans les années 1790 et a depuis été adopté par la plupart des pays. Les États-Unis ont en grande partie conservé le système impérial de l'époque coloniale britannique. Bien qu'il y ait eu des efforts pour métrifier aux États-Unis, les unités impériales restent courantes dans l'usage quotidien. Le Royaume-Uni utilise un mélange des deux systèmes. Le commerce international et la science utilisent principalement des unités métriques."
+  }
+}

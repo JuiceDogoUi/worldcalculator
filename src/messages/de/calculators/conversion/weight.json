@@ -1,0 +1,124 @@
+{
+  "title": "Gewichtsumrechner",
+  "description": "Rechnen Sie sofort zwischen metrischen und imperialen Gewichtseinheiten um. Unterstuetzt Milligramm, Gramm, Kilogramm, Tonnen, Unzen, Pfund, Stones und US-Tonnen.",
+  "meta": {
+    "title": "Kostenloser Gewichtsumrechner - kg in lbs, oz in g und Mehr [2026]",
+    "description": "Rechnen Sie Gewichts- und Masseneinheiten sofort um. Kostenloses Online-Tool fuer kg in lbs, oz in g, Stone in kg und mehr. Umfasst metrische und imperiale Einheitenumrechnungen.",
+    "keywords": "Gewichtsumrechner, kg in lbs, Pfund in kg, oz in Gramm, Stone in kg, Massenumrechner, metrisch zu imperial, Gewichtsrechner, Kilogrammumrechner, Pfundumrechner, Unze zu Gramm, Tonne"
+  },
+  "inputs": {
+    "fromValue": "Umzurechnender Wert",
+    "fromUnit": "Von Einheit",
+    "toUnit": "In Einheit"
+  },
+  "outputs": {
+    "result": "Umgerechneter Wert"
+  },
+  "actions": {
+    "swap": "Einheiten Tauschen",
+    "reset": "Zuruecksetzen",
+    "copy": "Ergebnis Kopieren",
+    "copied": "Kopiert!"
+  },
+  "sections": {
+    "commonConversions": "Gaengige Umrechnungen Referenz",
+    "metricUnits": "Metrische Einheiten",
+    "imperialUnits": "Imperiale Einheiten"
+  },
+  "units": {
+    "mg": {
+      "name": "Milligramm",
+      "abbr": "mg"
+    },
+    "g": {
+      "name": "Gramm",
+      "abbr": "g"
+    },
+    "kg": {
+      "name": "Kilogramm",
+      "abbr": "kg"
+    },
+    "tonne": {
+      "name": "Metrische Tonne",
+      "abbr": "t"
+    },
+    "oz": {
+      "name": "Unze",
+      "abbr": "oz"
+    },
+    "lb": {
+      "name": "Pfund",
+      "abbr": "lb"
+    },
+    "stone": {
+      "name": "Stone",
+      "abbr": "st"
+    },
+    "ton": {
+      "name": "US-Tonne",
+      "abbr": "ton"
+    }
+  },
+  "validation": {
+    "required": "Bitte geben Sie einen Wert zum Umrechnen ein",
+    "positive": "Der Wert muss eine positive Zahl sein",
+    "tooLarge": "Der Wert ist zu gross fuer eine genaue Umrechnung"
+  },
+  "disclaimer": {
+    "text": "Dieser Umrechner liefert genaue Umrechnungen basierend auf international anerkannten Standards. Die Ergebnisse werden fuer die Lesbarkeit gerundet, behalten aber eine hohe Praezision fuer den praktischen Gebrauch.",
+    "note": "Die metrische Tonne entspricht 1.000 kg, waehrend die US-amerikanische kurze Tonne 2.000 lbs (907,185 kg) entspricht. Die britische lange Tonne (2.240 lbs) ist in diesem Umrechner nicht enthalten."
+  },
+  "seo": {
+    "whatIsTitle": "Was ist ein Gewichtsumrechner?",
+    "whatIsContent": "Ein Gewichtsumrechner ist ein Werkzeug, das Gewichts- oder Massenmessungen von einer Einheit in eine andere umwandelt. Ob Sie Kilogramm in Pfund fuer ein Rezept umrechnen muessen, Ihr Gewicht in verschiedenen Einheiten ueberpruefen oder Versandgewichte fuer den internationalen Handel umrechnen moechten, dieses Tool verarbeitet alle gaengigen Umrechnungen sofort. Es unterstuetzt sowohl metrische (SI) Einheiten, die weltweit verwendet werden, als auch imperiale Einheiten, die in den USA und Grossbritannien ueblich sind.",
+    "howToUseTitle": "So Verwenden Sie Diesen Gewichtsumrechner",
+    "howToUseStep1": "Geben Sie den numerischen Wert, den Sie umrechnen moechten, in das Eingabefeld ein",
+    "howToUseStep2": "Waehlen Sie die Ausgangseinheit ueber das Dropdown-Menue 'Von Einheit'",
+    "howToUseStep3": "Waehlen Sie die Zieleinheit ueber das Dropdown-Menue 'In Einheit'",
+    "howToUseStep4": "Das Umrechnungsergebnis erscheint sofort - kein Klick auf Berechnen notwendig",
+    "howToUseStep5": "Verwenden Sie die Tauschen-Schaltflaeche, um die Umrechnungsrichtung schnell umzukehren",
+    "metricSystemTitle": "Metrische (SI) Gewichtseinheiten",
+    "metricSystemContent": "Das metrische System ist der internationale Standard fuer Gewichtsmessung. Es basiert auf Zehnerpotenzen, was Umrechnungen einfach macht. Ein Kilogramm entspricht 1.000 Gramm, und ein Gramm entspricht 1.000 Milligramm.",
+    "metricUnit1": "Milligramm (mg) - Verwendet fuer sehr kleine Messungen wie Medikamentendosierungen, typischerweise 0,001 Gramm",
+    "metricUnit2": "Gramm (g) - Die Basiseinheit der Masse im metrischen System, haeufig beim Kochen und auf Naehrwertangaben verwendet",
+    "metricUnit3": "Kilogramm (kg) - Die Standardeinheit fuer Koerpergewicht und Alltagsgegenstaende, entspricht 1.000 Gramm",
+    "metricUnit4": "Metrische Tonne (t) - Verwendet fuer grosse Messungen wie Fracht und Fahrzeuge, entspricht 1.000 kg",
+    "imperialSystemTitle": "Imperiale Gewichtseinheiten",
+    "imperialSystemContent": "Das imperiale System wird hauptsaechlich in den USA, Grossbritannien und einigen anderen Laendern verwendet. Obwohl weniger intuitiv fuer Umrechnungen, sind diese Einheiten fuer viele alltaegliche Anwendungen in diesen Regionen unverzichtbar.",
+    "imperialUnit1": "Unze (oz) - Verwendet fuer Lebensmittelportionen und kleinere Artikel, etwa 28,35 Gramm",
+    "imperialUnit2": "Pfund (lb) - Die gaengigste imperiale Gewichtseinheit, entspricht 16 Unzen oder etwa 453,6 Gramm",
+    "imperialUnit3": "Stone (st) - Hauptsaechlich in Grossbritannien fuer Koerpergewicht verwendet, entspricht 14 Pfund oder etwa 6,35 kg",
+    "imperialUnit4": "US-amerikanische kurze Tonne (ton) - Verwendet fuer schwere Fracht und Fahrzeuge, entspricht 2.000 Pfund oder etwa 907 kg",
+    "conversionTipsTitle": "Tipps zur Gewichtsumrechnung",
+    "conversionTip1": "Denken Sie daran, dass 1 kg etwa 2,2 lbs entspricht - eine schnelle mentale Umrechnung fuer den taeglichen Gebrauch",
+    "conversionTip2": "Beim Kochen beachten Sie, dass 1 Unze etwa 28 Gramm entspricht, also sind 4 oz etwa 113 Gramm",
+    "conversionTip3": "Koerpergewicht: Multiplizieren Sie kg mit 2,2, um Pfund zu erhalten, oder teilen Sie Pfund durch 2,2, um kg zu erhalten",
+    "conversionTip4": "Versand: Metrische Tonnen sind etwas schwerer als US-amerikanische kurze Tonnen (1 Tonne = 1,102 kurze Tonnen)",
+    "conversionTip5": "Stone wird ausserhalb von Grossbritannien selten verwendet - 1 Stone = 14 lbs = etwa 6,35 kg",
+    "commonUseCasesTitle": "Haeufige Anwendungsfaelle",
+    "commonUseCase1": "Gesundheit und Fitness - Rechnen Sie das Koerpergewicht zwischen kg und lbs um fuer BMI-Berechnungen, Fitnessgeraete oder medizinische Unterlagen aus verschiedenen Laendern",
+    "commonUseCase2": "Kochen und Backen - Rechnen Sie Rezeptmasse zwischen metrisch und imperial um, besonders bei internationalen Rezepten",
+    "commonUseCase3": "Versand und Logistik - Rechnen Sie Paketgewichte fuer internationalen Versand um, wo verschiedene Gewichtssysteme verwendet werden",
+    "commonUseCase4": "Wissenschaft und Medizin - Rechnen Sie zwischen metrischen Einheiten fuer Labormessungen, Medikamentendosierungen und Forschungsdaten um",
+    "formulaTitle": "Formel zur Gewichtsumrechnung",
+    "formulaContent": "Zielwert = Quellwert x (Quelleinheit in kg / Zieleinheit in kg)",
+    "formulaExample": "Beispiel: Um 5 kg in Pfund umzurechnen: 5 x (1 / 0,453592) = 11,02 lbs. Alle Umrechnungen verwenden Kilogramm als Zwischenbasiseinheit.",
+    "faqTitle": "Haeufig Gestellte Fragen",
+    "faq1Question": "Was ist der Unterschied zwischen Masse und Gewicht?",
+    "faq1Answer": "Masse ist die Menge an Materie in einem Objekt und bleibt unabhaengig vom Standort konstant. Gewicht ist die Gravitationskraft, die auf diese Masse wirkt, und variiert mit der Gravitationsanziehung. Auf der Erde werden die Begriffe oft austauschbar verwendet, aber technisch gesehen misst ein Kilogramm die Masse, waehrend ein Pfund beides messen kann. Dieser Umrechner behandelt sie fuer praktische Zwecke als gleichwertig.",
+    "faq2Question": "Warum gibt es verschiedene Tonneneinheiten?",
+    "faq2Answer": "Die metrische Tonne entspricht genau 1.000 kg und wird international verwendet. Die US-amerikanische kurze Tonne entspricht 2.000 Pfund (907,185 kg) und wird in den USA verwendet. Die britische lange Tonne entspricht 2.240 Pfund (1.016,05 kg), wird aber heute selten verwendet. Dieser Umrechner enthaelt metrische und US-Tonnen als die am haeufigsten benoetigten Umrechnungen.",
+    "faq3Question": "Wie genau sind diese Umrechnungen?",
+    "faq3Answer": "Unsere Umrechnungen verwenden international anerkannte Umrechnungsfaktoren mit hoher Praezision. Zum Beispiel entspricht 1 Pfund genau 0,45359237 kg nach internationaler Vereinbarung. Die Ergebnisse werden zur Anzeige gerundet, behalten aber eine Genauigkeit von mindestens 6 signifikanten Stellen, geeignet fuer alle praktischen Anwendungen.",
+    "faq4Question": "Was ist ein Stone und wo wird es verwendet?",
+    "faq4Answer": "Der Stone ist eine Gewichtseinheit von 14 Pfund (etwa 6,35 kg). Er wird hauptsaechlich in Grossbritannien und Irland zur Messung des Koerpergewichts verwendet. Zum Beispiel wuerde eine Person mit 154 lbs in Grossbritannien als 11 Stone beschrieben werden. Er wird selten fuer andere Zwecke oder in anderen Laendern verwendet.",
+    "faq5Question": "Wie rechne ich Kilogramm schnell in Pfund um?",
+    "faq5Answer": "Fuer eine schnelle Schaetzung multiplizieren Sie Kilogramm mit 2,2, um Pfund zu erhalten. Zum Beispiel: 70 kg x 2,2 = 154 lbs. Fuer die Umkehrung teilen Sie Pfund durch 2,2, um Kilogramm zu erhalten. Diese Naeherung ist auf etwa 0,5% genau und nuetzlich fuer schnelle Kopfrechnung.",
+    "faq6Question": "Welche Einheit ist am besten zur Messung des Koerpergewichts?",
+    "faq6Answer": "Kilogramm sind der internationale Standard und werden in den meisten Laendern und medizinischen Einrichtungen verwendet. Pfund sind in den USA ueblich, waehrend Stone und Pfund in Grossbritannien traditionell sind. Verwenden Sie die Einheit, die in Ihrem Land Standard ist oder von Ihrem Gesundheitsdienstleister verlangt wird.",
+    "faq7Question": "Warum verwenden Rezepte verschiedene Gewichtseinheiten?",
+    "faq7Answer": "Rezepte spiegeln die Messsysteme ihres Herkunftslandes wider. Amerikanische Rezepte verwenden typischerweise Unzen und Pfund, waehrend europaeische und internationale Rezepte Gramm und Kilogramm verwenden. Professionelle Baecker bevorzugen oft metrische Masse, weil sie praeziser und einfacher zu skalieren sind.",
+    "faq8Question": "Ist eine Gewichtsunze das gleiche wie eine Fluessigkeitsunze?",
+    "faq8Answer": "Nein, sie messen verschiedene Dinge. Eine Unze (oz) misst Gewicht oder Masse, waehrend eine Fluessigkeitsunze (fl oz) Volumen misst. Eine Fluessigkeitsunze Wasser wiegt etwa eine Unze, aber diese Beziehung gilt nicht fuer andere Substanzen. Dieser Umrechner verarbeitet nur Gewichtsunzen."
+  }
+}

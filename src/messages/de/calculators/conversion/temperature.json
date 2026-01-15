@@ -1,0 +1,98 @@
+{
+  "title": "Temperaturumrechner",
+  "description": "Rechnen Sie Temperaturen zwischen Celsius, Fahrenheit und Kelvin mit unserem kostenlosen Temperaturumrechner um. Bidirektionale Echtzeit-Umrechnung mit g\u00e4ngigen Referenzpunkten.",
+  "meta": {
+    "title": "Kostenloser Temperaturumrechner - Celsius, Fahrenheit, Kelvin [2026]",
+    "description": "Rechnen Sie Temperaturen sofort zwischen Celsius, Fahrenheit und Kelvin um. Kostenloser Online-Temperaturumrechner mit bidirektionaler Echtzeit-Umrechnung.",
+    "keywords": "temperaturumrechner, celsius in fahrenheit, fahrenheit in celsius, kelvin umrechner, temperaturrechner, celsius in kelvin, fahrenheit in kelvin, temperaturumrechnung"
+  },
+  "inputs": {
+    "celsius": "Celsius",
+    "fahrenheit": "Fahrenheit",
+    "kelvin": "Kelvin"
+  },
+  "actions": {
+    "reset": "Zur\u00fccksetzen"
+  },
+  "results": {
+    "title": "Umgerechnete Temperaturen",
+    "celsius": "Celsius",
+    "fahrenheit": "Fahrenheit",
+    "kelvin": "Kelvin"
+  },
+  "units": {
+    "celsius": "\u00b0C",
+    "fahrenheit": "\u00b0F",
+    "kelvin": "K"
+  },
+  "referencePoints": {
+    "title": "G\u00e4ngige Referenzpunkte",
+    "absoluteZero": "Absoluter Nullpunkt",
+    "waterFreezing": "Gefrierpunkt von Wasser",
+    "roomTemperature": "Raumtemperatur",
+    "bodyTemperature": "Menschliche K\u00f6rpertemperatur",
+    "waterBoiling": "Siedepunkt von Wasser"
+  },
+  "validation": {
+    "required": "Bitte geben Sie einen Temperaturwert ein",
+    "invalid": "Bitte geben Sie eine g\u00fcltige Zahl ein",
+    "belowAbsoluteZero": "Die Temperatur kann nicht unter dem absoluten Nullpunkt liegen"
+  },
+  "disclaimer": {
+    "text": "Dieser Temperaturumrechner liefert genaue Umrechnungen basierend auf den Standardbeziehungen zwischen Temperaturskalen. Die Ergebnisse werden auf 2 Dezimalstellen f\u00fcr praktische Verwendung gerundet.",
+    "note": "Die verwendeten Formeln sind die international anerkannten Standardumrechnungen zwischen den Temperaturskalen Celsius, Fahrenheit und Kelvin."
+  },
+  "seo": {
+    "whatIsTitle": "Was ist Temperaturumrechnung?",
+    "whatIsContent": "Temperaturumrechnung ist der Prozess, einen Temperaturwert von einer Messskala in eine andere umzuwandeln. Die drei am h\u00e4ufigsten verwendeten Temperaturskalen sind Celsius (in den meisten L\u00e4ndern verwendet), Fahrenheit (haupts\u00e4chlich in den USA verwendet) und Kelvin (in wissenschaftlichen Kontexten verwendet). Jede Skala hat ihren eigenen Nullpunkt und Gradgr\u00f6\u00dfe, was eine Umrechnung bei der Arbeit zwischen verschiedenen Systemen oder Regionen erforderlich macht.",
+    "formulasTitle": "Formeln zur Temperaturumrechnung",
+    "formula1Name": "Celsius in Fahrenheit",
+    "formula1Formula": "\u00b0F = (\u00b0C \u00d7 9/5) + 32",
+    "formula1Description": "Multiplizieren Sie die Celsius-Temperatur mit 9/5 (oder 1,8), dann addieren Sie 32, um das Fahrenheit-\u00c4quivalent zu erhalten.",
+    "formula2Name": "Fahrenheit in Celsius",
+    "formula2Formula": "\u00b0C = (\u00b0F - 32) \u00d7 5/9",
+    "formula2Description": "Subtrahieren Sie 32 von der Fahrenheit-Temperatur, dann multiplizieren Sie mit 5/9 (oder teilen Sie durch 1,8), um das Celsius-\u00c4quivalent zu erhalten.",
+    "formula3Name": "Celsius in Kelvin",
+    "formula3Formula": "K = \u00b0C + 273,15",
+    "formula3Description": "Addieren Sie 273,15 zur Celsius-Temperatur, um das Kelvin-\u00c4quivalent zu erhalten. Kelvin verwendet die gleiche Gradgr\u00f6\u00dfe wie Celsius, beginnt aber beim absoluten Nullpunkt.",
+    "scalesTitle": "Temperaturskalen erkl\u00e4rt",
+    "scale1Name": "Celsius (\u00b0C)",
+    "scale1Description": "Die Celsius-Skala, auch als Centigrad bekannt, setzt 0\u00b0 am Gefrierpunkt des Wassers und 100\u00b0 am Siedepunkt bei Standard-Atmosph\u00e4rendruck fest. Sie wurde 1742 vom schwedischen Astronomen Anders Celsius entwickelt.",
+    "scale1UsedIn": "Die meisten L\u00e4nder weltweit, wissenschaftliche Forschung, Wetterberichte au\u00dferhalb der USA",
+    "scale2Name": "Fahrenheit (\u00b0F)",
+    "scale2Description": "Die Fahrenheit-Skala setzt 32\u00b0 am Gefrierpunkt des Wassers und 212\u00b0 am Siedepunkt fest. Sie wurde 1724 vom deutschen Physiker Daniel Gabriel Fahrenheit vorgeschlagen.",
+    "scale2UsedIn": "USA, Bahamas, Kaimaninseln, Liberia, Palau und einige karibische Nationen",
+    "scale3Name": "Kelvin (K)",
+    "scale3Description": "Die Kelvin-Skala ist eine absolute thermodynamische Temperaturskala, die beim absoluten Nullpunkt (-273,15\u00b0C) beginnt, dem Punkt, an dem jede molekulare Bewegung stoppt. Sie verwendet keine Grade und ist nach Lord Kelvin benannt.",
+    "scale3UsedIn": "Wissenschaftliche Forschung, Physik, Chemie, Ingenieurwesen und Astronomie",
+    "howToUseTitle": "So verwenden Sie diesen Temperaturumrechner",
+    "howToUseStep1": "Geben Sie einen Temperaturwert in eines der drei Eingabefelder ein (Celsius, Fahrenheit oder Kelvin)",
+    "howToUseStep2": "Beobachten Sie, wie die anderen beiden Felder automatisch mit den umgerechneten Werten aktualisiert werden",
+    "howToUseStep3": "Die Ergebniskarte zeigt alle drei Werte mit Farbcodierung basierend auf dem Temperaturbereich",
+    "howToUseStep4": "Nutzen Sie die Tabelle der g\u00e4ngigen Temperaturpunkte als Kontext (Gefrierpunkt, Siedepunkt, K\u00f6rpertemperatur usw.)",
+    "howToUseStep5": "Verwenden Sie die Zur\u00fccksetzen-Schaltfl\u00e4che, um zur Raumtemperatur (20\u00b0C) als Standard-Ausgangspunkt zur\u00fcckzukehren",
+    "tipsTitle": "Tipps zur Temperaturumrechnung",
+    "tip1": "Denken Sie daran, dass -40\u00b0 sowohl in Celsius als auch in Fahrenheit gleich ist - ein n\u00fctzlicher Referenzpunkt f\u00fcr schnelles Kopfrechnen",
+    "tip2": "F\u00fcr eine schnelle Umrechnung von Celsius in Fahrenheit verdoppeln Sie den Celsius-Wert und addieren Sie 30 (z.B. 20\u00b0C \u2248 70\u00b0F)",
+    "tip3": "Kelvin ist immer 273,15 mehr als Celsius, was die Umrechnung f\u00fcr wissenschaftliche Arbeit einfach macht",
+    "tip4": "Raumtemperatur liegt bei etwa 20-22\u00b0C (68-72\u00b0F), eine gute Referenz f\u00fcr den Alltag",
+    "tip5": "Die normale menschliche K\u00f6rpertemperatur betr\u00e4gt 37\u00b0C (98,6\u00b0F), obwohl leichte Abweichungen normal sind",
+    "faqTitle": "H\u00e4ufig gestellte Fragen",
+    "faq1Question": "Was ist die Formel zur Umrechnung von Celsius in Fahrenheit?",
+    "faq1Answer": "Um Celsius in Fahrenheit umzurechnen, multiplizieren Sie die Celsius-Temperatur mit 9/5 (oder 1,8) und addieren dann 32. Die Formel lautet: \u00b0F = (\u00b0C \u00d7 9/5) + 32. Zum Beispiel: 25\u00b0C = (25 \u00d7 1,8) + 32 = 77\u00b0F.",
+    "faq2Question": "Warum verwenden die USA Fahrenheit statt Celsius?",
+    "faq2Answer": "Die USA \u00fcbernahmen die Fahrenheit-Skala in ihrer fr\u00fchen Geschichte, als sie die g\u00e4ngigste Temperaturskala in englischsprachigen L\u00e4ndern war. Obwohl die meisten L\u00e4nder sp\u00e4ter im Rahmen der Einf\u00fchrung des metrischen Systems auf Celsius umstellten, haben die USA Fahrenheit f\u00fcr den t\u00e4glichen Gebrauch aufgrund kultureller Tr\u00e4gheit und der Kosten des \u00dcbergangs beibehalten.",
+    "faq3Question": "Was ist der absolute Nullpunkt und warum k\u00f6nnen Temperaturen nicht darunter fallen?",
+    "faq3Answer": "Der absolute Nullpunkt ist -273,15\u00b0C (-459,67\u00b0F oder 0 K), die theoretisch niedrigste m\u00f6gliche Temperatur. An diesem Punkt h\u00e4tten Atome minimale thermische Bewegung. Es ist unm\u00f6glich, ihn zu erreichen, weil die Gesetze der Thermodynamik die vollst\u00e4ndige Entfernung von thermischer Energie aus einem System verhindern.",
+    "faq4Question": "Warum wird in der Wissenschaft Kelvin statt Celsius verwendet?",
+    "faq4Answer": "Kelvin wird in der Wissenschaft bevorzugt, weil es eine absolute Skala ist, die beim absoluten Nullpunkt beginnt, was sie ideal f\u00fcr thermodynamische Berechnungen macht. Viele physikalische Gleichungen erfordern Temperaturen in Kelvin, um korrekt zu funktionieren. Au\u00dferdem vermeidet Kelvin negative Zahlen, was viele Berechnungen vereinfacht.",
+    "faq5Question": "Was ist der Unterschied zwischen Celsius und Centigrad?",
+    "faq5Answer": "Celsius und Centigrad bezeichnen dieselbe Temperaturskala. Der Name 'Centigrad' wurde historisch verwendet, aber 1948 benannte die 9. Generalkonferenz f\u00fcr Ma\u00dfe und Gewichte sie zu Ehren von Anders Celsius in 'Celsius' um. Beide Namen werden im allt\u00e4glichen Sprachgebrauch noch austauschbar verwendet.",
+    "faq6Question": "Bei welcher Temperatur sind Celsius und Fahrenheit gleich?",
+    "faq6Answer": "Celsius und Fahrenheit sind bei -40 Grad gleich. Dies ist der einzige Punkt, an dem sich beide Skalen schneiden. Sie k\u00f6nnen dies \u00fcberpr\u00fcfen: (-40 \u00d7 9/5) + 32 = -72 + 32 = -40\u00b0F.",
+    "faq7Question": "Was ist normale Raumtemperatur in verschiedenen Einheiten?",
+    "faq7Answer": "Normale Raumtemperatur wird typischerweise als 20-22\u00b0C definiert, was 68-72\u00b0F oder 293-295 K entspricht. Allerdings variieren die Komfortniveaus je nach Person, und verschiedene Kontexte k\u00f6nnen leicht unterschiedliche Definitionen verwenden.",
+    "faq8Question": "Wie kann ich Fahrenheit schnell aus Celsius sch\u00e4tzen?",
+    "faq8Answer": "F\u00fcr eine schnelle Sch\u00e4tzung verdoppeln Sie den Celsius-Wert und addieren 30. Dies ergibt einen ungef\u00e4hren Fahrenheit-Wert, der bei typischen Wettertemperaturen auf wenige Grad genau ist. Zum Beispiel: 20\u00b0C \u00d7 2 + 30 = 70\u00b0F (tats\u00e4chlich: 68\u00b0F)."
+  }
+}

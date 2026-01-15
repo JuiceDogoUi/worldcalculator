@@ -1,0 +1,124 @@
+{
+  "title": "Convertisseur de Poids",
+  "description": "Convertissez instantanement entre les unites de poids metriques et imperiales. Supporte les milligrammes, grammes, kilogrammes, tonnes, onces, livres, stones et tonnes americaines.",
+  "meta": {
+    "title": "Convertisseur de Poids Gratuit - kg en lbs, oz en g et Plus [2026]",
+    "description": "Convertissez les unites de poids et de masse instantanement. Outil en ligne gratuit pour kg en lbs, oz en g, stone en kg et plus. Inclut les conversions metriques et imperiales.",
+    "keywords": "convertisseur de poids, kg en lbs, livres en kg, oz en grammes, stone en kg, convertisseur de masse, metrique en imperial, calculatrice de poids, convertisseur kilogramme, convertisseur livre, once en gramme, tonne"
+  },
+  "inputs": {
+    "fromValue": "Valeur a Convertir",
+    "fromUnit": "Unite Source",
+    "toUnit": "Unite Cible"
+  },
+  "outputs": {
+    "result": "Valeur Convertie"
+  },
+  "actions": {
+    "swap": "Inverser les Unites",
+    "reset": "Reinitialiser",
+    "copy": "Copier le Resultat",
+    "copied": "Copie!"
+  },
+  "sections": {
+    "commonConversions": "Conversions Courantes de Reference",
+    "metricUnits": "Unites Metriques",
+    "imperialUnits": "Unites Imperiales"
+  },
+  "units": {
+    "mg": {
+      "name": "Milligramme",
+      "abbr": "mg"
+    },
+    "g": {
+      "name": "Gramme",
+      "abbr": "g"
+    },
+    "kg": {
+      "name": "Kilogramme",
+      "abbr": "kg"
+    },
+    "tonne": {
+      "name": "Tonne Metrique",
+      "abbr": "t"
+    },
+    "oz": {
+      "name": "Once",
+      "abbr": "oz"
+    },
+    "lb": {
+      "name": "Livre",
+      "abbr": "lb"
+    },
+    "stone": {
+      "name": "Stone",
+      "abbr": "st"
+    },
+    "ton": {
+      "name": "Tonne Americaine",
+      "abbr": "ton"
+    }
+  },
+  "validation": {
+    "required": "Veuillez entrer une valeur a convertir",
+    "positive": "La valeur doit etre un nombre positif",
+    "tooLarge": "La valeur est trop grande pour etre convertie avec precision"
+  },
+  "disclaimer": {
+    "text": "Ce convertisseur fournit des conversions precises basees sur des normes internationalement reconnues. Les resultats sont arrondis pour la lisibilite mais maintiennent une haute precision pour une utilisation pratique.",
+    "note": "La tonne metrique equivaut a 1 000 kg, tandis que la tonne courte americaine equivaut a 2 000 lbs (907,185 kg). La tonne longue britannique (2 240 lbs) n'est pas incluse dans ce convertisseur."
+  },
+  "seo": {
+    "whatIsTitle": "Qu'est-ce qu'un Convertisseur de Poids?",
+    "whatIsContent": "Un convertisseur de poids est un outil qui transforme les mesures de poids ou de masse d'une unite a une autre. Que vous ayez besoin de convertir des kilogrammes en livres pour une recette, de verifier votre poids dans differentes unites, ou de convertir des poids d'expedition pour le commerce international, cet outil gere toutes les conversions courantes instantanement. Il supporte les unites metriques (SI) utilisees mondialement et les unites imperiales courantes aux Etats-Unis et au Royaume-Uni.",
+    "howToUseTitle": "Comment Utiliser Ce Convertisseur de Poids",
+    "howToUseStep1": "Entrez la valeur numerique que vous souhaitez convertir dans le champ de saisie",
+    "howToUseStep2": "Selectionnez l'unite source a l'aide du menu deroulant 'Unite Source'",
+    "howToUseStep3": "Selectionnez l'unite cible a l'aide du menu deroulant 'Unite Cible'",
+    "howToUseStep4": "Le resultat de la conversion apparait instantanement - pas besoin de cliquer sur calculer",
+    "howToUseStep5": "Utilisez le bouton d'inversion pour inverser rapidement la direction de conversion",
+    "metricSystemTitle": "Unites de Poids Metriques (SI)",
+    "metricSystemContent": "Le systeme metrique est la norme internationale pour la mesure du poids. Il est base sur des puissances de 10, rendant les conversions simples. Un kilogramme equivaut a 1 000 grammes, et un gramme equivaut a 1 000 milligrammes.",
+    "metricUnit1": "Milligramme (mg) - Utilise pour les tres petites mesures comme les dosages de medicaments, typiquement 0,001 grammes",
+    "metricUnit2": "Gramme (g) - L'unite de base de la masse dans le systeme metrique, couramment utilisee en cuisine et sur les etiquettes nutritionnelles",
+    "metricUnit3": "Kilogramme (kg) - L'unite standard pour le poids corporel et les objets quotidiens, equivaut a 1 000 grammes",
+    "metricUnit4": "Tonne Metrique (t) - Utilisee pour les mesures a grande echelle comme le fret et les vehicules, equivaut a 1 000 kg",
+    "imperialSystemTitle": "Unites de Poids Imperiales",
+    "imperialSystemContent": "Le systeme imperial est principalement utilise aux Etats-Unis, au Royaume-Uni et dans quelques autres pays. Bien que moins intuitif pour les conversions, ces unites sont essentielles pour de nombreuses applications quotidiennes dans ces regions.",
+    "imperialUnit1": "Once (oz) - Utilisee pour les portions alimentaires et les petits articles, environ 28,35 grammes",
+    "imperialUnit2": "Livre (lb) - L'unite de poids imperial la plus courante, equivaut a 16 onces ou environ 453,6 grammes",
+    "imperialUnit3": "Stone (st) - Principalement utilise au Royaume-Uni pour le poids corporel, equivaut a 14 livres ou environ 6,35 kg",
+    "imperialUnit4": "Tonne Courte Americaine (ton) - Utilisee pour le fret lourd et les vehicules, equivaut a 2 000 livres ou environ 907 kg",
+    "conversionTipsTitle": "Conseils de Conversion de Poids",
+    "conversionTip1": "Rappelez-vous que 1 kg equivaut a environ 2,2 lbs - une conversion mentale rapide pour un usage quotidien",
+    "conversionTip2": "Pour la cuisine, notez que 1 once fait environ 28 grammes, donc 4 oz equivalent a environ 113 grammes",
+    "conversionTip3": "Poids corporel: multipliez les kg par 2,2 pour obtenir les livres, ou divisez les livres par 2,2 pour obtenir les kg",
+    "conversionTip4": "Expedition: les tonnes metriques sont legerement plus lourdes que les tonnes courtes americaines (1 tonne = 1,102 tonnes courtes)",
+    "conversionTip5": "Le stone est rarement utilise en dehors du Royaume-Uni - 1 stone = 14 lbs = environ 6,35 kg",
+    "commonUseCasesTitle": "Cas d'Utilisation Courants",
+    "commonUseCase1": "Sante et Fitness - Convertissez le poids corporel entre kg et lbs pour les calculs d'IMC, les equipements de gym ou les dossiers medicaux de differents pays",
+    "commonUseCase2": "Cuisine et Patisserie - Convertissez les mesures de recettes entre metrique et imperial, surtout avec des recettes internationales",
+    "commonUseCase3": "Expedition et Logistique - Convertissez les poids des colis pour les expeditions internationales ou differents systemes de poids sont utilises",
+    "commonUseCase4": "Science et Medecine - Convertissez entre unites metriques pour les mesures de laboratoire, les dosages de medicaments et les donnees de recherche",
+    "formulaTitle": "Formule de Conversion de Poids",
+    "formulaContent": "Valeur Cible = Valeur Source x (Unite Source en kg / Unite Cible en kg)",
+    "formulaExample": "Exemple: Pour convertir 5 kg en livres: 5 x (1 / 0,453592) = 11,02 lbs. Toutes les conversions utilisent les kilogrammes comme unite de base intermediaire.",
+    "faqTitle": "Questions Frequemment Posees",
+    "faq1Question": "Quelle est la difference entre masse et poids?",
+    "faq1Answer": "La masse est la quantite de matiere dans un objet et reste constante quel que soit l'emplacement. Le poids est la force de gravite agissant sur cette masse et varie selon l'attraction gravitationnelle. Sur Terre, les termes sont souvent utilises de maniere interchangeable, mais techniquement un kilogramme mesure la masse tandis qu'une livre peut mesurer l'un ou l'autre. Ce convertisseur les traite de maniere equivalente a des fins pratiques.",
+    "faq2Question": "Pourquoi y a-t-il differentes unites de tonne?",
+    "faq2Answer": "La tonne metrique equivaut exactement a 1 000 kg et est utilisee internationalement. La tonne courte americaine equivaut a 2 000 livres (907,185 kg) et est utilisee aux Etats-Unis. La tonne longue britannique equivaut a 2 240 livres (1 016,05 kg) mais est rarement utilisee aujourd'hui. Ce convertisseur inclut les tonnes metriques et americaines comme les conversions les plus couramment necessaires.",
+    "faq3Question": "Quelle est la precision de ces conversions?",
+    "faq3Answer": "Nos conversions utilisent des facteurs de conversion reconnus internationalement avec une haute precision. Par exemple, 1 livre equivaut exactement a 0,45359237 kg par accord international. Les resultats sont arrondis pour l'affichage mais maintiennent une precision d'au moins 6 chiffres significatifs, adaptee a toutes les applications pratiques.",
+    "faq4Question": "Qu'est-ce qu'un stone et ou est-il utilise?",
+    "faq4Answer": "Le stone est une unite de poids egale a 14 livres (environ 6,35 kg). Il est principalement utilise au Royaume-Uni et en Irlande pour mesurer le poids corporel. Par exemple, une personne pesant 154 lbs serait decrite comme 11 stone au Royaume-Uni. Il est rarement utilise a d'autres fins ou dans d'autres pays.",
+    "faq5Question": "Comment convertir rapidement les kilogrammes en livres?",
+    "faq5Answer": "Pour une estimation rapide, multipliez les kilogrammes par 2,2 pour obtenir les livres. Par exemple, 70 kg x 2,2 = 154 lbs. Pour l'inverse, divisez les livres par 2,2 pour obtenir les kilogrammes. Cette approximation est precise a environ 0,5% pres et est utile pour les calculs mentaux rapides.",
+    "faq6Question": "Quelle est la meilleure unite pour mesurer le poids corporel?",
+    "faq6Answer": "Les kilogrammes sont la norme internationale et sont utilises dans la plupart des pays et des contextes medicaux. Les livres sont courantes aux Etats-Unis, tandis que le stone et les livres sont traditionnels au Royaume-Uni. Utilisez l'unite qui est standard dans votre pays ou requise par votre fournisseur de soins de sante.",
+    "faq7Question": "Pourquoi les recettes utilisent-elles differentes unites de poids?",
+    "faq7Answer": "Les recettes refletent les systemes de mesure de leur pays d'origine. Les recettes americaines utilisent typiquement les onces et les livres, tandis que les recettes europeennes et internationales utilisent les grammes et les kilogrammes. Les patissiers professionnels preferent souvent les mesures metriques car elles sont plus precises et plus faciles a mettre a l'echelle.",
+    "faq8Question": "Une once de poids est-elle la meme qu'une once liquide?",
+    "faq8Answer": "Non, elles mesurent des choses differentes. Une once (oz) mesure le poids ou la masse, tandis qu'une once liquide (fl oz) mesure le volume. Une once liquide d'eau pese environ une once, mais cette relation ne s'applique pas aux autres substances. Ce convertisseur gere uniquement les onces de poids."
+  }
+}

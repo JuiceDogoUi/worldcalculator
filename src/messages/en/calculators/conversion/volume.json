@@ -1,0 +1,107 @@
+{
+  "title": "Volume Converter",
+  "description": "Convert between metric (milliliters, liters, cubic meters) and imperial (fluid ounces, cups, pints, quarts, gallons) volume units. Includes both US and UK imperial measurements.",
+  "meta": {
+    "title": "Free Volume Converter - Liters to Gallons, mL to fl oz [2026]",
+    "description": "Convert volume units instantly: liters to gallons, milliliters to fluid ounces, cups to mL, and more. Supports both US and UK imperial measurements.",
+    "keywords": "volume converter, liters to gallons, gallons to liters, ml to oz, cups to ml, pint converter, quart converter, metric to imperial volume, UK gallon vs US gallon, fluid ounce converter"
+  },
+  "inputs": {
+    "value": "Value",
+    "fromUnit": "From",
+    "toUnit": "To"
+  },
+  "outputs": {
+    "result": "Result",
+    "allConversions": "All Conversions"
+  },
+  "actions": {
+    "swap": "Swap units",
+    "reset": "Reset",
+    "copy": "Copy result",
+    "copied": "Copied!",
+    "showAllConversions": "Show all conversions",
+    "hideAllConversions": "Hide all conversions"
+  },
+  "unitGroups": {
+    "metric": "Metric",
+    "usImperial": "US Imperial",
+    "ukImperial": "UK Imperial",
+    "other": "Other"
+  },
+  "units": {
+    "milliliter": "Milliliter",
+    "liter": "Liter",
+    "cubicMeter": "Cubic Meter",
+    "teaspoonUs": "Teaspoon (US)",
+    "tablespoonUs": "Tablespoon (US)",
+    "fluidOunceUs": "Fluid Ounce (US)",
+    "cupUs": "Cup (US)",
+    "pintUs": "Pint (US)",
+    "quartUs": "Quart (US)",
+    "gallonUs": "Gallon (US)",
+    "fluidOunceUk": "Fluid Ounce (UK)",
+    "pintUk": "Pint (UK)",
+    "quartUk": "Quart (UK)",
+    "gallonUk": "Gallon (UK)",
+    "cubicInch": "Cubic Inch",
+    "cubicFoot": "Cubic Foot"
+  },
+  "validation": {
+    "enterValue": "Please enter a value",
+    "invalidNumber": "Please enter a valid number",
+    "negativeValue": "Value cannot be negative",
+    "valueTooLarge": "Value is too large"
+  },
+  "disclaimer": {
+    "text": "This converter provides accurate conversions based on standard definitions. US and UK imperial units differ - always verify which system applies to your needs. For precise scientific or commercial measurements, consult official standards."
+  },
+  "seo": {
+    "whatIsTitle": "What is Volume Conversion?",
+    "whatIsContent": "Volume conversion is the process of changing a measurement from one unit to another while preserving the same amount of space or capacity. This is essential when working with recipes, scientific experiments, fuel measurements, or any situation where different measurement systems are used. Our volume converter supports metric units (milliliters, liters, cubic meters), US imperial units (cups, pints, quarts, gallons), and UK imperial units, which differ significantly from their US counterparts.",
+    "usVsUkTitle": "US vs UK Imperial Measurements",
+    "usVsUkContent": "The United States and United Kingdom use different definitions for imperial volume measurements. This difference originated in 1824 when the UK standardized the imperial gallon based on 10 pounds of water at 62°F, while the US retained the older Queen Anne wine gallon. Understanding these differences is crucial when following recipes or specifications from different countries.",
+    "usVsUkComparison1": "US Gallon = 3.785 liters (128 US fl oz)",
+    "usVsUkComparison2": "UK Gallon = 4.546 liters (160 UK fl oz) - 20% larger than US",
+    "usVsUkComparison3": "US Pint = 473 mL (16 US fl oz)",
+    "usVsUkComparison4": "UK Pint = 568 mL (20 UK fl oz) - 20% larger than US",
+    "commonUsesTitle": "Common Uses for Volume Conversion",
+    "commonUse1": "Cooking and Baking - Convert recipe measurements between metric and imperial systems, especially when using international recipes",
+    "commonUse2": "Fuel and Automotive - Convert between liters and gallons for fuel efficiency calculations and tank capacity",
+    "commonUse3": "Science and Laboratory - Convert between milliliters and fluid ounces for experiments and chemical measurements",
+    "commonUse4": "Beverages and Packaging - Understand product sizes across different markets (US, UK, metric countries)",
+    "commonUse5": "Home Improvement - Calculate paint, chemicals, or other liquid quantities for projects",
+    "howToUseTitle": "How to Use This Volume Converter",
+    "howToUseStep1": "Enter the volume value you want to convert in the input field",
+    "howToUseStep2": "Select the source unit (the unit you're converting from) from the dropdown",
+    "howToUseStep3": "Select the target unit (the unit you're converting to) from the dropdown",
+    "howToUseStep4": "The result appears instantly - use the swap button to reverse the conversion",
+    "howToUseStep5": "Click 'Show all conversions' to see the value in all supported units at once",
+    "conversionTipsTitle": "Volume Conversion Tips",
+    "conversionTip1": "Remember that 1 liter equals approximately 4.2 US cups or 3.5 UK cups - a useful approximation for cooking",
+    "conversionTip2": "When converting recipes, always check whether US or UK measurements are being used - a UK pint is 20% larger than a US pint",
+    "conversionTip3": "For rough conversions: 1 US gallon is about 3.8 liters, while 1 UK gallon is about 4.5 liters",
+    "conversionTip4": "Metric conversions are straightforward: 1 liter = 1000 milliliters, 1 cubic meter = 1000 liters",
+    "conversionTip5": "When in doubt about US vs UK measurements, check the country of origin of the recipe or specification",
+    "formulaTitle": "Volume Conversion Formula",
+    "formulaContent": "Result = Input Value × (Source Unit in Liters) ÷ (Target Unit in Liters)",
+    "formulaExample": "Example: To convert 2 US gallons to liters: 2 × 3.78541 = 7.57082 liters",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Question": "What is the difference between US and UK gallons?",
+    "faq1Answer": "A US gallon equals 3.785 liters (128 US fluid ounces), while a UK gallon equals 4.546 liters (160 UK fluid ounces). The UK gallon is approximately 20% larger than the US gallon. This difference affects all related measurements: pints, quarts, and fluid ounces also differ between the two systems.",
+    "faq2Question": "How many cups are in a liter?",
+    "faq2Answer": "One liter equals approximately 4.227 US cups or 3.52 UK cups. For practical cooking purposes, you can estimate that 1 liter is about 4 US cups. Remember that cup sizes vary internationally - a US cup is 236.6 mL, while a UK cup is 284.1 mL.",
+    "faq3Question": "Why do US and UK measurements differ?",
+    "faq3Answer": "The difference dates back to 1824 when Britain standardized the imperial gallon based on 10 pounds of water at 62°F. The US retained the older Queen Anne wine gallon, which was already in use before American independence. These different historical standards created the 20% difference we see today.",
+    "faq4Question": "How do I convert milliliters to fluid ounces?",
+    "faq4Answer": "To convert milliliters to US fluid ounces, divide by 29.5735 (1 US fl oz = 29.5735 mL). For UK fluid ounces, divide by 28.4131 (1 UK fl oz = 28.4131 mL). For example, 100 mL equals approximately 3.38 US fl oz or 3.52 UK fl oz.",
+    "faq5Question": "What is the metric equivalent of a cup?",
+    "faq5Answer": "A US cup equals 236.588 milliliters (approximately 237 mL or 0.237 liters). A UK cup equals 284.131 milliliters. Many countries using the metric system define a 'metric cup' as exactly 250 mL for convenience in recipes.",
+    "faq6Question": "How many liters are in a cubic meter?",
+    "faq6Answer": "One cubic meter equals exactly 1,000 liters. This is because a liter was originally defined as the volume of one cubic decimeter (10cm × 10cm × 10cm), and a cubic meter contains 1,000 cubic decimeters.",
+    "faq7Question": "Why are cooking measurements different in different countries?",
+    "faq7Answer": "Cooking measurements vary because different countries developed their own systems before standardization. The US uses customary units inherited from British colonial times, while most other countries use metric measurements. Even within 'imperial' systems, the US and UK differ significantly in their definitions of pints, quarts, and gallons.",
+    "faq8Question": "How accurate is this volume converter?",
+    "faq8Answer": "Our converter uses standard conversion factors from NIST (National Institute of Standards and Technology) and UK legislation. Results are accurate to at least 6 decimal places. For most practical purposes including cooking, fuel calculations, and everyday conversions, this precision far exceeds typical measurement accuracy."
+  }
+}
