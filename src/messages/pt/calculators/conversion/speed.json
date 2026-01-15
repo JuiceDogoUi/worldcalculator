@@ -2,7 +2,7 @@
   "title": "Conversor de Velocidade",
   "description": "Converta entre quilómetros por hora, milhas por hora, metros por segundo, pés por segundo e nós. Conversões instantâneas e precisas de unidades de velocidade com exemplos do mundo real.",
   "meta": {
-    "title": "Conversor de Velocidade - km/h, mph, m/s, nós | Grátis [2026]",
+    "title": "Conversor de Velocidade - km/h para mph, Nós [2026]",
     "description": "Converta unidades de velocidade instantaneamente: km/h para mph, m/s para ft/s, nós e mais. Conversor de velocidade online gratuito com exemplos para condução e aviação.",
     "keywords": "conversor de velocidade, km/h para mph, mph para km/h, convertedor de velocidade, metros por segundo, pés por segundo, conversor de nós, convertidor de velocidade, calculadora de velocidade, km/h para m/s"
   },
@@ -101,6 +101,11 @@
     "tableRow5Col5": "820,2",
     "tableRow5Col6": "485,9",
     "howToUseTitle": "Como Usar Este Conversor de Velocidade",
+    "howToStepName1": "Inserir Velocidade",
+    "howToStepName2": "Selecionar Unidade Origem",
+    "howToStepName3": "Selecionar Unidade Destino",
+    "howToStepName4": "Ver Resultado",
+    "howToStepName5": "Trocar",
     "howToUseStep1": "Insira o valor de velocidade que deseja converter no campo de entrada",
     "howToUseStep2": "Selecione a unidade de origem (a unidade da qual está a converter) usando o menu suspenso 'De'",
     "howToUseStep3": "Selecione a unidade de destino (a unidade para a qual está a converter) usando o menu suspenso 'Para'",

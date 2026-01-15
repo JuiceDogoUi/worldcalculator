@@ -2,7 +2,7 @@
   "title": "Geschwindigkeitsumrechner",
   "description": "Konvertieren Sie zwischen Kilometern pro Stunde, Meilen pro Stunde, Metern pro Sekunde, Fuß pro Sekunde und Knoten. Sofortige, präzise Geschwindigkeitsumrechnungen mit realen Kontextbeispielen.",
   "meta": {
-    "title": "Geschwindigkeitsumrechner - km/h, mph, m/s, Knoten | Kostenlos [2026]",
+    "title": "Geschwindigkeitsrechner - km/h zu mph, Knoten [2026]",
     "description": "Geschwindigkeitseinheiten sofort umrechnen: km/h in mph, m/s in ft/s, Knoten und mehr. Kostenloser Online-Geschwindigkeitsrechner mit realen Beispielen.",
     "keywords": "Geschwindigkeitsumrechner, km/h in mph, mph in km/h, Geschwindigkeitskonverter, Meter pro Sekunde, Fuß pro Sekunde, Knotenumrechner, Geschwindigkeitsrechner, km/h in m/s"
   },
@@ -101,6 +101,11 @@
     "tableRow5Col5": "820,2",
     "tableRow5Col6": "485,9",
     "howToUseTitle": "So verwenden Sie diesen Geschwindigkeitsumrechner",
+    "howToStepName1": "Geschwindigkeit Eingeben",
+    "howToStepName2": "Quelleinheit Wählen",
+    "howToStepName3": "Zieleinheit Wählen",
+    "howToStepName4": "Ergebnis Ansehen",
+    "howToStepName5": "Einheiten Tauschen",
     "howToUseStep1": "Geben Sie den Geschwindigkeitswert ein, den Sie umrechnen möchten, in das Eingabefeld",
     "howToUseStep2": "Wählen Sie die Quelleinheit (die Einheit, von der Sie umrechnen) über das Dropdown-Menü 'Von'",
     "howToUseStep3": "Wählen Sie die Zieleinheit (die Einheit, in die Sie umrechnen) über das Dropdown-Menü 'Nach'",

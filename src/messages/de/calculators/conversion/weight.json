@@ -2,7 +2,7 @@
   "title": "Gewichtsumrechner",
   "description": "Rechnen Sie sofort zwischen metrischen und imperialen Gewichtseinheiten um. Unterstuetzt Milligramm, Gramm, Kilogramm, Tonnen, Unzen, Pfund, Stones und US-Tonnen.",
   "meta": {
-    "title": "Kostenloser Gewichtsumrechner - kg in lbs, oz in g und Mehr [2026]",
+    "title": "Gewichtsumrechner - kg zu lbs, Gramm zu Unzen [2026]",
     "description": "Rechnen Sie Gewichts- und Masseneinheiten sofort um. Kostenloses Online-Tool fuer kg in lbs, oz in g, Stone in kg und mehr. Umfasst metrische und imperiale Einheitenumrechnungen.",
     "keywords": "Gewichtsumrechner, kg in lbs, Pfund in kg, oz in Gramm, Stone in kg, Massenumrechner, metrisch zu imperial, Gewichtsrechner, Kilogrammumrechner, Pfundumrechner, Unze zu Gramm, Tonne"
   },
@@ -72,6 +72,11 @@
     "whatIsTitle": "Was ist ein Gewichtsumrechner?",
     "whatIsContent": "Ein Gewichtsumrechner ist ein Werkzeug, das Gewichts- oder Massenmessungen von einer Einheit in eine andere umwandelt. Ob Sie Kilogramm in Pfund fuer ein Rezept umrechnen muessen, Ihr Gewicht in verschiedenen Einheiten ueberpruefen oder Versandgewichte fuer den internationalen Handel umrechnen moechten, dieses Tool verarbeitet alle gaengigen Umrechnungen sofort. Es unterstuetzt sowohl metrische (SI) Einheiten, die weltweit verwendet werden, als auch imperiale Einheiten, die in den USA und Grossbritannien ueblich sind.",
     "howToUseTitle": "So Verwenden Sie Diesen Gewichtsumrechner",
+    "howToStepName1": "Gewicht Eingeben",
+    "howToStepName2": "Quelleinheit Wählen",
+    "howToStepName3": "Zieleinheit Wählen",
+    "howToStepName4": "Ergebnis Ansehen",
+    "howToStepName5": "Einheiten Tauschen",
     "howToUseStep1": "Geben Sie den numerischen Wert, den Sie umrechnen moechten, in das Eingabefeld ein",
     "howToUseStep2": "Waehlen Sie die Ausgangseinheit ueber das Dropdown-Menue 'Von Einheit'",
     "howToUseStep3": "Waehlen Sie die Zieleinheit ueber das Dropdown-Menue 'In Einheit'",

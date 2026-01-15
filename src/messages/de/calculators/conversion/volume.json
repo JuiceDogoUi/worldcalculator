@@ -2,7 +2,7 @@
   "title": "Volumenumrechner",
   "description": "Rechnen Sie zwischen metrischen (Milliliter, Liter, Kubikmeter) und imperialen (Flüssigunzen, Tassen, Pints, Quarts, Gallonen) Volumeneinheiten um. Enthält sowohl US- als auch UK-imperiale Maße.",
   "meta": {
-    "title": "Kostenloser Volumenumrechner - Liter zu Gallonen [2026]",
+    "title": "Volumenumrechner - Liter zu Gallonen, mL zu oz [2026]",
     "description": "Rechnen Sie Volumeneinheiten sofort um: Liter zu Gallonen, Milliliter zu Flüssigunzen, Tassen zu mL und mehr. Unterstützt US- und UK-Maße.",
     "keywords": "volumenumrechner, liter zu gallonen, gallonen zu liter, ml zu oz, tassen zu ml, pint umrechner, quart umrechner, metrisch zu imperial volumen, UK gallon vs US gallon, flüssigunzen umrechner"
   },
@@ -78,6 +78,11 @@
     "commonUse4": "Getränke und Verpackung - Produktgrößen in verschiedenen Märkten verstehen (US, UK, metrische Länder)",
     "commonUse5": "Heimwerken - Mengen an Farbe, Chemikalien oder anderen Flüssigkeiten für Projekte berechnen",
     "howToUseTitle": "So verwenden Sie diesen Volumenumrechner",
+    "howToStepName1": "Volumen Eingeben",
+    "howToStepName2": "Quelleinheit Wählen",
+    "howToStepName3": "Zieleinheit Wählen",
+    "howToStepName4": "Ergebnis Ansehen",
+    "howToStepName5": "Alle Anzeigen",
     "howToUseStep1": "Geben Sie den Volumenwert ein, den Sie umrechnen möchten, in das Eingabefeld",
     "howToUseStep2": "Wählen Sie die Quelleinheit (die Einheit, von der Sie umrechnen) aus dem Dropdown-Menü",
     "howToUseStep3": "Wählen Sie die Zieleinheit (die Einheit, zu der Sie umrechnen) aus dem Dropdown-Menü",

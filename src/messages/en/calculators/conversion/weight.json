@@ -2,7 +2,7 @@
   "title": "Weight Converter",
   "description": "Convert between metric and imperial weight units instantly. Supports milligrams, grams, kilograms, tonnes, ounces, pounds, stones, and US tons.",
   "meta": {
-    "title": "Free Weight Converter - kg to lbs, oz to g & More [2026]",
+    "title": "Weight Converter - kg to lbs, Grams to Ounces [2026]",
     "description": "Convert weight and mass units instantly. Free online tool for kg to lbs, oz to g, stone to kg, and more. Includes metric and imperial unit conversions.",
     "keywords": "weight converter, kg to lbs, pounds to kg, oz to grams, stone to kg, mass converter, metric to imperial, weight calculator, kilogram converter, pound converter, ounce to gram, tonne to ton"
   },
@@ -72,6 +72,11 @@
     "whatIsTitle": "What is a Weight Converter?",
     "whatIsContent": "A weight converter is a tool that transforms weight or mass measurements from one unit to another. Whether you need to convert kilograms to pounds for a recipe, check your weight in different units, or convert shipping weights for international commerce, this tool handles all common conversions instantly. It supports both metric (SI) units used globally and imperial units common in the United States and United Kingdom.",
     "howToUseTitle": "How to Use This Weight Converter",
+    "howToStepName1": "Enter Weight",
+    "howToStepName2": "Select Source Unit",
+    "howToStepName3": "Select Target Unit",
+    "howToStepName4": "View Result",
+    "howToStepName5": "Swap Units",
     "howToUseStep1": "Enter the numerical value you want to convert in the input field",
     "howToUseStep2": "Select the unit you're converting from using the 'From Unit' dropdown",
     "howToUseStep3": "Select the unit you want to convert to using the 'To Unit' dropdown",

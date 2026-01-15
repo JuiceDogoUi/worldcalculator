@@ -2,7 +2,7 @@
   "title": "Conversor de Peso",
   "description": "Converta instantaneamente entre unidades de peso metricas e imperiais. Suporta miligramas, gramas, quilogramas, toneladas, oncas, libras, stones e toneladas americanas.",
   "meta": {
-    "title": "Conversor de Peso Gratis - kg para lbs, oz para g e Mais [2026]",
+    "title": "Conversor de Peso - kg para lbs, g para oz [2026]",
     "description": "Converta unidades de peso e massa instantaneamente. Ferramenta online gratuita para kg para lbs, oz para g, stone para kg e mais. Inclui conversoes metricas e imperiais.",
     "keywords": "conversor de peso, kg para lbs, libras para kg, oz para gramas, stone para kg, conversor de massa, metrico para imperial, calculadora de peso, conversor quilograma, conversor libra, onca para grama, tonelada"
   },
@@ -72,6 +72,11 @@
     "whatIsTitle": "O que e um Conversor de Peso?",
     "whatIsContent": "Um conversor de peso e uma ferramenta que transforma medicoes de peso ou massa de uma unidade para outra. Se voce precisa converter quilogramas para libras para uma receita, verificar seu peso em diferentes unidades ou converter pesos de envio para comercio internacional, esta ferramenta processa todas as conversoes comuns instantaneamente. Suporta tanto unidades metricas (SI) usadas globalmente quanto unidades imperiais comuns nos Estados Unidos e Reino Unido.",
     "howToUseTitle": "Como Usar Este Conversor de Peso",
+    "howToStepName1": "Inserir Peso",
+    "howToStepName2": "Selecionar Unidade Origem",
+    "howToStepName3": "Selecionar Unidade Destino",
+    "howToStepName4": "Ver Resultado",
+    "howToStepName5": "Trocar",
     "howToUseStep1": "Digite o valor numerico que deseja converter no campo de entrada",
     "howToUseStep2": "Selecione a unidade de origem usando o menu suspenso 'De Unidade'",
     "howToUseStep3": "Selecione a unidade de destino usando o menu suspenso 'Para Unidade'",

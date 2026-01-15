@@ -35,6 +35,7 @@ interface UnitTranslations {
   ft: { name: string; abbr: string }
   yd: { name: string; abbr: string }
   mi: { name: string; abbr: string }
+  nmi: { name: string; abbr: string }
 }
 
 interface LengthConverterTranslations {

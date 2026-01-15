@@ -85,7 +85,7 @@ export const SPEED_UNITS: Record<SpeedUnit, SpeedUnitInfo> = {
   },
   knots: {
     id: 'knots',
-    toBaseUnit: 0.514444, // 1 knot = 0.514444 m/s
+    toBaseUnit: 1852 / 3600, // 1 knot = 1852/3600 m/s (exact: 0.5144444...)
     abbreviation: 'kn',
   },
 }

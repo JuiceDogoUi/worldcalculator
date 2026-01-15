@@ -2,7 +2,7 @@
   "title": "Convertisseur de Vitesse",
   "description": "Convertissez entre kilomètres par heure, miles par heure, mètres par seconde, pieds par seconde et nœuds. Conversions instantanées et précises d'unités de vitesse avec des exemples du monde réel.",
   "meta": {
-    "title": "Convertisseur de Vitesse - km/h, mph, m/s, nœuds | Gratuit [2026]",
+    "title": "Convertisseur Vitesse - km/h en mph, Nœuds [2026]",
     "description": "Convertissez les unités de vitesse instantanément : km/h en mph, m/s en ft/s, nœuds et plus. Convertisseur de vitesse en ligne gratuit avec exemples pour conduite et aviation.",
     "keywords": "convertisseur de vitesse, km/h en mph, mph en km/h, convertisseur d'unités de vitesse, mètres par seconde, pieds par seconde, convertisseur de nœuds, convertisseur de vélocité, calculateur de vitesse, km/h en m/s"
   },
@@ -101,6 +101,11 @@
     "tableRow5Col5": "820,2",
     "tableRow5Col6": "485,9",
     "howToUseTitle": "Comment Utiliser Ce Convertisseur de Vitesse",
+    "howToStepName1": "Entrer Vitesse",
+    "howToStepName2": "Sélectionner Unité Source",
+    "howToStepName3": "Sélectionner Unité Cible",
+    "howToStepName4": "Voir Résultat",
+    "howToStepName5": "Inverser",
     "howToUseStep1": "Entrez la valeur de vitesse que vous souhaitez convertir dans le champ de saisie",
     "howToUseStep2": "Sélectionnez l'unité source (l'unité à partir de laquelle vous convertissez) en utilisant le menu déroulant 'De'",
     "howToUseStep3": "Sélectionnez l'unité cible (l'unité vers laquelle vous convertissez) en utilisant le menu déroulant 'Vers'",

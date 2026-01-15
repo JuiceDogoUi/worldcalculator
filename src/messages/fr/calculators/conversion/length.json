@@ -2,7 +2,7 @@
   "title": "Convertisseur de Longueur",
   "description": "Convertissez instantanément entre les unités de longueur métriques et impériales. Compatible avec les millimètres, centimètres, mètres, kilomètres, pouces, pieds, yards et miles avec conversion bidirectionnelle en temps réel.",
   "meta": {
-    "title": "Convertisseur de Longueur Gratuit - Métrique à Impérial [2026]",
+    "title": "Convertisseur de Longueur - Mètres en Pieds [2026]",
     "description": "Convertissez les unités de longueur instantanément : mètres en pieds, pouces en centimètres, kilomètres en miles et plus. Convertisseur de longueur gratuit.",
     "keywords": "convertisseur de longueur, convertisseur d'unités, mètres en pieds, pouces en centimètres, km en miles, métrique en impérial, impérial en métrique, calculateur de conversion de longueur, convertisseur de distance, convertisseur de mesures"
   },
@@ -19,7 +19,8 @@
     "in": { "name": "Pouce", "abbr": "in" },
     "ft": { "name": "Pied", "abbr": "ft" },
     "yd": { "name": "Yard", "abbr": "yd" },
-    "mi": { "name": "Mile", "abbr": "mi" }
+    "mi": { "name": "Mile", "abbr": "mi" },
+    "nmi": { "name": "Mille Nautique", "abbr": "nmi" }
   },
   "unitSystems": {
     "metric": "Métrique",
@@ -67,6 +68,11 @@
     "benefit4": "Résultats de haute précision adaptés à l'ingénierie, la science et les mesures précises",
     "benefit5": "Tableau de référence des conversions courantes pour une consultation rapide des valeurs fréquemment nécessaires",
     "howToUseTitle": "Comment Utiliser ce Convertisseur",
+    "howToStepName1": "Entrer la Valeur",
+    "howToStepName2": "Sélectionner l'Unité Source",
+    "howToStepName3": "Sélectionner l'Unité Cible",
+    "howToStepName4": "Voir le Résultat",
+    "howToStepName5": "Inverser les Unités",
     "howToUseStep1": "Entrez la valeur numérique que vous souhaitez convertir dans le champ de saisie",
     "howToUseStep2": "Sélectionnez l'unité à partir de laquelle vous convertissez à l'aide du premier menu déroulant",
     "howToUseStep3": "Sélectionnez l'unité vers laquelle vous souhaitez convertir à l'aide du deuxième menu déroulant",

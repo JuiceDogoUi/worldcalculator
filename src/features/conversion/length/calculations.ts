@@ -23,12 +23,13 @@ export const UNIT_DEFINITIONS: Record<LengthUnit, UnitInfo> = {
   ft: { id: 'ft', system: 'imperial', toMeters: 0.3048 },
   yd: { id: 'yd', system: 'imperial', toMeters: 0.9144 },
   mi: { id: 'mi', system: 'imperial', toMeters: 1609.344 },
+  nmi: { id: 'nmi', system: 'imperial', toMeters: 1852 }, // Nautical mile (exact by definition)
 }
 
 /**
  * All available units in display order
  */
-export const ALL_UNITS: LengthUnit[] = ['mm', 'cm', 'm', 'km', 'in', 'ft', 'yd', 'mi']
+export const ALL_UNITS: LengthUnit[] = ['mm', 'cm', 'm', 'km', 'in', 'ft', 'yd', 'mi', 'nmi']
 
 /**
  * Metric units in order from smallest to largest
@@ -38,7 +39,7 @@ export const METRIC_UNITS: LengthUnit[] = ['mm', 'cm', 'm', 'km']
 /**
  * Imperial units in order from smallest to largest
  */
-export const IMPERIAL_UNITS: LengthUnit[] = ['in', 'ft', 'yd', 'mi']
+export const IMPERIAL_UNITS: LengthUnit[] = ['in', 'ft', 'yd', 'mi', 'nmi']
 
 /**
  * Round to specified decimal places, handling floating-point precision
@@ -186,7 +187,7 @@ export const COMMON_CONVERSIONS: CommonConversion[] = [
   // Imperial to Metric
   { fromUnit: 'in', toUnit: 'cm', fromValue: 1, toValue: 2.54 },
   { fromUnit: 'ft', toUnit: 'm', fromValue: 1, toValue: 0.3048 },
-  { fromUnit: 'mi', toUnit: 'km', fromValue: 1, toValue: 1.60934 },
+  { fromUnit: 'mi', toUnit: 'km', fromValue: 1, toValue: 1.609344 },
   // Common practical conversions
   { fromUnit: 'ft', toUnit: 'in', fromValue: 1, toValue: 12 },
   { fromUnit: 'yd', toUnit: 'ft', fromValue: 1, toValue: 3 },

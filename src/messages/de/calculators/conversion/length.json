@@ -2,7 +2,7 @@
   "title": "Längenumrechner",
   "description": "Konvertieren Sie sofort zwischen metrischen und imperialen Längeneinheiten. Unterstützt Millimeter, Zentimeter, Meter, Kilometer, Zoll, Fuß, Yard und Meilen mit bidirektionaler Echtzeit-Konvertierung.",
   "meta": {
-    "title": "Kostenloser Längenumrechner - Metrisch zu Imperial [2026]",
+    "title": "Längenumrechner - Meter zu Fuß, km zu Meilen [2026]",
     "description": "Konvertieren Sie Längeneinheiten sofort: Meter in Fuß, Zoll in Zentimeter, Kilometer in Meilen und mehr. Kostenloser Online-Längenumrechner.",
     "keywords": "Längenumrechner, Einheitenumrechner, Meter in Fuß, Zoll in Zentimeter, km in Meilen, metrisch zu imperial, imperial zu metrisch, Längenumrechnungsrechner, Entfernungsumrechner, Maßeinheitenumrechner"
   },
@@ -19,7 +19,8 @@
     "in": { "name": "Zoll", "abbr": "in" },
     "ft": { "name": "Fuß", "abbr": "ft" },
     "yd": { "name": "Yard", "abbr": "yd" },
-    "mi": { "name": "Meile", "abbr": "mi" }
+    "mi": { "name": "Meile", "abbr": "mi" },
+    "nmi": { "name": "Seemeile", "abbr": "nmi" }
   },
   "unitSystems": {
     "metric": "Metrisch",
@@ -67,6 +68,11 @@
     "benefit4": "Hochpräzise Ergebnisse geeignet für Technik, Wissenschaft und präzise Messungen",
     "benefit5": "Referenztabelle für gängige Umrechnungen zur schnellen Nachschlag häufig benötigter Werte",
     "howToUseTitle": "Wie man diesen Umrechner verwendet",
+    "howToStepName1": "Wert Eingeben",
+    "howToStepName2": "Quelleinheit Wählen",
+    "howToStepName3": "Zieleinheit Wählen",
+    "howToStepName4": "Ergebnis Ansehen",
+    "howToStepName5": "Einheiten Tauschen",
     "howToUseStep1": "Geben Sie den numerischen Wert ein, den Sie umrechnen möchten, in das Eingabefeld",
     "howToUseStep2": "Wählen Sie die Einheit, von der Sie umrechnen, über das erste Dropdown-Menü",
     "howToUseStep3": "Wählen Sie die Einheit, in die Sie umrechnen möchten, über das zweite Dropdown-Menü",

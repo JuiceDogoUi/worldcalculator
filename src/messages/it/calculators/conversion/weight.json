@@ -2,7 +2,7 @@
   "title": "Convertitore di Peso",
   "description": "Converti istantaneamente tra unita di peso metriche e imperiali. Supporta milligrammi, grammi, chilogrammi, tonnellate, once, libbre, stones e tonnellate americane.",
   "meta": {
-    "title": "Convertitore di Peso Gratuito - kg a lbs, oz a g e Altro [2026]",
+    "title": "Convertitore di Peso - kg a lbs, g a oz [2026]",
     "description": "Converti unita di peso e massa istantaneamente. Strumento online gratuito per kg a lbs, oz a g, stone a kg e altro. Include conversioni metriche e imperiali.",
     "keywords": "convertitore di peso, kg a lbs, libbre a kg, oz a grammi, stone a kg, convertitore di massa, metrico a imperiale, calcolatrice di peso, convertitore chilogrammo, convertitore libbra, oncia a grammo, tonnellata"
   },
@@ -72,6 +72,11 @@
     "whatIsTitle": "Cos'e un Convertitore di Peso?",
     "whatIsContent": "Un convertitore di peso e uno strumento che trasforma le misure di peso o massa da un'unita all'altra. Che tu debba convertire chilogrammi in libbre per una ricetta, verificare il tuo peso in diverse unita, o convertire pesi di spedizione per il commercio internazionale, questo strumento gestisce tutte le conversioni comuni istantaneamente. Supporta sia le unita metriche (SI) usate globalmente che le unita imperiali comuni negli Stati Uniti e nel Regno Unito.",
     "howToUseTitle": "Come Usare Questo Convertitore di Peso",
+    "howToStepName1": "Inserire Peso",
+    "howToStepName2": "Selezionare Unità Origine",
+    "howToStepName3": "Selezionare Unità Destinazione",
+    "howToStepName4": "Vedere Risultato",
+    "howToStepName5": "Scambiare",
     "howToUseStep1": "Inserisci il valore numerico che vuoi convertire nel campo di input",
     "howToUseStep2": "Seleziona l'unita di partenza usando il menu a tendina 'Da Unita'",
     "howToUseStep3": "Seleziona l'unita di destinazione usando il menu a tendina 'A Unita'",

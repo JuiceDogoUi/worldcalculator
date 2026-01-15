@@ -2,7 +2,7 @@
   "title": "Speed Converter",
   "description": "Convert between kilometers per hour, miles per hour, meters per second, feet per second, and knots. Instant, accurate speed unit conversions with real-world context examples.",
   "meta": {
-    "title": "Speed Converter - km/h, mph, m/s, knots | Free Calculator [2026]",
+    "title": "Speed Converter - km/h to mph, Knots Calculator [2026]",
     "description": "Convert speed units instantly: km/h to mph, m/s to ft/s, knots and more. Free online speed converter with real-world examples for driving, running, and aviation.",
     "keywords": "speed converter, km/h to mph, mph to km/h, speed unit converter, meters per second, feet per second, knots converter, velocity converter, speed calculator, km/h to m/s"
   },
@@ -101,6 +101,11 @@
     "tableRow5Col5": "820.2",
     "tableRow5Col6": "485.9",
     "howToUseTitle": "How to Use This Speed Converter",
+    "howToStepName1": "Enter Speed",
+    "howToStepName2": "Select Source Unit",
+    "howToStepName3": "Select Target Unit",
+    "howToStepName4": "View Result",
+    "howToStepName5": "Swap Units",
     "howToUseStep1": "Enter the speed value you want to convert in the input field",
     "howToUseStep2": "Select the source unit (the unit you're converting from) using the 'From' dropdown",
     "howToUseStep3": "Select the target unit (the unit you're converting to) using the 'To' dropdown",

@@ -2,7 +2,7 @@
   "title": "Length Converter",
   "description": "Convert between metric and imperial length units instantly. Supports millimeters, centimeters, meters, kilometers, inches, feet, yards, and miles with real-time bidirectional conversion.",
   "meta": {
-    "title": "Free Length Converter - Metric to Imperial & Imperial to Metric [2026]",
+    "title": "Length Converter - Meters to Feet, km to Miles [2026]",
     "description": "Convert length units instantly: meters to feet, inches to centimeters, kilometers to miles, and more. Free online length converter with real-time results.",
     "keywords": "length converter, unit converter, meters to feet, inches to centimeters, km to miles, metric to imperial, imperial to metric, length conversion calculator, distance converter, measurement converter"
   },
@@ -19,7 +19,8 @@
     "in": { "name": "Inch", "abbr": "in" },
     "ft": { "name": "Foot", "abbr": "ft" },
     "yd": { "name": "Yard", "abbr": "yd" },
-    "mi": { "name": "Mile", "abbr": "mi" }
+    "mi": { "name": "Mile", "abbr": "mi" },
+    "nmi": { "name": "Nautical Mile", "abbr": "nmi" }
   },
   "unitSystems": {
     "metric": "Metric",
@@ -67,6 +68,11 @@
     "benefit4": "High precision results suitable for engineering, science, and precise measurements",
     "benefit5": "Common conversions reference table for quick lookup of frequently needed values",
     "howToUseTitle": "How to Use This Converter",
+    "howToStepName1": "Enter Your Value",
+    "howToStepName2": "Select Source Unit",
+    "howToStepName3": "Select Target Unit",
+    "howToStepName4": "View Result",
+    "howToStepName5": "Swap Units",
     "howToUseStep1": "Enter the numeric value you want to convert in the input field",
     "howToUseStep2": "Select the unit you are converting from using the first dropdown menu",
     "howToUseStep3": "Select the unit you want to convert to using the second dropdown menu",

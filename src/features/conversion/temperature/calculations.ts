@@ -151,6 +151,11 @@ export function convertTemperature(
   value: number,
   fromUnit: TemperatureUnit
 ): TemperatureResult {
+  // Validate input is a finite number
+  if (!isFinite(value)) {
+    throw new Error('Temperature value must be a finite number')
+  }
+
   let celsius: number
   let fahrenheit: number
   let kelvin: number

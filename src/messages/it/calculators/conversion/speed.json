@@ -2,7 +2,7 @@
   "title": "Convertitore di Velocità",
   "description": "Converti tra chilometri all'ora, miglia all'ora, metri al secondo, piedi al secondo e nodi. Conversioni istantanee e precise di unità di velocità con esempi del mondo reale.",
   "meta": {
-    "title": "Convertitore di Velocità - km/h, mph, m/s, nodi | Gratis [2026]",
+    "title": "Convertitore Velocità - km/h a mph, Nodi [2026]",
     "description": "Converti unità di velocità istantaneamente: km/h in mph, m/s in ft/s, nodi e altro. Convertitore di velocità online gratuito con esempi per guida e aviazione.",
     "keywords": "convertitore di velocità, km/h in mph, mph in km/h, convertitore unità velocità, metri al secondo, piedi al secondo, convertitore nodi, convertitore velocità, calcolatore velocità, km/h in m/s"
   },
@@ -101,6 +101,11 @@
     "tableRow5Col5": "820,2",
     "tableRow5Col6": "485,9",
     "howToUseTitle": "Come Usare Questo Convertitore di Velocità",
+    "howToStepName1": "Inserire Velocità",
+    "howToStepName2": "Selezionare Unità Origine",
+    "howToStepName3": "Selezionare Unità Destinazione",
+    "howToStepName4": "Vedere Risultato",
+    "howToStepName5": "Scambiare",
     "howToUseStep1": "Inserire il valore di velocità che si desidera convertire nel campo di input",
     "howToUseStep2": "Selezionare l'unità di origine (l'unità da cui si sta convertendo) utilizzando il menu a discesa 'Da'",
     "howToUseStep3": "Selezionare l'unità di destinazione (l'unità verso cui si sta convertendo) utilizzando il menu a discesa 'A'",

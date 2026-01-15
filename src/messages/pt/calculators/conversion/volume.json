@@ -2,7 +2,7 @@
   "title": "Conversor de Volume",
   "description": "Converta entre unidades métricas (mililitros, litros, metros cúbicos) e imperiais (onças líquidas, chávenas, pintas, quartos, galões). Inclui medidas imperiais dos EUA e do Reino Unido.",
   "meta": {
-    "title": "Conversor de Volume Grátis - Litros para Galões [2026]",
+    "title": "Conversor de Volume - Litros para Galões [2026]",
     "description": "Converta unidades de volume instantaneamente: litros para galões, mililitros para onças líquidas, chávenas para mL e mais. Suporta medidas US e UK.",
     "keywords": "conversor de volume, litros para galões, galões para litros, ml para oz, chávenas para ml, conversor de pintas, conversor de quartos, métrico para imperial volume, galão UK vs US, conversor onça líquida"
   },
@@ -78,6 +78,11 @@
     "commonUse4": "Bebidas e Embalagem - Compreenda tamanhos de produtos em diferentes mercados (EUA, RU, países métricos)",
     "commonUse5": "Melhorias Domésticas - Calcule quantidades de tinta, químicos ou outros líquidos para projetos",
     "howToUseTitle": "Como Usar Este Conversor de Volume",
+    "howToStepName1": "Inserir Volume",
+    "howToStepName2": "Selecionar Unidade Origem",
+    "howToStepName3": "Selecionar Unidade Destino",
+    "howToStepName4": "Ver Resultado",
+    "howToStepName5": "Mostrar Todas",
     "howToUseStep1": "Insira o valor de volume que deseja converter no campo de entrada",
     "howToUseStep2": "Selecione a unidade de origem (a unidade a partir da qual está a converter) no menu suspenso",
     "howToUseStep3": "Selecione a unidade de destino (a unidade para a qual está a converter) no menu suspenso",

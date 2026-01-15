@@ -2,7 +2,7 @@
   "title": "Conversor de Velocidad",
   "description": "Convierte entre kilómetros por hora, millas por hora, metros por segundo, pies por segundo y nudos. Conversiones instantáneas y precisas de unidades de velocidad con ejemplos del mundo real.",
   "meta": {
-    "title": "Conversor de Velocidad - km/h, mph, m/s, nudos | Gratis [2026]",
+    "title": "Conversor de Velocidad - km/h a mph, Nudos [2026]",
     "description": "Convierte unidades de velocidad al instante: km/h a mph, m/s a ft/s, nudos y más. Conversor de velocidad online gratuito con ejemplos para conducir y aviación.",
     "keywords": "conversor de velocidad, km/h a mph, mph a km/h, convertidor de velocidad, metros por segundo, pies por segundo, conversor de nudos, convertidor de velocidad, calculadora de velocidad, km/h a m/s"
   },
@@ -101,6 +101,11 @@
     "tableRow5Col5": "820,2",
     "tableRow5Col6": "485,9",
     "howToUseTitle": "Cómo Usar Este Conversor de Velocidad",
+    "howToStepName1": "Ingresar Velocidad",
+    "howToStepName2": "Seleccionar Unidad Origen",
+    "howToStepName3": "Seleccionar Unidad Destino",
+    "howToStepName4": "Ver Resultado",
+    "howToStepName5": "Intercambiar",
     "howToUseStep1": "Ingrese el valor de velocidad que desea convertir en el campo de entrada",
     "howToUseStep2": "Seleccione la unidad de origen (la unidad desde la que está convirtiendo) usando el menú desplegable 'De'",
     "howToUseStep3": "Seleccione la unidad de destino (la unidad a la que está convirtiendo) usando el menú desplegable 'A'",

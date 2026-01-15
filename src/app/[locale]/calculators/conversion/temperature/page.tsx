@@ -55,6 +55,11 @@ export async function generateMetadata({
       type: 'website',
       url: `${siteUrl}/${locale}/calculators/conversion/temperature`,
     },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('meta.title'),
+      description: t('meta.description'),
+    },
   }
 }
 
@@ -204,11 +209,18 @@ export default async function TemperatureConverterPage({
   const faqSchema = generateFAQSchema(seoTranslations.faqs)
 
   // Generate HowTo schema for rich snippets
+  const howToStepNames = [
+    t('seo.howToStepName1'),
+    t('seo.howToStepName2'),
+    t('seo.howToStepName3'),
+    t('seo.howToStepName4'),
+    t('seo.howToStepName5'),
+  ]
   const howToSchema = generateHowToSchema(
     t('seo.howToUseTitle'),
     t('description'),
     seoTranslations.howToUseSteps.map((step, i) => ({
-      name: `Step ${i + 1}`,
+      name: howToStepNames[i],
       text: step,
     }))
   )

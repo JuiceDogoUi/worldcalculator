@@ -2,7 +2,7 @@
   "title": "Conversor de Volumen",
   "description": "Convierte entre unidades métricas (mililitros, litros, metros cúbicos) e imperiales (onzas líquidas, tazas, pintas, cuartos, galones). Incluye medidas imperiales de EE.UU. y Reino Unido.",
   "meta": {
-    "title": "Conversor de Volumen Gratis - Litros a Galones, mL a oz [2026]",
+    "title": "Conversor de Volumen - Litros a Galones, mL a oz [2026]",
     "description": "Convierte unidades de volumen al instante: litros a galones, mililitros a onzas líquidas, tazas a mL y más. Compatible con medidas imperiales de EE.UU. y RU.",
     "keywords": "conversor de volumen, litros a galones, galones a litros, ml a oz, tazas a ml, conversor de pintas, conversor de cuartos, métrico a imperial volumen, galón UK vs US, conversor onzas líquidas"
   },
@@ -78,6 +78,11 @@
     "commonUse4": "Bebidas y Envasado - Comprende tamaños de productos en diferentes mercados (EE.UU., RU, países métricos)",
     "commonUse5": "Mejoras del Hogar - Calcula cantidades de pintura, químicos u otros líquidos para proyectos",
     "howToUseTitle": "Cómo Usar Este Conversor de Volumen",
+    "howToStepName1": "Ingresar Volumen",
+    "howToStepName2": "Seleccionar Unidad Origen",
+    "howToStepName3": "Seleccionar Unidad Destino",
+    "howToStepName4": "Ver Resultado",
+    "howToStepName5": "Mostrar Todas",
     "howToUseStep1": "Ingrese el valor de volumen que desea convertir en el campo de entrada",
     "howToUseStep2": "Seleccione la unidad de origen (la unidad desde la que está convirtiendo) del menú desplegable",
     "howToUseStep3": "Seleccione la unidad de destino (la unidad a la que está convirtiendo) del menú desplegable",

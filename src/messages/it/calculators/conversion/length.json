@@ -2,7 +2,7 @@
   "title": "Convertitore di Lunghezza",
   "description": "Converti istantaneamente tra unità di lunghezza metriche e imperiali. Supporta millimetri, centimetri, metri, chilometri, pollici, piedi, iarde e miglia con conversione bidirezionale in tempo reale.",
   "meta": {
-    "title": "Convertitore di Lunghezza Gratuito - Metrico a Imperiale [2026]",
+    "title": "Convertitore di Lunghezza - Metri a Piedi [2026]",
     "description": "Converti unità di lunghezza istantaneamente: metri in piedi, pollici in centimetri, chilometri in miglia e altro. Convertitore di lunghezza online gratuito.",
     "keywords": "convertitore di lunghezza, convertitore di unità, metri in piedi, pollici in centimetri, km in miglia, metrico a imperiale, imperiale a metrico, calcolatore di conversione lunghezza, convertitore di distanza, convertitore di misure"
   },
@@ -19,7 +19,8 @@
     "in": { "name": "Pollice", "abbr": "in" },
     "ft": { "name": "Piede", "abbr": "ft" },
     "yd": { "name": "Iarda", "abbr": "yd" },
-    "mi": { "name": "Miglio", "abbr": "mi" }
+    "mi": { "name": "Miglio", "abbr": "mi" },
+    "nmi": { "name": "Miglio Nautico", "abbr": "nmi" }
   },
   "unitSystems": {
     "metric": "Metrico",
@@ -67,6 +68,11 @@
     "benefit4": "Risultati ad alta precisione adatti per ingegneria, scienza e misurazioni precise",
     "benefit5": "Tabella di riferimento delle conversioni comuni per consultazione rapida di valori frequentemente necessari",
     "howToUseTitle": "Come Usare Questo Convertitore",
+    "howToStepName1": "Inserire il Valore",
+    "howToStepName2": "Selezionare Unità di Origine",
+    "howToStepName3": "Selezionare Unità di Destinazione",
+    "howToStepName4": "Vedere il Risultato",
+    "howToStepName5": "Scambiare Unità",
     "howToUseStep1": "Inserisci il valore numerico che desideri convertire nel campo di input",
     "howToUseStep2": "Seleziona l'unità da cui stai convertendo usando il primo menu a discesa",
     "howToUseStep3": "Seleziona l'unità in cui desideri convertire usando il secondo menu a discesa",

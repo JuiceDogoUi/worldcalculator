@@ -2,7 +2,7 @@
   "title": "Conversor de Comprimento",
   "description": "Converta instantaneamente entre unidades de comprimento métricas e imperiais. Suporta milímetros, centímetros, metros, quilómetros, polegadas, pés, jardas e milhas com conversão bidirecional em tempo real.",
   "meta": {
-    "title": "Conversor de Comprimento Grátis - Métrico para Imperial [2026]",
+    "title": "Conversor de Comprimento - Metros para Pés [2026]",
     "description": "Converta unidades de comprimento instantaneamente: metros para pés, polegadas para centímetros, quilómetros para milhas e mais. Conversor de comprimento online grátis.",
     "keywords": "conversor de comprimento, conversor de unidades, metros para pés, polegadas para centímetros, km para milhas, métrico para imperial, imperial para métrico, calculadora de conversão de comprimento, conversor de distância, conversor de medidas"
   },
@@ -19,7 +19,8 @@
     "in": { "name": "Polegada", "abbr": "in" },
     "ft": { "name": "Pé", "abbr": "ft" },
     "yd": { "name": "Jarda", "abbr": "yd" },
-    "mi": { "name": "Milha", "abbr": "mi" }
+    "mi": { "name": "Milha", "abbr": "mi" },
+    "nmi": { "name": "Milha Náutica", "abbr": "nmi" }
   },
   "unitSystems": {
     "metric": "Métrico",
@@ -67,6 +68,11 @@
     "benefit4": "Resultados de alta precisão adequados para engenharia, ciência e medições precisas",
     "benefit5": "Tabela de referência de conversões comuns para consulta rápida de valores frequentemente necessários",
     "howToUseTitle": "Como Usar Este Conversor",
+    "howToStepName1": "Inserir o Valor",
+    "howToStepName2": "Selecionar Unidade de Origem",
+    "howToStepName3": "Selecionar Unidade de Destino",
+    "howToStepName4": "Ver Resultado",
+    "howToStepName5": "Trocar Unidades",
     "howToUseStep1": "Insira o valor numérico que deseja converter no campo de entrada",
     "howToUseStep2": "Selecione a unidade a partir da qual está a converter usando o primeiro menu suspenso",
     "howToUseStep3": "Selecione a unidade para a qual deseja converter usando o segundo menu suspenso",

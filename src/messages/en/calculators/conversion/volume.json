@@ -2,7 +2,7 @@
   "title": "Volume Converter",
   "description": "Convert between metric (milliliters, liters, cubic meters) and imperial (fluid ounces, cups, pints, quarts, gallons) volume units. Includes both US and UK imperial measurements.",
   "meta": {
-    "title": "Free Volume Converter - Liters to Gallons, mL to fl oz [2026]",
+    "title": "Volume Converter - Liters to Gallons, mL to oz [2026]",
     "description": "Convert volume units instantly: liters to gallons, milliliters to fluid ounces, cups to mL, and more. Supports both US and UK imperial measurements.",
     "keywords": "volume converter, liters to gallons, gallons to liters, ml to oz, cups to ml, pint converter, quart converter, metric to imperial volume, UK gallon vs US gallon, fluid ounce converter"
   },
@@ -78,6 +78,11 @@
     "commonUse4": "Beverages and Packaging - Understand product sizes across different markets (US, UK, metric countries)",
     "commonUse5": "Home Improvement - Calculate paint, chemicals, or other liquid quantities for projects",
     "howToUseTitle": "How to Use This Volume Converter",
+    "howToStepName1": "Enter Volume",
+    "howToStepName2": "Select Source Unit",
+    "howToStepName3": "Select Target Unit",
+    "howToStepName4": "View Result",
+    "howToStepName5": "Show All Conversions",
     "howToUseStep1": "Enter the volume value you want to convert in the input field",
     "howToUseStep2": "Select the source unit (the unit you're converting from) from the dropdown",
     "howToUseStep3": "Select the target unit (the unit you're converting to) from the dropdown",

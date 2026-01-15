@@ -2,7 +2,7 @@
   "title": "Convertisseur de Poids",
   "description": "Convertissez instantanement entre les unites de poids metriques et imperiales. Supporte les milligrammes, grammes, kilogrammes, tonnes, onces, livres, stones et tonnes americaines.",
   "meta": {
-    "title": "Convertisseur de Poids Gratuit - kg en lbs, oz en g et Plus [2026]",
+    "title": "Convertisseur de Poids - kg en lbs, g en oz [2026]",
     "description": "Convertissez les unites de poids et de masse instantanement. Outil en ligne gratuit pour kg en lbs, oz en g, stone en kg et plus. Inclut les conversions metriques et imperiales.",
     "keywords": "convertisseur de poids, kg en lbs, livres en kg, oz en grammes, stone en kg, convertisseur de masse, metrique en imperial, calculatrice de poids, convertisseur kilogramme, convertisseur livre, once en gramme, tonne"
   },
@@ -72,6 +72,11 @@
     "whatIsTitle": "Qu'est-ce qu'un Convertisseur de Poids?",
     "whatIsContent": "Un convertisseur de poids est un outil qui transforme les mesures de poids ou de masse d'une unite a une autre. Que vous ayez besoin de convertir des kilogrammes en livres pour une recette, de verifier votre poids dans differentes unites, ou de convertir des poids d'expedition pour le commerce international, cet outil gere toutes les conversions courantes instantanement. Il supporte les unites metriques (SI) utilisees mondialement et les unites imperiales courantes aux Etats-Unis et au Royaume-Uni.",
     "howToUseTitle": "Comment Utiliser Ce Convertisseur de Poids",
+    "howToStepName1": "Entrer le Poids",
+    "howToStepName2": "Sélectionner Unité Source",
+    "howToStepName3": "Sélectionner Unité Cible",
+    "howToStepName4": "Voir Résultat",
+    "howToStepName5": "Inverser",
     "howToUseStep1": "Entrez la valeur numerique que vous souhaitez convertir dans le champ de saisie",
     "howToUseStep2": "Selectionnez l'unite source a l'aide du menu deroulant 'Unite Source'",
     "howToUseStep3": "Selectionnez l'unite cible a l'aide du menu deroulant 'Unite Cible'",

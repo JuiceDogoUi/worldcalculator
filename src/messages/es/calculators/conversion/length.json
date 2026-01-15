@@ -2,7 +2,7 @@
   "title": "Conversor de Longitud",
   "description": "Convierte entre unidades de longitud métricas e imperiales al instante. Compatible con milímetros, centímetros, metros, kilómetros, pulgadas, pies, yardas y millas con conversión bidireccional en tiempo real.",
   "meta": {
-    "title": "Conversor de Longitud Gratis - Métrico a Imperial [2026]",
+    "title": "Conversor de Longitud - Metros a Pies, km a Millas [2026]",
     "description": "Convierte unidades de longitud al instante: metros a pies, pulgadas a centímetros, kilómetros a millas y más. Conversor de longitud online gratuito.",
     "keywords": "conversor de longitud, conversor de unidades, metros a pies, pulgadas a centímetros, km a millas, métrico a imperial, imperial a métrico, calculadora de conversión de longitud, conversor de distancia, conversor de medidas"
   },
@@ -19,7 +19,8 @@
     "in": { "name": "Pulgada", "abbr": "in" },
     "ft": { "name": "Pie", "abbr": "ft" },
     "yd": { "name": "Yarda", "abbr": "yd" },
-    "mi": { "name": "Milla", "abbr": "mi" }
+    "mi": { "name": "Milla", "abbr": "mi" },
+    "nmi": { "name": "Milla Náutica", "abbr": "nmi" }
   },
   "unitSystems": {
     "metric": "Métrico",
@@ -67,6 +68,11 @@
     "benefit4": "Resultados de alta precisión adecuados para ingeniería, ciencia y mediciones precisas",
     "benefit5": "Tabla de referencia de conversiones comunes para consulta rápida de valores frecuentes",
     "howToUseTitle": "Cómo Usar Este Conversor",
+    "howToStepName1": "Ingresa el Valor",
+    "howToStepName2": "Selecciona Unidad Origen",
+    "howToStepName3": "Selecciona Unidad Destino",
+    "howToStepName4": "Ver Resultado",
+    "howToStepName5": "Intercambiar Unidades",
     "howToUseStep1": "Ingrese el valor numérico que desea convertir en el campo de entrada",
     "howToUseStep2": "Seleccione la unidad desde la cual está convirtiendo usando el primer menú desplegable",
     "howToUseStep3": "Seleccione la unidad a la cual desea convertir usando el segundo menú desplegable",

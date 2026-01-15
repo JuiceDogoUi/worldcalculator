@@ -48,6 +48,11 @@ export async function generateMetadata({
       type: 'website',
       url: `${siteUrl}/${locale}/calculators/conversion/length`,
     },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('meta.title'),
+      description: t('meta.description'),
+    },
   }
 }
 
@@ -104,6 +109,7 @@ export default async function LengthConverterPage({
       ft: { name: t('units.ft.name'), abbr: t('units.ft.abbr') },
       yd: { name: t('units.yd.name'), abbr: t('units.yd.abbr') },
       mi: { name: t('units.mi.name'), abbr: t('units.mi.abbr') },
+      nmi: { name: t('units.nmi.name'), abbr: t('units.nmi.abbr') },
     },
     validation: {
       required: t('validation.required'),
@@ -179,12 +185,19 @@ export default async function LengthConverterPage({
   // Generate FAQ schema for rich snippets
   const faqSchema = generateFAQSchema(seoTranslations.faqs)
 
-  // Generate HowTo schema for rich snippets
+  // Generate HowTo schema for rich snippets with descriptive step names
+  const howToStepNames = [
+    t('seo.howToStepName1'),
+    t('seo.howToStepName2'),
+    t('seo.howToStepName3'),
+    t('seo.howToStepName4'),
+    t('seo.howToStepName5'),
+  ]
   const howToSchema = generateHowToSchema(
     t('seo.howToUseTitle'),
     t('description'),
     seoTranslations.howToUseSteps.map((step, i) => ({
-      name: `Step ${i + 1}`,
+      name: howToStepNames[i],
       text: step,
     }))
   )

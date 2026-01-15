@@ -12,6 +12,7 @@ export type LengthUnit =
   | 'ft'   // Foot
   | 'yd'   // Yard
   | 'mi'   // Mile
+  | 'nmi'  // Nautical mile
 
 /**
  * Unit system type
