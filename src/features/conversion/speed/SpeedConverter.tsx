@@ -82,9 +82,9 @@ export function SpeedConverter({
     return validateSpeedInputs(numericValue)
   }, [numericValue])
 
-  // Calculate conversion result
+  // Calculate conversion result (0 is a valid value)
   const result = useMemo(() => {
-    if (!validation.valid || numericValue === 0) return null
+    if (!validation.valid) return null
     return calculateSpeedConversion(numericValue, fromUnit, toUnit)
   }, [numericValue, fromUnit, toUnit, validation.valid])
 

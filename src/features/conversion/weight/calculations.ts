@@ -17,11 +17,11 @@ export const WEIGHT_UNITS: Record<WeightUnit, WeightUnitInfo> = {
   g: { id: 'g', system: 'metric', toKg: 0.001 },
   kg: { id: 'kg', system: 'metric', toKg: 1 },
   tonne: { id: 'tonne', system: 'metric', toKg: 1000 },
-  // Imperial units
-  oz: { id: 'oz', system: 'imperial', toKg: 0.0283495 },
-  lb: { id: 'lb', system: 'imperial', toKg: 0.453592 },
-  stone: { id: 'stone', system: 'imperial', toKg: 6.35029 },
-  ton: { id: 'ton', system: 'imperial', toKg: 907.185 },
+  // Imperial units (exact values per international agreement 1959)
+  oz: { id: 'oz', system: 'imperial', toKg: 0.028349523125 }, // 1/16 lb
+  lb: { id: 'lb', system: 'imperial', toKg: 0.45359237 }, // exact definition
+  stone: { id: 'stone', system: 'imperial', toKg: 6.35029318 }, // 14 lb
+  ton: { id: 'ton', system: 'imperial', toKg: 907.18474 }, // 2000 lb (US short ton)
 }
 
 /**

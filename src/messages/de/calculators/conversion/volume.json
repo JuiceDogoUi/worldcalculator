@@ -53,6 +53,12 @@
     "negativeValue": "Der Wert darf nicht negativ sein",
     "valueTooLarge": "Der Wert ist zu groß"
   },
+  "comparison": {
+    "title": "US vs UK Gallone Vergleich",
+    "usGallon": "US Gallone",
+    "ukGallon": "UK Gallone",
+    "note": "1 UK Gallone = 1,201 US Gallonen (20% größer)"
+  },
   "disclaimer": {
     "text": "Dieser Umrechner bietet präzise Umrechnungen basierend auf Standarddefinitionen. US- und UK-imperiale Einheiten unterscheiden sich - überprüfen Sie immer, welches System für Ihre Bedürfnisse gilt. Für präzise wissenschaftliche oder kommerzielle Messungen konsultieren Sie offizielle Standards."
   },

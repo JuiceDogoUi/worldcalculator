@@ -172,7 +172,7 @@ export function LengthConverter({
       {/* Screen reader live region for result updates */}
       <div aria-live="polite" aria-atomic="true" className="sr-only">
         {validation.valid &&
-          numericValue > 0 &&
+          numericValue >= 0 &&
           `${formatConversionValue(result.inputValue)} ${getUnitName(fromUnit)} equals ${formatConversionValue(result.outputValue)} ${getUnitName(toUnit)}`}
       </div>
 
@@ -310,7 +310,7 @@ export function LengthConverter({
               </div>
               <div className="flex items-baseline gap-2">
                 <div className="text-4xl md:text-5xl font-bold tracking-tight">
-                  {validation.valid && numericValue > 0
+                  {validation.valid && numericValue >= 0
                     ? formatConversionValue(result.outputValue)
                     : '--'}
                 </div>
@@ -318,7 +318,7 @@ export function LengthConverter({
                   {getUnitAbbr(toUnit)}
                 </div>
               </div>
-              {validation.valid && numericValue > 0 && (
+              {validation.valid && numericValue >= 0 && (
                 <div className="mt-3 text-sm opacity-80">
                   {formatConversionValue(result.inputValue)} {getUnitAbbr(fromUnit)}{' '}
                   <ArrowDown className="inline h-3 w-3 mx-1" aria-hidden="true" />
@@ -329,7 +329,7 @@ export function LengthConverter({
           </Card>
 
           {/* Conversion Factor Info */}
-          {validation.valid && numericValue > 0 && (
+          {validation.valid && numericValue >= 0 && (
             <Card>
               <CardContent className="p-4">
                 <div className="text-sm text-muted-foreground mb-1">
@@ -351,7 +351,7 @@ export function LengthConverter({
           )}
 
           {/* All Conversions */}
-          {validation.valid && numericValue > 0 && (
+          {validation.valid && numericValue >= 0 && (
             <Card>
               <CardContent className="p-4">
                 <div className="text-sm font-medium text-muted-foreground mb-4">

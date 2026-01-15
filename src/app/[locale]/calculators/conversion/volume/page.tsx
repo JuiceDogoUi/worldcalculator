@@ -128,6 +128,13 @@ export default async function VolumeConverterPage({
       negativeValue: t('validation.negativeValue'),
       valueTooLarge: t('validation.valueTooLarge'),
     },
+    // US vs UK comparison
+    comparison: {
+      title: t('comparison.title'),
+      usGallon: t('comparison.usGallon'),
+      ukGallon: t('comparison.ukGallon'),
+      note: t('comparison.note'),
+    },
   }
 
   // Disclaimer translations

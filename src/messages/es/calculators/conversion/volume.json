@@ -53,6 +53,12 @@
     "negativeValue": "El valor no puede ser negativo",
     "valueTooLarge": "El valor es demasiado grande"
   },
+  "comparison": {
+    "title": "Comparación Galón EE.UU. vs RU",
+    "usGallon": "Galón EE.UU.",
+    "ukGallon": "Galón RU",
+    "note": "1 galón RU = 1,201 galones EE.UU. (20% más grande)"
+  },
   "disclaimer": {
     "text": "Este conversor proporciona conversiones precisas basadas en definiciones estándar. Las unidades imperiales de EE.UU. y RU difieren - siempre verifique qué sistema aplica a sus necesidades. Para mediciones científicas o comerciales precisas, consulte los estándares oficiales."
   },

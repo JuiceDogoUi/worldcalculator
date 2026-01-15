@@ -73,6 +73,13 @@ interface VolumeConverterTranslations {
     negativeValue: string
     valueTooLarge: string
   }
+  // US vs UK comparison
+  comparison: {
+    title: string
+    usGallon: string
+    ukGallon: string
+    note: string
+  }
 }
 
 interface VolumeConverterProps {
@@ -103,9 +110,9 @@ export function VolumeConverter({
     return validateVolumeInputs(numericValue, fromUnit, toUnit)
   }, [numericValue, fromUnit, toUnit])
 
-  // Calculate conversion result
+  // Calculate conversion result (0 is a valid value)
   const result = useMemo(() => {
-    if (!validation.valid || numericValue === 0) return null
+    if (!validation.valid) return null
 
     return convertVolume({
       value: numericValue,
@@ -114,12 +121,12 @@ export function VolumeConverter({
     })
   }, [numericValue, fromUnit, toUnit, validation.valid])
 
-  // Calculate all conversions when expanded
+  // Calculate all conversions when expanded (0 is valid)
   const allConversions = useMemo(() => {
-    if (!showAllConversions || numericValue === 0) return null
+    if (!showAllConversions || !validation.valid) return null
 
     return convertToAllUnits(numericValue, fromUnit)
-  }, [numericValue, fromUnit, showAllConversions])
+  }, [numericValue, fromUnit, showAllConversions, validation.valid])
 
   // Get unit name with fallback
   const getUnitName = useCallback(
@@ -236,7 +243,8 @@ export function VolumeConverter({
               className="text-lg h-12"
               min={0}
               step="any"
-              aria-describedby="inputValue-error"
+              aria-invalid={!validation.valid}
+              aria-describedby={!validation.valid ? 'inputValue-error' : undefined}
             />
           </div>
 
@@ -332,23 +340,23 @@ export function VolumeConverter({
           {result && (fromUnit === 'gallon-us' || toUnit === 'gallon-us' || fromUnit === 'gallon-uk' || toUnit === 'gallon-uk') && (
             <Card>
               <CardContent className="p-4">
-                <div className="text-sm font-medium mb-3">US vs UK Gallon Comparison</div>
+                <div className="text-sm font-medium mb-3">{t.comparison.title}</div>
                 <div className="grid grid-cols-2 gap-4 text-sm">
                   <div>
-                    <div className="text-muted-foreground">US Gallon</div>
+                    <div className="text-muted-foreground">{t.comparison.usGallon}</div>
                     <div className="font-medium">
                       {formatVolumeValue(result.litersValue / VOLUME_UNITS['gallon-us'].toLiters)} gal
                     </div>
                   </div>
                   <div>
-                    <div className="text-muted-foreground">UK Gallon</div>
+                    <div className="text-muted-foreground">{t.comparison.ukGallon}</div>
                     <div className="font-medium">
                       {formatVolumeValue(result.litersValue / VOLUME_UNITS['gallon-uk'].toLiters)} gal
                     </div>
                   </div>
                 </div>
                 <div className="mt-3 pt-3 border-t text-xs text-muted-foreground">
-                  1 UK gallon = 1.201 US gallons (20% larger)
+                  {t.comparison.note}
                 </div>
               </CardContent>
             </Card>

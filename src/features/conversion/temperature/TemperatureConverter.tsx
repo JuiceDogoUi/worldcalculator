@@ -305,8 +305,11 @@ export function TemperatureConverter({
           </div>
 
           {/* Error Message */}
-          {error && (
-            <p className="text-sm text-destructive flex items-center gap-1">
+          {error && lastModified && (
+            <p
+              id={`${lastModified}-error`}
+              className="text-sm text-destructive flex items-center gap-1"
+            >
               {error}
             </p>
           )}

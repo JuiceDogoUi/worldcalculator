@@ -65,7 +65,7 @@ export interface SpeedValidation {
 export const SPEED_UNITS: Record<SpeedUnit, SpeedUnitInfo> = {
   kmh: {
     id: 'kmh',
-    toBaseUnit: 0.277778, // 1 km/h = 0.277778 m/s
+    toBaseUnit: 1 / 3.6, // 1 km/h = 1000m / 3600s = 1/3.6 m/s (exact)
     abbreviation: 'km/h',
   },
   mph: {

@@ -55,9 +55,9 @@ export function WeightConverter({
     })
   }, [numericValue, fromUnit, toUnit])
 
-  // Calculate conversion
+  // Calculate conversion (0 is a valid value)
   const result = useMemo(() => {
-    if (!validation.valid || numericValue === 0) return null
+    if (!validation.valid) return null
 
     return calculateWeightConversion(
       { value: numericValue, fromUnit, toUnit },

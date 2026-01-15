@@ -111,9 +111,9 @@ export function AreaConverter({
     return convertArea({ value: numericValue, fromUnit, toUnit })
   }, [numericValue, fromUnit, toUnit, validation.valid])
 
-  // All conversions
+  // All conversions (0 is a valid value)
   const allConversions = useMemo(() => {
-    if (!validation.valid || numericValue === 0) return null
+    if (!validation.valid) return null
     return convertToAllUnits(numericValue, fromUnit)
   }, [numericValue, fromUnit, validation.valid])
 
