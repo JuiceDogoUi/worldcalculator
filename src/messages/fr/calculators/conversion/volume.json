@@ -3,7 +3,7 @@
   "description": "Convertissez entre unités métriques (millilitres, litres, mètres cubes) et impériales (onces liquides, tasses, pintes, quarts, gallons). Inclut les mesures impériales américaines et britanniques.",
   "meta": {
     "title": "Convertisseur de Volume - Litres en Gallons [2026]",
-    "description": "Convertissez les unités de volume instantanément : litres en gallons, millilitres en onces liquides, tasses en mL, et plus. Compatible avec mesures US et UK.",
+    "description": "Convertissez volumes : litres en gallons, mL en oz, tasses en mL. Compatible avec mesures US et UK pour cuisine et recettes.",
     "keywords": "convertisseur de volume, litres en gallons, gallons en litres, ml en oz, tasses en ml, convertisseur pintes, convertisseur quarts, métrique vers impérial volume, gallon UK vs US, convertisseur once liquide"
   },
   "inputs": {

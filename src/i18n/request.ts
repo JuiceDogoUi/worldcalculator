@@ -10,8 +10,8 @@ const CALCULATOR_REGISTRY: Record<string, string[]> = {
   math: ['percentage', 'fraction', 'gcd', 'scientific', 'square-root', 'ratio'],
   health: ['bmi', 'tdee', 'heart-rate', 'ideal-weight', 'macro', 'body-fat'],
   conversion: ['temperature', 'length', 'weight', 'area', 'speed', 'volume'],
-  'time-date': [],
-  construction: [],
+  'time-date': ['age', 'date-calculator', 'time-duration', 'business-days', 'birthday', 'week-number'],
+  construction: ['square-footage', 'concrete', 'paint', 'flooring', 'drywall', 'gravel'],
   statistics: ['standard-deviation', 'mean-median-mode', 'probability', 'z-score', 'correlation', 'sample-size'],
 }
 

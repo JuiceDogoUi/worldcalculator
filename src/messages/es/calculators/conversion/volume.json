@@ -3,7 +3,7 @@
   "description": "Convierte entre unidades métricas (mililitros, litros, metros cúbicos) e imperiales (onzas líquidas, tazas, pintas, cuartos, galones). Incluye medidas imperiales de EE.UU. y Reino Unido.",
   "meta": {
     "title": "Conversor de Volumen - Litros a Galones, mL a oz [2026]",
-    "description": "Convierte unidades de volumen al instante: litros a galones, mililitros a onzas líquidas, tazas a mL y más. Compatible con medidas imperiales de EE.UU. y RU.",
+    "description": "Convierte volumen: litros a galones, mL a oz, tazas a mL. Compatible con medidas de EE.UU. y RU para cocina y recetas.",
     "keywords": "conversor de volumen, litros a galones, galones a litros, ml a oz, tazas a ml, conversor de pintas, conversor de cuartos, métrico a imperial volumen, galón UK vs US, conversor onzas líquidas"
   },
   "inputs": {

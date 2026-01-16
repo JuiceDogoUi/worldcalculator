@@ -3,7 +3,7 @@
   "description": "Rechnen Sie zwischen metrischen (Milliliter, Liter, Kubikmeter) und imperialen (Flüssigunzen, Tassen, Pints, Quarts, Gallonen) Volumeneinheiten um. Enthält sowohl US- als auch UK-imperiale Maße.",
   "meta": {
     "title": "Volumenumrechner - Liter zu Gallonen, mL zu oz [2026]",
-    "description": "Rechnen Sie Volumeneinheiten sofort um: Liter zu Gallonen, Milliliter zu Flüssigunzen, Tassen zu mL und mehr. Unterstützt US- und UK-Maße.",
+    "description": "Volumen umrechnen: Liter zu Gallonen, mL zu oz, Tassen zu mL. Unterstützt US- und UK-Maße für Kochen und Rezepte.",
     "keywords": "volumenumrechner, liter zu gallonen, gallonen zu liter, ml zu oz, tassen zu ml, pint umrechner, quart umrechner, metrisch zu imperial volumen, UK gallon vs US gallon, flüssigunzen umrechner"
   },
   "inputs": {

@@ -1,0 +1,86 @@
+{
+  "title": "Calcolatore Durata Tempo",
+  "description": "Calcola la durata del tempo tra due orari o aggiungi/sottrai ore e minuti. Perfetto per ore di lavoro, monitoraggio tempo e calcoli buste paga.",
+  "meta": {
+    "title": "Calcolatore Durata Tempo - Ore e Minuti [2026]",
+    "description": "Calcola la durata tra orario inizio e fine. Ottieni risultati in ore, minuti, ore decimali per buste paga. Gestisci turni notturni facilmente.",
+    "keywords": "calcolatore durata tempo, calcolatore ore, calcolatore differenza tempo, calcolatore ore lavoro, calcolatore timesheet, calcolatore ore busta paga, calcolatore tempo, calcolatore ore e minuti, calcolatore turni notturni"
+  },
+  "inputs": {
+    "startTime": "Orario Inizio",
+    "endTime": "Orario Fine",
+    "crossesMidnight": "Attraversa Mezzanotte (Notturno)"
+  },
+  "actions": {
+    "calculate": "Calcola Durata",
+    "reset": "Reimposta"
+  },
+  "results": {
+    "title": "Durata Tempo",
+    "duration": "Durata",
+    "hours": "ore",
+    "minutes": "minuti",
+    "totalMinutes": "Minuti Totali",
+    "totalSeconds": "Secondi Totali",
+    "decimalHours": "Ore Decimali"
+  },
+  "validation": {
+    "startTimeRequired": "Inserisci un orario di inizio",
+    "startTimeInvalid": "Inserisci un orario di inizio valido",
+    "endTimeRequired": "Inserisci un orario di fine",
+    "endTimeInvalid": "Inserisci un orario di fine valido"
+  },
+  "disclaimer": {
+    "text": "Questo calcolatore fornisce calcoli accurati della durata del tempo. Le ore decimali sono arrotondate a 2 decimali per scopi di busta paga.",
+    "note": "Nel calcolare ore di lavoro, ricorda di tenere conto delle pause non pagate e dei periodi pasto secondo le leggi sul lavoro locali."
+  },
+  "seo": {
+    "whatIsTitle": "Cos'è un Calcolatore di Durata Tempo?",
+    "whatIsContent": "Un calcolatore di durata tempo calcola il tempo trascorso tra un orario di inizio e uno di fine. È essenziale per monitorare ore di lavoro, calcolare buste paga, monitorare tempo di progetto, cronometrare eventi e gestire programmi. Il calcolatore gestisce sia intervalli di tempo nella stessa giornata che turni notturni che attraversano la mezzanotte. I risultati sono mostrati nel formato standard ore e minuti, così come in ore decimali che è il formato preferito per sistemi di busta paga e fatturazione.",
+    "howItWorksTitle": "Come Funziona il Calcolo della Durata Tempo?",
+    "howItWorksContent": "Il calcolatore converte sia l'orario di inizio che quello di fine in minuti totali dalla mezzanotte, poi trova la differenza. Per calcoli della stessa giornata, è semplicemente orario fine meno orario inizio. Per turni notturni che attraversano la mezzanotte, aggiunge 24 ore (1440 minuti) per tenere correttamente conto del giorno successivo. Il risultato viene poi riconvertito in ore e minuti. Le ore decimali sono calcolate dividendo i minuti totali per 60, fornendo un formato adatto per i sistemi di busta paga (es. 7 ore 30 minuti = 7,50 ore decimali).",
+    "featuresTitle": "Caratteristiche",
+    "feature1": "Visualizza la durata del tempo sia nel formato ore:minuti (7:30) che in ore decimali (7,50) per diversi casi d'uso.",
+    "feature2": "Calcola facilmente la durata per turni che attraversano la mezzanotte abilitando l'opzione 'Attraversa Mezzanotte'.",
+    "feature3": "Le ore decimali sono formattate specificamente per sistemi di busta paga e fatturazione, arrotondate a 2 decimali.",
+    "feature4": "I risultati si aggiornano istantaneamente mentre inserisci o modifichi gli orari, non serve cliccare calcola per inserimenti base.",
+    "useCasesTitle": "Casi d'Uso",
+    "useCase1": "Calcola ore di lavoro dipendenti per elaborazione buste paga, verifica timesheet e calcoli costi manodopera.",
+    "useCase2": "Monitora ore fatturabili per freelance, consulenti e contractor che lavorano su progetti clienti.",
+    "useCase3": "Determina durate turni, verifica conformità leggi sul lavoro e pianifica programmi dipendenti per aziende.",
+    "useCase4": "Calcola durata per riunioni, eventi, lezioni, tempi di viaggio e pianificazione attività.",
+    "tipsTitle": "Suggerimenti",
+    "tip1": "Per turni che attraversano la mezzanotte (es. 23:00 - 7:00), abilita l'interruttore 'Attraversa Mezzanotte' per calcolare correttamente la durata.",
+    "tip2": "La maggior parte dei sistemi di busta paga usa ore decimali. 7,5 ore (non 7,30) rappresenta 7 ore e 30 minuti. Usa il risultato ore decimali per inserimento busta paga.",
+    "tip3": "Questo calcolatore mostra il tempo lordo lavorato. Per ore nette, sottrai manualmente le pause non pagate (tipicamente 30-60 minuti per turno).",
+    "tip4": "Usa il formato 24 ore (14:30) invece del formato 12 ore (2:30 PM) per evitare confusione AM/PM e assicurare precisione.",
+    "howToTitle": "Come Usare il Calcolatore Durata Tempo",
+    "howToStepName1": "Inserisci Orario Inizio",
+    "howToStepName2": "Inserisci Orario Fine",
+    "howToStepName3": "Abilita Attraversamento Mezzanotte (se necessario)",
+    "howToStepName4": "Calcola Durata",
+    "howToStepName5": "Visualizza Risultati in Formati Multipli",
+    "howToStep1": "Inserisci l'orario di inizio usando il selettore tempo o digitalo manualmente nel formato HH:MM (es. 09:00 o 14:30)",
+    "howToStep2": "Inserisci l'orario di fine nello stesso formato - può essere qualsiasi orario del giorno",
+    "howToStep3": "Se il tuo periodo di tempo attraversa la mezzanotte (turno notturno), abilita l'interruttore 'Attraversa Mezzanotte' per calcolare correttamente",
+    "howToStep4": "Clicca 'Calcola Durata' per calcolare il tempo trascorso tra inizio e fine",
+    "howToStep5": "Visualizza la durata in ore e minuti (7h 30m), minuti totali (450) e ore decimali per busta paga (7,50)",
+    "faqTitle": "Domande Frequenti",
+    "faq1Question": "Come calcolo le ore di turni notturni?",
+    "faq1Answer": "Per turni che attraversano la mezzanotte (es. 23:00 - 7:00), abilita l'interruttore 'Attraversa Mezzanotte'. Questo indica al calcolatore che l'orario di fine è il giorno successivo. Senza questa impostazione, un turno dalle 23:00 alle 7:00 apparirebbe negativo o scorretto. Con essa abilitata, il calcolatore mostra correttamente 8 ore.",
+    "faq2Question": "Qual è la differenza tra ore standard e ore decimali?",
+    "faq2Answer": "Le ore standard usano il formato 'ore:minuti' (es. 7:30 significa 7 ore e 30 minuti). Le ore decimali esprimono la stessa durata come numero decimale (es. 7,50). Nota che 7,30 ore decimali NON è uguale a 7:30 - è in realtà 7 ore e 18 minuti. Usa sempre il risultato ore decimali per i sistemi di busta paga per evitare questo errore comune.",
+    "faq3Question": "Come tengo conto delle pause pranzo?",
+    "faq3Answer": "Questo calcolatore mostra il tempo totale tra orari di inizio e fine. Per tenere conto delle pause non pagate, sottrai la durata della pausa dal totale. Ad esempio, se hai lavorato dalle 9:00 alle 17:00 (8 ore) con 30 minuti di pranzo non pagato, il tuo tempo di lavoro effettivo è 7,50 ore decimali. Alcuni datori di lavoro detraggono le pause automaticamente; verifica la politica aziendale.",
+    "faq4Question": "Perché le ore decimali sono importanti per la busta paga?",
+    "faq4Answer": "I sistemi di busta paga e fatturazione richiedono ore decimali per calcoli accurati. Se hai lavorato 7 ore e 30 minuti, inserendo '7,30' nella busta paga ti accrediteresti solo 7 ore e 18 minuti (7,30 ore). L'inserimento corretto è 7,50 ore. Questo calcolatore converte automaticamente per prevenire questo errore comune e costoso.",
+    "faq5Question": "Posso calcolare tempo attraverso più giorni?",
+    "faq5Answer": "Questo calcolatore è progettato per durate di tempo entro un periodo di 24 ore (stesso giorno o attraversamento di una mezzanotte). Per durate che coprono più giorni, dovrai calcolare le ore di ogni giorno separatamente o usare un calcolatore data-tempo che può gestire periodi multi-giorno. La maggior parte dei sistemi di rilevamento tempo monitora ore per giorno piuttosto che periodi continui multi-giorno.",
+    "faq6Question": "Come converto le ore decimali di nuovo in ore e minuti?",
+    "faq6Answer": "Per convertire ore decimali in ore e minuti: Il numero intero sono le ore. Moltiplica la parte decimale per 60 per ottenere i minuti. Ad esempio, 7,75 ore = 7 ore + (0,75 × 60) minuti = 7 ore 45 minuti. Conversioni comuni: 0,25 = 15 min, 0,50 = 30 min, 0,75 = 45 min.",
+    "faq7Question": "E se orario inizio e fine sono uguali?",
+    "faq7Answer": "Se orari inizio e fine sono identici, la durata è 0 ore a meno che tu non abiliti 'Attraversa Mezzanotte', che indicherebbe un periodo completo di 24 ore. Stessi orari inizio e fine con attraversamento mezzanotte tipicamente indica un caso speciale - verifica che sia intenzionale per il tuo caso d'uso.",
+    "faq8Question": "Quanto sono accurati i calcoli delle ore decimali?",
+    "faq8Answer": "Il calcolatore è completamente accurato. Le ore decimali sono arrotondate a 2 decimali, che rappresenta precisione al più vicino 0,6 minuti (36 secondi). Questa è la precisione standard usata dai sistemi di busta paga ed è più che sufficiente per scopi di rilevamento tempo. Per applicazioni che richiedono precisione a livello di secondo, monitora i secondi effettivi separatamente."
+  }
+}

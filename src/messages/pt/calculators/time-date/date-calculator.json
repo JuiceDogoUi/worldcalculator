@@ -1,0 +1,103 @@
+{
+  "title": "Calculadora de Datas",
+  "description": "Calcule a diferença entre duas datas ou adicione/subtraia tempo a uma data. Obtenha resultados em anos, meses, semanas e dias com cálculos de dias úteis.",
+  "meta": {
+    "title": "Calculadora de Datas - Adicionar Dias, Diferença Entre Datas [2026]",
+    "description": "Calcule diferenças entre datas ou adicione/subtraia dias, semanas, meses, anos a qualquer data. Encontre dias úteis e intervalos de datas.",
+    "keywords": "calculadora de datas, calculadora de diferença de datas, adicionar dias a data, subtrair dias de data, dias entre datas, calculadora de intervalo de datas, calculadora de dias úteis, calculadora de matemática de datas, calculadora de calendário"
+  },
+  "inputs": {
+    "startDate": "Data Inicial",
+    "endDate": "Data Final",
+    "includeEndDate": "Incluir data final na contagem",
+    "operation": "Operação",
+    "add": "Adicionar",
+    "subtract": "Subtrair",
+    "years": "Anos",
+    "months": "Meses",
+    "weeks": "Semanas",
+    "days": "Dias"
+  },
+  "modes": {
+    "difference": "Encontrar Diferença de Datas",
+    "addSubtract": "Adicionar/Subtrair Tempo"
+  },
+  "operations": {
+    "add": "Adicionar Tempo",
+    "subtract": "Subtrair Tempo"
+  },
+  "actions": {
+    "calculate": "Calcular",
+    "reset": "Limpar",
+    "swap": "Trocar Datas"
+  },
+  "results": {
+    "title": "Resultado",
+    "difference": "Diferença",
+    "resultDate": "Data Resultante",
+    "totalDays": "Total de Dias",
+    "totalWeeks": "Total de Semanas",
+    "totalMonths": "Total de Meses",
+    "breakdown": "Detalhamento de Tempo",
+    "includesLeapDay": "Inclui dia bissexto"
+  },
+  "validation": {
+    "startDateRequired": "Por favor selecione uma data inicial",
+    "startDateInvalid": "Por favor insira uma data inicial válida",
+    "endDateRequired": "Por favor selecione uma data final",
+    "endDateInvalid": "Por favor insira uma data final válida"
+  },
+  "disclaimer": {
+    "text": "Esta calculadora fornece cálculos de datas precisos com base no calendário gregoriano. Os cálculos de dias úteis excluem fins de semana (sábado e domingo) mas não têm em conta feriados.",
+    "note": "Os dias úteis são calculados como segunda a sexta-feira. Para cálculos precisos de dias úteis incluindo feriados regionais, consulte um sistema de calendário com consciência de feriados."
+  },
+  "seo": {
+    "whatIsTitle": "O Que é uma Calculadora de Datas?",
+    "whatIsContent": "Uma calculadora de datas é uma ferramenta versátil que realiza aritmética e comparações de datas. Pode calcular a diferença exata entre duas datas (em anos, meses, semanas e dias) ou adicionar/subtrair períodos de tempo a uma data específica para encontrar uma data futura ou passada. Esta calculadora é inestimável para planeamento de projetos, prazos de contratos, verificação de idade, contagens regressivas de eventos, datas previstas de gravidez, datas de expiração de garantia e inúmeras outras aplicações onde cálculos precisos de datas são importantes.",
+    "howItWorksTitle": "Como Funciona o Cálculo de Datas?",
+    "howItWorksContent": "A calculadora usa o sistema de calendário gregoriano com algoritmos que têm em conta durações variáveis de meses (28-31 dias) e anos bissextos (anos divisíveis por 4, exceto séculos a menos que divisíveis por 400). Ao encontrar a diferença entre datas, calcula o tempo total decorrido e divide-o em anos, meses e dias. Ao adicionar ou subtrair tempo, adiciona/subtrai sequencialmente anos, depois meses (ajustando para datas de fim de mês), depois semanas e finalmente dias. Os cálculos de dias úteis excluem fins de semana por padrão.",
+    "featuresTitle": "Características",
+    "feature1": "Encontre o intervalo de tempo exato entre duas datas, mostrado em anos, meses, dias, semanas e total de dias.",
+    "feature2": "Adicione ou subtraia qualquer combinação de anos, meses, semanas e dias para encontrar datas passadas ou futuras.",
+    "feature3": "Calcule o número de dias de semana (segunda a sexta-feira) entre datas, excluindo fins de semana.",
+    "feature4": "Visualize resultados em vários formatos: divisão anos/meses/dias ou total de semanas, dias, meses ou anos.",
+    "useCasesTitle": "Casos de Uso",
+    "useCase1": "Calcule cronogramas de projetos, datas de marcos e acompanhamento de prazos para projetos empresariais.",
+    "useCase2": "Determine datas de expiração de contratos, prazos de prescrição e períodos de aviso legal.",
+    "useCase3": "Calcule datas previstas de gravidez, contagens regressivas de aniversário, datas de reforma e planeamento de eventos de vida.",
+    "useCase4": "Determine datas de vencimento de empréstimos, períodos de retenção de investimentos, períodos de acumulação de juros e calendários de pagamento.",
+    "tipsTitle": "Dicas",
+    "tip1": "Ao adicionar meses a datas como 31 de janeiro, a calculadora pode ajustar para o último dia do mês de destino (por exemplo, 28/29 de fevereiro) se o dia não existir.",
+    "tip2": "A calculadora tem automaticamente em conta anos bissextos. 29 de fevereiro existe apenas em anos bissextos (divisíveis por 4, exceto séculos a menos que divisíveis por 400).",
+    "tip3": "Dias úteis excluem fins de semana (sábado-domingo). Para projetos internacionais, lembre-se que as definições de dias úteis podem variar por país.",
+    "tip4": "O calendário gregoriano foi adotado em outubro de 1582. Cálculos de datas antes disso podem não alinhar com registos históricos de regiões que usavam sistemas de calendário diferentes.",
+    "howToTitle": "Como Usar a Calculadora de Datas",
+    "howToStepName1": "Selecionar Modo de Cálculo",
+    "howToStepName2": "Inserir Data(s)",
+    "howToStepName3": "Inserir Valores de Tempo (se adicionar/subtrair)",
+    "howToStepName4": "Calcular Resultado",
+    "howToStepName5": "Rever Divisão Detalhada",
+    "howToStep1": "Escolha 'Encontrar Diferença de Datas' para comparar duas datas, ou 'Adicionar/Subtrair Tempo' para calcular uma nova data a partir de um ponto de partida",
+    "howToStep2": "Selecione a(s) data(s) necessária(s) usando o selecionador de data ou insira manualmente - datas inicial e final para modo de diferença, ou uma única data base para modo adicionar/subtrair",
+    "howToStep3": "Se adicionar ou subtrair tempo, insira o número de anos, meses, semanas e/ou dias para adicionar ou subtrair da data base",
+    "howToStep4": "Clique em 'Calcular' para processar instantaneamente o cálculo de data e visualizar o resultado",
+    "howToStep5": "Reveja a divisão detalhada mostrando o resultado em múltiplos formatos: anos/meses/dias, total de dias, dias úteis e mais",
+    "faqTitle": "Perguntas Frequentes",
+    "faq1Question": "Quão precisa é esta calculadora de datas?",
+    "faq1Answer": "Esta calculadora é completamente precisa para todas as datas no calendário gregoriano (1582 em diante). Trata corretamente anos bissextos, durações variáveis de meses, anos de século e todos os casos extremos do calendário. Os algoritmos usados são os mesmos que os de bibliotecas de datas profissionais usadas por bancos, sistemas legais e aplicações científicas.",
+    "faq2Question": "Porque é que os dias úteis são diferentes dos dias de calendário?",
+    "faq2Answer": "Os dias úteis normalmente incluem apenas segunda a sexta-feira, excluindo fins de semana (sábado e domingo). Se um período abrange 10 dias de calendário mas inclui 2 fins de semana, são apenas 6 dias úteis. Esta calculadora conta dias úteis mas não exclui feriados públicos, que variam por região e país. Para cálculos com consciência de feriados, consulte um calendário de feriados para a sua localização específica.",
+    "faq3Question": "O que acontece ao adicionar meses a datas de fim de mês?",
+    "faq3Answer": "Quando adiciona meses a uma data como 31 de janeiro, o mês de destino pode não ter tantos dias (fevereiro tem 28/29). A calculadora ajusta para o último dia válido do mês de destino. Por exemplo, 31 de janeiro + 1 mês = 28 de fevereiro (ou 29 num ano bissexto). Este é o comportamento padrão usado por sistemas financeiros e de calendário em todo o mundo.",
+    "faq4Question": "Como é que os anos bissextos afetam os cálculos de datas?",
+    "faq4Answer": "Anos bissextos ocorrem a cada 4 anos, exceto para anos de século (como 1900, 2100) a menos que sejam divisíveis por 400 (como 2000). Num ano bissexto, fevereiro tem 29 dias em vez de 28. A calculadora tem automaticamente em conta isto ao calcular diferenças de datas ou adicionar/subtrair períodos de tempo, garantindo resultados precisos através de limites de anos bissextos.",
+    "faq5Question": "Posso calcular datas muito distantes no passado ou futuro?",
+    "faq5Answer": "Sim, a calculadora funciona para qualquer data desde a adoção do calendário gregoriano (outubro de 1582) até ao futuro previsível. No entanto, esteja ciente que datas futuras muito distantes podem não ter em conta potenciais reformas de calendário, e datas históricas muito antigas podem não corresponder a registos de regiões que adotaram o calendário gregoriano em diferentes momentos.",
+    "faq6Question": "Qual é a diferença entre total de dias e a divisão anos/meses/dias?",
+    "faq6Answer": "Total de dias é o número completo de dias entre duas datas (por exemplo, 400 dias). A divisão anos/meses/dias expressa o mesmo período num formato mais legível (por exemplo, 1 ano, 1 mês, 5 dias). Ambos representam a mesma duração; a escolha depende se precisa de um total único ou uma divisão detalhada.",
+    "faq7Question": "Porque é que o cálculo de dias úteis não exclui feriados?",
+    "faq7Answer": "Os feriados públicos variam dramaticamente por país, região e até indústria. Não existe um calendário de feriados universal. A nossa calculadora exclui fins de semana (sábado-domingo) como um padrão universal. Para cálculos que exigem exclusões de feriados específicos, precisará de ter manualmente em conta os feriados relevantes para a sua localização e finalidade, ou usar software especializado de calendário empresarial.",
+    "faq8Question": "Como calculo a idade exata de alguém usando esta ferramenta?",
+    "faq8Answer": "Use o modo 'Encontrar Diferença de Datas' com a data de nascimento como data inicial e hoje (ou qualquer data específica) como data final. A calculadora mostrará a idade exata em anos, meses e dias. Para informações de idade mais detalhadas incluindo signos do zodíaco e gerações, use a nossa Calculadora de Idade dedicada."
+  }
+}

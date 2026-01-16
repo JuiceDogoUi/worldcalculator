@@ -3,7 +3,7 @@
   "description": "Berechnen Sie den Pearson-Korrelationskoeffizienten (r) zwischen zwei Datensätzen. Ermitteln Sie die Stärke und Richtung linearer Beziehungen, das Bestimmtheitsmaß (R²) und die Regressionsgeradengleichung.",
   "meta": {
     "title": "Korrelationsrechner | Pearson-Koeffizient & R² [2026]",
-    "description": "Kostenloser Korrelationsrechner mit Sofortergebnissen. Berechnen Sie Pearson-Koeffizient, R², Regressionsgerade und statistische Signifikanz. Unterstützt gepaarte Dateneingabe. Jetzt ausprobieren!",
+    "description": "Berechnen Sie Pearson-Koeffizient, R² und Regressionsgerade mit Sofortergebnissen. Kostenloser Rechner mit Signifikanztest.",
     "keywords": "korrelationsrechner, pearson korrelationskoeffizient, r quadrat rechner, korrelationskoeffizient formel, lineare regression rechner, statistik rechner, r wert rechner"
   },
   "inputs": {

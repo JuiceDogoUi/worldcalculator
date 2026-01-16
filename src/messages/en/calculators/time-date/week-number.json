@@ -1,0 +1,93 @@
+{
+  "title": "Week Number Calculator",
+  "description": "Find the ISO week number for any date, discover what week of the year it is, and get complete calendar week information including quarter and day of year.",
+  "meta": {
+    "title": "Week Number Calculator - Find ISO Week of Year [2026]",
+    "description": "Calculate ISO week number for any date. Find what week of the year it is, day of year, quarter, and week date range. Free week calculator.",
+    "keywords": "week number calculator, ISO week number, week of year, calendar week, what week is it, week calculator, ISO 8601, day of year, quarter calculator, week date"
+  },
+  "inputs": {
+    "date": "Select Date",
+    "today": "Today"
+  },
+  "actions": {
+    "calculate": "Calculate",
+    "reset": "Reset"
+  },
+  "results": {
+    "weekNumber": "Week Number",
+    "week": "Week",
+    "of": "of",
+    "isoYear": "ISO Year",
+    "dayOfWeek": "Day of Week",
+    "dayOfYear": "Day of Year",
+    "quarter": "Quarter",
+    "weekRange": "Week Date Range",
+    "currentWeek": "This is the current week"
+  },
+  "daysOfWeek": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "validation": {
+    "dateRequired": "Please select a date"
+  },
+  "disclaimer": {
+    "text": "This calculator uses the ISO 8601 standard for week numbers. Week 1 is the first week with at least 4 days in the new year, and weeks always start on Monday.",
+    "note": "Different week numbering systems exist. The US often uses weeks starting on Sunday. This calculator uses ISO 8601, the international standard used in business, finance, and most of Europe."
+  },
+  "seo": {
+    "whatIsTitle": "What is a Week Number Calculator?",
+    "whatIsContent": "A week number calculator determines which week of the year a specific date falls in, following the ISO 8601 international standard. Week numbers range from 1 to 52 (or 53 in some years). The calculator also provides related information like the ISO year, day of the week, day of the year (1-365/366), quarter (Q1-Q4), and the exact date range of that week (Monday to Sunday). This is essential for business planning, project management, calendar coordination, and any situation requiring standardized week references.",
+    "howItWorksTitle": "How Does ISO Week Numbering Work?",
+    "howItWorksContent": "The ISO 8601 standard defines specific rules: Week 1 is the first week of the year containing at least 4 days of the new year (or alternatively, the first week containing the first Thursday). All weeks start on Monday and end on Sunday. This means early January days might belong to the last week of the previous year, and late December days might belong to week 1 of the next year. Most years have 52 weeks, but years starting on Thursday or leap years starting on Wednesday have 53 weeks.",
+    "featuresTitle": "Features",
+    "feature1": "Calculate ISO week number for any date instantly using the international standard",
+    "feature2": "Display day of year (1-365/366) and quarter (Q1-Q4) information",
+    "feature3": "Show week date range from Monday to Sunday for any week",
+    "feature4": "Works with any date - past, present, or future years",
+    "useCasesTitle": "Use Cases",
+    "useCase1": "Project planning, sprint cycles, and milestone tracking by week number",
+    "useCase2": "Business reporting, quarterly planning, and financial calendar coordination",
+    "useCase3": "Shipping, logistics, and supply chain scheduling using standardized weeks",
+    "useCase4": "Manufacturing, production runs, and inventory cycle planning",
+    "tipsTitle": "Tips",
+    "tip1": "Week 1 is the first week with at least 4 days in January (contains first Thursday)",
+    "tip2": "ISO weeks always start on Monday and end on Sunday",
+    "tip3": "Some years have 53 weeks - those starting on Thursday or leap years starting Wednesday",
+    "tip4": "The ISO year may differ from calendar year in late December and early January",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Question": "What week number is it today?",
+    "faq1Answer": "Select today's date and click Calculate to see the current ISO week number. The week number changes every Monday since ISO weeks start on Monday. For example, if today is in mid-March, you might be in week 11 or 12 of the year. The calculator shows both the week number and the exact Monday-Sunday range for that week.",
+    "faq2Question": "Why does January 1st sometimes show week 52 or 53?",
+    "faq2Answer": "In the ISO 8601 system, week 1 is the first week with at least 4 days in the new year. If January 1 falls on Friday, Saturday, or Sunday, it belongs to the last week of the previous year (week 52 or 53) because that week has more days in the old year than the new year. This ensures weeks are never split across years.",
+    "faq3Question": "How many weeks are in a year?",
+    "faq3Answer": "Most years have 52 weeks (52 weeks × 7 days = 364 days). However, some years have 53 weeks. This occurs when the year starts on Thursday or when it's a leap year starting on Wednesday. Approximately 71% of years have 52 weeks, and 29% have 53 weeks.",
+    "faq4Question": "What is the ISO year?",
+    "faq4Answer": "The ISO year is the year that the ISO week belongs to. It usually matches the calendar year, but can differ for dates in early January and late December. For example, December 30, 2024 might belong to ISO week 1 of 2025, so its ISO year is 2025 even though the calendar year is 2024.",
+    "faq5Question": "Why do weeks start on Monday in ISO 8601?",
+    "faq5Answer": "ISO 8601 designates Monday as the first day of the week following the international standard used in most of the world, particularly in business and industry. This differs from some countries (notably the US) where weeks traditionally start on Sunday.",
+    "faq6Question": "How are quarters (Q1-Q4) determined?",
+    "faq6Answer": "Quarters divide the year into four 3-month periods: Q1 (January-March), Q2 (April-June), Q3 (July-September), and Q4 (October-December). These are based on the calendar month, not the ISO week. Quarters are widely used in business for financial reporting.",
+    "faq7Question": "What is the difference between day of week and day of year?",
+    "faq7Answer": "Day of week is which day within the 7-day week (Monday through Sunday). Day of year is which day within the 365/366-day year, numbered 1-365 (or 1-366 in leap years). For example, February 1 is day 32 of the year.",
+    "faq8Question": "Can I use this for project management?",
+    "faq8Answer": "Yes, week numbers are extremely useful for project management. They provide a standardized way to reference time periods. Instead of saying 'the week of March 15-21', you can say 'week 12', which is clearer and more concise. Many project management tools use ISO week numbers.",
+    "howToTitle": "How to Find Week Number",
+    "howToStepName1": "Select Date",
+    "howToStepName2": "View Week Number",
+    "howToStepName3": "Check Day Information",
+    "howToStepName4": "See Week Range",
+    "howToStepName5": "Note Quarter",
+    "howToStep1": "Enter the date you want to find the week number for using the date picker",
+    "howToStep2": "The ISO week number is displayed immediately showing which week of the year it is",
+    "howToStep3": "Review the day of week and day of year (1-365/366) for the selected date",
+    "howToStep4": "See the full week date range showing Monday through Sunday of that week",
+    "howToStep5": "Check which quarter (Q1-Q4) the date falls in for financial or business planning"
+  }
+}

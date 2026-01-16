@@ -3,7 +3,7 @@
   "description": "Calculate your Total Daily Energy Expenditure (TDEE) to understand how many calories you burn per day. Get personalized calorie goals for weight loss, maintenance, or muscle gain.",
   "meta": {
     "title": "Free TDEE Calculator - Total Daily Energy Expenditure [2026]",
-    "description": "Calculate your TDEE and daily calorie needs with our free calculator. Uses Mifflin-St Jeor formula. Get BMR, maintenance calories, and macro breakdown for weight loss or gain.",
+    "description": "Calculate your TDEE with Mifflin-St Jeor formula. Get BMR, maintenance calories, and macros for weight loss or gain. Free calculator.",
     "keywords": "tdee calculator, total daily energy expenditure, calorie calculator, bmr calculator, basal metabolic rate, maintenance calories, weight loss calculator, calorie deficit, macro calculator"
   },
   "inputs": {

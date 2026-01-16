@@ -1,0 +1,103 @@
+{
+  "title": "Calcolatore di Date",
+  "description": "Calcola la differenza tra due date o aggiungi/sottrai tempo da una data. Ottieni risultati in anni, mesi, settimane e giorni con calcoli di giorni lavorativi.",
+  "meta": {
+    "title": "Calcolatore di Date - Aggiungi Giorni, Trova Differenza [2026]",
+    "description": "Calcola differenze tra date o aggiungi/sottrai giorni, settimane, mesi, anni a qualsiasi data. Trova giorni lavorativi e intervalli istantaneamente.",
+    "keywords": "calcolatore date, differenza tra date, aggiungere giorni a data, sottrarre giorni da data, giorni tra date, calcolatore intervallo date, calcolatore giorni lavorativi, calcolo date, calcolatore calendario"
+  },
+  "inputs": {
+    "startDate": "Data Inizio",
+    "endDate": "Data Fine",
+    "includeEndDate": "Includi data finale nel conteggio",
+    "operation": "Operazione",
+    "add": "Aggiungi",
+    "subtract": "Sottrai",
+    "years": "Anni",
+    "months": "Mesi",
+    "weeks": "Settimane",
+    "days": "Giorni"
+  },
+  "modes": {
+    "difference": "Trova Differenza Date",
+    "addSubtract": "Aggiungi/Sottrai Tempo"
+  },
+  "operations": {
+    "add": "Aggiungi Tempo",
+    "subtract": "Sottrai Tempo"
+  },
+  "actions": {
+    "calculate": "Calcola",
+    "reset": "Reimposta",
+    "swap": "Inverti Date"
+  },
+  "results": {
+    "title": "Risultato",
+    "difference": "Differenza",
+    "resultDate": "Data Risultante",
+    "totalDays": "Giorni Totali",
+    "totalWeeks": "Settimane Totali",
+    "totalMonths": "Mesi Totali",
+    "breakdown": "Dettaglio Temporale",
+    "includesLeapDay": "Include giorno bisestile"
+  },
+  "validation": {
+    "startDateRequired": "Seleziona una data di inizio",
+    "startDateInvalid": "Inserisci una data di inizio valida",
+    "endDateRequired": "Seleziona una data di fine",
+    "endDateInvalid": "Inserisci una data di fine valida"
+  },
+  "disclaimer": {
+    "text": "Questo calcolatore fornisce calcoli accurati delle date basati sul calendario gregoriano. I calcoli dei giorni lavorativi escludono i weekend (sabato e domenica) ma non tengono conto delle festività.",
+    "note": "I giorni lavorativi sono calcolati da lunedì a venerdì. Per calcoli precisi dei giorni lavorativi incluse le festività regionali, consulta un sistema calendario che include le festività."
+  },
+  "seo": {
+    "whatIsTitle": "Cos'è un Calcolatore di Date?",
+    "whatIsContent": "Un calcolatore di date è uno strumento versatile che esegue aritmetica e confronti di date. Può calcolare la differenza esatta tra due date (in anni, mesi, settimane e giorni) o aggiungere/sottrarre periodi di tempo da una data specifica per trovare una data futura o passata. Questo calcolatore è prezioso per pianificazione progetti, scadenze contrattuali, verifica età, conto alla rovescia eventi, date previste gravidanza, date scadenza garanzie e innumerevoli altre applicazioni dove calcoli precisi di date contano.",
+    "howItWorksTitle": "Come Funziona il Calcolo delle Date?",
+    "howItWorksContent": "Il calcolatore utilizza il sistema del calendario gregoriano con algoritmi che tengono conto delle diverse lunghezze dei mesi (28-31 giorni) e degli anni bisestili (anni divisibili per 4, eccetto i secoli a meno che non siano divisibili per 400). Nel trovare la differenza tra date, calcola il tempo totale trascorso e lo suddivide in anni, mesi e giorni. Nell'aggiungere o sottrarre tempo, aggiunge/sottrae sequenzialmente anni, poi mesi (aggiustando per le date di fine mese), poi settimane e infine giorni. I calcoli dei giorni lavorativi escludono i weekend per impostazione predefinita.",
+    "featuresTitle": "Caratteristiche",
+    "feature1": "Trova l'intervallo di tempo esatto tra due date, mostrato in anni, mesi, giorni, settimane e giorni totali.",
+    "feature2": "Aggiungi o sottrai qualsiasi combinazione di anni, mesi, settimane e giorni per trovare date passate o future.",
+    "feature3": "Calcola il numero di giorni feriali (lunedì-venerdì) tra date, escludendo i weekend.",
+    "feature4": "Visualizza i risultati in vari formati: suddivisione anni/mesi/giorni o settimane, giorni, mesi o anni totali.",
+    "useCasesTitle": "Casi d'Uso",
+    "useCase1": "Calcola cronologie di progetti, date traguardo e monitoraggio scadenze per progetti aziendali.",
+    "useCase2": "Determina date scadenza contratti, termini di prescrizione e periodi di preavviso legale.",
+    "useCase3": "Calcola date previste gravidanza, conto alla rovescia anniversari, date pensionamento e pianificazione eventi vita.",
+    "useCase4": "Determina date scadenza prestiti, periodi detenzione investimenti, periodi maturazione interessi e scadenzari pagamenti.",
+    "tipsTitle": "Suggerimenti",
+    "tip1": "Aggiungendo mesi a date come il 31 gennaio, il calcolatore può aggiustare all'ultimo giorno del mese target (es. 28/29 febbraio) se il giorno non esiste.",
+    "tip2": "Il calcolatore tiene automaticamente conto degli anni bisestili. Il 29 febbraio esiste solo negli anni bisestili (divisibili per 4, eccetto i secoli a meno che divisibili per 400).",
+    "tip3": "I giorni lavorativi escludono i weekend (sabato-domenica). Per progetti internazionali, ricorda che le definizioni di giorni lavorativi possono variare per paese.",
+    "tip4": "Il calendario gregoriano fu adottato nell'ottobre 1582. I calcoli di date precedenti potrebbero non allinearsi con registri storici di regioni che usavano sistemi di calendario diversi.",
+    "howToTitle": "Come Usare il Calcolatore di Date",
+    "howToStepName1": "Seleziona Modalità Calcolo",
+    "howToStepName2": "Inserisci Date",
+    "howToStepName3": "Inserisci Valori Temporali (se aggiungi/sottrai)",
+    "howToStepName4": "Calcola Risultato",
+    "howToStepName5": "Rivedi Suddivisione Dettagliata",
+    "howToStep1": "Scegli 'Trova Differenza Date' per confrontare due date, o 'Aggiungi/Sottrai Tempo' per calcolare una nuova data da un punto di partenza",
+    "howToStep2": "Seleziona le date richieste usando il selettore date o inserisci manualmente - date inizio e fine per modalità differenza, o una singola data base per modalità aggiungi/sottrai",
+    "howToStep3": "Se aggiungi o sottrai tempo, inserisci il numero di anni, mesi, settimane e/o giorni da aggiungere o sottrarre dalla data base",
+    "howToStep4": "Clicca 'Calcola' per elaborare istantaneamente il calcolo della data e visualizzare il risultato",
+    "howToStep5": "Rivedi la suddivisione dettagliata mostrando il risultato in formati multipli: anni/mesi/giorni, giorni totali, giorni lavorativi e altro",
+    "faqTitle": "Domande Frequenti",
+    "faq1Question": "Quanto è preciso questo calcolatore di date?",
+    "faq1Answer": "Questo calcolatore è completamente accurato per tutte le date nel calendario gregoriano (1582 in poi). Gestisce correttamente anni bisestili, diverse lunghezze dei mesi, anni secolari e tutti i casi limite del calendario. Gli algoritmi utilizzati sono gli stessi di quelli nelle librerie di date professionali usate da banche, sistemi legali e applicazioni scientifiche.",
+    "faq2Question": "Perché i giorni lavorativi sono diversi dai giorni di calendario?",
+    "faq2Answer": "I giorni lavorativi tipicamente includono solo dal lunedì al venerdì, escludendo i weekend (sabato e domenica). Se un periodo copre 10 giorni di calendario ma include 2 weekend, sono solo 6 giorni lavorativi. Questo calcolatore conta i giorni lavorativi ma non esclude le festività pubbliche, che variano per regione e paese. Per calcoli che tengono conto delle festività, consulta un calendario festività per la tua località specifica.",
+    "faq3Question": "Cosa succede aggiungendo mesi a date di fine mese?",
+    "faq3Answer": "Quando aggiungi mesi a una data come il 31 gennaio, il mese target potrebbe non avere così tanti giorni (febbraio ha 28/29). Il calcolatore si aggiusta all'ultimo giorno valido del mese target. Ad esempio, 31 gennaio + 1 mese = 28 febbraio (o 29 in un anno bisestile). Questo è il comportamento standard usato dai sistemi finanziari e di calendario in tutto il mondo.",
+    "faq4Question": "Come influenzano gli anni bisestili i calcoli delle date?",
+    "faq4Answer": "Gli anni bisestili si verificano ogni 4 anni, eccetto per gli anni secolari (come 1900, 2100) a meno che non siano divisibili per 400 (come 2000). In un anno bisestile, febbraio ha 29 giorni invece di 28. Il calcolatore tiene automaticamente conto di questo quando calcola differenze di date o aggiunge/sottrae periodi di tempo, assicurando risultati accurati attraverso i confini degli anni bisestili.",
+    "faq5Question": "Posso calcolare date molto nel passato o futuro?",
+    "faq5Answer": "Sì, il calcolatore funziona per qualsiasi data dall'adozione del calendario gregoriano (ottobre 1582) fino al futuro prevedibile. Tuttavia, tieni presente che date future molto distanti potrebbero non tenere conto di potenziali riforme del calendario, e date storiche molto antiche potrebbero non corrispondere a registri di regioni che hanno adottato il calendario gregoriano in tempi diversi.",
+    "faq6Question": "Qual è la differenza tra giorni totali e la suddivisione anni/mesi/giorni?",
+    "faq6Answer": "I giorni totali sono il numero completo di giorni tra due date (es. 400 giorni). La suddivisione anni/mesi/giorni esprime lo stesso periodo in un formato più leggibile (es. 1 anno, 1 mese, 5 giorni). Entrambi rappresentano la stessa durata; la scelta dipende se hai bisogno di un totale singolo o di una suddivisione dettagliata.",
+    "faq7Question": "Perché il calcolo dei giorni lavorativi non esclude le festività?",
+    "faq7Answer": "Le festività pubbliche variano drasticamente per paese, regione e persino settore. Non esiste un calendario festività universale. Il nostro calcolatore esclude i weekend (sabato-domenica) come standard universale. Per calcoli che richiedono esclusioni specifiche delle festività, dovrai tenere conto manualmente delle festività rilevanti per la tua località e scopo, o usare software calendario aziendale specializzato.",
+    "faq8Question": "Come calcolo l'età esatta di qualcuno usando questo strumento?",
+    "faq8Answer": "Usa la modalità 'Trova Differenza Date' con la loro data di nascita come data di inizio e oggi (o una data specifica) come data di fine. Il calcolatore mostrerà la loro età esatta in anni, mesi e giorni. Per informazioni più dettagliate sull'età inclusi segni zodiacali e generazioni, usa il nostro Calcolatore di Età dedicato."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "title": "Calculadora de Días Laborables",
+  "description": "Calcula días laborables entre fechas o suma días laborables a una fecha. Excluye fines de semana y opcionalmente festivos para planificación precisa de cronogramas de proyectos.",
+  "meta": {
+    "title": "Calculadora Días Laborables - Días Hábiles Entre [2026]",
+    "description": "Calcula días laborables entre dos fechas. Suma/resta días laborables. Excluye fines de semana y festivos para planificación precisa de proyectos y plazos.",
+    "keywords": "calculadora días laborables, calculadora días hábiles, calculadora días trabajo, días laborables entre fechas, sumar días laborables, excluir fines semana, calculadora cronograma proyecto, calculadora fecha entrega, calculadora plazos"
+  },
+  "modes": {
+    "between": "Días Entre Fechas",
+    "add": "Sumar Días Laborables"
+  },
+  "inputs": {
+    "startDate": "Fecha de Inicio",
+    "endDate": "Fecha de Fin",
+    "daysToAdd": "Días a Sumar",
+    "excludeWeekends": "Excluir Fines de Semana",
+    "excludeHolidays": "Excluir Festivos"
+  },
+  "actions": {
+    "calculate": "Calcular",
+    "reset": "Restablecer",
+    "swap": "Intercambiar Fechas"
+  },
+  "results": {
+    "title": "Resultado",
+    "businessDays": "Días Laborables",
+    "calendarDays": "Total Días de Calendario",
+    "weekendDays": "Días de Fin de Semana",
+    "weekdays": "Días de Semana",
+    "holidaysExcluded": "Festivos Excluidos",
+    "resultDate": "Fecha Resultante",
+    "breakdown": "Desglose"
+  },
+  "validation": {
+    "startDateRequired": "Por favor selecciona una fecha de inicio",
+    "endDateRequired": "Por favor selecciona una fecha de fin",
+    "daysToAddRequired": "Por favor introduce el número de días",
+    "invalidNumber": "Por favor introduce un número de días válido",
+    "mustBePositive": "El número de días debe ser positivo"
+  },
+  "disclaimer": {
+    "text": "Esta calculadora excluye fines de semana (sábado y domingo) por defecto. Las exclusiones de festivos son opcionales y deben configurarse según tu calendario regional u organizacional específico.",
+    "note": "Los días laborables típicamente se refieren de lunes a viernes. Los festivos públicos varían por país y región. Para cálculos precisos con festivos, activa la exclusión de festivos y verifica contra tu calendario de festivos local."
+  },
+  "seo": {
+    "whatIsTitle": "¿Qué es una Calculadora de Días Laborables?",
+    "whatIsContent": "Una calculadora de días laborables determina el número de días de trabajo entre dos fechas, excluyendo fines de semana y opcionalmente festivos públicos. Es esencial para planificación de proyectos, plazos de contratos, estimaciones de entrega, acuerdos de nivel de servicio (SLA), períodos de aviso legal y cualquier situación donde solo cuentan los días laborables. La calculadora también puede sumar o restar días laborables de una fecha específica para encontrar fechas de plazo o trabajar hacia atrás desde una fecha objetivo.",
+    "howItWorksTitle": "¿Cómo Funciona el Cálculo de Días Laborables?",
+    "howItWorksContent": "La calculadora procesa cada día entre las fechas de inicio y fin, clasificándolos como días laborables (típicamente lunes-viernes) o días no laborables (fines de semana: sábado-domingo). Cuando la exclusión de fines de semana está habilitada, sábado y domingo no se cuentan. Si la exclusión de festivos está habilitada, los festivos especificados también se excluyen del conteo. Al sumar o restar días laborables, la calculadora omite fines de semana y festivos, aterrizando en el siguiente día laborable disponible.",
+    "featuresTitle": "Características",
+    "feature1": "Excluye automáticamente sábados y domingos de los cálculos, contando solo de lunes a viernes como días laborables.",
+    "feature2": "Opcionalmente excluye festivos públicos y festivos organizacionales de los conteos de días laborables para planificación precisa.",
+    "feature3": "Calcula fechas futuras o pasadas sumando o restando un número específico de días laborables de cualquier fecha de inicio.",
+    "feature4": "Ve el desglose completo mostrando días de calendario totales, días laborables, días de fin de semana y festivos excluidos.",
+    "useCasesTitle": "Casos de Uso",
+    "useCase1": "Calcula cronogramas de proyecto realistas, fechas de hitos y calendarios de entrega teniendo en cuenta días no laborables.",
+    "useCase2": "Rastrea y verifica cumplimiento de SLA para servicio al cliente, tickets de soporte y compromisos de tiempo de respuesta.",
+    "useCase3": "Calcula períodos de aviso, plazos de respuesta, plazos de prescripción y fechas de obligación contractual.",
+    "useCase4": "Estima fechas de entrega para promesas de envío '3-5 días laborables' y planificación logística.",
+    "tipsTitle": "Consejos",
+    "tip1": "Los días laborables estándar son lunes-viernes, pero algunas industrias operan en horarios diferentes. Ajusta las definiciones de fin de semana si tu negocio opera en días no tradicionales.",
+    "tip2": "Los festivos públicos varían dramáticamente por país y región. Los festivos federales de EE.UU. difieren de los festivos bancarios del Reino Unido y festivos públicos europeos. Configura en consecuencia.",
+    "tip3": "Al calcular entre fechas, verifica si la fecha de inicio y fin deben incluirse en el conteo. Esta calculadora incluye tanto la fecha de inicio como la de fin.",
+    "tip4": "Muchas empresas tienen festivos específicos de la organización más allá de festivos públicos (ej. cierre de empresa entre Navidad y Año Nuevo). Tenlos en cuenta en la planificación.",
+    "howToTitle": "Cómo Usar la Calculadora de Días Laborables",
+    "howToStepName1": "Selecciona el Modo de Cálculo",
+    "howToStepName2": "Introduce las Fechas",
+    "howToStepName3": "Configura las Exclusiones",
+    "howToStepName4": "Calcula el Resultado",
+    "howToStepName5": "Revisa el Desglose",
+    "howToStep1": "Elige si encontrar días laborables entre dos fechas o sumar/restar días laborables desde una fecha de inicio",
+    "howToStep2": "Selecciona las fechas requeridas - fechas de inicio y fin para modo diferencia, o fecha base y número de días para modo sumar/restar",
+    "howToStep3": "Activa 'Excluir Fines de Semana' para omitir sábado y domingo, y opcionalmente 'Excluir Festivos' para conciencia de festivos públicos",
+    "howToStep4": "Haz clic en 'Calcular' para procesar el cálculo de días laborables según tu configuración",
+    "howToStep5": "Ve el desglose detallado mostrando días laborables, días de calendario totales, fines de semana excluidos y festivos excluidos",
+    "faqTitle": "Preguntas Frecuentes",
+    "faq1Question": "¿Qué cuenta como un día laborable?",
+    "faq1Answer": "Un día laborable es típicamente de lunes a viernes, excluyendo fines de semana (sábado y domingo) y festivos públicos. Sin embargo, la definición puede variar por industria y región. Algunos negocios operan 6 o 7 días por semana. Para esta calculadora, los días laborables por defecto son lunes-viernes, con exclusiones de festivos opcionales que puedes personalizar.",
+    "faq2Question": "¿Cómo tengo en cuenta los festivos públicos?",
+    "faq2Answer": "Activa la opción 'Excluir Festivos' y la calculadora omitirá festivos públicos comunes al contar días laborables. Sin embargo, los festivos varían significativamente por país, estado e incluso industria. Para cálculos precisos, puede que necesites verificar manualmente el calendario de festivos para tu región específica y ajustar el conteo en consecuencia.",
+    "faq3Question": "Si sumo 5 días laborables al viernes, ¿qué fecha obtengo?",
+    "faq3Answer": "Empezando desde viernes y sumando 5 días laborables: lunes (1), martes (2), miércoles (3), jueves (4), viernes (5). Aterrizarías en el viernes de la semana siguiente. La calculadora omite automáticamente fines de semana al sumar días laborables, asegurando que el resultado sea siempre un día laborable.",
+    "faq4Question": "¿El cálculo incluye las fechas de inicio y fin?",
+    "faq4Answer": "Sí, al calcular días laborables entre dos fechas, tanto la fecha de inicio como la de fin se incluyen en el conteo (asumiendo que son días laborables). Por ejemplo, lunes a viernes de la misma semana equivale a 5 días laborables, incluyendo tanto lunes como viernes.",
+    "faq5Question": "¿Por qué importan los cálculos de días laborables para los plazos?",
+    "faq5Answer": "Muchos contratos, documentos legales y acuerdos de servicio especifican plazos en días laborables en lugar de días de calendario. Un plazo de 10 días laborables son en realidad 14 días de calendario si incluye dos fines de semana. Usar cálculos de días laborables asegura el cumplimiento de obligaciones contractuales y planificación realista.",
+    "faq6Question": "¿Cómo definen diferentes países los días laborables?",
+    "faq6Answer": "La mayoría de países usan lunes-viernes como días laborables estándar. Sin embargo, algunos países de Medio Oriente usan domingo-jueves (con viernes-sábado como fin de semana). Además, el número y momento de festivos públicos varían ampliamente - EE.UU. tiene 11 festivos federales, el Reino Unido tiene 8 festivos bancarios, y otros países difieren significativamente.",
+    "faq7Question": "¿Puedo usar esto para planificación de proyectos internacionales?",
+    "faq7Answer": "Sí, pero con precaución. Al trabajar a través de zonas horarias y países, ten en cuenta que festivos y definiciones de días laborables pueden diferir. Por ejemplo, un plazo de '5 días laborables' podría significar diferentes fechas de calendario dependiendo de dónde estén ubicadas las partes. Especifica zonas horarias y calendarios de festivos en acuerdos internacionales.",
+    "faq8Question": "¿Qué pasa si mi negocio opera en fines de semana?",
+    "faq8Answer": "Muchos negocios (minorista, hospitalidad, salud) operan 7 días por semana. En estos casos, podrías definir días laborables de manera diferente. Puedes usar esta calculadora con 'Excluir Fines de Semana' desactivado para contar todos los días de calendario, o ajustar manualmente según tu horario operativo específico. Algunos negocios operan martes-sábado, excluyendo domingo-lunes."
+  }
+}

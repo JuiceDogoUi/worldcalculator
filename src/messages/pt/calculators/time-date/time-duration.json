@@ -1,0 +1,86 @@
+{
+  "title": "Calculadora de Duração de Tempo",
+  "description": "Calcule a duração de tempo entre dois horários ou adicione/subtraia horas e minutos. Perfeito para horas de trabalho, controlo de tempo e cálculos de folha de pagamento.",
+  "meta": {
+    "title": "Calculadora de Duração de Tempo - Horas e Minutos [2026]",
+    "description": "Calcule duração de tempo entre horários inicial e final. Obtenha resultados em horas, minutos, horas decimais para folha de pagamento. Turnos noturnos.",
+    "keywords": "calculadora de duração de tempo, calculadora de horas, calculadora de diferença de tempo, calculadora de horas de trabalho, calculadora de folha de ponto, calculadora de horas de folha de pagamento, calculadora de tempo, calculadora de horas e minutos, calculadora de turno noturno"
+  },
+  "inputs": {
+    "startTime": "Hora Inicial",
+    "endTime": "Hora Final",
+    "crossesMidnight": "Cruza Meia-Noite (Noturno)"
+  },
+  "actions": {
+    "calculate": "Calcular Duração",
+    "reset": "Limpar"
+  },
+  "results": {
+    "title": "Duração de Tempo",
+    "duration": "Duração",
+    "hours": "horas",
+    "minutes": "minutos",
+    "totalMinutes": "Total de Minutos",
+    "totalSeconds": "Total de Segundos",
+    "decimalHours": "Horas Decimais"
+  },
+  "validation": {
+    "startTimeRequired": "Por favor insira uma hora inicial",
+    "startTimeInvalid": "Por favor insira uma hora inicial válida",
+    "endTimeRequired": "Por favor insira uma hora final",
+    "endTimeInvalid": "Por favor insira uma hora final válida"
+  },
+  "disclaimer": {
+    "text": "Esta calculadora fornece cálculos de duração de tempo precisos. As horas decimais são arredondadas a 2 casas decimais para fins de folha de pagamento.",
+    "note": "Ao calcular horas de trabalho, lembre-se de ter em conta pausas e períodos de refeição não pagos de acordo com as leis laborais locais."
+  },
+  "seo": {
+    "whatIsTitle": "O Que é uma Calculadora de Duração de Tempo?",
+    "whatIsContent": "Uma calculadora de duração de tempo calcula o tempo decorrido entre uma hora inicial e uma hora final. É essencial para acompanhar horas de trabalho, calcular folhas de pagamento, monitorizar tempo de projeto, cronometrar eventos e gerir horários. A calculadora trata tanto intervalos de tempo do mesmo dia como turnos noturnos que cruzam a meia-noite. Os resultados são mostrados em formato padrão de horas e minutos, bem como em horas decimais que é o formato preferido para sistemas de folha de pagamento e faturação.",
+    "howItWorksTitle": "Como Funciona o Cálculo de Duração de Tempo?",
+    "howItWorksContent": "A calculadora converte tanto a hora inicial como a hora final em minutos totais desde a meia-noite, depois encontra a diferença. Para cálculos do mesmo dia, é simplesmente hora final menos hora inicial. Para turnos noturnos que cruzam a meia-noite, adiciona 24 horas (1440 minutos) para ter adequadamente em conta o dia seguinte. O resultado é então convertido de volta em horas e minutos. As horas decimais são calculadas dividindo o total de minutos por 60, fornecendo um formato adequado para sistemas de folha de pagamento (por exemplo, 7 horas 30 minutos = 7,50 horas decimais).",
+    "featuresTitle": "Características",
+    "feature1": "Visualize a duração de tempo tanto em formato horas:minutos (7:30) como em horas decimais (7,50) para diferentes casos de uso.",
+    "feature2": "Calcule facilmente a duração de turnos que cruzam a meia-noite ativando a opção 'Cruza Meia-Noite'.",
+    "feature3": "As horas decimais são formatadas especificamente para sistemas de folha de pagamento e faturação, arredondadas a 2 casas decimais.",
+    "feature4": "Os resultados atualizam instantaneamente à medida que insere ou altera horários, sem necessidade de clicar calcular para entradas básicas.",
+    "useCasesTitle": "Casos de Uso",
+    "useCase1": "Calcule horas de trabalho de funcionários para processamento de folha de pagamento, verificação de folha de ponto e cálculos de custo de mão-de-obra.",
+    "useCase2": "Acompanhe horas faturáveis para freelancers, consultores e contratados que trabalham em projetos de clientes.",
+    "useCase3": "Determine durações de turnos, verifique conformidade com leis laborais e planeie horários de funcionários para empresas.",
+    "useCase4": "Calcule duração de reuniões, eventos, aulas, tempo de viagem e planeamento de atividades.",
+    "tipsTitle": "Dicas",
+    "tip1": "Para turnos que abrangem a meia-noite (por exemplo, 23:00 às 7:00), ative a opção 'Cruza Meia-Noite' para calcular corretamente a duração.",
+    "tip2": "A maioria dos sistemas de folha de pagamento usa horas decimais. 7,5 horas (não 7,30) representa 7 horas e 30 minutos. Use o resultado de horas decimais para entrada em folha de pagamento.",
+    "tip3": "Esta calculadora mostra o tempo bruto trabalhado. Para horas líquidas, subtraia manualmente pausas não pagas (normalmente 30-60 minutos por turno).",
+    "tip4": "Use o formato de 24 horas (14:30) em vez do formato de 12 horas (2:30 PM) para evitar confusão AM/PM e garantir precisão.",
+    "howToTitle": "Como Usar a Calculadora de Duração de Tempo",
+    "howToStepName1": "Inserir Hora Inicial",
+    "howToStepName2": "Inserir Hora Final",
+    "howToStepName3": "Ativar Cruzamento de Meia-Noite (se necessário)",
+    "howToStepName4": "Calcular Duração",
+    "howToStepName5": "Ver Resultados em Múltiplos Formatos",
+    "howToStep1": "Insira a hora inicial usando o selecionador de hora ou digite manualmente no formato HH:MM (por exemplo, 09:00 ou 14:30)",
+    "howToStep2": "Insira a hora final no mesmo formato - pode ser qualquer hora do dia",
+    "howToStep3": "Se o seu período de tempo cruza a meia-noite (turno noturno), ative a opção 'Cruza Meia-Noite' para calcular corretamente",
+    "howToStep4": "Clique em 'Calcular Duração' para calcular o tempo decorrido entre o início e o fim",
+    "howToStep5": "Visualize a duração em horas e minutos (7h 30m), total de minutos (450) e horas decimais para folha de pagamento (7,50)",
+    "faqTitle": "Perguntas Frequentes",
+    "faq1Question": "Como calculo horas de turno noturno?",
+    "faq1Answer": "Para turnos que cruzam a meia-noite (por exemplo, 23:00 às 7:00), ative a opção 'Cruza Meia-Noite'. Isto informa a calculadora que a hora final é no dia seguinte. Sem esta definição, um turno das 23:00 às 7:00 apareceria negativo ou incorreto. Com ela ativada, a calculadora mostra corretamente 8 horas.",
+    "faq2Question": "Qual é a diferença entre horas padrão e horas decimais?",
+    "faq2Answer": "Horas padrão usam o formato 'horas:minutos' (por exemplo, 7:30 significa 7 horas e 30 minutos). Horas decimais expressam a mesma duração como um número decimal (por exemplo, 7,50). Note que 7,30 horas decimais NÃO é o mesmo que 7:30 - é na verdade 7 horas e 18 minutos. Use sempre o resultado de horas decimais para sistemas de folha de pagamento para evitar este erro comum.",
+    "faq3Question": "Como tenho em conta pausas para almoço?",
+    "faq3Answer": "Esta calculadora mostra o tempo total entre horas inicial e final. Para ter em conta pausas não pagas, subtraia a duração da pausa do total. Por exemplo, se trabalhou das 9:00 às 17:00 (8 horas) com uma pausa para almoço de 30 minutos não paga, o seu tempo de trabalho real é 7,50 horas decimais. Alguns empregadores deduzem pausas automaticamente; verifique a política da sua empresa.",
+    "faq4Question": "Porque é que as horas decimais são importantes para folha de pagamento?",
+    "faq4Answer": "Sistemas de folha de pagamento e faturação requerem horas decimais para cálculos precisos. Se trabalhou 7 horas e 30 minutos, inserir '7,30' em folha de pagamento apenas creditaria 7 horas e 18 minutos (7,30 horas). A entrada correta é 7,50 horas. Esta calculadora converte automaticamente para prevenir este erro comum e dispendioso.",
+    "faq5Question": "Posso calcular tempo através de múltiplos dias?",
+    "faq5Answer": "Esta calculadora é desenhada para durações de tempo dentro de um período de 24 horas (mesmo dia ou cruzando uma meia-noite). Para durações abrangendo múltiplos dias, precisaria calcular as horas de cada dia separadamente ou usar uma calculadora de data-hora que possa lidar com períodos de múltiplos dias. A maioria dos sistemas de controlo de tempo acompanha horas por dia em vez de períodos contínuos de múltiplos dias.",
+    "faq6Question": "Como converto horas decimais de volta para horas e minutos?",
+    "faq6Answer": "Para converter horas decimais para horas e minutos: O número inteiro são as horas. Multiplique a parte decimal por 60 para obter minutos. Por exemplo, 7,75 horas = 7 horas + (0,75 × 60) minutos = 7 horas 45 minutos. Conversões comuns: 0,25 = 15 min, 0,50 = 30 min, 0,75 = 45 min.",
+    "faq7Question": "E se a minha hora inicial e final forem iguais?",
+    "faq7Answer": "Se as horas inicial e final forem idênticas, a duração é 0 horas a menos que ative 'Cruza Meia-Noite', o que indicaria um período completo de 24 horas. Horas inicial e final iguais com cruzamento de meia-noite normalmente indica um caso especial - verifique que isto é intencional para o seu caso de uso.",
+    "faq8Question": "Quão precisos são os cálculos de horas decimais?",
+    "faq8Answer": "A calculadora é completamente precisa. As horas decimais são arredondadas a 2 casas decimais, o que representa precisão até aos 0,6 minutos mais próximos (36 segundos). Esta é a precisão padrão usada por sistemas de folha de pagamento e é mais que suficiente para fins de controlo de tempo. Para aplicações que requerem precisão ao nível do segundo, acompanhe os segundos reais separadamente."
+  }
+}

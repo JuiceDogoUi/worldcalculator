@@ -3,7 +3,7 @@
   "description": "Berechnen Sie Ihren gesamten täglichen Energieverbrauch (TDEE), um zu verstehen, wie viele Kalorien Sie pro Tag verbrennen. Erhalten Sie personalisierte Kalorienziele für Gewichtsabnahme, Erhaltung oder Muskelaufbau.",
   "meta": {
     "title": "Kostenloser TDEE-Rechner - Gesamter Täglicher Energieverbrauch [2026]",
-    "description": "Berechnen Sie Ihren TDEE und täglichen Kalorienbedarf mit unserem kostenlosen Rechner. Nutzt die Mifflin-St Jeor Formel. Erhalten Sie BMR, Erhaltungskalorien und Makronährstoffverteilung für Gewichtsverlust oder -zunahme.",
+    "description": "Berechnen Sie Ihren TDEE mit der Mifflin-St Jeor Formel. Erhalten Sie BMR, Erhaltungskalorien und Makros für Gewichtsverlust oder -zunahme.",
     "keywords": "tdee rechner, gesamter täglicher energieverbrauch, kalorienrechner, bmr rechner, grundumsatz, erhaltungskalorien, gewichtsverlust rechner, kaloriendefizit, makronährstoff rechner"
   },
   "inputs": {

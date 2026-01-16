@@ -1,0 +1,89 @@
+{
+  "title": "Business Days Calculator",
+  "description": "Calculate business days between dates or add business days to a date. Exclude weekends and optionally holidays for accurate project timeline planning.",
+  "meta": {
+    "title": "Business Days Calculator - Working Days Between [2026]",
+    "description": "Calculate business days between two dates. Add/subtract business days. Exclude weekends and holidays for accurate project planning and deadlines.",
+    "keywords": "business days calculator, working days calculator, workdays calculator, business days between dates, add business days, exclude weekends, project timeline calculator, delivery date calculator, deadline calculator"
+  },
+  "modes": {
+    "between": "Days Between Dates",
+    "add": "Add Business Days"
+  },
+  "inputs": {
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "daysToAdd": "Days to Add",
+    "excludeWeekends": "Exclude Weekends",
+    "excludeHolidays": "Exclude Holidays"
+  },
+  "actions": {
+    "reset": "Reset"
+  },
+  "results": {
+    "title": "Result",
+    "businessDays": "Business Days",
+    "calendarDays": "Calendar Days",
+    "weekendDays": "Weekend Days",
+    "holidaysExcluded": "Holidays Excluded",
+    "resultDate": "Result Date"
+  },
+  "validation": {
+    "startDateRequired": "Please select a start date",
+    "endDateRequired": "Please select an end date",
+    "daysToAddRequired": "Please enter the number of days"
+  },
+  "disclaimer": {
+    "text": "This calculator excludes weekends (Saturday and Sunday) by default. Holiday exclusions are optional and should be configured based on your specific regional or organizational calendar.",
+    "note": "Business days typically refer to Monday through Friday. Public holidays vary by country and region. For accurate holiday-aware calculations, enable holiday exclusion and verify against your local holiday calendar."
+  },
+  "seo": {
+    "whatIsTitle": "What is a Business Days Calculator?",
+    "whatIsContent": "A business days calculator determines the number of working days between two dates, excluding weekends and optionally public holidays. It's essential for project planning, contract deadlines, delivery estimates, service level agreements (SLAs), legal notice periods, and any situation where only business days count.",
+    "howItWorksTitle": "How Does Business Day Calculation Work?",
+    "howItWorksContent": "The calculator processes each day between the start and end dates, classifying them as business days (typically Monday-Friday) or non-business days (weekends). When adding business days, the calculator skips weekends and holidays, landing on the next available business day.",
+    "featuresTitle": "Features",
+    "feature1": "Automatically exclude weekends (Saturday and Sunday) from calculations",
+    "feature2": "Optionally exclude public holidays for accurate business planning",
+    "feature3": "Add business days to find future deadline dates",
+    "feature4": "View breakdown of calendar days, business days, and weekend days",
+    "useCasesTitle": "Use Cases",
+    "useCase1": "Calculate project timelines and delivery schedules accounting for non-working days",
+    "useCase2": "Track SLA compliance for customer service and response time commitments",
+    "useCase3": "Calculate legal notice periods, contract deadlines, and response dates",
+    "useCase4": "Estimate delivery dates for '3-5 business days' shipping promises",
+    "tipsTitle": "Tips",
+    "tip1": "Standard business days are Monday-Friday, but some industries differ",
+    "tip2": "Public holidays vary by country - US has 11, UK has 8 bank holidays",
+    "tip3": "This calculator includes both start and end dates in the count",
+    "tip4": "Account for company-specific holidays like Christmas closure periods",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Question": "What counts as a business day?",
+    "faq1Answer": "A business day is typically Monday through Friday, excluding weekends and public holidays. The definition can vary by industry and region. For this calculator, business days default to Monday-Friday, with optional holiday exclusions.",
+    "faq2Question": "How do I account for public holidays?",
+    "faq2Answer": "Enable the 'Exclude Holidays' option and the calculator will skip common public holidays. Holidays vary by country and region, so verify against your local calendar for precise calculations.",
+    "faq3Question": "If I add 5 business days to Friday, what date do I get?",
+    "faq3Answer": "Starting from Friday and adding 5 business days: Monday (1), Tuesday (2), Wednesday (3), Thursday (4), Friday (5). You would land on the Friday of the following week, automatically skipping the weekend.",
+    "faq4Question": "Does the calculation include the start and end dates?",
+    "faq4Answer": "Yes, when calculating business days between two dates, both the start and end dates are included in the count. Monday to Friday of the same week equals 5 business days.",
+    "faq5Question": "Why do business day calculations matter for deadlines?",
+    "faq5Answer": "Many contracts and service agreements specify deadlines in business days. A 10-business-day deadline is actually 14 calendar days if it includes two weekends. This ensures realistic planning.",
+    "faq6Question": "How do different countries define business days?",
+    "faq6Answer": "Most countries use Monday-Friday. Some Middle Eastern countries use Sunday-Thursday. The number of public holidays varies widely between countries.",
+    "faq7Question": "Can I use this for international project planning?",
+    "faq7Answer": "Yes, but be aware that holidays and business day definitions may differ across countries. A '5 business days' deadline might mean different calendar dates depending on location.",
+    "faq8Question": "What if my business operates on weekends?",
+    "faq8Answer": "Some businesses operate 7 days per week. Disable 'Exclude Weekends' to count all calendar days, or manually adjust based on your specific schedule.",
+    "howToTitle": "How to Calculate Business Days",
+    "howToStepName1": "Select Mode",
+    "howToStepName2": "Enter Dates",
+    "howToStepName3": "Configure Options",
+    "howToStepName4": "Calculate",
+    "howToStepName5": "View Results",
+    "howToStep1": "Choose between calculating days between dates or adding business days",
+    "howToStep2": "Enter start and end dates, or start date and number of days to add",
+    "howToStep3": "Enable weekend and/or holiday exclusion as needed",
+    "howToStep4": "The calculation is performed automatically",
+    "howToStep5": "View the business days count and breakdown of calendar days"
+  }
+}

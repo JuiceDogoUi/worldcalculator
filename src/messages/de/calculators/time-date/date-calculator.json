@@ -1,0 +1,103 @@
+{
+  "title": "Datumsrechner",
+  "description": "Berechnen Sie die Differenz zwischen zwei Daten oder addieren/subtrahieren Sie Zeit von einem Datum. Erhalten Sie Ergebnisse in Jahren, Monaten, Wochen und Tagen mit Arbeitstagesberechnungen.",
+  "meta": {
+    "title": "Datumsrechner - Tage addieren, Datumsdifferenz finden [2026]",
+    "description": "Berechnen Sie Datumsdifferenzen oder addieren/subtrahieren Sie Tage, Wochen, Monate, Jahre zu jedem Datum. Arbeitstage, Wochentage und Zeiträume sofort ermitteln.",
+    "keywords": "Datumsrechner, Datumsdifferenz Rechner, Tage zu Datum addieren, Tage von Datum subtrahieren, Tage zwischen Daten, Zeitraum Rechner, Arbeitstage Rechner, Datumsmathematik Rechner, Kalender Rechner"
+  },
+  "inputs": {
+    "startDate": "Startdatum",
+    "endDate": "Enddatum",
+    "includeEndDate": "Enddatum in Zählung einbeziehen",
+    "operation": "Operation",
+    "add": "Addieren",
+    "subtract": "Subtrahieren",
+    "years": "Jahre",
+    "months": "Monate",
+    "weeks": "Wochen",
+    "days": "Tage"
+  },
+  "modes": {
+    "difference": "Datumsdifferenz finden",
+    "addSubtract": "Zeit addieren/subtrahieren"
+  },
+  "operations": {
+    "add": "Zeit addieren",
+    "subtract": "Zeit subtrahieren"
+  },
+  "actions": {
+    "calculate": "Berechnen",
+    "reset": "Zurücksetzen",
+    "swap": "Daten tauschen"
+  },
+  "results": {
+    "title": "Ergebnis",
+    "difference": "Differenz",
+    "resultDate": "Ergebnisdatum",
+    "totalDays": "Gesamt Tage",
+    "totalWeeks": "Gesamt Wochen",
+    "totalMonths": "Gesamt Monate",
+    "breakdown": "Zeitaufschlüsselung",
+    "includesLeapDay": "Enthält Schalttag"
+  },
+  "validation": {
+    "startDateRequired": "Bitte wählen Sie ein Startdatum",
+    "startDateInvalid": "Bitte geben Sie ein gültiges Startdatum ein",
+    "endDateRequired": "Bitte wählen Sie ein Enddatum",
+    "endDateInvalid": "Bitte geben Sie ein gültiges Enddatum ein"
+  },
+  "disclaimer": {
+    "text": "Dieser Rechner liefert präzise Datumsberechnungen basierend auf dem gregorianischen Kalender. Arbeitstagesberechnungen schließen Wochenenden (Samstag und Sonntag) aus, berücksichtigen jedoch keine Feiertage.",
+    "note": "Arbeitstage werden als Montag bis Freitag gezählt. Für präzise Arbeitstagesberechnungen einschließlich regionaler Feiertage konsultieren Sie ein feiertagsbewusstes Kalendersystem."
+  },
+  "seo": {
+    "whatIsTitle": "Was ist ein Datumsrechner?",
+    "whatIsContent": "Ein Datumsrechner ist ein vielseitiges Tool, das Datumsarithmetik und Vergleiche durchführt. Er kann die genaue Differenz zwischen zwei Daten berechnen (in Jahren, Monaten, Wochen und Tagen) oder Zeiträume zu einem bestimmten Datum addieren/subtrahieren, um ein zukünftiges oder vergangenes Datum zu finden. Dieser Rechner ist unverzichtbar für Projektplanung, Vertragsfristen, Altersverifizierung, Ereignis-Countdowns, Schwangerschaftstermine, Garantieablaufdaten und unzählige andere Anwendungen, bei denen präzise Datumsberechnungen wichtig sind.",
+    "howItWorksTitle": "Wie funktioniert die Datumsberechnung?",
+    "howItWorksContent": "Der Rechner verwendet das gregorianische Kalendersystem mit Algorithmen, die unterschiedliche Monatslängen (28-31 Tage) und Schaltjahre (Jahre durch 4 teilbar, außer Jahrhunderte, es sei denn, sie sind durch 400 teilbar) berücksichtigen. Bei der Suche nach der Differenz zwischen Daten berechnet er die gesamte verstrichene Zeit und unterteilt sie in Jahre, Monate und Tage. Beim Addieren oder Subtrahieren von Zeit fügt er sequenziell Jahre hinzu/subtrahiert sie, dann Monate (unter Anpassung für Monatsend-Daten), dann Wochen und schließlich Tage. Arbeitstagesberechnungen schließen standardmäßig Wochenenden aus.",
+    "featuresTitle": "Features",
+    "feature1": "Finden Sie die genaue Zeitspanne zwischen zwei Daten, dargestellt in Jahren, Monaten, Tagen, Wochen und Gesamttagen.",
+    "feature2": "Addieren oder subtrahieren Sie jede Kombination von Jahren, Monaten, Wochen und Tagen, um vergangene oder zukünftige Daten zu finden.",
+    "feature3": "Berechnen Sie die Anzahl der Wochentage (Montag-Freitag) zwischen Daten unter Ausschluss von Wochenenden.",
+    "feature4": "Sehen Sie Ergebnisse in verschiedenen Formaten: Jahre/Monate/Tage-Aufschlüsselung oder gesamt Wochen, Tage, Monate oder Jahre.",
+    "useCasesTitle": "Anwendungsfälle",
+    "useCase1": "Berechnen Sie Projektzeitleisten, Meilensteindaten und Fristenverfolgung für Geschäftsprojekte.",
+    "useCase2": "Bestimmen Sie Vertragsablaufdaten, Verjährungsfristen und gesetzliche Kündigungsfristen.",
+    "useCase3": "Berechnen Sie Schwangerschaftstermine, Jubiläums-Countdowns, Rententermine und Lebensereignisplanung.",
+    "useCase4": "Bestimmen Sie Kreditfälligkeitsdaten, Investitionshaltedauern, Zinsaufzinsperioden und Zahlungspläne.",
+    "tipsTitle": "Tipps",
+    "tip1": "Beim Addieren von Monaten zu Daten wie dem 31. Januar kann der Rechner auf den letzten Tag des Zielmonats anpassen (z.B. 28./29. Februar), wenn der Tag nicht existiert.",
+    "tip2": "Der Rechner berücksichtigt automatisch Schaltjahre. Der 29. Februar existiert nur in Schaltjahren (durch 4 teilbar, außer Jahrhunderte, es sei denn, sie sind durch 400 teilbar).",
+    "tip3": "Arbeitstage schließen Wochenenden (Samstag-Sonntag) aus. Für internationale Projekte beachten Sie, dass Arbeitstags-Definitionen je nach Land variieren können.",
+    "tip4": "Der gregorianische Kalender wurde im Oktober 1582 eingeführt. Datumsberechnungen davor stimmen möglicherweise nicht mit historischen Aufzeichnungen aus Regionen überein, die andere Kalendersysteme verwenden.",
+    "howToTitle": "So verwenden Sie den Datumsrechner",
+    "howToStepName1": "Berechnungsmodus wählen",
+    "howToStepName2": "Datum/Daten eingeben",
+    "howToStepName3": "Zeitwerte eingeben (falls addieren/subtrahieren)",
+    "howToStepName4": "Ergebnis berechnen",
+    "howToStepName5": "Detaillierte Aufschlüsselung überprüfen",
+    "howToStep1": "Wählen Sie 'Datumsdifferenz finden', um zwei Daten zu vergleichen, oder 'Zeit addieren/subtrahieren', um ein neues Datum von einem Startpunkt zu berechnen",
+    "howToStep2": "Wählen Sie die erforderlichen Daten mit dem Datumsauswahl-Tool oder geben Sie sie manuell ein - Start- und Enddatum für Differenzmodus oder ein einzelnes Basisdatum für Addieren/Subtrahieren-Modus",
+    "howToStep3": "Wenn Sie Zeit addieren oder subtrahieren, geben Sie die Anzahl der Jahre, Monate, Wochen und/oder Tage ein, die vom Basisdatum addiert oder subtrahiert werden sollen",
+    "howToStep4": "Klicken Sie auf 'Berechnen', um die Datumsberechnung sofort zu verarbeiten und das Ergebnis anzuzeigen",
+    "howToStep5": "Überprüfen Sie die detaillierte Aufschlüsselung, die das Ergebnis in mehreren Formaten zeigt: Jahre/Monate/Tage, Gesamttage, Arbeitstage und mehr",
+    "faqTitle": "Häufig gestellte Fragen",
+    "faq1Question": "Wie genau ist dieser Datumsrechner?",
+    "faq1Answer": "Dieser Rechner ist für alle Daten im gregorianischen Kalender (ab 1582) vollständig genau. Er behandelt Schaltjahre, unterschiedliche Monatslängen, Jahrhundertjahre und alle Kalenderausnahmefälle korrekt. Die verwendeten Algorithmen sind dieselben wie in professionellen Datumsbibliotheken, die von Banken, Rechtssystemen und wissenschaftlichen Anwendungen verwendet werden.",
+    "faq2Question": "Warum unterscheiden sich Arbeitstage von Kalendertagen?",
+    "faq2Answer": "Arbeitstage umfassen typischerweise nur Montag bis Freitag, unter Ausschluss von Wochenenden (Samstag und Sonntag). Wenn ein Zeitraum 10 Kalendertage umfasst, aber 2 Wochenenden enthält, sind das nur 6 Arbeitstage. Dieser Rechner zählt Arbeitstage, schließt jedoch keine gesetzlichen Feiertage aus, die je nach Region und Land variieren. Für feiertagsbewusste Berechnungen konsultieren Sie einen Feiertagskalender für Ihren spezifischen Standort.",
+    "faq3Question": "Was passiert beim Addieren von Monaten zu Monatsend-Daten?",
+    "faq3Answer": "Wenn Sie Monate zu einem Datum wie dem 31. Januar addieren, hat der Zielmonat möglicherweise nicht so viele Tage (Februar hat 28/29). Der Rechner passt auf den letzten gültigen Tag des Zielmonats an. Zum Beispiel: 31. Januar + 1 Monat = 28. Februar (oder 29. in einem Schaltjahr). Dies ist das Standardverhalten, das von Finanz- und Kalendersystemen weltweit verwendet wird.",
+    "faq4Question": "Wie beeinflussen Schaltjahre Datumsberechnungen?",
+    "faq4Answer": "Schaltjahre treten alle 4 Jahre auf, außer bei Jahrhundertjahren (wie 1900, 2100), es sei denn, sie sind durch 400 teilbar (wie 2000). In einem Schaltjahr hat der Februar 29 statt 28 Tage. Der Rechner berücksichtigt dies automatisch beim Berechnen von Datumsdifferenzen oder Addieren/Subtrahieren von Zeiträumen und gewährleistet genaue Ergebnisse über Schaltjahrgrenzen hinweg.",
+    "faq5Question": "Kann ich Daten weit in der Vergangenheit oder Zukunft berechnen?",
+    "faq5Answer": "Ja, der Rechner funktioniert für jedes Datum von der Einführung des gregorianischen Kalenders (Oktober 1582) bis in die absehbare Zukunft. Beachten Sie jedoch, dass sehr ferne zukünftige Daten möglicherweise keine potenziellen Kalenderreformen berücksichtigen, und sehr alte historische Daten möglicherweise nicht mit Aufzeichnungen aus Regionen übereinstimmen, die den gregorianischen Kalender zu unterschiedlichen Zeiten eingeführt haben.",
+    "faq6Question": "Was ist der Unterschied zwischen Gesamttagen und der Jahre/Monate/Tage-Aufschlüsselung?",
+    "faq6Answer": "Gesamttage ist die vollständige Anzahl der Tage zwischen zwei Daten (z.B. 400 Tage). Die Jahre/Monate/Tage-Aufschlüsselung drückt denselben Zeitraum in einem lesbareren Format aus (z.B. 1 Jahr, 1 Monat, 5 Tage). Beide stellen dieselbe Dauer dar; die Wahl hängt davon ab, ob Sie eine Gesamtsumme oder eine detaillierte Aufschlüsselung benötigen.",
+    "faq7Question": "Warum schließt die Arbeitstagesberechnung keine Feiertage aus?",
+    "faq7Answer": "Gesetzliche Feiertage variieren dramatisch nach Land, Region und sogar Branche. Es gibt keinen universellen Feiertagskalender. Unser Rechner schließt Wochenenden (Samstag-Sonntag) als universellen Standard aus. Für Berechnungen, die spezifische Feiertagsausschlüsse erfordern, müssen Sie Feiertage, die für Ihren Standort und Zweck relevant sind, manuell berücksichtigen oder spezialisierte Geschäftskalender-Software verwenden.",
+    "faq8Question": "Wie berechne ich das genaue Alter einer Person mit diesem Tool?",
+    "faq8Answer": "Verwenden Sie den Modus 'Datumsdifferenz finden' mit ihrem Geburtsdatum als Startdatum und heute (oder einem bestimmten Datum) als Enddatum. Der Rechner zeigt ihr genaues Alter in Jahren, Monaten und Tagen an. Für detailliertere Altersinformationen einschließlich Sternzeichen und Generationen verwenden Sie unseren speziellen Altersrechner."
+  }
+}

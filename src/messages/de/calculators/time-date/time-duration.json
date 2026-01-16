@@ -1,0 +1,86 @@
+{
+  "title": "Zeitdauer-Rechner",
+  "description": "Berechnen Sie die Zeitdauer zwischen zwei Zeiten oder addieren/subtrahieren Sie Stunden und Minuten. Perfekt für Arbeitsstunden, Zeiterfassung und Lohnberechnungen.",
+  "meta": {
+    "title": "Zeitdauer-Rechner - Stunden & Minuten berechnen [2026]",
+    "description": "Berechnen Sie die Zeitdauer zwischen Start- und Endzeit. Ergebnisse in Stunden, Minuten, Dezimalstunden für Lohn. Nachtschichten einfach behandeln.",
+    "keywords": "Zeitdauer Rechner, Stunden Rechner, Zeitdifferenz Rechner, Arbeitsstunden Rechner, Stundenzettel Rechner, Lohnstunden Rechner, Zeit Rechner, Stunden und Minuten Rechner, Nachtschicht Rechner"
+  },
+  "inputs": {
+    "startTime": "Startzeit",
+    "endTime": "Endzeit",
+    "crossesMidnight": "Überschreitet Mitternacht (Nachtschicht)"
+  },
+  "actions": {
+    "calculate": "Dauer berechnen",
+    "reset": "Zurücksetzen"
+  },
+  "results": {
+    "title": "Zeitdauer",
+    "duration": "Dauer",
+    "hours": "Stunden",
+    "minutes": "Minuten",
+    "totalMinutes": "Gesamt Minuten",
+    "totalSeconds": "Gesamt Sekunden",
+    "decimalHours": "Dezimalstunden"
+  },
+  "validation": {
+    "startTimeRequired": "Bitte geben Sie eine Startzeit ein",
+    "startTimeInvalid": "Bitte geben Sie eine gültige Startzeit ein",
+    "endTimeRequired": "Bitte geben Sie eine Endzeit ein",
+    "endTimeInvalid": "Bitte geben Sie eine gültige Endzeit ein"
+  },
+  "disclaimer": {
+    "text": "Dieser Rechner liefert präzise Zeitdauerberechnungen. Dezimalstunden werden auf 2 Dezimalstellen für Lohnzwecke gerundet.",
+    "note": "Bei der Berechnung von Arbeitsstunden denken Sie daran, unbezahlte Pausen und Essenszeiten gemäß Ihrer örtlichen Arbeitsgesetze zu berücksichtigen."
+  },
+  "seo": {
+    "whatIsTitle": "Was ist ein Zeitdauer-Rechner?",
+    "whatIsContent": "Ein Zeitdauer-Rechner berechnet die verstrichene Zeit zwischen einer Startzeit und einer Endzeit. Er ist unverzichtbar für die Verfolgung von Arbeitsstunden, Lohnberechnung, Projekt-Zeitüberwachung, Event-Timing und Terminverwaltung. Der Rechner behandelt sowohl Zeitspannen am selben Tag als auch Nachtschichten, die Mitternacht überschreiten. Ergebnisse werden sowohl im Standard-Stunden-und-Minuten-Format als auch in Dezimalstunden angezeigt, was das bevorzugte Format für Lohnsysteme und Abrechnungszwecke ist.",
+    "howItWorksTitle": "Wie funktioniert die Zeitdauerberechnung?",
+    "howItWorksContent": "Der Rechner konvertiert sowohl Start- als auch Endzeit in Gesamtminuten seit Mitternacht und findet dann die Differenz. Für Berechnungen am selben Tag ist es einfach Endzeit minus Startzeit. Für Nachtschichten, die Mitternacht überschreiten, addiert er 24 Stunden (1440 Minuten), um den nächsten Tag korrekt zu berücksichtigen. Das Ergebnis wird dann zurück in Stunden und Minuten konvertiert. Dezimalstunden werden berechnet, indem die Gesamtminuten durch 60 geteilt werden, was ein für Lohnsysteme geeignetes Format liefert (z.B. 7 Stunden 30 Minuten = 7,50 Dezimalstunden).",
+    "featuresTitle": "Features",
+    "feature1": "Sehen Sie die Zeitdauer sowohl im Stunden:Minuten-Format (7:30) als auch in Dezimalstunden (7,50) für verschiedene Anwendungsfälle.",
+    "feature2": "Berechnen Sie einfach die Dauer für Schichten, die Mitternacht überschreiten, indem Sie die Option 'Überschreitet Mitternacht' aktivieren.",
+    "feature3": "Dezimalstunden sind speziell für Lohn- und Abrechnungssysteme formatiert, auf 2 Dezimalstellen gerundet.",
+    "feature4": "Ergebnisse werden sofort aktualisiert, wenn Sie Zeiten eingeben oder ändern, kein Klicken auf Berechnen für einfache Eingaben erforderlich.",
+    "useCasesTitle": "Anwendungsfälle",
+    "useCase1": "Berechnen Sie Mitarbeiter-Arbeitsstunden für Lohnabrechnung, Stundenzettel-Verifizierung und Arbeitskostenberechnungen.",
+    "useCase2": "Verfolgen Sie abrechenbare Stunden für Freiberufler, Berater und Auftragnehmer, die an Kundenprojekten arbeiten.",
+    "useCase3": "Bestimmen Sie Schichtlängen, überprüfen Sie Arbeitsgesetz-Konformität und planen Sie Mitarbeiterpläne für Unternehmen.",
+    "useCase4": "Berechnen Sie die Dauer für Meetings, Events, Unterricht, Reisezeit und Aktivitätenplanung.",
+    "tipsTitle": "Tipps",
+    "tip1": "Für Schichten, die Mitternacht überschreiten (z.B. 23:00 Uhr bis 7:00 Uhr), aktivieren Sie den Schalter 'Überschreitet Mitternacht', um die Dauer korrekt zu berechnen.",
+    "tip2": "Die meisten Lohnsysteme verwenden Dezimalstunden. 7,5 Stunden (nicht 7,30) repräsentiert 7 Stunden und 30 Minuten. Verwenden Sie das Dezimalstunden-Ergebnis für die Lohneingabe.",
+    "tip3": "Dieser Rechner zeigt die Brutto-Arbeitszeit. Für Netto-Stunden ziehen Sie unbezahlte Pausen manuell ab (typischerweise 30-60 Minuten pro Schicht).",
+    "tip4": "Verwenden Sie das 24-Stunden-Format (14:30) anstelle des 12-Stunden-Formats (2:30 PM), um AM/PM-Verwechslungen zu vermeiden und Genauigkeit zu gewährleisten.",
+    "howToTitle": "So verwenden Sie den Zeitdauer-Rechner",
+    "howToStepName1": "Startzeit eingeben",
+    "howToStepName2": "Endzeit eingeben",
+    "howToStepName3": "Mitternachtsüberschreitung aktivieren (falls erforderlich)",
+    "howToStepName4": "Dauer berechnen",
+    "howToStepName5": "Ergebnisse in mehreren Formaten anzeigen",
+    "howToStep1": "Geben Sie die Startzeit mit dem Zeitauswahl-Tool ein oder tippen Sie sie manuell im HH:MM-Format ein (z.B. 09:00 oder 14:30)",
+    "howToStep2": "Geben Sie die Endzeit im gleichen Format ein - dies kann jede Tageszeit sein",
+    "howToStep3": "Wenn Ihr Zeitraum Mitternacht überschreitet (Nachtschicht), aktivieren Sie den Schalter 'Überschreitet Mitternacht', um korrekt zu berechnen",
+    "howToStep4": "Klicken Sie auf 'Dauer berechnen', um die verstrichene Zeit zwischen Start und Ende zu berechnen",
+    "howToStep5": "Sehen Sie die Dauer in Stunden und Minuten (7h 30m), Gesamtminuten (450) und Dezimalstunden für Lohn (7,50)",
+    "faqTitle": "Häufig gestellte Fragen",
+    "faq1Question": "Wie berechne ich Nachtschicht-Stunden?",
+    "faq1Answer": "Für Schichten, die Mitternacht überschreiten (z.B. 23:00 Uhr bis 7:00 Uhr), aktivieren Sie den Schalter 'Überschreitet Mitternacht'. Dies teilt dem Rechner mit, dass die Endzeit am nächsten Tag liegt. Ohne diese Einstellung würde eine Schicht von 23:00 Uhr bis 7:00 Uhr negativ oder falsch erscheinen. Mit aktivierter Einstellung zeigt der Rechner korrekt 8 Stunden an.",
+    "faq2Question": "Was ist der Unterschied zwischen Standardstunden und Dezimalstunden?",
+    "faq2Answer": "Standardstunden verwenden das Format 'Stunden:Minuten' (z.B. 7:30 bedeutet 7 Stunden und 30 Minuten). Dezimalstunden drücken dieselbe Dauer als Dezimalzahl aus (z.B. 7,50). Beachten Sie, dass 7,30 Dezimalstunden NICHT dasselbe wie 7:30 ist - es sind tatsächlich 7 Stunden und 18 Minuten. Verwenden Sie immer das Dezimalstunden-Ergebnis für Lohnsysteme, um diesen häufigen Fehler zu vermeiden.",
+    "faq3Question": "Wie berücksichtige ich Mittagspausen?",
+    "faq3Answer": "Dieser Rechner zeigt die Gesamtzeit zwischen Start- und Endzeiten. Um unbezahlte Pausen zu berücksichtigen, subtrahieren Sie die Pausendauer von der Gesamtzeit. Wenn Sie zum Beispiel von 9:00 Uhr bis 17:00 Uhr gearbeitet haben (8 Stunden) mit einer 30-minütigen unbezahlten Mittagspause, beträgt Ihre tatsächliche Arbeitszeit 7,50 Dezimalstunden. Einige Arbeitgeber ziehen Pausen automatisch ab; prüfen Sie Ihre Unternehmensrichtlinie.",
+    "faq4Question": "Warum sind Dezimalstunden wichtig für die Lohnabrechnung?",
+    "faq4Answer": "Lohn- und Abrechnungssysteme benötigen Dezimalstunden für genaue Berechnungen. Wenn Sie 7 Stunden und 30 Minuten gearbeitet haben, würde die Eingabe von '7,30' in die Lohnabrechnung Ihnen nur 7 Stunden und 18 Minuten gutschreiben (7,30 Stunden). Die korrekte Eingabe ist 7,50 Stunden. Dieser Rechner konvertiert automatisch, um diesen häufigen und kostspieligen Fehler zu vermeiden.",
+    "faq5Question": "Kann ich Zeit über mehrere Tage berechnen?",
+    "faq5Answer": "Dieser Rechner ist für Zeitdauern innerhalb eines 24-Stunden-Zeitraums konzipiert (selber Tag oder Überschreitung einer Mitternacht). Für Dauern über mehrere Tage müssten Sie die Stunden jedes Tages separat berechnen oder einen Datums-Zeit-Rechner verwenden, der mehrtägige Zeiträume bewältigen kann. Die meisten Zeiterfassungssysteme verfolgen Stunden pro Tag statt kontinuierliche mehrtägige Zeiträume.",
+    "faq6Question": "Wie konvertiere ich Dezimalstunden zurück in Stunden und Minuten?",
+    "faq6Answer": "Um Dezimalstunden in Stunden und Minuten zu konvertieren: Die ganze Zahl sind die Stunden. Multiplizieren Sie den Dezimalteil mit 60, um Minuten zu erhalten. Zum Beispiel 7,75 Stunden = 7 Stunden + (0,75 × 60) Minuten = 7 Stunden 45 Minuten. Häufige Konvertierungen: 0,25 = 15 Min, 0,50 = 30 Min, 0,75 = 45 Min.",
+    "faq7Question": "Was ist, wenn meine Startzeit und Endzeit gleich sind?",
+    "faq7Answer": "Wenn Start- und Endzeiten identisch sind, beträgt die Dauer 0 Stunden, es sei denn, Sie aktivieren 'Überschreitet Mitternacht', was einen vollen 24-Stunden-Zeitraum anzeigen würde. Gleiche Start- und Endzeiten mit Mitternachtsüberschreitung weisen typischerweise auf einen Sonderfall hin - überprüfen Sie, ob dies für Ihren Anwendungsfall beabsichtigt ist.",
+    "faq8Question": "Wie genau sind die Dezimalstunden-Berechnungen?",
+    "faq8Answer": "Der Rechner ist vollständig genau. Dezimalstunden werden auf 2 Dezimalstellen gerundet, was eine Präzision auf die nächsten 0,6 Minuten (36 Sekunden) darstellt. Dies ist die Standardpräzision, die von Lohnsystemen verwendet wird, und ist für Zeiterfassungszwecke mehr als ausreichend. Für Anwendungen, die Präzision auf Sekundenebene erfordern, verfolgen Sie tatsächliche Sekunden separat."
+  }
+}

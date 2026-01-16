@@ -1,0 +1,97 @@
+{
+  "title": "Date Calculator",
+  "description": "Calculate the difference between two dates or add/subtract time from a date. Get results in years, months, weeks, and days with business day calculations.",
+  "meta": {
+    "title": "Date Calculator - Add Days, Find Date Difference [2026]",
+    "description": "Calculate date differences or add/subtract days, weeks, months, years to any date. Find business days, weekdays, and date ranges instantly.",
+    "keywords": "date calculator, date difference calculator, add days to date, subtract days from date, days between dates, date range calculator, business days calculator, date math calculator, calendar calculator"
+  },
+  "modes": {
+    "difference": "Find Date Difference",
+    "addSubtract": "Add/Subtract Time"
+  },
+  "inputs": {
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "includeEndDate": "Include end date in count",
+    "operation": "Operation",
+    "add": "Add",
+    "subtract": "Subtract",
+    "years": "Years",
+    "months": "Months",
+    "weeks": "Weeks",
+    "days": "Days"
+  },
+  "actions": {
+    "reset": "Reset"
+  },
+  "results": {
+    "title": "Result",
+    "difference": "Difference",
+    "resultDate": "Result Date",
+    "totalDays": "Total Days",
+    "totalWeeks": "Total Weeks",
+    "totalMonths": "Total Months",
+    "breakdown": "Time Breakdown",
+    "includesLeapDay": "Includes leap day"
+  },
+  "validation": {
+    "startDateRequired": "Please select a start date",
+    "startDateInvalid": "Please enter a valid start date",
+    "endDateRequired": "Please select an end date",
+    "endDateInvalid": "Please enter a valid end date"
+  },
+  "disclaimer": {
+    "text": "This calculator provides accurate date calculations based on the Gregorian calendar. Business day calculations exclude weekends (Saturday and Sunday) but do not account for holidays.",
+    "note": "Business days are calculated as Monday through Friday. For precise business day calculations including regional holidays, consult a holiday-aware calendar system."
+  },
+  "seo": {
+    "whatIsTitle": "What is a Date Calculator?",
+    "whatIsContent": "A date calculator is a versatile tool that performs date arithmetic and comparisons. It can calculate the exact difference between two dates (in years, months, weeks, and days) or add/subtract time periods from a specific date to find a future or past date.",
+    "howItWorksTitle": "How Does Date Calculation Work?",
+    "howItWorksContent": "The calculator uses the Gregorian calendar system with algorithms that account for varying month lengths (28-31 days) and leap years. When finding the difference between dates, it calculates the total elapsed time and breaks it down into years, months, and days.",
+    "featuresTitle": "Features",
+    "feature1": "Find the exact time span between two dates in years, months, days, and weeks",
+    "feature2": "Add or subtract any combination of years, months, weeks, and days",
+    "feature3": "Automatically handles leap years and varying month lengths",
+    "feature4": "View results in multiple formats (breakdown or totals)",
+    "useCasesTitle": "Use Cases",
+    "useCase1": "Calculate project timelines, milestone dates, and deadline tracking",
+    "useCase2": "Determine contract expiration dates and legal notice periods",
+    "useCase3": "Calculate due dates, anniversary countdowns, and life event planning",
+    "useCase4": "Determine loan maturity dates and investment holding periods",
+    "tipsTitle": "Tips",
+    "tip1": "Adding months to January 31 adjusts to last day of target month (Feb 28/29)",
+    "tip2": "Leap years: divisible by 4, except centuries unless divisible by 400",
+    "tip3": "Gregorian calendar dates work best from October 1582 onwards",
+    "tip4": "Use include end date option for inclusive counting",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Question": "How accurate is this date calculator?",
+    "faq1Answer": "This calculator is completely accurate for all dates in the Gregorian calendar (1582 onwards). It correctly handles leap years, varying month lengths, and all calendar edge cases.",
+    "faq2Question": "What happens when adding months to end-of-month dates?",
+    "faq2Answer": "When you add months to a date like January 31, the calculator adjusts to the last valid day of the target month. January 31 + 1 month = February 28 (or 29 in a leap year).",
+    "faq3Question": "How do leap years affect date calculations?",
+    "faq3Answer": "Leap years occur every 4 years (except centuries unless divisible by 400). February has 29 days in leap years. The calculator automatically accounts for this.",
+    "faq4Question": "Can I calculate dates far in the past or future?",
+    "faq4Answer": "Yes, the calculator works for any date from October 1582 (Gregorian calendar adoption) through the foreseeable future.",
+    "faq5Question": "What's the difference between total days and the breakdown?",
+    "faq5Answer": "Total days is the complete count (e.g., 400 days). The breakdown expresses the same period as years, months, and days (e.g., 1 year, 1 month, 5 days).",
+    "faq6Question": "How do I calculate someone's exact age?",
+    "faq6Answer": "Use 'Find Date Difference' mode with their birth date as start and today as end. For more detail including zodiac signs, use our Age Calculator.",
+    "faq7Question": "Does this include or exclude the end date?",
+    "faq7Answer": "You can choose with the 'Include end date in count' option. Enable it to count both start and end dates, disable for exclusive counting.",
+    "faq8Question": "How do I subtract time from a date?",
+    "faq8Answer": "Select 'Add/Subtract Time' mode, choose 'Subtract', enter the years, months, weeks, or days to subtract, and the calculator shows the resulting date.",
+    "howToTitle": "How to Calculate Dates",
+    "howToStepName1": "Choose Mode",
+    "howToStepName2": "Enter Dates",
+    "howToStepName3": "Set Options",
+    "howToStepName4": "View Results",
+    "howToStepName5": "Copy Result",
+    "howToStep1": "Select 'Find Date Difference' or 'Add/Subtract Time' mode",
+    "howToStep2": "Enter start and end dates, or base date and time values",
+    "howToStep3": "Choose whether to include end date in count",
+    "howToStep4": "View the difference in years, months, days and total days",
+    "howToStep5": "Use the resulting date or difference for your planning"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "title": "Calcolatore Numero Settimana",
+  "description": "Trova il numero settimana ISO per qualsiasi data, scopri in che settimana dell'anno è e ottieni informazioni complete settimana calendario incluso trimestre e giorno dell'anno.",
+  "meta": {
+    "title": "Calcolatore Numero Settimana - Trova Settimana ISO dell'Anno [2026]",
+    "description": "Calcola il numero settimana ISO per qualsiasi data. Scopri in che settimana dell'anno è, giorno dell'anno, trimestre e intervallo date settimana. Calcolatore gratuito.",
+    "keywords": "calcolatore numero settimana, numero settimana ISO, settimana dell'anno, settimana calendario, che settimana è, calcolatore settimana, ISO 8601, giorno dell'anno, calcolatore trimestre, data settimana"
+  },
+  "inputs": {
+    "date": "Seleziona Data",
+    "today": "Oggi"
+  },
+  "actions": {
+    "calculate": "Calcola",
+    "reset": "Reimposta"
+  },
+  "results": {
+    "weekNumber": "Numero Settimana",
+    "week": "Settimana",
+    "of": "di",
+    "isoYear": "Anno ISO",
+    "dayOfWeek": "Giorno della Settimana",
+    "dayOfYear": "Giorno dell'Anno",
+    "quarter": "Trimestre",
+    "weekRange": "Intervallo Date Settimana",
+    "currentWeek": "Questa è la settimana corrente"
+  },
+  "daysOfWeek": {
+    "monday": "Lunedì",
+    "tuesday": "Martedì",
+    "wednesday": "Mercoledì",
+    "thursday": "Giovedì",
+    "friday": "Venerdì",
+    "saturday": "Sabato",
+    "sunday": "Domenica"
+  },
+  "validation": {
+    "dateRequired": "Seleziona una data"
+  },
+  "disclaimer": {
+    "text": "Questo calcolatore usa lo standard ISO 8601 per i numeri settimana. La settimana 1 è la prima settimana con almeno 4 giorni nel nuovo anno e le settimane iniziano sempre di lunedì.",
+    "note": "Esistono sistemi di numerazione settimane diversi. Gli USA spesso usano settimane che iniziano di domenica. Questo calcolatore usa ISO 8601, lo standard internazionale usato negli affari, finanza e nella maggior parte dell'Europa."
+  },
+  "seo": {
+    "whatIsTitle": "Cos'è un Calcolatore di Numero Settimana?",
+    "whatIsContent": "Un calcolatore di numero settimana determina in quale settimana dell'anno cade una data specifica, seguendo lo standard internazionale ISO 8601. I numeri settimana vanno da 1 a 52 (o 53 in alcuni anni). Il calcolatore fornisce anche informazioni correlate come l'anno ISO, giorno della settimana, giorno dell'anno (1-365/366), trimestre (Q1-Q4) e l'intervallo di date esatto di quella settimana (da lunedì a domenica). Questo è essenziale per pianificazione aziendale, gestione progetti, coordinamento calendario e qualsiasi situazione che richieda riferimenti settimana standardizzati.",
+    "howItWorksTitle": "Come Funziona la Numerazione Settimana ISO?",
+    "howItWorksContent": "Lo standard ISO 8601 definisce regole specifiche: La settimana 1 è la prima settimana dell'anno contenente almeno 4 giorni del nuovo anno (o alternativamente, la prima settimana contenente il primo giovedì). Tutte le settimane iniziano di lunedì e finiscono di domenica. Questo significa che i primi giorni di gennaio potrebbero appartenere all'ultima settimana dell'anno precedente e i giorni di fine dicembre potrebbero appartenere alla settimana 1 dell'anno successivo. La maggior parte degli anni ha 52 settimane, ma gli anni che iniziano di giovedì o gli anni bisestili che iniziano di mercoledì hanno 53 settimane.",
+    "featuresTitle": "Caratteristiche",
+    "feature1": "Calcola il numero settimana ISO per qualsiasi data istantaneamente usando lo standard internazionale",
+    "feature2": "Visualizza informazioni giorno dell'anno (1-365/366) e trimestre (Q1-Q4)",
+    "feature3": "Mostra intervallo date settimana da lunedì a domenica per qualsiasi settimana",
+    "feature4": "Funziona con qualsiasi data - anni passati, presenti o futuri",
+    "useCasesTitle": "Casi d'Uso",
+    "useCase1": "Pianificazione progetti, cicli sprint e monitoraggio traguardi per numero settimana",
+    "useCase2": "Reportistica aziendale, pianificazione trimestrale e coordinamento calendario finanziario",
+    "useCase3": "Spedizione, logistica e programmazione catena fornitura usando settimane standardizzate",
+    "useCase4": "Produzione manifatturiera, cicli produttivi e pianificazione cicli inventario",
+    "tipsTitle": "Suggerimenti",
+    "tip1": "La settimana 1 è la prima settimana con almeno 4 giorni in gennaio (contiene il primo giovedì)",
+    "tip2": "Le settimane ISO iniziano sempre di lunedì e finiscono di domenica",
+    "tip3": "Alcuni anni hanno 53 settimane - quelli che iniziano di giovedì o anni bisestili che iniziano di mercoledì",
+    "tip4": "L'anno ISO può differire dall'anno calendario in fine dicembre e inizio gennaio",
+    "faqTitle": "Domande Frequenti",
+    "faq1Question": "Che numero settimana è oggi?",
+    "faq1Answer": "Seleziona la data di oggi e clicca Calcola per vedere il numero settimana ISO corrente. Il numero settimana cambia ogni lunedì poiché le settimane ISO iniziano di lunedì. Ad esempio, se oggi è a metà marzo, potresti essere nella settimana 11 o 12 dell'anno. Il calcolatore mostra sia il numero settimana che l'intervallo esatto lunedì-domenica per quella settimana.",
+    "faq2Question": "Perché il 1° gennaio a volte mostra settimana 52 o 53?",
+    "faq2Answer": "Nel sistema ISO 8601, la settimana 1 è la prima settimana con almeno 4 giorni nel nuovo anno. Se il 1° gennaio cade di venerdì, sabato o domenica, appartiene all'ultima settimana dell'anno precedente (settimana 52 o 53) perché quella settimana ha più giorni nel vecchio anno che nel nuovo. Questo assicura che le settimane non siano mai divise tra anni.",
+    "faq3Question": "Quante settimane ci sono in un anno?",
+    "faq3Answer": "La maggior parte degli anni ha 52 settimane (52 settimane × 7 giorni = 364 giorni). Tuttavia, alcuni anni hanno 53 settimane. Questo si verifica quando l'anno inizia di giovedì o quando è un anno bisestile che inizia di mercoledì. Approssimativamente il 71% degli anni ha 52 settimane e il 29% ha 53 settimane.",
+    "faq4Question": "Cos'è l'anno ISO?",
+    "faq4Answer": "L'anno ISO è l'anno a cui appartiene la settimana ISO. Solitamente corrisponde all'anno calendario, ma può differire per date in inizio gennaio e fine dicembre. Ad esempio, il 30 dicembre 2024 potrebbe appartenere alla settimana ISO 1 del 2025, quindi il suo anno ISO è 2025 anche se l'anno calendario è 2024.",
+    "faq5Question": "Perché le settimane iniziano di lunedì in ISO 8601?",
+    "faq5Answer": "ISO 8601 designa lunedì come primo giorno della settimana seguendo lo standard internazionale usato nella maggior parte del mondo, particolarmente negli affari e industria. Questo differisce da alcuni paesi (notevolmente gli USA) dove le settimane tradizionalmente iniziano di domenica.",
+    "faq6Question": "Come sono determinati i trimestri (Q1-Q4)?",
+    "faq6Answer": "I trimestri dividono l'anno in quattro periodi di 3 mesi: Q1 (gennaio-marzo), Q2 (aprile-giugno), Q3 (luglio-settembre) e Q4 (ottobre-dicembre). Questi sono basati sul mese calendario, non sulla settimana ISO. I trimestri sono ampiamente usati negli affari per reportistica finanziaria.",
+    "faq7Question": "Qual è la differenza tra giorno della settimana e giorno dell'anno?",
+    "faq7Answer": "Il giorno della settimana è quale giorno all'interno della settimana di 7 giorni (da lunedì a domenica). Il giorno dell'anno è quale giorno all'interno dell'anno di 365/366 giorni, numerato 1-365 (o 1-366 negli anni bisestili). Ad esempio, il 1° febbraio è il giorno 32 dell'anno.",
+    "faq8Question": "Posso usare questo per la gestione progetti?",
+    "faq8Answer": "Sì, i numeri settimana sono estremamente utili per la gestione progetti. Forniscono un modo standardizzato per riferirsi a periodi di tempo. Invece di dire 'la settimana del 15-21 marzo', puoi dire 'settimana 12', che è più chiaro e conciso. Molti strumenti di gestione progetti usano i numeri settimana ISO.",
+    "howToTitle": "Come Trovare il Numero Settimana",
+    "howToStepName1": "Seleziona Data",
+    "howToStepName2": "Visualizza Numero Settimana",
+    "howToStepName3": "Verifica Info Giorno",
+    "howToStepName4": "Vedi Intervallo Settimana",
+    "howToStepName5": "Nota Trimestre",
+    "howToStep1": "Inserisci la data per cui vuoi trovare il numero settimana usando il selettore date",
+    "howToStep2": "Il numero settimana ISO è visualizzato immediatamente mostrando quale settimana dell'anno è",
+    "howToStep3": "Rivedi il giorno della settimana e giorno dell'anno (1-365/366) per la data selezionata",
+    "howToStep4": "Vedi l'intervallo completo date settimana mostrando da lunedì a domenica di quella settimana",
+    "howToStep5": "Verifica in quale trimestre (Q1-Q4) cade la data per pianificazione finanziaria o aziendale"
+  }
+}

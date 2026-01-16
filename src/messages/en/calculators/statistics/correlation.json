@@ -3,7 +3,7 @@
   "description": "Calculate the Pearson correlation coefficient (r) between two data sets. Find the strength and direction of linear relationships, coefficient of determination (R²), and regression line equation.",
   "meta": {
     "title": "Correlation Calculator | Pearson Coefficient & R² [2026]",
-    "description": "Free correlation calculator with instant results. Calculate Pearson coefficient, R², regression line, and statistical significance. Supports paired data entry. Try it now!",
+    "description": "Calculate Pearson coefficient, R², and regression line with instant results. Free correlation calculator with statistical significance.",
     "keywords": "correlation calculator, pearson correlation coefficient, r squared calculator, correlation coefficient formula, linear regression calculator, statistics calculator, r value calculator"
   },
   "inputs": {

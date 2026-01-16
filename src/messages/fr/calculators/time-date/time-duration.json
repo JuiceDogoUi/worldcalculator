@@ -1,0 +1,86 @@
+{
+  "title": "Calculateur de Durée",
+  "description": "Calculez la durée entre deux heures ou ajoutez/soustrayez heures et minutes. Parfait pour les heures de travail, le suivi du temps et les calculs de paie.",
+  "meta": {
+    "title": "Calculateur de Durée - Heures & Minutes [2026]",
+    "description": "Calculez la durée entre heures de début et fin. Résultats en heures, minutes, heures décimales pour paie. Gestion des quarts de nuit.",
+    "keywords": "calculateur durée, calculateur heures, différence heures, calculateur heures travail, calculateur feuille temps, calculateur heures paie, calculateur temps, heures minutes, calculateur quart nuit"
+  },
+  "inputs": {
+    "startTime": "Heure de Début",
+    "endTime": "Heure de Fin",
+    "crossesMidnight": "Franchit Minuit (Nuit)"
+  },
+  "actions": {
+    "calculate": "Calculer la Durée",
+    "reset": "Réinitialiser"
+  },
+  "results": {
+    "title": "Durée",
+    "duration": "Durée",
+    "hours": "heures",
+    "minutes": "minutes",
+    "totalMinutes": "Total Minutes",
+    "totalSeconds": "Total Secondes",
+    "decimalHours": "Heures Décimales"
+  },
+  "validation": {
+    "startTimeRequired": "Veuillez entrer une heure de début",
+    "startTimeInvalid": "Veuillez entrer une heure de début valide",
+    "endTimeRequired": "Veuillez entrer une heure de fin",
+    "endTimeInvalid": "Veuillez entrer une heure de fin valide"
+  },
+  "disclaimer": {
+    "text": "Ce calculateur fournit des calculs de durée précis. Les heures décimales sont arrondies à 2 décimales pour les besoins de paie.",
+    "note": "Lors du calcul des heures de travail, n'oubliez pas de tenir compte des pauses non rémunérées et des périodes de repas selon les lois du travail locales."
+  },
+  "seo": {
+    "whatIsTitle": "Qu'est-ce qu'un Calculateur de Durée ?",
+    "whatIsContent": "Un calculateur de durée calcule le temps écoulé entre une heure de début et une heure de fin. Il est essentiel pour suivre les heures de travail, calculer la paie, surveiller le temps de projet, chronométrer des événements et gérer des horaires. Le calculateur gère à la fois les périodes de temps du même jour et les quarts de nuit qui franchissent minuit. Les résultats sont affichés au format standard heures et minutes, ainsi qu'en heures décimales qui est le format préféré pour les systèmes de paie et de facturation.",
+    "howItWorksTitle": "Comment Fonctionne le Calcul de Durée ?",
+    "howItWorksContent": "Le calculateur convertit les heures de début et de fin en minutes totales depuis minuit, puis trouve la différence. Pour les calculs du même jour, c'est simplement l'heure de fin moins l'heure de début. Pour les quarts de nuit qui franchissent minuit, il ajoute 24 heures (1440 minutes) pour tenir compte correctement du jour suivant. Le résultat est ensuite reconverti en heures et minutes. Les heures décimales sont calculées en divisant les minutes totales par 60, fournissant un format adapté aux systèmes de paie (par ex. 7 heures 30 minutes = 7,50 heures décimales).",
+    "featuresTitle": "Fonctionnalités",
+    "feature1": "Visualisez la durée au format heures:minutes (7:30) et en heures décimales (7,50) pour différents usages.",
+    "feature2": "Calculez facilement la durée des quarts qui franchissent minuit en activant l'option 'Franchit Minuit'.",
+    "feature3": "Les heures décimales sont formatées spécifiquement pour les systèmes de paie et de facturation, arrondies à 2 décimales.",
+    "feature4": "Les résultats se mettent à jour instantanément lorsque vous entrez ou modifiez les heures, pas besoin de cliquer sur calculer pour les saisies de base.",
+    "useCasesTitle": "Cas d'Usage",
+    "useCase1": "Calculez les heures de travail des employés pour le traitement de la paie, la vérification des feuilles de temps et les calculs de coûts de main-d'œuvre.",
+    "useCase2": "Suivez les heures facturables pour les freelances, consultants et entrepreneurs travaillant sur des projets clients.",
+    "useCase3": "Déterminez la durée des quarts, vérifiez la conformité aux lois du travail et planifiez les horaires des employés pour les entreprises.",
+    "useCase4": "Calculez la durée des réunions, événements, cours, temps de trajet et planification d'activités.",
+    "tipsTitle": "Conseils",
+    "tip1": "Pour les quarts s'étendant sur minuit (par ex. 23h00 à 7h00), activez le bouton 'Franchit Minuit' pour calculer correctement la durée.",
+    "tip2": "La plupart des systèmes de paie utilisent les heures décimales. 7,5 heures (pas 7,30) représente 7 heures et 30 minutes. Utilisez le résultat en heures décimales pour la saisie de paie.",
+    "tip3": "Ce calculateur montre le temps brut travaillé. Pour les heures nettes, soustrayez manuellement les pauses non rémunérées (typiquement 30-60 minutes par quart).",
+    "tip4": "Utilisez le format 24 heures (14:30) au lieu du format 12 heures (14h30) pour éviter la confusion AM/PM et assurer la précision.",
+    "howToTitle": "Comment Utiliser le Calculateur de Durée",
+    "howToStepName1": "Saisir l'Heure de Début",
+    "howToStepName2": "Saisir l'Heure de Fin",
+    "howToStepName3": "Activer le Franchissement de Minuit (si nécessaire)",
+    "howToStepName4": "Calculer la Durée",
+    "howToStepName5": "Voir les Résultats en Plusieurs Formats",
+    "howToStep1": "Saisissez l'heure de début à l'aide du sélecteur d'heure ou tapez-la manuellement au format HH:MM (par ex. 09:00 ou 14:30)",
+    "howToStep2": "Saisissez l'heure de fin dans le même format - cela peut être n'importe quelle heure de la journée",
+    "howToStep3": "Si votre période franchit minuit (quart de nuit), activez le bouton 'Franchit Minuit' pour calculer correctement",
+    "howToStep4": "Cliquez sur 'Calculer la Durée' pour calculer le temps écoulé entre le début et la fin",
+    "howToStep5": "Visualisez la durée en heures et minutes (7h 30m), total de minutes (450) et heures décimales pour la paie (7,50)",
+    "faqTitle": "Questions Fréquemment Posées",
+    "faq1Question": "Comment calculer les heures de quart de nuit ?",
+    "faq1Answer": "Pour les quarts qui franchissent minuit (par ex. 23h00 à 7h00), activez le bouton 'Franchit Minuit'. Cela indique au calculateur que l'heure de fin est le jour suivant. Sans ce paramètre, un quart de 23h00 à 7h00 apparaîtrait négatif ou incorrect. Avec cette option activée, le calculateur affiche correctement 8 heures.",
+    "faq2Question": "Quelle est la différence entre heures standard et heures décimales ?",
+    "faq2Answer": "Les heures standard utilisent le format 'heures:minutes' (par ex. 7:30 signifie 7 heures et 30 minutes). Les heures décimales expriment la même durée sous forme de nombre décimal (par ex. 7,50). Notez que 7,30 heures décimales n'est PAS la même chose que 7:30 - c'est en fait 7 heures et 18 minutes. Utilisez toujours le résultat en heures décimales pour les systèmes de paie afin d'éviter cette erreur courante.",
+    "faq3Question": "Comment tenir compte des pauses déjeuner ?",
+    "faq3Answer": "Ce calculateur montre le temps total entre les heures de début et de fin. Pour tenir compte des pauses non rémunérées, soustrayez la durée de pause du total. Par exemple, si vous avez travaillé de 9h00 à 17h00 (8 heures) avec un déjeuner non rémunéré de 30 minutes, votre temps de travail réel est de 7,50 heures décimales. Certains employeurs déduisent les pauses automatiquement ; vérifiez la politique de votre entreprise.",
+    "faq4Question": "Pourquoi les heures décimales sont-elles importantes pour la paie ?",
+    "faq4Answer": "Les systèmes de paie et de facturation nécessitent des heures décimales pour des calculs précis. Si vous avez travaillé 7 heures et 30 minutes, entrer '7,30' dans la paie ne vous créditerait que 7 heures et 18 minutes (7,30 heures). La saisie correcte est 7,50 heures. Ce calculateur convertit automatiquement pour éviter cette erreur courante et coûteuse.",
+    "faq5Question": "Puis-je calculer le temps sur plusieurs jours ?",
+    "faq5Answer": "Ce calculateur est conçu pour les durées dans une période de 24 heures (même jour ou franchissant un minuit). Pour des durées s'étendant sur plusieurs jours, vous devriez calculer les heures de chaque jour séparément ou utiliser un calculateur de date-heure pouvant gérer des périodes de plusieurs jours. La plupart des systèmes de suivi du temps suivent les heures par jour plutôt que des périodes continues de plusieurs jours.",
+    "faq6Question": "Comment reconvertir les heures décimales en heures et minutes ?",
+    "faq6Answer": "Pour convertir les heures décimales en heures et minutes : Le nombre entier est les heures. Multipliez la partie décimale par 60 pour obtenir les minutes. Par exemple, 7,75 heures = 7 heures + (0,75 × 60) minutes = 7 heures 45 minutes. Conversions courantes : 0,25 = 15 min, 0,50 = 30 min, 0,75 = 45 min.",
+    "faq7Question": "Et si mon heure de début et de fin sont identiques ?",
+    "faq7Answer": "Si les heures de début et de fin sont identiques, la durée est de 0 heure sauf si vous activez 'Franchit Minuit', ce qui indiquerait une période complète de 24 heures. Des heures de début et de fin identiques avec franchissement de minuit indiquent généralement un cas spécial - vérifiez que c'est intentionnel pour votre usage.",
+    "faq8Question": "Quelle est la précision des calculs d'heures décimales ?",
+    "faq8Answer": "Le calculateur est complètement précis. Les heures décimales sont arrondies à 2 décimales, ce qui représente une précision au 0,6 minute (36 secondes) près. C'est la précision standard utilisée par les systèmes de paie et est largement suffisante pour le suivi du temps. Pour les applications nécessitant une précision au niveau de la seconde, suivez les secondes réelles séparément."
+  }
+}

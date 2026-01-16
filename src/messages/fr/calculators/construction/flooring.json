@@ -1,0 +1,109 @@
+{
+  "title": "Calculateur de Revêtement de Sol",
+  "description": "Calculez la quantité de revêtement de sol nécessaire pour n'importe quelle pièce. Obtenez le nombre de boîtes, les coûts des matériaux et les estimations d'installation pour le bois, le stratifié, le vinyle, le carrelage et la moquette.",
+  "meta": {
+    "title": "Calculateur de Revêtement de Sol Gratuit - Mètres Carrés, Boîtes et Coût [2026]",
+    "description": "Estimez m², boîtes et coûts pour parquet, stratifié, vinyle, carrelage et moquette. Facteur de perte et installation inclus. Gratuit.",
+    "keywords": "calculateur revêtement sol, combien de sol me faut-il, calculateur coût sol, calculateur parquet, calculateur stratifié, calculateur carrelage, calculateur moquette"
+  },
+  "inputs": {
+    "unitSystem": "Système d'Unités",
+    "roomLength": "Longueur de la Pièce",
+    "roomWidth": "Largeur de la Pièce",
+    "flooringType": "Type de Revêtement",
+    "wastePercent": "Facteur de Perte"
+  },
+  "flooringTypes": {
+    "hardwood": "Parquet Bois",
+    "laminate": "Stratifié",
+    "vinyl": "Vinyle / LVT",
+    "tile": "Carrelage",
+    "carpet": "Moquette"
+  },
+  "units": {
+    "imperial": "Impérial (pi)",
+    "metric": "Métrique (m)",
+    "ft": "pi",
+    "m": "m",
+    "sqft": "pi²",
+    "sqm": "m²",
+    "boxes": "boîtes"
+  },
+  "actions": {
+    "calculate": "Calculer",
+    "reset": "Réinitialiser"
+  },
+  "results": {
+    "title": "Estimation du Revêtement",
+    "floorArea": "Surface au Sol",
+    "wasteArea": "Marge de Perte",
+    "totalArea": "Surface Totale Nécessaire",
+    "boxesNeeded": "Boîtes Nécessaires",
+    "coveragePerBox": "Couverture par Boîte",
+    "materialCost": "Coût des Matériaux",
+    "installationCost": "Coût d'Installation",
+    "costRange": "Fourchette"
+  },
+  "validation": {
+    "roomLengthRequired": "La longueur de la pièce est requise",
+    "roomWidthRequired": "La largeur de la pièce est requise",
+    "flooringTypeRequired": "Le type de revêtement est requis",
+    "wastePercentInvalid": "Le facteur de perte doit être entre 0 et 25%"
+  },
+  "disclaimer": {
+    "text": "Ce calculateur fournit des estimations à des fins de planification. Les besoins réels peuvent varier selon la forme de la pièce, les obstacles et le motif d'installation. Nous recommandons d'ajouter 10% supplémentaire pour les pertes.",
+    "note": "Les prix varient selon la région et le niveau de qualité. Consultez un fournisseur de revêtement de sol pour des devis précis. Une installation professionnelle peut être nécessaire pour certains types de revêtements."
+  },
+  "seo": {
+    "whatIsTitle": "Comment Calculer le Revêtement de Sol",
+    "whatIsContent": "Calculer les besoins en revêtement de sol est essentiel pour tout projet de rénovation. Que vous installiez du parquet, du stratifié, du vinyle, du carrelage ou de la moquette, savoir exactement combien de matériau vous avez besoin évite les achats excessifs coûteux ou les pénuries frustrantes en cours de projet. Le revêtement de sol est généralement vendu par boîte, chaque boîte couvrant une surface spécifique. Notre calculateur vous aide à déterminer la surface totale nécessaire, incluant un facteur de perte pour les coupes et erreurs, et estime les coûts de matériaux et d'installation.",
+    "formulasTitle": "Formules de Calcul de Revêtement de Sol",
+    "formula1Name": "Surface au Sol",
+    "formula1": "Surface = Longueur × Largeur",
+    "formula1Desc": "Formule de base pour les pièces rectangulaires. Pour les pièces en L ou irrégulières, divisez en sections et additionnez les surfaces.",
+    "formula2Name": "Avec Facteur de Perte",
+    "formula2": "Total = Surface au Sol × (1 + % Perte)",
+    "formula2Desc": "Ajoutez toujours 5-15% pour les pertes dues aux coupes, erreurs et raccord de motifs. Les motifs complexes ou la pose diagonale peuvent nécessiter plus.",
+    "formula3Name": "Boîtes Nécessaires",
+    "formula3": "Boîtes = Surface Totale ÷ Couverture par Boîte",
+    "formula3Desc": "Arrondissez à la boîte entière supérieure. La couverture par boîte varie selon le produit, typiquement 2-2,5 m² pour les lames et 1-1,5 m² pour le carrelage.",
+    "typesTitle": "Types de Revêtements de Sol",
+    "type1Name": "Parquet Bois",
+    "type1Desc": "Lames de bois massif ou contrecollé. Durable et ajoute de la valeur au logement. Coûte 50-150€/m² pour les matériaux. Nécessite une acclimatation avant installation. Peut être rénové plusieurs fois.",
+    "type2Name": "Stratifié",
+    "type2Desc": "Alternative économique au parquet avec finition aspect bois. Coûte 10-50€/m². L'installation à clic est accessible aux bricoleurs. Non adapté aux pièces humides sans noyau étanche.",
+    "type3Name": "Vinyle / LVT",
+    "type3Desc": "Les lames vinyles de luxe (LVT) sont étanches et durables. Coûte 20-70€/m². Excellent pour cuisines, salles de bain et sous-sols. Installation à clic facile.",
+    "type4Name": "Carrelage (Céramique/Grès)",
+    "type4Desc": "Très durable et étanche. Coûte 10-200€/m² selon la qualité. Installation professionnelle recommandée. Idéal pour salles de bain, cuisines et entrées.",
+    "howToTitle": "Comment Utiliser Ce Calculateur",
+    "howToStep1": "Mesurez la longueur et la largeur de votre pièce en pieds ou mètres",
+    "howToStep2": "Sélectionnez votre type de revêtement dans le menu déroulant",
+    "howToStep3": "Ajustez le curseur du facteur de perte (10% est standard pour la plupart des installations)",
+    "howToStep4": "Consultez la surface totale nécessaire et le nombre de boîtes à acheter",
+    "howToStep5": "Examinez les estimations de coûts de matériaux et d'installation",
+    "tipsTitle": "Conseils pour Projets de Revêtement de Sol",
+    "tip1": "Achetez toujours 10-15% de revêtement supplémentaire pour couvrir les coupes, erreurs et réparations futures",
+    "tip2": "Acclimatez le parquet et le stratifié à l'humidité de votre maison pendant 48-72 heures avant l'installation",
+    "tip3": "Considérez la direction des lames - perpendiculaire au mur le plus long est souvent le plus esthétique",
+    "tip4": "Vérifiez les exigences du support - certains revêtements nécessitent une sous-couche ou des barrières d'humidité",
+    "tip5": "Gardez des boîtes supplémentaires du même lot pour les réparations futures - les lots peuvent varier",
+    "faqTitle": "Questions Fréquentes",
+    "faq1Question": "Combien de revêtement faut-il pour une pièce de 4x4 m?",
+    "faq1Answer": "Une pièce de 4x4 m a 16 mètres carrés de surface au sol. Avec un facteur de perte de 10%, vous aurez besoin de 17,6 m² de revêtement. Pour du parquet ou stratifié (2 m² par boîte), cela fait 9 boîtes. Pour du vinyle (2,5 m² par boîte), environ 7 boîtes. Arrondissez toujours vers le haut.",
+    "faq2Question": "Quel facteur de perte utiliser?",
+    "faq2Answer": "Utilisez 10% pour les installations droites standard. Augmentez à 15% pour les motifs diagonaux, les pièces avec de nombreux angles ou les agencements complexes. Les débutants en bricolage devraient ajouter 15% pour tenir compte de la courbe d'apprentissage et des erreurs.",
+    "faq3Question": "Combien coûte la pose d'un revêtement de sol?",
+    "faq3Answer": "Les coûts de pose varient selon le type: Moquette 10-40€/m², Stratifié 20-60€/m², Vinyle 20-50€/m², Parquet 40-120€/m², Carrelage 40-150€/m². Les coûts dépendent de la complexité, de la préparation du support et des tarifs de main d'œuvre régionaux.",
+    "faq4Question": "Puis-je poser le revêtement moi-même?",
+    "faq4Answer": "Le stratifié et le vinyle à clic sont accessibles aux bricoleurs. Le parquet nécessite plus de compétences, et le carrelage demande des outils et techniques professionnels. Considérez votre expérience, la taille de la pièce et si les erreurs seront coûteuses à corriger.",
+    "faq5Question": "Combien de mètres carrés dans une boîte de revêtement?",
+    "faq5Answer": "La couverture varie selon le produit: Parquet 1,5-2,5 m², Stratifié 2-2,5 m², Vinyle/LVT 2-3 m², Carrelage 1-1,5 m². Vérifiez toujours l'étiquette de la boîte pour la couverture exacte avant de calculer le nombre de boîtes nécessaires.",
+    "faq6Question": "Ai-je besoin d'une sous-couche?",
+    "faq6Answer": "La plupart des sols flottants (stratifié, vinyle, parquet contrecollé) nécessitent une sous-couche pour l'amortissement, la réduction du bruit et la protection contre l'humidité. Certains produits ont une sous-couche intégrée. Le carrelage nécessite un panneau de ciment ou un support approuvé.",
+    "faq7Question": "Quel revêtement est le meilleur pour cuisines et salles de bain?",
+    "faq7Answer": "Les options étanches sont essentielles: Carrelage grès cérame ou céramique, Lames vinyles de luxe (LVT), ou parquet contrecollé avec noyau étanche. Évitez le parquet massif et le stratifié standard dans les zones humides.",
+    "faq8Question": "Combien de temps prend la pose d'un revêtement de sol?",
+    "faq8Answer": "Une pièce typique (15-20 m²) prend 4-8 heures pour les professionnels. Les projets de bricolage prennent plus de temps. Le parquet peut nécessiter 48-72 heures d'acclimatation préalable. Prévoyez du temps supplémentaire pour le déplacement des meubles, la préparation du support et les transitions."
+  }
+}

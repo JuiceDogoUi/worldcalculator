@@ -1,0 +1,109 @@
+{
+  "title": "Calculadora de Piso",
+  "description": "Calcule quanto piso você precisa para qualquer cômodo. Obtenha contagens de caixas, custos de materiais e estimativas de instalação para madeira, laminado, vinilo, cerâmica e carpete.",
+  "meta": {
+    "title": "Calculadora de Piso Grátis - Metros Quadrados, Caixas e Custo [2026]",
+    "description": "Calcule piso para seu projeto. Estime metros quadrados, caixas e custos para madeira, laminado, vinilo, cerâmica e carpete.",
+    "keywords": "calculadora de piso, quanto piso preciso, calculadora custo piso, calculadora madeira, calculadora laminado, calculadora cerâmica, calculadora carpete"
+  },
+  "inputs": {
+    "unitSystem": "Sistema de Unidades",
+    "roomLength": "Comprimento do Cômodo",
+    "roomWidth": "Largura do Cômodo",
+    "flooringType": "Tipo de Piso",
+    "wastePercent": "Fator de Desperdício"
+  },
+  "flooringTypes": {
+    "hardwood": "Madeira",
+    "laminate": "Laminado",
+    "vinyl": "Vinílico / SPC",
+    "tile": "Cerâmica",
+    "carpet": "Carpete"
+  },
+  "units": {
+    "imperial": "Imperial (pés)",
+    "metric": "Métrico (m)",
+    "ft": "pés",
+    "m": "m",
+    "sqft": "pés²",
+    "sqm": "m²",
+    "boxes": "caixas"
+  },
+  "actions": {
+    "calculate": "Calcular",
+    "reset": "Redefinir"
+  },
+  "results": {
+    "title": "Estimativa de Piso",
+    "floorArea": "Área do Piso",
+    "wasteArea": "Margem de Desperdício",
+    "totalArea": "Área Total Necessária",
+    "boxesNeeded": "Caixas Necessárias",
+    "coveragePerBox": "Cobertura por Caixa",
+    "materialCost": "Custo do Material",
+    "installationCost": "Custo de Instalação",
+    "costRange": "Faixa"
+  },
+  "validation": {
+    "roomLengthRequired": "Comprimento do cômodo é obrigatório",
+    "roomWidthRequired": "Largura do cômodo é obrigatória",
+    "flooringTypeRequired": "Tipo de piso é obrigatório",
+    "wastePercentInvalid": "Fator de desperdício deve estar entre 0 e 25%"
+  },
+  "disclaimer": {
+    "text": "Esta calculadora fornece estimativas para fins de planejamento. Os requisitos reais de piso podem variar com base na forma do cômodo, obstáculos e padrão de instalação. Recomendamos adicionar 10% extra para desperdício.",
+    "note": "Os preços variam por região e grau de qualidade. Consulte um fornecedor de pisos para orçamentos precisos. Alguns tipos de piso podem exigir instalação profissional."
+  },
+  "seo": {
+    "whatIsTitle": "Como Calcular Piso",
+    "whatIsContent": "Calcular os requisitos de piso é essencial para qualquer projeto de renovação. Seja instalando madeira, laminado, vinílico, cerâmica ou carpete, saber exatamente quanto material você precisa evita compras excessivas caras ou escassez frustrante no meio do projeto. O piso geralmente é vendido por caixa, com cada caixa cobrindo uma metragem específica. Nossa calculadora ajuda a determinar a área total necessária, incluindo um fator de desperdício para cortes e erros, e estima custos de material e instalação.",
+    "formulasTitle": "Fórmulas de Cálculo de Piso",
+    "formula1Name": "Área do Piso",
+    "formula1": "Área = Comprimento × Largura",
+    "formula1Desc": "Fórmula básica para cômodos retangulares. Para cômodos em L ou irregulares, divida em seções e some as áreas.",
+    "formula2Name": "Com Fator de Desperdício",
+    "formula2": "Total = Área do Piso × (1 + % Desperdício)",
+    "formula2Desc": "Sempre adicione 5-15% para desperdício de cortes, erros e combinação de padrões. Padrões complexos ou instalação diagonal podem exigir mais.",
+    "formula3Name": "Caixas Necessárias",
+    "formula3": "Caixas = Área Total ÷ Cobertura por Caixa",
+    "formula3Desc": "Arredonde para a caixa inteira mais próxima. A cobertura por caixa varia por produto, tipicamente 2-2,5 m² para tábuas e 1-1,5 m² para cerâmica.",
+    "typesTitle": "Tipos de Piso",
+    "type1Name": "Madeira",
+    "type1Desc": "Tábuas de madeira maciça ou engenheirada. Durável e valoriza o imóvel. Custa R$150-500/m² para materiais. Requer aclimatação antes da instalação. Pode ser restaurado várias vezes.",
+    "type2Name": "Laminado",
+    "type2Desc": "Alternativa econômica à madeira com acabamento similar. Custa R$30-150/m². A instalação de clique é amigável para DIY. Não adequado para áreas úmidas sem núcleo impermeável.",
+    "type3Name": "Vinílico / SPC",
+    "type3Desc": "Piso vinílico de luxo (SPC) é impermeável e durável. Custa R$60-200/m². Ótimo para cozinhas, banheiros e porões. Instalação de clique fácil.",
+    "type4Name": "Cerâmica (Porcelanato)",
+    "type4Desc": "Muito durável e impermeável. Custa R$30-600/m² dependendo da qualidade. Instalação profissional recomendada. Ideal para banheiros, cozinhas e entradas.",
+    "howToTitle": "Como Usar Esta Calculadora",
+    "howToStep1": "Meça o comprimento e a largura do seu cômodo em pés ou metros",
+    "howToStep2": "Selecione seu tipo de piso no menu suspenso",
+    "howToStep3": "Ajuste o controle deslizante do fator de desperdício (10% é padrão para a maioria das instalações)",
+    "howToStep4": "Veja a área total necessária e o número de caixas a comprar",
+    "howToStep5": "Revise as estimativas de custo de material e instalação",
+    "tipsTitle": "Dicas para Projetos de Piso",
+    "tip1": "Sempre compre 10-15% extra de piso para cobrir cortes, erros e reparos futuros",
+    "tip2": "Aclimate madeira e laminado à umidade da sua casa por 48-72 horas antes da instalação",
+    "tip3": "Considere a direção das tábuas - perpendicular à parede mais longa geralmente fica melhor",
+    "tip4": "Verifique os requisitos do contrapiso - alguns pisos precisam de manta ou barreiras de umidade",
+    "tip5": "Guarde caixas extras do mesmo lote para reparos futuros - lotes de cor podem variar",
+    "faqTitle": "Perguntas Frequentes",
+    "faq1Question": "Quanto piso preciso para um cômodo de 4x4 m?",
+    "faq1Answer": "Um cômodo de 4x4 m tem 16 metros quadrados de área de piso. Com um fator de desperdício de 10%, você precisará de 17,6 m² de piso. Para madeira ou laminado (2 m² por caixa), são 9 caixas. Para vinílico (2,5 m² por caixa), cerca de 7 caixas. Sempre arredonde para cima.",
+    "faq2Question": "Qual fator de desperdício devo usar?",
+    "faq2Answer": "Use 10% para instalações retas padrão. Aumente para 15% para padrões diagonais, cômodos com muitos cantos ou layouts complexos. Iniciantes em DIY devem adicionar 15% para considerar a curva de aprendizado e erros.",
+    "faq3Question": "Quanto custa instalar piso?",
+    "faq3Answer": "Os custos de instalação variam por tipo: Carpete R$30-120/m², Laminado R$60-180/m², Vinílico R$60-150/m², Madeira R$120-360/m², Cerâmica R$120-450/m². Os custos dependem da complexidade, preparação do contrapiso e taxas de mão de obra regionais.",
+    "faq4Question": "Posso instalar piso eu mesmo?",
+    "faq4Answer": "Laminado e vinílico de clique são amigáveis para DIY. Madeira requer mais habilidade, e cerâmica precisa de ferramentas e técnica profissionais. Considere sua experiência, o tamanho do cômodo e se erros serão caros para corrigir.",
+    "faq5Question": "Quantos metros quadrados tem uma caixa de piso?",
+    "faq5Answer": "A cobertura varia por produto: Madeira 1,5-2,5 m², Laminado 2-2,5 m², Vinílico/SPC 2-3 m², Cerâmica 1-1,5 m². Sempre verifique o rótulo da caixa para a cobertura exata antes de calcular quantas caixas você precisa.",
+    "faq6Question": "Preciso de manta?",
+    "faq6Answer": "A maioria dos pisos flutuantes (laminado, vinílico, madeira engenheirada) precisa de manta para amortecimento, redução de ruído e proteção contra umidade. Alguns produtos têm manta integrada. Cerâmica requer contrapiso de cimento ou substrato aprovado.",
+    "faq7Question": "Qual piso é melhor para cozinhas e banheiros?",
+    "faq7Answer": "Opções impermeáveis são essenciais: Porcelanato ou cerâmica, Piso vinílico de luxo (SPC), ou madeira engenheirada com núcleo impermeável. Evite madeira maciça e laminado padrão em áreas úmidas.",
+    "faq8Question": "Quanto tempo leva a instalação de piso?",
+    "faq8Answer": "Um cômodo típico (15-20 m²) leva 4-8 horas para profissionais. Projetos DIY levam mais tempo. Madeira pode precisar de 48-72 horas para aclimatação prévia. Reserve tempo extra para mover móveis, preparação do contrapiso e transições."
+  }
+}

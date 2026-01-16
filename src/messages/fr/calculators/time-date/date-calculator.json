@@ -1,0 +1,103 @@
+{
+  "title": "Calculateur de Dates",
+  "description": "Calculez la différence entre deux dates ou ajoutez/soustrayez du temps à une date. Obtenez des résultats en années, mois, semaines et jours avec calculs de jours ouvrables.",
+  "meta": {
+    "title": "Calculateur de Dates - Ajouter Jours, Trouver Différence [2026]",
+    "description": "Calculez les différences de dates ou ajoutez/soustrayez jours, semaines, mois, années à toute date. Trouvez jours ouvrables et plages de dates.",
+    "keywords": "calculateur de dates, différence de dates, ajouter jours à date, soustraire jours, jours entre dates, calculateur plage dates, calculateur jours ouvrables, calculateur arithmétique dates, calendrier"
+  },
+  "inputs": {
+    "startDate": "Date de Début",
+    "endDate": "Date de Fin",
+    "includeEndDate": "Inclure la date de fin dans le calcul",
+    "operation": "Opération",
+    "add": "Ajouter",
+    "subtract": "Soustraire",
+    "years": "Années",
+    "months": "Mois",
+    "weeks": "Semaines",
+    "days": "Jours"
+  },
+  "modes": {
+    "difference": "Trouver la Différence de Dates",
+    "addSubtract": "Ajouter/Soustraire du Temps"
+  },
+  "operations": {
+    "add": "Ajouter du Temps",
+    "subtract": "Soustraire du Temps"
+  },
+  "actions": {
+    "calculate": "Calculer",
+    "reset": "Réinitialiser",
+    "swap": "Inverser les Dates"
+  },
+  "results": {
+    "title": "Résultat",
+    "difference": "Différence",
+    "resultDate": "Date Résultante",
+    "totalDays": "Total de Jours",
+    "totalWeeks": "Total de Semaines",
+    "totalMonths": "Total de Mois",
+    "breakdown": "Détail du Temps",
+    "includesLeapDay": "Inclut un jour bissextile"
+  },
+  "validation": {
+    "startDateRequired": "Veuillez sélectionner une date de début",
+    "startDateInvalid": "Veuillez entrer une date de début valide",
+    "endDateRequired": "Veuillez sélectionner une date de fin",
+    "endDateInvalid": "Veuillez entrer une date de fin valide"
+  },
+  "disclaimer": {
+    "text": "Ce calculateur fournit des calculs de dates précis basés sur le calendrier grégorien. Les calculs de jours ouvrables excluent les week-ends (samedi et dimanche) mais ne tiennent pas compte des jours fériés.",
+    "note": "Les jours ouvrables sont calculés du lundi au vendredi. Pour des calculs précis de jours ouvrables incluant les jours fériés régionaux, consultez un système de calendrier tenant compte des jours fériés."
+  },
+  "seo": {
+    "whatIsTitle": "Qu'est-ce qu'un Calculateur de Dates ?",
+    "whatIsContent": "Un calculateur de dates est un outil polyvalent qui effectue des opérations arithmétiques et des comparaisons de dates. Il peut calculer la différence exacte entre deux dates (en années, mois, semaines et jours) ou ajouter/soustraire des périodes de temps à une date spécifique pour trouver une date future ou passée. Ce calculateur est inestimable pour la planification de projets, les délais contractuels, la vérification d'âge, les comptes à rebours d'événements, les dates d'accouchement, les dates d'expiration de garantie et d'innombrables autres applications où des calculs de dates précis sont importants.",
+    "howItWorksTitle": "Comment Fonctionne le Calcul de Dates ?",
+    "howItWorksContent": "Le calculateur utilise le système du calendrier grégorien avec des algorithmes qui tiennent compte des durées de mois variables (28-31 jours) et des années bissextiles (années divisibles par 4, sauf les siècles sauf s'ils sont divisibles par 400). Pour trouver la différence entre les dates, il calcule le temps total écoulé et le décompose en années, mois et jours. Pour ajouter ou soustraire du temps, il ajoute/soustrait séquentiellement les années, puis les mois (en ajustant pour les dates de fin de mois), puis les semaines et enfin les jours. Les calculs de jours ouvrables excluent les week-ends par défaut.",
+    "featuresTitle": "Fonctionnalités",
+    "feature1": "Trouvez l'intervalle de temps exact entre deux dates, affiché en années, mois, jours, semaines et total de jours.",
+    "feature2": "Ajoutez ou soustrayez n'importe quelle combinaison d'années, mois, semaines et jours pour trouver des dates passées ou futures.",
+    "feature3": "Calculez le nombre de jours de semaine (lundi-vendredi) entre les dates, en excluant les week-ends.",
+    "feature4": "Visualisez les résultats en différents formats : répartition années/mois/jours ou total de semaines, jours, mois ou années.",
+    "useCasesTitle": "Cas d'Usage",
+    "useCase1": "Calculez les délais de projets, les dates jalons et le suivi des échéances pour les projets professionnels.",
+    "useCase2": "Déterminez les dates d'expiration de contrats, les délais de prescription et les périodes de préavis légales.",
+    "useCase3": "Calculez les dates d'accouchement, les comptes à rebours d'anniversaire, les dates de retraite et la planification d'événements de vie.",
+    "useCase4": "Déterminez les dates d'échéance de prêts, les périodes de détention d'investissements, les périodes d'accumulation d'intérêts et les calendriers de paiement.",
+    "tipsTitle": "Conseils",
+    "tip1": "Lors de l'ajout de mois à des dates comme le 31 janvier, le calculateur peut ajuster au dernier jour du mois cible (par ex. 28/29 février) si le jour n'existe pas.",
+    "tip2": "Le calculateur tient automatiquement compte des années bissextiles. Le 29 février n'existe que dans les années bissextiles (divisibles par 4, sauf les siècles sauf s'ils sont divisibles par 400).",
+    "tip3": "Les jours ouvrables excluent les week-ends (samedi-dimanche). Pour les projets internationaux, rappelez-vous que les définitions de jours ouvrables peuvent varier selon les pays.",
+    "tip4": "Le calendrier grégorien a été adopté en octobre 1582. Les calculs de dates avant cela peuvent ne pas correspondre aux archives historiques des régions utilisant différents systèmes de calendrier.",
+    "howToTitle": "Comment Utiliser le Calculateur de Dates",
+    "howToStepName1": "Sélectionner le Mode de Calcul",
+    "howToStepName2": "Saisir la/les Date(s)",
+    "howToStepName3": "Saisir les Valeurs de Temps (si ajout/soustraction)",
+    "howToStepName4": "Calculer le Résultat",
+    "howToStepName5": "Examiner la Répartition Détaillée",
+    "howToStep1": "Choisissez 'Trouver la Différence de Dates' pour comparer deux dates, ou 'Ajouter/Soustraire du Temps' pour calculer une nouvelle date à partir d'un point de départ",
+    "howToStep2": "Sélectionnez la/les date(s) requise(s) à l'aide du sélecteur ou saisissez manuellement - dates de début et fin pour le mode différence, ou une seule date de base pour le mode ajout/soustraction",
+    "howToStep3": "Si vous ajoutez ou soustrayez du temps, entrez le nombre d'années, mois, semaines et/ou jours à ajouter ou soustraire de la date de base",
+    "howToStep4": "Cliquez sur 'Calculer' pour traiter instantanément le calcul de date et visualiser le résultat",
+    "howToStep5": "Examinez la répartition détaillée montrant le résultat en plusieurs formats : années/mois/jours, total de jours, jours ouvrables et plus",
+    "faqTitle": "Questions Fréquemment Posées",
+    "faq1Question": "Quelle est la précision de ce calculateur de dates ?",
+    "faq1Answer": "Ce calculateur est complètement précis pour toutes les dates du calendrier grégorien (1582 et après). Il gère correctement les années bissextiles, les durées de mois variables, les années de siècle et tous les cas particuliers du calendrier. Les algorithmes utilisés sont les mêmes que ceux des bibliothèques de dates professionnelles utilisées par les banques, les systèmes légaux et les applications scientifiques.",
+    "faq2Question": "Pourquoi les jours ouvrables sont-ils différents des jours calendaires ?",
+    "faq2Answer": "Les jours ouvrables incluent typiquement seulement du lundi au vendredi, en excluant les week-ends (samedi et dimanche). Si une période s'étend sur 10 jours calendaires mais inclut 2 week-ends, cela ne fait que 6 jours ouvrables. Ce calculateur compte les jours ouvrables mais n'exclut pas les jours fériés, qui varient selon les régions et les pays. Pour des calculs tenant compte des jours fériés, consultez un calendrier des jours fériés pour votre lieu spécifique.",
+    "faq3Question": "Que se passe-t-il lors de l'ajout de mois aux dates de fin de mois ?",
+    "faq3Answer": "Lorsque vous ajoutez des mois à une date comme le 31 janvier, le mois cible peut ne pas avoir autant de jours (février a 28/29). Le calculateur s'ajuste au dernier jour valide du mois cible. Par exemple, 31 janvier + 1 mois = 28 février (ou 29 dans une année bissextile). C'est le comportement standard utilisé par les systèmes financiers et calendaires du monde entier.",
+    "faq4Question": "Comment les années bissextiles affectent-elles les calculs de dates ?",
+    "faq4Answer": "Les années bissextiles se produisent tous les 4 ans, sauf pour les années de siècle (comme 1900, 2100) sauf si elles sont divisibles par 400 (comme 2000). Dans une année bissextile, février a 29 jours au lieu de 28. Le calculateur en tient automatiquement compte lors du calcul des différences de dates ou de l'ajout/soustraction de périodes de temps, garantissant des résultats précis au-delà des limites d'années bissextiles.",
+    "faq5Question": "Puis-je calculer des dates très éloignées dans le passé ou le futur ?",
+    "faq5Answer": "Oui, le calculateur fonctionne pour toute date depuis l'adoption du calendrier grégorien (octobre 1582) jusqu'au futur prévisible. Cependant, sachez que les dates futures très éloignées peuvent ne pas tenir compte des réformes calendaires potentielles, et les dates historiques très anciennes peuvent ne pas correspondre aux archives des régions qui ont adopté le calendrier grégorien à différents moments.",
+    "faq6Question": "Quelle est la différence entre le total de jours et la répartition années/mois/jours ?",
+    "faq6Answer": "Le total de jours est le nombre complet de jours entre deux dates (par ex. 400 jours). La répartition années/mois/jours exprime la même période dans un format plus lisible (par ex. 1 an, 1 mois, 5 jours). Les deux représentent la même durée ; le choix dépend de si vous avez besoin d'un total unique ou d'une répartition détaillée.",
+    "faq7Question": "Pourquoi le calcul des jours ouvrables n'exclut-il pas les jours fériés ?",
+    "faq7Answer": "Les jours fériés varient considérablement selon le pays, la région et même l'industrie. Il n'y a pas de calendrier de jours fériés universel. Notre calculateur exclut les week-ends (samedi-dimanche) comme norme universelle. Pour des calculs nécessitant des exclusions de jours fériés spécifiques, vous devrez tenir compte manuellement des jours fériés pertinents à votre lieu et objectif, ou utiliser un logiciel de calendrier professionnel spécialisé.",
+    "faq8Question": "Comment calculer l'âge exact de quelqu'un avec cet outil ?",
+    "faq8Answer": "Utilisez le mode 'Trouver la Différence de Dates' avec leur date de naissance comme date de début et aujourd'hui (ou toute date spécifique) comme date de fin. Le calculateur montrera leur âge exact en années, mois et jours. Pour des informations d'âge plus détaillées incluant les signes astrologiques et les générations, utilisez notre Calculateur d'Âge dédié."
+  }
+}

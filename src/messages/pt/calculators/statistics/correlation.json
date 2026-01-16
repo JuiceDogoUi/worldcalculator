@@ -3,7 +3,7 @@
   "description": "Calcule o coeficiente de correlação de Pearson (r) entre dois conjuntos de dados. Descubra a força e direção das relações lineares, coeficiente de determinação (R²) e equação da linha de regressão.",
   "meta": {
     "title": "Calculadora de Correlação | Coeficiente de Pearson e R² [2026]",
-    "description": "Calculadora de correlação gratuita com resultados instantâneos. Calcule coeficiente de Pearson, R², linha de regressão e significância estatística. Suporta entrada de dados pareados. Experimente agora!",
+    "description": "Calcule coeficiente de Pearson, R² e linha de regressão com resultados instantâneos. Calculadora gratuita com significância.",
     "keywords": "calculadora de correlação, coeficiente de correlação de pearson, calculadora r quadrado, fórmula coeficiente de correlação, calculadora regressão linear, calculadora estatística, calculadora valor r"
   },
   "inputs": {

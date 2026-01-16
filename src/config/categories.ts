@@ -51,24 +51,22 @@ export const categories: Category[] = [
     color: 'cyan',
     priority: 5, // High - standard deviation, mean, variance (educational, research)
   },
-  // TEMPORARILY HIDDEN - Empty categories (no calculators yet)
-  // Re-enable when calculators are added
-  // {
-  //   id: 'time-date',
-  //   slug: 'time-date',
-  //   translationKey: 'timeDate',
-  //   icon: 'Clock',
-  //   color: 'orange',
-  //   priority: 6, // Medium-High - age, date calculator, countdown (utility)
-  // },
-  // {
-  //   id: 'construction',
-  //   slug: 'construction',
-  //   translationKey: 'construction',
-  //   icon: 'Hammer',
-  //   color: 'amber',
-  //   priority: 7, // Medium-High - square footage, materials (commercial potential)
-  // },
+  {
+    id: 'time-date',
+    slug: 'time-date',
+    translationKey: 'timeDate',
+    icon: 'Clock',
+    color: 'orange',
+    priority: 6, // Medium-High - age, date calculator, countdown (utility)
+  },
+  {
+    id: 'construction',
+    slug: 'construction',
+    translationKey: 'construction',
+    icon: 'Hammer',
+    color: 'amber',
+    priority: 7, // Medium-High - square footage, materials (commercial potential)
+  },
 ]
 
 // Helper functions

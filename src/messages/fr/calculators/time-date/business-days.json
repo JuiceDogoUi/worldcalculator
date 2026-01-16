@@ -1,0 +1,93 @@
+{
+  "title": "Calculateur de Jours Ouvrables",
+  "description": "Calculez les jours ouvrables entre dates ou ajoutez des jours ouvrables à une date. Excluez les week-ends et optionnellement les jours fériés pour une planification précise de projets.",
+  "meta": {
+    "title": "Calculateur Jours Ouvrables - Jours Travaillés Entre [2026]",
+    "description": "Calculez jours ouvrables entre deux dates. Ajoutez/soustrayez jours ouvrables. Excluez week-ends et jours fériés pour planification précise.",
+    "keywords": "calculateur jours ouvrables, calculateur jours travaillés, jours ouvrés, jours ouvrables entre dates, ajouter jours ouvrables, exclure week-ends, calculateur délai projet, calculateur date livraison, calculateur échéance"
+  },
+  "modes": {
+    "between": "Jours Entre Dates",
+    "add": "Ajouter Jours Ouvrables"
+  },
+  "inputs": {
+    "startDate": "Date de Début",
+    "endDate": "Date de Fin",
+    "daysToAdd": "Jours à Ajouter",
+    "excludeWeekends": "Exclure les Week-ends",
+    "excludeHolidays": "Exclure les Jours Fériés"
+  },
+  "actions": {
+    "calculate": "Calculer",
+    "reset": "Réinitialiser",
+    "swap": "Inverser les Dates"
+  },
+  "results": {
+    "title": "Résultat",
+    "businessDays": "Jours Ouvrables",
+    "calendarDays": "Total Jours Calendaires",
+    "weekendDays": "Jours de Week-end",
+    "weekdays": "Jours de Semaine",
+    "holidaysExcluded": "Jours Fériés Exclus",
+    "resultDate": "Date Résultante",
+    "breakdown": "Répartition"
+  },
+  "validation": {
+    "startDateRequired": "Veuillez sélectionner une date de début",
+    "endDateRequired": "Veuillez sélectionner une date de fin",
+    "daysToAddRequired": "Veuillez entrer le nombre de jours"
+  },
+  "disclaimer": {
+    "text": "Ce calculateur exclut les week-ends (samedi et dimanche) par défaut. Les exclusions de jours fériés sont optionnelles et doivent être configurées en fonction de votre calendrier régional ou organisationnel spécifique.",
+    "note": "Les jours ouvrables font généralement référence au lundi au vendredi. Les jours fériés varient selon le pays et la région. Pour des calculs précis tenant compte des jours fériés, activez l'exclusion des jours fériés et vérifiez par rapport à votre calendrier local des jours fériés."
+  },
+  "seo": {
+    "whatIsTitle": "Qu'est-ce qu'un Calculateur de Jours Ouvrables ?",
+    "whatIsContent": "Un calculateur de jours ouvrables détermine le nombre de jours de travail entre deux dates, en excluant les week-ends et optionnellement les jours fériés. Il est essentiel pour la planification de projets, les délais contractuels, les estimations de livraison, les accords de niveau de service (SLA), les périodes de préavis légales et toute situation où seuls les jours ouvrables comptent. Le calculateur peut également ajouter ou soustraire des jours ouvrables à partir d'une date spécifique pour trouver des dates d'échéance ou travailler en arrière à partir d'une date cible.",
+    "howItWorksTitle": "Comment Fonctionne le Calcul des Jours Ouvrables ?",
+    "howItWorksContent": "Le calculateur traite chaque jour entre les dates de début et de fin, en les classant comme jours ouvrables (typiquement lundi-vendredi) ou jours non ouvrables (week-ends : samedi-dimanche). Lorsque l'exclusion des week-ends est activée, samedi et dimanche ne sont pas comptés. Si l'exclusion des jours fériés est activée, les jours fériés spécifiés sont également exclus du décompte. Lors de l'ajout ou de la soustraction de jours ouvrables, le calculateur saute les week-ends et les jours fériés, en aboutissant au prochain jour ouvrable disponible.",
+    "featuresTitle": "Fonctionnalités",
+    "feature1": "Exclut automatiquement les samedis et dimanches des calculs, comptant seulement du lundi au vendredi comme jours ouvrables.",
+    "feature2": "Exclut optionnellement les jours fériés publics et organisationnels des décomptes de jours ouvrables pour une planification précise.",
+    "feature3": "Calculez des dates futures ou passées en ajoutant ou soustrayant un nombre spécifique de jours ouvrables à partir de toute date de départ.",
+    "feature4": "Visualisez une répartition complète montrant le total de jours calendaires, jours ouvrables, jours de week-end et jours fériés exclus.",
+    "useCasesTitle": "Cas d'Usage",
+    "useCase1": "Calculez des délais de projets réalistes, des dates jalons et des calendriers de livraison tenant compte des jours non travaillés.",
+    "useCase2": "Suivez et vérifiez la conformité SLA pour le service client, les tickets de support et les engagements de temps de réponse.",
+    "useCase3": "Calculez les périodes de préavis, les délais de réponse, les prescriptions et les dates d'obligations contractuelles.",
+    "useCase4": "Estimez les dates de livraison pour les promesses d'expédition '3-5 jours ouvrables' et la planification logistique.",
+    "tipsTitle": "Conseils",
+    "tip1": "Les jours ouvrables standard sont du lundi au vendredi, mais certaines industries fonctionnent sur des horaires différents. Ajustez les définitions de week-end si votre entreprise opère sur des jours non traditionnels.",
+    "tip2": "Les jours fériés varient considérablement selon le pays et la région. Les jours fériés fédéraux américains diffèrent des jours fériés britanniques et européens. Configurez en conséquence.",
+    "tip3": "Lors du calcul entre dates, vérifiez si la date de début et la date de fin doivent être incluses dans le décompte. Ce calculateur inclut à la fois les dates de début et de fin.",
+    "tip4": "Nombreuses entreprises ont des jours fériés spécifiques à l'organisation au-delà des jours fériés publics (par ex. fermeture entre Noël et Nouvel An). Tenez-en compte dans la planification.",
+    "howToTitle": "Comment Utiliser le Calculateur de Jours Ouvrables",
+    "howToStepName1": "Sélectionner le Mode de Calcul",
+    "howToStepName2": "Saisir la/les Date(s)",
+    "howToStepName3": "Configurer les Exclusions",
+    "howToStepName4": "Calculer le Résultat",
+    "howToStepName5": "Examiner la Répartition",
+    "howToStep1": "Choisissez de trouver les jours ouvrables entre deux dates ou d'ajouter/soustraire des jours ouvrables à partir d'une date de départ",
+    "howToStep2": "Sélectionnez la/les date(s) requise(s) - dates de début et fin pour le mode différence, ou date de base et nombre de jours pour le mode ajout/soustraction",
+    "howToStep3": "Activez 'Exclure les Week-ends' pour sauter samedi et dimanche, et optionnellement 'Exclure les Jours Fériés' pour la prise en compte des jours fériés",
+    "howToStep4": "Cliquez sur 'Calculer' pour traiter le calcul des jours ouvrables en fonction de vos paramètres",
+    "howToStep5": "Visualisez la répartition détaillée montrant les jours ouvrables, le total de jours calendaires, les week-ends exclus et les jours fériés exclus",
+    "faqTitle": "Questions Fréquemment Posées",
+    "faq1Question": "Qu'est-ce qui compte comme jour ouvrable ?",
+    "faq1Answer": "Un jour ouvrable est typiquement du lundi au vendredi, en excluant les week-ends (samedi et dimanche) et les jours fériés. Cependant, la définition peut varier selon l'industrie et la région. Certaines entreprises opèrent 6 ou 7 jours par semaine. Pour ce calculateur, les jours ouvrables par défaut sont du lundi au vendredi, avec des exclusions de jours fériés optionnelles que vous pouvez personnaliser.",
+    "faq2Question": "Comment tenir compte des jours fériés ?",
+    "faq2Answer": "Activez l'option 'Exclure les Jours Fériés' et le calculateur sautera les jours fériés courants lors du comptage des jours ouvrables. Cependant, les jours fériés varient considérablement selon le pays, l'état et même l'industrie. Pour des calculs précis, vous devrez peut-être vérifier manuellement le calendrier des jours fériés pour votre région spécifique et ajuster le décompte en conséquence.",
+    "faq3Question": "Si j'ajoute 5 jours ouvrables à vendredi, quelle date j'obtiens ?",
+    "faq3Answer": "En partant de vendredi et en ajoutant 5 jours ouvrables : lundi (1), mardi (2), mercredi (3), jeudi (4), vendredi (5). Vous arriveriez au vendredi de la semaine suivante. Le calculateur saute automatiquement les week-ends lors de l'ajout de jours ouvrables, garantissant que le résultat est toujours un jour ouvrable.",
+    "faq4Question": "Le calcul inclut-il les dates de début et de fin ?",
+    "faq4Answer": "Oui, lors du calcul des jours ouvrables entre deux dates, les dates de début et de fin sont toutes deux incluses dans le décompte (en supposant qu'elles soient des jours ouvrables). Par exemple, du lundi au vendredi de la même semaine équivaut à 5 jours ouvrables, incluant à la fois lundi et vendredi.",
+    "faq5Question": "Pourquoi les calculs de jours ouvrables sont-ils importants pour les délais ?",
+    "faq5Answer": "De nombreux contrats, documents légaux et accords de service spécifient des délais en jours ouvrables plutôt qu'en jours calendaires. Un délai de 10 jours ouvrables est en fait 14 jours calendaires s'il inclut deux week-ends. L'utilisation de calculs de jours ouvrables garantit la conformité aux obligations contractuelles et une planification réaliste.",
+    "faq6Question": "Comment les différents pays définissent-ils les jours ouvrables ?",
+    "faq6Answer": "La plupart des pays utilisent du lundi au vendredi comme jours ouvrables standard. Cependant, certains pays du Moyen-Orient utilisent du dimanche au jeudi (avec vendredi-samedi comme week-end). De plus, le nombre et le calendrier des jours fériés varient considérablement - les États-Unis ont 11 jours fériés fédéraux, le Royaume-Uni a 8 jours fériés bancaires, et d'autres pays diffèrent significativement.",
+    "faq7Question": "Puis-je utiliser ceci pour la planification de projets internationaux ?",
+    "faq7Answer": "Oui, mais avec prudence. Lors du travail à travers fuseaux horaires et pays, sachez que les jours fériés et les définitions de jours ouvrables peuvent différer. Par exemple, un délai de '5 jours ouvrables' pourrait signifier des dates calendaires différentes selon l'endroit où se trouvent les parties. Spécifiez les fuseaux horaires et les calendriers de jours fériés dans les accords internationaux.",
+    "faq8Question": "Et si mon entreprise opère les week-ends ?",
+    "faq8Answer": "De nombreuses entreprises (commerce de détail, hôtellerie, santé) opèrent 7 jours par semaine. Dans ces cas, vous pourriez définir les jours ouvrables différemment. Vous pouvez utiliser ce calculateur avec 'Exclure les Week-ends' désactivé pour compter tous les jours calendaires, ou ajuster manuellement en fonction de votre calendrier opérationnel spécifique. Certaines entreprises opèrent du mardi au samedi, excluant dimanche-lundi."
+  }
+}

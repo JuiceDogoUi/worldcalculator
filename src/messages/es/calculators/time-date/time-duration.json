@@ -1,0 +1,86 @@
+{
+  "title": "Calculadora de Duración de Tiempo",
+  "description": "Calcula la duración de tiempo entre dos horas o suma/resta horas y minutos. Perfecto para horas de trabajo, seguimiento de tiempo y cálculos de nómina.",
+  "meta": {
+    "title": "Calculadora de Duración - Horas y Minutos [2026]",
+    "description": "Calcula duración de tiempo entre hora de inicio y fin. Obtén resultados en horas, minutos, horas decimales para nómina. Gestiona turnos nocturnos fácilmente.",
+    "keywords": "calculadora duración tiempo, calculadora horas, diferencia tiempo, calculadora horas trabajo, calculadora hoja de horas, calculadora horas nómina, calculadora tiempo, calculadora horas minutos, calculadora turno nocturno"
+  },
+  "inputs": {
+    "startTime": "Hora de Inicio",
+    "endTime": "Hora de Fin",
+    "crossesMidnight": "Cruza Medianoche (Nocturno)"
+  },
+  "actions": {
+    "calculate": "Calcular Duración",
+    "reset": "Restablecer"
+  },
+  "results": {
+    "title": "Duración de Tiempo",
+    "duration": "Duración",
+    "hours": "horas",
+    "minutes": "minutos",
+    "totalMinutes": "Total de Minutos",
+    "totalSeconds": "Total de Segundos",
+    "decimalHours": "Horas Decimales"
+  },
+  "validation": {
+    "startTimeRequired": "Por favor introduce una hora de inicio",
+    "startTimeInvalid": "Por favor introduce una hora de inicio válida",
+    "endTimeRequired": "Por favor introduce una hora de fin",
+    "endTimeInvalid": "Por favor introduce una hora de fin válida"
+  },
+  "disclaimer": {
+    "text": "Esta calculadora proporciona cálculos de duración de tiempo precisos. Las horas decimales se redondean a 2 decimales para propósitos de nómina.",
+    "note": "Al calcular horas de trabajo, recuerda tener en cuenta descansos no pagados y períodos de comida según las leyes laborales locales."
+  },
+  "seo": {
+    "whatIsTitle": "¿Qué es una Calculadora de Duración de Tiempo?",
+    "whatIsContent": "Una calculadora de duración de tiempo calcula el tiempo transcurrido entre una hora de inicio y una hora de fin. Es esencial para rastrear horas de trabajo, calcular nómina, monitorear tiempo de proyecto, cronometrar eventos y gestionar horarios. La calculadora maneja tanto períodos de tiempo del mismo día como turnos nocturnos que cruzan medianoche. Los resultados se muestran en formato estándar de horas y minutos, así como en horas decimales que es el formato preferido para sistemas de nómina y facturación.",
+    "howItWorksTitle": "¿Cómo Funciona el Cálculo de Duración de Tiempo?",
+    "howItWorksContent": "La calculadora convierte tanto las horas de inicio como de fin en minutos totales desde medianoche, luego encuentra la diferencia. Para cálculos del mismo día, es simplemente hora de fin menos hora de inicio. Para turnos nocturnos que cruzan medianoche, suma 24 horas (1440 minutos) para tener en cuenta correctamente el día siguiente. El resultado se convierte nuevamente en horas y minutos. Las horas decimales se calculan dividiendo los minutos totales por 60, proporcionando un formato adecuado para sistemas de nómina (ej. 7 horas 30 minutos = 7,50 horas decimales).",
+    "featuresTitle": "Características",
+    "feature1": "Ve la duración de tiempo tanto en formato horas:minutos (7:30) como en horas decimales (7,50) para diferentes casos de uso.",
+    "feature2": "Calcula fácilmente la duración para turnos que cruzan medianoche activando la opción 'Cruza Medianoche'.",
+    "feature3": "Las horas decimales están formateadas específicamente para sistemas de nómina y facturación, redondeadas a 2 decimales.",
+    "feature4": "Los resultados se actualizan instantáneamente al introducir o cambiar horas, no es necesario hacer clic en calcular para entradas básicas.",
+    "useCasesTitle": "Casos de Uso",
+    "useCase1": "Calcula horas de trabajo de empleados para procesamiento de nómina, verificación de hojas de horas y cálculos de costos laborales.",
+    "useCase2": "Rastrea horas facturables para autónomos, consultores y contratistas trabajando en proyectos de clientes.",
+    "useCase3": "Determina longitudes de turno, verifica cumplimiento de leyes laborales y planifica horarios de empleados para negocios.",
+    "useCase4": "Calcula duración para reuniones, eventos, clases, tiempo de viaje y planificación de actividades.",
+    "tipsTitle": "Consejos",
+    "tip1": "Para turnos que abarcan medianoche (ej. 23:00 a 7:00), activa el interruptor 'Cruza Medianoche' para calcular correctamente la duración.",
+    "tip2": "La mayoría de sistemas de nómina usan horas decimales. 7,5 horas (no 7,30) representa 7 horas y 30 minutos. Usa el resultado de horas decimales para entrada de nómina.",
+    "tip3": "Esta calculadora muestra tiempo bruto trabajado. Para horas netas, resta manualmente descansos no pagados (típicamente 30-60 minutos por turno).",
+    "tip4": "Usa formato de 24 horas (14:30) en lugar de formato de 12 horas (2:30 PM) para evitar confusión AM/PM y asegurar precisión.",
+    "howToTitle": "Cómo Usar la Calculadora de Duración de Tiempo",
+    "howToStepName1": "Introduce la Hora de Inicio",
+    "howToStepName2": "Introduce la Hora de Fin",
+    "howToStepName3": "Activa Cruce de Medianoche (si es necesario)",
+    "howToStepName4": "Calcula la Duración",
+    "howToStepName5": "Ve Resultados en Múltiples Formatos",
+    "howToStep1": "Introduce la hora de inicio usando el selector de hora o escríbela manualmente en formato HH:MM (ej. 09:00 o 14:30)",
+    "howToStep2": "Introduce la hora de fin en el mismo formato - puede ser cualquier hora del día",
+    "howToStep3": "Si tu período de tiempo cruza medianoche (turno nocturno), activa el interruptor 'Cruza Medianoche' para calcular correctamente",
+    "howToStep4": "Haz clic en 'Calcular Duración' para calcular el tiempo transcurrido entre inicio y fin",
+    "howToStep5": "Ve la duración en horas y minutos (7h 30m), minutos totales (450) y horas decimales para nómina (7,50)",
+    "faqTitle": "Preguntas Frecuentes",
+    "faq1Question": "¿Cómo calculo horas de turno nocturno?",
+    "faq1Answer": "Para turnos que cruzan medianoche (ej. 23:00 a 7:00), activa el interruptor 'Cruza Medianoche'. Esto indica a la calculadora que la hora de fin está en el día siguiente. Sin esta configuración, un turno de 23:00 a 7:00 aparecería negativo o incorrecto. Con ella activada, la calculadora muestra correctamente 8 horas.",
+    "faq2Question": "¿Cuál es la diferencia entre horas estándar y horas decimales?",
+    "faq2Answer": "Las horas estándar usan el formato 'horas:minutos' (ej. 7:30 significa 7 horas y 30 minutos). Las horas decimales expresan la misma duración como número decimal (ej. 7,50). Nota que 7,30 horas decimales NO es lo mismo que 7:30 - en realidad son 7 horas y 18 minutos. Siempre usa el resultado de horas decimales para sistemas de nómina para evitar este error común.",
+    "faq3Question": "¿Cómo tengo en cuenta los descansos de comida?",
+    "faq3Answer": "Esta calculadora muestra el tiempo total entre horas de inicio y fin. Para tener en cuenta descansos no pagados, resta la duración del descanso del total. Por ejemplo, si trabajaste de 9:00 a 17:00 (8 horas) con un almuerzo no pagado de 30 minutos, tu tiempo de trabajo real es 7,50 horas decimales. Algunos empleadores deducen descansos automáticamente; verifica la política de tu empresa.",
+    "faq4Question": "¿Por qué son importantes las horas decimales para la nómina?",
+    "faq4Answer": "Los sistemas de nómina y facturación requieren horas decimales para cálculos precisos. Si trabajaste 7 horas y 30 minutos, introducir '7,30' en nómina solo te acreditaría 7 horas y 18 minutos (7,30 horas). La entrada correcta es 7,50 horas. Esta calculadora convierte automáticamente para prevenir este error común y costoso.",
+    "faq5Question": "¿Puedo calcular tiempo a través de múltiples días?",
+    "faq5Answer": "Esta calculadora está diseñada para duraciones de tiempo dentro de un período de 24 horas (mismo día o cruzando una medianoche). Para duraciones que abarcan múltiples días, necesitarías calcular las horas de cada día por separado o usar una calculadora de fecha-hora que pueda manejar períodos de múltiples días. La mayoría de sistemas de seguimiento de tiempo rastrean horas por día en lugar de períodos continuos de múltiples días.",
+    "faq6Question": "¿Cómo convierto horas decimales de vuelta a horas y minutos?",
+    "faq6Answer": "Para convertir horas decimales a horas y minutos: El número entero son las horas. Multiplica la parte decimal por 60 para obtener minutos. Por ejemplo, 7,75 horas = 7 horas + (0,75 × 60) minutos = 7 horas 45 minutos. Conversiones comunes: 0,25 = 15 min, 0,50 = 30 min, 0,75 = 45 min.",
+    "faq7Question": "¿Qué pasa si mi hora de inicio y fin son iguales?",
+    "faq7Answer": "Si las horas de inicio y fin son idénticas, la duración es 0 horas a menos que actives 'Cruza Medianoche', lo que indicaría un período completo de 24 horas. Mismas horas de inicio y fin con cruce de medianoche típicamente indica un caso especial - verifica que esto sea intencional para tu caso de uso.",
+    "faq8Question": "¿Qué tan precisos son los cálculos de horas decimales?",
+    "faq8Answer": "La calculadora es completamente precisa. Las horas decimales se redondean a 2 decimales, lo que representa precisión al 0,6 minutos más cercano (36 segundos). Esta es la precisión estándar usada por sistemas de nómina y es más que suficiente para propósitos de seguimiento de tiempo. Para aplicaciones que requieren precisión a nivel de segundos, rastrea los segundos reales por separado."
+  }
+}

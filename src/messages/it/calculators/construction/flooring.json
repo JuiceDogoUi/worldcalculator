@@ -1,0 +1,109 @@
+{
+  "title": "Calcolatrice Pavimentazione",
+  "description": "Calcola quanta pavimentazione ti serve per qualsiasi stanza. Ottieni conteggi delle scatole, costi dei materiali e stime di installazione per parquet, laminato, vinile, piastrelle e moquette.",
+  "meta": {
+    "title": "Calcolatrice Pavimentazione Gratuita - Metri Quadri, Scatole e Costo [2026]",
+    "description": "Calcola pavimentazione per parquet, laminato, vinile, piastrelle e moquette. Stima metri quadri, scatole, costi e installazione.",
+    "keywords": "calcolatrice pavimentazione, quanta pavimentazione mi serve, calcolatrice costo pavimento, calcolatrice parquet, calcolatrice laminato, calcolatrice piastrelle, calcolatrice moquette"
+  },
+  "inputs": {
+    "unitSystem": "Sistema di Unità",
+    "roomLength": "Lunghezza Stanza",
+    "roomWidth": "Larghezza Stanza",
+    "flooringType": "Tipo di Pavimentazione",
+    "wastePercent": "Fattore di Spreco"
+  },
+  "flooringTypes": {
+    "hardwood": "Parquet",
+    "laminate": "Laminato",
+    "vinyl": "Vinile / LVT",
+    "tile": "Piastrelle",
+    "carpet": "Moquette"
+  },
+  "units": {
+    "imperial": "Imperiale (piedi)",
+    "metric": "Metrico (m)",
+    "ft": "piedi",
+    "m": "m",
+    "sqft": "piedi²",
+    "sqm": "m²",
+    "boxes": "scatole"
+  },
+  "actions": {
+    "calculate": "Calcola",
+    "reset": "Reimposta"
+  },
+  "results": {
+    "title": "Stima Pavimentazione",
+    "floorArea": "Area del Pavimento",
+    "wasteArea": "Margine di Spreco",
+    "totalArea": "Area Totale Necessaria",
+    "boxesNeeded": "Scatole Necessarie",
+    "coveragePerBox": "Copertura per Scatola",
+    "materialCost": "Costo Materiali",
+    "installationCost": "Costo Installazione",
+    "costRange": "Gamma"
+  },
+  "validation": {
+    "roomLengthRequired": "La lunghezza della stanza è obbligatoria",
+    "roomWidthRequired": "La larghezza della stanza è obbligatoria",
+    "flooringTypeRequired": "Il tipo di pavimentazione è obbligatorio",
+    "wastePercentInvalid": "Il fattore di spreco deve essere tra 0 e 25%"
+  },
+  "disclaimer": {
+    "text": "Questa calcolatrice fornisce stime per scopi di pianificazione. I requisiti effettivi possono variare in base alla forma della stanza, ostacoli e schema di posa. Raccomandiamo di aggiungere 10% extra per lo spreco.",
+    "note": "I prezzi variano per regione e grado di qualità. Consulta un fornitore di pavimenti per preventivi accurati. Alcuni tipi di pavimentazione possono richiedere installazione professionale."
+  },
+  "seo": {
+    "whatIsTitle": "Come Calcolare la Pavimentazione",
+    "whatIsContent": "Calcolare i requisiti di pavimentazione è essenziale per qualsiasi progetto di ristrutturazione. Che tu stia installando parquet, laminato, vinile, piastrelle o moquette, sapere esattamente quanto materiale ti serve evita acquisti eccessivi costosi o frustranti carenze a metà progetto. La pavimentazione è tipicamente venduta a scatola, con ogni scatola che copre una metratura specifica. La nostra calcolatrice ti aiuta a determinare l'area totale necessaria, includendo un fattore di spreco per tagli ed errori, e stima i costi di materiali e installazione.",
+    "formulasTitle": "Formule di Calcolo Pavimentazione",
+    "formula1Name": "Area del Pavimento",
+    "formula1": "Area = Lunghezza × Larghezza",
+    "formula1Desc": "Formula base per stanze rettangolari. Per stanze a L o irregolari, dividi in sezioni e somma le aree.",
+    "formula2Name": "Con Fattore di Spreco",
+    "formula2": "Totale = Area Pavimento × (1 + % Spreco)",
+    "formula2Desc": "Aggiungi sempre 5-15% per spreco da tagli, errori e abbinamento motivi. Motivi complessi o posa diagonale possono richiedere di più.",
+    "formula3Name": "Scatole Necessarie",
+    "formula3": "Scatole = Area Totale ÷ Copertura per Scatola",
+    "formula3Desc": "Arrotonda alla scatola intera superiore. La copertura per scatola varia per prodotto, tipicamente 2-2,5 m² per doghe e 1-1,5 m² per piastrelle.",
+    "typesTitle": "Tipi di Pavimentazione",
+    "type1Name": "Parquet",
+    "type1Desc": "Doghe in legno massiccio o prefinito. Durevole e valorizza l'immobile. Costa 50-150€/m² per materiali. Richiede acclimatazione prima dell'installazione. Può essere restaurato più volte.",
+    "type2Name": "Laminato",
+    "type2Desc": "Alternativa economica al parquet con finitura effetto legno. Costa 10-50€/m². L'installazione a click è adatta al fai-da-te. Non adatto per aree umide senza nucleo impermeabile.",
+    "type3Name": "Vinile / LVT",
+    "type3Desc": "Le piastrelle viniliche di lusso (LVT) sono impermeabili e durevoli. Costa 20-70€/m². Ottimo per cucine, bagni e seminterrati. Facile installazione a click.",
+    "type4Name": "Piastrelle (Ceramica/Gres)",
+    "type4Desc": "Molto durevole e impermeabile. Costa 10-200€/m² a seconda della qualità. Installazione professionale consigliata. Ideale per bagni, cucine e ingressi.",
+    "howToTitle": "Come Usare Questa Calcolatrice",
+    "howToStep1": "Misura lunghezza e larghezza della tua stanza in piedi o metri",
+    "howToStep2": "Seleziona il tipo di pavimentazione dal menu a discesa",
+    "howToStep3": "Regola il cursore del fattore di spreco (10% è standard per la maggior parte delle installazioni)",
+    "howToStep4": "Visualizza l'area totale necessaria e il numero di scatole da acquistare",
+    "howToStep5": "Esamina le stime dei costi di materiali e installazione",
+    "tipsTitle": "Consigli per Progetti di Pavimentazione",
+    "tip1": "Compra sempre 10-15% extra di pavimentazione per coprire tagli, errori e riparazioni future",
+    "tip2": "Acclimata parquet e laminato all'umidità della tua casa per 48-72 ore prima dell'installazione",
+    "tip3": "Considera la direzione delle doghe - perpendicolare alla parete più lunga spesso appare meglio",
+    "tip4": "Verifica i requisiti del sottofondo - alcune pavimentazioni necessitano di sottopavimento o barriere di umidità",
+    "tip5": "Conserva scatole extra dallo stesso lotto per riparazioni future - i lotti di colore possono variare",
+    "faqTitle": "Domande Frequenti",
+    "faq1Question": "Quanta pavimentazione mi serve per una stanza di 4x4 m?",
+    "faq1Answer": "Una stanza di 4x4 m ha 16 metri quadri di superficie. Con un fattore di spreco del 10%, avrai bisogno di 17,6 m² di pavimentazione. Per parquet o laminato (2 m² per scatola), sono 9 scatole. Per vinile (2,5 m² per scatola), circa 7 scatole. Arrotonda sempre per eccesso.",
+    "faq2Question": "Quale fattore di spreco devo usare?",
+    "faq2Answer": "Usa 10% per installazioni dritte standard. Aumenta al 15% per motivi diagonali, stanze con molti angoli o layout complessi. I principianti del fai-da-te dovrebbero aggiungere 15% per tenere conto della curva di apprendimento e degli errori.",
+    "faq3Question": "Quanto costa installare la pavimentazione?",
+    "faq3Answer": "I costi di installazione variano per tipo: Moquette 10-40€/m², Laminato 20-60€/m², Vinile 20-50€/m², Parquet 40-120€/m², Piastrelle 40-150€/m². I costi dipendono dalla complessità, preparazione del sottofondo e tariffe di manodopera regionali.",
+    "faq4Question": "Posso installare la pavimentazione da solo?",
+    "faq4Answer": "Laminato e vinile a click sono adatti al fai-da-te. Il parquet richiede più abilità, e le piastrelle necessitano di strumenti e tecniche professionali. Considera la tua esperienza, le dimensioni della stanza e se gli errori saranno costosi da correggere.",
+    "faq5Question": "Quanti metri quadri ci sono in una scatola di pavimentazione?",
+    "faq5Answer": "La copertura varia per prodotto: Parquet 1,5-2,5 m², Laminato 2-2,5 m², Vinile/LVT 2-3 m², Piastrelle 1-1,5 m². Controlla sempre l'etichetta della scatola per la copertura esatta prima di calcolare quante scatole ti servono.",
+    "faq6Question": "Ho bisogno di un sottopavimento?",
+    "faq6Answer": "La maggior parte dei pavimenti flottanti (laminato, vinile, parquet prefinito) necessita di sottopavimento per ammortizzazione, riduzione del rumore e protezione dall'umidità. Alcuni prodotti hanno il sottopavimento integrato. Le piastrelle richiedono pannello di cemento o un sottofondo approvato.",
+    "faq7Question": "Quale pavimentazione è migliore per cucine e bagni?",
+    "faq7Answer": "Le opzioni impermeabili sono essenziali: Gres porcellanato o ceramica, Piastrelle viniliche di lusso (LVT), o parquet prefinito con nucleo impermeabile. Evita il legno massiccio e il laminato standard nelle aree umide.",
+    "faq8Question": "Quanto tempo richiede l'installazione della pavimentazione?",
+    "faq8Answer": "Una stanza tipica (15-20 m²) richiede 4-8 ore per i professionisti. I progetti fai-da-te richiedono più tempo. Il parquet può necessitare 48-72 ore di acclimatazione preventiva. Prevedi tempo extra per spostare i mobili, preparazione del sottofondo e raccordi."
+  }
+}

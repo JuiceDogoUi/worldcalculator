@@ -1,0 +1,103 @@
+{
+  "title": "Calculadora de Fechas",
+  "description": "Calcula la diferencia entre dos fechas o suma/resta tiempo de una fecha. Obtén resultados en años, meses, semanas y días con cálculos de días laborables.",
+  "meta": {
+    "title": "Calculadora de Fechas - Sumar Días, Diferencia [2026]",
+    "description": "Calcula diferencias entre fechas o suma/resta días, semanas, meses, años. Encuentra días laborables, días de semana y rangos de fechas al instante.",
+    "keywords": "calculadora de fechas, diferencia entre fechas, sumar días a fecha, restar días de fecha, días entre fechas, calculadora rango de fechas, calculadora días laborables, matemáticas de fechas, calculadora calendario"
+  },
+  "inputs": {
+    "startDate": "Fecha de Inicio",
+    "endDate": "Fecha de Fin",
+    "includeEndDate": "Incluir fecha final en el conteo",
+    "operation": "Operación",
+    "add": "Sumar",
+    "subtract": "Restar",
+    "years": "Años",
+    "months": "Meses",
+    "weeks": "Semanas",
+    "days": "Días"
+  },
+  "modes": {
+    "difference": "Encontrar Diferencia de Fechas",
+    "addSubtract": "Sumar/Restar Tiempo"
+  },
+  "operations": {
+    "add": "Sumar Tiempo",
+    "subtract": "Restar Tiempo"
+  },
+  "actions": {
+    "calculate": "Calcular",
+    "reset": "Restablecer",
+    "swap": "Intercambiar Fechas"
+  },
+  "results": {
+    "title": "Resultado",
+    "difference": "Diferencia",
+    "resultDate": "Fecha Resultante",
+    "totalDays": "Total de Días",
+    "totalWeeks": "Total de Semanas",
+    "totalMonths": "Total de Meses",
+    "breakdown": "Desglose de Tiempo",
+    "includesLeapDay": "Incluye día bisiesto"
+  },
+  "validation": {
+    "startDateRequired": "Por favor selecciona una fecha de inicio",
+    "startDateInvalid": "Por favor introduce una fecha de inicio válida",
+    "endDateRequired": "Por favor selecciona una fecha de fin",
+    "endDateInvalid": "Por favor introduce una fecha de fin válida"
+  },
+  "disclaimer": {
+    "text": "Esta calculadora proporciona cálculos de fechas precisos basados en el calendario gregoriano. Los cálculos de días laborables excluyen los fines de semana (sábado y domingo) pero no tienen en cuenta los días festivos.",
+    "note": "Los días laborables se calculan como de lunes a viernes. Para cálculos precisos de días laborables incluyendo festivos regionales, consulta un sistema de calendario con festivos."
+  },
+  "seo": {
+    "whatIsTitle": "¿Qué es una Calculadora de Fechas?",
+    "whatIsContent": "Una calculadora de fechas es una herramienta versátil que realiza aritmética y comparaciones de fechas. Puede calcular la diferencia exacta entre dos fechas (en años, meses, semanas y días) o sumar/restar períodos de tiempo de una fecha específica para encontrar una fecha futura o pasada. Esta calculadora es invaluable para planificación de proyectos, plazos de contratos, verificación de edad, cuentas regresivas de eventos, fechas previstas de embarazo, fechas de vencimiento de garantías y innumerables otras aplicaciones donde los cálculos de fechas precisos importan.",
+    "howItWorksTitle": "¿Cómo Funciona el Cálculo de Fechas?",
+    "howItWorksContent": "La calculadora utiliza el sistema de calendario gregoriano con algoritmos que tienen en cuenta las longitudes variables de los meses (28-31 días) y los años bisiestos (años divisibles por 4, excepto siglos a menos que sean divisibles por 400). Al encontrar la diferencia entre fechas, calcula el tiempo total transcurrido y lo desglosa en años, meses y días. Al sumar o restar tiempo, agrega/resta secuencialmente años, luego meses (ajustando para fechas de fin de mes), luego semanas y finalmente días. Los cálculos de días laborables excluyen los fines de semana por defecto.",
+    "featuresTitle": "Características",
+    "feature1": "Encuentra el lapso de tiempo exacto entre dos fechas, mostrado en años, meses, días, semanas y total de días.",
+    "feature2": "Suma o resta cualquier combinación de años, meses, semanas y días para encontrar fechas pasadas o futuras.",
+    "feature3": "Calcula el número de días de semana (lunes-viernes) entre fechas, excluyendo fines de semana.",
+    "feature4": "Ve resultados en varios formatos: desglose años/meses/días o total de semanas, días, meses o años.",
+    "useCasesTitle": "Casos de Uso",
+    "useCase1": "Calcula cronogramas de proyectos, fechas de hitos y seguimiento de plazos para proyectos empresariales.",
+    "useCase2": "Determina fechas de vencimiento de contratos, plazos de prescripción y períodos de aviso legal.",
+    "useCase3": "Calcula fechas previstas de parto, cuentas regresivas de aniversarios, fechas de jubilación y planificación de eventos de vida.",
+    "useCase4": "Determina fechas de vencimiento de préstamos, períodos de tenencia de inversiones, períodos de acumulación de intereses y calendarios de pagos.",
+    "tipsTitle": "Consejos",
+    "tip1": "Al sumar meses a fechas como 31 de enero, la calculadora puede ajustar al último día del mes objetivo (ej. 28/29 de febrero) si el día no existe.",
+    "tip2": "La calculadora tiene en cuenta automáticamente los años bisiestos. El 29 de febrero existe solo en años bisiestos (divisibles por 4, excepto siglos a menos que sean divisibles por 400).",
+    "tip3": "Los días laborables excluyen fines de semana (sábado-domingo). Para proyectos internacionales, recuerda que las definiciones de días laborables pueden variar por país.",
+    "tip4": "El calendario gregoriano se adoptó en octubre de 1582. Los cálculos de fechas antes de esto pueden no alinearse con registros históricos de regiones que usaban diferentes sistemas de calendario.",
+    "howToTitle": "Cómo Usar la Calculadora de Fechas",
+    "howToStepName1": "Selecciona el Modo de Cálculo",
+    "howToStepName2": "Introduce las Fechas",
+    "howToStepName3": "Introduce Valores de Tiempo (si sumas/restas)",
+    "howToStepName4": "Calcula el Resultado",
+    "howToStepName5": "Revisa el Desglose Detallado",
+    "howToStep1": "Elige 'Encontrar Diferencia de Fechas' para comparar dos fechas, o 'Sumar/Restar Tiempo' para calcular una nueva fecha desde un punto de partida",
+    "howToStep2": "Selecciona las fechas requeridas usando el selector de fechas o introduce manualmente - fechas de inicio y fin para modo diferencia, o una sola fecha base para modo sumar/restar",
+    "howToStep3": "Si sumas o restas tiempo, introduce el número de años, meses, semanas y/o días a sumar o restar de la fecha base",
+    "howToStep4": "Haz clic en 'Calcular' para procesar instantáneamente el cálculo de fecha y ver el resultado",
+    "howToStep5": "Revisa el desglose detallado mostrando el resultado en múltiples formatos: años/meses/días, total de días, días laborables y más",
+    "faqTitle": "Preguntas Frecuentes",
+    "faq1Question": "¿Qué tan precisa es esta calculadora de fechas?",
+    "faq1Answer": "Esta calculadora es completamente precisa para todas las fechas en el calendario gregoriano (1582 en adelante). Maneja correctamente años bisiestos, longitudes variables de meses, años de siglo y todos los casos extremos del calendario. Los algoritmos utilizados son los mismos que los de las bibliotecas de fechas profesionales usadas por bancos, sistemas legales y aplicaciones científicas.",
+    "faq2Question": "¿Por qué los días laborables son diferentes de los días de calendario?",
+    "faq2Answer": "Los días laborables típicamente incluyen solo de lunes a viernes, excluyendo fines de semana (sábado y domingo). Si un período abarca 10 días de calendario pero incluye 2 fines de semana, eso son solo 6 días laborables. Esta calculadora cuenta días laborables pero no excluye festivos públicos, que varían por región y país. Para cálculos con festivos, consulta un calendario de festivos para tu ubicación específica.",
+    "faq3Question": "¿Qué pasa al sumar meses a fechas de fin de mes?",
+    "faq3Answer": "Cuando sumas meses a una fecha como 31 de enero, el mes objetivo puede no tener tantos días (febrero tiene 28/29). La calculadora ajusta al último día válido del mes objetivo. Por ejemplo, 31 de enero + 1 mes = 28 de febrero (o 29 en año bisiesto). Este es el comportamiento estándar usado por sistemas financieros y de calendario en todo el mundo.",
+    "faq4Question": "¿Cómo afectan los años bisiestos a los cálculos de fechas?",
+    "faq4Answer": "Los años bisiestos ocurren cada 4 años, excepto años de siglo (como 1900, 2100) a menos que sean divisibles por 400 (como 2000). En un año bisiesto, febrero tiene 29 días en lugar de 28. La calculadora tiene esto en cuenta automáticamente al calcular diferencias de fechas o sumar/restar períodos de tiempo, asegurando resultados precisos a través de límites de años bisiestos.",
+    "faq5Question": "¿Puedo calcular fechas muy en el pasado o futuro?",
+    "faq5Answer": "Sí, la calculadora funciona para cualquier fecha desde la adopción del calendario gregoriano (octubre de 1582) hasta el futuro previsible. Sin embargo, ten en cuenta que fechas muy distantes en el futuro pueden no tener en cuenta posibles reformas del calendario, y fechas históricas muy antiguas pueden no coincidir con registros de regiones que adoptaron el calendario gregoriano en diferentes momentos.",
+    "faq6Question": "¿Cuál es la diferencia entre días totales y el desglose años/meses/días?",
+    "faq6Answer": "Los días totales es el número completo de días entre dos fechas (ej. 400 días). El desglose años/meses/días expresa el mismo período en un formato más legible (ej. 1 año, 1 mes, 5 días). Ambos representan la misma duración; la elección depende de si necesitas un total único o un desglose detallado.",
+    "faq7Question": "¿Por qué el cálculo de días laborables no excluye festivos?",
+    "faq7Answer": "Los festivos públicos varían dramáticamente por país, región e incluso industria. No hay un calendario de festivos universal. Nuestra calculadora excluye fines de semana (sábado-domingo) como estándar universal. Para cálculos que requieren exclusiones específicas de festivos, necesitarás tener en cuenta manualmente los festivos relevantes para tu ubicación y propósito, o usar software de calendario empresarial especializado.",
+    "faq8Question": "¿Cómo calculo la edad exacta de alguien usando esta herramienta?",
+    "faq8Answer": "Usa el modo 'Encontrar Diferencia de Fechas' con su fecha de nacimiento como fecha de inicio y hoy (o cualquier fecha específica) como fecha de fin. La calculadora mostrará su edad exacta en años, meses y días. Para información de edad más detallada incluyendo signos zodiacales y generaciones, usa nuestra Calculadora de Edad dedicada."
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "title": "Calculadora de Dias Úteis",
+  "description": "Calcule dias úteis entre datas ou adicione dias úteis a uma data. Exclua fins de semana e opcionalmente feriados para planeamento de cronograma de projeto preciso.",
+  "meta": {
+    "title": "Calculadora de Dias Úteis - Dias de Trabalho Entre Datas [2026]",
+    "description": "Calcule dias úteis entre duas datas. Adicione/subtraia dias úteis. Exclua fins de semana e feriados para planeamento de projetos e prazos.",
+    "keywords": "calculadora de dias úteis, calculadora de dias de trabalho, calculadora de dias úteis, dias úteis entre datas, adicionar dias úteis, excluir fins de semana, calculadora de cronograma de projeto, calculadora de data de entrega, calculadora de prazo"
+  },
+  "modes": {
+    "between": "Dias Entre Datas",
+    "add": "Adicionar Dias Úteis"
+  },
+  "inputs": {
+    "startDate": "Data Inicial",
+    "endDate": "Data Final",
+    "daysToAdd": "Dias a Adicionar",
+    "excludeWeekends": "Excluir Fins de Semana",
+    "excludeHolidays": "Excluir Feriados"
+  },
+  "actions": {
+    "calculate": "Calcular",
+    "reset": "Limpar",
+    "swap": "Trocar Datas"
+  },
+  "results": {
+    "title": "Resultado",
+    "businessDays": "Dias Úteis",
+    "calendarDays": "Total de Dias de Calendário",
+    "weekendDays": "Dias de Fim de Semana",
+    "weekdays": "Dias da Semana",
+    "holidaysExcluded": "Feriados Excluídos",
+    "resultDate": "Data Resultante",
+    "breakdown": "Divisão"
+  },
+  "validation": {
+    "startDateRequired": "Por favor selecione uma data inicial",
+    "endDateRequired": "Por favor selecione uma data final",
+    "daysToAddRequired": "Por favor insira o número de dias"
+  },
+  "disclaimer": {
+    "text": "Esta calculadora exclui fins de semana (sábado e domingo) por padrão. As exclusões de feriados são opcionais e devem ser configuradas com base no seu calendário regional ou organizacional específico.",
+    "note": "Dias úteis normalmente referem-se a segunda a sexta-feira. Os feriados públicos variam por país e região. Para cálculos precisos com consciência de feriados, ative a exclusão de feriados e verifique contra o seu calendário de feriados local."
+  },
+  "seo": {
+    "whatIsTitle": "O Que é uma Calculadora de Dias Úteis?",
+    "whatIsContent": "Uma calculadora de dias úteis determina o número de dias de trabalho entre duas datas, excluindo fins de semana e opcionalmente feriados públicos. É essencial para planeamento de projetos, prazos de contratos, estimativas de entrega, acordos de nível de serviço (SLAs), períodos de aviso legal e qualquer situação onde apenas dias úteis contam. A calculadora também pode adicionar ou subtrair dias úteis de uma data específica para encontrar datas limite ou trabalhar para trás a partir de uma data alvo.",
+    "howItWorksTitle": "Como Funciona o Cálculo de Dias Úteis?",
+    "howItWorksContent": "A calculadora processa cada dia entre as datas inicial e final, classificando-os como dias úteis (normalmente segunda a sexta-feira) ou dias não úteis (fins de semana: sábado-domingo). Quando a exclusão de fins de semana está ativada, sábado e domingo não são contados. Se a exclusão de feriados estiver ativada, os feriados especificados também são excluídos da contagem. Ao adicionar ou subtrair dias úteis, a calculadora salta fins de semana e feriados, chegando ao próximo dia útil disponível.",
+    "featuresTitle": "Características",
+    "feature1": "Exclua automaticamente sábados e domingos dos cálculos, contando apenas segunda a sexta-feira como dias úteis.",
+    "feature2": "Opcionalmente exclua feriados públicos e feriados organizacionais das contagens de dias úteis para planeamento preciso.",
+    "feature3": "Calcule datas futuras ou passadas adicionando ou subtraindo um número específico de dias úteis de qualquer data inicial.",
+    "feature4": "Visualize divisão completa mostrando total de dias de calendário, dias úteis, dias de fim de semana e feriados excluídos.",
+    "useCasesTitle": "Casos de Uso",
+    "useCase1": "Calcule cronogramas de projetos realistas, datas de marcos e calendários de entrega tendo em conta dias não úteis.",
+    "useCase2": "Acompanhe e verifique conformidade com SLA para atendimento ao cliente, tickets de suporte e compromissos de tempo de resposta.",
+    "useCase3": "Calcule períodos de aviso, prazos de resposta, estatutos de limitações e datas de obrigação de contrato.",
+    "useCase4": "Estime datas de entrega para promessas de envio de '3-5 dias úteis' e planeamento logístico.",
+    "tipsTitle": "Dicas",
+    "tip1": "Os dias úteis padrão são segunda a sexta-feira, mas algumas indústrias operam em horários diferentes. Ajuste as definições de fim de semana se o seu negócio opera em dias não tradicionais.",
+    "tip2": "Os feriados públicos variam dramaticamente por país e região. Os feriados federais dos EUA diferem dos feriados bancários do Reino Unido e feriados públicos europeus. Configure adequadamente.",
+    "tip3": "Ao calcular entre datas, verifique se a data inicial e a data final devem ser incluídas na contagem. Esta calculadora inclui tanto a data inicial como a final.",
+    "tip4": "Muitas empresas têm feriados específicos da organização além dos feriados públicos (por exemplo, encerramento da empresa entre Natal e Ano Novo). Tenha estes em conta no planeamento.",
+    "howToTitle": "Como Usar a Calculadora de Dias Úteis",
+    "howToStepName1": "Selecionar Modo de Cálculo",
+    "howToStepName2": "Inserir Data(s)",
+    "howToStepName3": "Configurar Exclusões",
+    "howToStepName4": "Calcular Resultado",
+    "howToStepName5": "Rever Divisão",
+    "howToStep1": "Escolha se quer encontrar dias úteis entre duas datas ou adicionar/subtrair dias úteis de uma data inicial",
+    "howToStep2": "Selecione a(s) data(s) necessária(s) - datas inicial e final para modo de diferença, ou data base e número de dias para modo adicionar/subtrair",
+    "howToStep3": "Ative 'Excluir Fins de Semana' para saltar sábado e domingo, e opcionalmente 'Excluir Feriados' para consciência de feriados públicos",
+    "howToStep4": "Clique em 'Calcular' para processar o cálculo de dias úteis com base nas suas definições",
+    "howToStep5": "Visualize a divisão detalhada mostrando dias úteis, total de dias de calendário, fins de semana excluídos e feriados excluídos",
+    "faqTitle": "Perguntas Frequentes",
+    "faq1Question": "O que conta como um dia útil?",
+    "faq1Answer": "Um dia útil é normalmente segunda a sexta-feira, excluindo fins de semana (sábado e domingo) e feriados públicos. No entanto, a definição pode variar por indústria e região. Algumas empresas operam 6 ou 7 dias por semana. Para esta calculadora, os dias úteis por padrão são segunda a sexta-feira, com exclusões de feriados opcionais que pode personalizar.",
+    "faq2Question": "Como tenho em conta feriados públicos?",
+    "faq2Answer": "Ative a opção 'Excluir Feriados' e a calculadora saltará feriados públicos comuns ao contar dias úteis. No entanto, os feriados variam significativamente por país, estado e até indústria. Para cálculos precisos, pode precisar verificar manualmente o calendário de feriados para a sua região específica e ajustar a contagem adequadamente.",
+    "faq3Question": "Se adicionar 5 dias úteis a sexta-feira, que data obtenho?",
+    "faq3Answer": "Começando de sexta-feira e adicionando 5 dias úteis: segunda-feira (1), terça-feira (2), quarta-feira (3), quinta-feira (4), sexta-feira (5). Chegaria à sexta-feira da semana seguinte. A calculadora salta automaticamente fins de semana ao adicionar dias úteis, garantindo que o resultado é sempre um dia útil.",
+    "faq4Question": "O cálculo inclui as datas inicial e final?",
+    "faq4Answer": "Sim, ao calcular dias úteis entre duas datas, tanto a data inicial como a final são incluídas na contagem (assumindo que são dias úteis). Por exemplo, segunda-feira a sexta-feira da mesma semana equivale a 5 dias úteis, incluindo tanto segunda-feira como sexta-feira.",
+    "faq5Question": "Porque é que os cálculos de dias úteis são importantes para prazos?",
+    "faq5Answer": "Muitos contratos, documentos legais e acordos de serviço especificam prazos em dias úteis em vez de dias de calendário. Um prazo de 10 dias úteis são na verdade 14 dias de calendário se incluir dois fins de semana. Usar cálculos de dias úteis garante conformidade com obrigações contratuais e planeamento realista.",
+    "faq6Question": "Como é que diferentes países definem dias úteis?",
+    "faq6Answer": "A maioria dos países usa segunda a sexta-feira como dias úteis padrão. No entanto, alguns países do Médio Oriente usam domingo a quinta-feira (com sexta-sábado como fim de semana). Além disso, o número e calendário de feriados públicos varia amplamente - os EUA têm 11 feriados federais, o Reino Unido tem 8 feriados bancários, e outros países diferem significativamente.",
+    "faq7Question": "Posso usar isto para planeamento de projetos internacionais?",
+    "faq7Answer": "Sim, mas com cautela. Ao trabalhar através de fusos horários e países, esteja ciente que feriados e definições de dias úteis podem diferir. Por exemplo, um prazo de '5 dias úteis' pode significar diferentes datas de calendário dependendo de onde as partes estão localizadas. Especifique fusos horários e calendários de feriados em acordos internacionais.",
+    "faq8Question": "E se o meu negócio opera em fins de semana?",
+    "faq8Answer": "Muitos negócios (retalho, hospitalidade, saúde) operam 7 dias por semana. Nestes casos, pode definir dias úteis de forma diferente. Pode usar esta calculadora com 'Excluir Fins de Semana' desativado para contar todos os dias de calendário, ou ajustar manualmente com base no seu horário operacional específico. Algumas empresas operam terça a sábado, excluindo domingo-segunda."
+  }
+}

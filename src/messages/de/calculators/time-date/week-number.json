@@ -1,0 +1,93 @@
+{
+  "title": "Kalenderwoche-Rechner",
+  "description": "Finden Sie die ISO-Kalenderwoche für jedes Datum, entdecken Sie welche Woche des Jahres es ist und erhalten Sie vollständige Kalenderwochen-Informationen einschließlich Quartal und Tag des Jahres.",
+  "meta": {
+    "title": "Kalenderwoche-Rechner - ISO-Woche des Jahres finden [2026]",
+    "description": "Berechnen Sie die ISO-Kalenderwoche für jedes Datum. Finden Sie heraus, welche Woche des Jahres es ist, Tag des Jahres, Quartal und Wochendatumsbereich. Kostenlos.",
+    "keywords": "Kalenderwoche Rechner, ISO Kalenderwoche, Woche des Jahres, Kalenderwoche, welche Woche ist es, Wochen Rechner, ISO 8601, Tag des Jahres, Quartal Rechner, Wochendatum"
+  },
+  "inputs": {
+    "date": "Datum wählen",
+    "today": "Heute"
+  },
+  "actions": {
+    "calculate": "Berechnen",
+    "reset": "Zurücksetzen"
+  },
+  "results": {
+    "weekNumber": "Kalenderwoche",
+    "week": "Woche",
+    "of": "von",
+    "isoYear": "ISO-Jahr",
+    "dayOfWeek": "Wochentag",
+    "dayOfYear": "Tag des Jahres",
+    "quarter": "Quartal",
+    "weekRange": "Wochendatumsbereich",
+    "currentWeek": "Dies ist die aktuelle Woche"
+  },
+  "daysOfWeek": {
+    "monday": "Montag",
+    "tuesday": "Dienstag",
+    "wednesday": "Mittwoch",
+    "thursday": "Donnerstag",
+    "friday": "Freitag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag"
+  },
+  "validation": {
+    "dateRequired": "Bitte wählen Sie ein Datum"
+  },
+  "disclaimer": {
+    "text": "Dieser Rechner verwendet den ISO 8601-Standard für Kalenderwochen. Woche 1 ist die erste Woche mit mindestens 4 Tagen im neuen Jahr, und Wochen beginnen immer montags.",
+    "note": "Es gibt verschiedene Wochennummerierungssysteme. Die USA verwenden oft Wochen, die sonntags beginnen. Dieser Rechner verwendet ISO 8601, den internationalen Standard, der in Wirtschaft, Finanzen und dem größten Teil Europas verwendet wird."
+  },
+  "seo": {
+    "whatIsTitle": "Was ist ein Kalenderwoche-Rechner?",
+    "whatIsContent": "Ein Kalenderwoche-Rechner bestimmt, in welche Woche des Jahres ein bestimmtes Datum fällt, gemäß dem internationalen ISO 8601-Standard. Kalenderwochen reichen von 1 bis 52 (oder 53 in einigen Jahren). Der Rechner liefert auch verwandte Informationen wie das ISO-Jahr, den Wochentag, den Tag des Jahres (1-365/366), das Quartal (Q1-Q4) und den genauen Datumsbereich dieser Woche (Montag bis Sonntag). Dies ist unverzichtbar für Geschäftsplanung, Projektmanagement, Kalenderkoordination und jede Situation, die standardisierte Wochenreferenzen erfordert.",
+    "howItWorksTitle": "Wie funktioniert die ISO-Wochennummerierung?",
+    "howItWorksContent": "Der ISO 8601-Standard definiert spezifische Regeln: Woche 1 ist die erste Woche des Jahres, die mindestens 4 Tage des neuen Jahres enthält (oder alternativ die erste Woche, die den ersten Donnerstag enthält). Alle Wochen beginnen montags und enden sonntags. Dies bedeutet, dass frühe Januar-Tage zur letzten Woche des Vorjahres gehören können, und späte Dezember-Tage zu Woche 1 des nächsten Jahres gehören können. Die meisten Jahre haben 52 Wochen, aber Jahre, die donnerstags beginnen, oder Schaltjahre, die mittwochs beginnen, haben 53 Wochen.",
+    "featuresTitle": "Funktionen",
+    "feature1": "Berechnen Sie die ISO-Kalenderwoche für jedes Datum sofort mit dem internationalen Standard",
+    "feature2": "Zeigen Sie Tag des Jahres (1-365/366) und Quartal (Q1-Q4) Informationen an",
+    "feature3": "Zeigen Sie den Wochendatumsbereich von Montag bis Sonntag für jede Woche",
+    "feature4": "Funktioniert mit jedem Datum - vergangene, gegenwärtige oder zukünftige Jahre",
+    "useCasesTitle": "Anwendungsfälle",
+    "useCase1": "Projektplanung, Sprint-Zyklen und Meilenstein-Verfolgung nach Kalenderwoche",
+    "useCase2": "Geschäftsberichterstattung, Quartalsplanung und Finanzkalender-Koordination",
+    "useCase3": "Versand, Logistik und Lieferkettenplanung mit standardisierten Wochen",
+    "useCase4": "Fertigung, Produktionsläufe und Inventar-Zyklusplanung",
+    "tipsTitle": "Tipps",
+    "tip1": "Woche 1 ist die erste Woche mit mindestens 4 Tagen im Januar (enthält ersten Donnerstag)",
+    "tip2": "ISO-Wochen beginnen immer montags und enden sonntags",
+    "tip3": "Einige Jahre haben 53 Wochen - solche, die donnerstags beginnen, oder Schaltjahre, die mittwochs beginnen",
+    "tip4": "Das ISO-Jahr kann sich vom Kalenderjahr Ende Dezember und Anfang Januar unterscheiden",
+    "faqTitle": "Häufig gestellte Fragen",
+    "faq1Question": "Welche Kalenderwoche ist heute?",
+    "faq1Answer": "Wählen Sie das heutige Datum und klicken Sie auf Berechnen, um die aktuelle ISO-Kalenderwoche zu sehen. Die Kalenderwoche ändert sich jeden Montag, da ISO-Wochen montags beginnen. Wenn heute zum Beispiel Mitte März ist, befinden Sie sich möglicherweise in Woche 11 oder 12 des Jahres. Der Rechner zeigt sowohl die Kalenderwoche als auch den genauen Montag-Sonntag-Bereich für diese Woche.",
+    "faq2Question": "Warum zeigt der 1. Januar manchmal Woche 52 oder 53?",
+    "faq2Answer": "Im ISO 8601-System ist Woche 1 die erste Woche mit mindestens 4 Tagen im neuen Jahr. Wenn der 1. Januar auf Freitag, Samstag oder Sonntag fällt, gehört er zur letzten Woche des Vorjahres (Woche 52 oder 53), da diese Woche mehr Tage im alten Jahr als im neuen Jahr hat. Dies stellt sicher, dass Wochen nie über Jahre hinweg aufgeteilt werden.",
+    "faq3Question": "Wie viele Wochen hat ein Jahr?",
+    "faq3Answer": "Die meisten Jahre haben 52 Wochen (52 Wochen × 7 Tage = 364 Tage). Einige Jahre haben jedoch 53 Wochen. Dies tritt auf, wenn das Jahr donnerstags beginnt oder wenn es ein Schaltjahr ist, das mittwochs beginnt. Etwa 71% der Jahre haben 52 Wochen und 29% haben 53 Wochen.",
+    "faq4Question": "Was ist das ISO-Jahr?",
+    "faq4Answer": "Das ISO-Jahr ist das Jahr, zu dem die ISO-Woche gehört. Es stimmt normalerweise mit dem Kalenderjahr überein, kann sich aber für Daten Anfang Januar und Ende Dezember unterscheiden. Zum Beispiel könnte der 30. Dezember 2024 zu ISO-Woche 1 von 2025 gehören, daher ist sein ISO-Jahr 2025, obwohl das Kalenderjahr 2024 ist.",
+    "faq5Question": "Warum beginnen Wochen montags in ISO 8601?",
+    "faq5Answer": "ISO 8601 bestimmt Montag als ersten Tag der Woche gemäß dem internationalen Standard, der in den meisten Teilen der Welt verwendet wird, insbesondere in Wirtschaft und Industrie. Dies unterscheidet sich von einigen Ländern (insbesondere den USA), wo Wochen traditionell sonntags beginnen.",
+    "faq6Question": "Wie werden Quartale (Q1-Q4) bestimmt?",
+    "faq6Answer": "Quartale teilen das Jahr in vier 3-Monats-Perioden: Q1 (Januar-März), Q2 (April-Juni), Q3 (Juli-September) und Q4 (Oktober-Dezember). Diese basieren auf dem Kalendermonat, nicht auf der ISO-Woche. Quartale werden in der Wirtschaft weit verbreitet für Finanzberichterstattung verwendet.",
+    "faq7Question": "Was ist der Unterschied zwischen Tag der Woche und Tag des Jahres?",
+    "faq7Answer": "Tag der Woche ist, welcher Tag innerhalb der 7-Tage-Woche (Montag bis Sonntag). Tag des Jahres ist, welcher Tag innerhalb des 365/366-Tage-Jahres, nummeriert 1-365 (oder 1-366 in Schaltjahren). Zum Beispiel ist der 1. Februar Tag 32 des Jahres.",
+    "faq8Question": "Kann ich dies für Projektmanagement verwenden?",
+    "faq8Answer": "Ja, Kalenderwochen sind äußerst nützlich für Projektmanagement. Sie bieten eine standardisierte Möglichkeit, Zeiträume zu referenzieren. Anstatt 'die Woche vom 15.-21. März' zu sagen, können Sie 'Woche 12' sagen, was klarer und prägnanter ist. Viele Projektmanagement-Tools verwenden ISO-Kalenderwochen.",
+    "howToTitle": "So finden Sie die Kalenderwoche",
+    "howToStepName1": "Datum wählen",
+    "howToStepName2": "Kalenderwoche ansehen",
+    "howToStepName3": "Tages-Informationen prüfen",
+    "howToStepName4": "Wochenbereich sehen",
+    "howToStepName5": "Quartal notieren",
+    "howToStep1": "Geben Sie das Datum ein, für das Sie die Kalenderwoche finden möchten, mit dem Datumsauswahl-Tool",
+    "howToStep2": "Die ISO-Kalenderwoche wird sofort angezeigt und zeigt, welche Woche des Jahres es ist",
+    "howToStep3": "Überprüfen Sie den Wochentag und den Tag des Jahres (1-365/366) für das ausgewählte Datum",
+    "howToStep4": "Sehen Sie den vollständigen Wochendatumsbereich, der Montag bis Sonntag dieser Woche zeigt",
+    "howToStep5": "Prüfen Sie, in welches Quartal (Q1-Q4) das Datum für Finanz- oder Geschäftsplanung fällt"
+  }
+}

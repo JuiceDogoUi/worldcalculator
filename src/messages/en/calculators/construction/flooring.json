@@ -1,0 +1,109 @@
+{
+  "title": "Flooring Calculator",
+  "description": "Calculate how much flooring you need for any room. Get box counts, material costs, and installation estimates for hardwood, laminate, vinyl, tile, and carpet.",
+  "meta": {
+    "title": "Free Flooring Calculator - Square Feet, Boxes & Cost [2026]",
+    "description": "Calculate flooring for hardwood, laminate, vinyl, tile, or carpet. Get box counts, material costs, and installation estimates. Free calculator.",
+    "keywords": "flooring calculator, how much flooring do I need, flooring cost calculator, hardwood calculator, laminate calculator, tile calculator, carpet calculator, flooring estimator"
+  },
+  "inputs": {
+    "unitSystem": "Unit System",
+    "roomLength": "Room Length",
+    "roomWidth": "Room Width",
+    "flooringType": "Flooring Type",
+    "wastePercent": "Waste Factor"
+  },
+  "flooringTypes": {
+    "hardwood": "Hardwood",
+    "laminate": "Laminate",
+    "vinyl": "Vinyl / LVP",
+    "tile": "Tile",
+    "carpet": "Carpet"
+  },
+  "units": {
+    "imperial": "Imperial (ft)",
+    "metric": "Metric (m)",
+    "ft": "ft",
+    "m": "m",
+    "sqft": "sq ft",
+    "sqm": "m²",
+    "boxes": "boxes"
+  },
+  "actions": {
+    "calculate": "Calculate",
+    "reset": "Reset"
+  },
+  "results": {
+    "title": "Flooring Estimate",
+    "floorArea": "Floor Area",
+    "wasteArea": "Waste Allowance",
+    "totalArea": "Total Area Needed",
+    "boxesNeeded": "Boxes Needed",
+    "coveragePerBox": "Coverage per Box",
+    "materialCost": "Material Cost",
+    "installationCost": "Installation Cost",
+    "costRange": "Range"
+  },
+  "validation": {
+    "roomLengthRequired": "Room length is required",
+    "roomWidthRequired": "Room width is required",
+    "flooringTypeRequired": "Flooring type is required",
+    "wastePercentInvalid": "Waste factor must be between 0 and 25%"
+  },
+  "disclaimer": {
+    "text": "This calculator provides estimates for planning purposes. Actual flooring requirements may vary based on room shape, obstacles, and installation pattern. We recommend adding 10% extra for waste.",
+    "note": "Prices vary by region and quality grade. Consult with a flooring supplier for accurate quotes. Professional installation may be required for some flooring types."
+  },
+  "seo": {
+    "whatIsTitle": "How to Calculate Flooring",
+    "whatIsContent": "Calculating flooring requirements is essential for any home renovation project. Whether you're installing hardwood, laminate, vinyl, tile, or carpet, knowing exactly how much material you need prevents costly overbuying or frustrating shortages mid-project. Flooring is typically sold by the box, with each box covering a specific square footage. Our calculator helps you determine the total area needed, including a waste factor for cuts and mistakes, and estimates both material and installation costs.",
+    "formulasTitle": "Flooring Calculation Formulas",
+    "formula1Name": "Floor Area",
+    "formula1": "Area = Length × Width",
+    "formula1Desc": "Basic formula for rectangular rooms. For L-shaped or irregular rooms, divide into sections and add the areas together.",
+    "formula2Name": "With Waste Factor",
+    "formula2": "Total = Floor Area × (1 + Waste %)",
+    "formula2Desc": "Always add 5-15% for waste due to cuts, mistakes, and pattern matching. Complex patterns or diagonal installation may require more.",
+    "formula3Name": "Boxes Needed",
+    "formula3": "Boxes = Total Area ÷ Coverage per Box",
+    "formula3Desc": "Round up to the nearest whole box. Coverage per box varies by product, typically 20-25 sq ft for planks and 10-15 sq ft for tile.",
+    "typesTitle": "Flooring Types",
+    "type1Name": "Hardwood",
+    "type1Desc": "Solid or engineered wood planks. Durable and adds home value. Costs $5-15/sq ft for materials. Requires acclimation before installation. Can be refinished multiple times.",
+    "type2Name": "Laminate",
+    "type2Desc": "Affordable alternative to hardwood with wood-look finish. Costs $1-5/sq ft. Click-lock installation is DIY-friendly. Not suitable for wet areas without waterproof core.",
+    "type3Name": "Vinyl / LVP",
+    "type3Desc": "Luxury Vinyl Plank (LVP) is waterproof and durable. Costs $2-7/sq ft. Great for kitchens, bathrooms, and basements. Easy click-lock installation.",
+    "type4Name": "Tile (Ceramic/Porcelain)",
+    "type4Desc": "Highly durable and waterproof. Costs $1-20/sq ft depending on quality. Professional installation recommended. Ideal for bathrooms, kitchens, and entryways.",
+    "howToTitle": "How to Use This Calculator",
+    "howToStep1": "Measure your room's length and width in feet or meters",
+    "howToStep2": "Select your flooring type from the dropdown menu",
+    "howToStep3": "Adjust the waste factor slider (10% is standard for most installations)",
+    "howToStep4": "View the total area needed and number of boxes to purchase",
+    "howToStep5": "Review material and installation cost estimates",
+    "tipsTitle": "Tips for Flooring Projects",
+    "tip1": "Always buy 10-15% extra flooring to account for cuts, mistakes, and future repairs",
+    "tip2": "Acclimate hardwood and laminate to your home's humidity for 48-72 hours before installation",
+    "tip3": "Consider the direction of planks - perpendicular to the longest wall often looks best",
+    "tip4": "Check subfloor requirements - some flooring needs underlayment or moisture barriers",
+    "tip5": "Save extra boxes from the same batch for future repairs - dye lots can vary",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Question": "How much flooring do I need for a 12x12 room?",
+    "faq1Answer": "A 12x12 ft room has 144 square feet of floor area. With a 10% waste factor, you'll need 158 sq ft of flooring. For hardwood or laminate (20 sq ft per box), that's 8 boxes. For vinyl (24 sq ft per box), about 7 boxes. Always round up.",
+    "faq2Question": "What waste factor should I use?",
+    "faq2Answer": "Use 10% for standard straight installations. Increase to 15% for diagonal patterns, rooms with many corners, or complex layouts. First-time DIYers should add 15% to account for learning curves and mistakes.",
+    "faq3Question": "How much does flooring cost to install?",
+    "faq3Answer": "Installation costs vary by type: Carpet $1-4/sq ft, Laminate $2-6/sq ft, Vinyl $2-5/sq ft, Hardwood $4-12/sq ft, Tile $4-15/sq ft. Costs depend on complexity, subfloor prep, and regional labor rates.",
+    "faq4Question": "Can I install flooring myself?",
+    "faq4Answer": "Click-lock laminate and vinyl are DIY-friendly. Hardwood requires more skill, and tile needs professional tools and technique. Consider your experience, the room size, and whether mistakes will be costly to fix.",
+    "faq5Question": "How many square feet are in a box of flooring?",
+    "faq5Answer": "Coverage varies by product: Hardwood 15-25 sq ft, Laminate 20-24 sq ft, Vinyl/LVP 20-30 sq ft, Tile 10-15 sq ft. Always check the box label for exact coverage before calculating how many boxes you need.",
+    "faq6Question": "Do I need underlayment?",
+    "faq6Answer": "Most floating floors (laminate, vinyl, engineered hardwood) need underlayment for cushioning, sound reduction, and moisture protection. Some products have underlayment attached. Tile requires cement board or an approved substrate.",
+    "faq7Question": "Which flooring is best for kitchens and bathrooms?",
+    "faq7Answer": "Waterproof options are essential: Porcelain or ceramic tile, Luxury Vinyl Plank (LVP), or engineered hardwood with a waterproof core. Avoid solid hardwood and standard laminate in wet areas.",
+    "faq8Question": "How long does flooring installation take?",
+    "faq8Answer": "A typical room (150-200 sq ft) takes 4-8 hours for professionals. DIY projects take longer. Hardwood may need 48-72 hours for acclimation beforehand. Allow extra time for furniture moving, subfloor prep, and transitions."
+  }
+}

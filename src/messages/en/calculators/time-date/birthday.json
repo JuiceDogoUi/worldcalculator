@@ -1,0 +1,95 @@
+{
+  "title": "Birthday Calculator",
+  "description": "Find your next birthday, days until birthday, day of the week, upcoming milestones, and total days lived. Plan perfect birthday celebrations.",
+  "meta": {
+    "title": "Birthday Calculator - Days Until Birthday & Milestones [2026]",
+    "description": "Calculate days until your next birthday, find milestone birthdays, discover total days lived, and plan celebrations. Free birthday countdown tool.",
+    "keywords": "birthday calculator, days until birthday, birthday countdown, next birthday, milestone birthday, golden birthday, birthday planning, days lived calculator, age milestone calculator"
+  },
+  "inputs": {
+    "birthDate": "Date of Birth",
+    "currentDate": "Calculate From"
+  },
+  "actions": {
+    "calculate": "Calculate",
+    "reset": "Reset"
+  },
+  "results": {
+    "title": "Birthday Information",
+    "daysUntil": "Days Until Birthday",
+    "days": "days",
+    "nextBirthday": "Next Birthday",
+    "willTurn": "You will turn",
+    "bornOn": "You were born on",
+    "totalDaysLived": "Total Days Lived",
+    "birthdayToday": "Happy Birthday! Today is your birthday!",
+    "upcomingMilestones": "Upcoming Milestone Birthdays",
+    "age": "years old"
+  },
+  "daysOfWeek": {
+    "sunday": "Sunday",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday"
+  },
+  "validation": {
+    "birthDateRequired": "Please select your birth date",
+    "birthDateFuture": "Birth date cannot be in the future"
+  },
+  "disclaimer": {
+    "text": "This calculator provides accurate birthday calculations based on the Gregorian calendar. Milestone ages are based on common cultural celebrations.",
+    "note": "If you were born on February 29 (leap day), your birthday is celebrated on February 28 or March 1 in non-leap years, depending on local custom."
+  },
+  "seo": {
+    "whatIsTitle": "What is a Birthday Calculator?",
+    "whatIsContent": "A birthday calculator is a specialized tool that provides comprehensive birthday information based on your date of birth. It shows when your next birthday falls, how many days until that date, what day of the week it will be, and your age on that birthday. It also calculates upcoming milestone birthdays and total days lived, helping with birthday party planning and milestone celebrations.",
+    "howItWorksTitle": "How Does Birthday Calculation Work?",
+    "howItWorksContent": "The calculator uses your birth date and the current date to determine when your next birthday occurs. If your birthday hasn't happened yet this year, it's the anniversary of your birth date in the current year. If it has already passed, the next birthday is in the following year. The calculator counts the days until that date, determines the day of the week, and identifies upcoming milestone birthdays.",
+    "featuresTitle": "Features",
+    "feature1": "See exactly how many days until your next birthday with automatic countdown",
+    "feature2": "Discover upcoming milestone birthdays (sweet sixteen, 21st, 50th, 100th)",
+    "feature3": "Find out what day of the week your next birthday falls on",
+    "feature4": "Calculate total days you've been alive for interesting life perspective",
+    "useCasesTitle": "Use Cases",
+    "useCase1": "Plan birthday celebrations by knowing the day of the week and time remaining",
+    "useCase2": "Identify milestone birthdays years in advance for special celebration planning",
+    "useCase3": "Track birthday countdowns for yourself and loved ones",
+    "useCase4": "Understand your lifetime in days for reflection and perspective",
+    "tipsTitle": "Tips",
+    "tip1": "Your golden birthday is when you turn the age matching your birth day (e.g., 15 on the 15th)",
+    "tip2": "If born on February 29, celebrate on February 28 or March 1 in non-leap years",
+    "tip3": "Weekend birthdays are easier for parties; weekday ones may need adjusted dates",
+    "tip4": "Some celebrate half-birthdays, especially children born near major holidays",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Question": "How many days until my next birthday?",
+    "faq1Answer": "Enter your birth date in the calculator, and it will show exactly how many days remain until your next birthday. The countdown automatically accounts for whether your birthday has already occurred this year or is still upcoming.",
+    "faq2Question": "What is a milestone birthday?",
+    "faq2Answer": "Milestone birthdays are culturally significant ages marking important life transitions. Common milestones include: Sweet Sixteen (16), legal adulthood (18), 21st, Quarter Century (25), 30th, 40th, Golden Jubilee (50), Diamond Jubilee (60), retirement age (65), and Centenarian (100).",
+    "faq3Question": "What is a golden birthday?",
+    "faq3Answer": "A golden birthday occurs when you turn the same age as the day of the month you were born. For example, if you were born on the 15th, your golden birthday is when you turn 15. If born on the 28th, it's your 28th birthday.",
+    "faq4Question": "What if I was born on February 29 (leap day)?",
+    "faq4Answer": "If you were born on February 29, you only have a 'real' birthday every 4 years during leap years. In non-leap years, people typically celebrate on February 28 or March 1. Legally, you age normally every year.",
+    "faq5Question": "On what day of the week was I born?",
+    "faq5Answer": "Enter your birth date and the calculator will show you what day of the week you were born on. This is calculated using the Gregorian calendar. Many people find it interesting to know they were born on a particular day.",
+    "faq6Question": "How can I plan a birthday party with this calculator?",
+    "faq6Answer": "The calculator shows what day of the week your birthday falls on, helping you decide whether to celebrate on the actual day or the nearest weekend. It also shows how much time you have to plan.",
+    "faq7Question": "How many days have I been alive?",
+    "faq7Answer": "The calculator shows your total days lived from your birth date to today. For example, someone who is 30 years old has lived approximately 10,950 days (accounting for leap years).",
+    "faq8Question": "Why celebrate milestone birthdays?",
+    "faq8Answer": "Milestone birthdays mark significant life transitions and achievements. They provide natural moments for reflection, celebration, and gathering loved ones. Sweet Sixteen, 18, 21, 50, and 100 are particularly significant occasions.",
+    "howToTitle": "How to Use the Birthday Calculator",
+    "howToStepName1": "Enter Birth Date",
+    "howToStepName2": "Click Calculate",
+    "howToStepName3": "View Countdown",
+    "howToStepName4": "See Birthday Details",
+    "howToStepName5": "Check Milestones",
+    "howToStep1": "Enter your date of birth using the date picker or type it manually",
+    "howToStep2": "Click 'Calculate' to generate your birthday information",
+    "howToStep3": "View the countdown showing days until your next birthday",
+    "howToStep4": "See the day of week and what age you'll turn",
+    "howToStep5": "Review upcoming milestone birthdays to plan ahead"
+  }
+}

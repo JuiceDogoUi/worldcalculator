@@ -1,0 +1,86 @@
+{
+  "title": "Time Duration Calculator",
+  "description": "Calculate time duration between two times or add/subtract hours and minutes. Perfect for work hours, time tracking, and payroll calculations.",
+  "meta": {
+    "title": "Time Duration Calculator - Hours & Minutes [2026]",
+    "description": "Calculate time duration between start and end times. Get results in hours, minutes, decimal hours for payroll. Handle overnight shifts easily.",
+    "keywords": "time duration calculator, hours calculator, time difference calculator, work hours calculator, timesheet calculator, payroll hours calculator, time calculator, hours and minutes calculator, overnight shift calculator"
+  },
+  "inputs": {
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "crossesMidnight": "Crosses Midnight (Overnight)"
+  },
+  "actions": {
+    "calculate": "Calculate Duration",
+    "reset": "Reset"
+  },
+  "results": {
+    "title": "Time Duration",
+    "duration": "Duration",
+    "hours": "hours",
+    "minutes": "minutes",
+    "totalMinutes": "Total Minutes",
+    "totalSeconds": "Total Seconds",
+    "decimalHours": "Decimal Hours"
+  },
+  "validation": {
+    "startTimeRequired": "Please enter a start time",
+    "startTimeInvalid": "Please enter a valid start time",
+    "endTimeRequired": "Please enter an end time",
+    "endTimeInvalid": "Please enter a valid end time"
+  },
+  "disclaimer": {
+    "text": "This calculator provides accurate time duration calculations. Decimal hours are rounded to 2 decimal places for payroll purposes.",
+    "note": "When calculating work hours, remember to account for unpaid breaks and meal periods according to your local labor laws."
+  },
+  "seo": {
+    "whatIsTitle": "What is a Time Duration Calculator?",
+    "whatIsContent": "A time duration calculator computes the elapsed time between a start time and an end time. It's essential for tracking work hours, calculating payroll, monitoring project time, timing events, and managing schedules. The calculator handles both same-day time spans and overnight shifts that cross midnight.",
+    "howItWorksTitle": "How Does Time Duration Calculation Work?",
+    "howItWorksContent": "The calculator converts both start and end times into total minutes since midnight, then finds the difference. For overnight shifts that cross midnight, it adds 24 hours to properly account for the next day. Results are shown in hours, minutes, and decimal hours for payroll systems.",
+    "featuresTitle": "Features",
+    "feature1": "View time duration in both hours:minutes format and decimal hours for payroll",
+    "feature2": "Calculate overnight shifts that cross midnight with one click",
+    "feature3": "Decimal hours formatted for payroll systems (7.5 = 7h 30m)",
+    "feature4": "Results update instantly as you enter times",
+    "useCasesTitle": "Use Cases",
+    "useCase1": "Calculate employee work hours for payroll and timesheet verification",
+    "useCase2": "Track billable hours for freelancers and consultants",
+    "useCase3": "Determine shift lengths and verify labor law compliance",
+    "useCase4": "Calculate duration for meetings, events, and activities",
+    "tipsTitle": "Tips",
+    "tip1": "Enable 'Crosses Midnight' for overnight shifts (11 PM to 7 AM)",
+    "tip2": "7.5 decimal hours means 7h 30m (not 7h 18m like 7.30 might suggest)",
+    "tip3": "Subtract unpaid breaks from total time for accurate payroll",
+    "tip4": "Use 24-hour format (14:30) to avoid AM/PM confusion",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Question": "How do I calculate overnight shift hours?",
+    "faq1Answer": "For shifts that cross midnight (e.g., 11 PM to 7 AM), enable the 'Crosses Midnight' toggle. This tells the calculator that the end time is on the next day, correctly calculating 8 hours instead of showing a negative result.",
+    "faq2Question": "What's the difference between standard and decimal hours?",
+    "faq2Answer": "Standard hours use hours:minutes format (7:30 = 7 hours 30 minutes). Decimal hours express duration as a decimal (7.50). Note: 7.30 decimal is NOT 7:30 - it's 7 hours 18 minutes. Use decimal hours for payroll to avoid this mistake.",
+    "faq3Question": "How do I account for lunch breaks?",
+    "faq3Answer": "This calculator shows total time between start and end. Subtract break duration manually. Example: 9 AM to 5 PM (8 hours) with 30-minute lunch = 7.50 decimal hours of work time.",
+    "faq4Question": "Why are decimal hours important for payroll?",
+    "faq4Answer": "Payroll systems require decimal hours. Entering '7.30' for 7h 30m is wrong - it calculates as 7h 18m. The correct entry is 7.50. This calculator converts automatically to prevent this costly error.",
+    "faq5Question": "Can I calculate time across multiple days?",
+    "faq5Answer": "This calculator handles durations within 24 hours (same day or crossing one midnight). For multi-day spans, calculate each day separately or use a date-time calculator.",
+    "faq6Question": "How do I convert decimal hours to hours and minutes?",
+    "faq6Answer": "Multiply the decimal part by 60 to get minutes. Example: 7.75 hours = 7 hours + (0.75 × 60) = 7 hours 45 minutes. Common: 0.25=15min, 0.50=30min, 0.75=45min.",
+    "faq7Question": "What if start and end times are the same?",
+    "faq7Answer": "With identical times, duration is 0 hours unless 'Crosses Midnight' is enabled, which indicates a full 24-hour period.",
+    "faq8Question": "How accurate are decimal hour calculations?",
+    "faq8Answer": "Completely accurate. Decimal hours are rounded to 2 decimal places (precision to 0.6 minutes), the standard for payroll systems.",
+    "howToTitle": "How to Calculate Time Duration",
+    "howToStepName1": "Enter Start Time",
+    "howToStepName2": "Enter End Time",
+    "howToStepName3": "Set Midnight Option",
+    "howToStepName4": "View Duration",
+    "howToStepName5": "Use Decimal Hours",
+    "howToStep1": "Enter the start time in HH:MM format (e.g., 09:00)",
+    "howToStep2": "Enter the end time in the same format",
+    "howToStep3": "Enable 'Crosses Midnight' if the shift spans overnight",
+    "howToStep4": "View the duration in hours, minutes, and total minutes",
+    "howToStep5": "Use the decimal hours value for payroll entry"
+  }
+}

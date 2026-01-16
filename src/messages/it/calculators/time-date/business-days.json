@@ -1,0 +1,93 @@
+{
+  "title": "Calcolatore Giorni Lavorativi",
+  "description": "Calcola i giorni lavorativi tra date o aggiungi giorni lavorativi a una data. Escludi weekend e opzionalmente festività per pianificazione accurata cronologie progetti.",
+  "meta": {
+    "title": "Calcolatore Giorni Lavorativi - Giorni Lavorativi Tra [2026]",
+    "description": "Calcola giorni lavorativi tra due date. Aggiungi/sottrai giorni lavorativi. Escludi weekend e festività per pianificazione progetti e scadenze accurate.",
+    "keywords": "calcolatore giorni lavorativi, calcolatore giorni feriali, calcolatore workdays, giorni lavorativi tra date, aggiungere giorni lavorativi, escludere weekend, calcolatore cronologia progetto, calcolatore data consegna, calcolatore scadenze"
+  },
+  "modes": {
+    "between": "Giorni Tra Date",
+    "add": "Aggiungi Giorni Lavorativi"
+  },
+  "inputs": {
+    "startDate": "Data Inizio",
+    "endDate": "Data Fine",
+    "daysToAdd": "Giorni da Aggiungere",
+    "excludeWeekends": "Escludi Weekend",
+    "excludeHolidays": "Escludi Festività"
+  },
+  "actions": {
+    "calculate": "Calcola",
+    "reset": "Reimposta",
+    "swap": "Inverti Date"
+  },
+  "results": {
+    "title": "Risultato",
+    "businessDays": "Giorni Lavorativi",
+    "calendarDays": "Giorni Calendario Totali",
+    "weekendDays": "Giorni Weekend",
+    "weekdays": "Giorni Feriali",
+    "holidaysExcluded": "Festività Escluse",
+    "resultDate": "Data Risultante",
+    "breakdown": "Suddivisione"
+  },
+  "validation": {
+    "startDateRequired": "Seleziona una data di inizio",
+    "endDateRequired": "Seleziona una data di fine",
+    "daysToAddRequired": "Inserisci il numero di giorni"
+  },
+  "disclaimer": {
+    "text": "Questo calcolatore esclude i weekend (sabato e domenica) per impostazione predefinita. Le esclusioni festività sono opzionali e dovrebbero essere configurate in base al tuo calendario regionale o organizzativo specifico.",
+    "note": "I giorni lavorativi tipicamente si riferiscono da lunedì a venerdì. Le festività pubbliche variano per paese e regione. Per calcoli accurati che tengono conto delle festività, abilita l'esclusione festività e verifica con il tuo calendario festività locale."
+  },
+  "seo": {
+    "whatIsTitle": "Cos'è un Calcolatore di Giorni Lavorativi?",
+    "whatIsContent": "Un calcolatore di giorni lavorativi determina il numero di giorni feriali tra due date, escludendo weekend e opzionalmente festività pubbliche. È essenziale per pianificazione progetti, scadenze contrattuali, stime consegne, accordi livello servizio (SLA), periodi preavviso legale e qualsiasi situazione dove contano solo i giorni lavorativi. Il calcolatore può anche aggiungere o sottrarre giorni lavorativi da una data specifica per trovare date scadenza o lavorare a ritroso da una data target.",
+    "howItWorksTitle": "Come Funziona il Calcolo dei Giorni Lavorativi?",
+    "howItWorksContent": "Il calcolatore elabora ogni giorno tra le date di inizio e fine, classificandoli come giorni lavorativi (tipicamente lunedì-venerdì) o giorni non lavorativi (weekend: sabato-domenica). Quando l'esclusione weekend è abilitata, sabato e domenica non sono contati. Se l'esclusione festività è abilitata, le festività specificate sono anch'esse escluse dal conteggio. Nell'aggiungere o sottrarre giorni lavorativi, il calcolatore salta weekend e festività, atterrando sul prossimo giorno lavorativo disponibile.",
+    "featuresTitle": "Caratteristiche",
+    "feature1": "Escludi automaticamente sabati e domeniche dai calcoli, contando solo da lunedì a venerdì come giorni lavorativi.",
+    "feature2": "Opzionalmente escludi festività pubbliche e festività organizzative dai conteggi giorni lavorativi per pianificazione accurata.",
+    "feature3": "Calcola date future o passate aggiungendo o sottraendo un numero specifico di giorni lavorativi da qualsiasi data di partenza.",
+    "feature4": "Visualizza suddivisione completa mostrando giorni calendario totali, giorni lavorativi, giorni weekend e festività escluse.",
+    "useCasesTitle": "Casi d'Uso",
+    "useCase1": "Calcola cronologie progetti realistiche, date traguardo e programmi consegna tenendo conto dei giorni non lavorativi.",
+    "useCase2": "Monitora e verifica conformità SLA per servizio clienti, ticket supporto e impegni tempo risposta.",
+    "useCase3": "Calcola periodi preavviso, scadenze risposta, termini prescrizione e date obblighi contrattuali.",
+    "useCase4": "Stima date consegna per promesse spedizione '3-5 giorni lavorativi' e pianificazione logistica.",
+    "tipsTitle": "Suggerimenti",
+    "tip1": "I giorni lavorativi standard sono lunedì-venerdì, ma alcune industrie operano su programmi diversi. Aggiusta le definizioni weekend se la tua azienda opera in giorni non tradizionali.",
+    "tip2": "Le festività pubbliche variano drasticamente per paese e regione. Le festività federali USA differiscono dalle bank holiday UK e festività pubbliche europee. Configura di conseguenza.",
+    "tip3": "Nel calcolare tra date, verifica se la data di inizio e fine dovrebbero essere incluse nel conteggio. Questo calcolatore include sia data inizio che fine.",
+    "tip4": "Molte aziende hanno festività specifiche organizzative oltre alle festività pubbliche (es. chiusura aziendale tra Natale e Capodanno). Tienine conto nella pianificazione.",
+    "howToTitle": "Come Usare il Calcolatore Giorni Lavorativi",
+    "howToStepName1": "Seleziona Modalità Calcolo",
+    "howToStepName2": "Inserisci Date",
+    "howToStepName3": "Configura Esclusioni",
+    "howToStepName4": "Calcola Risultato",
+    "howToStepName5": "Rivedi Suddivisione",
+    "howToStep1": "Scegli se trovare giorni lavorativi tra due date o aggiungere/sottrarre giorni lavorativi da una data di partenza",
+    "howToStep2": "Seleziona le date richieste - date inizio e fine per modalità differenza, o data base e numero giorni per modalità aggiungi/sottrai",
+    "howToStep3": "Abilita 'Escludi Weekend' per saltare sabato e domenica, e opzionalmente 'Escludi Festività' per consapevolezza festività pubbliche",
+    "howToStep4": "Clicca 'Calcola' per elaborare il calcolo giorni lavorativi basato sulle tue impostazioni",
+    "howToStep5": "Visualizza la suddivisione dettagliata mostrando giorni lavorativi, giorni calendario totali, weekend esclusi e festività escluse",
+    "faqTitle": "Domande Frequenti",
+    "faq1Question": "Cosa conta come giorno lavorativo?",
+    "faq1Answer": "Un giorno lavorativo è tipicamente da lunedì a venerdì, escludendo weekend (sabato e domenica) e festività pubbliche. Tuttavia, la definizione può variare per industria e regione. Alcune aziende operano 6 o 7 giorni a settimana. Per questo calcolatore, i giorni lavorativi predefiniti sono lunedì-venerdì, con esclusioni festività opzionali che puoi personalizzare.",
+    "faq2Question": "Come tengo conto delle festività pubbliche?",
+    "faq2Answer": "Abilita l'opzione 'Escludi Festività' e il calcolatore salterà le festività pubbliche comuni nel contare i giorni lavorativi. Tuttavia, le festività variano significativamente per paese, stato e persino industria. Per calcoli precisi, potresti dover verificare manualmente il calendario festività per la tua regione specifica e aggiustare il conteggio di conseguenza.",
+    "faq3Question": "Se aggiungo 5 giorni lavorativi a venerdì, che data ottengo?",
+    "faq3Answer": "Partendo da venerdì e aggiungendo 5 giorni lavorativi: lunedì (1), martedì (2), mercoledì (3), giovedì (4), venerdì (5). Atterreresti sul venerdì della settimana successiva. Il calcolatore salta automaticamente i weekend quando aggiunge giorni lavorativi, assicurando che il risultato sia sempre un giorno lavorativo.",
+    "faq4Question": "Il calcolo include le date di inizio e fine?",
+    "faq4Answer": "Sì, nel calcolare i giorni lavorativi tra due date, sia la data di inizio che quella di fine sono incluse nel conteggio (assumendo che siano giorni lavorativi). Ad esempio, da lunedì a venerdì della stessa settimana equivale a 5 giorni lavorativi, includendo sia lunedì che venerdì.",
+    "faq5Question": "Perché i calcoli giorni lavorativi contano per le scadenze?",
+    "faq5Answer": "Molti contratti, documenti legali e accordi di servizio specificano scadenze in giorni lavorativi piuttosto che giorni di calendario. Una scadenza di 10 giorni lavorativi è in realtà 14 giorni di calendario se include due weekend. Usare calcoli giorni lavorativi assicura conformità con obblighi contrattuali e pianificazione realistica.",
+    "faq6Question": "Come definiscono i giorni lavorativi paesi diversi?",
+    "faq6Answer": "La maggior parte dei paesi usa lunedì-venerdì come giorni lavorativi standard. Tuttavia, alcuni paesi del Medio Oriente usano domenica-giovedì (con venerdì-sabato come weekend). Inoltre, il numero e il timing delle festività pubbliche variano ampiamente - gli USA hanno 11 festività federali, il Regno Unito ha 8 bank holiday e altri paesi differiscono significativamente.",
+    "faq7Question": "Posso usare questo per pianificazione progetti internazionali?",
+    "faq7Answer": "Sì, ma con cautela. Lavorando attraverso fusi orari e paesi, tieni presente che festività e definizioni giorni lavorativi possono differire. Ad esempio, una scadenza di '5 giorni lavorativi' potrebbe significare date di calendario diverse a seconda di dove si trovano le parti. Specifica fusi orari e calendari festività negli accordi internazionali.",
+    "faq8Question": "E se la mia azienda opera nei weekend?",
+    "faq8Answer": "Molte aziende (vendita al dettaglio, ospitalità, sanità) operano 7 giorni a settimana. In questi casi, potresti definire i giorni lavorativi diversamente. Puoi usare questo calcolatore con 'Escludi Weekend' disabilitato per contare tutti i giorni di calendario, o aggiustare manualmente in base al tuo specifico programma operativo. Alcune aziende operano martedì-sabato, escludendo domenica-lunedì."
+  }
+}

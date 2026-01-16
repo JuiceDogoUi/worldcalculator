@@ -1,0 +1,109 @@
+{
+  "title": "Bodenbelagsrechner",
+  "description": "Berechne, wie viel Bodenbelag du für jeden Raum brauchst. Erhalte Paketanzahlen, Materialkosten und Installationsschätzungen für Parkett, Laminat, Vinyl, Fliesen und Teppich.",
+  "meta": {
+    "title": "Kostenloser Bodenbelagsrechner - Quadratmeter, Pakete & Kosten [2026]",
+    "description": "Berechne Bodenbelag für Parkett, Laminat, Vinyl, Fliesen und Teppich. Quadratmeter, Pakete, Kosten mit Verschnitt und Installation.",
+    "keywords": "bodenbelagsrechner, wie viel bodenbelag brauche ich, bodenbelag kostenrechner, parkett rechner, laminat rechner, fliesen rechner, teppich rechner"
+  },
+  "inputs": {
+    "unitSystem": "Einheitensystem",
+    "roomLength": "Raumlänge",
+    "roomWidth": "Raumbreite",
+    "flooringType": "Bodenbelagsart",
+    "wastePercent": "Verschnittfaktor"
+  },
+  "flooringTypes": {
+    "hardwood": "Parkett",
+    "laminate": "Laminat",
+    "vinyl": "Vinyl / Designboden",
+    "tile": "Fliesen",
+    "carpet": "Teppich"
+  },
+  "units": {
+    "imperial": "Imperial (Fuß)",
+    "metric": "Metrisch (m)",
+    "ft": "Fuß",
+    "m": "m",
+    "sqft": "Fuß²",
+    "sqm": "m²",
+    "boxes": "Pakete"
+  },
+  "actions": {
+    "calculate": "Berechnen",
+    "reset": "Zurücksetzen"
+  },
+  "results": {
+    "title": "Bodenbelagsschätzung",
+    "floorArea": "Bodenfläche",
+    "wasteArea": "Verschnittmarge",
+    "totalArea": "Benötigte Gesamtfläche",
+    "boxesNeeded": "Benötigte Pakete",
+    "coveragePerBox": "Deckung pro Paket",
+    "materialCost": "Materialkosten",
+    "installationCost": "Installationskosten",
+    "costRange": "Bereich"
+  },
+  "validation": {
+    "roomLengthRequired": "Raumlänge ist erforderlich",
+    "roomWidthRequired": "Raumbreite ist erforderlich",
+    "flooringTypeRequired": "Bodenbelagsart ist erforderlich",
+    "wastePercentInvalid": "Verschnittfaktor muss zwischen 0 und 25% liegen"
+  },
+  "disclaimer": {
+    "text": "Dieser Rechner liefert Schätzungen für Planungszwecke. Der tatsächliche Bodenbelagsbedarf kann je nach Raumform, Hindernissen und Verlegemuster variieren. Wir empfehlen, 10% extra für Verschnitt hinzuzufügen.",
+    "note": "Preise variieren nach Region und Qualitätsstufe. Konsultiere einen Bodenbelagslieferanten für genaue Angebote. Einige Bodenbelagsarten erfordern möglicherweise professionelle Verlegung."
+  },
+  "seo": {
+    "whatIsTitle": "So Berechnest du Bodenbelag",
+    "whatIsContent": "Die Berechnung des Bodenbelagsbedarfs ist für jedes Renovierungsprojekt unerlässlich. Ob du Parkett, Laminat, Vinyl, Fliesen oder Teppich verlegst, zu wissen, wie viel Material du brauchst, verhindert kostspieliges Überkaufen oder frustrierende Engpässe mitten im Projekt. Bodenbelag wird typischerweise paketweise verkauft, wobei jedes Paket eine bestimmte Quadratmeterzahl abdeckt. Unser Rechner hilft dir, die benötigte Gesamtfläche zu ermitteln, einschließlich eines Verschnittfaktors für Schnitte und Fehler, und schätzt Material- und Installationskosten.",
+    "formulasTitle": "Formeln zur Bodenbelagsberechnung",
+    "formula1Name": "Bodenfläche",
+    "formula1": "Fläche = Länge × Breite",
+    "formula1Desc": "Grundformel für rechteckige Räume. Für L-förmige oder unregelmäßige Räume teile in Abschnitte und addiere die Flächen.",
+    "formula2Name": "Mit Verschnittfaktor",
+    "formula2": "Gesamt = Bodenfläche × (1 + Verschnitt %)",
+    "formula2Desc": "Füge immer 5-15% für Verschnitt durch Schnitte, Fehler und Musterabgleich hinzu. Komplexe Muster oder diagonale Verlegung können mehr erfordern.",
+    "formula3Name": "Benötigte Pakete",
+    "formula3": "Pakete = Gesamtfläche ÷ Deckung pro Paket",
+    "formula3Desc": "Runde auf das nächste volle Paket auf. Die Deckung pro Paket variiert je nach Produkt, typischerweise 2-2,5 m² für Dielen und 1-1,5 m² für Fliesen.",
+    "typesTitle": "Bodenbelagsarten",
+    "type1Name": "Parkett",
+    "type1Desc": "Massivholz- oder Fertigparkett-Dielen. Langlebig und wertsteigernd. Kostet 50-150€/m² für Material. Erfordert Akklimatisierung vor der Verlegung. Kann mehrfach aufgearbeitet werden.",
+    "type2Name": "Laminat",
+    "type2Desc": "Günstige Alternative zu Parkett mit Holzoptik. Kostet 10-50€/m². Klick-Verlegung ist heimwerkerfreundlich. Nicht für Nassbereiche ohne wasserdichten Kern geeignet.",
+    "type3Name": "Vinyl / Designboden",
+    "type3Desc": "Luxury Vinyl Tiles (LVT) sind wasserdicht und langlebig. Kostet 20-70€/m². Ideal für Küchen, Bäder und Keller. Einfache Klick-Verlegung.",
+    "type4Name": "Fliesen (Keramik/Feinsteinzeug)",
+    "type4Desc": "Sehr langlebig und wasserdicht. Kostet 10-200€/m² je nach Qualität. Professionelle Verlegung empfohlen. Ideal für Bäder, Küchen und Eingangsbereiche.",
+    "howToTitle": "So Verwendest du Diesen Rechner",
+    "howToStep1": "Miss Länge und Breite deines Raums in Fuß oder Metern",
+    "howToStep2": "Wähle deinen Bodenbelagstyp aus dem Dropdown-Menü",
+    "howToStep3": "Passe den Verschnittfaktor-Regler an (10% ist Standard für die meisten Verlegungen)",
+    "howToStep4": "Sieh die benötigte Gesamtfläche und die Anzahl der zu kaufenden Pakete",
+    "howToStep5": "Prüfe die Material- und Installationskostenschätzungen",
+    "tipsTitle": "Tipps für Bodenbelagsprojekte",
+    "tip1": "Kaufe immer 10-15% extra Bodenbelag für Schnitte, Fehler und zukünftige Reparaturen",
+    "tip2": "Akklimatisiere Parkett und Laminat 48-72 Stunden vor der Verlegung an die Raumfeuchte",
+    "tip3": "Beachte die Dielenrichtung - senkrecht zur längsten Wand sieht oft am besten aus",
+    "tip4": "Prüfe die Unterbodenvoraussetzungen - manche Beläge benötigen Trittschalldämmung oder Dampfsperren",
+    "tip5": "Bewahre Extrapakete aus demselben Lot für zukünftige Reparaturen auf - Farbchargen können variieren",
+    "faqTitle": "Häufig Gestellte Fragen",
+    "faq1Question": "Wie viel Bodenbelag brauche ich für einen 4x4 m Raum?",
+    "faq1Answer": "Ein 4x4 m Raum hat 16 Quadratmeter Bodenfläche. Mit einem 10% Verschnittfaktor brauchst du 17,6 m² Bodenbelag. Für Parkett oder Laminat (2 m² pro Paket) sind das 9 Pakete. Für Vinyl (2,5 m² pro Paket) etwa 7 Pakete. Runde immer auf.",
+    "faq2Question": "Welchen Verschnittfaktor soll ich verwenden?",
+    "faq2Answer": "Verwende 10% für Standard-Geradeausverlegung. Erhöhe auf 15% für diagonale Muster, Räume mit vielen Ecken oder komplexe Grundrisse. Heimwerker-Anfänger sollten 15% hinzufügen, um Lernkurve und Fehler zu berücksichtigen.",
+    "faq3Question": "Was kostet die Bodenbelagsverlegung?",
+    "faq3Answer": "Verlegekosten variieren nach Typ: Teppich 10-40€/m², Laminat 20-60€/m², Vinyl 20-50€/m², Parkett 40-120€/m², Fliesen 40-150€/m². Die Kosten hängen von Komplexität, Unterbodenvorb bereitung und regionalen Lohnkosten ab.",
+    "faq4Question": "Kann ich Bodenbelag selbst verlegen?",
+    "faq4Answer": "Klick-Laminat und -Vinyl sind heimwerkerfreundlich. Parkett erfordert mehr Geschick, und Fliesen brauchen professionelle Werkzeuge und Technik. Berücksichtige deine Erfahrung, die Raumgröße und ob Fehler teuer zu korrigieren sind.",
+    "faq5Question": "Wie viele Quadratmeter sind in einem Paket Bodenbelag?",
+    "faq5Answer": "Die Deckung variiert je nach Produkt: Parkett 1,5-2,5 m², Laminat 2-2,5 m², Vinyl/LVT 2-3 m², Fliesen 1-1,5 m². Prüfe immer das Paketetikett für die genaue Deckung, bevor du die benötigte Paketanzahl berechnest.",
+    "faq6Question": "Brauche ich eine Trittschalldämmung?",
+    "faq6Answer": "Die meisten schwimmend verlegten Böden (Laminat, Vinyl, Fertigparkett) benötigen Trittschalldämmung für Polsterung, Schallreduzierung und Feuchteschutz. Einige Produkte haben Dämmung integriert. Fliesen erfordern Zementplatten oder einen geeigneten Untergrund.",
+    "faq7Question": "Welcher Bodenbelag ist am besten für Küchen und Bäder?",
+    "faq7Answer": "Wasserdichte Optionen sind unerlässlich: Feinsteinzeug- oder Keramikfliesen, Luxury Vinyl Tiles (LVT), oder Fertigparkett mit wasserdichtem Kern. Vermeide Massivholz und Standard-Laminat in Nassbereichen.",
+    "faq8Question": "Wie lange dauert die Bodenbelagsverlegung?",
+    "faq8Answer": "Ein typischer Raum (15-20 m²) dauert 4-8 Stunden für Profis. Heimwerkerprojekte dauern länger. Parkett kann 48-72 Stunden Akklimatisierung vorher erfordern. Plane zusätzliche Zeit für Möbelumräumen, Unterbodenvorb und Übergänge ein."
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "title": "Arbeitstage-Rechner",
+  "description": "Berechnen Sie Arbeitstage zwischen Daten oder addieren Sie Arbeitstage zu einem Datum. Schließen Sie Wochenenden und optional Feiertage aus für genaue Projektzeitleistenplanung.",
+  "meta": {
+    "title": "Arbeitstage-Rechner - Werktage zwischen Daten [2026]",
+    "description": "Berechnen Sie Arbeitstage zwischen zwei Daten. Arbeitstage addieren/subtrahieren. Wochenenden und Feiertage ausschließen für genaue Projektplanung.",
+    "keywords": "Arbeitstage Rechner, Werktage Rechner, Arbeitstage zwischen Daten, Arbeitstage addieren, Wochenenden ausschließen, Projektzeitleiste Rechner, Lieferdatum Rechner, Frist Rechner"
+  },
+  "modes": {
+    "between": "Tage Zwischen Daten",
+    "add": "Arbeitstage Addieren"
+  },
+  "inputs": {
+    "startDate": "Startdatum",
+    "endDate": "Enddatum",
+    "daysToAdd": "Tage zu Addieren",
+    "excludeWeekends": "Wochenenden ausschließen",
+    "excludeHolidays": "Feiertage ausschließen"
+  },
+  "actions": {
+    "calculate": "Berechnen",
+    "reset": "Zurücksetzen",
+    "swap": "Daten tauschen"
+  },
+  "results": {
+    "title": "Ergebnis",
+    "businessDays": "Arbeitstage",
+    "calendarDays": "Gesamt Kalendertage",
+    "weekendDays": "Wochenendtage",
+    "weekdays": "Wochentage",
+    "holidaysExcluded": "Feiertage ausgeschlossen",
+    "resultDate": "Ergebnisdatum",
+    "breakdown": "Aufschlüsselung"
+  },
+  "validation": {
+    "startDateRequired": "Bitte wählen Sie ein Startdatum",
+    "endDateRequired": "Bitte wählen Sie ein Enddatum",
+    "daysToAddRequired": "Bitte geben Sie die Anzahl der Tage ein"
+  },
+  "disclaimer": {
+    "text": "Dieser Rechner schließt standardmäßig Wochenenden (Samstag und Sonntag) aus. Feiertagsausschlüsse sind optional und sollten basierend auf Ihrem spezifischen regionalen oder organisatorischen Kalender konfiguriert werden.",
+    "note": "Arbeitstage beziehen sich typischerweise auf Montag bis Freitag. Gesetzliche Feiertage variieren nach Land und Region. Für genaue feiertagsbewusste Berechnungen aktivieren Sie den Feiertagsausschluss und überprüfen Sie gegen Ihren lokalen Feiertagskalender."
+  },
+  "seo": {
+    "whatIsTitle": "Was ist ein Arbeitstage-Rechner?",
+    "whatIsContent": "Ein Arbeitstage-Rechner bestimmt die Anzahl der Werktage zwischen zwei Daten unter Ausschluss von Wochenenden und optional gesetzlichen Feiertagen. Er ist unverzichtbar für Projektplanung, Vertragsfristen, Lieferschätzungen, Service-Level-Vereinbarungen (SLAs), gesetzliche Kündigungsfristen und jede Situation, in der nur Arbeitstage zählen. Der Rechner kann auch Arbeitstage zu einem bestimmten Datum addieren oder subtrahieren, um Fristdaten zu finden oder von einem Zieldatum zurückzurechnen.",
+    "howItWorksTitle": "Wie funktioniert die Arbeitstage-Berechnung?",
+    "howItWorksContent": "Der Rechner verarbeitet jeden Tag zwischen Start- und Enddatum und klassifiziert sie als Arbeitstage (typischerweise Montag-Freitag) oder Nicht-Arbeitstage (Wochenenden: Samstag-Sonntag). Wenn der Wochenendausschluss aktiviert ist, werden Samstag und Sonntag nicht gezählt. Wenn der Feiertagsausschluss aktiviert ist, werden auch angegebene Feiertage von der Zählung ausgeschlossen. Beim Addieren oder Subtrahieren von Arbeitstagen überspringt der Rechner Wochenenden und Feiertage und landet auf dem nächsten verfügbaren Arbeitstag.",
+    "featuresTitle": "Features",
+    "feature1": "Schließen Sie automatisch Samstage und Sonntage von Berechnungen aus und zählen Sie nur Montag bis Freitag als Arbeitstage.",
+    "feature2": "Schließen Sie optional gesetzliche Feiertage und organisatorische Feiertage von Arbeitstags-Zählungen für genaue Planung aus.",
+    "feature3": "Berechnen Sie zukünftige oder vergangene Daten, indem Sie eine bestimmte Anzahl von Arbeitstagen von einem Startdatum addieren oder subtrahieren.",
+    "feature4": "Sehen Sie eine vollständige Aufschlüsselung mit Gesamt-Kalendertagen, Arbeitstagen, Wochenendtagen und ausgeschlossenen Feiertagen.",
+    "useCasesTitle": "Anwendungsfälle",
+    "useCase1": "Berechnen Sie realistische Projektzeitleisten, Meilensteindaten und Lieferpläne unter Berücksichtigung arbeitsfreier Tage.",
+    "useCase2": "Verfolgen und überprüfen Sie SLA-Konformität für Kundenservice, Support-Tickets und Reaktionszeit-Verpflichtungen.",
+    "useCase3": "Berechnen Sie Kündigungsfristen, Antwortfristen, Verjährungsfristen und Vertragsverpflichtungsdaten.",
+    "useCase4": "Schätzen Sie Lieferdaten für '3-5 Arbeitstage' Versandversprechen und Logistikplanung.",
+    "tipsTitle": "Tipps",
+    "tip1": "Standard-Arbeitstage sind Montag-Freitag, aber einige Branchen arbeiten nach unterschiedlichen Zeitplänen. Passen Sie Wochenenddefinitionen an, wenn Ihr Unternehmen an nicht-traditionellen Tagen arbeitet.",
+    "tip2": "Gesetzliche Feiertage variieren dramatisch nach Land und Region. US-Bundesfeiertage unterscheiden sich von britischen Bank Holidays und europäischen gesetzlichen Feiertagen. Konfigurieren Sie entsprechend.",
+    "tip3": "Bei der Berechnung zwischen Daten überprüfen Sie, ob Startdatum und Enddatum in die Zählung einbezogen werden sollen. Dieser Rechner bezieht sowohl Start- als auch Enddatum ein.",
+    "tip4": "Viele Unternehmen haben unternehmensspezifische Feiertage über gesetzliche Feiertage hinaus (z.B. Betriebsschließung zwischen Weihnachten und Neujahr). Berücksichtigen Sie diese in der Planung.",
+    "howToTitle": "So verwenden Sie den Arbeitstage-Rechner",
+    "howToStepName1": "Berechnungsmodus wählen",
+    "howToStepName2": "Datum/Daten eingeben",
+    "howToStepName3": "Ausschlüsse konfigurieren",
+    "howToStepName4": "Ergebnis berechnen",
+    "howToStepName5": "Aufschlüsselung überprüfen",
+    "howToStep1": "Wählen Sie, ob Sie Arbeitstage zwischen zwei Daten finden oder Arbeitstage von einem Startdatum addieren/subtrahieren möchten",
+    "howToStep2": "Wählen Sie die erforderlichen Daten - Start- und Enddatum für Differenzmodus oder Basisdatum und Anzahl der Tage für Addieren/Subtrahieren-Modus",
+    "howToStep3": "Aktivieren Sie 'Wochenenden ausschließen', um Samstag und Sonntag zu überspringen, und optional 'Feiertage ausschließen' für gesetzliche Feiertagsbewusstsein",
+    "howToStep4": "Klicken Sie auf 'Berechnen', um die Arbeitstage-Berechnung basierend auf Ihren Einstellungen zu verarbeiten",
+    "howToStep5": "Sehen Sie die detaillierte Aufschlüsselung mit Arbeitstagen, Gesamt-Kalendertagen, ausgeschlossenen Wochenenden und ausgeschlossenen Feiertagen",
+    "faqTitle": "Häufig gestellte Fragen",
+    "faq1Question": "Was zählt als Arbeitstag?",
+    "faq1Answer": "Ein Arbeitstag ist typischerweise Montag bis Freitag, unter Ausschluss von Wochenenden (Samstag und Sonntag) und gesetzlichen Feiertagen. Die Definition kann jedoch nach Branche und Region variieren. Einige Unternehmen arbeiten 6 oder 7 Tage pro Woche. Für diesen Rechner sind Arbeitstage standardmäßig Montag-Freitag mit optionalen Feiertagsausschlüssen, die Sie anpassen können.",
+    "faq2Question": "Wie berücksichtige ich gesetzliche Feiertage?",
+    "faq2Answer": "Aktivieren Sie die Option 'Feiertage ausschließen', und der Rechner überspringt gängige gesetzliche Feiertage beim Zählen von Arbeitstagen. Feiertage variieren jedoch erheblich nach Land, Bundesland und sogar Branche. Für präzise Berechnungen müssen Sie möglicherweise den Feiertagskalender für Ihre spezifische Region manuell überprüfen und die Zählung entsprechend anpassen.",
+    "faq3Question": "Wenn ich 5 Arbeitstage zu Freitag addiere, welches Datum erhalte ich?",
+    "faq3Answer": "Ausgehend von Freitag und Addieren von 5 Arbeitstagen: Montag (1), Dienstag (2), Mittwoch (3), Donnerstag (4), Freitag (5). Sie würden am Freitag der folgenden Woche landen. Der Rechner überspringt automatisch Wochenenden beim Addieren von Arbeitstagen und stellt sicher, dass das Ergebnis immer ein Arbeitstag ist.",
+    "faq4Question": "Beinhaltet die Berechnung das Start- und Enddatum?",
+    "faq4Answer": "Ja, bei der Berechnung von Arbeitstagen zwischen zwei Daten sind sowohl Startdatum als auch Enddatum in der Zählung enthalten (vorausgesetzt, sie sind Arbeitstage). Zum Beispiel entspricht Montag bis Freitag derselben Woche 5 Arbeitstagen, einschließlich sowohl Montag als auch Freitag.",
+    "faq5Question": "Warum sind Arbeitstage-Berechnungen für Fristen wichtig?",
+    "faq5Answer": "Viele Verträge, Rechtsdokumente und Servicevereinbarungen geben Fristen in Arbeitstagen statt Kalendertagen an. Eine 10-Arbeitstage-Frist sind tatsächlich 14 Kalendertage, wenn sie zwei Wochenenden einschließt. Die Verwendung von Arbeitstage-Berechnungen gewährleistet Einhaltung vertraglicher Verpflichtungen und realistische Planung.",
+    "faq6Question": "Wie definieren verschiedene Länder Arbeitstage?",
+    "faq6Answer": "Die meisten Länder verwenden Montag-Freitag als Standard-Arbeitstage. Einige Länder im Nahen Osten verwenden jedoch Sonntag-Donnerstag (mit Freitag-Samstag als Wochenende). Zusätzlich variieren die Anzahl und der Zeitpunkt gesetzlicher Feiertage erheblich - die USA haben 11 Bundesfeiertage, das Vereinigte Königreich hat 8 Bank Holidays, und andere Länder unterscheiden sich erheblich.",
+    "faq7Question": "Kann ich dies für internationale Projektplanung verwenden?",
+    "faq7Answer": "Ja, aber mit Vorsicht. Bei der Arbeit über Zeitzonen und Länder hinweg beachten Sie, dass Feiertage und Arbeitstags-Definitionen sich unterscheiden können. Zum Beispiel könnte eine Frist von '5 Arbeitstagen' unterschiedliche Kalenderdaten bedeuten, je nachdem, wo sich die Parteien befinden. Geben Sie Zeitzonen und Feiertagskalender in internationalen Vereinbarungen an.",
+    "faq8Question": "Was ist, wenn mein Unternehmen am Wochenende arbeitet?",
+    "faq8Answer": "Viele Unternehmen (Einzelhandel, Gastgewerbe, Gesundheitswesen) arbeiten 7 Tage pro Woche. In diesen Fällen könnten Sie Arbeitstage anders definieren. Sie können diesen Rechner mit deaktiviertem 'Wochenenden ausschließen' verwenden, um alle Kalendertage zu zählen, oder manuell basierend auf Ihrem spezifischen Betriebsplan anpassen. Einige Unternehmen arbeiten Dienstag-Samstag unter Ausschluss von Sonntag-Montag."
+  }
+}

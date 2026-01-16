@@ -1,0 +1,109 @@
+{
+  "title": "Calculadora de Pisos",
+  "description": "Calcula cuánto piso necesitas para cualquier habitación. Obtén conteos de cajas, costos de materiales e instalación para madera, laminado, vinilo, azulejo y alfombra.",
+  "meta": {
+    "title": "Calculadora de Pisos Gratis - Metros Cuadrados, Cajas y Costo [2026]",
+    "description": "Calcula el piso necesario. Estima metros cuadrados, cajas y costos para madera, laminado, vinilo, azulejo y alfombra. Incluye instalación.",
+    "keywords": "calculadora de pisos, cuánto piso necesito, calculadora costo piso, calculadora madera, calculadora laminado, calculadora azulejo, calculadora alfombra, estimador de pisos"
+  },
+  "inputs": {
+    "unitSystem": "Sistema de Unidades",
+    "roomLength": "Largo de la Habitación",
+    "roomWidth": "Ancho de la Habitación",
+    "flooringType": "Tipo de Piso",
+    "wastePercent": "Factor de Desperdicio"
+  },
+  "flooringTypes": {
+    "hardwood": "Madera",
+    "laminate": "Laminado",
+    "vinyl": "Vinilo / SPC",
+    "tile": "Azulejo",
+    "carpet": "Alfombra"
+  },
+  "units": {
+    "imperial": "Imperial (pies)",
+    "metric": "Métrico (m)",
+    "ft": "pies",
+    "m": "m",
+    "sqft": "pies²",
+    "sqm": "m²",
+    "boxes": "cajas"
+  },
+  "actions": {
+    "calculate": "Calcular",
+    "reset": "Restablecer"
+  },
+  "results": {
+    "title": "Estimación de Pisos",
+    "floorArea": "Área del Piso",
+    "wasteArea": "Margen de Desperdicio",
+    "totalArea": "Área Total Necesaria",
+    "boxesNeeded": "Cajas Necesarias",
+    "coveragePerBox": "Cobertura por Caja",
+    "materialCost": "Costo de Material",
+    "installationCost": "Costo de Instalación",
+    "costRange": "Rango"
+  },
+  "validation": {
+    "roomLengthRequired": "El largo de la habitación es obligatorio",
+    "roomWidthRequired": "El ancho de la habitación es obligatorio",
+    "flooringTypeRequired": "El tipo de piso es obligatorio",
+    "wastePercentInvalid": "El factor de desperdicio debe estar entre 0 y 25%"
+  },
+  "disclaimer": {
+    "text": "Esta calculadora proporciona estimaciones para fines de planificación. Los requisitos reales de piso pueden variar según la forma de la habitación, obstáculos y patrón de instalación. Recomendamos agregar 10% extra para desperdicio.",
+    "note": "Los precios varían por región y grado de calidad. Consulta con un proveedor de pisos para cotizaciones precisas. Algunos tipos de piso pueden requerir instalación profesional."
+  },
+  "seo": {
+    "whatIsTitle": "Cómo Calcular Pisos",
+    "whatIsContent": "Calcular los requisitos de piso es esencial para cualquier proyecto de renovación del hogar. Ya sea que estés instalando madera, laminado, vinilo, azulejo o alfombra, saber exactamente cuánto material necesitas evita compras excesivas costosas o frustrantes escaseces a mitad del proyecto. El piso típicamente se vende por caja, con cada caja cubriendo un metraje específico. Nuestra calculadora te ayuda a determinar el área total necesaria, incluyendo un factor de desperdicio para cortes y errores, y estima tanto los costos de material como de instalación.",
+    "formulasTitle": "Fórmulas de Cálculo de Pisos",
+    "formula1Name": "Área del Piso",
+    "formula1": "Área = Largo × Ancho",
+    "formula1Desc": "Fórmula básica para habitaciones rectangulares. Para habitaciones en L o irregulares, divide en secciones y suma las áreas.",
+    "formula2Name": "Con Factor de Desperdicio",
+    "formula2": "Total = Área del Piso × (1 + % Desperdicio)",
+    "formula2Desc": "Siempre agrega 5-15% para desperdicio por cortes, errores y coincidencia de patrones. Patrones complejos o instalación diagonal pueden requerir más.",
+    "formula3Name": "Cajas Necesarias",
+    "formula3": "Cajas = Área Total ÷ Cobertura por Caja",
+    "formula3Desc": "Redondea hacia arriba a la caja completa más cercana. La cobertura por caja varía según el producto, típicamente 2-2.5 m² para tablones y 1-1.5 m² para azulejos.",
+    "typesTitle": "Tipos de Pisos",
+    "type1Name": "Madera",
+    "type1Desc": "Tablones de madera sólida o de ingeniería. Duradero y aumenta el valor del hogar. Cuesta $50-150/m² para materiales. Requiere aclimatación antes de la instalación. Se puede restaurar múltiples veces.",
+    "type2Name": "Laminado",
+    "type2Desc": "Alternativa económica a la madera con acabado similar. Cuesta $10-50/m². La instalación de clic es amigable para el bricolaje. No es adecuado para áreas húmedas sin núcleo impermeable.",
+    "type3Name": "Vinilo / SPC",
+    "type3Desc": "El piso de vinilo de lujo (SPC) es impermeable y duradero. Cuesta $20-70/m². Excelente para cocinas, baños y sótanos. Fácil instalación de clic.",
+    "type4Name": "Azulejo (Cerámica/Porcelanato)",
+    "type4Desc": "Muy duradero e impermeable. Cuesta $10-200/m² según la calidad. Se recomienda instalación profesional. Ideal para baños, cocinas y entradas.",
+    "howToTitle": "Cómo Usar Esta Calculadora",
+    "howToStep1": "Mide el largo y ancho de tu habitación en pies o metros",
+    "howToStep2": "Selecciona tu tipo de piso del menú desplegable",
+    "howToStep3": "Ajusta el control deslizante del factor de desperdicio (10% es estándar para la mayoría de las instalaciones)",
+    "howToStep4": "Ve el área total necesaria y el número de cajas a comprar",
+    "howToStep5": "Revisa las estimaciones de costo de material e instalación",
+    "tipsTitle": "Consejos para Proyectos de Pisos",
+    "tip1": "Siempre compra 10-15% extra de piso para cubrir cortes, errores y reparaciones futuras",
+    "tip2": "Aclimata la madera y el laminado a la humedad de tu hogar durante 48-72 horas antes de la instalación",
+    "tip3": "Considera la dirección de los tablones - perpendicular a la pared más larga generalmente se ve mejor",
+    "tip4": "Verifica los requisitos del subpiso - algunos pisos necesitan base o barreras de humedad",
+    "tip5": "Guarda cajas extra del mismo lote para reparaciones futuras - los lotes de tinte pueden variar",
+    "faqTitle": "Preguntas Frecuentes",
+    "faq1Question": "¿Cuánto piso necesito para una habitación de 4x4 m?",
+    "faq1Answer": "Una habitación de 4x4 m tiene 16 metros cuadrados de área de piso. Con un 10% de factor de desperdicio, necesitarás 17.6 m² de piso. Para madera o laminado (2 m² por caja), son 9 cajas. Para vinilo (2.5 m² por caja), unas 7 cajas. Siempre redondea hacia arriba.",
+    "faq2Question": "¿Qué factor de desperdicio debo usar?",
+    "faq2Answer": "Usa 10% para instalaciones rectas estándar. Aumenta a 15% para patrones diagonales, habitaciones con muchas esquinas o diseños complejos. Los principiantes en bricolaje deben agregar 15% para considerar la curva de aprendizaje y errores.",
+    "faq3Question": "¿Cuánto cuesta instalar pisos?",
+    "faq3Answer": "Los costos de instalación varían por tipo: Alfombra $10-40/m², Laminado $20-60/m², Vinilo $20-50/m², Madera $40-120/m², Azulejo $40-150/m². Los costos dependen de la complejidad, preparación del subpiso y tarifas de mano de obra regionales.",
+    "faq4Question": "¿Puedo instalar pisos yo mismo?",
+    "faq4Answer": "El laminado y vinilo de clic son amigables para el bricolaje. La madera requiere más habilidad, y el azulejo necesita herramientas y técnica profesionales. Considera tu experiencia, el tamaño de la habitación y si los errores serán costosos de corregir.",
+    "faq5Question": "¿Cuántos metros cuadrados hay en una caja de piso?",
+    "faq5Answer": "La cobertura varía según el producto: Madera 1.5-2.5 m², Laminado 2-2.5 m², Vinilo/SPC 2-3 m², Azulejo 1-1.5 m². Siempre verifica la etiqueta de la caja para la cobertura exacta antes de calcular cuántas cajas necesitas.",
+    "faq6Question": "¿Necesito base?",
+    "faq6Answer": "La mayoría de los pisos flotantes (laminado, vinilo, madera de ingeniería) necesitan base para amortiguación, reducción de sonido y protección contra la humedad. Algunos productos tienen base adjunta. El azulejo requiere tablero de cemento o un sustrato aprobado.",
+    "faq7Question": "¿Qué piso es mejor para cocinas y baños?",
+    "faq7Answer": "Las opciones impermeables son esenciales: Azulejo de porcelanato o cerámica, Piso de vinilo de lujo (SPC), o madera de ingeniería con núcleo impermeable. Evita la madera sólida y el laminado estándar en áreas húmedas.",
+    "faq8Question": "¿Cuánto tiempo toma la instalación de pisos?",
+    "faq8Answer": "Una habitación típica (15-20 m²) toma 4-8 horas para profesionales. Los proyectos de bricolaje toman más tiempo. La madera puede necesitar 48-72 horas para aclimatación previa. Permite tiempo extra para mover muebles, preparación del subpiso y transiciones."
+  }
+}
