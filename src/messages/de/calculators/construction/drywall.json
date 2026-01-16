@@ -23,15 +23,15 @@
     "4x12": "4' × 12' (48 sq ft)"
   },
   "units": {
-    "imperial": "Imperial (ft)",
+    "imperial": "Imperial (Fuß)",
     "metric": "Metrisch (m)",
-    "ft": "ft",
+    "ft": "Fuß",
     "m": "m",
-    "sqft": "sq ft",
+    "sqft": "Fuß²",
     "sqm": "m²",
     "sheets": "Platten",
-    "gallons": "Liter",
-    "feet": "ft"
+    "gallons": "gal",
+    "feet": "Fuß"
   },
   "actions": {
     "calculate": "Berechnen",

@@ -68,10 +68,10 @@
   },
   "units": {
     "cm": "cm",
-    "ft": "pes",
+    "ft": "pés",
     "in": "pol",
     "kg": "kg",
-    "lbs": "lbs",
+    "lbs": "lb",
     "years": "anos",
     "kcal": "kcal",
     "g": "g"

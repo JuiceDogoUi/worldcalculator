@@ -54,10 +54,10 @@
   },
   "units": {
     "cm": "cm",
-    "ft": "ft",
-    "in": "in",
+    "ft": "piedi",
+    "in": "poll",
     "kg": "kg",
-    "lbs": "lbs"
+    "lbs": "lb"
   },
   "validation": {
     "genderRequired": "Per favore seleziona il tuo sesso",

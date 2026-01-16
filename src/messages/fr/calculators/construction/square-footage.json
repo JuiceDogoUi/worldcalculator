@@ -29,13 +29,13 @@
     "trapezoid": "Trapèze"
   },
   "units": {
-    "imperial": "Impérial (pieds)",
+    "imperial": "Impérial (pi)",
     "metric": "Métrique (m)",
     "ft": "pi",
     "m": "m",
     "sqft": "pi²",
     "sqm": "m²",
-    "sqyd": "vg²",
+    "sqyd": "yd²",
     "acres": "acres",
     "gallons": "gal",
     "liters": "L"

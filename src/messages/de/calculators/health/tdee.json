@@ -82,10 +82,10 @@
   },
   "units": {
     "cm": "cm",
-    "ft": "ft",
-    "in": "in",
+    "ft": "Fuß",
+    "in": "Zoll",
     "kg": "kg",
-    "lbs": "lbs",
+    "lbs": "lb",
     "years": "Jahre",
     "percent": "%",
     "kcal": "kcal",

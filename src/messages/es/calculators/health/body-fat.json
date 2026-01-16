@@ -61,9 +61,9 @@
   },
   "units": {
     "cm": "cm",
-    "in": "in",
+    "in": "pulg",
     "kg": "kg",
-    "lbs": "lbs",
+    "lbs": "lb",
     "years": "años"
   },
   "validation": {

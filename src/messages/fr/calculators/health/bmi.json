@@ -51,7 +51,7 @@
     "ft": "pi",
     "in": "po",
     "kg": "kg",
-    "lbs": "lbs"
+    "lbs": "lb"
   },
   "validation": {
     "heightRequired": "La taille est obligatoire",

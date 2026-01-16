@@ -16,11 +16,11 @@
     "cm": { "name": "Centímetro", "abbr": "cm" },
     "m": { "name": "Metro", "abbr": "m" },
     "km": { "name": "Kilómetro", "abbr": "km" },
-    "in": { "name": "Pulgada", "abbr": "in" },
-    "ft": { "name": "Pie", "abbr": "ft" },
+    "in": { "name": "Pulgada", "abbr": "pulg" },
+    "ft": { "name": "Pie", "abbr": "pies" },
     "yd": { "name": "Yarda", "abbr": "yd" },
     "mi": { "name": "Milla", "abbr": "mi" },
-    "nmi": { "name": "Milla Náutica", "abbr": "nmi" }
+    "nmi": { "name": "Milla Náutica", "abbr": "mn" }
   },
   "unitSystems": {
     "metric": "Métrico",

@@ -33,9 +33,9 @@
     "metric": "Metrisch (m)",
     "ft": "Fuß",
     "m": "m",
-    "sqft": "sq ft",
+    "sqft": "Fuß²",
     "sqm": "m²",
-    "sqyd": "sq yd",
+    "sqyd": "yd²",
     "acres": "Acres",
     "gallons": "gal",
     "liters": "L"

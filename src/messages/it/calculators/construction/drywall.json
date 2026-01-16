@@ -23,15 +23,15 @@
     "4x12": "4' × 12' (48 sq ft)"
   },
   "units": {
-    "imperial": "Imperiale (ft)",
+    "imperial": "Imperiale (piedi)",
     "metric": "Metrico (m)",
-    "ft": "ft",
+    "ft": "piedi",
     "m": "m",
-    "sqft": "sq ft",
+    "sqft": "piedi²",
     "sqm": "m²",
     "sheets": "lastre",
     "gallons": "gal",
-    "feet": "ft"
+    "feet": "piedi"
   },
   "actions": {
     "calculate": "Calcola",

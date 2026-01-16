@@ -48,10 +48,10 @@
   },
   "units": {
     "cm": "cm",
-    "ft": "pes",
+    "ft": "pés",
     "in": "pol",
     "kg": "kg",
-    "lbs": "lbs"
+    "lbs": "lb"
   },
   "validation": {
     "heightRequired": "A altura é obrigatória",

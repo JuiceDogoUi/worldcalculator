@@ -16,11 +16,11 @@
     "cm": { "name": "Zentimeter", "abbr": "cm" },
     "m": { "name": "Meter", "abbr": "m" },
     "km": { "name": "Kilometer", "abbr": "km" },
-    "in": { "name": "Zoll", "abbr": "in" },
-    "ft": { "name": "Fuß", "abbr": "ft" },
+    "in": { "name": "Zoll", "abbr": "Zoll" },
+    "ft": { "name": "Fuß", "abbr": "Fuß" },
     "yd": { "name": "Yard", "abbr": "yd" },
     "mi": { "name": "Meile", "abbr": "mi" },
-    "nmi": { "name": "Seemeile", "abbr": "nmi" }
+    "nmi": { "name": "Seemeile", "abbr": "sm" }
   },
   "unitSystems": {
     "metric": "Metrisch",
