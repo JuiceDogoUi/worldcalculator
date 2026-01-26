@@ -61,7 +61,7 @@ export default async function PrivacyPage({
             <p><strong>{t('dataController.company')}</strong></p>
             <p>{t('dataController.address1')}</p>
             <p>{t('dataController.address2')}</p>
-            <p><a href="mailto:legal@invoo.es" className="text-primary hover:underline">{t('dataController.email')}</a></p>
+            <p><a href="mailto:contact@worldcalculator.org" className="text-primary hover:underline">{t('dataController.email')}</a></p>
           </div>
         </section>
 
@@ -278,7 +278,7 @@ export default async function PrivacyPage({
             <p><strong>{t('privacyContact.officer')}</strong></p>
             <p>{t('privacyContact.company')}</p>
             <p>{t('privacyContact.address')}</p>
-            <p><a href="mailto:legal@invoo.es" className="text-primary hover:underline">{t('privacyContact.email')}</a></p>
+            <p><a href="mailto:contact@worldcalculator.org" className="text-primary hover:underline">{t('privacyContact.email')}</a></p>
           </div>
         </section>
 

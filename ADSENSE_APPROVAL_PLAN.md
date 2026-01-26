@@ -264,7 +264,7 @@ All Phase 1 critical fixes have been implemented:
 - Detailed team background (without full names if privacy concern)
 - Educational credentials or relevant experience
 - Development methodology (how calculators are validated)
-- Company registration information (Roques OÜ in Estonia)
+- Company registration information
 - History/timeline of the project
 
 **Why this matters:** Google's E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) framework values knowing who's behind a site.
@@ -308,7 +308,7 @@ All Phase 2 content quality improvements have been implemented:
 **New About Page Sections:**
 - **Our Approach** (4-step process): Research & Standards → Development & Testing → Expert Review → Continuous Improvement
 - **Our Team**: Background on development team expertise (international team of developers, mathematicians, financial professionals)
-- **Our Company**: Roques OÜ information (Estonian company, global mission, user-centric development)
+- **Our Company**: World Calculator information (independent platform, global mission, user-centric development)
 
 **Category Guide Content Added:**
 - Finance: Investment analysis, loan evaluation, retirement planning guidance

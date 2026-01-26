@@ -38,7 +38,7 @@ export default async function ContactPage({
 
   const t = await getTranslations({ locale, namespace: 'contact' })
 
-  const email = 'minted.78spots@icloud.com'
+  const email = 'contact@worldcalculator.org'
   const subject = encodeURIComponent('World Calculator - Contact')
 
   return (

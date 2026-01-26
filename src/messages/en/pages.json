@@ -62,11 +62,11 @@
     },
     "company": {
       "title": "Company Information",
-      "content": "World Calculator is operated by Roques OÜ, a technology company registered in Estonia (EU). As an EU-registered entity, we adhere to strict data protection standards under GDPR and maintain transparent business practices. Our operations are based in Tallinn, Estonia, where we combine European regulatory compliance with a commitment to innovation and user privacy. We're proud to be part of Estonia's thriving digital ecosystem, known for its advanced e-governance and technology infrastructure.",
-      "name": "Roques OÜ",
-      "location": "Tallinn, Estonia",
-      "registration": "EU-registered company",
-      "email": "legal@invoo.es"
+      "content": "World Calculator is an independent online platform committed to providing free, accurate calculator tools to users worldwide. We adhere to strict data protection standards under GDPR and maintain transparent business practices. Our commitment to innovation and user privacy drives everything we do.",
+      "name": "World Calculator",
+      "location": "Online Platform",
+      "registration": "Independent platform",
+      "email": "contact@worldcalculator.org"
     },
     "future": {
       "title": "What's Next: AI-Powered Calculations",
@@ -122,10 +122,10 @@
     "dataController": {
       "title": "2. Data Controller",
       "intro": "The data controller responsible for your personal data is:",
-      "company": "Roques OÜ",
-      "address1": "Ahtri tn 12",
-      "address2": "15551 Tallinn, Estonia",
-      "email": "Email: legal@invoo.es"
+      "company": "World Calculator",
+      "address1": "",
+      "address2": "",
+      "email": "Email: contact@worldcalculator.org"
     },
     "calculatorPrivacy": {
       "title": "3. Calculator Data Privacy",
@@ -246,7 +246,7 @@
       "portability": "Right to Data Portability: Receive your data in a structured, machine-readable format",
       "object": "Right to Object: Object to processing based on legitimate interests",
       "withdraw": "Right to Withdraw Consent: Withdraw your consent for cookie-based processing at any time",
-      "exercise": "To exercise any of these rights, please contact us at legal@invoo.es. We will respond within one month.",
+      "exercise": "To exercise any of these rights, please contact us at contact@worldcalculator.org. We will respond within one month.",
       "complaint": "If you are not satisfied with our response, you have the right to lodge a complaint with your local data protection authority."
     },
     "transfers": {
@@ -278,9 +278,9 @@
       "title": "15. Contact Us",
       "intro": "If you have any questions, concerns, or requests regarding this privacy policy or our data practices, please contact us:",
       "officer": "Data Protection Officer",
-      "company": "Roques OÜ",
-      "address": "Ahtri tn 12, 15551 Tallinn, Estonia",
-      "email": "Email: legal@invoo.es"
+      "company": "World Calculator",
+      "address": "",
+      "email": "Email: contact@worldcalculator.org"
     },
     "termsTitle": "Terms of Service",
     "acceptance": {
@@ -327,7 +327,7 @@
     },
     "termsContact": {
       "title": "9. Contact Information",
-      "content": "If you have any questions about these Terms of Service, please contact us at legal@invoo.es."
+      "content": "If you have any questions about these Terms of Service, please contact us at contact@worldcalculator.org."
     }
   }
 }

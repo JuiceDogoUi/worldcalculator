@@ -62,11 +62,11 @@
     },
     "company": {
       "title": "Informações da Empresa",
-      "content": "A World Calculator é operada pela Roques OÜ, uma empresa tecnológica registada na Estónia (UE). Como entidade registada na UE, aderimos a rigorosos padrões de proteção de dados ao abrigo do RGPD e mantemos práticas comerciais transparentes. As nossas operações estão sediadas em Tallinn, Estónia, onde combinamos conformidade regulatória europeia com um compromisso com a inovação e privacidade do utilizador. Temos orgulho em fazer parte do próspero ecossistema digital da Estónia, conhecido pela sua infraestrutura tecnológica e de governo eletrónico avançada.",
-      "name": "Roques OÜ",
-      "location": "Tallinn, Estónia",
-      "registration": "Empresa registada na UE",
-      "email": "legal@invoo.es"
+      "content": "A World Calculator é uma plataforma online independente comprometida em fornecer ferramentas de calculadora gratuitas e precisas a utilizadores de todo o mundo. Aderimos a rigorosos padrões de proteção de dados ao abrigo do RGPD e mantemos práticas comerciais transparentes. O nosso compromisso com a inovação e privacidade do utilizador orienta tudo o que fazemos.",
+      "name": "World Calculator",
+      "location": "Plataforma online",
+      "registration": "Plataforma independente",
+      "email": "contact@worldcalculator.org"
     },
     "future": {
       "title": "O Que Vem a Seguir: Cálculos com IA",
@@ -122,10 +122,10 @@
     "dataController": {
       "title": "2. Responsável pelo Tratamento de Dados",
       "intro": "O responsável pelo tratamento dos seus dados pessoais é:",
-      "company": "Roques OÜ",
-      "address1": "Ahtri tn 12",
-      "address2": "15551 Tallinn, Estónia",
-      "email": "E-mail: legal@invoo.es"
+      "company": "World Calculator",
+      "address1": "",
+      "address2": "",
+      "email": "E-mail: contact@worldcalculator.org"
     },
     "calculatorPrivacy": {
       "title": "3. Privacidade de Dados das Calculadoras",
@@ -246,7 +246,7 @@
       "portability": "Direito à Portabilidade de Dados: Receber os seus dados num formato estruturado e legível por máquina",
       "object": "Direito de Oposição: Opor-se ao processamento baseado em interesses legítimos",
       "withdraw": "Direito de Retirar o Consentimento: Retirar o seu consentimento para o processamento baseado em cookies a qualquer momento",
-      "exercise": "Para exercer qualquer um destes direitos, contacte-nos em legal@invoo.es. Responderemos no prazo de um mês.",
+      "exercise": "Para exercer qualquer um destes direitos, contacte-nos em contact@worldcalculator.org. Responderemos no prazo de um mês.",
       "complaint": "Se não estiver satisfeito com a nossa resposta, tem o direito de apresentar uma reclamação junto da sua autoridade local de proteção de dados."
     },
     "transfers": {
@@ -278,9 +278,9 @@
       "title": "15. Contacte-nos",
       "intro": "Se tiver alguma pergunta, preocupação ou pedido relativamente a esta política de privacidade ou às nossas práticas de dados, contacte-nos:",
       "officer": "Encarregado de Proteção de Dados",
-      "company": "Roques OÜ",
-      "address": "Ahtri tn 12, 15551 Tallinn, Estónia",
-      "email": "E-mail: legal@invoo.es"
+      "company": "World Calculator",
+      "address": "",
+      "email": "E-mail: contact@worldcalculator.org"
     },
     "termsTitle": "Termos de Serviço",
     "acceptance": {
@@ -327,7 +327,7 @@
     },
     "termsContact": {
       "title": "9. Informação de Contacto",
-      "content": "Se tiver alguma pergunta sobre estes Termos de Serviço, contacte-nos em legal@invoo.es."
+      "content": "Se tiver alguma pergunta sobre estes Termos de Serviço, contacte-nos em contact@worldcalculator.org."
     }
   }
 }
