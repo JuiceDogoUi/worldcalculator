@@ -48,6 +48,7 @@ export default function RootLayout({
     <html suppressHydrationWarning>
       <head>
         <meta name="monetag" content="6ea163b32dfd182681742ce5c59a73d2" />
+        <script src="https://quge5.com/88/tag.min.js" data-zone="205637" async data-cfasync="false"></script>
         {/* Set AdSense personalization based on cookie consent - must run before AdSense loads */}
         <script
           dangerouslySetInnerHTML={{
