@@ -47,6 +47,7 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning>
       <head>
+        <meta name="monetag" content="6ea163b32dfd182681742ce5c59a73d2" />
         {/* Set AdSense personalization based on cookie consent - must run before AdSense loads */}
         <script
           dangerouslySetInnerHTML={{
